@@ -77,12 +77,11 @@ def extract_thumbnail(entry):
     return None
 
 def analyze_with_groq(orig_title, orig_summary):
-    """呼叫 Groq API (鎖定 qwen/qwen3.8-27b) 產出結構化繁體中文三點式情報摘要"""
+    """呼叫 Groq API (qwen/qwen3.8-27b) 產出結構化繁體中文情報摘要"""
     if not GROQ_API_KEY:
         print("未偵測到 GROQ_API_KEY！請檢查 GitHub Secrets。")
         return None
 
-    # 明確指定帳號內可用的 Qwen 模型
     model_name = "qwen/qwen3.8-27b"
     url = "https://api.groq.com/openai/v1/chat/completions"
     headers = {
@@ -112,7 +111,8 @@ def analyze_with_groq(orig_title, orig_summary):
             {"role": "user", "content": user_content}
         ],
         "response_format": {"type": "json_object"},
-        "temperature": 0.2
+        "temperature": 0.2,
+        "max_tokens": 500
     }
 
     try:
@@ -123,7 +123,6 @@ def analyze_with_groq(orig_title, orig_summary):
             data = resp.json()
             raw_text = data["choices"][0]["message"]["content"].strip()
             
-            # 防呆去除 markdown 標籤
             if raw_text.startswith("```"):
                 raw_text = re.sub(r"^```[a-zA-Z]*\n?", "", raw_text)
                 raw_text = re.sub(r"\n?```$", "", raw_text)
@@ -248,7 +247,7 @@ def main():
 if __name__ == "__main__":
     # 單筆強制測試
     test_entry = {
-        "id": "test-force-groq-qwen-01",
+        "id": "test-force-groq-qwen-02",
         "title": "China Coast Guard and PLA Navy Conduct Joint Blockade Drills Near Taiwan Strait",
         "link": "[https://www.defense.gov](https://www.defense.gov)",
         "summary": "Chinese military vessels and coast guard cutters conducted joint encirclement drills around Taiwan, deploying water cannons and simulated missile strikes across the median line to test gray-zone escalation."
