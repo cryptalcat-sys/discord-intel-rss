@@ -47,7 +47,22 @@ FEEDS = [
 ]
 
 INCLUDE_PATTERN = re.compile(
-    r"(?i)\b(military|defense|pentagon|pla|missile|navy|air force|drills|sanctions|geopolitics|ukraine|russia|taiwan|carrier|drone|war|strait)\b"
+    r"(?i)\b("
+    # 1. 執法單位、武裝載具與民兵力量
+    r"coast guard|ccg|pcg|cga|maritime militia|militia vessel|water cannon|ramming|"
+    # 2. 灰色地帶侵擾與非對稱戰術
+    r"gr[ae]y[- ]zone|adiz|air defense identification zone|median line|incursion|"
+    r"standoff|blockade|joint patrol|encirclement|swarming|harassment|"
+    # 3. 南海高衝突島礁（含國際標準地名與拼音）
+    r"second thomas|sabina shoal|scarborough|spratly|paracel|mischief reef|"
+    r"fiery cross|subi reef|ren'?ai|xianbin|huangyan|"
+    # 4. 關鍵海域、戰略海峽與第一島鏈
+    r"taiwan strait|south china sea|east china sea|bashi channel|luzon strait|"
+    r"first island chain|senkaku|diaoyu|"
+    # 5. 常規軍事、裝備與地緣大國（保留基礎防務底層）
+    r"pla|plan|plaf|military|defense|pentagon|missile|navy|air force|drills|"
+    r"carrier|drone|taiwan|ukraine|russia"
+    r")\b"
 )
 EXCLUDE_PATTERN = re.compile(
     r"(?i)(sponsored|advertisement|webinar|deals|review:|podcast|lifestyle)"
