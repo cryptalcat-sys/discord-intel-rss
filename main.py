@@ -90,24 +90,72 @@ FEEDS = [
 # 2. 關鍵字過濾規範
 MILITARY_INCLUDE = re.compile(
     r"(?i)\b("
-    r"coast guard|ccg|pcg|cga|maritime militia|water cannon|ramming|"
-    r"gr[ae]y[- ]zone|adiz|median line|incursion|standoff|blockade|"
-    r"second thomas|sabina shoal|scarborough|taiwan strait|south china sea|"
-    r"first island chain|pla|plan|plaf|missile|carrier|drone|taiwan|ukraine"
+    # --- 1. 海警執法、海上民兵與灰色地帶侵擾行動 ---
+    r"coast guard|ccg|pcg|cga|maritime militia|militia vessel|water cannon|ramming|"
+    r"gr[ae]y[- ]zone|adiz|air defense identification zone|median line|incursion|"
+    r"standoff|blockade|joint patrol|encirclement|swarming|harassment|"
+    r"combat readiness patrol|encircle|airspace violation|"
+
+    # --- 2. 核心地理節點、戰略水道與爭端島礁 ---
+    r"taiwan strait|south china sea|east china sea|first island chain|"
+    r"bashi channel|miyako strait|luzon strait|tsushima strait|"
+    r"second thomas|sabina shoal|scarborough|spratly|paracel|mischief reef|"
+    r"fiery cross|subi reef|ren'?ai|xianbin|huangyan|senkaku|diaoyu|"
+    r"kinmen|matsu|pratas|taiping island|"
+
+    # --- 3. 水下作戰、艦艇與海上武力 ---
+    r"navy|naval|plan|fleet|destroyer|frigate|corvette|cutter|"
+    r"carrier|aircraft carrier|amphibious|landing ship|"
+    r"submarine|\bssn\b|\bssbn\b|anti[- ]submarine|\basw\b|torpedo|sonar|"
+
+    # --- 4. 空權、防空反導與打擊火力 ---
+    r"air force|plaf|fighter jet|bomber|stealth aircraft|"
+    r"f[- ]35|f[- ]16|j[- ]20|j[- ]35|b[- ]21|h[- ]6k|"
+    r"missile|ballistic missile|cruise missile|hypersonic|"
+    r"air defense|patriot missile|nasams|thaad|aegis|himars|harpoon|"
+    r"rocket force|plarf|strategic rocket|"
+
+    # --- 5. 無人系統、電戰與非對稱作戰 ---
+    r"drone|\buav\b|\busv\b|\buuv\b|unmanned|loitering munition|"
+    r"counter[- ]drone|\bc[- ]uas\b|electronic warfare|radar jamming|"
+
+    # --- 6. 部隊編制、重要演訓與防務機構 ---
+    r"eastern theater command|southern theater command|indo[- ]pacific command|\bpentagon\b|"
+    r"joint sword|han kuang|balikatan|rimpac|live[- ]fire|drills|war game|"
+    r"taiwan|ukraine|russia"
     r")\b"
 )
 
 POLITICS_INCLUDE = re.compile(
     r"(?i)\b("
+    # --- 1. 台海戰略、法案與涉台防務合作 ---
+    r"taiwan relations act|taiwan policy act|taipei act|taiwan assurance act|"
+    r"six assurances|ndaa|national defense authorization act|"
+    r"foreign military financing|\bfmf\b|presidential drawdown authority|\bpda\b|"
+    r"arms sale|cross[- ]strait|status quo|one china policy|"
+    
+    # --- 2. 美中科技戰、地緣半導體與供應鏈安全 ---
+    r"chips act|semiconductor|advanced chip|ai chip|export control|entity list|"
+    r"lithography|extreme ultraviolet|\beuv\b|advanced packaging|"
+    r"tsmc|asml|smic|outbound investment|technology transfer|"
+    r"decoupling|de[- ]risking|friend[- ]shoring|supply chain resilience|"
+    r"clean network|telecom ban|"
+    
+    # --- 3. 外交峰會、國際組織與安全同盟 ---
     r"sanction|embargo|summit|bilateral|diplomat|treaty|sovereignty|"
-    r"election|parliament|congress|white house|beijing|kremlin|"
+    r"election|parliament|congress|white house|state department|"
+    r"beijing|kremlin|politburo|national security council|"
     r"g7|brics|nato|un security council|quad|aukus|asean|"
-    r"trade war|tariff|semiconductor|taiwan relations act|geopolit"
+    
+    # --- 4. 貿易戰與地緣經濟脅迫 ---
+    r"trade war|tariff|economic coercion|weaponized interdependence|"
+    r"geopolit"
     r")\b"
 )
 
 EXCLUDE_PATTERN = re.compile(
-    r"(?i)(sponsored|advertisement|webinar|deals|review:|podcast|lifestyle|entertainment|sports)"
+    r"(?i)\b(sponsored|advertisement|webinar|deals|review:|podcast|lifestyle|"
+    r"entertainment|sports|box office|smartphone|gaming laptop|geforce|rtx)\b"
 )
 
 def clean_html(html_text):
