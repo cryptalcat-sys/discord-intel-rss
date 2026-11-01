@@ -7,12 +7,11 @@ import feedparser
 from bs4 import BeautifulSoup
 
 WEBHOOK_URL = os.environ.get("DISCORD_WEBHOOK_URL")
-# 自動相容 GROQ_API_KEY 或直接覆蓋在 GEMINI_API_KEY 的狀況
 GROQ_API_KEY = os.environ.get("GROQ_API_KEY") or os.environ.get("GEMINI_API_KEY")
 HISTORY_FILE = "history.json"
 MAX_POSTS_PER_RUN = 3
 
-# 1. 訂閱來源清單
+# 1. 訂閱來源清單（含北美軍武、印太地緣與中國解放軍動態）
 FEEDS = [
     {
         "name": "The War Zone",
@@ -78,7 +77,7 @@ def extract_thumbnail(entry):
     return None
 
 def analyze_with_groq(orig_title, orig_summary):
-    """呼叫 Groq API (Llama 3.3 70B) 產出結構化繁體中文三點式情報摘要"""
+    """呼叫 Groq API (llama-3.1-8b-instant) 產出結構化繁體中文三點式情報摘要"""
     if not GROQ_API_KEY:
         print("未偵測到 GROQ_API_KEY！請檢查 GitHub Secrets。")
         return None
@@ -90,7 +89,7 @@ def analyze_with_groq(orig_title, orig_summary):
     }
 
     system_prompt = """你是一名專精印太地緣政治與防務軍事的情報分析官。
-請分析防務情報，嚴格以繁體中文輸出符合以下結構的 JSON 物件：
+請分析防務情報，嚴格以繁體中文輸出符合以下結構的 JSON 物件（不要包含任何 markdown 標記或額外字元）：
 {
   "title_zh": "精準且符合軍事術語的繁體中文標題",
   "region": "標註衝突或事件所屬海域/戰略空域（如：台海海峽中線、南海仁愛暗沙、巴士海峽、東海釣魚台、烏克蘭前線、紅海、印太地區等）",
@@ -105,7 +104,7 @@ def analyze_with_groq(orig_title, orig_summary):
     user_content = f"新聞標題：{orig_title}\n新聞內容：{orig_summary[:1500]}"
 
     payload = {
-        "model": "llama-3.3-70b-versatile",
+        "model": "llama-3.1-8b-instant",
         "messages": [
             {"role": "system", "content": system_prompt},
             {"role": "user", "content": user_content}
@@ -115,7 +114,7 @@ def analyze_with_groq(orig_title, orig_summary):
     }
 
     try:
-        print("正在呼叫 Groq Llama-3.3 進行情報分析...")
+        print("正在呼叫 Groq (llama-3.1-8b-instant) 進行情報分析...")
         resp = requests.post(url, headers=headers, json=payload, timeout=20)
         
         if resp.status_code == 200:
@@ -229,7 +228,7 @@ def main():
                     print(f"已發送 AI 情報簡報: {title}")
                     new_ids.append(entry_id)
                     sent_count += 1
-                    time.sleep(1)  # Groq 速度快，等待 1 秒即可
+                    time.sleep(1)
             else:
                 break
 
@@ -239,20 +238,8 @@ def main():
         print(f"更新完畢，本次共記錄 {len(new_ids)} 筆項目。")
 
 if __name__ == "__main__":
-    # 保留單筆測試代碼，方便直接在 Actions 執行驗證 Groq 回傳
+    # --- 單筆測試區塊（確認 Discord 卡片渲染）---
     test_entry = {
-        "id": "test-force-groq-001",
+        "id": "test-force-groq-002",
         "title": "China Coast Guard and PLA Navy Conduct Joint Blockade Drills Near Taiwan Strait",
-        "link": "https://www.defense.gov",
-        "summary": "Chinese military vessels and coast guard cutters conducted joint encirclement drills around Taiwan, deploying water cannons and simulated missile strikes across the median line to test gray-zone escalation.",
-    }
-    test_feed = {
-        "name": "測試情報源 (Groq Test)",
-        "color": 0xFF0000
-    }
-    print("=== 開始強制測試發送 (Groq) ===")
-    send_to_discord(test_entry, test_feed)
-    print("=== 強制測試結束 ===")
-    
-    # 測試成功後，請將上方 4 行註解掉，並解除下方 main() 的註解：
-    # main()
+        "link": "
