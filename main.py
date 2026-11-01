@@ -11,7 +11,7 @@ GROQ_API_KEY = os.environ.get("GROQ_API_KEY") or os.environ.get("GEMINI_API_KEY"
 HISTORY_FILE = "history.json"
 MAX_POSTS_PER_RUN = 3
 
-# 1. 訂閱來源清單（含北美軍武、印太地緣與中國解放軍動態）
+# 1. 訂閱來源清單
 FEEDS = [
     {
         "name": "The War Zone",
@@ -76,11 +76,43 @@ def extract_thumbnail(entry):
                 return enc.get("href")
     return None
 
+def get_best_groq_model():
+    """動態向 Groq 查詢該帳號實際擁有的模型清單並自動挑選"""
+    if not GROQ_API_KEY:
+        return None
+    try:
+        resp = requests.get(
+            "https://api.groq.com/openai/v1/models",
+            headers={"Authorization": f"Bearer {GROQ_API_KEY}"},
+            timeout=10
+        )
+        if resp.status_code == 200:
+            models = [m["id"] for m in resp.json().get("data", [])]
+            print(f"✅ Groq 帳號可用模型清單: {models}")
+            
+            # 優先挑選適合文字生成的語言模型（避開語音轉文字的 whisper）
+            candidate_keywords = ["llama", "gemma", "mixtral", "qwen"]
+            for kw in candidate_keywords:
+                for m_id in models:
+                    if kw in m_id.lower() and "whisper" not in m_id.lower():
+                        return m_id
+            if models:
+                return models[0]
+        else:
+            print(f"無法取得模型列表: {resp.status_code} - {resp.text}")
+    except Exception as e:
+        print(f"查詢 Groq 模型列表失敗: {e}")
+    return "llama3-8b-8192"
+
 def analyze_with_groq(orig_title, orig_summary):
-    """呼叫 Groq API (llama-3.1-8b-instant) 產出結構化繁體中文三點式情報摘要"""
+    """呼叫 Groq API 自動產出結構化繁體中文三點式情報摘要"""
     if not GROQ_API_KEY:
         print("未偵測到 GROQ_API_KEY！請檢查 GitHub Secrets。")
         return None
+
+    # 自動匹配當前帳號可用的模型代號
+    chosen_model = get_best_groq_model()
+    print(f"⚡ 自動選用 Groq 模型: [{chosen_model}]")
 
     url = "https://api.groq.com/openai/v1/chat/completions"
     headers = {
@@ -89,7 +121,7 @@ def analyze_with_groq(orig_title, orig_summary):
     }
 
     system_prompt = """你是一名專精印太地緣政治與防務軍事的情報分析官。
-請分析防務情報，嚴格以繁體中文輸出符合以下結構的 JSON 物件（不要包含任何 markdown 標記或額外字元）：
+請分析防務情報，嚴格以繁體中文輸出符合以下結構的 JSON 物件（不要包含任何 markdown 標籤或額外字元）：
 {
   "title_zh": "精準且符合軍事術語的繁體中文標題",
   "region": "標註衝突或事件所屬海域/戰略空域（如：台海海峽中線、南海仁愛暗沙、巴士海峽、東海釣魚台、烏克蘭前線、紅海、印太地區等）",
@@ -104,7 +136,7 @@ def analyze_with_groq(orig_title, orig_summary):
     user_content = f"新聞標題：{orig_title}\n新聞內容：{orig_summary[:1500]}"
 
     payload = {
-        "model": "llama-3.1-8b-instant",
+        "model": chosen_model,
         "messages": [
             {"role": "system", "content": system_prompt},
             {"role": "user", "content": user_content}
@@ -114,9 +146,7 @@ def analyze_with_groq(orig_title, orig_summary):
     }
 
     try:
-        print("正在呼叫 Groq (llama-3.1-8b-instant) 進行情報分析...")
         resp = requests.post(url, headers=headers, json=payload, timeout=20)
-        
         if resp.status_code == 200:
             data = resp.json()
             raw_text = data["choices"][0]["message"]["content"].strip()
@@ -238,7 +268,7 @@ def main():
         print(f"更新完畢，本次共記錄 {len(new_ids)} 筆項目。")
 
 if __name__ == "__main__":
-    # 單筆測試區塊（確認字串都在同一行內閉合引號）
+    # 單筆測試區塊
     test_entry = {
         "id": "test-force-groq-002",
         "title": "China Coast Guard and PLA Navy Conduct Joint Blockade Drills Near Taiwan Strait",
