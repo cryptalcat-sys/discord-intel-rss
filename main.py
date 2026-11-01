@@ -74,12 +74,11 @@ def clean_html(html_text):
     return " ".join(BeautifulSoup(html_text, "html.parser").get_text().split())
 
 def analyze_with_gemini(orig_title, orig_summary):
-    """呼叫 Gemini 進行防務情報 3 點式摘要，並標註海域與涉事方"""
+    """呼叫 Gemini 進行防務情報 3 點式摘要，並標註海域與涉事方（含自動重試）"""
     if not GEMINI_API_KEY:
         print("未偵測到 GEMINI_API_KEY！請檢查 GitHub Secrets。")
         return None
 
-    # 端點使用 gemini-3.8-flash
     url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-3.8-flash:generateContent?key={GEMINI_API_KEY}"
     
     prompt = f"""
@@ -99,7 +98,6 @@ def analyze_with_gemini(orig_title, orig_summary):
 新聞標題：{orig_title}
 新聞內容：{orig_summary[:1500]}
 """
-    # 注意：REST API 必須使用 camelCase 的 responseMimeType
     payload = {
         "contents": [{"parts": [{"text": prompt}]}],
         "generationConfig": {
@@ -108,23 +106,32 @@ def analyze_with_gemini(orig_title, orig_summary):
         }
     }
 
-    try:
-        resp = requests.post(url, json=payload, timeout=25)
-        if resp.status_code == 200:
-            data = resp.json()
-            raw_text = data["candidates"][0]["content"]["parts"][0]["text"].strip()
+    # 最多嘗試 2 次，超時上限拉長至 60 秒
+    for attempt in range(2):
+        try:
+            print(f"正在呼叫 Gemini 生成情報分析（第 {attempt + 1} 次嘗試）...")
+            resp = requests.post(url, json=payload, timeout=60)
             
-            # 去除可能包含的 ```json 標籤，防止 JSON 解析中斷
-            if raw_text.startswith("```"):
-                raw_text = re.sub(r"^```[a-zA-Z]*\n?", "", raw_text)
-                raw_text = re.sub(r"\n?```$", "", raw_text)
+            if resp.status_code == 200:
+                data = resp.json()
+                raw_text = data["candidates"][0]["content"]["parts"][0]["text"].strip()
                 
-            return json.loads(raw_text.strip())
-        else:
-            print(f"Gemini API 回傳錯誤: {resp.status_code} - {resp.text}")
-    except Exception as e:
-        print(f"Gemini 分析異常: {e}")
-        
+                # 去除可能包含的 markdown json 標籤
+                if raw_text.startswith("```"):
+                    raw_text = re.sub(r"^```[a-zA-Z]*\n?", "", raw_text)
+                    raw_text = re.sub(r"\n?```$", "", raw_text)
+                    
+                return json.loads(raw_text.strip())
+            else:
+                print(f"Gemini API 回傳錯誤: {resp.status_code} - {resp.text}")
+                break
+        except requests.exceptions.Timeout:
+            print(f"第 {attempt + 1} 次呼叫逾時，正在重試...")
+            time.sleep(2)
+        except Exception as e:
+            print(f"Gemini 分析異常: {e}")
+            break
+            
     return None
 
 def extract_thumbnail(entry):
