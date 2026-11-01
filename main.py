@@ -16,7 +16,7 @@ MAX_POSTS_PER_RUN = 2  # 每次每個來源最多抓 2 篇，避免單次呼叫�
 
 # 1. 訂閱來源清單
 FEEDS = [
-    # --- 戰略與軍聞 ---
+    # ==================== 🛡️ 戰略與軍聞頻道 ====================
     {
         "name": "The War Zone",
         "url": "https://www.twz.com/feed",
@@ -35,18 +35,49 @@ FEEDS = [
         "channel": "military",
         "color": 0x2D6A4F
     },
-    # --- 政局觀測所 ---
+
+    # ==================== 🏛️ 政局觀測所（權威外交與國際智庫） ====================
+    {
+        "name": "Foreign Affairs (外交事務)",
+        "url": "https://www.foreignaffairs.com/rss.xml",
+        "channel": "politics",
+        "color": 0x1A237E
+    },
+    {
+        "name": "CSIS 戰略與國際研究中心",
+        "url": "https://www.csis.org/rss.xml",
+        "channel": "politics",
+        "color": 0x002B49
+    },
+    {
+        "name": "Jamestown China Brief (中共戰略簡報)",
+        "url": "https://jamestown.org/feed/",
+        "channel": "politics",
+        "color": 0xB71C1C
+    },
+    {
+        "name": "War on the Rocks (戰略評估)",
+        "url": "https://warontherocks.com/feed/",
+        "channel": "politics",
+        "color": 0x37474F
+    },
+    {
+        "name": "Lowy Interpreter (洛伊印太觀測)",
+        "url": "https://www.lowyinstitute.org/the-interpreter/rss.xml",
+        "channel": "politics",
+        "color": 0xFF6F00
+    },
+    {
+        "name": "East Asia Forum (東亞論壇)",
+        "url": "https://eastasiaforum.org/feed/",
+        "channel": "politics",
+        "color": 0x00695C
+    },
     {
         "name": "The Diplomat (外交政局)",
         "url": "https://thediplomat.com/category/diplomacy/feed/",
         "channel": "politics",
         "color": 0x8E24AA
-    },
-    {
-        "name": "SCMP (中國外交與大國博弈)",
-        "url": "https://www.scmp.com/rss/91/feed",
-        "channel": "politics",
-        "color": 0xD84315
     },
     {
         "name": "BBC News (國際外交)",
