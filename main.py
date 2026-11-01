@@ -12,6 +12,7 @@ HISTORY_FILE = "history.json"
 MAX_POSTS_PER_RUN = 3
 
 FEEDS = [
+    # --- 北美即時軍武 ---
     {
         "name": "The War Zone",
         "url": "https://www.twz.com/feed",
@@ -22,10 +23,26 @@ FEEDS = [
         "url": "https://news.usni.org/feed",
         "color": 0x003366
     },
+    # --- 亞太 / 第一島鏈防務 ---
     {
-        "name": "Defense News",
-        "url": "https://www.defensenews.com/arc/outboundfeeds/rss/?outputType=xml",
-        "color": 0x2D6A4F
+        "name": "The Diplomat (亞太防務)",
+        "url": "https://thediplomat.com/category/asia-defense/feed/",
+        "color": 0xB71C1C  # 磚紅
+    },
+    {
+        "name": "SCMP (中國與軍事)",
+        "url": "https://www.scmp.com/rss/4/feed",
+        "color": 0xF57F17  # 琥珀橙
+    },
+    {
+        "name": "Lowy (澳洲洛伊智庫)",
+        "url": "https://www.lowyinstitute.org/the-interpreter/rss.xml",
+        "color": 0x4A148C  # 深紫
+    },
+    {
+        "name": "Focus Taiwan (台灣國防要聞)",
+        "url": "https://focustaiwan.tw/rss/politics.aspx",
+        "color": 0x00695C  # 墨綠
     }
 ]
 
