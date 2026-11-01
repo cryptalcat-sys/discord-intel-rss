@@ -74,17 +74,13 @@ def clean_html(html_text):
     return " ".join(BeautifulSoup(html_text, "html.parser").get_text().split())
 
 def analyze_with_gemini(orig_title, orig_summary):
-    """呼叫 Gemini 進行防務情報 3 點式摘要（支援多模型自動備援切換與 503 重試）"""
+    """呼叫 Gemini 3.8 Flash 進行防務情報 3 點式摘要（強化 503 尖峰重試）"""
     if not GEMINI_API_KEY:
         print("未偵測到 GEMINI_API_KEY！請檢查 GitHub Secrets。")
         return None
 
-    # 模型備援清單：優先使用 3.8-flash，若遇塞車 (503) 或忙碌自動降級切換
-    CANDIDATE_MODELS = [
-        "gemini-3.8-flash",
-        "gemini-1.5-flash",
-        "gemini-2.0-flash"
-    ]
+    model_name = "gemini-3.8-flash"
+    url = f"https://generativelanguage.googleapis.com/v1beta/models/{model_name}:generateContent?key={GEMINI_API_KEY}"
     
     prompt = f"""
 你是一名專精印太地緣政治與防務軍事的情報分析官。請分析以下情報內容，嚴格以繁體中文輸出指定結構的 JSON（不要輸出任何 markdown 標記或額外說明）：
@@ -111,52 +107,39 @@ def analyze_with_gemini(orig_title, orig_summary):
         }
     }
 
-    for model_name in CANDIDATE_MODELS:
-        url = f"https://generativelanguage.googleapis.com/v1beta/models/{model_name}:generateContent?key={GEMINI_API_KEY}"
-        
-        for attempt in range(2):
-            try:
-                print(f"嘗試使用 [{model_name}] 進行情報分析 (第 {attempt + 1} 次)...")
-                resp = requests.post(url, json=payload, timeout=35)
+    # 針對 503 尖峰提供最多 3 次重試機會
+    max_retries = 3
+    for attempt in range(1, max_retries + 1):
+        try:
+            print(f"嘗試使用 [{model_name}] 進行情報分析 (第 {attempt} 次)...")
+            resp = requests.post(url, json=payload, timeout=45)
+            
+            if resp.status_code == 200:
+                data = resp.json()
+                raw_text = data["candidates"][0]["content"]["parts"][0]["text"].strip()
                 
-                if resp.status_code == 200:
-                    data = resp.json()
-                    raw_text = data["candidates"][0]["content"]["parts"][0]["text"].strip()
+                if raw_text.startswith("```"):
+                    raw_text = re.sub(r"^```[a-zA-Z]*\n?", "", raw_text)
+                    raw_text = re.sub(r"\n?```$", "", raw_text)
                     
-                    if raw_text.startswith("```"):
-                        raw_text = re.sub(r"^```[a-zA-Z]*\n?", "", raw_text)
-                        raw_text = re.sub(r"\n?```$", "", raw_text)
-                        
-                    return json.loads(raw_text.strip())
-                
-                # 遇到伺服器塞車 (503) 或頻率限制 (429) 時等待重試
-                elif resp.status_code in [503, 429]:
-                    print(f"[{model_name}] 伺服器忙碌 ({resp.status_code})，等待 3 秒後重試...")
-                    time.sleep(3)
-                    continue
-                else:
-                    print(f"[{model_name}] 呼叫失敗 ({resp.status_code})，準備切換下一個備用模型...")
-                    break
-                    
-            except requests.exceptions.Timeout:
-                print(f"[{model_name}] 第 {attempt + 1} 次連線逾時...")
-                time.sleep(2)
-            except Exception as e:
-                print(f"[{model_name}] 發生未知異常: {e}")
+                return json.loads(raw_text.strip())
+            
+            elif resp.status_code in [503, 429]:
+                wait_time = attempt * 5  # 依序等待 5秒、10秒
+                print(f"Google 伺服器尖峰忙碌 ({resp.status_code})，等待 {wait_time} 秒後重試...")
+                time.sleep(wait_time)
+            else:
+                print(f"Gemini API 回傳錯誤: {resp.status_code} - {resp.text}")
                 break
+                
+        except requests.exceptions.Timeout:
+            print(f"第 {attempt} 次連線逾時，重試中...")
+            time.sleep(3)
+        except Exception as e:
+            print(f"發生未知異常: {e}")
+            break
 
-    print("所有備援模型皆無法完成分析，退回降級處理。")
-    return None
-
-def extract_thumbnail(entry):
-    if "media_content" in entry and entry.media_content:
-        return entry.media_content[0].get("url")
-    if "media_thumbnail" in entry and entry.media_thumbnail:
-        return entry.media_thumbnail[0].get("url")
-    if "enclosures" in entry and entry.enclosures:
-        for enc in entry.enclosures:
-            if enc.get("type", "").startswith("image"):
-                return enc.get("href")
+    print("Gemini 重試次數耗盡，退回降級處理。")
     return None
 
 def send_to_discord(entry, feed_info):
