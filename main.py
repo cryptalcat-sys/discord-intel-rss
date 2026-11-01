@@ -78,7 +78,7 @@ def analyze_with_gemini(orig_title, orig_summary):
     if not GEMINI_API_KEY:
         return None
 
-    url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={GEMINI_API_KEY}"
+    url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-3.8-flash:generateContent?key={GEMINI_API_KEY}"
     prompt = f"""
 你是一名專精印太地緣政治與防務軍事的情報分析官。請分析以下情報內容，嚴格以繁體中文輸出指定結構的 JSON（不要輸出任何 markdown 標記或額外說明）：
 
