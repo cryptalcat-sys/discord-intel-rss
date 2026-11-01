@@ -11,8 +11,8 @@ GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
 HISTORY_FILE = "history.json"
 MAX_POSTS_PER_RUN = 3
 
+# 1. 訂閱來源清單
 FEEDS = [
-    # --- 北美即時軍武 ---
     {
         "name": "The War Zone",
         "url": "https://www.twz.com/feed",
@@ -23,47 +23,38 @@ FEEDS = [
         "url": "https://news.usni.org/feed",
         "color": 0x003366
     },
-    # --- 亞太 / 第一島鏈防務 ---
     {
         "name": "The Diplomat (亞太防務)",
         "url": "https://thediplomat.com/category/asia-defense/feed/",
-        "color": 0xB71C1C  # 磚紅
+        "color": 0xB71C1C
     },
     {
         "name": "SCMP (中國與軍事)",
         "url": "https://www.scmp.com/rss/4/feed",
-        "color": 0xF57F17  # 琥珀橙
+        "color": 0xF57F17
     },
     {
-        "name": "Lowy (澳洲洛伊智庫)",
-        "url": "https://www.lowyinstitute.org/the-interpreter/rss.xml",
-        "color": 0x4A148C  # 深紫
-    },
-    {
-        "name": "Focus Taiwan (台灣國防要聞)",
-        "url": "https://focustaiwan.tw/rss/politics.aspx",
-        "color": 0x00695C  # 墨綠
+        "name": "Defense News",
+        "url": "https://www.defensenews.com/arc/outboundfeeds/rss/?outputType=xml",
+        "color": 0x2D6A4F
     }
 ]
 
+# 2. 灰色地帶、海警與防務關鍵字過濾
 INCLUDE_PATTERN = re.compile(
     r"(?i)\b("
-    # 1. 執法單位、武裝載具與民兵力量
     r"coast guard|ccg|pcg|cga|maritime militia|militia vessel|water cannon|ramming|"
-    # 2. 灰色地帶侵擾與非對稱戰術
     r"gr[ae]y[- ]zone|adiz|air defense identification zone|median line|incursion|"
     r"standoff|blockade|joint patrol|encirclement|swarming|harassment|"
-    # 3. 南海高衝突島礁（含國際標準地名與拼音）
     r"second thomas|sabina shoal|scarborough|spratly|paracel|mischief reef|"
     r"fiery cross|subi reef|ren'?ai|xianbin|huangyan|"
-    # 4. 關鍵海域、戰略海峽與第一島鏈
     r"taiwan strait|south china sea|east china sea|bashi channel|luzon strait|"
     r"first island chain|senkaku|diaoyu|"
-    # 5. 常規軍事、裝備與地緣大國（保留基礎防務底層）
     r"pla|plan|plaf|military|defense|pentagon|missile|navy|air force|drills|"
     r"carrier|drone|taiwan|ukraine|russia"
     r")\b"
 )
+
 EXCLUDE_PATTERN = re.compile(
     r"(?i)(sponsored|advertisement|webinar|deals|review:|podcast|lifestyle)"
 )
@@ -73,8 +64,20 @@ def clean_html(html_text):
         return ""
     return " ".join(BeautifulSoup(html_text, "html.parser").get_text().split())
 
+def extract_thumbnail(entry):
+    """提取文章縮圖（補回缺失的函式）"""
+    if "media_content" in entry and entry.media_content:
+        return entry.media_content[0].get("url")
+    if "media_thumbnail" in entry and entry.media_thumbnail:
+        return entry.media_thumbnail[0].get("url")
+    if "enclosures" in entry and entry.enclosures:
+        for enc in entry.enclosures:
+            if enc.get("type", "").startswith("image"):
+                return enc.get("href")
+    return None
+
 def analyze_with_gemini(orig_title, orig_summary):
-    """呼叫 Gemini 3.8 Flash 進行防務情報 3 點式摘要（強化 503 尖峰重試）"""
+    """呼叫 Gemini 3.8 Flash 進行防務情報 3 點式摘要（含重試）"""
     if not GEMINI_API_KEY:
         print("未偵測到 GEMINI_API_KEY！請檢查 GitHub Secrets。")
         return None
@@ -107,7 +110,6 @@ def analyze_with_gemini(orig_title, orig_summary):
         }
     }
 
-    # 針對 503 尖峰提供最多 3 次重試機會
     max_retries = 3
     for attempt in range(1, max_retries + 1):
         try:
@@ -125,7 +127,7 @@ def analyze_with_gemini(orig_title, orig_summary):
                 return json.loads(raw_text.strip())
             
             elif resp.status_code in [503, 429]:
-                wait_time = attempt * 5  # 依序等待 5秒、10秒
+                wait_time = attempt * 5
                 print(f"Google 伺服器尖峰忙碌 ({resp.status_code})，等待 {wait_time} 秒後重試...")
                 time.sleep(wait_time)
             else:
@@ -148,7 +150,6 @@ def send_to_discord(entry, feed_info):
     orig_summary = clean_html(entry.get("summary", entry.get("description", "")))
     thumb_url = extract_thumbnail(entry)
 
-    # 執行情報分析
     intel_data = analyze_with_gemini(orig_title, orig_summary)
 
     fields = []
@@ -157,7 +158,6 @@ def send_to_discord(entry, feed_info):
         points_text = "\n".join([f"🔹 {p}" for p in intel_data["points"]])
         description = f"{points_text}\n\n*原標題：{orig_title}*"
         
-        # 加入海域與涉事方標籤欄位
         region = intel_data.get("region", "全球 / 未特定海域")
         actors = intel_data.get("actors", "未特定實體")
         fields = [
@@ -165,7 +165,6 @@ def send_to_discord(entry, feed_info):
             {"name": "⚔️ 涉事實體", "value": f"`{actors}`", "inline": True}
         ]
     else:
-        # 降級處理
         title = orig_title
         description = orig_summary[:250] + "..."
 
@@ -245,7 +244,7 @@ def main():
                     print(f"已發送 AI 情報簡報: {title}")
                     new_ids.append(entry_id)
                     sent_count += 1
-                    time.sleep(3)  # 間隔 3 秒，避免觸發 LLM API 與 Discord 速率限制
+                    time.sleep(3)
             else:
                 break
 
@@ -255,11 +254,11 @@ def main():
         print(f"更新完畢，本次共記錄 {len(new_ids)} 筆項目。")
 
 if __name__ == "__main__":
-    # 強制測試：直接模擬一則台海灰色地帶新聞送交 Gemini 與 Discord
+    # 保留單筆強制測試，用以驗證 Gemini 與 Discord 渲染
     test_entry = {
         "id": "test-force-run-001",
         "title": "China Coast Guard and PLA Navy Conduct Joint Blockade Drills Near Taiwan Strait",
-        "link": "https://www.defense.gov",
+        "link": "[https://www.defense.gov](https://www.defense.gov)",
         "summary": "Chinese military vessels and coast guard cutters conducted joint encirclement drills around Taiwan, deploying water cannons and simulated missile strikes across the median line to test gray-zone escalation.",
     }
     test_feed = {
