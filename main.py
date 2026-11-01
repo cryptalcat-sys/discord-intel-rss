@@ -7,7 +7,8 @@ import feedparser
 from bs4 import BeautifulSoup
 
 WEBHOOK_URL = os.environ.get("DISCORD_WEBHOOK_URL")
-GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
+# 自動相容 GROQ_API_KEY 或直接覆蓋在 GEMINI_API_KEY 的狀況
+GROQ_API_KEY = os.environ.get("GROQ_API_KEY") or os.environ.get("GEMINI_API_KEY")
 HISTORY_FILE = "history.json"
 MAX_POSTS_PER_RUN = 3
 
@@ -65,7 +66,7 @@ def clean_html(html_text):
     return " ".join(BeautifulSoup(html_text, "html.parser").get_text().split())
 
 def extract_thumbnail(entry):
-    """提取文章縮圖（補回缺失的函式）"""
+    """提取文章縮圖"""
     if "media_content" in entry and entry.media_content:
         return entry.media_content[0].get("url")
     if "media_thumbnail" in entry and entry.media_thumbnail:
@@ -76,19 +77,21 @@ def extract_thumbnail(entry):
                 return enc.get("href")
     return None
 
-def analyze_with_gemini(orig_title, orig_summary):
-    """呼叫 Gemini 3.8 Flash 進行防務情報 3 點式摘要（含重試）"""
-    if not GEMINI_API_KEY:
-        print("未偵測到 GEMINI_API_KEY！請檢查 GitHub Secrets。")
+def analyze_with_groq(orig_title, orig_summary):
+    """呼叫 Groq API (Llama 3.3 70B) 產出結構化繁體中文三點式情報摘要"""
+    if not GROQ_API_KEY:
+        print("未偵測到 GROQ_API_KEY！請檢查 GitHub Secrets。")
         return None
 
-    model_name = "gemini-3.8-flash"
-    url = f"https://generativelanguage.googleapis.com/v1beta/models/{model_name}:generateContent?key={GEMINI_API_KEY}"
-    
-    prompt = f"""
-你是一名專精印太地緣政治與防務軍事的情報分析官。請分析以下情報內容，嚴格以繁體中文輸出指定結構的 JSON（不要輸出任何 markdown 標記或額外說明）：
+    url = "https://api.groq.com/openai/v1/chat/completions"
+    headers = {
+        "Authorization": f"Bearer {GROQ_API_KEY}",
+        "Content-Type": "application/json"
+    }
 
-{{
+    system_prompt = """你是一名專精印太地緣政治與防務軍事的情報分析官。
+請分析防務情報，嚴格以繁體中文輸出符合以下結構的 JSON 物件：
+{
   "title_zh": "精準且符合軍事術語的繁體中文標題",
   "region": "標註衝突或事件所屬海域/戰略空域（如：台海海峽中線、南海仁愛暗沙、巴士海峽、東海釣魚台、烏克蘭前線、紅海、印太地區等）",
   "actors": "標註主要對峙或涉事主體（格式為：主體 A vs 主體 B，例如：中國海警 vs 菲律賓海巡、共軍軍機 vs 國軍防空、美軍第7艦隊 vs 中國海軍、美軍 vs 胡塞武裝）",
@@ -97,51 +100,33 @@ def analyze_with_gemini(orig_title, orig_summary):
     "第二點：戰術意圖、官方敘事或灰色地帶施壓手法",
     "第三點：對第一島鏈防務、戰略航道或地緣平衡的影響"
   ]
-}}
+}"""
 
-新聞標題：{orig_title}
-新聞內容：{orig_summary[:1500]}
-"""
+    user_content = f"新聞標題：{orig_title}\n新聞內容：{orig_summary[:1500]}"
+
     payload = {
-        "contents": [{"parts": [{"text": prompt}]}],
-        "generationConfig": {
-            "temperature": 0.2,
-            "responseMimeType": "application/json"
-        }
+        "model": "llama-3.3-70b-versatile",
+        "messages": [
+            {"role": "system", "content": system_prompt},
+            {"role": "user", "content": user_content}
+        ],
+        "response_format": {"type": "json_object"},
+        "temperature": 0.2
     }
 
-    max_retries = 3
-    for attempt in range(1, max_retries + 1):
-        try:
-            print(f"嘗試使用 [{model_name}] 進行情報分析 (第 {attempt} 次)...")
-            resp = requests.post(url, json=payload, timeout=45)
-            
-            if resp.status_code == 200:
-                data = resp.json()
-                raw_text = data["candidates"][0]["content"]["parts"][0]["text"].strip()
-                
-                if raw_text.startswith("```"):
-                    raw_text = re.sub(r"^```[a-zA-Z]*\n?", "", raw_text)
-                    raw_text = re.sub(r"\n?```$", "", raw_text)
-                    
-                return json.loads(raw_text.strip())
-            
-            elif resp.status_code in [503, 429]:
-                wait_time = attempt * 5
-                print(f"Google 伺服器尖峰忙碌 ({resp.status_code})，等待 {wait_time} 秒後重試...")
-                time.sleep(wait_time)
-            else:
-                print(f"Gemini API 回傳錯誤: {resp.status_code} - {resp.text}")
-                break
-                
-        except requests.exceptions.Timeout:
-            print(f"第 {attempt} 次連線逾時，重試中...")
-            time.sleep(3)
-        except Exception as e:
-            print(f"發生未知異常: {e}")
-            break
+    try:
+        print("正在呼叫 Groq Llama-3.3 進行情報分析...")
+        resp = requests.post(url, headers=headers, json=payload, timeout=20)
+        
+        if resp.status_code == 200:
+            data = resp.json()
+            raw_text = data["choices"][0]["message"]["content"].strip()
+            return json.loads(raw_text)
+        else:
+            print(f"Groq API 回傳錯誤: {resp.status_code} - {resp.text}")
+    except Exception as e:
+        print(f"Groq 分析異常: {e}")
 
-    print("Gemini 重試次數耗盡，退回降級處理。")
     return None
 
 def send_to_discord(entry, feed_info):
@@ -150,7 +135,7 @@ def send_to_discord(entry, feed_info):
     orig_summary = clean_html(entry.get("summary", entry.get("description", "")))
     thumb_url = extract_thumbnail(entry)
 
-    intel_data = analyze_with_gemini(orig_title, orig_summary)
+    intel_data = analyze_with_groq(orig_title, orig_summary)
 
     fields = []
     if intel_data and "title_zh" in intel_data and "points" in intel_data:
@@ -174,7 +159,7 @@ def send_to_discord(entry, feed_info):
         "url": link,
         "description": description[:2000],
         "color": feed_info["color"],
-        "footer": {"text": "即時防務情報 • AI 灰色地帶觀測"}
+        "footer": {"text": "即時防務情報 • AI 灰色地帶觀測 (Groq)"}
     }
     
     if fields:
@@ -244,7 +229,7 @@ def main():
                     print(f"已發送 AI 情報簡報: {title}")
                     new_ids.append(entry_id)
                     sent_count += 1
-                    time.sleep(3)
+                    time.sleep(1)  # Groq 速度快，等待 1 秒即可
             else:
                 break
 
@@ -254,17 +239,20 @@ def main():
         print(f"更新完畢，本次共記錄 {len(new_ids)} 筆項目。")
 
 if __name__ == "__main__":
-    # 保留單筆強制測試，用以驗證 Gemini 與 Discord 渲染
+    # 保留單筆測試代碼，方便直接在 Actions 執行驗證 Groq 回傳
     test_entry = {
-        "id": "test-force-run-001",
+        "id": "test-force-groq-001",
         "title": "China Coast Guard and PLA Navy Conduct Joint Blockade Drills Near Taiwan Strait",
-        "link": "[https://www.defense.gov](https://www.defense.gov)",
+        "link": "https://www.defense.gov",
         "summary": "Chinese military vessels and coast guard cutters conducted joint encirclement drills around Taiwan, deploying water cannons and simulated missile strikes across the median line to test gray-zone escalation.",
     }
     test_feed = {
-        "name": "測試情報源 (Manual Test)",
+        "name": "測試情報源 (Groq Test)",
         "color": 0xFF0000
     }
-    print("=== 開始強制測試發送 ===")
+    print("=== 開始強制測試發送 (Groq) ===")
     send_to_discord(test_entry, test_feed)
     print("=== 強制測試結束 ===")
+    
+    # 測試成功後，請將上方 4 行註解掉，並解除下方 main() 的註解：
+    # main()
