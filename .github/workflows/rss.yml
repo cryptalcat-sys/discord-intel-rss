@@ -4,7 +4,7 @@ on:
   schedule:
     # 每 30 分鐘自動執行一次 (UTC 時間)
     - cron: '*/30 * * * *'
-  workflow_dispatch: # 允許手動點擊按鈕立即執行
+  workflow_dispatch: # 允許在 Actions 頁面手動點擊按鈕立即執行
 
 jobs:
   run-rss:
@@ -26,7 +26,7 @@ jobs:
       - name: 執行 RSS 抓取腳本
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
         run: |
           python main.py
 
