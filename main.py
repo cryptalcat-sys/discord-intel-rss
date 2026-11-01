@@ -240,4 +240,17 @@ def main():
         print(f"更新完畢，本次共記錄 {len(new_ids)} 筆項目。")
 
 if __name__ == "__main__":
-    main()
+    # 強制測試：直接模擬一則台海灰色地帶新聞送交 Gemini 與 Discord
+    test_entry = {
+        "id": "test-force-run-001",
+        "title": "China Coast Guard and PLA Navy Conduct Joint Blockade Drills Near Taiwan Strait",
+        "link": "https://www.defense.gov",
+        "summary": "Chinese military vessels and coast guard cutters conducted joint encirclement drills around Taiwan, deploying water cannons and simulated missile strikes across the median line to test gray-zone escalation.",
+    }
+    test_feed = {
+        "name": "測試情報源 (Manual Test)",
+        "color": 0xFF0000
+    }
+    print("=== 開始強制測試發送 ===")
+    send_to_discord(test_entry, test_feed)
+    print("=== 強制測試結束 ===")
