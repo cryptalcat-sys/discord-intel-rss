@@ -146,56 +146,68 @@ def send_to_discord(entry, feed_info):
         formatted_points = []
         if isinstance(raw_points, list):
             for p in raw_points:
-                cleaned = str(p).strip().lstrip("🔹-*• ")
+                cleaned = str(p).strip().lstrip("🔹🔷-*• ")
                 if cleaned:
-                    formatted_points.append(f"🔹 {cleaned}")
+                    formatted_points.append(f"🔷 {cleaned}")
         elif isinstance(raw_points, str):
             for line in raw_points.split("\n"):
-                cleaned = line.strip().lstrip("🔹-*• ")
+                cleaned = line.strip().lstrip("🔹🔷-*• ")
                 if cleaned:
-                    formatted_points.append(f"🔹 {cleaned}")
+                    formatted_points.append(f"🔷 {cleaned}")
 
-        points_text = "\n".join(formatted_points) if formatted_points else f"🔹 {orig_summary[:200]}..."
+        points_text = "\n".join(formatted_points) if formatted_points else f"🔷 {orig_summary[:200]}..."
 
         description = (
             f"📍 **戰略海空域**：`{region_str}`\n"
             f"⚔️ **涉事實體**：`{actors_str}`\n\n"
             f"{points_text}\n\n"
+            f"🔗 **原文連結**：{link}\n\n"
             f"*原標題：{orig_title}*"
         )
     else:
         title = orig_title
-        description = f"{orig_summary[:250]}...\n\n*原標題：{orig_title}*"
+        description = (
+            f"{orig_summary[:250]}...\n\n"
+            f"🔗 **原文連結**：{link}\n\n"
+            f"*原標題：{orig_title}*"
+        )
 
-    # 嚴格符合 Discord API 規範的 Embed 結構（不放任何 None 鍵值）
+    # 1. 優先嘗試發送 Embed 卡片（標題本身即為可點選連結）
     embed = {
         "title": title[:256],
         "url": link,
         "description": description[:2000],
         "color": int(feed_info.get("color", 0x1A365D)),
-        "author": {
-            "name": str(feed_info.get("name", "情報來源"))[:256]
-        },
-        "footer": {
-            "text": "即時防務情報 • AI 灰色地帶觀測 (Groq)"
-        }
+        "footer": {"text": "即時防務情報 • AI 灰色地帶觀測 (Groq)"}
     }
 
     payload = {
-        "username": "全球情報觀測站",
+        "username": "戰略防務快報",
         "embeds": [embed]
     }
 
     try:
         resp = requests.post(WEBHOOK_URL, json=payload, timeout=10)
-        print(f"📩 Discord 推播回應: HTTP {resp.status_code}")
-        if resp.status_code not in [200, 204]:
-            print(f"❌ Discord 拒收原因: {resp.text}")
-            # 若 Embed 仍遭拒收，自動以 Markdown 文字訊息降級發送，確保訊息不漏接
-            fallback_text = f"**【{title}】**\n<{link}>\n\n{description}"
-            resp_fallback = requests.post(WEBHOOK_URL, json={"content": fallback_text[:2000]}, timeout=10)
-            return resp_fallback.status_code in [200, 204]
-        return True
+        if resp.status_code in [200, 204]:
+            print(f"📩 Discord 卡片推播成功: HTTP {resp.status_code}")
+            return True
+
+        # 2. 備援發送純文字模式（直接帶裸網址，Discord 100% 自動變成藍色超連結）
+        print(f"⚠️ Embed 模式失敗 (HTTP {resp.status_code})，切換為純文字模式發送...")
+        fallback_content = (
+            f"**【{title}】**\n"
+            f"🔗 原文連結：{link}\n\n"
+            f"📍 **戰略海空域**：`{region_str}`\n"
+            f"⚔️ **涉事實體**：`{actors_str}`\n\n"
+            f"{points_text}\n\n"
+            f"*原標題：{orig_title}*"
+        )
+        resp_fallback = requests.post(WEBHOOK_URL, json={
+            "username": "戰略防務快報",
+            "content": fallback_content[:2000]
+        }, timeout=10)
+        return resp_fallback.status_code in [200, 204]
+
     except Exception as e:
         print(f"❌ Discord 發送異常: {e}")
         return False
