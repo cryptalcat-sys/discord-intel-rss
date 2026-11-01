@@ -64,18 +64,6 @@ def clean_html(html_text):
         return ""
     return " ".join(BeautifulSoup(html_text, "html.parser").get_text().split())
 
-def extract_thumbnail(entry):
-    """提取文章縮圖"""
-    if "media_content" in entry and entry.media_content:
-        return entry.media_content[0].get("url")
-    if "media_thumbnail" in entry and entry.media_thumbnail:
-        return entry.media_thumbnail[0].get("url")
-    if "enclosures" in entry and entry.enclosures:
-        for enc in entry.enclosures:
-            if enc.get("type", "").startswith("image"):
-                return enc.get("href")
-    return None
-
 def analyze_with_groq(orig_title, orig_summary):
     """呼叫 Groq API (qwen/qwen3.8-27b) 產出結構化繁體中文情報摘要"""
     if not GROQ_API_KEY:
@@ -90,7 +78,7 @@ def analyze_with_groq(orig_title, orig_summary):
     }
 
     system_prompt = """你是一名專精印太地緣政治與防務軍事的情報分析官。
-請分析防務情報，嚴格以繁體中文輸出符合以下結構的 JSON 物件：
+請分析防務情報，嚴格以繁體中文輸出符合以下結構的 JSON 物件（不要包含任何 markdown 標記或額外字元）：
 {
   "title_zh": "精準且符合軍事術語的繁體中文標題",
   "region": "標註衝突或事件所屬海域/戰略空域（如：台海海峽中線、南海仁愛暗沙、巴士海峽、東海釣魚台、烏克蘭前線、紅海、印太地區等）",
@@ -141,7 +129,6 @@ def send_to_discord(entry, feed_info):
     orig_title = entry.get("title", "No Title")
     link = entry.get("link", "")
     orig_summary = clean_html(entry.get("summary", entry.get("description", "")))
-    thumb_url = extract_thumbnail(entry)
 
     if not WEBHOOK_URL:
         print("❌ 未設定 DISCORD_WEBHOOK_URL，無法發送！")
@@ -154,7 +141,7 @@ def send_to_discord(entry, feed_info):
         region_str = str(intel_data.get("region") or "全球 / 戰略海域").strip()
         actors_str = str(intel_data.get("actors") or "未特定實體").strip()
 
-        # 整理三點式摘要
+        # 整理三點式重點
         raw_points = intel_data.get("points", [])
         formatted_points = []
         if isinstance(raw_points, list):
@@ -170,7 +157,6 @@ def send_to_discord(entry, feed_info):
 
         points_text = "\n".join(formatted_points) if formatted_points else f"🔹 {orig_summary[:200]}..."
 
-        # 將海域、實體與重點摘要一體化排版，避開 Discord fields 報錯
         description = (
             f"📍 **戰略海空域**：`{region_str}`\n"
             f"⚔️ **涉事實體**：`{actors_str}`\n\n"
@@ -181,17 +167,19 @@ def send_to_discord(entry, feed_info):
         title = orig_title
         description = f"{orig_summary[:250]}...\n\n*原標題：{orig_title}*"
 
+    # 嚴格符合 Discord API 規範的 Embed 結構（不放任何 None 鍵值）
     embed = {
-        "author": {"name": feed_info.get("name", "情報來源")},
         "title": title[:256],
         "url": link,
         "description": description[:2000],
-        "color": feed_info.get("color", 0x1A365D),
-        "footer": {"text": "即時防務情報 • AI 灰色地帶觀測 (Groq)"}
+        "color": int(feed_info.get("color", 0x1A365D)),
+        "author": {
+            "name": str(feed_info.get("name", "情報來源"))[:256]
+        },
+        "footer": {
+            "text": "即時防務情報 • AI 灰色地帶觀測 (Groq)"
+        }
     }
-
-    if thumb_url:
-        embed["thumbnail"] = {"url": thumb_url}
 
     payload = {
         "username": "全球情報觀測站",
@@ -203,7 +191,10 @@ def send_to_discord(entry, feed_info):
         print(f"📩 Discord 推播回應: HTTP {resp.status_code}")
         if resp.status_code not in [200, 204]:
             print(f"❌ Discord 拒收原因: {resp.text}")
-            return False
+            # 若 Embed 仍遭拒收，自動以 Markdown 文字訊息降級發送，確保訊息不漏接
+            fallback_text = f"**【{title}】**\n<{link}>\n\n{description}"
+            resp_fallback = requests.post(WEBHOOK_URL, json={"content": fallback_text[:2000]}, timeout=10)
+            return resp_fallback.status_code in [200, 204]
         return True
     except Exception as e:
         print(f"❌ Discord 發送異常: {e}")
@@ -275,7 +266,7 @@ def main():
 if __name__ == "__main__":
     # 單筆強制測試
     test_entry = {
-        "id": "test-force-groq-qwen-04",
+        "id": "test-force-groq-qwen-05",
         "title": "China Coast Guard and PLA Navy Conduct Joint Blockade Drills Near Taiwan Strait",
         "link": "[https://www.defense.gov](https://www.defense.gov)",
         "summary": "Chinese military vessels and coast guard cutters conducted joint encirclement drills around Taiwan, deploying water cannons and simulated missile strikes across the median line to test gray-zone escalation."
