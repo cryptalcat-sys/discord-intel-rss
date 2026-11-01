@@ -77,7 +77,7 @@ def extract_thumbnail(entry):
     return None
 
 def analyze_with_groq(orig_title, orig_summary):
-    """呼叫 Groq API (qwen/qwen3.8-27b) 產出結構化繁體中文三點式情報摘要"""
+    """呼叫 Groq API (qwen/qwen3.8-27b) 產出結構化繁體中文情報摘要"""
     if not GROQ_API_KEY:
         print("❌ 未偵測到 GROQ_API_KEY！請檢查 GitHub Secrets。")
         return None
@@ -123,7 +123,6 @@ def analyze_with_groq(orig_title, orig_summary):
             data = resp.json()
             raw_text = data["choices"][0]["message"]["content"].strip()
             
-            # 去除 markdown 標籤
             if raw_text.startswith("```"):
                 raw_text = re.sub(r"^```[a-zA-Z]*\n?", "", raw_text)
                 raw_text = re.sub(r"\n?```$", "", raw_text)
@@ -150,14 +149,12 @@ def send_to_discord(entry, feed_info):
 
     intel_data = analyze_with_groq(orig_title, orig_summary)
 
-    fields = []
     if intel_data and isinstance(intel_data, dict):
-        # 標題處理（確保不為空）
         title = str(intel_data.get("title_zh") or orig_title).strip()
-        if not title:
-            title = orig_title
+        region_str = str(intel_data.get("region") or "全球 / 戰略海域").strip()
+        actors_str = str(intel_data.get("actors") or "未特定實體").strip()
 
-        # 重點摘要處理（兼容量產為 list、str 或 dict 的不同結構）
+        # 整理三點式摘要
         raw_points = intel_data.get("points", [])
         formatted_points = []
         if isinstance(raw_points, list):
@@ -171,25 +168,18 @@ def send_to_discord(entry, feed_info):
                 if cleaned:
                     formatted_points.append(f"🔹 {cleaned}")
 
-        if formatted_points:
-            points_text = "\n".join(formatted_points)
-        else:
-            points_text = f"🔹 {orig_summary[:200]}..."
+        points_text = "\n".join(formatted_points) if formatted_points else f"🔹 {orig_summary[:200]}..."
 
-        description = f"{points_text}\n\n*原標題：{orig_title}*"
-
-        # 區域與主體欄位（確保文字不為空以符合 Discord 限制）
-        region_str = str(intel_data.get("region") or "全球 / 戰略海域").strip()
-        actors_str = str(intel_data.get("actors") or "未特定涉事實體").strip()
-        
-        fields = [
-            {"name": "📍 戰略海空域", "value": f"`{region_str[:100]}`", "inline": True},
-            {"name": "⚔️ 涉事實體", "value": f"`{actors_str[:100]}`", "inline": True}
-        ]
+        # 將海域、實體與重點摘要一體化排版，避開 Discord fields 報錯
+        description = (
+            f"📍 **戰略海空域**：`{region_str}`\n"
+            f"⚔️ **涉事實體**：`{actors_str}`\n\n"
+            f"{points_text}\n\n"
+            f"*原標題：{orig_title}*"
+        )
     else:
-        # 降級處理
         title = orig_title
-        description = orig_summary[:250] + "..."
+        description = f"{orig_summary[:250]}...\n\n*原標題：{orig_title}*"
 
     embed = {
         "author": {"name": feed_info.get("name", "情報來源")},
@@ -199,9 +189,6 @@ def send_to_discord(entry, feed_info):
         "color": feed_info.get("color", 0x1A365D),
         "footer": {"text": "即時防務情報 • AI 灰色地帶觀測 (Groq)"}
     }
-    
-    if fields:
-        embed["fields"] = fields
 
     if thumb_url:
         embed["thumbnail"] = {"url": thumb_url}
@@ -288,7 +275,7 @@ def main():
 if __name__ == "__main__":
     # 單筆強制測試
     test_entry = {
-        "id": "test-force-groq-qwen-03",
+        "id": "test-force-groq-qwen-04",
         "title": "China Coast Guard and PLA Navy Conduct Joint Blockade Drills Near Taiwan Strait",
         "link": "[https://www.defense.gov](https://www.defense.gov)",
         "summary": "Chinese military vessels and coast guard cutters conducted joint encirclement drills around Taiwan, deploying water cannons and simulated missile strikes across the median line to test gray-zone escalation."
