@@ -16,7 +16,7 @@ MAX_POSTS_PER_RUN = 2  # 每次每個來源最多抓 2 篇，避免單次呼叫�
 
 # 1. 訂閱來源清單
 FEEDS = [
-    # ==================== 🛡️ 戰略與軍聞頻道 ====================
+    # ==================== 🛡️ 戰略與軍聞頻道 (5 大主力防務來源) ====================
     {
         "name": "The War Zone",
         "url": "https://www.twz.com/feed",
@@ -35,8 +35,20 @@ FEEDS = [
         "channel": "military",
         "color": 0x2D6A4F
     },
+    {
+        "name": "Naval News (全球海事防務)",
+        "url": "https://www.navalnews.com/feed/",
+        "channel": "military",
+        "color": 0x0F4C81
+    },
+    {
+        "name": "The Diplomat (亞太防務)",
+        "url": "https://thediplomat.com/category/asia-defense/feed/",
+        "channel": "military",
+        "color": 0x900C3F
+    },
 
-    # ==================== 🏛️ 政局觀測所（權威外交與國際智庫） ====================
+    # ==================== 🏛️ 政局觀測所 (7 大權威智庫與外交刊物) ====================
     {
         "name": "Foreign Affairs (外交事務)",
         "url": "https://www.foreignaffairs.com/rss.xml",
@@ -78,12 +90,6 @@ FEEDS = [
         "url": "https://thediplomat.com/category/diplomacy/feed/",
         "channel": "politics",
         "color": 0x8E24AA
-    },
-    {
-        "name": "BBC News (國際外交)",
-        "url": "https://feeds.bbci.co.uk/news/world/rss.xml",
-        "channel": "politics",
-        "color": 0x455A64
     }
 ]
 
