@@ -12,9 +12,9 @@ WEBHOOK_POLITICS = os.environ.get("DISCORD_WEBHOOK_POLITICS") or os.environ.get(
 
 GROQ_API_KEY = os.environ.get("GROQ_API_KEY") or os.environ.get("GEMINI_API_KEY")
 HISTORY_FILE = "history.json"
-MAX_POSTS_PER_RUN = 3
+MAX_POSTS_PER_RUN = 2  # 每次每個來源最多抓 2 篇，避免單次呼叫過量擠爆額度
 
-# 1. 訂閱來源清單（以 channel 標註分類分流）
+# 1. 訂閱來源清單
 FEEDS = [
     # --- 戰略與軍聞 ---
     {
@@ -92,7 +92,7 @@ def clean_url(raw_url):
     return match.group(0) if match else raw_url.strip()
 
 def analyze_with_groq(orig_title, orig_summary, channel_type):
-    """呼叫 Groq API (qwen/qwen3.8-27b) 根據頻道屬性產出專屬情報摘要"""
+    """呼叫 Groq API (qwen/qwen3.8-27b)，具備 429 限速自動重試機制"""
     if not GROQ_API_KEY:
         print("❌ 未偵測到 GROQ_API_KEY！")
         return None
@@ -143,18 +143,25 @@ def analyze_with_groq(orig_title, orig_summary, channel_type):
         "max_tokens": 500
     }
 
-    try:
-        resp = requests.post(url, headers=headers, json=payload, timeout=20)
-        if resp.status_code == 200:
-            raw_text = resp.json()["choices"][0]["message"]["content"].strip()
-            if raw_text.startswith("```"):
-                raw_text = re.sub(r"^```[a-zA-Z]*\n?", "", raw_text)
-                raw_text = re.sub(r"\n?```$", "", raw_text)
-            return json.loads(raw_text.strip())
-        else:
-            print(f"❌ Groq API 錯誤: {resp.status_code} - {resp.text}")
-    except Exception as e:
-        print(f"❌ Groq 分析異常: {e}")
+    # 執行最多 2 次請求（遇 429 限速時冷卻 15 秒重試）
+    for attempt in range(2):
+        try:
+            resp = requests.post(url, headers=headers, json=payload, timeout=20)
+            if resp.status_code == 200:
+                raw_text = resp.json()["choices"][0]["message"]["content"].strip()
+                if raw_text.startswith("```"):
+                    raw_text = re.sub(r"^```[a-zA-Z]*\n?", "", raw_text)
+                    raw_text = re.sub(r"\n?```$", "", raw_text)
+                return json.loads(raw_text.strip())
+            elif resp.status_code == 429:
+                print(f"⚠️ 觸發 Groq 頻率限制 (429)，等待 15 秒後進行重試 (第 {attempt+1} 次)...")
+                time.sleep(15)
+            else:
+                print(f"❌ Groq API 錯誤: {resp.status_code} - {resp.text}")
+                break
+        except Exception as e:
+            print(f"❌ Groq 請求異常: {e}")
+            break
 
     return None
 
@@ -172,38 +179,40 @@ def send_to_discord(entry, feed_info):
 
     intel_data = analyze_with_groq(orig_title, orig_summary, channel_type)
 
-    if intel_data and isinstance(intel_data, dict):
-        title = str(intel_data.get("title_zh") or orig_title).strip()
-        region_label = "🌐 戰略地緣陣營" if channel_type == "politics" else "📍 戰略海空域"
-        actors_label = "⚖️ 核心博弈實體" if channel_type == "politics" else "⚔️ 涉事實體"
-        
-        region_str = str(intel_data.get("region") or "全球 / 區域政局").strip()
-        actors_str = str(intel_data.get("actors") or "未特定實體").strip()
+    # 關鍵防護：如果 AI 失敗，直接放棄本輪發送，絕不把英文原文發到頻道中！
+    if not intel_data or not isinstance(intel_data, dict):
+        print(f"⏩ 跳過推播：[{orig_title[:30]}...] 未能取得 AI 繁中摘要，留待下次排程處理。")
+        return False
 
-        raw_points = intel_data.get("points", [])
-        formatted_points = []
-        if isinstance(raw_points, list):
-            for p in raw_points:
-                cleaned = str(p).strip().lstrip("🔹🔷-*• ")
-                if cleaned:
-                    formatted_points.append(f"🔷 {cleaned}")
+    title = str(intel_data.get("title_zh") or orig_title).strip()
+    region_label = "🌐 戰略地緣陣營" if channel_type == "politics" else "📍 戰略海空域"
+    actors_label = "⚖️ 核心博弈實體" if channel_type == "politics" else "⚔️ 涉事實體"
+    
+    region_str = str(intel_data.get("region") or "全球 / 區域政局").strip()
+    actors_str = str(intel_data.get("actors") or "未特定實體").strip()
 
-        points_text = "\n".join(formatted_points) if formatted_points else f"🔷 {orig_summary[:200]}..."
+    raw_points = intel_data.get("points", [])
+    formatted_points = []
+    if isinstance(raw_points, list):
+        for p in raw_points:
+            cleaned = str(p).strip().lstrip("🔹🔷-*• ")
+            if cleaned:
+                formatted_points.append(f"🔷 {cleaned}")
+    elif isinstance(raw_points, str):
+        for line in raw_points.split("\n"):
+            cleaned = line.strip().lstrip("🔹🔷-*• ")
+            if cleaned:
+                formatted_points.append(f"🔷 {cleaned}")
 
-        description = (
-            f"{region_label}：`{region_str}`\n"
-            f"{actors_label}：`{actors_str}`\n\n"
-            f"{points_text}\n\n"
-            f"🔗 **原文連結**：{link}\n\n"
-            f"*原標題：{orig_title}*"
-        )
-    else:
-        title = orig_title
-        description = (
-            f"{orig_summary[:250]}...\n\n"
-            f"🔗 **原文連結**：{link}\n\n"
-            f"*原標題：{orig_title}*"
-        )
+    points_text = "\n".join(formatted_points) if formatted_points else f"🔷 {orig_summary[:200]}..."
+
+    description = (
+        f"{region_label}：`{region_str}`\n"
+        f"{actors_label}：`{actors_str}`\n\n"
+        f"{points_text}\n\n"
+        f"🔗 **原文連結**：{link}\n\n"
+        f"*原標題：{orig_title}*"
+    )
 
     bot_name = "國際政局觀測所" if channel_type == "politics" else "戰略防務快報"
     footer_text = "即時政局情報 • AI 地緣外交研判 (Groq)" if channel_type == "politics" else "即時防務情報 • AI 灰色地帶觀測 (Groq)"
@@ -270,7 +279,6 @@ def main():
                 new_ids.append(entry_id)
                 continue
 
-            # 依頻道套用對應的篩選正則
             matcher = POLITICS_INCLUDE if channel_type == "politics" else MILITARY_INCLUDE
             if not matcher.search(content_to_check):
                 new_ids.append(entry_id)
@@ -282,7 +290,10 @@ def main():
                     print(f"已發送 AI 情報: {title}")
                     new_ids.append(entry_id)
                     sent_count += 1
-                    time.sleep(1)
+                    # 每篇間隔 8 秒，均勻分散 Token 輸出，避免觸發每分鐘限速
+                    time.sleep(8)
+                else:
+                    print(f"未推播成功，不計入歷史，下次將自動重試。")
             else:
                 break
 
