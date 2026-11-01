@@ -238,8 +238,17 @@ def main():
         print(f"更新完畢，本次共記錄 {len(new_ids)} 筆項目。")
 
 if __name__ == "__main__":
-    # --- 單筆測試區塊（確認 Discord 卡片渲染）---
+    # 單筆測試區塊（確認字串都在同一行內閉合引號）
     test_entry = {
         "id": "test-force-groq-002",
         "title": "China Coast Guard and PLA Navy Conduct Joint Blockade Drills Near Taiwan Strait",
-        "link": "
+        "link": "https://www.defense.gov",
+        "summary": "Chinese military vessels and coast guard cutters conducted joint encirclement drills around Taiwan, deploying water cannons and simulated missile strikes across the median line to test gray-zone escalation."
+    }
+    test_feed = {
+        "name": "測試情報源 (Groq Test)",
+        "color": 0xFF0000
+    }
+    print("=== 開始強制測試發送 (Groq) ===")
+    send_to_discord(test_entry, test_feed)
+    print("=== 強制測試結束 ===")
