@@ -12,7 +12,7 @@ WEBHOOK_POLITICS = os.environ.get("DISCORD_WEBHOOK_POLITICS") or os.environ.get(
 
 GROQ_API_KEY = os.environ.get("GROQ_API_KEY") or os.environ.get("GEMINI_API_KEY")
 HISTORY_FILE = "history.json"
-MAX_POSTS_PER_RUN = 2  # 每次每個來源最多抓 2 篇，平滑分散 API 請求
+MAX_POSTS_PER_CHANNEL = 2  # 每個頻道每次執行最多推播 2 則
 
 # ==================== 2. 訂閱來源清單 (18 組新聞、智庫與影音) ====================
 FEEDS = [
@@ -392,16 +392,34 @@ def main():
     is_initial_run = len(history) == 0
     new_ids = []
 
+    # 記錄各頻道本次執行的推播總數
+    channel_counts = {
+        "military": 0,
+        "politics": 0
+    }
+
     for feed_info in FEEDS:
         channel_type = feed_info.get("channel", "military")
+
+        # 若兩個頻道都已經達到 2 則上限，提前結束整輪檢查
+        if all(count >= MAX_POSTS_PER_CHANNEL for count in channel_counts.values()):
+            print("🏁 雙頻道皆已達本次推播上限 (各 2 則)，提前結束本輪執行。")
+            break
+
+        # 若當前頻道已滿 2 則，跳過該來源，留給下個 20 分鐘
+        if channel_counts[channel_type] >= MAX_POSTS_PER_CHANNEL:
+            continue
+
         print(f"正在檢查 [{channel_type}]: {feed_info['name']}")
         
-        # 自動轉換 YouTube 網址為可用 RSS
         target_feed_url = resolve_feed_url(feed_info["url"])
         parsed = feedparser.parse(target_feed_url)
-        sent_count = 0
 
         for entry in parsed.entries:
+            # 檢查該頻道是否在此來源中達到上限
+            if channel_counts[channel_type] >= MAX_POSTS_PER_CHANNEL:
+                break
+
             entry_id = entry.get("id", entry.get("link", ""))
             if not entry_id or entry_id in history or entry_id in new_ids:
                 continue
@@ -410,39 +428,37 @@ def main():
             summary = entry.get("summary", entry.get("description", ""))
             content_to_check = f"{title} {summary}"
 
-            # 首次運行先記錄歷史，避免推播海量歷史舊聞洗版
+            # 首次運行只記錄不推播，避免歷史海量灌水
             if is_initial_run:
                 new_ids.append(entry_id)
                 continue
 
-            # 排除廣告或非軍政無關娛樂
             if EXCLUDE_PATTERN.search(content_to_check):
                 new_ids.append(entry_id)
                 continue
 
-            # 套用各頻道專屬正則篩選
             matcher = POLITICS_INCLUDE if channel_type == "politics" else MILITARY_INCLUDE
             if not matcher.search(content_to_check):
                 new_ids.append(entry_id)
                 continue
 
-            if sent_count < MAX_POSTS_PER_RUN:
-                success = send_to_discord(entry, feed_info)
-                if success:
-                    print(f"已發送 AI 情報: {title}")
-                    new_ids.append(entry_id)
-                    sent_count += 1
-                    # 每篇間隔 8 秒，均勻分散 Token 輸出，避免觸發每分鐘限速
-                    time.sleep(8)
-                else:
-                    print(f"未推播成功，不計入歷史，下次將自動重試。")
+            # 發送情報推播
+            success = send_to_discord(entry, feed_info)
+            if success:
+                print(f"✅ [{channel_type}] 已發送 ({channel_counts[channel_type] + 1}/{MAX_POSTS_PER_CHANNEL}): {title}")
+                new_ids.append(entry_id)
+                channel_counts[channel_type] += 1
+                # 間隔 8 秒釋放 Token
+                time.sleep(8)
             else:
-                break
+                print(f"未推播成功，不計入歷史，下次輪詢將自動重試。")
 
     if new_ids:
         history.extend(new_ids)
         save_history(history)
-        print(f"更新完畢，本次共記錄 {len(new_ids)} 筆項目。")
+        print(f"更新完畢，本次共新增記錄 {len(new_ids)} 筆項目。")
+    
+    print(f"📊 本輪推播統計：軍聞 {channel_counts['military']}/{MAX_POSTS_PER_CHANNEL} 則 | 政局 {channel_counts['politics']}/{MAX_POSTS_PER_CHANNEL} 則。")
 
 if __name__ == "__main__":
     main()
