@@ -64,6 +64,13 @@ def clean_html(html_text):
         return ""
     return " ".join(BeautifulSoup(html_text, "html.parser").get_text().split())
 
+def clean_url(raw_url):
+    """防呆過濾：從字串中擷取純淨標準的 http/https 網址，去除中括號與換行"""
+    if not raw_url:
+        return ""
+    match = re.search(r"https?://[^\s\]\)\"\'<>]+", str(raw_url).strip())
+    return match.group(0) if match else raw_url.strip()
+
 def analyze_with_groq(orig_title, orig_summary):
     """呼叫 Groq API (qwen/qwen3.8-27b) 產出結構化繁體中文情報摘要"""
     if not GROQ_API_KEY:
@@ -78,7 +85,7 @@ def analyze_with_groq(orig_title, orig_summary):
     }
 
     system_prompt = """你是一名專精印太地緣政治與防務軍事的情報分析官。
-請分析防務情報，嚴格以繁體中文輸出符合以下結構的 JSON 物件（不要包含任何 markdown 標記或額外字元）：
+請分析防務情報，嚴格以繁體中文輸出符合以下結構的 JSON 物件：
 {
   "title_zh": "精準且符合軍事術語的繁體中文標題",
   "region": "標註衝突或事件所屬海域/戰略空域（如：台海海峽中線、南海仁愛暗沙、巴士海峽、東海釣魚台、烏克蘭前線、紅海、印太地區等）",
@@ -127,7 +134,8 @@ def analyze_with_groq(orig_title, orig_summary):
 
 def send_to_discord(entry, feed_info):
     orig_title = entry.get("title", "No Title")
-    link = entry.get("link", "")
+    # 自動清洗網址
+    link = clean_url(entry.get("link", ""))
     orig_summary = clean_html(entry.get("summary", entry.get("description", "")))
 
     if not WEBHOOK_URL:
@@ -157,32 +165,50 @@ def send_to_discord(entry, feed_info):
 
         points_text = "\n".join(formatted_points) if formatted_points else f"🔷 {orig_summary[:200]}..."
 
-        # 移除中括號與圓括號，直接放置乾淨 URL
-        content_text = (
-            f"**【{title}】**\n"
-            f"🔗 原文連結：{link}\n\n"
+        description = (
             f"📍 **戰略海空域**：`{region_str}`\n"
             f"⚔️ **涉事實體**：`{actors_str}`\n\n"
             f"{points_text}\n\n"
+            f"🔗 **原文連結**：{link}\n\n"
             f"*原標題：{orig_title}*"
         )
     else:
-        content_text = (
-            f"**【{orig_title}】**\n"
-            f"🔗 原文連結：{link}\n\n"
-            f"{orig_summary[:250]}..."
+        title = orig_title
+        description = (
+            f"{orig_summary[:250]}...\n\n"
+            f"🔗 **原文連結**：{link}\n\n"
+            f"*原標題：{orig_title}*"
         )
 
-    # 以乾淨的純文字格式直接推播
+    # 建立 Discord Embed 卡片
+    embed = {
+        "title": title[:256],
+        "url": link,
+        "description": description[:2000],
+        "color": int(feed_info.get("color", 0x1A365D)),
+        "footer": {"text": "即時防務情報 • AI 灰色地帶觀測 (Groq)"}
+    }
+
     payload = {
         "username": "戰略防務快報",
-        "content": content_text[:2000]
+        "embeds": [embed]
     }
 
     try:
         resp = requests.post(WEBHOOK_URL, json=payload, timeout=10)
         print(f"📩 Discord 推播回應: HTTP {resp.status_code}")
-        return resp.status_code in [200, 204]
+        if resp.status_code in [200, 204]:
+            return True
+        else:
+            print(f"❌ Discord 拒收原因: {resp.text}")
+            # 備援純文字模式
+            fallback_content = (
+                f"**【{title}】**\n"
+                f"🔗 原文連結：{link}\n\n"
+                f"{description}"
+            )
+            requests.post(WEBHOOK_URL, json={"username": "戰略防務快報", "content": fallback_content[:2000]}, timeout=10)
+            return False
     except Exception as e:
         print(f"❌ Discord 發送異常: {e}")
         return False
@@ -251,9 +277,9 @@ def main():
         print(f"更新完畢，本次共記錄 {len(new_ids)} 筆項目。")
 
 if __name__ == "__main__":
-    # 單筆強制測試
+    # 單筆測試區塊（link 必須為純淨網址，clean_url 會自動防呆）
     test_entry = {
-        "id": "test-force-groq-qwen-05",
+        "id": "test-force-groq-qwen-final",
         "title": "China Coast Guard and PLA Navy Conduct Joint Blockade Drills Near Taiwan Strait",
         "link": "[https://www.defense.gov](https://www.defense.gov)",
         "summary": "Chinese military vessels and coast guard cutters conducted joint encirclement drills around Taiwan, deploying water cannons and simulated missile strikes across the median line to test gray-zone escalation."
