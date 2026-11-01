@@ -76,44 +76,14 @@ def extract_thumbnail(entry):
                 return enc.get("href")
     return None
 
-def get_best_groq_model():
-    """動態向 Groq 查詢該帳號實際擁有的模型清單並自動挑選"""
-    if not GROQ_API_KEY:
-        return None
-    try:
-        resp = requests.get(
-            "https://api.groq.com/openai/v1/models",
-            headers={"Authorization": f"Bearer {GROQ_API_KEY}"},
-            timeout=10
-        )
-        if resp.status_code == 200:
-            models = [m["id"] for m in resp.json().get("data", [])]
-            print(f"✅ Groq 帳號可用模型清單: {models}")
-            
-            # 優先挑選適合文字生成的語言模型（避開語音轉文字的 whisper）
-            candidate_keywords = ["llama", "gemma", "mixtral", "qwen"]
-            for kw in candidate_keywords:
-                for m_id in models:
-                    if kw in m_id.lower() and "whisper" not in m_id.lower():
-                        return m_id
-            if models:
-                return models[0]
-        else:
-            print(f"無法取得模型列表: {resp.status_code} - {resp.text}")
-    except Exception as e:
-        print(f"查詢 Groq 模型列表失敗: {e}")
-    return "llama3-8b-8192"
-
 def analyze_with_groq(orig_title, orig_summary):
-    """呼叫 Groq API 自動產出結構化繁體中文三點式情報摘要"""
+    """呼叫 Groq API (鎖定 qwen/qwen3.8-27b) 產出結構化繁體中文三點式情報摘要"""
     if not GROQ_API_KEY:
         print("未偵測到 GROQ_API_KEY！請檢查 GitHub Secrets。")
         return None
 
-    # 自動匹配當前帳號可用的模型代號
-    chosen_model = get_best_groq_model()
-    print(f"⚡ 自動選用 Groq 模型: [{chosen_model}]")
-
+    # 明確指定帳號內可用的 Qwen 模型
+    model_name = "qwen/qwen3.8-27b"
     url = "https://api.groq.com/openai/v1/chat/completions"
     headers = {
         "Authorization": f"Bearer {GROQ_API_KEY}",
@@ -121,7 +91,7 @@ def analyze_with_groq(orig_title, orig_summary):
     }
 
     system_prompt = """你是一名專精印太地緣政治與防務軍事的情報分析官。
-請分析防務情報，嚴格以繁體中文輸出符合以下結構的 JSON 物件（不要包含任何 markdown 標籤或額外字元）：
+請分析防務情報，嚴格以繁體中文輸出符合以下結構的 JSON 物件（不要包含任何額外說明）：
 {
   "title_zh": "精準且符合軍事術語的繁體中文標題",
   "region": "標註衝突或事件所屬海域/戰略空域（如：台海海峽中線、南海仁愛暗沙、巴士海峽、東海釣魚台、烏克蘭前線、紅海、印太地區等）",
@@ -136,7 +106,7 @@ def analyze_with_groq(orig_title, orig_summary):
     user_content = f"新聞標題：{orig_title}\n新聞內容：{orig_summary[:1500]}"
 
     payload = {
-        "model": chosen_model,
+        "model": model_name,
         "messages": [
             {"role": "system", "content": system_prompt},
             {"role": "user", "content": user_content}
@@ -146,11 +116,19 @@ def analyze_with_groq(orig_title, orig_summary):
     }
 
     try:
+        print(f"正在呼叫 Groq [{model_name}] 進行情報分析...")
         resp = requests.post(url, headers=headers, json=payload, timeout=20)
+        
         if resp.status_code == 200:
             data = resp.json()
             raw_text = data["choices"][0]["message"]["content"].strip()
-            return json.loads(raw_text)
+            
+            # 防呆去除 markdown 標籤
+            if raw_text.startswith("```"):
+                raw_text = re.sub(r"^```[a-zA-Z]*\n?", "", raw_text)
+                raw_text = re.sub(r"\n?```$", "", raw_text)
+                
+            return json.loads(raw_text.strip())
         else:
             print(f"Groq API 回傳錯誤: {resp.status_code} - {resp.text}")
     except Exception as e:
@@ -268,17 +246,17 @@ def main():
         print(f"更新完畢，本次共記錄 {len(new_ids)} 筆項目。")
 
 if __name__ == "__main__":
-    # 單筆測試區塊
+    # 單筆強制測試
     test_entry = {
-        "id": "test-force-groq-002",
+        "id": "test-force-groq-qwen-01",
         "title": "China Coast Guard and PLA Navy Conduct Joint Blockade Drills Near Taiwan Strait",
-        "link": "https://www.defense.gov",
+        "link": "[https://www.defense.gov](https://www.defense.gov)",
         "summary": "Chinese military vessels and coast guard cutters conducted joint encirclement drills around Taiwan, deploying water cannons and simulated missile strikes across the median line to test gray-zone escalation."
     }
     test_feed = {
-        "name": "測試情報源 (Groq Test)",
+        "name": "測試情報源 (Groq Qwen)",
         "color": 0xFF0000
     }
-    print("=== 開始強制測試發送 (Groq) ===")
+    print("=== 開始強制測試發送 (Groq Qwen) ===")
     send_to_discord(test_entry, test_feed)
     print("=== 強制測試結束 ===")
