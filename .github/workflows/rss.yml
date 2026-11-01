@@ -26,6 +26,7 @@ jobs:
       - name: 執行 RSS 抓取腳本
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          DISCORD_WEBHOOK_POLITICS: ${{ secrets.DISCORD_WEBHOOK_POLITICS }}
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
         run: |
           python main.py
