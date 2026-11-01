@@ -74,20 +74,22 @@ def clean_html(html_text):
     return " ".join(BeautifulSoup(html_text, "html.parser").get_text().split())
 
 def analyze_with_gemini(orig_title, orig_summary):
-    """呼叫 Gemini 進行防務情報 3 點式摘要"""
+    """呼叫 Gemini 進行防務情報 3 點式摘要，並標註海域與涉事方"""
     if not GEMINI_API_KEY:
         return None
 
     url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={GEMINI_API_KEY}"
     prompt = f"""
-你是一名專精地緣政治與國防軍事的情報分析官。請閱讀以下防務新聞，產出繁體中文情報摘要。
-請嚴格輸出符合以下結構的 JSON 格式（不要包含額外文字或 markdown 標籤）：
+你是一名專精印太地緣政治與防務軍事的情報分析官。請分析以下情報內容，嚴格以繁體中文輸出指定結構的 JSON（不要輸出任何 markdown 標記或額外說明）：
+
 {{
   "title_zh": "精準且符合軍事術語的繁體中文標題",
+  "region": "標註衝突或事件所屬海域/戰略空域（如：台海海峽中線、南海仁愛暗沙、巴士海峽、東海釣魚台、烏克蘭前線、紅海、印太地區等）",
+  "actors": "標註主要對峙或涉事主體（格式為：主體 A vs 主體 B，例如：中國海警 vs 菲律賓海巡、共軍軍機 vs 國軍防空、美軍第7艦隊 vs 中國海軍、美軍 vs 胡塞武裝）",
   "points": [
-    "第一點：核心事件與裝備/作戰/採購細節",
-    "第二點：背後戰略意圖、軍工背景或官方立場",
-    "第三點：對區域安全、第一島鏈或地緣格局的影響研判"
+    "第一點：核心事件與載具/武器/裝備行動細節",
+    "第二點：戰術意圖、官方敘事或灰色地帶施壓手法",
+    "第三點：對第一島鏈防務、戰略航道或地緣平衡的影響"
   ]
 }}
 
@@ -131,15 +133,24 @@ def send_to_discord(entry, feed_info):
     orig_summary = clean_html(entry.get("summary", entry.get("description", "")))
     thumb_url = extract_thumbnail(entry)
 
-    # 執行 AI 情報重點萃取
+    # 執行情報分析
     intel_data = analyze_with_gemini(orig_title, orig_summary)
 
+    fields = []
     if intel_data and "title_zh" in intel_data and "points" in intel_data:
         title = intel_data["title_zh"]
         points_text = "\n".join([f"🔹 {p}" for p in intel_data["points"]])
         description = f"{points_text}\n\n*原標題：{orig_title}*"
+        
+        # 加入海域與涉事方標籤欄位
+        region = intel_data.get("region", "全球 / 未特定海域")
+        actors = intel_data.get("actors", "未特定實體")
+        fields = [
+            {"name": "📍 戰略海空域", "value": f"`{region}`", "inline": True},
+            {"name": "⚔️ 涉事實體", "value": f"`{actors}`", "inline": True}
+        ]
     else:
-        # 降級處理：若 AI 失敗則直接使用原生英文截斷
+        # 降級處理
         title = orig_title
         description = orig_summary[:250] + "..."
 
@@ -149,8 +160,12 @@ def send_to_discord(entry, feed_info):
         "url": link,
         "description": description[:2000],
         "color": feed_info["color"],
-        "footer": {"text": "即時防務情報 • AI 三點式戰略摘要"}
+        "footer": {"text": "即時防務情報 • AI 灰色地帶觀測"}
     }
+    
+    if fields:
+        embed["fields"] = fields
+
     if thumb_url:
         embed["thumbnail"] = {"url": thumb_url}
 
