@@ -155,7 +155,9 @@ POLITICS_INCLUDE = re.compile(
 
 EXCLUDE_PATTERN = re.compile(
     r"(?i)\b(sponsored|advertisement|webinar|deals|review:|podcast|lifestyle|"
-    r"entertainment|sports|box office|smartphone|gaming laptop|geforce|rtx)\b"
+    r"entertainment|sports|box office|smartphone|gaming laptop|geforce|rtx|"
+    r"civil aviation|commercial airline|boeing 737|airbus a320|flight delay|"
+    r"video game|gameplay|war thunder|call of duty)\b"
 )
 
 def clean_html(html_text):
