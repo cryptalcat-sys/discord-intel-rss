@@ -2,8 +2,8 @@ name: Intel RSS Poller
 
 on:
   schedule:
-    - cron: '*/20 * * * *'  # 每 20 分鐘執行一次
-  workflow_dispatch:        # 保留手動觸發按鈕
+    - cron: '7,27,47 * * * *'  # 避開整數，在每小時的 07, 27, 47 分執行
+  workflow_dispatch:
 
 jobs:
   poll-and-send:
