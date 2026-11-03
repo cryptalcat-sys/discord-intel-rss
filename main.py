@@ -348,7 +348,26 @@ def send_to_discord(entry, feed_info, intel_data):
     link = clean_url(entry.get("link", ""))
     orig_summary = clean_html(entry.get("summary", entry.get("description", "")))
 
-    title = str(intel_data.get("title_zh") or orig_title).strip()
+    # 多鍵值相容：防止模型返回 "title" 或 "chinese_title"
+    raw_title_zh = (
+        intel_data.get("title_zh")
+        or intel_data.get("title")
+        or intel_data.get("chinese_title")
+        or intel_data.get("title_tw")
+    )
+
+    # 檢查標題是否真的包含中文字元
+    has_chinese = bool(re.search(r"[\u4e00-\u9fff]", str(raw_title_zh or "")))
+
+    topic_key = str(intel_data.get("topic_key", "")).strip()
+
+    if raw_title_zh and has_chinese:
+        title = str(raw_title_zh).strip()
+    elif topic_key:
+        # 若模型偷懶給了英文標題，直接借用已提煉好的中文 topic_key 組裝
+        title = f"【情報研判】{topic_key}"
+    else:
+        title = orig_title.strip()
     region_label = "🌐 戰略地緣陣營" if channel_type == "politics" else "📍 戰略海空域"
     actors_label = "⚖️ 核心博弈實體" if channel_type == "politics" else "⚔️ 涉事實體"
 
