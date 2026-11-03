@@ -12,7 +12,7 @@ WEBHOOK_POLITICS = os.environ.get("DISCORD_WEBHOOK_POLITICS") or os.environ.get(
 
 GROQ_API_KEY = os.environ.get("GROQ_API_KEY") or os.environ.get("GEMINI_API_KEY")
 HISTORY_FILE = "history.json"
-MAX_POSTS_PER_CHANNEL = 2  # 每個頻道每次執行最多推播 2 則
+MAX_POSTS_PER_CHANNEL = 2  # 每個頻道每次輪詢最多推播 2 則
 
 # ==================== 2. 訂閱來源清單 (18 組新聞、智庫與影音) ====================
 FEEDS = [
@@ -132,28 +132,23 @@ FEEDS = [
 # ==================== 3. 關鍵字過濾規範 ====================
 MILITARY_INCLUDE = re.compile(
     r"(?i)\b("
-    # 灰色地帶、海警與海上民兵
     r"coast guard|ccg|pcg|cga|maritime militia|militia vessel|water cannon|ramming|"
     r"gr[ae]y[- ]zone|adiz|air defense identification zone|median line|incursion|"
     r"standoff|blockade|joint patrol|encirclement|swarming|harassment|"
     r"combat readiness patrol|encircle|airspace violation|"
-    # 戰略節點與爭端島礁
     r"taiwan strait|south china sea|east china sea|first island chain|"
     r"bashi channel|miyako strait|luzon strait|tsushima strait|"
     r"second thomas|sabina shoal|scarborough|spratly|paracel|mischief reef|"
     r"fiery cross|subi reef|ren'?ai|xianbin|huangyan|senkaku|diaoyu|"
     r"kinmen|matsu|pratas|taiping island|"
-    # 水下與海軍
     r"navy|naval|plan|fleet|destroyer|frigate|corvette|cutter|"
     r"carrier|aircraft carrier|amphibious|landing ship|"
     r"submarine|\bssn\b|\bssbn\b|anti[- ]submarine|\basw\b|torpedo|sonar|"
-    # 空權與飛彈
     r"air force|plaf|fighter jet|bomber|stealth aircraft|"
     r"f[- ]35|f[- ]16|j[- ]20|j[- ]35|b[- ]21|h[- ]6k|"
     r"missile|ballistic missile|cruise missile|hypersonic|"
     r"air defense|patriot missile|nasams|thaad|aegis|himars|harpoon|"
     r"rocket force|plarf|strategic rocket|"
-    # 無人化、電戰與演訓
     r"drone|\buav\b|\busv\b|\buuv\b|unmanned|loitering munition|"
     r"counter[- ]drone|\bc[- ]uas\b|electronic warfare|radar jamming|"
     r"eastern theater command|southern theater command|indo[- ]pacific command|\bpentagon\b|"
@@ -164,23 +159,19 @@ MILITARY_INCLUDE = re.compile(
 
 POLITICS_INCLUDE = re.compile(
     r"(?i)\b("
-    # 台海法案、同盟與防務政策
     r"taiwan relations act|taiwan policy act|taipei act|taiwan assurance act|"
     r"six assurances|ndaa|national defense authorization act|"
     r"foreign military financing|\bfmf\b|presidential drawdown authority|\bpda\b|"
     r"arms sale|cross[- ]strait|status quo|one china policy|"
-    # 科技戰、地緣半導體與供應鏈
     r"chips act|semiconductor|advanced chip|ai chip|export control|entity list|"
     r"lithography|extreme ultraviolet|\beuv\b|advanced packaging|"
     r"tsmc|asml|smic|outbound investment|technology transfer|"
     r"decoupling|de[- ]risking|friend[- ]shoring|supply chain resilience|"
     r"clean network|telecom ban|"
-    # 外交大國博弈與同盟
     r"sanction|embargo|summit|bilateral|diplomat|treaty|sovereignty|"
     r"election|parliament|congress|white house|state department|"
     r"beijing|kremlin|politburo|national security council|"
     r"g7|brics|nato|un security council|quad|aukus|asean|"
-    # 貿易戰與經濟脅迫
     r"trade war|tariff|economic coercion|weaponized interdependence|"
     r"geopolit"
     r")\b"
@@ -207,7 +198,7 @@ def clean_url(raw_url):
     return match.group(0) if match else raw_url.strip()
 
 def resolve_feed_url(url):
-    """若為 YouTube 頻道首頁/handle 網址，自動抓取 channel_id 並轉化為標準 RSS 網址"""
+    """若為 YouTube 頻道 handle 網址，自動解析 channel_id 轉化為標準 RSS 網址"""
     if "youtube.com" in url and "videos.xml" not in url:
         try:
             headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"}
@@ -223,9 +214,63 @@ def resolve_feed_url(url):
             print(f"⚠️ 解析 YouTube 網址失敗 ({url}): {e}")
     return url
 
-# ==================== 5. Groq AI 智慧情報分析 ====================
+# ==================== 5. 歷史記錄與事件冷卻管理 ====================
+def load_history():
+    """讀取歷史紀錄，自動相容舊版 list 與新版 dict 結構"""
+    if os.path.exists(HISTORY_FILE):
+        try:
+            with open(HISTORY_FILE, "r", encoding="utf-8") as f:
+                data = json.load(f)
+                if isinstance(data, list):
+                    return {"ids": data, "events": []}
+                if isinstance(data, dict):
+                    return {
+                        "ids": data.get("ids", []),
+                        "events": data.get("events", [])
+                    }
+        except Exception:
+            return {"ids": [], "events": []}
+    return {"ids": [], "events": []}
+
+def save_history(history_data):
+    """保存歷史紀錄，事件冷卻池保留 48 小時以內的事件，保留最近 500 個網址 ID"""
+    current_time = time.time()
+    history_data["events"] = [
+        ev for ev in history_data.get("events", [])
+        if current_time - ev.get("timestamp", 0) < 172800
+    ]
+    history_data["ids"] = history_data.get("ids", [])[-500:]
+
+    with open(HISTORY_FILE, "w", encoding="utf-8") as f:
+        json.dump(history_data, f, ensure_ascii=False, indent=2)
+
+def is_duplicate_event(topic_key, recent_events):
+    """比對新事件與近 24 小時內已推播事件的語意指紋重疊度"""
+    if not topic_key:
+        return False
+    current_time = time.time()
+    candidate_chars = set(re.sub(r"\s+", "", topic_key))
+    if not candidate_chars:
+        return False
+
+    for ev in recent_events:
+        # 只比對 24 小時以內 (86400 秒) 的事件
+        if current_time - ev.get("timestamp", 0) > 86400:
+            continue
+        past_key = ev.get("key", "")
+        past_chars = set(re.sub(r"\s+", "", past_key))
+        if not past_chars:
+            continue
+
+        overlap = len(candidate_chars & past_chars)
+        min_len = min(len(candidate_chars), len(past_chars))
+        if min_len > 0 and (overlap / min_len) >= 0.65:
+            return True
+    return False
+
+# ==================== 6. Groq AI 智慧情報分析 ====================
 def analyze_with_groq(orig_title, orig_summary, channel_type):
-    """呼叫 Groq API (qwen/qwen3.8-27b) 生成專屬結構化繁中情報，附帶 429 限速重試"""
+    """呼叫 Groq API (qwen/qwen3.8-27b) 生成專屬結構化繁中情報與事件指紋"""
     if not GROQ_API_KEY:
         print("❌ 未偵測到 GROQ_API_KEY！")
         return None
@@ -278,7 +323,6 @@ def analyze_with_groq(orig_title, orig_summary, channel_type):
         "max_tokens": 500
     }
 
-    # 執行最多 2 次請求（遇 429 限速時等待 15 秒自動重試）
     for attempt in range(2):
         try:
             resp = requests.post(url, headers=headers, json=payload, timeout=20)
@@ -300,8 +344,8 @@ def analyze_with_groq(orig_title, orig_summary, channel_type):
 
     return None
 
-# ==================== 6. Discord 推播發送 ====================
-def send_to_discord(entry, feed_info):
+# ==================== 7. Discord 推播發送 ====================
+def send_to_discord(entry, feed_info, intel_data):
     channel_type = feed_info.get("channel", "military")
     webhook_target = WEBHOOK_POLITICS if channel_type == "politics" else WEBHOOK_MILITARY
 
@@ -312,13 +356,6 @@ def send_to_discord(entry, feed_info):
     orig_title = entry.get("title", "No Title")
     link = clean_url(entry.get("link", ""))
     orig_summary = clean_html(entry.get("summary", entry.get("description", "")))
-
-    intel_data = analyze_with_groq(orig_title, orig_summary, channel_type)
-
-    # 關鍵防護：若 AI 分析失敗，直接跳過不發送，絕不把英文原文發到頻道中！
-    if not intel_data or not isinstance(intel_data, dict):
-        print(f"⏩ 跳過推播：[{orig_title[:30]}...] 未能取得 AI 繁中摘要，留待下輪處理。")
-        return False
 
     title = str(intel_data.get("title_zh") or orig_title).strip()
     region_label = "🌐 戰略地緣陣營" if channel_type == "politics" else "📍 戰略海空域"
@@ -374,27 +411,16 @@ def send_to_discord(entry, feed_info):
         print(f"❌ Discord 發送異常: {e}")
         return False
 
-# ==================== 7. 歷史記錄管理 ====================
-def load_history():
-    if os.path.exists(HISTORY_FILE):
-        try:
-            with open(HISTORY_FILE, "r", encoding="utf-8") as f:
-                return json.load(f)
-        except Exception:
-            return []
-    return []
-
-def save_history(history):
-    with open(HISTORY_FILE, "w", encoding="utf-8") as f:
-        json.dump(history[-300:], f, ensure_ascii=False, indent=2)
-
 # ==================== 8. 主排程迴圈 ====================
 def main():
-    history = load_history()
-    is_initial_run = len(history) == 0
-    new_ids = []
+    history_data = load_history()
+    existing_ids = set(history_data.get("ids", []))
+    recent_events = history_data.get("events", [])
+    is_initial_run = len(existing_ids) == 0
 
-    # 記錄各頻道本次執行的推播總數
+    new_ids = []
+    new_events = []
+
     channel_counts = {
         "military": 0,
         "politics": 0
@@ -403,12 +429,12 @@ def main():
     for feed_info in FEEDS:
         channel_type = feed_info.get("channel", "military")
 
-        # 若兩個頻道都已經達到 2 則上限，提前結束整輪檢查
+        # 若雙頻道皆已達上限，提前結束
         if all(count >= MAX_POSTS_PER_CHANNEL for count in channel_counts.values()):
-            print("🏁 雙頻道皆已達本次推播上限 (各 2 則)，提前結束本輪執行。")
+            print("🏁 雙頻道皆已達本輪推播上限 (各 2 則)，結束本輪執行。")
             break
 
-        # 若當前頻道已滿 2 則，跳過該來源，留給下個 20 分鐘
+        # 當前頻道若已滿額，跳過後續來源
         if channel_counts[channel_type] >= MAX_POSTS_PER_CHANNEL:
             continue
 
@@ -418,47 +444,65 @@ def main():
         parsed = feedparser.parse(target_feed_url)
 
         for entry in parsed.entries:
-            # 檢查該頻道是否在此來源中達到上限
             if channel_counts[channel_type] >= MAX_POSTS_PER_CHANNEL:
                 break
 
             entry_id = entry.get("id", entry.get("link", ""))
-            if not entry_id or entry_id in history or entry_id in new_ids:
+            if not entry_id or entry_id in existing_ids or entry_id in new_ids:
                 continue
 
             title = entry.get("title", "")
             summary = entry.get("summary", entry.get("description", ""))
             content_to_check = f"{title} {summary}"
 
-            # 首次運行只記錄不推播，避免歷史海量灌水
+            # 首次運行只記錄不推播，防歷史灌水
             if is_initial_run:
                 new_ids.append(entry_id)
                 continue
 
+            # 排除廣告或娛樂
             if EXCLUDE_PATTERN.search(content_to_check):
                 new_ids.append(entry_id)
                 continue
 
+            # 頻道關鍵字過濾
             matcher = POLITICS_INCLUDE if channel_type == "politics" else MILITARY_INCLUDE
             if not matcher.search(content_to_check):
                 new_ids.append(entry_id)
                 continue
 
-            # 發送情報推播
-            success = send_to_discord(entry, feed_info)
-            if success:
-                print(f"✅ [{channel_type}] 已發送 ({channel_counts[channel_type] + 1}/{MAX_POSTS_PER_CHANNEL}): {title}")
+            # 執行 Groq AI 分析
+            intel_data = analyze_with_groq(title, summary, channel_type)
+            if not intel_data or not isinstance(intel_data, dict):
+                print(f"⏩ 跳過推播：[{title[:30]}...] 未能取得 AI 分析，留待下輪處理。")
+                continue
+
+            topic_key = str(intel_data.get("topic_key", "")).strip()
+
+            # 語意去重：檢查 24 小時內是否已報導過相同核心事件
+            if is_duplicate_event(topic_key, recent_events + new_events):
+                print(f"⏩ 命中事件冷卻池：[{topic_key}] 近 24 小時內已推播過相關報導，跳過本篇並標記已讀。")
                 new_ids.append(entry_id)
+                continue
+
+            # 發送情報推播
+            success = send_to_discord(entry, feed_info, intel_data)
+            if success:
+                print(f"✅ [{channel_type}] 已發送 ({channel_counts[channel_type] + 1}/{MAX_POSTS_PER_CHANNEL}): {title} [{topic_key}]")
+                new_ids.append(entry_id)
+                if topic_key:
+                    new_events.append({"key": topic_key, "timestamp": time.time()})
                 channel_counts[channel_type] += 1
-                # 間隔 8 秒釋放 Token
                 time.sleep(8)
             else:
                 print(f"未推播成功，不計入歷史，下次輪詢將自動重試。")
 
-    if new_ids:
-        history.extend(new_ids)
-        save_history(history)
-        print(f"更新完畢，本次共新增記錄 {len(new_ids)} 筆項目。")
+    # 更新並儲存歷史
+    if new_ids or new_events:
+        history_data["ids"].extend(new_ids)
+        history_data["events"].extend(new_events)
+        save_history(history_data)
+        print(f"歷史記錄更新完畢：新增 {len(new_ids)} 筆已讀 ID，新增 {len(new_events)} 個事件指紋。")
     
     print(f"📊 本輪推播統計：軍聞 {channel_counts['military']}/{MAX_POSTS_PER_CHANNEL} 則 | 政局 {channel_counts['politics']}/{MAX_POSTS_PER_CHANNEL} 則。")
 
