@@ -16,7 +16,7 @@ MAX_POSTS_PER_CHANNEL = 2  # 每個頻道每次執行最多推播 2 則
 
 # ==================== 2. 訂閱來源清單 (18 組新聞、智庫與影音) ====================
 FEEDS = [
-    # -------------------- 🛡️ 戰略與軍聞頻道 --------------------
+    # ==================== 🛡️ 戰略與軍聞頻道 (印太核心 70% + 全球防務 30%) ====================
     {
         "name": "The War Zone",
         "url": "https://www.twz.com/feed",
@@ -36,6 +36,18 @@ FEEDS = [
         "color": 0x2D6A4F
     },
     {
+        "name": "Breaking Defense (全域防務科技)",
+        "url": "https://breakingdefense.com/feed/",
+        "channel": "military",
+        "color": 0x0B3C5D
+    },
+    {
+        "name": "RUSI (英國皇家三軍防務研究所)",
+        "url": "https://www.rusi.org/rss/all",
+        "channel": "military",
+        "color": 0x8B0000
+    },
+    {
         "name": "Naval News (全球海事防務)",
         "url": "https://www.navalnews.com/feed/",
         "channel": "military",
@@ -47,6 +59,7 @@ FEEDS = [
         "channel": "military",
         "color": 0x900C3F
     },
+    # --- YouTube 專題影音 ---
     {
         "name": "Perun (防務戰略與後勤)",
         "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCC3ehuUksTyQ7bbjGntmx3Q",
@@ -151,28 +164,33 @@ FEEDS = [
 # ==================== 3. 關鍵字過濾規範 ====================
 MILITARY_INCLUDE = re.compile(
     r"(?i)\b("
+    # ---------------- 1. 印太第一島鏈與灰色地帶衝突 (70% 核心) ----------------
+    r"taiwan strait|south china sea|east china sea|first island chain|"
+    r"bashi channel|miyako strait|luzon strait|tsushima strait|"
     r"coast guard|ccg|pcg|cga|maritime militia|militia vessel|water cannon|ramming|"
     r"gr[ae]y[- ]zone|adiz|air defense identification zone|median line|incursion|"
     r"standoff|blockade|joint patrol|encirclement|swarming|harassment|"
-    r"combat readiness patrol|encircle|airspace violation|"
-    r"taiwan strait|south china sea|east china sea|first island chain|"
-    r"bashi channel|miyako strait|luzon strait|tsushima strait|"
     r"second thomas|sabina shoal|scarborough|spratly|paracel|mischief reef|"
     r"fiery cross|subi reef|ren'?ai|xianbin|huangyan|senkaku|diaoyu|"
     r"kinmen|matsu|pratas|taiping island|"
+    r"eastern theater command|southern theater command|indo[- ]pacific command|"
+    r"joint sword|han kuang|balikatan|rimpac|live[- ]fire|drills|war game|"
+    # ---------------- 2. 常規海空載具與現代作戰編隊 ----------------
     r"navy|naval|plan|fleet|destroyer|frigate|corvette|cutter|"
-    r"carrier|aircraft carrier|amphibious|landing ship|"
+    r"carrier|aircraft carrier|amphibious|landing ship|marines|"
     r"submarine|\bssn\b|\bssbn\b|anti[- ]submarine|\basw\b|torpedo|sonar|"
     r"air force|plaf|fighter jet|bomber|stealth aircraft|"
-    r"f[- ]35|f[- ]16|j[- ]20|j[- ]35|b[- ]21|h[- ]6k|"
-    r"missile|ballistic missile|cruise missile|hypersonic|"
-    r"air defense|patriot missile|nasams|thaad|aegis|himars|harpoon|"
-    r"rocket force|plarf|strategic rocket|"
-    r"drone|\buav\b|\busv\b|\buuv\b|unmanned|loitering munition|"
-    r"counter[- ]drone|\bc[- ]uas\b|electronic warfare|radar jamming|"
-    r"eastern theater command|southern theater command|indo[- ]pacific command|\bpentagon\b|"
-    r"joint sword|han kuang|balikatan|rimpac|live[- ]fire|drills|war game|"
-    r"taiwan|ukraine|russia"
+    r"f[- ]35|f[- ]16|j[- ]20|j[- ]35|b[- ]21|h[- ]6k|su[- ]57|"
+    # ---------------- 3. 全球實戰經驗：無人戰術、電戰與防空反導 (30% 全球) ----------------
+    r"drone|\buav\b|\busv\b|\buuv\b|unmanned|loitering munition|\bfpv\b|"
+    r"counter[- ]drone|\bc[- ]uas\b|electronic warfare|radar jamming|spectrum|"
+    r"missile|ballistic missile|cruise missile|hypersonic|\bhgv\b|"
+    r"air defense|patriot|nasams|thaad|aegis|himars|harpoon|tomahawk|sm[- ]6|pac[- ]3|"
+    r"cjadc2|command and control|multi[- ]domain|space force|counter[- ]space|"
+    # ---------------- 4. 全球戰略咽喉與兵力牽制熱點 (30% 全球) ----------------
+    r"red sea|bab el[- ]mandeb|strait of hormuz|persian gulf|black sea|baltic sea|"
+    r"giuk gap|suwalki gap|arctic defense|"
+    r"houthi|pentagon|nato|nuclear triad|deterrence"
     r")\b"
 )
 
