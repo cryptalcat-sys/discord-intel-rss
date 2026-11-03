@@ -72,7 +72,7 @@ FEEDS = [
         "color": 0x00897B
     },
 
-    # -------------------- 🏛️ 政局觀測所 --------------------
+    # ==================== 🏛️ 政局觀測所 (印太核心 + 全球戰略視野) ====================
     {
         "name": "Foreign Affairs (外交事務)",
         "url": "https://www.foreignaffairs.com/rss.xml",
@@ -84,6 +84,24 @@ FEEDS = [
         "url": "https://www.csis.org/rss.xml",
         "channel": "politics",
         "color": 0x002B49
+    },
+    {
+        "name": "Atlantic Council (大西洋理事會)",
+        "url": "https://www.atlanticcouncil.org/feed/",
+        "channel": "politics",
+        "color": 0x2A4D69
+    },
+    {
+        "name": "ECFR (歐洲對外關係委員會)",
+        "url": "https://ecfr.eu/feed/",
+        "channel": "politics",
+        "color": 0x0055A5
+    },
+    {
+        "name": "Carnegie Endowment (卡內基國際和平)",
+        "url": "https://carnegieendowment.org/rss/solr",
+        "channel": "politics",
+        "color": 0x4A6984
     },
     {
         "name": "Jamestown China Brief (中共戰略簡報)",
@@ -115,6 +133,7 @@ FEEDS = [
         "channel": "politics",
         "color": 0x8E24AA
     },
+    # --- YouTube 智庫與國際戰略影音 ---
     {
         "name": "CSIS 官方戰略影音",
         "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCr5jq6MC_VCe1c5ciIZtk_w",
@@ -159,19 +178,25 @@ MILITARY_INCLUDE = re.compile(
 
 POLITICS_INCLUDE = re.compile(
     r"(?i)\b("
+    # 1. 台海法案、同盟承諾與防務政策 (核心)
     r"taiwan relations act|taiwan policy act|taipei act|taiwan assurance act|"
     r"six assurances|ndaa|national defense authorization act|"
     r"foreign military financing|\bfmf\b|presidential drawdown authority|\bpda\b|"
     r"arms sale|cross[- ]strait|status quo|one china policy|"
+    # 2. 半導體科技戰、先進封裝與供應鏈自主 (核心)
     r"chips act|semiconductor|advanced chip|ai chip|export control|entity list|"
     r"lithography|extreme ultraviolet|\beuv\b|advanced packaging|"
     r"tsmc|asml|smic|outbound investment|technology transfer|"
     r"decoupling|de[- ]risking|friend[- ]shoring|supply chain resilience|"
-    r"clean network|telecom ban|"
-    r"sanction|embargo|summit|bilateral|diplomat|treaty|sovereignty|"
-    r"election|parliament|congress|white house|state department|"
-    r"beijing|kremlin|politburo|national security council|"
-    r"g7|brics|nato|un security council|quad|aukus|asean|"
+    r"clean network|telecom ban|rare earth|critical minerals|"
+    # 3. 印太與大國同盟機制
+    r"quad|aukus|g7|brics|nato|un security council|asean|ap4|"
+    r"beijing|kremlin|politburo|white house|state department|pentagon|"
+    # 4. 全球戰略連動：跨大西洋、中俄朝軸心與全球咽喉節點 (擴充)
+    r"transatlantic|eu[- ]china|european union|european commission|"
+    r"russia[- ]china|sino[- ]russian|north korea[- ]russia|axis of resistance|"
+    r"red sea|bab el[- ]mandeb|strait of hormuz|suez canal|malacca strait|"
+    r"sanction|secondary sanction|embargo|summit|bilateral|diplomat|treaty|sovereignty|"
     r"trade war|tariff|economic coercion|weaponized interdependence|"
     r"geopolit"
     r")\b"
