@@ -520,6 +520,11 @@ def main():
             if not entry_id or entry_id in existing_ids or entry_id in new_ids:
                 continue
 
+            # 🛑 時效守門員：超過 48 小時的陳年文章直接略過並記錄，防止往後挖舊文
+            if not is_entry_fresh(entry, max_hours=MAX_ARTICLE_AGE_HOURS):
+                new_ids.append(entry_id)  # 標記已讀，避免每輪重複解析時間
+                continue
+
             title = entry.get("title", "")
             summary = entry.get("summary", entry.get("description", ""))
             content_to_check = f"{title} {summary}"
