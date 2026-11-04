@@ -307,13 +307,12 @@ def is_entry_fresh(entry, max_hours=48):
 
 # ==================== 5. Google Gemini AI 智慧情報分析 (繁中強制防線) ====================
 def analyze_with_gemini(orig_title, orig_summary, channel_type):
-    # 支援讀取 GEMINI_API_KEY 或沿用現有的 GROQ_API_KEY 變數
     api_key = os.environ.get("GEMINI_API_KEY") or os.environ.get("GROQ_API_KEY")
     if not api_key:
         print("❌ 未偵測到 GEMINI_API_KEY 或 GROQ_API_KEY！")
         return None
 
-    # 使用 Google 官方 OpenAI 相容 Endpoint，免費額度極高且支援繁中
+    # 使用 Google 官方相容 Endpoint
     url = "https://generativelanguage.googleapis.com/v1beta/openai/chat/completions"
     headers = {
         "Authorization": f"Bearer {api_key}",
@@ -324,9 +323,9 @@ def analyze_with_gemini(orig_title, orig_summary, channel_type):
         system_prompt = """你是一名專精國際關係與地緣政治的資深情報分析官。
 請分析該政經外交情報，嚴格以繁體中文輸出符合以下結構的 JSON 物件：
 {
-  "topic_key": "歸納本事件核心主體與事件動作（4-8字，如：美中晶片管制、G7涉台聲明、菲律賓南海仲裁、東協緬甸危機、日本自民黨選舉）",
+  "topic_key": "歸納本事件核心主體與事件動作（4-8字，如：美中晶片管制、G7涉台聲明、菲律賓南海仲裁、日本自民黨選舉）",
   "title_zh": "【必須翻譯為繁體中文】請將原標題完整翻譯並提煉為具宏觀政治洞察的繁體中文標題，嚴格禁止保留英文原標題",
-  "region": "標註受影響之核心地緣區域或國際陣營（如：第一島鏈、歐盟體系、台海周邊、中東紅海、美中博弈前線）",
+  "region": "標註受影響之核心地緣區域或國際陣營（如：第一島鏈、歐盟體系、台海周邊、美中博弈前線）",
   "actors": "標註核心博弈實體（格式：主體 A vs 主體 B）",
   "points": [
     "第一點：核心外交決策、法案制裁、政權更迭或政局事件事實",
@@ -338,7 +337,7 @@ def analyze_with_gemini(orig_title, orig_summary, channel_type):
         system_prompt = """你是一名專精印太地緣防務軍事的情報分析官。
 請分析防務情報，嚴格以繁體中文輸出符合以下結構的 JSON 物件：
 {
-  "topic_key": "歸納本事件核心載具/行動與地點（4-8字，如：美艦穿越台海、仁愛暗沙海警衝突、漢光無人機兵推、F-16升級採購、紅海無人機防空）",
+  "topic_key": "歸納本事件核心載具/行動與地點（4-8字，如：美艦穿越台海、仁愛暗沙海警衝突、漢光無人機兵推、紅海無人機防空）",
   "title_zh": "【必須翻譯為繁體中文】請將原標題完整翻譯並提煉為具軍事術語的繁體中文標題，嚴格禁止保留英文原標題",
   "region": "標註衝突所屬海空域（如：台海中線、南海仁愛暗沙、巴士海峽、紅海航道、黑海前線）",
   "actors": "標註主要對峙實體（格式：主體 A vs 主體 B）",
@@ -349,8 +348,8 @@ def analyze_with_gemini(orig_title, orig_summary, channel_type):
   ]
 }"""
 
-    # 截取前 1000 字已足以涵蓋智庫與防務新聞核心論點
-    user_content = f"新聞標題：{orig_title}\n新聞內容：{orig_summary[:1000]}"
+    # 截取前 800 字，既能精準掌握核心又大幅提升模型生成速度
+    user_content = f"新聞標題：{orig_title}\n新聞內容：{orig_summary[:800]}"
     payload = {
         "model": "gemini-3.8-flash",
         "messages": [
@@ -358,12 +357,14 @@ def analyze_with_gemini(orig_title, orig_summary, channel_type):
             {"role": "user", "content": user_content}
         ],
         "response_format": {"type": "json_object"},
-        "temperature": 0.2
+        "temperature": 0.2,
+        "max_tokens": 500  # 限制輸出長度，加速回應
     }
 
     for attempt in range(2):
         try:
-            resp = requests.post(url, headers=headers, json=payload, timeout=25)
+            # ⏱️ 將 timeout 由 25 秒放寬至 60 秒，給予充分生成時間
+            resp = requests.post(url, headers=headers, json=payload, timeout=60)
             if resp.status_code == 200:
                 raw_text = resp.json()["choices"][0]["message"]["content"].strip()
                 if raw_text.startswith("```"):
@@ -376,13 +377,15 @@ def analyze_with_gemini(orig_title, orig_summary, channel_type):
             else:
                 print(f"❌ Gemini API 錯誤: HTTP {resp.status_code} - {resp.text}")
                 break
+        except requests.exceptions.Timeout:
+            print(f"⏳ Gemini 生成逾時 (嘗試 {attempt + 1}/2)，正在重試...")
+            time.sleep(3)
         except Exception as e:
             print(f"❌ Gemini 分析異常: {e}")
             break
 
     return None
 
-# 向下相容別名，確保主排程迴圈無需更動
 analyze_with_groq = analyze_with_gemini
 
 # ==================== 6. 跨媒體語意去重與歷史管理 ====================
