@@ -345,27 +345,27 @@ def analyze_with_ai(orig_title, orig_summary, channel_type):
 
     user_content = f"新聞標題：{orig_title}\n新聞內容：{orig_summary[:800]}"
 
-    # 🚀 跨雲端階梯式備援管線 (依序嘗試，成功即止)
+    # 🚀 終極跨雲端容災管線
     pipeline = [
         {
-            "name": "Gemini-3.8-Flash (首選主力)",
+            "name": "Gemini-3.5-Flash-Lite (極速首選主力)",
+            "url": "https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+            "key": gemini_key,
+            "model": "gemini-3.5-flash-lite",
+            "timeout": 20
+        },
+        {
+            "name": "Gemini-3.8-Flash (Google 旗艦備援)",
             "url": "https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
             "key": gemini_key,
             "model": "gemini-3.8-flash",
             "timeout": 35
         },
         {
-            "name": "Gemini-3.5-Flash-Lite (Google 備援)",
-            "url": "https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
-            "key": gemini_key,
-            "model": "gemini-3.5-flash-lite",
-            "timeout": 25
-        },
-        {
-            "name": "Groq-Llama-3.1-8B (跨雲極速備援)",
+            "name": "Groq-Qwen-3.8-27B (跨雲有效托底)",
             "url": "https://api.groq.com/openai/v1/chat/completions",
             "key": groq_key,
-            "model": "llama-3.1-8b-instant",
+            "model": "qwen/qwen3.8-27b",
             "timeout": 20
         }
     ]
