@@ -350,7 +350,7 @@ def analyze_with_gemini(orig_title, orig_summary, channel_type):
     user_content = f"新聞標題：{orig_title}\n新聞內容：{orig_summary[:800]}"
 
     # 階梯式備援名單：遇到 503 / 429 自動依序切換
-    candidate_models = ["gemini-3.8-flash", "gemini-2.5-flash-lite"]
+    candidate_models = ["gemini-3.8-flash", "gemini-3.5-flash-lite"]
 
     for model_name in candidate_models:
         payload = {
