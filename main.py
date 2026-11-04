@@ -547,18 +547,28 @@ def main():
 
         target_feed_url = resolve_feed_url(feed_info["url"])
 
-        # 🛡️ 防卡死安全抓取：強制 12 秒連線逾時，避免來源當機導致整體流程卡死
+        # 🛡️ 防卡死與防 403 雙層防線
+        parsed = None
         try:
             req_headers = {
-                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+                "Accept": "application/rss+xml, application/xml, text/xml, */*"
             }
             r = requests.get(target_feed_url, headers=req_headers, timeout=12)
-            if r.status_code != 200:
-                print(f"⚠️ 來源回應非 200 (HTTP {r.status_code})，跳過: {feed_info['name']}")
+            if r.status_code == 200:
+                parsed = feedparser.parse(r.content)
+            elif r.status_code == 403:
+                # 若遭反爬蟲擋下，退回由 feedparser 內建網路模組重試
+                print(f"⚠️ 來源回應 403，改由 feedparser 原生解析: {feed_info['name']}")
+                parsed = feedparser.parse(target_feed_url)
+            else:
+                print(f"⚠️ 來源回應 HTTP {r.status_code}，跳過: {feed_info['name']}")
                 continue
-            parsed = feedparser.parse(r.content)
         except Exception as e:
             print(f"⚠️ 抓取來源逾時或連線失敗 ({feed_info['name']}): {e}，跳過。")
+            continue
+
+        if not parsed or not parsed.entries:
             continue
 
         for entry in parsed.entries:
