@@ -90,6 +90,25 @@ FEEDS = [
     },
 
     # ==================== 🏛️ 政局觀測所 (印太核心 + 全球戰略視野) ====================
+    # ─── 地緣經貿與科技戰線（台灣供應鏈與全球經濟安全） ───
+    {
+        "name": "PIIE 彼得森國際經濟研究所",
+        "url": "https://www.piie.com/rss.xml",
+        "channel": "politics",
+        "color": 0x0A2540  # 經貿深藍
+    },
+    {
+        "name": "Bruegel 布魯塞爾全球經濟研究所",
+        "url": "https://www.bruegel.org/rss.xml",
+        "channel": "politics",
+        "color": 0x1E40AF  # 歐盟經濟藍
+    },
+    {
+        "name": "MERICS 柏林墨卡托中國研究中心",
+        "url": "https://merics.org/en/rss.xml",
+        "channel": "politics",
+        "color": 0xC2410C  # 戰略深橙
+    },
     {
         "name": "Foreign Affairs (外交事務)",
         "url": "https://www.foreignaffairs.com/rss.xml",
@@ -569,8 +588,10 @@ def send_to_discord(entry, feed_info, intel_data):
         print(f"❌ Discord 發送異常: {e}")
         return False
 
-# ==================== 8. 主排程迴圈 ====================
+# ==================== 8. 主排程迴圈 (隨機均勻輪詢架構) ====================
 def main():
+    import random  # 導入隨機洗牌模組
+
     history = load_history()
     existing_ids = set(history.get("ids", []))
     recent_events = history.get("events", [])
@@ -587,15 +608,19 @@ def main():
 
     max_article_age = globals().get("MAX_ARTICLE_AGE_HOURS", 48)
 
-    for feed_info in FEEDS:
+    # 🎲 核心優化：每次執行皆隨機洗牌來源順序，打破固定由上而下的優先權壟斷
+    shuffled_feeds = list(FEEDS)
+    random.shuffle(shuffled_feeds)
+
+    for feed_info in shuffled_feeds:
         channel_type = feed_info.get("channel", "military")
 
-        # 雙頻道皆達到上限時提前終止巡邏
+        # 雙頻道皆達到上限時提前退出
         if all(count >= MAX_POSTS_PER_CHANNEL for count in channel_counts.values()):
             print("🏁 雙頻道皆已達本次推播上限 (各 2 則)，結束本輪巡邏。")
             break
 
-        # 單一頻道若已達上限則跳過該頻道的後續來源
+        # 單一頻道已達上限時跳過該頻道的來源
         if channel_counts[channel_type] >= MAX_POSTS_PER_CHANNEL:
             continue
 
@@ -603,7 +628,7 @@ def main():
 
         target_feed_url = resolve_feed_url(feed_info["url"])
 
-        # 🛡️ 防卡死與防 403 雙層防線
+        # 🛡️ 防卡死與防 403 雙層抓取防線
         parsed = None
         try:
             req_headers = {
@@ -614,7 +639,6 @@ def main():
             if r.status_code == 200:
                 parsed = feedparser.parse(r.content)
             elif r.status_code == 403:
-                # 若遭反爬蟲擋下，退回由 feedparser 內建網路模組重試
                 print(f"⚠️ 來源回應 403，改由 feedparser 原生解析: {feed_info['name']}")
                 parsed = feedparser.parse(target_feed_url)
             else:
@@ -635,7 +659,7 @@ def main():
             if not entry_id or entry_id in existing_ids or entry_id in new_ids:
                 continue
 
-            # 🛑 時效守門員：只抓 48 小時內新文章，封殺數月前的陳年舊聞
+            # 🛑 時效守門員：超過指定時效的舊文章直接略過並標記已讀
             if "is_entry_fresh" in globals() and not is_entry_fresh(entry, max_hours=max_article_age):
                 new_ids.append(entry_id)
                 continue
@@ -644,38 +668,38 @@ def main():
             summary = entry.get("summary", entry.get("description", ""))
             content_to_check = f"{title} {summary}"
 
-            # 首次運行建立基準線，只記錄不推播，防止海量歷史洗版
+            # 首次運行只建立歷史基準線，不推播
             if is_initial_run:
                 new_ids.append(entry_id)
                 continue
 
-            # 排除廣告、娛樂與民用航空等無關雜訊
+            # 排除廣告或娛樂雜訊
             if EXCLUDE_PATTERN.search(content_to_check):
                 new_ids.append(entry_id)
                 continue
 
-            # 命中關鍵字匹配 (70/30 架構 + 在地政治動態)
+            # 命中關鍵字匹配（含地緣經貿與防務）
             matcher = POLITICS_INCLUDE if channel_type == "politics" else MILITARY_INCLUDE
             if not matcher.search(content_to_check):
                 new_ids.append(entry_id)
                 continue
 
-            # 呼叫 Groq 進行智慧分析與主題指紋提取
-            intel_data = analyze_with_groq(title, summary, channel_type)
+            # 呼叫跨雲 AI 管線進行分析與提煉
+            intel_data = analyze_with_ai(title, summary, channel_type)
             if not intel_data or not isinstance(intel_data, dict):
                 print(f"⏩ 跳過推播：[{title[:25]}...] AI 分析未就緒，留待下輪處理。")
                 continue
 
             topic_key = str(intel_data.get("topic_key", "")).strip()
 
-            # 跨來源事件語意去重檢查（24 小時事件記憶池）
+            # 跨來源 24 小時語意冷卻池檢查
             combined_events = recent_events + new_events
             if is_duplicate_event(topic_key, combined_events):
                 print(f"⏩ 命中同事件冷卻池：[{topic_key}] 近 24 小時內已推播過相關報導，略過此來源。")
-                new_ids.append(entry_id)  # 標記已讀，避免後續重複比對
+                new_ids.append(entry_id)
                 continue
 
-            # 正式推播至 Discord
+            # 正式發送 Discord 推播
             success = send_to_discord(entry, feed_info, intel_data)
             if success:
                 print(f"✅ [{channel_type}] 已發送 ({channel_counts[channel_type] + 1}/{MAX_POSTS_PER_CHANNEL}): {title}")
