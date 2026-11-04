@@ -1,13 +1,6 @@
 name: Intel RSS Poller
 
 on:
-  schedule:
-    - cron: '7,27,47 * * * *'  # 避開整數，在每小時的 07, 27, 47 分執行
-  workflow_dispatch:
-
-name: Intel RSS Poller
-
-on:
   workflow_dispatch:
 
 # 🛡️ 防並發衝突：同一時間只允許一個工作流程執行，有新任務時自動取消舊任務
@@ -18,7 +11,7 @@ concurrency:
 jobs:
   poll-and-send:
     runs-on: ubuntu-latest
-    # ⏱️ 強制安全逾時：超過 5 分鐘直接強制結束，絕不卡死 28 分鐘
+    # ⏱️ 強制安全逾時：超過 5 分鐘直接強制結束，避免背景凍結
     timeout-minutes: 5
 
     steps:
