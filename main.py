@@ -311,7 +311,7 @@ def analyze_with_groq(orig_title, orig_summary, channel_type):
         print("❌ 未偵測到 GROQ_API_KEY！")
         return None
 
-    model_name = "llama-3.3-70b-versatile"
+    model_name = "qwen/qwen3.8-27b"
     url = "https://api.groq.com/openai/v1/chat/completions"
     headers = {
         "Authorization": f"Bearer {GROQ_API_KEY}",
