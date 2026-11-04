@@ -352,7 +352,7 @@ def analyze_with_gemini(orig_title, orig_summary, channel_type):
     # 截取前 1000 字已足以涵蓋智庫與防務新聞核心論點
     user_content = f"新聞標題：{orig_title}\n新聞內容：{orig_summary[:1000]}"
     payload = {
-        "model": "gemini-2.0-flash",
+        "model": "gemini-3.8-flash",
         "messages": [
             {"role": "system", "content": system_prompt},
             {"role": "user", "content": user_content}
