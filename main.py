@@ -518,7 +518,7 @@ def main():
     history = load_history()
     existing_ids = set(history.get("ids", []))
     recent_events = history.get("events", [])
-    
+
     is_initial_run = len(existing_ids) == 0
     new_ids = []
     new_events = []
@@ -529,26 +529,30 @@ def main():
         "politics": 0
     }
 
+    max_article_age = globals().get("MAX_ARTICLE_AGE_HOURS", 48)
+
     for feed_info in FEEDS:
         channel_type = feed_info.get("channel", "military")
 
-        # 雙頻道皆達到上限時提前退出
+        # 雙頻道皆達到上限時提前終止巡邏
         if all(count >= MAX_POSTS_PER_CHANNEL for count in channel_counts.values()):
             print("🏁 雙頻道皆已達本次推播上限 (各 2 則)，結束本輪巡邏。")
             break
 
-        # 單一頻道已達上限時跳過該頻道的來源
+        # 單一頻道若已達上限則跳過該頻道的後續來源
         if channel_counts[channel_type] >= MAX_POSTS_PER_CHANNEL:
             continue
 
-        print(f"正在檢查 [{channel_type}]: {feed_info['name']}")
+        print(f"🔍 正在檢查 [{channel_type}]: {feed_info['name']}")
 
         target_feed_url = resolve_feed_url(feed_info["url"])
 
-        # 安全抓取：強制 12 秒連線逾時，逾時自動跳過換下一個來源
+        # 🛡️ 防卡死安全抓取：強制 12 秒連線逾時，避免來源當機導致整體流程卡死
         try:
-            headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"}
-            r = requests.get(target_feed_url, headers=headers, timeout=12)
+            req_headers = {
+                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+            }
+            r = requests.get(target_feed_url, headers=req_headers, timeout=12)
             if r.status_code != 200:
                 print(f"⚠️ 來源回應非 200 (HTTP {r.status_code})，跳過: {feed_info['name']}")
                 continue
@@ -565,26 +569,26 @@ def main():
             if not entry_id or entry_id in existing_ids or entry_id in new_ids:
                 continue
 
-            # 🛑 時效守門員：超過 48 小時的陳年文章直接略過並記錄，防止往後挖舊文
-            if not is_entry_fresh(entry, max_hours=MAX_ARTICLE_AGE_HOURS):
-                new_ids.append(entry_id)  # 標記已讀，避免每輪重複解析時間
+            # 🛑 時效守門員：只抓 48 小時內新文章，封殺數月前的陳年舊聞
+            if "is_entry_fresh" in globals() and not is_entry_fresh(entry, max_hours=max_article_age):
+                new_ids.append(entry_id)
                 continue
 
             title = entry.get("title", "")
             summary = entry.get("summary", entry.get("description", ""))
             content_to_check = f"{title} {summary}"
 
-            # 首次運行只記錄不推播，防歷史海量洗版
+            # 首次運行建立基準線，只記錄不推播，防止海量歷史洗版
             if is_initial_run:
                 new_ids.append(entry_id)
                 continue
 
-            # 排除廣告或娛樂雜訊
+            # 排除廣告、娛樂與民用航空等無關雜訊
             if EXCLUDE_PATTERN.search(content_to_check):
                 new_ids.append(entry_id)
                 continue
 
-            # 命中關鍵字匹配
+            # 命中關鍵字匹配 (70/30 架構 + 在地政治動態)
             matcher = POLITICS_INCLUDE if channel_type == "politics" else MILITARY_INCLUDE
             if not matcher.search(content_to_check):
                 new_ids.append(entry_id)
@@ -598,14 +602,14 @@ def main():
 
             topic_key = str(intel_data.get("topic_key", "")).strip()
 
-            # 跨來源事件語意去重檢查（24 小時記憶池）
+            # 跨來源事件語意去重檢查（24 小時事件記憶池）
             combined_events = recent_events + new_events
             if is_duplicate_event(topic_key, combined_events):
                 print(f"⏩ 命中同事件冷卻池：[{topic_key}] 近 24 小時內已推播過相關報導，略過此來源。")
-                new_ids.append(entry_id)  # 標記為已讀，防止下次重複讀取
+                new_ids.append(entry_id)  # 標記已讀，避免後續重複比對
                 continue
 
-            # 正式發送推播
+            # 正式推播至 Discord
             success = send_to_discord(entry, feed_info, intel_data)
             if success:
                 print(f"✅ [{channel_type}] 已發送 ({channel_counts[channel_type] + 1}/{MAX_POSTS_PER_CHANNEL}): {title}")
@@ -615,13 +619,14 @@ def main():
                 channel_counts[channel_type] += 1
                 time.sleep(8)
             else:
-                print("推播未完成，不寫入歷史紀錄。")
+                print(f"❌ [{channel_type}] 推播失敗，不記錄於歷史。")
 
+    # 寫入歷史資料庫與事件指紋池
     if new_ids:
         history["ids"] = list(existing_ids.union(new_ids))
         history["events"] = recent_events + new_events
         save_history(history)
-        print(f"歷史更新完畢，本次共記錄 {len(new_ids)} 筆項目，新增 {len(new_events)} 個獨立事件指紋。")
+        print(f"💾 歷史更新完畢，本次共記錄 {len(new_ids)} 筆項目，新增 {len(new_events)} 個獨立事件指紋。")
 
     print(f"📊 本輪推播統計：軍聞 {channel_counts['military']}/{MAX_POSTS_PER_CHANNEL} 則 | 政局 {channel_counts['politics']}/{MAX_POSTS_PER_CHANNEL} 則。")
 
