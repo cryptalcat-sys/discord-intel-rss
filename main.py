@@ -240,7 +240,23 @@ def clean_url(raw_url):
     return match.group(0) if match else raw_url.strip()
 
 def resolve_feed_url(url):
-    def is_entry_fresh(entry, max_hours=48):
+    """若為 YouTube 頻道首頁/handle 網址，自動抓取 channel_id 並轉化為標準 RSS 網址"""
+    if "youtube.com" in url and "videos.xml" not in url:
+        try:
+            headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"}
+            r = requests.get(url, headers=headers, timeout=10)
+            m = re.search(r'["\']channelId["\']:\s*["\'](UC[\w-]+)["\']', r.text) or \
+                re.search(r'itemprop="channelId"\s+content="(UC[\w-]+)"', r.text) or \
+                re.search(r'/channel/(UC[\w-]+)', r.text)
+            if m:
+                channel_id = m.group(1)
+                print(f"🎬 成功解析 YouTube 頻道 ID [{channel_id}]: {url}")
+                return f"https://www.youtube.com/feeds/videos.xml?channel_id={channel_id}"
+        except Exception as e:
+            print(f"⚠️ 解析 YouTube 網址失敗 ({url}): {e}")
+    return url
+
+def is_entry_fresh(entry, max_hours=48):
     """檢查 RSS 條目的發布時間是否在指定小時數內"""
     parsed_time = entry.get("published_parsed") or entry.get("updated_parsed")
     if not parsed_time:
