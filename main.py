@@ -13,7 +13,7 @@ WEBHOOK_POLITICS = os.environ.get("DISCORD_WEBHOOK_POLITICS") or os.environ.get(
 GROQ_API_KEY = os.environ.get("GROQ_API_KEY") or os.environ.get("GEMINI_API_KEY")
 HISTORY_FILE = "history.json"
 MAX_POSTS_PER_CHANNEL = 2  # 每個頻道每次執行最多推播 2 則
-
+MAX_ARTICLE_AGE_HOURS = 48  # 只接受 48 小時內發布的新文章（封殺陳年舊聞）
 # ==================== 2. 訂閱來源清單 (18 組新聞、智庫與影音) ====================
 FEEDS = [
     # ==================== 🛡️ 戰略與軍聞頻道 (印太核心 70% + 全球防務 30%) ====================
