@@ -305,18 +305,14 @@ def is_entry_fresh(entry, max_hours=48):
             print(f"⚠️ 解析 YouTube 網址失敗 ({url}): {e}")
     return url
 
-# ==================== 5. Google Gemini AI 智慧情報分析 (雙模型 503 容災防線) ====================
-def analyze_with_gemini(orig_title, orig_summary, channel_type):
-    api_key = os.environ.get("GEMINI_API_KEY") or os.environ.get("GROQ_API_KEY")
-    if not api_key:
+# ==================== 5. Gemini + Groq 跨平台混合智能分析 (三道容災防線) ====================
+def analyze_with_ai(orig_title, orig_summary, channel_type):
+    gemini_key = os.environ.get("GEMINI_API_KEY")
+    groq_key = os.environ.get("GROQ_API_KEY")
+
+    if not gemini_key and not groq_key:
         print("❌ 未偵測到 GEMINI_API_KEY 或 GROQ_API_KEY！")
         return None
-
-    url = "https://generativelanguage.googleapis.com/v1beta/openai/chat/completions"
-    headers = {
-        "Authorization": f"Bearer {api_key}",
-        "Content-Type": "application/json"
-    }
 
     if channel_type == "politics":
         system_prompt = """你是一名專精國際關係與地緣政治的資深情報分析官。
@@ -349,12 +345,41 @@ def analyze_with_gemini(orig_title, orig_summary, channel_type):
 
     user_content = f"新聞標題：{orig_title}\n新聞內容：{orig_summary[:800]}"
 
-    # 階梯式備援名單：遇到 503 / 429 自動依序切換
-    candidate_models = ["gemini-3.8-flash", "gemini-3.5-flash-lite"]
+    # 🚀 跨雲端階梯式備援管線 (依序嘗試，成功即止)
+    pipeline = [
+        {
+            "name": "Gemini-3.8-Flash (首選主力)",
+            "url": "https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+            "key": gemini_key,
+            "model": "gemini-3.8-flash",
+            "timeout": 35
+        },
+        {
+            "name": "Gemini-3.5-Flash-Lite (Google 備援)",
+            "url": "https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+            "key": gemini_key,
+            "model": "gemini-3.5-flash-lite",
+            "timeout": 25
+        },
+        {
+            "name": "Groq-Llama-3.1-8B (跨雲極速備援)",
+            "url": "https://api.groq.com/openai/v1/chat/completions",
+            "key": groq_key,
+            "model": "llama-3.1-8b-instant",
+            "timeout": 20
+        }
+    ]
 
-    for model_name in candidate_models:
+    for node in pipeline:
+        if not node["key"]:
+            continue
+
+        headers = {
+            "Authorization": f"Bearer {node['key']}",
+            "Content-Type": "application/json"
+        }
         payload = {
-            "model": model_name,
+            "model": node["model"],
             "messages": [
                 {"role": "system", "content": system_prompt},
                 {"role": "user", "content": user_content}
@@ -365,32 +390,36 @@ def analyze_with_gemini(orig_title, orig_summary, channel_type):
         }
 
         try:
-            resp = requests.post(url, headers=headers, json=payload, timeout=40)
+            resp = requests.post(node["url"], headers=headers, json=payload, timeout=node["timeout"])
+            
             if resp.status_code == 200:
                 raw_text = resp.json()["choices"][0]["message"]["content"].strip()
                 if raw_text.startswith("```"):
                     raw_text = re.sub(r"^```[a-zA-Z]*\n?", "", raw_text)
                     raw_text = re.sub(r"\n?```$", "", raw_text)
                 return json.loads(raw_text.strip())
-            
-            # 捕捉 503 尖峰塞車或 429 速率限制，自動降級至下一組模型
-            elif resp.status_code in [503, 429]:
-                print(f"⚠️ 模型 [{model_name}] 遭遇 HTTP {resp.status_code}，正在自動切換至備援模型...")
+
+            elif resp.status_code in [429, 503, 404]:
+                print(f"⚠️ [{node['name']}] 回應 HTTP {resp.status_code}，自動切換至下一備援引擎...")
                 time.sleep(2)
                 continue
             else:
-                print(f"❌ Gemini API 錯誤 [{model_name}]: HTTP {resp.status_code} - {resp.text}")
+                print(f"⚠️ [{node['name']}] 回應異常 HTTP {resp.status_code}，切換備援...")
                 continue
+
         except requests.exceptions.Timeout:
-            print(f"⏳ 模型 [{model_name}] 回應逾時，切換至備援模型...")
+            print(f"⏳ [{node['name']}] 回應逾時，自動切換至下一備援引擎...")
             continue
         except Exception as e:
-            print(f"❌ 模型 [{model_name}] 分析異常: {e}")
+            print(f"⚠️ [{node['name']}] 連線異常: {e}，切換備援...")
             continue
 
+    print("❌ 所有 AI 推理引擎 (Gemini & Groq) 皆無法回應，本則跳過。")
     return None
 
-analyze_with_groq = analyze_with_gemini
+# 保持向下相容名稱，主迴圈完全不需要修改
+analyze_with_groq = analyze_with_ai
+analyze_with_gemini = analyze_with_ai
 
 # ==================== 6. 跨媒體語意去重與歷史管理 ====================
 def load_history():
