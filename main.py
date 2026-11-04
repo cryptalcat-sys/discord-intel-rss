@@ -305,16 +305,18 @@ def is_entry_fresh(entry, max_hours=48):
             print(f"⚠️ 解析 YouTube 網址失敗 ({url}): {e}")
     return url
 
-# ==================== 5. Groq AI 智慧情報分析 (加入核心指紋 topic_key) ====================
-def analyze_with_groq(orig_title, orig_summary, channel_type):
-    if not GROQ_API_KEY:
-        print("❌ 未偵測到 GROQ_API_KEY！")
+# ==================== 5. Google Gemini AI 智慧情報分析 (繁中強制防線) ====================
+def analyze_with_gemini(orig_title, orig_summary, channel_type):
+    # 支援讀取 GEMINI_API_KEY 或沿用現有的 GROQ_API_KEY 變數
+    api_key = os.environ.get("GEMINI_API_KEY") or os.environ.get("GROQ_API_KEY")
+    if not api_key:
+        print("❌ 未偵測到 GEMINI_API_KEY 或 GROQ_API_KEY！")
         return None
 
-    model_name = "qwen/qwen3.8-27b"
-    url = "https://api.groq.com/openai/v1/chat/completions"
+    # 使用 Google 官方 OpenAI 相容 Endpoint，免費額度極高且支援繁中
+    url = "https://generativelanguage.googleapis.com/v1beta/openai/chat/completions"
     headers = {
-        "Authorization": f"Bearer {GROQ_API_KEY}",
+        "Authorization": f"Bearer {api_key}",
         "Content-Type": "application/json"
     }
 
@@ -322,12 +324,12 @@ def analyze_with_groq(orig_title, orig_summary, channel_type):
         system_prompt = """你是一名專精國際關係與地緣政治的資深情報分析官。
 請分析該政經外交情報，嚴格以繁體中文輸出符合以下結構的 JSON 物件：
 {
-  "topic_key": "歸納本事件核心主體與事件動作（4-8字，如：美中晶片管制、G7涉台聲明、菲律賓南海仲裁、東協緬甸危機失能）",
+  "topic_key": "歸納本事件核心主體與事件動作（4-8字，如：美中晶片管制、G7涉台聲明、菲律賓南海仲裁、東協緬甸危機、日本自民黨選舉）",
   "title_zh": "【必須翻譯為繁體中文】請將原標題完整翻譯並提煉為具宏觀政治洞察的繁體中文標題，嚴格禁止保留英文原標題",
-  "region": "標註受影響之核心地緣區域或國際陣營",
+  "region": "標註受影響之核心地緣區域或國際陣營（如：第一島鏈、歐盟體系、台海周邊、中東紅海、美中博弈前線）",
   "actors": "標註核心博弈實體（格式：主體 A vs 主體 B）",
   "points": [
-    "第一點：核心外交決策、法案制裁或政局事件事實",
+    "第一點：核心外交決策、法案制裁、政權更迭或政局事件事實",
     "第二點：雙方外交攻防、政策意圖或國家利益折衝",
     "第三點：對區域地緣政治平衡、國際秩序或經貿供應鏈的長期衝擊"
   ]
@@ -336,9 +338,9 @@ def analyze_with_groq(orig_title, orig_summary, channel_type):
         system_prompt = """你是一名專精印太地緣防務軍事的情報分析官。
 請分析防務情報，嚴格以繁體中文輸出符合以下結構的 JSON 物件：
 {
-  "topic_key": "歸納本事件核心載具/行動與地點（4-8字，如：美艦穿越台海、仁愛暗沙海警衝突、漢光無人機兵推、F-16升級採購）",
+  "topic_key": "歸納本事件核心載具/行動與地點（4-8字，如：美艦穿越台海、仁愛暗沙海警衝突、漢光無人機兵推、F-16升級採購、紅海無人機防空）",
   "title_zh": "【必須翻譯為繁體中文】請將原標題完整翻譯並提煉為具軍事術語的繁體中文標題，嚴格禁止保留英文原標題",
-  "region": "標註衝突所屬海空域",
+  "region": "標註衝突所屬海空域（如：台海中線、南海仁愛暗沙、巴士海峽、紅海航道、黑海前線）",
   "actors": "標註主要對峙實體（格式：主體 A vs 主體 B）",
   "points": [
     "第一點：核心事件與載具/武器裝備行動細節",
@@ -347,21 +349,21 @@ def analyze_with_groq(orig_title, orig_summary, channel_type):
   ]
 }"""
 
-    user_content = f"新聞標題：{orig_title}\n新聞內容：{orig_summary[:800]}"
+    # 截取前 1000 字已足以涵蓋智庫與防務新聞核心論點
+    user_content = f"新聞標題：{orig_title}\n新聞內容：{orig_summary[:1000]}"
     payload = {
-        "model": model_name,
+        "model": "gemini-1.5-flash",
         "messages": [
             {"role": "system", "content": system_prompt},
             {"role": "user", "content": user_content}
         ],
         "response_format": {"type": "json_object"},
-        "temperature": 0.2,
-        "max_tokens": 500
+        "temperature": 0.2
     }
 
     for attempt in range(2):
         try:
-            resp = requests.post(url, headers=headers, json=payload, timeout=20)
+            resp = requests.post(url, headers=headers, json=payload, timeout=25)
             if resp.status_code == 200:
                 raw_text = resp.json()["choices"][0]["message"]["content"].strip()
                 if raw_text.startswith("```"):
@@ -369,16 +371,19 @@ def analyze_with_groq(orig_title, orig_summary, channel_type):
                     raw_text = re.sub(r"\n?```$", "", raw_text)
                 return json.loads(raw_text.strip())
             elif resp.status_code == 429:
-                print(f"⚠️ 觸發 Groq 限速 (429)，冷卻 15 秒後重試...")
-                time.sleep(15)
+                print("⚠️ 觸發 Gemini 速率限制 (429)，等待 10 秒後重試...")
+                time.sleep(10)
             else:
-                print(f"❌ Groq API 錯誤: {resp.status_code} - {resp.text}")
+                print(f"❌ Gemini API 錯誤: HTTP {resp.status_code} - {resp.text}")
                 break
         except Exception as e:
-            print(f"❌ Groq 分析異常: {e}")
+            print(f"❌ Gemini 分析異常: {e}")
             break
 
     return None
+
+# 向下相容別名，確保主排程迴圈無需更動
+analyze_with_groq = analyze_with_gemini
 
 # ==================== 6. 跨媒體語意去重與歷史管理 ====================
 def load_history():
