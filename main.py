@@ -544,7 +544,18 @@ def main():
         print(f"正在檢查 [{channel_type}]: {feed_info['name']}")
 
         target_feed_url = resolve_feed_url(feed_info["url"])
-        parsed = feedparser.parse(target_feed_url)
+
+        # 安全抓取：強制 12 秒連線逾時，逾時自動跳過換下一個來源
+        try:
+            headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"}
+            r = requests.get(target_feed_url, headers=headers, timeout=12)
+            if r.status_code != 200:
+                print(f"⚠️ 來源回應非 200 (HTTP {r.status_code})，跳過: {feed_info['name']}")
+                continue
+            parsed = feedparser.parse(r.content)
+        except Exception as e:
+            print(f"⚠️ 抓取來源逾時或連線失敗 ({feed_info['name']}): {e}，跳過。")
+            continue
 
         for entry in parsed.entries:
             if channel_counts[channel_type] >= MAX_POSTS_PER_CHANNEL:
