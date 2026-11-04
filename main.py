@@ -305,14 +305,13 @@ def is_entry_fresh(entry, max_hours=48):
             print(f"⚠️ 解析 YouTube 網址失敗 ({url}): {e}")
     return url
 
-# ==================== 5. Google Gemini AI 智慧情報分析 (繁中強制防線) ====================
+# ==================== 5. Google Gemini AI 智慧情報分析 (雙模型 503 容災防線) ====================
 def analyze_with_gemini(orig_title, orig_summary, channel_type):
     api_key = os.environ.get("GEMINI_API_KEY") or os.environ.get("GROQ_API_KEY")
     if not api_key:
         print("❌ 未偵測到 GEMINI_API_KEY 或 GROQ_API_KEY！")
         return None
 
-    # 使用 Google 官方相容 Endpoint
     url = "https://generativelanguage.googleapis.com/v1beta/openai/chat/completions"
     headers = {
         "Authorization": f"Bearer {api_key}",
@@ -348,41 +347,46 @@ def analyze_with_gemini(orig_title, orig_summary, channel_type):
   ]
 }"""
 
-    # 截取前 800 字，既能精準掌握核心又大幅提升模型生成速度
     user_content = f"新聞標題：{orig_title}\n新聞內容：{orig_summary[:800]}"
-    payload = {
-        "model": "gemini-3.8-flash",
-        "messages": [
-            {"role": "system", "content": system_prompt},
-            {"role": "user", "content": user_content}
-        ],
-        "response_format": {"type": "json_object"},
-        "temperature": 0.2,
-        "max_tokens": 500  # 限制輸出長度，加速回應
-    }
 
-    for attempt in range(2):
+    # 階梯式備援名單：遇到 503 / 429 自動依序切換
+    candidate_models = ["gemini-3.8-flash", "gemini-2.5-flash-lite"]
+
+    for model_name in candidate_models:
+        payload = {
+            "model": model_name,
+            "messages": [
+                {"role": "system", "content": system_prompt},
+                {"role": "user", "content": user_content}
+            ],
+            "response_format": {"type": "json_object"},
+            "temperature": 0.2,
+            "max_tokens": 500
+        }
+
         try:
-            # ⏱️ 將 timeout 由 25 秒放寬至 60 秒，給予充分生成時間
-            resp = requests.post(url, headers=headers, json=payload, timeout=60)
+            resp = requests.post(url, headers=headers, json=payload, timeout=40)
             if resp.status_code == 200:
                 raw_text = resp.json()["choices"][0]["message"]["content"].strip()
                 if raw_text.startswith("```"):
                     raw_text = re.sub(r"^```[a-zA-Z]*\n?", "", raw_text)
                     raw_text = re.sub(r"\n?```$", "", raw_text)
                 return json.loads(raw_text.strip())
-            elif resp.status_code == 429:
-                print("⚠️ 觸發 Gemini 速率限制 (429)，等待 10 秒後重試...")
-                time.sleep(10)
+            
+            # 捕捉 503 尖峰塞車或 429 速率限制，自動降級至下一組模型
+            elif resp.status_code in [503, 429]:
+                print(f"⚠️ 模型 [{model_name}] 遭遇 HTTP {resp.status_code}，正在自動切換至備援模型...")
+                time.sleep(2)
+                continue
             else:
-                print(f"❌ Gemini API 錯誤: HTTP {resp.status_code} - {resp.text}")
-                break
+                print(f"❌ Gemini API 錯誤 [{model_name}]: HTTP {resp.status_code} - {resp.text}")
+                continue
         except requests.exceptions.Timeout:
-            print(f"⏳ Gemini 生成逾時 (嘗試 {attempt + 1}/2)，正在重試...")
-            time.sleep(3)
+            print(f"⏳ 模型 [{model_name}] 回應逾時，切換至備援模型...")
+            continue
         except Exception as e:
-            print(f"❌ Gemini 分析異常: {e}")
-            break
+            print(f"❌ 模型 [{model_name}] 分析異常: {e}")
+            continue
 
     return None
 
