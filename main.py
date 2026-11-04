@@ -240,6 +240,21 @@ def clean_url(raw_url):
     return match.group(0) if match else raw_url.strip()
 
 def resolve_feed_url(url):
+    def is_entry_fresh(entry, max_hours=48):
+    """檢查 RSS 條目的發布時間是否在指定小時數內"""
+    parsed_time = entry.get("published_parsed") or entry.get("updated_parsed")
+    if not parsed_time:
+        # 若來源未提供時間標籤，預設允許通過，避免漏抓
+        return True
+    
+    try:
+        entry_timestamp = time.mktime(parsed_time)
+        age_in_seconds = time.time() - entry_timestamp
+        # 若發布時間距今超過 max_hours 小時，判定為過期舊文
+        return age_in_seconds <= (max_hours * 3600)
+    except Exception:
+        return True
+        
     """若為 YouTube 頻道首頁/handle 網址，自動抓取 channel_id 並轉化為標準 RSS 網址"""
     if "youtube.com" in url and "videos.xml" not in url:
         try:
