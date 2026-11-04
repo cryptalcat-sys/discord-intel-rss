@@ -5,9 +5,22 @@ on:
     - cron: '7,27,47 * * * *'  # 避開整數，在每小時的 07, 27, 47 分執行
   workflow_dispatch:
 
+name: Intel RSS Poller
+
+on:
+  workflow_dispatch:
+
+# 🛡️ 防並發衝突：同一時間只允許一個工作流程執行，有新任務時自動取消舊任務
+concurrency:
+  group: intel-poller
+  cancel-in-progress: true
+
 jobs:
   poll-and-send:
     runs-on: ubuntu-latest
+    # ⏱️ 強制安全逾時：超過 5 分鐘直接強制結束，絕不卡死 28 分鐘
+    timeout-minutes: 5
+
     steps:
       - name: 檢出儲存庫代碼
         uses: actions/checkout@v4
@@ -15,11 +28,12 @@ jobs:
       - name: 設定 Python 環境
         uses: actions/setup-python@v5
         with:
-          python-version: '3.10'
+          python-version: '3.11'
+          cache: 'pip'
 
-      - name: 安裝相依套件
+      - name: 安裝依賴套件
         run: |
-          pip install requests feedparser beautifulsoup4
+          pip install -r requirements.txt
 
       - name: 執行 RSS 抓取腳本
         env:
