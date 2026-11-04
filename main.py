@@ -238,20 +238,38 @@ POLITICS_INCLUDE = re.compile(
     r"six assurances|ndaa|national defense authorization act|"
     r"foreign military financing|\bfmf\b|presidential drawdown authority|\bpda\b|"
     r"arms sale|cross[- ]strait|status quo|one china policy|"
-    # ---------------- 4. 半導體科技戰、先進封裝與供應鏈自主 ----------------
+    # ---------------- 4. 半導體科技戰、先進封裝與運算主權 (以台灣供應鏈為軸心) ----------------
     r"chips act|semiconductor|advanced chip|ai chip|export control|entity list|"
-    r"lithography|extreme ultraviolet|\beuv\b|advanced packaging|"
-    r"tsmc|asml|smic|outbound investment|technology transfer|"
+    r"lithography|extreme ultraviolet|\beuv\b|advanced packaging|cowos|high bandwidth memory|\bhbm\b|"
+    r"silicon photonics|sub[- ]3nm|[23]nm|wafer fab|foundry|fabless|"
+    r"tsmc|asml|smic|nvidia|qualcomm|mediatek|foxconn|tokyo electron|applied materials|"
+    r"outbound investment|technology transfer|sovereign ai|ai cluster|gpu restriction|gpu ban|"
     r"decoupling|de[- ]risking|friend[- ]shoring|supply chain resilience|"
-    r"clean network|telecom ban|rare earth|critical minerals|"
-    # ---------------- 5. 跨國同盟機制與多邊體系 ----------------
+    r"clean network|telecom ban|"
+    # ---------------- 5. 地緣經貿法案、關稅戰與產能過剩 (貿易與關稅防禦) ----------------
+    r"section 301|section 232|anti[- ]dumping|countervailing dut(?:y|ies)|"
+    r"universal tariff|baseline tariff|reciprocal tariff|tariff hike|tariff escalation|trade barrier|"
+    r"industrial overcapacity|market distortion|export subsid(?:y|ies)|"
+    r"us[- ]taiwan 21st century trade|indo[- ]pacific economic framework|\bipef\b|cptpp|rcep|"
+    # ---------------- 6. 經濟安全審查、關鍵礦產與斷鏈反制 (經濟脅迫與關鍵節點) ----------------
+    r"cfius|fdi screening|inbound investment screening|anti[- ]coercion instrument|\baci\b|"
+    r"economic security promotion act|china\+1|taiwan\+1|near[- ]shoring|re[- ]shoring|"
+    r"critical raw materials|minerals security partnership|\bmsp\b|"
+    r"gallium|germanium|antimony|graphite|lithium|cobalt|rare earth magnet|"
+    r"submarine cable|undersea cable|subsea cable|port security|choke point|export ban|"
+    # ---------------- 7. 金融地緣與制裁體系 (長臂管轄、制裁與金融武器化) ----------------
+    r"bureau of industry and security|\bbis\b|unverified list|military end user|\bmeu\b|"
+    r"specially designated nationals|\bsdn list\b|secondary sanction|financial sanction|"
+    r"asset freeze|de[- ]dollarization|petrodollar|mbridge|cross[- ]border payment|swift ban|"
+    r"cbam|carbon border adjustment|energy security|strategic petroleum reserve|\bspr\b|"
+    # ---------------- 8. 跨國同盟機制與多邊體系 ----------------
     r"quad|aukus|g7|brics|nato|un security council|asean|ap4|"
     r"beijing|kremlin|washington|tokyo|seoul|manila|canberra|brussels|"
-    # ---------------- 6. 全球戰略連動：跨大西洋、中俄朝軸心與地緣經貿 ----------------
+    # ---------------- 9. 全球戰略連動：跨大西洋、中俄朝軸心與地緣博弈 ----------------
     r"transatlantic|eu[- ]china|european union|european commission|"
     r"russia[- ]china|sino[- ]russian|north korea[- ]russia|axis of resistance|"
     r"red sea|bab el[- ]mandeb|strait of hormuz|suez canal|malacca strait|"
-    r"sanction|secondary sanction|embargo|summit|bilateral|diplomat|treaty|sovereignty|"
+    r"sanction|embargo|summit|bilateral|diplomat|treaty|sovereignty|"
     r"trade war|tariff|economic coercion|weaponized interdependence|"
     r"geopolit"
     r")\b"
