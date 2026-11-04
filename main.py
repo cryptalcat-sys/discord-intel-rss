@@ -347,7 +347,7 @@ def analyze_with_groq(orig_title, orig_summary, channel_type):
   ]
 }"""
 
-    user_content = f"新聞標題：{orig_title}\n新聞內容：{orig_summary[:1500]}"
+    user_content = f"新聞標題：{orig_title}\n新聞內容：{orig_summary[:800]}"
     payload = {
         "model": model_name,
         "messages": [
