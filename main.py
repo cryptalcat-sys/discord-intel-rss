@@ -305,7 +305,7 @@ def is_entry_fresh(entry, max_hours=48):
             print(f"⚠️ 解析 YouTube 網址失敗 ({url}): {e}")
     return url
 
-# ==================== 5. Gemini + Groq 跨平台混合智能分析 (三道容災防線) ====================
+# ==================== 5. Gemini + Groq 跨平台混合智能分析 (動態引擎標記) ====================
 def analyze_with_ai(orig_title, orig_summary, channel_type):
     gemini_key = os.environ.get("GEMINI_API_KEY")
     groq_key = os.environ.get("GROQ_API_KEY")
@@ -345,28 +345,31 @@ def analyze_with_ai(orig_title, orig_summary, channel_type):
 
     user_content = f"新聞標題：{orig_title}\n新聞內容：{orig_summary[:800]}"
 
-    # 🚀 終極跨雲端容災管線
+    # 🚀 階梯式調度管線，內建顯示於 Footer 的引擎識別標籤 (engine_tag)
     pipeline = [
         {
             "name": "Gemini-3.5-Flash-Lite (極速首選主力)",
             "url": "https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
             "key": gemini_key,
             "model": "gemini-3.5-flash-lite",
-            "timeout": 20
+            "timeout": 20,
+            "engine_tag": "Gemini-Lite"  # 若想更精準亦可寫 "Gemini-Lite"
         },
         {
             "name": "Gemini-3.8-Flash (Google 旗艦備援)",
             "url": "https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
             "key": gemini_key,
             "model": "gemini-3.8-flash",
-            "timeout": 35
+            "timeout": 35,
+            "engine_tag": "Gemini-Flash"  # 若想更精準亦可寫 "Gemini-Flash"
         },
         {
             "name": "Groq-Qwen-3.8-27B (跨雲有效托底)",
             "url": "https://api.groq.com/openai/v1/chat/completions",
             "key": groq_key,
             "model": "qwen/qwen3.8-27b",
-            "timeout": 20
+            "timeout": 20,
+            "engine_tag": "Groq"    # 若想更精準亦可寫 "Groq-Qwen"
         }
     ]
 
@@ -397,7 +400,11 @@ def analyze_with_ai(orig_title, orig_summary, channel_type):
                 if raw_text.startswith("```"):
                     raw_text = re.sub(r"^```[a-zA-Z]*\n?", "", raw_text)
                     raw_text = re.sub(r"\n?```$", "", raw_text)
-                return json.loads(raw_text.strip())
+                
+                parsed_data = json.loads(raw_text.strip())
+                # 📌 動態注入是哪一家引擎產出
+                parsed_data["engine"] = node.get("engine_tag", "AI")
+                return parsed_data
 
             elif resp.status_code in [429, 503, 404]:
                 print(f"⚠️ [{node['name']}] 回應 HTTP {resp.status_code}，自動切換至下一備援引擎...")
@@ -417,7 +424,6 @@ def analyze_with_ai(orig_title, orig_summary, channel_type):
     print("❌ 所有 AI 推理引擎 (Gemini & Groq) 皆無法回應，本則跳過。")
     return None
 
-# 保持向下相容名稱，主迴圈完全不需要修改
 analyze_with_groq = analyze_with_ai
 analyze_with_gemini = analyze_with_ai
 
@@ -501,6 +507,7 @@ def send_to_discord(entry, feed_info, intel_data):
         title = f"【情報研判】{topic_key}"
     else:
         title = orig_title.strip()
+
     region_label = "🌐 戰略地緣陣營" if channel_type == "politics" else "📍 戰略海空域"
     actors_label = "⚖️ 核心博弈實體" if channel_type == "politics" else "⚔️ 涉事實體"
 
@@ -531,7 +538,15 @@ def send_to_discord(entry, feed_info, intel_data):
     )
 
     bot_name = "國際政局觀測所" if channel_type == "politics" else "戰略防務快報"
-    footer_text = "即時政局情報 • AI 地緣外交研判 (Groq)" if channel_type == "politics" else "即時防務情報 • AI 灰色地帶觀測 (Groq)"
+
+    # 📌 動態讀取實際生成情報的 AI 引擎標籤（預設托底為 AI）
+    engine_name = intel_data.get("engine", "AI")
+
+    # 動態組裝包含引擎後綴的 Footer
+    if channel_type == "politics":
+        footer_text = f"即時政局情報 • AI 地緣外交研判 ({engine_name})"
+    else:
+        footer_text = f"即時防務情報 • AI 灰色地帶觀測 ({engine_name})"
 
     embed = {
         "title": title[:256],
