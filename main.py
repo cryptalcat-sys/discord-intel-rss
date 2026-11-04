@@ -2,9 +2,13 @@ import os
 import re
 import json
 import time
+import socket
 import requests
 import feedparser
 from bs4 import BeautifulSoup
+
+# 設定全域網路底層逾時為 15 秒，嚴禁無限期等待卡死
+socket.setdefaulttimeout(15)
 
 # ==================== 1. 環境變數與核心設定 ====================
 WEBHOOK_MILITARY = os.environ.get("DISCORD_WEBHOOK_URL")
