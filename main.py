@@ -196,21 +196,35 @@ MILITARY_INCLUDE = re.compile(
 
 POLITICS_INCLUDE = re.compile(
     r"(?i)\b("
-    # 1. 台海法案、同盟承諾與防務政策 (核心)
+    # ---------------- 1. 核心大選、政權更替與民意板塊 (在地政治核心) ----------------
+    r"general election|presidential election|midterm election|snap election|"
+    r"primary election|referendum|ballot|voter turnout|exit poll|"
+    r"coalition government|ruling party|opposition party|majority government|"
+    r"hung parliament|vote of no confidence|dissolve parliament|dissolution|"
+    r"cabinet reshuffle|ouster|impeachment|lame duck|transition of power|"
+    r"inauguration|political crisis|constitutional crisis|democratic backsliding|"
+    r"authoritarian|polarization|populism|nationalist|civil unrest|coup d'?etat|"
+    # ---------------- 2. 各國核心政權首腦、內閣與國會決策機構 ----------------
+    r"prime minister|chancellor|president[- ]elect|premiership|parliamentary|"
+    r"congress|senate|house of representatives|capitol hill|white house|"
+    r"diet\b|bundestag|national assembly|european parliament|knesset|"
+    r"politburo|standing committee|national people's congress|\bnpc\b|cppcc|"
+    r"state council|national security council|\bnsc\b|ministry of foreign affairs|"
+    # ---------------- 3. 台海法案、同盟承諾與防務政策 ----------------
     r"taiwan relations act|taiwan policy act|taipei act|taiwan assurance act|"
     r"six assurances|ndaa|national defense authorization act|"
     r"foreign military financing|\bfmf\b|presidential drawdown authority|\bpda\b|"
     r"arms sale|cross[- ]strait|status quo|one china policy|"
-    # 2. 半導體科技戰、先進封裝與供應鏈自主 (核心)
+    # ---------------- 4. 半導體科技戰、先進封裝與供應鏈自主 ----------------
     r"chips act|semiconductor|advanced chip|ai chip|export control|entity list|"
     r"lithography|extreme ultraviolet|\beuv\b|advanced packaging|"
     r"tsmc|asml|smic|outbound investment|technology transfer|"
     r"decoupling|de[- ]risking|friend[- ]shoring|supply chain resilience|"
     r"clean network|telecom ban|rare earth|critical minerals|"
-    # 3. 印太與大國同盟機制
+    # ---------------- 5. 跨國同盟機制與多邊體系 ----------------
     r"quad|aukus|g7|brics|nato|un security council|asean|ap4|"
-    r"beijing|kremlin|politburo|white house|state department|pentagon|"
-    # 4. 全球戰略連動：跨大西洋、中俄朝軸心與全球咽喉節點 (擴充)
+    r"beijing|kremlin|washington|tokyo|seoul|manila|canberra|brussels|"
+    # ---------------- 6. 全球戰略連動：跨大西洋、中俄朝軸心與地緣經貿 ----------------
     r"transatlantic|eu[- ]china|european union|european commission|"
     r"russia[- ]china|sino[- ]russian|north korea[- ]russia|axis of resistance|"
     r"red sea|bab el[- ]mandeb|strait of hormuz|suez canal|malacca strait|"
