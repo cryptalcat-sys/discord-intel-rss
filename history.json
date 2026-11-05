@@ -1063,7 +1063,10 @@
     "title:U.S., Partner Nations to Hold Annual Malabar Naval Exercise Near Japan": 1793901697.9227793,
     "https://news.usni.org/2026/10/28/u-s-marine-drone-detachment-in-the-philippines-operating-from-palawan-airfield": 1793901697.922867,
     "https://news.usni.org/?p=126249": 1793901697.922867,
-    "title:U.S. Marine Drone Detachment in the Philippines Operating from Palawan Airfield": 1793901697.922867
+    "title:U.S. Marine Drone Detachment in the Philippines Operating from Palawan Airfield": 1793901697.922867,
+    "https://jamestown.org/taiwan-attacks-and-possible-violence-in-prc-repression": 1793902840.2891645,
+    "https://jamestown.org/?p=886782": 1793902840.2891645,
+    "title:Taiwan Attacks and Possible Violence in PRC Repression": 1793902840.2891645
   },
   "events": [
     {
@@ -2385,6 +2388,10 @@
     {
       "key": "西班牙潛艦實彈擊沉退役艦",
       "timestamp": 1793900466.5955832
+    },
+    {
+      "key": "台諜報刺殺疑雲",
+      "timestamp": 1793902848.4096594
     }
   ]
 }
