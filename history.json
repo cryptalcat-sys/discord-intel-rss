@@ -1072,7 +1072,10 @@
     "title:Washington should broaden its Shia outreach in Iraq. Muqtada al-Sadr is a case study.": 1793904035.3089182,
     "https://breakingdefense.com/2026/11/the-pentagon-wants-a-massive-new-military-base-where-will-it-go": 1793905262.8839738,
     "https://breakingdefense.com/?p=100305": 1793905262.8839738,
-    "title:The Pentagon wants a massive new military base. Where will it go?": 1793905262.8839738
+    "title:The Pentagon wants a massive new military base. Where will it go?": 1793905262.8839738,
+    "https://www.twz.com/land/this-is-the-armys-new-malet-kit-that-turns-mortars-into-drone-dropped-weapons": 1793906441.9087374,
+    "https://www.twz.com/?p=6604971": 1793906441.9087374,
+    "title:This Is The Army’s New MALET Kit That Turns Mortars Into Drone-Dropped Weapons": 1793906441.9087374
   },
   "events": [
     {
@@ -2406,6 +2409,10 @@
     {
       "key": "美軍全球新基地選址與強化",
       "timestamp": 1793905269.2380867
+    },
+    {
+      "key": "陸軍MALET無人機彈藥",
+      "timestamp": 1793906448.1688967
     }
   ]
 }
