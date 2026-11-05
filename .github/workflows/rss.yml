@@ -1,17 +1,22 @@
 name: Intel RSS Poller
 
 on:
-  workflow_dispatch:
+  schedule:
+    - cron: '*/20 * * * *'  # 每 20 分鐘自動巡邏一次 (可依需求啟用或註解)
+  workflow_dispatch:        # 支援手動立即執行
 
-# 🛡️ 防並發衝突：同一時間只允許一個工作流程執行，有新任務時自動取消舊任務
+# 🛡️ 防並發衝突：同一時間只允許一個工作流程執行
 concurrency:
   group: intel-poller
   cancel-in-progress: true
 
+# ⚠️ 關鍵修復：必須開放寫入權限，否則 git push 會被拒絕，導致 history.json 無法保存
+permissions:
+  contents: write
+
 jobs:
   poll-and-send:
     runs-on: ubuntu-latest
-    # ⏱️ 強制安全逾時：超過 5 分鐘直接強制結束，避免背景凍結
     timeout-minutes: 5
 
     steps:
