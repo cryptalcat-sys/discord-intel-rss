@@ -7,6 +7,7 @@ import random
 import requests
 import feedparser
 from bs4 import BeautifulSoup
+from urllib.parse import urlparse, urlunparse
 from datetime import datetime, timezone
 
 # 設定全域網路底層逾時為 15 秒，嚴禁無限期等待卡死
@@ -64,10 +65,10 @@ FEEDS = [
         "color": 0x0B3C5D
     },
     {
-    "name": "IISS 國際戰略研究所",
-    "url": "https://www.iiss.org/en/rss-feeds/analysis/",
-    "channel": "military",
-    "color": 0x8B0000
+        "name": "IISS 國際戰略研究所",
+        "url": "https://www.iiss.org/en/rss-feeds/analysis/",
+        "channel": "military",
+        "color": 0x8B0000
     },
     {
         "name": "Naval News (全球海事防務)",
@@ -231,7 +232,6 @@ FEEDS = [
 # ==================== 3. 關鍵字過濾規範 (中英雙軌無死角架構) ====================
 MILITARY_INCLUDE = re.compile(
     r"(?i)(?:"
-    # ── 軌道 A：英文軍事防務關鍵詞 (保留 \b 邊界，防單字誤判) ──
     r"\b("
     r"taiwan strait|south china sea|east china sea|first island chain|"
     r"bashi channel|miyako strait|luzon strait|tsushima strait|"
@@ -258,7 +258,6 @@ MILITARY_INCLUDE = re.compile(
     r"houthi|pentagon|nato|nuclear triad|deterrence"
     r")\b"
     r"|"
-    # ── 軌道 B：中文軍事防務關鍵詞 (無 \b 邊界，全面捕捉台灣與兩岸連貫語意) ──
     r"(?:"
     r"台海|台灣海峽|南海|東海|第一島鏈|巴士海峽|宮古海峽|海巡|海警|海上民兵|水砲|"
     r"灰色地帶|防空識別區|海峽中線|越線|封鎖|聯合巡航|圍島|仁愛暗沙|仙賓暗沙|黃岩島|"
@@ -274,7 +273,6 @@ MILITARY_INCLUDE = re.compile(
 
 POLITICS_INCLUDE = re.compile(
     r"(?i)(?:"
-    # ── 軌道 A：英文政治與地緣經貿關鍵詞 (保留 \b 邊界，防單字誤判) ──
     r"\b("
     r"general election|presidential election|midterm election|snap election|"
     r"primary election|referendum|ballot|voter turnout|exit poll|"
@@ -322,7 +320,6 @@ POLITICS_INCLUDE = re.compile(
     r"geopolit"
     r")\b"
     r"|"
-    # ── 軌道 B：中文政治與地緣經貿關鍵詞 (無 \b 邊界，全面捕捉台灣與兩岸連貫語意) ──
     r"(?:"
     r"兩岸|台海|中共|國台辦|陸委會|統戰|灰色地帶|軍演|共機|共艦|海警|"
     r"圍台|第一島鏈|九二共識|一中原則|主權|領土|雙邊會談|國安會|立法院|"
@@ -353,12 +350,18 @@ def clean_html(html_text):
     return " ".join(BeautifulSoup(html_text, "html.parser").get_text().split())
 
 def clean_url(raw_url):
-    """提取乾淨網址並正規化移除尾端斜線，確保比對一致性"""
+    """提取乾淨網址，移除 query string (如 ?utm_source) 與尾端斜線，避免網址浮動造成重複"""
     if not raw_url:
         return ""
     match = re.search(r"https?://[^\s\]\)\"\'<>]+", str(raw_url).strip())
     url = match.group(0) if match else raw_url.strip()
-    return url.rstrip("/")
+    try:
+        parsed = urlparse(url)
+        # 移除 query 與 fragment，保留乾淨的 scheme + netloc + path
+        cleaned = urlunparse((parsed.scheme, parsed.netloc, parsed.path, '', '', ''))
+        return cleaned.rstrip("/")
+    except Exception:
+        return url.rstrip("/")
 
 def resolve_feed_url(url):
     """若為 YouTube 頻道首頁/handle 網址，自動抓取 channel_id 並轉化為標準 RSS 網址"""
@@ -382,7 +385,6 @@ def is_entry_fresh(entry, max_hours=48):
     parsed_time = entry.get("published_parsed") or entry.get("updated_parsed")
     if not parsed_time:
         return True
-    
     try:
         entry_timestamp = time.mktime(parsed_time)
         age_in_seconds = time.time() - entry_timestamp
@@ -430,7 +432,6 @@ def analyze_with_ai(orig_title, orig_summary, channel_type):
 
     user_content = f"新聞標題：{orig_title}\n新聞內容：{orig_summary[:800]}"
 
-    # 🚀 階梯式調度管線 (Gemini 3.5 Lite 極速主力 -> 3.8 Flash 備援 -> Groq 跨雲托底)
     pipeline = [
         {
             "name": "Gemini-3.5-Flash-Lite (極速首選主力)",
@@ -511,29 +512,48 @@ def analyze_with_ai(orig_title, orig_summary, channel_type):
 analyze_with_groq = analyze_with_ai
 analyze_with_gemini = analyze_with_ai
 
-# ==================== 6. 跨媒體語意去重與歷史管理 ====================
+# ==================== 6. 跨媒體語意去重與歷史管理 (時間戳字典化) ====================
 def load_history():
-    """讀取歷史紀錄，自動相容舊版 list 與新版 dict 結構"""
+    """讀取歷史紀錄，自動將舊版 list 格式升級為 timestamp dict"""
     if os.path.exists(HISTORY_FILE):
         try:
             with open(HISTORY_FILE, "r", encoding="utf-8") as f:
                 data = json.load(f)
                 if isinstance(data, list):
-                    return {"ids": data, "events": []}
+                    # 舊版純 list 相容處理
+                    return {"ids": {fp: time.time() for fp in data}, "events": []}
+                if isinstance(data.get("ids"), list):
+                    # 舊版 ids: list 相容處理
+                    data["ids"] = {fp: time.time() for fp in data["ids"]}
+                elif not isinstance(data.get("ids"), dict):
+                    data["ids"] = {}
+                if not isinstance(data.get("events"), list):
+                    data["events"] = []
                 return data
         except Exception:
-            return {"ids": [], "events": []}
-    return {"ids": [], "events": []}
+            return {"ids": {}, "events": []}
+    return {"ids": {}, "events": []}
 
 def save_history(history_data):
-    """保存歷史紀錄，事件冷卻池僅保留 48 小時以內的事件"""
+    """保存歷史紀錄：按時間戳精確淘汰超過 72 小時的指紋與事件，絕不隨機斬斷"""
     current_time = time.time()
+    cutoff_time = current_time - (72 * 3600)  # 保留 72 小時 (3 天)
+
+    # 1. 清理超過 72 小時的事件
     history_data["events"] = [
         ev for ev in history_data.get("events", [])
-        if current_time - ev.get("timestamp", 0) < 172800
+        if ev.get("timestamp", 0) >= cutoff_time
     ]
-    # 保留最近 800 個指紋以防膨脹
-    history_data["ids"] = history_data.get("ids", [])[-800:]
+
+    # 2. 清理超過 72 小時的文章指紋
+    raw_ids = history_data.get("ids", {})
+    if isinstance(raw_ids, dict):
+        history_data["ids"] = {
+            fp: ts for fp, ts in raw_ids.items()
+            if isinstance(ts, (int, float)) and ts >= cutoff_time
+        }
+    elif isinstance(raw_ids, list):
+        history_data["ids"] = {fp: current_time for fp in raw_ids}
 
     with open(HISTORY_FILE, "w", encoding="utf-8") as f:
         json.dump(history_data, f, ensure_ascii=False, indent=2)
@@ -546,7 +566,6 @@ def is_duplicate_event(topic_key, recent_events):
     candidate_chars = set(topic_key)
 
     for ev in recent_events:
-        # 只比對 24 小時 (86400 秒) 內的事件
         if current_time - ev.get("timestamp", 0) > 86400:
             continue
         past_key = ev.get("key", "")
@@ -554,7 +573,6 @@ def is_duplicate_event(topic_key, recent_events):
 
         overlap = len(candidate_chars & past_chars)
         min_len = min(len(candidate_chars), len(past_chars))
-        # 若核心關鍵字重疊超過 65%，判定為同一事件
         if min_len > 0 and (overlap / min_len) >= 0.65:
             return True
     return False
@@ -572,7 +590,6 @@ def send_to_discord(entry, feed_info, intel_data):
     link = clean_url(entry.get("link", ""))
     orig_summary = clean_html(entry.get("summary", entry.get("description", "")))
 
-    # 多鍵值相容：防止模型返回 "title" 或 "chinese_title"
     raw_title_zh = (
         intel_data.get("title_zh")
         or intel_data.get("title")
@@ -580,7 +597,6 @@ def send_to_discord(entry, feed_info, intel_data):
         or intel_data.get("title_tw")
     )
 
-    # 檢查標題是否真的包含中文字元
     has_chinese = bool(re.search(r"[\u4e00-\u9fff]", str(raw_title_zh or "")))
     topic_key = str(intel_data.get("topic_key", "")).strip()
 
@@ -649,14 +665,14 @@ def send_to_discord(entry, feed_info, intel_data):
         print(f"❌ Discord 發送異常: {e}")
         return False
 
-# ==================== 8. 主排程迴圈 (隨機均勻輪詢 + 三重防重複架構) ====================
+# ==================== 8. 主排程迴圈 (隨機均勻輪詢 + 時間戳防重複) ====================
 def main():
     history = load_history()
-    existing_ids = set(history.get("ids", []))
+    existing_ids = history.get("ids", {})  # 格式: {fingerprint: timestamp}
     recent_events = history.get("events", [])
 
     is_initial_run = len(existing_ids) == 0
-    new_ids = []
+    new_ids = {}  # 本次新增指紋: {fingerprint: timestamp}
     new_events = []
 
     channel_counts = {
@@ -666,7 +682,7 @@ def main():
 
     max_article_age = globals().get("MAX_ARTICLE_AGE_HOURS", 48)
 
-    # 🎲 核心優化：每次執行隨機洗牌來源順序，打破固定由上而下的優先權壟斷
+    # 🎲 每次隨機洗牌來源順序，打破優先權壟斷
     shuffled_feeds = list(FEEDS)
     random.shuffle(shuffled_feeds)
 
@@ -686,7 +702,6 @@ def main():
 
         target_feed_url = resolve_feed_url(feed_info["url"])
 
-        # 🛡️ 防卡死與防 403 雙層抓取防線
         parsed = None
         try:
             req_headers = {
@@ -713,24 +728,26 @@ def main():
             if channel_counts[channel_type] >= MAX_POSTS_PER_CHANNEL:
                 break
 
-            # 🛡️ 三重防重複指紋鎖：真實正規化網址、原始 GUID、原始新聞標題指紋
+            # 🛡️ 三重防重複指紋鎖：正規化網址、原始 GUID、原始新聞標題指紋
             clean_link = clean_url(entry.get("link", ""))
             raw_id = str(entry.get("id", "")).strip()
             raw_title = clean_html(entry.get("title", "")).strip()
             title_fingerprint = f"title:{raw_title}" if raw_title else ""
 
-            # 收集本條目的有效指紋集合
             entry_fingerprints = [fp for fp in [clean_link, raw_id, title_fingerprint] if fp]
             if not entry_fingerprints:
                 continue
 
-            # 🔒 只要三者有任一曾被推播過，立刻封殺略過
+            # 🔒 只要三者任一曾在 72 小時內記錄過，絕對封殺略過
             if any(fp in existing_ids or fp in new_ids for fp in entry_fingerprints):
                 continue
 
+            now = time.time()
+
             # 🛑 時效守門員：超過指定時效的舊文章直接略過並永久標記已讀
             if not is_entry_fresh(entry, max_hours=max_article_age):
-                new_ids.extend(entry_fingerprints)
+                for fp in entry_fingerprints:
+                    new_ids[fp] = now
                 continue
 
             title = raw_title
@@ -739,18 +756,20 @@ def main():
 
             # 首次運行只建立歷史基準線，不推播
             if is_initial_run:
-                new_ids.extend(entry_fingerprints)
+                for fp in entry_fingerprints:
+                    new_ids[fp] = now
                 continue
 
             # 排除廣告或娛樂雜訊
             if EXCLUDE_PATTERN.search(content_to_check):
-                new_ids.extend(entry_fingerprints)
+                for fp in entry_fingerprints:
+                    new_ids[fp] = now
                 continue
 
-            # 命中關鍵字匹配（含地緣經貿與防務中英雙軌）
+            # 命中關鍵字匹配
             matcher = POLITICS_INCLUDE if channel_type == "politics" else MILITARY_INCLUDE
             if not matcher.search(content_to_check):
-                new_ids.extend(entry_fingerprints)
+                # ⚠️ 不將未命中關鍵字寫入 new_ids，避免同來源（如中央社兩岸）跨頻道被誤殺
                 continue
 
             # 呼叫跨雲 AI 管線進行分析與提煉
@@ -765,14 +784,16 @@ def main():
             combined_events = recent_events + new_events
             if is_duplicate_event(topic_key, combined_events):
                 print(f"⏩ 命中同事件冷卻池：[{topic_key}] 近 24 小時內已推播過相關報導，略過此來源。")
-                new_ids.extend(entry_fingerprints)
+                for fp in entry_fingerprints:
+                    new_ids[fp] = now
                 continue
 
             # 正式發送 Discord 推播
             success = send_to_discord(entry, feed_info, intel_data)
             if success:
                 print(f"✅ [{channel_type}] 已發送 ({channel_counts[channel_type] + 1}/{MAX_POSTS_PER_CHANNEL}): {title}")
-                new_ids.extend(entry_fingerprints)
+                for fp in entry_fingerprints:
+                    new_ids[fp] = now
                 if topic_key:
                     new_events.append({"key": topic_key, "timestamp": time.time()})
                 channel_counts[channel_type] += 1
@@ -782,10 +803,12 @@ def main():
 
     # 寫入歷史資料庫與事件指紋池
     if new_ids:
-        history["ids"] = list(existing_ids.union(new_ids))
+        # 合併字典並自動按 72 小時淘汰過期項目
+        existing_ids.update(new_ids)
+        history["ids"] = existing_ids
         history["events"] = recent_events + new_events
         save_history(history)
-        print(f"💾 歷史更新完畢，本次共記錄 {len(new_ids)} 筆指紋，新增 {len(new_events)} 個獨立事件指紋。")
+        print(f"💾 歷史更新完畢，本次共記錄 {len(new_ids)} 筆指紋，現存總指紋數：{len(history['ids'])} 筆。")
 
     print(f"📊 本輪推播統計：軍聞 {channel_counts['military']}/{MAX_POSTS_PER_CHANNEL} 則 | 政局 {channel_counts['politics']}/{MAX_POSTS_PER_CHANNEL} 則。")
 
