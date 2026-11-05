@@ -3,9 +3,11 @@ import re
 import json
 import time
 import socket
+import random
 import requests
 import feedparser
 from bs4 import BeautifulSoup
+from datetime import datetime, timezone
 
 # 設定全域網路底層逾時為 15 秒，嚴禁無限期等待卡死
 socket.setdefaulttimeout(15)
@@ -14,10 +16,12 @@ socket.setdefaulttimeout(15)
 WEBHOOK_MILITARY = os.environ.get("DISCORD_WEBHOOK_URL")
 WEBHOOK_POLITICS = os.environ.get("DISCORD_WEBHOOK_POLITICS") or os.environ.get("DISCORD_WEBHOOK_URL")
 
-GROQ_API_KEY = os.environ.get("GROQ_API_KEY") or os.environ.get("GEMINI_API_KEY")
+GROQ_API_KEY = os.environ.get("GROQ_API_KEY")
+GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
 HISTORY_FILE = "history.json"
 MAX_POSTS_PER_CHANNEL = 2  # 每個頻道每次執行最多推播 2 則
 MAX_ARTICLE_AGE_HOURS = 48  # 只接受 48 小時內發布的新文章（封殺陳年舊聞）
+
 # ==================== 2. 訂閱來源清單 (24 組新聞、智庫與影音) ====================
 FEEDS = [
     # ==================== 🛡️ 戰略與軍聞頻道 (印太核心 70% + 全球防務 30%) ====================
@@ -349,10 +353,12 @@ def clean_html(html_text):
     return " ".join(BeautifulSoup(html_text, "html.parser").get_text().split())
 
 def clean_url(raw_url):
+    """提取乾淨網址並正規化移除尾端斜線，確保比對一致性"""
     if not raw_url:
         return ""
     match = re.search(r"https?://[^\s\]\)\"\'<>]+", str(raw_url).strip())
-    return match.group(0) if match else raw_url.strip()
+    url = match.group(0) if match else raw_url.strip()
+    return url.rstrip("/")
 
 def resolve_feed_url(url):
     """若為 YouTube 頻道首頁/handle 網址，自動抓取 channel_id 並轉化為標準 RSS 網址"""
@@ -375,32 +381,14 @@ def is_entry_fresh(entry, max_hours=48):
     """檢查 RSS 條目的發布時間是否在指定小時數內"""
     parsed_time = entry.get("published_parsed") or entry.get("updated_parsed")
     if not parsed_time:
-        # 若來源未提供時間標籤，預設允許通過，避免漏抓
         return True
     
     try:
         entry_timestamp = time.mktime(parsed_time)
         age_in_seconds = time.time() - entry_timestamp
-        # 若發布時間距今超過 max_hours 小時，判定為過期舊文
         return age_in_seconds <= (max_hours * 3600)
     except Exception:
         return True
-        
-    """若為 YouTube 頻道首頁/handle 網址，自動抓取 channel_id 並轉化為標準 RSS 網址"""
-    if "youtube.com" in url and "videos.xml" not in url:
-        try:
-            headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"}
-            r = requests.get(url, headers=headers, timeout=10)
-            m = re.search(r'["\']channelId["\']:\s*["\'](UC[\w-]+)["\']', r.text) or \
-                re.search(r'itemprop="channelId"\s+content="(UC[\w-]+)"', r.text) or \
-                re.search(r'/channel/(UC[\w-]+)', r.text)
-            if m:
-                channel_id = m.group(1)
-                print(f"🎬 成功解析 YouTube 頻道 ID [{channel_id}]: {url}")
-                return f"https://www.youtube.com/feeds/videos.xml?channel_id={channel_id}"
-        except Exception as e:
-            print(f"⚠️ 解析 YouTube 網址失敗 ({url}): {e}")
-    return url
 
 # ==================== 5. Gemini + Groq 跨平台混合智能分析 (動態引擎標記) ====================
 def analyze_with_ai(orig_title, orig_summary, channel_type):
@@ -442,7 +430,7 @@ def analyze_with_ai(orig_title, orig_summary, channel_type):
 
     user_content = f"新聞標題：{orig_title}\n新聞內容：{orig_summary[:800]}"
 
-    # 🚀 階梯式調度管線，內建顯示於 Footer 的引擎識別標籤 (engine_tag)
+    # 🚀 階梯式調度管線 (Gemini 3.5 Lite 極速主力 -> 3.8 Flash 備援 -> Groq 跨雲托底)
     pipeline = [
         {
             "name": "Gemini-3.5-Flash-Lite (極速首選主力)",
@@ -450,7 +438,7 @@ def analyze_with_ai(orig_title, orig_summary, channel_type):
             "key": gemini_key,
             "model": "gemini-3.5-flash-lite",
             "timeout": 20,
-            "engine_tag": "Gemini-Lite"  # 若想更精準亦可寫 "Gemini-Lite"
+            "engine_tag": "Gemini-Lite"
         },
         {
             "name": "Gemini-3.8-Flash (Google 旗艦備援)",
@@ -458,7 +446,7 @@ def analyze_with_ai(orig_title, orig_summary, channel_type):
             "key": gemini_key,
             "model": "gemini-3.8-flash",
             "timeout": 35,
-            "engine_tag": "Gemini-Flash"  # 若想更精準亦可寫 "Gemini-Flash"
+            "engine_tag": "Gemini-Flash"
         },
         {
             "name": "Groq-Qwen-3.8-27B (跨雲有效托底)",
@@ -466,7 +454,7 @@ def analyze_with_ai(orig_title, orig_summary, channel_type):
             "key": groq_key,
             "model": "qwen/qwen3.8-27b",
             "timeout": 20,
-            "engine_tag": "Groq"    # 若想更精準亦可寫 "Groq-Qwen"
+            "engine_tag": "Groq"
         }
     ]
 
@@ -499,7 +487,6 @@ def analyze_with_ai(orig_title, orig_summary, channel_type):
                     raw_text = re.sub(r"\n?```$", "", raw_text)
                 
                 parsed_data = json.loads(raw_text.strip())
-                # 📌 動態注入是哪一家引擎產出
                 parsed_data["engine"] = node.get("engine_tag", "AI")
                 return parsed_data
 
@@ -545,7 +532,8 @@ def save_history(history_data):
         ev for ev in history_data.get("events", [])
         if current_time - ev.get("timestamp", 0) < 172800
     ]
-    history_data["ids"] = history_data.get("ids", [])[-500:]
+    # 保留最近 800 個指紋以防膨脹
+    history_data["ids"] = history_data.get("ids", [])[-800:]
 
     with open(HISTORY_FILE, "w", encoding="utf-8") as f:
         json.dump(history_data, f, ensure_ascii=False, indent=2)
@@ -580,7 +568,7 @@ def send_to_discord(entry, feed_info, intel_data):
         print(f"❌ 未設定 [{channel_type}] 對應的 Webhook，略過發送。")
         return False
 
-    orig_title = entry.get("title", "No Title")
+    orig_title = clean_html(entry.get("title", "No Title"))
     link = clean_url(entry.get("link", ""))
     orig_summary = clean_html(entry.get("summary", entry.get("description", "")))
 
@@ -594,13 +582,11 @@ def send_to_discord(entry, feed_info, intel_data):
 
     # 檢查標題是否真的包含中文字元
     has_chinese = bool(re.search(r"[\u4e00-\u9fff]", str(raw_title_zh or "")))
-
     topic_key = str(intel_data.get("topic_key", "")).strip()
 
     if raw_title_zh and has_chinese:
         title = str(raw_title_zh).strip()
     elif topic_key:
-        # 若模型偷懶給了英文標題，直接借用已提煉好的中文 topic_key 組裝
         title = f"【情報研判】{topic_key}"
     else:
         title = orig_title.strip()
@@ -635,11 +621,8 @@ def send_to_discord(entry, feed_info, intel_data):
     )
 
     bot_name = "國際政局觀測所" if channel_type == "politics" else "戰略防務快報"
-
-    # 📌 動態讀取實際生成情報的 AI 引擎標籤（預設托底為 AI）
     engine_name = intel_data.get("engine", "AI")
 
-    # 動態組裝包含引擎後綴的 Footer
     if channel_type == "politics":
         footer_text = f"即時政局情報 • AI 地緣外交研判 ({engine_name})"
     else:
@@ -666,10 +649,8 @@ def send_to_discord(entry, feed_info, intel_data):
         print(f"❌ Discord 發送異常: {e}")
         return False
 
-# ==================== 8. 主排程迴圈 (隨機均勻輪詢架構) ====================
+# ==================== 8. 主排程迴圈 (隨機均勻輪詢 + 三重防重複架構) ====================
 def main():
-    import random  # 導入隨機洗牌模組
-
     history = load_history()
     existing_ids = set(history.get("ids", []))
     recent_events = history.get("events", [])
@@ -678,7 +659,6 @@ def main():
     new_ids = []
     new_events = []
 
-    # 記錄各頻道本次執行的推播總數
     channel_counts = {
         "military": 0,
         "politics": 0
@@ -686,7 +666,7 @@ def main():
 
     max_article_age = globals().get("MAX_ARTICLE_AGE_HOURS", 48)
 
-    # 🎲 核心優化：每次執行皆隨機洗牌來源順序，打破固定由上而下的優先權壟斷
+    # 🎲 核心優化：每次執行隨機洗牌來源順序，打破固定由上而下的優先權壟斷
     shuffled_feeds = list(FEEDS)
     random.shuffle(shuffled_feeds)
 
@@ -733,33 +713,44 @@ def main():
             if channel_counts[channel_type] >= MAX_POSTS_PER_CHANNEL:
                 break
 
-            entry_id = entry.get("id", entry.get("link", ""))
-            if not entry_id or entry_id in existing_ids or entry_id in new_ids:
+            # 🛡️ 三重防重複指紋鎖：真實正規化網址、原始 GUID、原始新聞標題指紋
+            clean_link = clean_url(entry.get("link", ""))
+            raw_id = str(entry.get("id", "")).strip()
+            raw_title = clean_html(entry.get("title", "")).strip()
+            title_fingerprint = f"title:{raw_title}" if raw_title else ""
+
+            # 收集本條目的有效指紋集合
+            entry_fingerprints = [fp for fp in [clean_link, raw_id, title_fingerprint] if fp]
+            if not entry_fingerprints:
                 continue
 
-            # 🛑 時效守門員：超過指定時效的舊文章直接略過並標記已讀
-            if "is_entry_fresh" in globals() and not is_entry_fresh(entry, max_hours=max_article_age):
-                new_ids.append(entry_id)
+            # 🔒 只要三者有任一曾被推播過，立刻封殺略過
+            if any(fp in existing_ids or fp in new_ids for fp in entry_fingerprints):
                 continue
 
-            title = entry.get("title", "")
+            # 🛑 時效守門員：超過指定時效的舊文章直接略過並永久標記已讀
+            if not is_entry_fresh(entry, max_hours=max_article_age):
+                new_ids.extend(entry_fingerprints)
+                continue
+
+            title = raw_title
             summary = entry.get("summary", entry.get("description", ""))
             content_to_check = f"{title} {summary}"
 
             # 首次運行只建立歷史基準線，不推播
             if is_initial_run:
-                new_ids.append(entry_id)
+                new_ids.extend(entry_fingerprints)
                 continue
 
             # 排除廣告或娛樂雜訊
             if EXCLUDE_PATTERN.search(content_to_check):
-                new_ids.append(entry_id)
+                new_ids.extend(entry_fingerprints)
                 continue
 
-            # 命中關鍵字匹配（含地緣經貿與防務）
+            # 命中關鍵字匹配（含地緣經貿與防務中英雙軌）
             matcher = POLITICS_INCLUDE if channel_type == "politics" else MILITARY_INCLUDE
             if not matcher.search(content_to_check):
-                new_ids.append(entry_id)
+                new_ids.extend(entry_fingerprints)
                 continue
 
             # 呼叫跨雲 AI 管線進行分析與提煉
@@ -774,14 +765,14 @@ def main():
             combined_events = recent_events + new_events
             if is_duplicate_event(topic_key, combined_events):
                 print(f"⏩ 命中同事件冷卻池：[{topic_key}] 近 24 小時內已推播過相關報導，略過此來源。")
-                new_ids.append(entry_id)
+                new_ids.extend(entry_fingerprints)
                 continue
 
             # 正式發送 Discord 推播
             success = send_to_discord(entry, feed_info, intel_data)
             if success:
                 print(f"✅ [{channel_type}] 已發送 ({channel_counts[channel_type] + 1}/{MAX_POSTS_PER_CHANNEL}): {title}")
-                new_ids.append(entry_id)
+                new_ids.extend(entry_fingerprints)
                 if topic_key:
                     new_events.append({"key": topic_key, "timestamp": time.time()})
                 channel_counts[channel_type] += 1
@@ -794,7 +785,7 @@ def main():
         history["ids"] = list(existing_ids.union(new_ids))
         history["events"] = recent_events + new_events
         save_history(history)
-        print(f"💾 歷史更新完畢，本次共記錄 {len(new_ids)} 筆項目，新增 {len(new_events)} 個獨立事件指紋。")
+        print(f"💾 歷史更新完畢，本次共記錄 {len(new_ids)} 筆指紋，新增 {len(new_events)} 個獨立事件指紋。")
 
     print(f"📊 本輪推播統計：軍聞 {channel_counts['military']}/{MAX_POSTS_PER_CHANNEL} 則 | 政局 {channel_counts['politics']}/{MAX_POSTS_PER_CHANNEL} 則。")
 
