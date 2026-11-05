@@ -1093,7 +1093,9 @@
     "title:Jaishankar’s Baku Visit Opens a New Chapter in Azerbaijan–India Relations": 1793912465.620701,
     "https://www.twz.com/air/chinas-military-helicopters-a-guide": 1793912480.1060112,
     "https://www.twz.com/?p=6605127": 1793912480.1060112,
-    "title:China’s Military Helicopters: A Guide": 1793912480.1060112
+    "title:China’s Military Helicopters: A Guide": 1793912480.1060112,
+    "https://www.piie.com/newsroom/press-releases/2026/peterson-institute-international-economics-mourns-passing-gary-clyde": 1793914778.0909312,
+    "title:Peterson Institute for International Economics mourns the passing of Gary Clyde Hufbauer": 1793914778.0909312
   },
   "events": [
     {
@@ -2451,6 +2453,10 @@
     {
       "key": "中國軍用直升機",
       "timestamp": 1793912487.5021706
+    },
+    {
+      "key": "PIIE學者蓋瑞胡夫鮑爾逝世",
+      "timestamp": 1793914779.7922442
     }
   ]
 }
