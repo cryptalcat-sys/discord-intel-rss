@@ -18,9 +18,23 @@ GROQ_API_KEY = os.environ.get("GROQ_API_KEY") or os.environ.get("GEMINI_API_KEY"
 HISTORY_FILE = "history.json"
 MAX_POSTS_PER_CHANNEL = 2  # 每個頻道每次執行最多推播 2 則
 MAX_ARTICLE_AGE_HOURS = 48  # 只接受 48 小時內發布的新文章（封殺陳年舊聞）
-# ==================== 2. 訂閱來源清單 (18 組新聞、智庫與影音) ====================
+# ==================== 2. 訂閱來源清單 (24 組新聞、智庫與影音) ====================
 FEEDS = [
     # ==================== 🛡️ 戰略與軍聞頻道 (印太核心 70% + 全球防務 30%) ====================
+    # ─── 台灣在地核心情咨（防務第一線） ───
+    {
+        "name": "中央社 兩岸透視 (防務)",
+        "url": "https://feeds.feedburner.com/rsscna/mainland",
+        "channel": "military",
+        "color": 0x0284C7
+    },
+    {
+        "name": "報呱 PourQuoi (安全防務)",
+        "url": "https://pourquoi.tw/feed/",
+        "channel": "military",
+        "color": 0x4F46E5
+    },
+    # ─── 歐美權威防務刊物與智庫 ───
     {
         "name": "The War Zone",
         "url": "https://www.twz.com/feed",
@@ -63,7 +77,7 @@ FEEDS = [
         "channel": "military",
         "color": 0x900C3F
     },
-    # --- YouTube 專題影音 ---
+    # ─── YouTube 防務專題影音 ───
     {
         "name": "Perun (防務戰略與後勤)",
         "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCC3ehuUksTyQ7bbjGntmx3Q",
@@ -90,25 +104,51 @@ FEEDS = [
     },
 
     # ==================== 🏛️ 政局觀測所 (印太核心 + 全球戰略視野) ====================
+    # ─── 台灣在地核心情咨（政經與戰略線） ───
+    {
+        "name": "中央社 兩岸透視 (政局)",
+        "url": "https://feeds.feedburner.com/rsscna/mainland",
+        "channel": "politics",
+        "color": 0x0284C7
+    },
+    {
+        "name": "中央社 科技產業",
+        "url": "https://feeds.feedburner.com/rsscna/technology",
+        "channel": "politics",
+        "color": 0x059669
+    },
+    {
+        "name": "報導者 The Reporter",
+        "url": "https://www.twreporter.org/a/rss2.xml",
+        "channel": "politics",
+        "color": 0xD97706
+    },
+    {
+        "name": "報呱 PourQuoi (國際戰略)",
+        "url": "https://pourquoi.tw/feed/",
+        "channel": "politics",
+        "color": 0x4F46E5
+    },
     # ─── 地緣經貿與科技戰線（台灣供應鏈與全球經濟安全） ───
     {
         "name": "PIIE 彼得森國際經濟研究所",
         "url": "https://www.piie.com/rss.xml",
         "channel": "politics",
-        "color": 0x0A2540  # 經貿深藍
+        "color": 0x0A2540
     },
     {
         "name": "Bruegel 布魯塞爾全球經濟研究所",
         "url": "https://www.bruegel.org/rss.xml",
         "channel": "politics",
-        "color": 0x1E40AF  # 歐盟經濟藍
+        "color": 0x1E40AF
     },
     {
         "name": "MERICS 柏林墨卡托中國研究中心",
         "url": "https://merics.org/en/rss.xml",
         "channel": "politics",
-        "color": 0xC2410C  # 戰略深橙
+        "color": 0xC2410C
     },
+    # ─── 國際頂級外交與地緣戰略智庫 ───
     {
         "name": "Foreign Affairs (外交事務)",
         "url": "https://www.foreignaffairs.com/rss.xml",
@@ -169,7 +209,7 @@ FEEDS = [
         "channel": "politics",
         "color": 0x8E24AA
     },
-    # --- YouTube 智庫與國際戰略影音 ---
+    # ─── YouTube 智庫與國際戰略影音 ───
     {
         "name": "CSIS 官方戰略影音",
         "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCr5jq6MC_VCe1c5ciIZtk_w",
@@ -184,10 +224,11 @@ FEEDS = [
     }
 ]
 
-# ==================== 3. 關鍵字過濾規範 ====================
+# ==================== 3. 關鍵字過濾規範 (中英雙軌無死角架構) ====================
 MILITARY_INCLUDE = re.compile(
-    r"(?i)\b("
-    # ---------------- 1. 印太第一島鏈與灰色地帶衝突 (70% 核心) ----------------
+    r"(?i)(?:"
+    # ── 軌道 A：英文軍事防務關鍵詞 (保留 \b 邊界，防單字誤判) ──
+    r"\b("
     r"taiwan strait|south china sea|east china sea|first island chain|"
     r"bashi channel|miyako strait|luzon strait|tsushima strait|"
     r"coast guard|ccg|pcg|cga|maritime militia|militia vessel|water cannon|ramming|"
@@ -198,28 +239,39 @@ MILITARY_INCLUDE = re.compile(
     r"kinmen|matsu|pratas|taiping island|"
     r"eastern theater command|southern theater command|indo[- ]pacific command|"
     r"joint sword|han kuang|balikatan|rimpac|live[- ]fire|drills|war game|"
-    # ---------------- 2. 常規海空載具與現代作戰編隊 ----------------
     r"navy|naval|plan|fleet|destroyer|frigate|corvette|cutter|"
     r"carrier|aircraft carrier|amphibious|landing ship|marines|"
     r"submarine|\bssn\b|\bssbn\b|anti[- ]submarine|\basw\b|torpedo|sonar|"
     r"air force|plaf|fighter jet|bomber|stealth aircraft|"
     r"f[- ]35|f[- ]16|j[- ]20|j[- ]35|b[- ]21|h[- ]6k|su[- ]57|"
-    # ---------------- 3. 全球實戰經驗：無人戰術、電戰與防空反導 (30% 全球) ----------------
     r"drone|\buav\b|\busv\b|\buuv\b|unmanned|loitering munition|\bfpv\b|"
     r"counter[- ]drone|\bc[- ]uas\b|electronic warfare|radar jamming|spectrum|"
     r"missile|ballistic missile|cruise missile|hypersonic|\bhgv\b|"
     r"air defense|patriot|nasams|thaad|aegis|himars|harpoon|tomahawk|sm[- ]6|pac[- ]3|"
     r"cjadc2|command and control|multi[- ]domain|space force|counter[- ]space|"
-    # ---------------- 4. 全球戰略咽喉與兵力牽制熱點 (30% 全球) ----------------
     r"red sea|bab el[- ]mandeb|strait of hormuz|persian gulf|black sea|baltic sea|"
     r"giuk gap|suwalki gap|arctic defense|"
     r"houthi|pentagon|nato|nuclear triad|deterrence"
     r")\b"
+    r"|"
+    # ── 軌道 B：中文軍事防務關鍵詞 (無 \b 邊界，全面捕捉台灣與兩岸連貫語意) ──
+    r"(?:"
+    r"台海|台灣海峽|南海|東海|第一島鏈|巴士海峽|宮古海峽|海巡|海警|海上民兵|水砲|"
+    r"灰色地帶|防空識別區|海峽中線|越線|封鎖|聯合巡航|圍島|仁愛暗沙|仙賓暗沙|黃岩島|"
+    r"南沙|西沙|釣魚台|金門|馬祖|東沙|太平島|東部戰區|南部戰區|印太司令部|"
+    r"聯合利劍|漢光|肩並肩|環太軍演|實彈|軍演|兵推|海軍|艦隊|驅逐艦|巡防艦|巡邏艦|"
+    r"航母|航空母艦|兩棲|登陸艦|陸戰隊|潛艦|核潛艦|反潛|魚雷|聲納|空軍|戰機|轟炸機|"
+    r"匿蹤|無人機|無人艇|巡飛彈|反無人機|電子戰|電戰|干擾|頻譜|飛彈|彈道飛彈|巡弋飛彈|"
+    r"極音速|防空|愛國者|薩德|神盾|海馬斯|魚叉|戰斧|太空軍|紅海|波斯灣|黑海|胡塞|五角大廈|"
+    r"北約|核威懾|嚇阻"
+    r")"
+    r")"
 )
 
 POLITICS_INCLUDE = re.compile(
-    r"(?i)\b("
-    # ---------------- 1. 核心大選、政權更替與民意板塊 (在地政治核心) ----------------
+    r"(?i)(?:"
+    # ── 軌道 A：英文政治與地緣經貿關鍵詞 (保留 \b 邊界，防單字誤判) ──
+    r"\b("
     r"general election|presidential election|midterm election|snap election|"
     r"primary election|referendum|ballot|voter turnout|exit poll|"
     r"coalition government|ruling party|opposition party|majority government|"
@@ -227,18 +279,15 @@ POLITICS_INCLUDE = re.compile(
     r"cabinet reshuffle|ouster|impeachment|lame duck|transition of power|"
     r"inauguration|political crisis|constitutional crisis|democratic backsliding|"
     r"authoritarian|polarization|populism|nationalist|civil unrest|coup d'?etat|"
-    # ---------------- 2. 各國核心政權首腦、內閣與國會決策機構 ----------------
     r"prime minister|chancellor|president[- ]elect|premiership|parliamentary|"
     r"congress|senate|house of representatives|capitol hill|white house|"
     r"diet\b|bundestag|national assembly|european parliament|knesset|"
     r"politburo|standing committee|national people's congress|\bnpc\b|cppcc|"
     r"state council|national security council|\bnsc\b|ministry of foreign affairs|"
-    # ---------------- 3. 台海法案、同盟承諾與防務政策 ----------------
     r"taiwan relations act|taiwan policy act|taipei act|taiwan assurance act|"
     r"six assurances|ndaa|national defense authorization act|"
     r"foreign military financing|\bfmf\b|presidential drawdown authority|\bpda\b|"
     r"arms sale|cross[- ]strait|status quo|one china policy|"
-    # ---------------- 4. 半導體科技戰、先進封裝與運算主權 (以台灣供應鏈為軸心) ----------------
     r"chips act|semiconductor|advanced chip|ai chip|export control|entity list|"
     r"lithography|extreme ultraviolet|\beuv\b|advanced packaging|cowos|high bandwidth memory|\bhbm\b|"
     r"silicon photonics|sub[- ]3nm|[23]nm|wafer fab|foundry|fabless|"
@@ -246,26 +295,21 @@ POLITICS_INCLUDE = re.compile(
     r"outbound investment|technology transfer|sovereign ai|ai cluster|gpu restriction|gpu ban|"
     r"decoupling|de[- ]risking|friend[- ]shoring|supply chain resilience|"
     r"clean network|telecom ban|"
-    # ---------------- 5. 地緣經貿法案、關稅戰與產能過剩 (貿易與關稅防禦) ----------------
     r"section 301|section 232|anti[- ]dumping|countervailing dut(?:y|ies)|"
     r"universal tariff|baseline tariff|reciprocal tariff|tariff hike|tariff escalation|trade barrier|"
     r"industrial overcapacity|market distortion|export subsid(?:y|ies)|"
     r"us[- ]taiwan 21st century trade|indo[- ]pacific economic framework|\bipef\b|cptpp|rcep|"
-    # ---------------- 6. 經濟安全審查、關鍵礦產與斷鏈反制 (經濟脅迫與關鍵節點) ----------------
     r"cfius|fdi screening|inbound investment screening|anti[- ]coercion instrument|\baci\b|"
     r"economic security promotion act|china\+1|taiwan\+1|near[- ]shoring|re[- ]shoring|"
     r"critical raw materials|minerals security partnership|\bmsp\b|"
     r"gallium|germanium|antimony|graphite|lithium|cobalt|rare earth magnet|"
     r"submarine cable|undersea cable|subsea cable|port security|choke point|export ban|"
-    # ---------------- 7. 金融地緣與制裁體系 (長臂管轄、制裁與金融武器化) ----------------
     r"bureau of industry and security|\bbis\b|unverified list|military end user|\bmeu\b|"
     r"specially designated nationals|\bsdn list\b|secondary sanction|financial sanction|"
     r"asset freeze|de[- ]dollarization|petrodollar|mbridge|cross[- ]border payment|swift ban|"
     r"cbam|carbon border adjustment|energy security|strategic petroleum reserve|\bspr\b|"
-    # ---------------- 8. 跨國同盟機制與多邊體系 ----------------
     r"quad|aukus|g7|brics|nato|un security council|asean|ap4|"
-    r"beijing|kremlin|washington|tokyo|seoul|manila|canberra|brussels|"
-    # ---------------- 9. 全球戰略連動：跨大西洋、中俄朝軸心與地緣博弈 ----------------
+    r"beijing|kremlin|washington|tokyo|seoul|manila|canberra|brussels|taipei|"
     r"transatlantic|eu[- ]china|european union|european commission|"
     r"russia[- ]china|sino[- ]russian|north korea[- ]russia|axis of resistance|"
     r"red sea|bab el[- ]mandeb|strait of hormuz|suez canal|malacca strait|"
@@ -273,13 +317,29 @@ POLITICS_INCLUDE = re.compile(
     r"trade war|tariff|economic coercion|weaponized interdependence|"
     r"geopolit"
     r")\b"
+    r"|"
+    # ── 軌道 B：中文政治與地緣經貿關鍵詞 (無 \b 邊界，全面捕捉台灣與兩岸連貫語意) ──
+    r"(?:"
+    r"兩岸|台海|中共|國台辦|陸委會|統戰|灰色地帶|軍演|共機|共艦|海警|"
+    r"圍台|第一島鏈|九二共識|一中原則|主權|領土|雙邊會談|國安會|立法院|"
+    r"行政院|外交部|國防部|總統大選|內閣改組|不信任案|政權更迭|地緣政治|"
+    r"半導體|晶片|台積電|聯電|日月光|聯發科|鴻海|晶圓代工|先進製程|先進封裝|"
+    r"矽光子|高頻寬記憶體|晶片法案|實體清單|出口管制|技術禁令|對外投資審查|"
+    r"去風險|脫鉤|友岸外包|近岸外包|供應鏈韌性|產業產能過剩|主權AI|"
+    r"關稅|301條款|232條款|反傾銷|反補貼|貿易戰|經濟脅迫|經濟安保|反脅迫工具|"
+    r"台美21世紀貿易倡議|外資審查|投審會|關鍵礦產|稀土|鎵|鍺|銻|石墨|鋰|鈷|"
+    r"海底電纜|海纜安全|港口資安|商務部產業安全局|長臂管轄|金融制裁|資產凍結|"
+    r"去美元化|碳邊境調整機制"
+    r")"
+    r")"
 )
 
 EXCLUDE_PATTERN = re.compile(
     r"(?i)\b(sponsored|advertisement|webinar|deals|review:|podcast|lifestyle|"
     r"entertainment|sports|box office|smartphone|gaming laptop|geforce|rtx|"
     r"civil aviation|commercial airline|boeing 737|airbus a320|flight delay|"
-    r"video game|gameplay|war thunder|call of duty)\b"
+    r"video game|gameplay|war thunder|call of duty)\b|"
+    r"(?:贊助|廣告|線上研討會|優惠|生活風格|娛樂|體育|票房|智慧型手機|電競筆電|民航|商業航班|航班延誤|電玩|遊戲畫面)"
 )
 
 # ==================== 4. 輔助函式與網址解析 ====================
