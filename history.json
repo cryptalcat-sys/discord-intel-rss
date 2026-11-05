@@ -1075,7 +1075,10 @@
     "title:The Pentagon wants a massive new military base. Where will it go?": 1793905262.8839738,
     "https://www.twz.com/land/this-is-the-armys-new-malet-kit-that-turns-mortars-into-drone-dropped-weapons": 1793906441.9087374,
     "https://www.twz.com/?p=6604971": 1793906441.9087374,
-    "title:This Is The Army’s New MALET Kit That Turns Mortars Into Drone-Dropped Weapons": 1793906441.9087374
+    "title:This Is The Army’s New MALET Kit That Turns Mortars Into Drone-Dropped Weapons": 1793906441.9087374,
+    "https://news.usni.org/2026/11/05/marines-identify-member-who-died-after-fast-rope-training-in-japan": 1793908849.6326127,
+    "https://news.usni.org/?p=126411": 1793908849.6326127,
+    "title:Marines Identify Member Who Died After Fast-rope Training in Japan": 1793908849.6326127
   },
   "events": [
     {
@@ -2413,6 +2416,10 @@
     {
       "key": "陸軍MALET無人機彈藥",
       "timestamp": 1793906448.1688967
+    },
+    {
+      "key": "日沖繩陸戰隊訓練意外",
+      "timestamp": 1793908859.4148142
     }
   ]
 }
