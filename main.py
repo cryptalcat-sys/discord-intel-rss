@@ -64,10 +64,10 @@ FEEDS = [
         "color": 0x0B3C5D
     },
     {
-        "name": "RUSI (英國皇家三軍防務研究所)",
-        "url": "https://www.rusi.org/rss/all",
-        "channel": "military",
-        "color": 0x8B0000
+    "name": "IISS 國際戰略研究所",
+    "url": "https://www.iiss.org/en/rss-feeds/analysis/",
+    "channel": "military",
+    "color": 0x8B0000
     },
     {
         "name": "Naval News (全球海事防務)",
@@ -136,7 +136,7 @@ FEEDS = [
     # ─── 地緣經貿與科技戰線（台灣供應鏈與全球經濟安全） ───
     {
         "name": "PIIE 彼得森國際經濟研究所",
-        "url": "https://www.piie.com/rss.xml",
+        "url": "https://www.piie.com/rss/update.xml",
         "channel": "politics",
         "color": 0x0A2540
     },
