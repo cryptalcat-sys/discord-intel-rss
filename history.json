@@ -1101,7 +1101,16 @@
     "title:Putin suffers Balkan setbacks as Russia struggles to retain influence": 1793916066.5235412,
     "https://www.navalnews.com/event-news/euronaval-2026/2026/11/naval-group-unveils-a-larger-more-powerful-fdi-frigate": 1793917244.844706,
     "https://www.navalnews.com/?p=92947": 1793917244.844706,
-    "title:Naval Group Unveils a Larger, More Powerful FDI Frigate": 1793917244.844706
+    "title:Naval Group Unveils a Larger, More Powerful FDI Frigate": 1793917244.844706,
+    "https://www.defensenews.com/industry/techwatch/2026/11/05/shield-ai-to-acquire-radar-maker-echodyne-to-bust-drones": 1793919652.8596516,
+    "https://one.sightlinemg.com/defensenews/news/2026/11/05/shield-ai-to-acquire-radar-maker-echodyne-to-bust-drones/": 1793919652.8596516,
+    "title:Shield AI to acquire radar maker Echodyne to bust drones": 1793919652.8596516,
+    "https://www.twz.com/sea/marine-corps-declares-it-needs-nine-more-amphibious-warships-to-carry-out-its-missions": 1793919671.0442693,
+    "https://www.twz.com/?p=6605297": 1793919671.0442693,
+    "title:Marine Corps Declares It Needs Nine More Amphibious Warships To Carry Out Its Missions": 1793919671.0442693,
+    "https://www.atlanticcouncil.org/blogs/econographics/a-6-billion-hack-in-a-season-of-ai-anxiety": 1793919681.4414418,
+    "https://www.atlanticcouncil.org/?p=957933": 1793919681.4414418,
+    "title:A $6 billion hack in a season of AI anxiety": 1793919681.4414418
   },
   "events": [
     {
@@ -2471,6 +2480,14 @@
     {
       "key": "法軍FDI護衛艦升級",
       "timestamp": 1793917254.6729267
+    },
+    {
+      "key": "盾牌人工智慧收購雷達商",
+      "timestamp": 1793919655.4762585
+    },
+    {
+      "key": "美陸戰隊增購兩棲艦",
+      "timestamp": 1793919672.9574535
     }
   ]
 }
