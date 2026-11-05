@@ -696,8 +696,8 @@ def main():
             r = requests.get(target_feed_url, headers=req_headers, timeout=12)
             if r.status_code == 200:
                 parsed = feedparser.parse(r.content)
-            elif r.status_code == 403:
-                print(f"⚠️ 來源回應 403，改由 feedparser 原生解析: {feed_info['name']}")
+            elif r.status_code in [403, 404]:
+                print(f"⚠️ 來源回應 {r.status_code}，改由 feedparser 原生解析: {feed_info['name']}")
                 parsed = feedparser.parse(target_feed_url)
             else:
                 print(f"⚠️ 來源回應 HTTP {r.status_code}，跳過: {feed_info['name']}")
