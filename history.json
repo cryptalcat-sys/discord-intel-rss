@@ -1084,7 +1084,16 @@
     "title:The push to give dismounted forces direct access to LEO and MEO networks": 1793911234.1255033,
     "https://www.defensenews.com/industry/techwatch/2026/11/05/vector-introduces-ready-to-go-one-way-attack-drone": 1793911245.6862876,
     "https://www.defensenews.com/news/2026/11/05/vector-introduces-ready-to-go-one-way-attack-drone/": 1793911245.6862876,
-    "title:Vector introduces ready-to-go one-way attack drone": 1793911245.6862876
+    "title:Vector introduces ready-to-go one-way attack drone": 1793911245.6862876,
+    "https://jamestown.org/then-they-came-for-the-communists-putin-regime-moves-against-the-kprf": 1793912451.9681602,
+    "https://jamestown.org/?p=886792": 1793912451.9681602,
+    "title:Then They Came for the Communists: Putin Regime Moves Against the KPRF": 1793912451.9681602,
+    "https://jamestown.org/jaishankars-baku-visit-opens-a-new-chapter-in-azerbaijan-india-relations": 1793912465.620701,
+    "https://jamestown.org/?p=886789": 1793912465.620701,
+    "title:Jaishankar’s Baku Visit Opens a New Chapter in Azerbaijan–India Relations": 1793912465.620701,
+    "https://www.twz.com/air/chinas-military-helicopters-a-guide": 1793912480.1060112,
+    "https://www.twz.com/?p=6605127": 1793912480.1060112,
+    "title:China’s Military Helicopters: A Guide": 1793912480.1060112
   },
   "events": [
     {
@@ -2430,6 +2439,18 @@
     {
       "key": "向量公司推出巡飛彈",
       "timestamp": 1793911251.468623
+    },
+    {
+      "key": "普丁政權打壓俄共",
+      "timestamp": 1793912457.6199138
+    },
+    {
+      "key": "印度亞塞拜然外交突破",
+      "timestamp": 1793912467.6206043
+    },
+    {
+      "key": "中國軍用直升機",
+      "timestamp": 1793912487.5021706
     }
   ]
 }
