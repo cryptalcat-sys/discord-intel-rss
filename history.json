@@ -1239,7 +1239,13 @@
     "title:被撤全國政協委員後 中國前中醫藥局長投案受查": 1793980863.8278654,
     "https://www.navalnews.com/naval-news/2026/11/strike-drones-launched-from-british-aircraft-carrier-for-the-first-time": 1793983241.8153572,
     "https://www.navalnews.com/?p=93171": 1793983241.8153572,
-    "title:Strike drones launched from British aircraft carrier for the first time": 1793983241.8153572
+    "title:Strike drones launched from British aircraft carrier for the first time": 1793983241.8153572,
+    "https://breakingdefense.com/2026/11/cut-to-us-aid-would-impact-israeli-acquisition-timelines-spending-analysts": 1793984454.233127,
+    "https://breakingdefense.com/?p=100409": 1793984454.233127,
+    "title:Cut to US aid would impact Israeli acquisition timelines, spending: Analysts": 1793984454.233127,
+    "https://warontherocks.com/talks-attacks-and-a-heist": 1793984507.238977,
+    "https://warontherocks.com/?p=48530": 1793984507.238977,
+    "title:Talks, Attacks, and a Heist": 1793984507.238977
   },
   "events": [
     {
@@ -2709,6 +2715,14 @@
     {
       "key": "英航艦首試射攻擊無人機",
       "timestamp": 1793983243.7752826
+    },
+    {
+      "key": "美援削減影響以軍採購",
+      "timestamp": 1793984496.1830144
+    },
+    {
+      "key": "美伊地緣政治博弈",
+      "timestamp": 1793984511.5084093
     }
   ]
 }
