@@ -1254,17 +1254,17 @@
     "title:BCE Consulting outlines the critical elements of layered air defense architecture": 1793986855.3351119,
     "https://breakingdefense.com/2026/11/europes-airpower-future-is-taking-shape-but-not-as-originally-planned": 1793988061.5368066,
     "https://breakingdefense.com/?p=100472": 1793988061.5368066,
-    "title:Europe’s airpower future is taking shape, but not as originally planned": 1793988061.5368066
+    "title:Europe’s airpower future is taking shape, but not as originally planned": 1793988061.5368066,
+    "https://www.piie.com/research/piie-charts/2025/trumps-tariff-revenue-tracker-how-much-us-collecting-which-imports-are": 1793989238.1307502,
+    "title:Trump's tariff revenue tracker: How much is the US collecting? Which imports are hit?": 1793989238.1307502,
+    "https://www.cna.com.tw/news/ait/202611070002.aspx": 1793989258.4488475,
+    "CNA/2026-11-07/202611070002": 1793989258.4488475,
+    "title:傳台積電進軍3D DRAM 應輝達要求規劃製造、評估建廠": 1793989258.4488475,
+    "https://www.navalnews.com/event-news/euronaval-2026/2026/11/saab-receives-order-to-equip-swedens-new-frigates": 1793989273.354407,
+    "https://www.navalnews.com/?p=93180": 1793989273.354407,
+    "title:Saab receives order to equip Sweden’s new frigates": 1793989273.354407
   },
   "events": [
-    {
-      "key": "關島防空營啟用",
-      "timestamp": 1793730045.685002
-    },
-    {
-      "key": "陸戰隊貨運無人機",
-      "timestamp": 1793730055.6872358
-    },
     {
       "key": "朝俄導彈技術合作",
       "timestamp": 1793731274.2455068
@@ -2724,6 +2724,18 @@
     {
       "key": "歐洲防空戰力轉型",
       "timestamp": 1793988063.4822187
+    },
+    {
+      "key": "美國關稅收入追蹤",
+      "timestamp": 1793989248.714963
+    },
+    {
+      "key": "台積電進軍3D DRAM",
+      "timestamp": 1793989262.0701766
+    },
+    {
+      "key": "瑞典採購巡防艦裝備",
+      "timestamp": 1793989276.4976919
     }
   ]
 }
