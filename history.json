@@ -1175,7 +1175,13 @@
     "title:前澳門議員區錦新涉國安罪被判12年半 陸委會：高度遺憾": 1793941258.6923816,
     "https://www.cna.com.tw/news/acn/202611060105.aspx": 1793941268.1918542,
     "CNA/2026-11-06/202611060105": 1793941268.1918542,
-    "title:澳門民主派人士區錦新違國安法 遭判刑12年半": 1793941268.1918542
+    "title:澳門民主派人士區錦新違國安法 遭判刑12年半": 1793941268.1918542,
+    "https://thediplomat.com/2026/11/leaner-meaner-more-networked-the-royal-thai-air-forces-modernization-drive": 1793954432.7215147,
+    "https://thediplomat.com/2026/11/leaner-meaner-more-networked-the-royal-thai-air-forces-modernization-drive/": 1793954432.7215147,
+    "title:Leaner, Meaner, More Networked: The Royal Thai Air Force’s Modernization Drive": 1793954432.7215147,
+    "https://warontherocks.com/can-washington-and-china-build-confidence-around-ai-and-stability": 1793954448.548255,
+    "https://warontherocks.com/?p=48474": 1793954448.548255,
+    "title:Can Washington and China Build Confidence Around AI and Stability?": 1793954448.548255
   },
   "events": [
     {
@@ -2565,6 +2571,14 @@
     {
       "key": "澳門國安法判決",
       "timestamp": 1793941260.1909459
+    },
+    {
+      "key": "泰空軍現代化轉型",
+      "timestamp": 1793954434.3697972
+    },
+    {
+      "key": "美中AI戰略對話",
+      "timestamp": 1793954450.142374
     }
   ]
 }
