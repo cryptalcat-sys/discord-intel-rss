@@ -1245,17 +1245,15 @@
     "title:Cut to US aid would impact Israeli acquisition timelines, spending: Analysts": 1793984454.233127,
     "https://warontherocks.com/talks-attacks-and-a-heist": 1793984507.238977,
     "https://warontherocks.com/?p=48530": 1793984507.238977,
-    "title:Talks, Attacks, and a Heist": 1793984507.238977
+    "title:Talks, Attacks, and a Heist": 1793984507.238977,
+    "https://www.twz.com/air/russian-mi-28-attack-helicopter-fires-cruise-missile": 1793986845.2080493,
+    "https://www.twz.com/?p=6605478": 1793986845.2080493,
+    "title:Russian Mi-28 Attack Helicopters Are Now Firing Cruise Missiles": 1793986845.2080493,
+    "https://www.defensenews.com/video/2026/11/06/bce-consulting-outlines-the-critical-elements-of-layered-air-defense-architecture": 1793986855.3351119,
+    "https://one.sightlinemg.com/defensenews/?p=87018": 1793986855.3351119,
+    "title:BCE Consulting outlines the critical elements of layered air defense architecture": 1793986855.3351119
   },
   "events": [
-    {
-      "key": "BAE海神炮系統",
-      "timestamp": 1793727642.9924386
-    },
-    {
-      "key": "沖之鳥島實彈演習",
-      "timestamp": 1793727656.0069208
-    },
     {
       "key": "無人機電池供應鏈",
       "timestamp": 1793727667.6132812
@@ -2723,6 +2721,14 @@
     {
       "key": "美伊地緣政治博弈",
       "timestamp": 1793984511.5084093
+    },
+    {
+      "key": "俄軍Mi-28試射巡弋飛彈",
+      "timestamp": 1793986846.746799
+    },
+    {
+      "key": "美軍多層防空架構佈局",
+      "timestamp": 1793986857.3271298
     }
   ]
 }
