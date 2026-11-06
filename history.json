@@ -1184,7 +1184,10 @@
     "title:Can Washington and China Build Confidence Around AI and Stability?": 1793954448.548255,
     "https://www.cna.com.tw/news/acn/202611060206.aspx": 1793955654.8772945,
     "CNA/2026-11-06/202611060206": 1793955654.8772945,
-    "title:中國海警船擾金門水域 海巡：停止類似騷擾行為": 1793955654.8772945
+    "title:中國海警船擾金門水域 海巡：停止類似騷擾行為": 1793955654.8772945,
+    "https://www.navalnews.com/event-news/euronaval-2026/2026/11/fincantieri-and-j-a-solutions-sign-loi-to-advance-modularity-for-next-generation-naval-vessels": 1793956845.9726682,
+    "https://www.navalnews.com/?p=93127": 1793956845.9726682,
+    "title:Fincantieri and J.A. Solutions Sign LoI to Advance Modularity for Next-Generation Naval Vessels": 1793956845.9726682
   },
   "events": [
     {
@@ -2586,6 +2589,10 @@
     {
       "key": "中國海警擾金門水域",
       "timestamp": 1793955656.600566
+    },
+    {
+      "key": "芬坎蒂尼簽署軍艦模組化意向書",
+      "timestamp": 1793956847.7712283
     }
   ]
 }
