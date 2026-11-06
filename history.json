@@ -1192,7 +1192,10 @@
     "title:從美中科技競逐到台灣晶片籌碼，郝珂靈談「AI帝國」的擴張與抵抗": 1793958038.783565,
     "https://www.navalnews.com/event-news/euronaval-2026/2026/11/fincantieri-unveils-new-multi-mission-modular-vessel-at-euronaval-2026": 1793959250.436482,
     "https://www.navalnews.com/?p=93123": 1793959250.436482,
-    "title:Fincantieri unveils new Multi-Mission Modular Vessel at Euronaval 2026": 1793959250.436482
+    "title:Fincantieri unveils new Multi-Mission Modular Vessel at Euronaval 2026": 1793959250.436482,
+    "https://www.defensenews.com/global/europe/2026/11/06/how-a-french-frigates-radical-bow-design-makes-for-smooth-sailing": 1793961642.4310095,
+    "https://one.sightlinemg.com/defensenews/?p=87615": 1793961642.4310095,
+    "title:How a French frigate’s radical bow design makes for smooth sailing": 1793961642.4310095
   },
   "events": [
     {
@@ -2602,6 +2605,10 @@
     {
       "key": "美中科技競逐與台灣晶片籌碼",
       "timestamp": 1793958040.3445098
+    },
+    {
+      "key": "法軍FDI逆船首設計",
+      "timestamp": 1793961649.3004062
     }
   ]
 }
