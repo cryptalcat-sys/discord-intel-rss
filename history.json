@@ -1262,7 +1262,10 @@
     "title:傳台積電進軍3D DRAM 應輝達要求規劃製造、評估建廠": 1793989258.4488475,
     "https://www.navalnews.com/event-news/euronaval-2026/2026/11/saab-receives-order-to-equip-swedens-new-frigates": 1793989273.354407,
     "https://www.navalnews.com/?p=93180": 1793989273.354407,
-    "title:Saab receives order to equip Sweden’s new frigates": 1793989273.354407
+    "title:Saab receives order to equip Sweden’s new frigates": 1793989273.354407,
+    "https://news.usni.org/2026/11/06/usni-news-western-pacific-pulse-nov-6-2026": 1793990448.7284667,
+    "https://news.usni.org/?p=126416": 1793990448.7284667,
+    "title:USNI News Western Pacific Pulse: Nov. 6, 2026": 1793990448.7284667
   },
   "events": [
     {
@@ -2736,6 +2739,10 @@
     {
       "key": "瑞典採購巡防艦裝備",
       "timestamp": 1793989276.4976919
+    },
+    {
+      "key": "美航母星港靠港與中東部署",
+      "timestamp": 1793990450.8654945
     }
   ]
 }
