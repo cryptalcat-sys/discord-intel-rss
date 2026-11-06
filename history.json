@@ -1225,7 +1225,10 @@
     "title:Key Space Force satellites can’t talk to each other, likely requiring $1B solution: Sources": 1793974832.5921023,
     "https://news.usni.org/2026/11/06/theodore-roosevelt-carrier-strike-group-pulls-into-singapore": 1793974850.8070648,
     "https://news.usni.org/?p=126450": 1793974850.8070648,
-    "title:Theodore Roosevelt Carrier Strike Group Pulls Into Singapore": 1793974850.8070648
+    "title:Theodore Roosevelt Carrier Strike Group Pulls Into Singapore": 1793974850.8070648,
+    "https://breakingdefense.com/2026/11/the-navys-trainer-is-now-the-biggest-test-of-the-pentagons-acquisition-reform-efforts": 1793978435.3165069,
+    "https://breakingdefense.com/?p=100358": 1793978435.3165069,
+    "title:The Navy’s trainer is now the biggest test of the Pentagon’s acquisition reform efforts": 1793978435.3165069
   },
   "events": [
     {
@@ -2679,6 +2682,10 @@
     {
       "key": "羅斯福號航母停靠星國",
       "timestamp": 1793974852.5384984
+    },
+    {
+      "key": "美軍教練機採購改革",
+      "timestamp": 1793978437.3582857
     }
   ]
 }
