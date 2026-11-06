@@ -1251,21 +1251,12 @@
     "title:Russian Mi-28 Attack Helicopters Are Now Firing Cruise Missiles": 1793986845.2080493,
     "https://www.defensenews.com/video/2026/11/06/bce-consulting-outlines-the-critical-elements-of-layered-air-defense-architecture": 1793986855.3351119,
     "https://one.sightlinemg.com/defensenews/?p=87018": 1793986855.3351119,
-    "title:BCE Consulting outlines the critical elements of layered air defense architecture": 1793986855.3351119
+    "title:BCE Consulting outlines the critical elements of layered air defense architecture": 1793986855.3351119,
+    "https://breakingdefense.com/2026/11/europes-airpower-future-is-taking-shape-but-not-as-originally-planned": 1793988061.5368066,
+    "https://breakingdefense.com/?p=100472": 1793988061.5368066,
+    "title:Europe’s airpower future is taking shape, but not as originally planned": 1793988061.5368066
   },
   "events": [
-    {
-      "key": "無人機電池供應鏈",
-      "timestamp": 1793727667.6132812
-    },
-    {
-      "key": "英軍追蹤俄艦",
-      "timestamp": 1793728855.3678432
-    },
-    {
-      "key": "美澳印日馬爾代夫演習",
-      "timestamp": 1793728864.5662954
-    },
     {
       "key": "關島防空營啟用",
       "timestamp": 1793730045.685002
@@ -2729,6 +2720,10 @@
     {
       "key": "美軍多層防空架構佈局",
       "timestamp": 1793986857.3271298
+    },
+    {
+      "key": "歐洲防空戰力轉型",
+      "timestamp": 1793988063.4822187
     }
   ]
 }
