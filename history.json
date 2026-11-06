@@ -1280,25 +1280,12 @@
     "title:The Future of French Fleet Close-in Defense": 1794002449.7367754,
     "https://www.atlanticcouncil.org/dispatches/why-this-us-midterm-was-unusually-important-for-the-middle-east": 1794004839.7000668,
     "https://www.atlanticcouncil.org/?p=958373": 1794004839.7000668,
-    "title:Why this US midterm was unusually important for the Middle East": 1794004839.7000668
+    "title:Why this US midterm was unusually important for the Middle East": 1794004839.7000668,
+    "https://www.atlanticcouncil.org/dispatches/putin-wants-peace-talks-he-doesnt-want-peace": 1794006050.9262,
+    "https://www.atlanticcouncil.org/?p=959149": 1794006050.9262,
+    "title:Putin wants peace talks. He doesn’t want peace.": 1794006050.9262
   },
   "events": [
-    {
-      "key": "印度防空系統外銷",
-      "timestamp": 1793745652.6578605
-    },
-    {
-      "key": "北京輸出審查機制",
-      "timestamp": 1793745663.7506373
-    },
-    {
-      "key": "GJ-21登076艦",
-      "timestamp": 1793746854.276154
-    },
-    {
-      "key": "美海軍遠程掃雷採購",
-      "timestamp": 1793746865.1467445
-    },
     {
       "key": "五角大廈AI官僚改革",
       "timestamp": 1793746875.883264
@@ -2586,6 +2573,10 @@
     {
       "key": "法艦近防演訓與後勤防衛",
       "timestamp": 1794002451.921935
+    },
+    {
+      "key": "俄烏和談戰略博弈",
+      "timestamp": 1794006052.6592991
     }
   ]
 }
