@@ -1236,7 +1236,10 @@
     "title:「不要忘記他」：黃之鋒獄中被控「勾結外國勢力」再判10年，延至2036年出獄": 1793980863.0074182,
     "https://www.cna.com.tw/news/acn/202611060359.aspx": 1793980863.8278654,
     "CNA/2026-11-06/202611060359": 1793980863.8278654,
-    "title:被撤全國政協委員後 中國前中醫藥局長投案受查": 1793980863.8278654
+    "title:被撤全國政協委員後 中國前中醫藥局長投案受查": 1793980863.8278654,
+    "https://www.navalnews.com/naval-news/2026/11/strike-drones-launched-from-british-aircraft-carrier-for-the-first-time": 1793983241.8153572,
+    "https://www.navalnews.com/?p=93171": 1793983241.8153572,
+    "title:Strike drones launched from British aircraft carrier for the first time": 1793983241.8153572
   },
   "events": [
     {
@@ -2702,6 +2705,10 @@
     {
       "key": "中國官員落馬受查",
       "timestamp": 1793980866.6521218
+    },
+    {
+      "key": "英航艦首試射攻擊無人機",
+      "timestamp": 1793983243.7752826
     }
   ]
 }
