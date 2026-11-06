@@ -1219,7 +1219,13 @@
     "title:Denmark, Lithuania latest Baltic navies to buy ‘Blocker’ mines through Finnish scheme": 1793973660.4737678,
     "https://www.navalnews.com/event-news/euronaval-2026/2026/11/kongsberg-expands-aegir-ssa-sonar-family-alongside-virtual-operator-for-maritime-security-and-navigation": 1793973675.2324216,
     "https://www.navalnews.com/?p=92936": 1793973675.2324216,
-    "title:KONGSBERG expands Aegir SSA sonar family alongside virtual operator for maritime security and navigation": 1793973675.2324216
+    "title:KONGSBERG expands Aegir SSA sonar family alongside virtual operator for maritime security and navigation": 1793973675.2324216,
+    "https://breakingdefense.com/2026/11/key-space-force-satellites-cant-talk-to-each-other-likely-requiring-1b-solution-sources": 1793974832.5921023,
+    "https://breakingdefense.com/?p=99545": 1793974832.5921023,
+    "title:Key Space Force satellites can’t talk to each other, likely requiring $1B solution: Sources": 1793974832.5921023,
+    "https://news.usni.org/2026/11/06/theodore-roosevelt-carrier-strike-group-pulls-into-singapore": 1793974850.8070648,
+    "https://news.usni.org/?p=126450": 1793974850.8070648,
+    "title:Theodore Roosevelt Carrier Strike Group Pulls Into Singapore": 1793974850.8070648
   },
   "events": [
     {
@@ -2665,6 +2671,14 @@
     {
       "key": "康斯堡擴展Aegir聲納與AI虛擬操作員",
       "timestamp": 1793973676.642186
+    },
+    {
+      "key": "美軍太空軍衛星通信鏈結升級",
+      "timestamp": 1793974835.6423512
+    },
+    {
+      "key": "羅斯福號航母停靠星國",
+      "timestamp": 1793974852.5384984
     }
   ]
 }
