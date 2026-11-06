@@ -1274,33 +1274,12 @@
     "title:To settle Russia’s Ukraine war, Europe needs to let Kyiv in. Trump can help (really).": 1794000032.7591026,
     "https://www.twz.com/air/operational-f-15exs-have-started-flying-with-conformal-fuel-tanks": 1794001231.3609025,
     "https://www.twz.com/?p=6605560": 1794001231.3609025,
-    "title:Operational F-15EXs Have Started Flying With Conformal Fuel Tanks": 1794001231.3609025
+    "title:Operational F-15EXs Have Started Flying With Conformal Fuel Tanks": 1794001231.3609025,
+    "https://news.usni.org/2026/11/06/the-future-of-french-fleet-close-in-defense": 1794002449.7367754,
+    "https://news.usni.org/?p=126439": 1794002449.7367754,
+    "title:The Future of French Fleet Close-in Defense": 1794002449.7367754
   },
   "events": [
-    {
-      "key": "美軍採購長程彈藥",
-      "timestamp": 1793742063.354207
-    },
-    {
-      "key": "薩博AI飛行員系統",
-      "timestamp": 1793742074.3555894
-    },
-    {
-      "key": "俄獨立媒體消亡",
-      "timestamp": 1793742085.6047072
-    },
-    {
-      "key": "美陸戰隊富士演訓",
-      "timestamp": 1793743252.8055596
-    },
-    {
-      "key": "菲海警跟蹤遼寧艦",
-      "timestamp": 1793743261.989424
-    },
-    {
-      "key": "俄企支援侵烏戰爭",
-      "timestamp": 1793743272.3514779
-    },
     {
       "key": "俄印南海戰略博弈",
       "timestamp": 1793743282.5443876
@@ -2624,6 +2603,10 @@
     {
       "key": "美軍F-15EX掛載適形油箱",
       "timestamp": 1794001233.6982267
+    },
+    {
+      "key": "法艦近防演訓與後勤防衛",
+      "timestamp": 1794002451.921935
     }
   ]
 }
