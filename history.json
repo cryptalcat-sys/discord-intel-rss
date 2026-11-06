@@ -1268,81 +1268,12 @@
     "title:USNI News Western Pacific Pulse: Nov. 6, 2026": 1793990448.7284667,
     "https://www.defensenews.com/global/the-americas/2026/11/06/us-colombian-troops-kick-off-exercise-amid-the-pentagons-western-hemisphere-pivot": 1793994038.2459261,
     "https://one.sightlinemg.com/defensenews/news/2026/11/06/us-colombian-troops-kick-off-exercise-amid-the-pentagons-western-hemisphere-pivot/": 1793994038.2459261,
-    "title:US, Colombian troops kick off exercise amid the Pentagon’s Western Hemisphere pivot": 1793994038.2459261
+    "title:US, Colombian troops kick off exercise amid the Pentagon’s Western Hemisphere pivot": 1793994038.2459261,
+    "https://www.atlanticcouncil.org/in-depth-research-reports/issue-brief/to-settle-russias-ukraine-war-europe-needs-to-let-kyiv-in-trump-can-help-really": 1794000032.7591026,
+    "https://www.atlanticcouncil.org/?p=959062": 1794000032.7591026,
+    "title:To settle Russia’s Ukraine war, Europe needs to let Kyiv in. Trump can help (really).": 1794000032.7591026
   },
   "events": [
-    {
-      "key": "美海軍航空事故激增",
-      "timestamp": 1793734858.6290128
-    },
-    {
-      "key": "烏克蘭入歐疑雲",
-      "timestamp": 1793734869.7147093
-    },
-    {
-      "key": "東帝汶東協融入",
-      "timestamp": 1793734879.5851889
-    },
-    {
-      "key": "海湖莊園防空部署",
-      "timestamp": 1793736064.863369
-    },
-    {
-      "key": "美陸軍無人化轉型",
-      "timestamp": 1793736074.9646878
-    },
-    {
-      "key": "胡塞紅海擴張",
-      "timestamp": 1793736086.2598097
-    },
-    {
-      "key": "韓烏戰俘外交衝突",
-      "timestamp": 1793736096.2049158
-    },
-    {
-      "key": "美軍巡航彈援烏",
-      "timestamp": 1793737249.3709793
-    },
-    {
-      "key": "法軍海軍擴編",
-      "timestamp": 1793737259.1026416
-    },
-    {
-      "key": "美軍A-29退役",
-      "timestamp": 1793738447.5936065
-    },
-    {
-      "key": "印海潛救能力提升",
-      "timestamp": 1793738464.6213326
-    },
-    {
-      "key": "中共戰略主動權",
-      "timestamp": 1793738485.2288618
-    },
-    {
-      "key": "美軍網路部隊心理危機",
-      "timestamp": 1793738494.7789104
-    },
-    {
-      "key": "日高空無人機墜海",
-      "timestamp": 1793739661.6535072
-    },
-    {
-      "key": "J-35對巴出口評估",
-      "timestamp": 1793739703.2917545
-    },
-    {
-      "key": "東協煙霾治理困境",
-      "timestamp": 1793739729.3922322
-    },
-    {
-      "key": "印尼新加坡煙霾外交",
-      "timestamp": 1793739744.2329738
-    },
-    {
-      "key": "英式護衛艦美軍採購",
-      "timestamp": 1793740845.071727
-    },
     {
       "key": "韓華建造中型登陸艦",
       "timestamp": 1793740855.1367035
@@ -2694,6 +2625,10 @@
     {
       "key": "美哥聯合軍事演習",
       "timestamp": 1793994039.9006355
+    },
+    {
+      "key": "烏克蘭加入歐盟與川普斡旋",
+      "timestamp": 1794000034.5223463
     }
   ]
 }
