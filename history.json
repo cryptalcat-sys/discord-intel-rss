@@ -1271,21 +1271,12 @@
     "title:US, Colombian troops kick off exercise amid the Pentagon’s Western Hemisphere pivot": 1793994038.2459261,
     "https://www.atlanticcouncil.org/in-depth-research-reports/issue-brief/to-settle-russias-ukraine-war-europe-needs-to-let-kyiv-in-trump-can-help-really": 1794000032.7591026,
     "https://www.atlanticcouncil.org/?p=959062": 1794000032.7591026,
-    "title:To settle Russia’s Ukraine war, Europe needs to let Kyiv in. Trump can help (really).": 1794000032.7591026
+    "title:To settle Russia’s Ukraine war, Europe needs to let Kyiv in. Trump can help (really).": 1794000032.7591026,
+    "https://www.twz.com/air/operational-f-15exs-have-started-flying-with-conformal-fuel-tanks": 1794001231.3609025,
+    "https://www.twz.com/?p=6605560": 1794001231.3609025,
+    "title:Operational F-15EXs Have Started Flying With Conformal Fuel Tanks": 1794001231.3609025
   },
   "events": [
-    {
-      "key": "韓華建造中型登陸艦",
-      "timestamp": 1793740855.1367035
-    },
-    {
-      "key": "美軍防空系統採購",
-      "timestamp": 1793740882.1704786
-    },
-    {
-      "key": "北韓非軍事區布雷",
-      "timestamp": 1793740891.7224176
-    },
     {
       "key": "美軍採購長程彈藥",
       "timestamp": 1793742063.354207
@@ -2629,6 +2620,10 @@
     {
       "key": "烏克蘭加入歐盟與川普斡旋",
       "timestamp": 1794000034.5223463
+    },
+    {
+      "key": "美軍F-15EX掛載適形油箱",
+      "timestamp": 1794001233.6982267
     }
   ]
 }
