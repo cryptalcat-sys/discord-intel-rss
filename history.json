@@ -1265,65 +1265,12 @@
     "title:Saab receives order to equip Sweden’s new frigates": 1793989273.354407,
     "https://news.usni.org/2026/11/06/usni-news-western-pacific-pulse-nov-6-2026": 1793990448.7284667,
     "https://news.usni.org/?p=126416": 1793990448.7284667,
-    "title:USNI News Western Pacific Pulse: Nov. 6, 2026": 1793990448.7284667
+    "title:USNI News Western Pacific Pulse: Nov. 6, 2026": 1793990448.7284667,
+    "https://www.defensenews.com/global/the-americas/2026/11/06/us-colombian-troops-kick-off-exercise-amid-the-pentagons-western-hemisphere-pivot": 1793994038.2459261,
+    "https://one.sightlinemg.com/defensenews/news/2026/11/06/us-colombian-troops-kick-off-exercise-amid-the-pentagons-western-hemisphere-pivot/": 1793994038.2459261,
+    "title:US, Colombian troops kick off exercise amid the Pentagon’s Western Hemisphere pivot": 1793994038.2459261
   },
   "events": [
-    {
-      "key": "朝俄導彈技術合作",
-      "timestamp": 1793731274.2455068
-    },
-    {
-      "key": "日印反艦演習磋商",
-      "timestamp": 1793731284.7972727
-    },
-    {
-      "key": "美軍改革末梢瓶頸",
-      "timestamp": 1793731295.4854124
-    },
-    {
-      "key": "X-BAT垂直起降無人機",
-      "timestamp": 1793732464.7626984
-    },
-    {
-      "key": "波蘭軍援烏克蘭",
-      "timestamp": 1793732474.8128283
-    },
-    {
-      "key": "美中戰略互信危機",
-      "timestamp": 1793732487.2525532
-    },
-    {
-      "key": "中朝邊境橋樑通車",
-      "timestamp": 1793732496.933048
-    },
-    {
-      "key": "法SCX26隱形驅逐艦",
-      "timestamp": 1793733643.1587608
-    },
-    {
-      "key": "美無人機伊朗回收",
-      "timestamp": 1793733652.26991
-    },
-    {
-      "key": "俄非峰會與經濟困境",
-      "timestamp": 1793733663.3201976
-    },
-    {
-      "key": "澳軍基地擴建",
-      "timestamp": 1793733673.381704
-    },
-    {
-      "key": "空客無人機項目調整",
-      "timestamp": 1793733987.6673155
-    },
-    {
-      "key": "朝雲號NGDS誘餌測試",
-      "timestamp": 1793734004.169568
-    },
-    {
-      "key": "美以聯軍空襲伊朗",
-      "timestamp": 1793734849.1780176
-    },
     {
       "key": "美海軍航空事故激增",
       "timestamp": 1793734858.6290128
@@ -2743,6 +2690,10 @@
     {
       "key": "美航母星港靠港與中東部署",
       "timestamp": 1793990450.8654945
+    },
+    {
+      "key": "美哥聯合軍事演習",
+      "timestamp": 1793994039.9006355
     }
   ]
 }
