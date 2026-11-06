@@ -1181,7 +1181,10 @@
     "title:Leaner, Meaner, More Networked: The Royal Thai Air Force’s Modernization Drive": 1793954432.7215147,
     "https://warontherocks.com/can-washington-and-china-build-confidence-around-ai-and-stability": 1793954448.548255,
     "https://warontherocks.com/?p=48474": 1793954448.548255,
-    "title:Can Washington and China Build Confidence Around AI and Stability?": 1793954448.548255
+    "title:Can Washington and China Build Confidence Around AI and Stability?": 1793954448.548255,
+    "https://www.cna.com.tw/news/acn/202611060206.aspx": 1793955654.8772945,
+    "CNA/2026-11-06/202611060206": 1793955654.8772945,
+    "title:中國海警船擾金門水域 海巡：停止類似騷擾行為": 1793955654.8772945
   },
   "events": [
     {
@@ -2579,6 +2582,10 @@
     {
       "key": "美中AI戰略對話",
       "timestamp": 1793954450.142374
+    },
+    {
+      "key": "中國海警擾金門水域",
+      "timestamp": 1793955656.600566
     }
   ]
 }
