@@ -1195,7 +1195,19 @@
     "title:Fincantieri unveils new Multi-Mission Modular Vessel at Euronaval 2026": 1793959250.436482,
     "https://www.defensenews.com/global/europe/2026/11/06/how-a-french-frigates-radical-bow-design-makes-for-smooth-sailing": 1793961642.4310095,
     "https://one.sightlinemg.com/defensenews/?p=87615": 1793961642.4310095,
-    "title:How a French frigate’s radical bow design makes for smooth sailing": 1793961642.4310095
+    "title:How a French frigate’s radical bow design makes for smooth sailing": 1793961642.4310095,
+    "https://breakingdefense.com/2026/11/europe-nears-decision-on-competing-hypersonic-interceptor-programs": 1793964034.3313968,
+    "https://breakingdefense.com/?p=100384": 1793964034.3313968,
+    "title:Europe nears decision on competing hypersonic interceptor programs": 1793964034.3313968,
+    "https://www.cna.com.tw/news/acn/202611060272.aspx": 1793964049.3955853,
+    "CNA/2026-11-06/202611060272": 1793964049.3955853,
+    "title:美國期中選舉結果 陸委會：維持台海和平現狀不變": 1793964049.3955853,
+    "https://www.youtube.com/shorts/u8CGmWiXriU": 1793964097.5939178,
+    "yt:video:u8CGmWiXriU": 1793964097.5939178,
+    "title:China’s Ambition for a Beijing-Centered Asia | Taiwan Talks #shorts": 1793964097.5939178,
+    "https://www.cna.com.tw/news/acn/202611060228.aspx": 1793964107.74356,
+    "CNA/2026-11-06/202611060228": 1793964107.74356,
+    "title:高市早苗「台灣有事」答詢將滿週年 北京批日本原地打轉": 1793964107.74356
   },
   "events": [
     {
@@ -2609,6 +2621,22 @@
     {
       "key": "法軍FDI逆船首設計",
       "timestamp": 1793961649.3004062
+    },
+    {
+      "key": "歐洲極音速攔截系統競標",
+      "timestamp": 1793964036.0463238
+    },
+    {
+      "key": "美選台海現狀",
+      "timestamp": 1793964088.460011
+    },
+    {
+      "key": "中國亞洲秩序主導權",
+      "timestamp": 1793964099.20447
+    },
+    {
+      "key": "日本台灣有事答詢",
+      "timestamp": 1793964109.3111813
     }
   ]
 }
