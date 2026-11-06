@@ -1169,7 +1169,13 @@
     "12375 at https://www.bruegel.org": 1793925692.3328888,
     "title:Session 6a: European trade policy beyond FTAs: what is feasible without the US and China?": 1793925692.3328888,
     "https://www.lowyinstitute.org/the-interpreter/the-ocean-is-missing-from-climate-diplomacy-again": 1793928038.762818,
-    "title:The ocean is missing from climate diplomacy. Again.": 1793928038.762818
+    "title:The ocean is missing from climate diplomacy. Again.": 1793928038.762818,
+    "https://www.cna.com.tw/news/acn/202611060110.aspx": 1793941258.6923816,
+    "CNA/2026-11-06/202611060110": 1793941258.6923816,
+    "title:前澳門議員區錦新涉國安罪被判12年半 陸委會：高度遺憾": 1793941258.6923816,
+    "https://www.cna.com.tw/news/acn/202611060105.aspx": 1793941268.1918542,
+    "CNA/2026-11-06/202611060105": 1793941268.1918542,
+    "title:澳門民主派人士區錦新違國安法 遭判刑12年半": 1793941268.1918542
   },
   "events": [
     {
@@ -2555,6 +2561,10 @@
     {
       "key": "全球氣候峰會海洋缺席",
       "timestamp": 1793928042.9757104
+    },
+    {
+      "key": "澳門國安法判決",
+      "timestamp": 1793941260.1909459
     }
   ]
 }
