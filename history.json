@@ -1231,7 +1231,12 @@
     "title:The Navy’s trainer is now the biggest test of the Pentagon’s acquisition reform efforts": 1793978435.3165069,
     "https://www.defensenews.com/global/asia-pacific/2026/11/06/us-air-force-eyes-reviving-wwii-air-bases-in-the-pacific": 1793979631.7660332,
     "https://one.sightlinemg.com/defensenews/news/2026/11/06/us-air-force-eyes-reviving-wwii-air-bases-in-the-pacific/": 1793979631.7660332,
-    "title:US Air Force eyes reviving WWII air bases in the Pacific": 1793979631.7660332
+    "title:US Air Force eyes reviving WWII air bases in the Pacific": 1793979631.7660332,
+    "https://www.twreporter.org/a/hong-kong-joshua-wong-gets-10-more-years-in-jail-for-foreign-collusion": 1793980863.0074182,
+    "title:「不要忘記他」：黃之鋒獄中被控「勾結外國勢力」再判10年，延至2036年出獄": 1793980863.0074182,
+    "https://www.cna.com.tw/news/acn/202611060359.aspx": 1793980863.8278654,
+    "CNA/2026-11-06/202611060359": 1793980863.8278654,
+    "title:被撤全國政協委員後 中國前中醫藥局長投案受查": 1793980863.8278654
   },
   "events": [
     {
@@ -2693,6 +2698,10 @@
     {
       "key": "美軍重啟太平洋二戰機場",
       "timestamp": 1793979635.6387467
+    },
+    {
+      "key": "中國官員落馬受查",
+      "timestamp": 1793980866.6521218
     }
   ]
 }
