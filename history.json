@@ -1309,25 +1309,12 @@
     "title:中加財經對話將重啟 北京宣布首次在加拿大發行人民幣主權債券": 1794055234.850496,
     "https://www.cna.com.tw/news/acn/202611070192.aspx": 1794061235.9061751,
     "CNA/2026-11-07/202611070192": 1794061235.9061751,
-    "title:輝達晶片滯香港 港媒：北京對短期需求與長期技術自主戰略取捨": 1794061235.9061751
+    "title:輝達晶片滯香港 港媒：北京對短期需求與長期技術自主戰略取捨": 1794061235.9061751,
+    "https://www.navalnews.com/event-news/euronaval-2026/2026/11/france-orders-32-aster-missiles-upgrade-fdi-frigates": 1794066047.762637,
+    "https://www.navalnews.com/?p=93190": 1794066047.762637,
+    "title:Euronaval 2026: France Orders 32-Cell Aster Missile Upgrade for FDI Frigates": 1794066047.762637
   },
   "events": [
-    {
-      "key": "LOCUST激光護衛海湖莊園",
-      "timestamp": 1793802559.5558958
-    },
-    {
-      "key": "Stratus RS 遠程打擊",
-      "timestamp": 1793804055.5512888
-    },
-    {
-      "key": "076型無人機航母試飛",
-      "timestamp": 1793806844.254062
-    },
-    {
-      "key": "北約北翼俄威嚇",
-      "timestamp": 1793806855.3207383
-    },
     {
       "key": "意艦廠合資提速",
       "timestamp": 1793808058.2009542
@@ -2163,6 +2150,10 @@
     {
       "key": "輝達晶片滯留香港",
       "timestamp": 1794061238.4888287
+    },
+    {
+      "key": "法軍防空巡防艦升級",
+      "timestamp": 1794066055.7385764
     }
   ]
 }
