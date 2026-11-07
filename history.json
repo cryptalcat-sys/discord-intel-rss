@@ -1303,25 +1303,12 @@
     "title:經歷中共「指居」的恐懼控制，李翹楚：如果不能勇敢的講，就不能自由的行動": 1794043247.69866,
     "https://www.atlanticcouncil.org/dispatches/as-gen-z-asserts-itself-in-serbia-and-albania-the-upside-for-the-west-is-far-greater-than-the-headaches": 1794054036.7561643,
     "https://www.atlanticcouncil.org/?p=958097": 1794054036.7561643,
-    "title:As Gen Z asserts itself in Serbia and Albania, the upside for the West is far greater than the headaches": 1794054036.7561643
+    "title:As Gen Z asserts itself in Serbia and Albania, the upside for the West is far greater than the headaches": 1794054036.7561643,
+    "https://www.cna.com.tw/news/acn/202611070166.aspx": 1794055234.850496,
+    "CNA/2026-11-07/202611070166": 1794055234.850496,
+    "title:中加財經對話將重啟 北京宣布首次在加拿大發行人民幣主權債券": 1794055234.850496
   },
   "events": [
-    {
-      "key": "美軍Typhon歐洲試射",
-      "timestamp": 1793794943.3042188
-    },
-    {
-      "key": "美軍激光武器現況",
-      "timestamp": 1793794983.2439694
-    },
-    {
-      "key": "白俄地緣戰略",
-      "timestamp": 1793795010.6193738
-    },
-    {
-      "key": "美中權力競爭辯證",
-      "timestamp": 1793795068.0432746
-    },
     {
       "key": "美軍F/A-18擊沉標記",
       "timestamp": 1793796156.9016914
@@ -2233,6 +2220,10 @@
     {
       "key": "李翹楚指居恐懼控制",
       "timestamp": 1794043251.013303
+    },
+    {
+      "key": "中加財經戰略對話",
+      "timestamp": 1794055238.5229993
     }
   ]
 }
