@@ -1,8 +1,5 @@
 {
   "ids": {
-    "https://www.navalnews.com/event-news/euronaval-2026/2026/11/naval-group-unveils-a-larger-more-powerful-fdi-frigate": 1793917244.844706,
-    "https://www.navalnews.com/?p=92947": 1793917244.844706,
-    "title:Naval Group Unveils a Larger, More Powerful FDI Frigate": 1793917244.844706,
     "https://www.defensenews.com/industry/techwatch/2026/11/05/shield-ai-to-acquire-radar-maker-echodyne-to-bust-drones": 1793919652.8596516,
     "https://one.sightlinemg.com/defensenews/news/2026/11/05/shield-ai-to-acquire-radar-maker-echodyne-to-bust-drones/": 1793919652.8596516,
     "title:Shield AI to acquire radar maker Echodyne to bust drones": 1793919652.8596516,
@@ -1641,13 +1638,12 @@
     "title:Peterson Institute for International Economics mourns the passing of Gary Clyde Hufbauer": 1794175252.0609775,
     "https://www.atlanticcouncil.org/dispatches/the-six-strategic-mistakes-that-led-to-us-defeat-in-afghanistan": 1794176435.5451744,
     "https://www.atlanticcouncil.org/?p=958640": 1794176435.5451744,
-    "title:The six strategic mistakes that led to US defeat in Afghanistan": 1794176435.5451744
+    "title:The six strategic mistakes that led to US defeat in Afghanistan": 1794176435.5451744,
+    "https://www.atlanticcouncil.org/blogs/ukrainealert/putin-suffers-balkan-setbacks-as-russia-struggles-to-retain-influence": 1794177631.8448336,
+    "https://www.atlanticcouncil.org/?p=958820": 1794177631.8448336,
+    "title:Putin suffers Balkan setbacks as Russia struggles to retain influence": 1794177631.8448336
   },
   "events": [
-    {
-      "key": "法軍FDI護衛艦升級",
-      "timestamp": 1793917254.6729267
-    },
     {
       "key": "盾牌人工智慧收購雷達商",
       "timestamp": 1793919655.4762585
