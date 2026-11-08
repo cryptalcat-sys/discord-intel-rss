@@ -1376,17 +1376,11 @@
     "title:Saudi Arabia inks first defense ‘cooperation’ agreement with Syria’s new leadership": 1794151246.532804,
     "https://www.defensenews.com/news/2026/11/06/us-european-command-launches-vigilance-campaign-as-hybrid-threats-mount": 1794152443.23254,
     "https://one.sightlinemg.com/defensenews/?p=87634": 1794152443.23254,
-    "title:US European Command launches vigilance campaign as hybrid threats mount": 1794152443.23254
+    "title:US European Command launches vigilance campaign as hybrid threats mount": 1794152443.23254,
+    "https://www.lowyinstitute.org/the-interpreter/beijing-s-new-common-language-law-doesn-t-sound-so-common": 1794153654.298989,
+    "title:Beijing’s new “common language” law doesn’t sound so common": 1794153654.298989
   },
   "events": [
-    {
-      "key": "美參議院施壓空軍",
-      "timestamp": 1793893283.5129185
-    },
-    {
-      "key": "通用原子彈藥空射概念",
-      "timestamp": 1793893410.02315
-    },
     {
       "key": "GMLRS動態打擊測試",
       "timestamp": 1793895699.0175903
@@ -1674,6 +1668,10 @@
     {
       "key": "美中化工雙反稅",
       "timestamp": 1794142855.7110758
+    },
+    {
+      "key": "中國通用語言立法",
+      "timestamp": 1794153693.180089
     }
   ]
 }
