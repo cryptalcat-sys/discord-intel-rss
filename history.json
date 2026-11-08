@@ -1358,33 +1358,12 @@
     "title:Don’t Soak the Rich": 1794128450.0645735,
     "https://www.foreignaffairs.com/united-states/true-meaning-power-david-sacks": 1794128450.0646265,
     "1135742": 1794128450.0646265,
-    "title:The True Meaning of Power": 1794128450.0646265
+    "title:The True Meaning of Power": 1794128450.0646265,
+    "https://www.navalnews.com/event-news/euronaval-2026/2026/11/naval-group-to-build-ucuv-underwater-combat-drone-demonstrator-for-french-navy": 1794130840.513127,
+    "https://www.navalnews.com/?p=93160": 1794130840.513127,
+    "title:Naval Group to Build UCUV Underwater Combat Drone Demonstrator for French Navy": 1794130840.513127
   },
   "events": [
-    {
-      "key": "歐洲高超音速攔截試飛",
-      "timestamp": 1793869314.8726885
-    },
-    {
-      "key": "俄獨立媒體遭封殺",
-      "timestamp": 1793869362.7098446
-    },
-    {
-      "key": "美兩棲艦完成建造商試驗",
-      "timestamp": 1793870441.8899686
-    },
-    {
-      "key": "Zodiac無人艇發布",
-      "timestamp": 1793870481.198707
-    },
-    {
-      "key": "塞爾維亞政權更迭",
-      "timestamp": 1793870502.396477
-    },
-    {
-      "key": "中亞阿塞拜疆C6合作",
-      "timestamp": 1793870549.8487127
-    },
     {
       "key": "土製近防炮系統",
       "timestamp": 1793871672.1066318
@@ -1820,6 +1799,10 @@
     {
       "key": "台灣大選中共介選",
       "timestamp": 1794114050.8227487
+    },
+    {
+      "key": "法海軍水下戰鬥無人艇",
+      "timestamp": 1794130842.5954182
     }
   ]
 }
