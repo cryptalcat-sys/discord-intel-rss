@@ -1,11 +1,5 @@
 {
   "ids": {
-    "https://www.twz.com/sea/marine-corps-declares-it-needs-nine-more-amphibious-warships-to-carry-out-its-missions": 1793919671.0442693,
-    "https://www.twz.com/?p=6605297": 1793919671.0442693,
-    "title:Marine Corps Declares It Needs Nine More Amphibious Warships To Carry Out Its Missions": 1793919671.0442693,
-    "https://www.atlanticcouncil.org/blogs/econographics/a-6-billion-hack-in-a-season-of-ai-anxiety": 1793919681.4414418,
-    "https://www.atlanticcouncil.org/?p=957933": 1793919681.4414418,
-    "title:A $6 billion hack in a season of AI anxiety": 1793919681.4414418,
     "https://pourquoi.tw/39th-anniversary-of-the-lifting-of-martial-law": 1793925638.8582077,
     "https://pourquoi.tw/?p=204751": 1793925638.8582077,
     "title:台灣民主的未竟之業 —— 解嚴39週年的回顧與展望": 1793925638.8582077,
@@ -1641,13 +1635,12 @@
     "title:Putin suffers Balkan setbacks as Russia struggles to retain influence": 1794177631.8448336,
     "https://www.navalnews.com/event-news/euronaval-2026/2026/11/naval-group-unveils-a-larger-more-powerful-fdi-frigate": 1794178858.9380746,
     "https://www.navalnews.com/?p=92947": 1794178858.9380746,
-    "title:Naval Group Unveils a Larger, More Powerful FDI Frigate": 1794178858.9380746
+    "title:Naval Group Unveils a Larger, More Powerful FDI Frigate": 1794178858.9380746,
+    "https://www.defensenews.com/industry/techwatch/2026/11/05/shield-ai-to-acquire-radar-maker-echodyne-to-bust-drones": 1794179871.937271,
+    "https://one.sightlinemg.com/defensenews/news/2026/11/05/shield-ai-to-acquire-radar-maker-echodyne-to-bust-drones/": 1794179871.937271,
+    "title:Shield AI to acquire radar maker Echodyne to bust drones": 1794179871.937271
   },
   "events": [
-    {
-      "key": "美陸戰隊增購兩棲艦",
-      "timestamp": 1793919672.9574535
-    },
     {
       "key": "台民主化歷史回顧",
       "timestamp": 1793925682.524336
