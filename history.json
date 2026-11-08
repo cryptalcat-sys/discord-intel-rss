@@ -1,8 +1,5 @@
 {
   "ids": {
-    "https://www.defensenews.com/industry/techwatch/2026/11/05/shield-ai-to-acquire-radar-maker-echodyne-to-bust-drones": 1793919652.8596516,
-    "https://one.sightlinemg.com/defensenews/news/2026/11/05/shield-ai-to-acquire-radar-maker-echodyne-to-bust-drones/": 1793919652.8596516,
-    "title:Shield AI to acquire radar maker Echodyne to bust drones": 1793919652.8596516,
     "https://www.twz.com/sea/marine-corps-declares-it-needs-nine-more-amphibious-warships-to-carry-out-its-missions": 1793919671.0442693,
     "https://www.twz.com/?p=6605297": 1793919671.0442693,
     "title:Marine Corps Declares It Needs Nine More Amphibious Warships To Carry Out Its Missions": 1793919671.0442693,
@@ -1641,13 +1638,12 @@
     "title:The six strategic mistakes that led to US defeat in Afghanistan": 1794176435.5451744,
     "https://www.atlanticcouncil.org/blogs/ukrainealert/putin-suffers-balkan-setbacks-as-russia-struggles-to-retain-influence": 1794177631.8448336,
     "https://www.atlanticcouncil.org/?p=958820": 1794177631.8448336,
-    "title:Putin suffers Balkan setbacks as Russia struggles to retain influence": 1794177631.8448336
+    "title:Putin suffers Balkan setbacks as Russia struggles to retain influence": 1794177631.8448336,
+    "https://www.navalnews.com/event-news/euronaval-2026/2026/11/naval-group-unveils-a-larger-more-powerful-fdi-frigate": 1794178858.9380746,
+    "https://www.navalnews.com/?p=92947": 1794178858.9380746,
+    "title:Naval Group Unveils a Larger, More Powerful FDI Frigate": 1794178858.9380746
   },
   "events": [
-    {
-      "key": "盾牌人工智慧收購雷達商",
-      "timestamp": 1793919655.4762585
-    },
     {
       "key": "美陸戰隊增購兩棲艦",
       "timestamp": 1793919672.9574535
