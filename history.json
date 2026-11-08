@@ -1,8 +1,5 @@
 {
   "ids": {
-    "https://www.twz.com/air/chinas-military-helicopters-a-guide": 1793912480.1060112,
-    "https://www.twz.com/?p=6605127": 1793912480.1060112,
-    "title:China’s Military Helicopters: A Guide": 1793912480.1060112,
     "https://www.piie.com/newsroom/press-releases/2026/peterson-institute-international-economics-mourns-passing-gary-clyde": 1793914778.0909312,
     "title:Peterson Institute for International Economics mourns the passing of Gary Clyde Hufbauer": 1793914778.0909312,
     "https://www.atlanticcouncil.org/blogs/ukrainealert/putin-suffers-balkan-setbacks-as-russia-struggles-to-retain-influence": 1793916066.5235412,
@@ -1638,13 +1635,12 @@
     "title:The push to give dismounted forces direct access to LEO and MEO networks": 1794171669.0601819,
     "https://www.defensenews.com/land/2026/11/06/us-army-feeds-culinary-soldiers-new-job-title": 1794171670.2187638,
     "https://one.sightlinemg.com/defensenews/news/2026/11/06/us-army-feeds-culinary-soldiers-new-job-title/": 1794171670.2187638,
-    "title:US Army feeds culinary soldiers new job title": 1794171670.2187638
+    "title:US Army feeds culinary soldiers new job title": 1794171670.2187638,
+    "https://www.twz.com/sea/uss-theodore-roosevelt-arrives-in-singapore-last-stop-before-third-strike-group-reaches-the-middle-east": 1794172841.3989568,
+    "https://www.twz.com/?p=6605187": 1794172841.3989568,
+    "title:USS Theodore Roosevelt Arrives In Singapore; Last Stop Before Third Strike Group Reaches The Middle East": 1794172841.3989568
   },
   "events": [
-    {
-      "key": "中國軍用直升機",
-      "timestamp": 1793912487.5021706
-    },
     {
       "key": "PIIE學者蓋瑞胡夫鮑爾逝世",
       "timestamp": 1793914779.7922442
