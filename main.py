@@ -225,7 +225,7 @@ FEEDS = [
     {
         "name": "ISW 戰爭研究所 (印太與戰術研判)",
         "url": "https://understandingwar.org/rss.xml",
-        "channel": "military",  # 亦可依需求歸類在 politics
+        "channel": "politics",  # 亦可依需求歸類在 politics
         "color": 0x334155       # 戰術石墨灰
     },
     # ─── YouTube 智庫與國際戰略影音 ───
