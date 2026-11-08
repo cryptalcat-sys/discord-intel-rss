@@ -1,11 +1,5 @@
 {
   "ids": {
-    "https://news.usni.org/2026/11/05/marines-identify-member-who-died-after-fast-rope-training-in-japan": 1793908849.6326127,
-    "https://news.usni.org/?p=126411": 1793908849.6326127,
-    "title:Marines Identify Member Who Died After Fast-rope Training in Japan": 1793908849.6326127,
-    "https://breakingdefense.com/2026/11/the-push-to-give-dismounted-forces-direct-access-to-leo-and-meo-networks": 1793911234.1255033,
-    "https://breakingdefense.com/?p=100370": 1793911234.1255033,
-    "title:The push to give dismounted forces direct access to LEO and MEO networks": 1793911234.1255033,
     "https://www.defensenews.com/industry/techwatch/2026/11/05/vector-introduces-ready-to-go-one-way-attack-drone": 1793911245.6862876,
     "https://www.defensenews.com/news/2026/11/05/vector-introduces-ready-to-go-one-way-attack-drone/": 1793911245.6862876,
     "title:Vector introduces ready-to-go one-way attack drone": 1793911245.6862876,
@@ -1641,13 +1635,12 @@
     "title:China's Purges are Far from Over": 1794166845.0652003,
     "https://www.youtube.com/shorts/o6xYm8BePlQ": 1794166845.065264,
     "yt:video:o6xYm8BePlQ": 1794166845.065264,
-    "title:“Super-Charged” El Niño impacting Southeast Asia": 1794166845.065264
+    "title:“Super-Charged” El Niño impacting Southeast Asia": 1794166845.065264,
+    "https://www.cna.com.tw/news/ait/202611070005.aspx": 1794170434.3873656,
+    "CNA/2026-11-07/202611070005": 1794170434.3873656,
+    "title:傳微軟逐步終止租用甲骨文AI算力 重新評估雲端合作": 1794170434.3873656
   },
   "events": [
-    {
-      "key": "日沖繩陸戰隊訓練意外",
-      "timestamp": 1793908859.4148142
-    },
     {
       "key": "向量公司推出巡飛彈",
       "timestamp": 1793911251.468623
