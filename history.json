@@ -1364,45 +1364,12 @@
     "title:Naval Group to Build UCUV Underwater Combat Drone Demonstrator for French Navy": 1794130840.513127,
     "https://www.youtube.com/shorts/8AjcYsP2wpE": 1794136838.63708,
     "yt:video:8AjcYsP2wpE": 1794136838.63708,
-    "title:Why Taiwan Matters to India and Japan | Taiwan Talks #shorts": 1794136838.63708
+    "title:Why Taiwan Matters to India and Japan | Taiwan Talks #shorts": 1794136838.63708,
+    "https://www.cna.com.tw/news/acn/202611080172.aspx": 1794142854.387696,
+    "CNA/2026-11-08/202611080172": 1794142854.387696,
+    "title:中國續對美化工品正丙醇課雙反稅 美中貿易角力繼續": 1794142854.387696
   },
   "events": [
-    {
-      "key": "印度國產護衛艦造艦",
-      "timestamp": 1793877708.651183
-    },
-    {
-      "key": "香港國安法重判黃之鋒",
-      "timestamp": 1793878844.2399437
-    },
-    {
-      "key": "美軍長程打擊彈藥",
-      "timestamp": 1793878963.1997666
-    },
-    {
-      "key": "巴布考克艦艇數位平台",
-      "timestamp": 1793878979.1533751
-    },
-    {
-      "key": "歐洲海軍電子戰合資",
-      "timestamp": 1793881243.2707665
-    },
-    {
-      "key": "菲中南海拖船衝突",
-      "timestamp": 1793881309.793009
-    },
-    {
-      "key": "印尼新加坡煙霾衝突",
-      "timestamp": 1793882449.0113173
-    },
-    {
-      "key": "無人艇自動回收",
-      "timestamp": 1793882525.5435622
-    },
-    {
-      "key": "美軍研機構裁撤爭議",
-      "timestamp": 1793882546.633219
-    },
     {
       "key": "中稀土對日管制",
       "timestamp": 1793883698.0533545
@@ -1754,6 +1721,10 @@
     {
       "key": "法海軍水下戰鬥無人艇",
       "timestamp": 1794130842.5954182
+    },
+    {
+      "key": "美中化工雙反稅",
+      "timestamp": 1794142855.7110758
     }
   ]
 }
