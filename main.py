@@ -107,6 +107,13 @@ FEEDS = [
         "channel": "military",
         "color": 0x00897B
     },
+    # ─── 美國頂級戰術開源軍情智庫 ───
+    {
+        "name": "ISW 戰爭研究所 (印太與戰術研判)",
+        "url": "https://understandingwar.org/rss.xml",
+        "channel": "military",  # 亦可依需求歸類在 politics
+        "color": 0x334155       # 戰術石墨灰
+    },
 
     # ==================== 🏛️ 政局觀測所 (印太核心 + 全球戰略視野) ====================
     # ─── 台灣在地核心情咨（政經與戰略線） ───
@@ -213,6 +220,13 @@ FEEDS = [
         "url": "https://thediplomat.com/category/diplomacy/feed/",
         "channel": "politics",
         "color": 0x8E24AA
+    },
+    # ─── 美國頂級戰術開源軍情智庫 ───
+    {
+        "name": "ISW 戰爭研究所 (印太與戰術研判)",
+        "url": "https://understandingwar.org/rss.xml",
+        "channel": "military",  # 亦可依需求歸類在 politics
+        "color": 0x334155       # 戰術石墨灰
     },
     # ─── YouTube 智庫與國際戰略影音 ───
     {
