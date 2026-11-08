@@ -1340,33 +1340,15 @@
     "https://www.lowyinstitute.org/the-interpreter/cop31-rebuilding-the-loss-and-damage-fund-for-speed": 1794106859.6586967,
     "title:COP31: Rebuilding the Loss and Damage Fund for speed": 1794106859.6586967,
     "https://www.lowyinstitute.org/the-interpreter/indonesia-s-national-hero-titles-and-the-politics-of-unresolved-violence": 1794110446.694213,
-    "title:Indonesia’s National Hero titles and the politics of unresolved violence": 1794110446.694213
+    "title:Indonesia’s National Hero titles and the politics of unresolved violence": 1794110446.694213,
+    "https://www.cna.com.tw/news/acn/202611080062.aspx": 1794114046.7521493,
+    "CNA/2026-11-08/202611080062": 1794114046.7521493,
+    "title:民進黨示警中共介選 籲用選票阻止威權滲透民主台灣": 1794114046.7521493,
+    "https://www.cna.com.tw/news/ait/202611060121.aspx": 1794114065.042815,
+    "CNA/2026-11-06/202611060121": 1794114065.042815,
+    "title:IREN延後交付微軟AI基礎設施 宣布追加150億美元投資": 1794114065.042815
   },
   "events": [
-    {
-      "key": "輝達韓國前代表專訪",
-      "timestamp": 1793851262.6208537
-    },
-    {
-      "key": "輝達限制中國AI",
-      "timestamp": 1793851277.3600268
-    },
-    {
-      "key": "中國海警船侵擾金門水域",
-      "timestamp": 1793851290.31778
-    },
-    {
-      "key": "川普外交政策主導權",
-      "timestamp": 1793852470.8796504
-    },
-    {
-      "key": "美中外交戰略互動",
-      "timestamp": 1793853658.065455
-    },
-    {
-      "key": "紅海危機與胡塞武裝",
-      "timestamp": 1793854873.9242027
-    },
     {
       "key": "兩岸國際參與爭端",
       "timestamp": 1793854940.291932
@@ -1926,6 +1908,10 @@
     {
       "key": "法軍防空巡防艦升級",
       "timestamp": 1794066055.7385764
+    },
+    {
+      "key": "台灣大選中共介選",
+      "timestamp": 1794114050.8227487
     }
   ]
 }
