@@ -1660,7 +1660,10 @@
     "title:從美中科技競逐到台灣晶片籌碼，郝珂靈談「AI帝國」的擴張與抵抗": 1794218451.5093408,
     "https://www.navalnews.com/event-news/euronaval-2026/2026/11/fincantieri-unveils-new-multi-mission-modular-vessel-at-euronaval-2026": 1794219637.3082604,
     "https://www.navalnews.com/?p=93123": 1794219637.3082604,
-    "title:Fincantieri unveils new Multi-Mission Modular Vessel at Euronaval 2026": 1794219637.3082604
+    "title:Fincantieri unveils new Multi-Mission Modular Vessel at Euronaval 2026": 1794219637.3082604,
+    "https://www.navalnews.com/naval-news/2026/11/kongsberg-maritime-launches-arctic-hunter-usv-for-the-hybrid-navy": 1794220360.1515765,
+    "https://www.navalnews.com/?p=93239": 1794220360.1515765,
+    "title:Kongsberg Maritime launches Arctic Hunter USV for the Hybrid Navy": 1794220360.1515765
   },
   "events": [
     {
@@ -1874,6 +1877,10 @@
     {
       "key": "法企發布RAVEN輕型水下無人機",
       "timestamp": 1794217246.9513278
+    },
+    {
+      "key": "挪威發表極地獵人無人艇",
+      "timestamp": 1794220361.6431665
     }
   ]
 }
