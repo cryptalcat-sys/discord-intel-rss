@@ -1,8 +1,5 @@
 {
   "ids": {
-    "https://breakingdefense.com/2026/11/cut-to-us-aid-would-impact-israeli-acquisition-timelines-spending-analysts": 1793984454.233127,
-    "https://breakingdefense.com/?p=100409": 1793984454.233127,
-    "title:Cut to US aid would impact Israeli acquisition timelines, spending: Analysts": 1793984454.233127,
     "https://warontherocks.com/talks-attacks-and-a-heist": 1793984507.238977,
     "https://warontherocks.com/?p=48530": 1793984507.238977,
     "title:Talks, Attacks, and a Heist": 1793984507.238977,
@@ -1703,7 +1700,13 @@
     "title:Yalta 2.0: A Trump-Xi-Putin summit has little upside for Beijing": 1794242442.4674869,
     "https://www.atlanticcouncil.org/insight-impact/in-the-news/tannebaum-quoted-in-the-new-york-times-on-us-unreliability-influencing-de-dollarization-efforts-4-4": 1794242456.7298691,
     "https://www.atlanticcouncil.org/?p=958865": 1794242456.7298691,
-    "title:Piasecki’s research on Venezuela’s debt restructuring cited in a Congressional Research Service report": 1794242456.7298691
+    "title:Piasecki’s research on Venezuela’s debt restructuring cited in a Congressional Research Service report": 1794242456.7298691,
+    "https://www.atlanticcouncil.org/insight-impact/in-the-news/tannebaum-quoted-in-the-new-york-times-on-us-unreliability-influencing-de-dollarization-efforts-4-3": 1794243663.6306481,
+    "https://www.atlanticcouncil.org/?p=958863": 1794243663.6306481,
+    "title:Chhangani quoted in an AFP article on the G20 foreign ministers’ meeting in Atlanta": 1794243663.6306481,
+    "https://www.atlanticcouncil.org/insight-impact/in-the-news/tannebaum-quoted-in-the-new-york-times-on-us-unreliability-influencing-de-dollarization-efforts-4-2": 1794243673.5326464,
+    "https://www.atlanticcouncil.org/?p=958861": 1794243673.5326464,
+    "title:Lipsky quoted in a South China Morning Post article on how Democrats could push to rein in Trump’s tariffs and give Congress more control over trade policy": 1794243673.5326464
   },
   "events": [
     {
@@ -1937,6 +1940,14 @@
     {
       "key": "委內瑞拉債務重組",
       "timestamp": 1794242458.3081949
+    },
+    {
+      "key": "G20外長會議博弈",
+      "timestamp": 1794243665.5322137
+    },
+    {
+      "key": "美國民主黨限制關稅權",
+      "timestamp": 1794243675.4071772
     }
   ]
 }
