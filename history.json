@@ -1,10 +1,5 @@
 {
   "ids": {
-    "https://www.twreporter.org/a/hong-kong-joshua-wong-gets-10-more-years-in-jail-for-foreign-collusion": 1793980863.0074182,
-    "title:「不要忘記他」：黃之鋒獄中被控「勾結外國勢力」再判10年，延至2036年出獄": 1793980863.0074182,
-    "https://www.cna.com.tw/news/acn/202611060359.aspx": 1793980863.8278654,
-    "CNA/2026-11-06/202611060359": 1793980863.8278654,
-    "title:被撤全國政協委員後 中國前中醫藥局長投案受查": 1793980863.8278654,
     "https://www.navalnews.com/naval-news/2026/11/strike-drones-launched-from-british-aircraft-carrier-for-the-first-time": 1793983241.8153572,
     "https://www.navalnews.com/?p=93171": 1793983241.8153572,
     "title:Strike drones launched from British aircraft carrier for the first time": 1793983241.8153572,
@@ -1681,13 +1676,23 @@
     "title:European troops set to train in Poland for postwar Ukraine deployment": 1794237649.529528,
     "https://breakingdefense.com/2026/11/the-navys-trainer-is-now-the-biggest-test-of-the-pentagons-acquisition-reform-efforts": 1794238842.5124555,
     "https://breakingdefense.com/?p=100358": 1794238842.5124555,
-    "title:The Navy’s trainer is now the biggest test of the Pentagon’s acquisition reform efforts": 1794238842.5124555
+    "title:The Navy’s trainer is now the biggest test of the Pentagon’s acquisition reform efforts": 1794238842.5124555,
+    "https://www.twreporter.org/a/photo-backrooms-art-liminal-space-mark-fisher": 1794240050.9227993,
+    "title:詹育杰／在資本主義的無盡「後室」，尋找文化理論家馬克．費雪的藍色幽靈": 1794240050.9227993,
+    "https://www.defensenews.com/industry/techwatch/2026/11/09/neros-to-expand-domestic-drone-production-with-450m-pentagon-loan": 1794240061.6684291,
+    "https://one.sightlinemg.com/defensenews/news/2026/11/09/neros-to-expand-domestic-drone-production-with-450m-pentagon-loan/": 1794240061.6684291,
+    "title:Neros to expand domestic drone production with $450M Pentagon loan": 1794240061.6684291,
+    "https://www.atlanticcouncil.org/insight-impact/in-the-news/tannebaum-quoted-in-the-new-york-times-on-us-unreliability-influencing-de-dollarization-efforts-4-9": 1794240072.0928988,
+    "https://www.atlanticcouncil.org/?p=958877": 1794240072.0928988,
+    "title:Lipsky and Piasecki quoted in a China Daily article on the impact of the 2027 budget and debt ceiling negotiations on global financial markets": 1794240072.0928988,
+    "https://www.atlanticcouncil.org/insight-impact/in-the-news/tannebaum-quoted-in-the-new-york-times-on-us-unreliability-influencing-de-dollarization-efforts-4-8": 1794240081.7092738,
+    "https://www.atlanticcouncil.org/?p=958873": 1794240081.7092738,
+    "title:Lichfield interviewed by Radio Télévision Suisse (RTS) about the US midterm elections": 1794240081.7092738,
+    "https://www.atlanticcouncil.org/insight-impact/in-the-news/tannebaum-quoted-in-the-new-york-times-on-us-unreliability-influencing-de-dollarization-efforts-4-7": 1794240082.8218498,
+    "https://www.atlanticcouncil.org/?p=958875": 1794240082.8218498,
+    "title:Lipsky quoted in a South China Morning Post article discussing how Congress could constrain Trump’s agenda following the 2026 US midterm elections": 1794240082.8218498
   },
   "events": [
-    {
-      "key": "中國官員落馬受查",
-      "timestamp": 1793980866.6521218
-    },
     {
       "key": "英航艦首試射攻擊無人機",
       "timestamp": 1793983243.7752826
@@ -1891,6 +1896,18 @@
     {
       "key": "歐洲飛彈防空系統整合",
       "timestamp": 1794237632.2609932
+    },
+    {
+      "key": "美國軍工產能與小型無人機擴產",
+      "timestamp": 1794240063.532306
+    },
+    {
+      "key": "美國債限與全球金融",
+      "timestamp": 1794240073.7089217
+    },
+    {
+      "key": "美國中期選舉與國會權力",
+      "timestamp": 1794240084.3806255
     }
   ]
 }
