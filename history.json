@@ -1,8 +1,5 @@
 {
   "ids": {
-    "https://www.defensenews.com/global/the-americas/2026/11/06/us-colombian-troops-kick-off-exercise-amid-the-pentagons-western-hemisphere-pivot": 1793994038.2459261,
-    "https://one.sightlinemg.com/defensenews/news/2026/11/06/us-colombian-troops-kick-off-exercise-amid-the-pentagons-western-hemisphere-pivot/": 1793994038.2459261,
-    "title:US, Colombian troops kick off exercise amid the Pentagon’s Western Hemisphere pivot": 1793994038.2459261,
     "https://www.atlanticcouncil.org/in-depth-research-reports/issue-brief/to-settle-russias-ukraine-war-europe-needs-to-let-kyiv-in-trump-can-help-really": 1794000032.7591026,
     "https://www.atlanticcouncil.org/?p=959062": 1794000032.7591026,
     "title:To settle Russia’s Ukraine war, Europe needs to let Kyiv in. Trump can help (really).": 1794000032.7591026,
@@ -1718,13 +1715,12 @@
     "title:USNI News Fleet and Marine Tracker: Nov. 9, 2026": 1794252032.9530559,
     "https://www.twz.com/news-features/netting-to-shield-f-35s-at-tyndall-afb-from-drone-attacks-eyed-by-usaf": 1794252059.7803538,
     "https://www.twz.com/?p=6605830": 1794252059.7803538,
-    "title:Netting To Shield F-35s At Tyndall AFB From Drone Attacks Eyed By USAF": 1794252059.7803538
+    "title:Netting To Shield F-35s At Tyndall AFB From Drone Attacks Eyed By USAF": 1794252059.7803538,
+    "https://breakingdefense.com/2026/11/pentagon-cant-track-thousands-of-f-35-parts-gao": 1794254449.5001311,
+    "https://breakingdefense.com/?p=100566": 1794254449.5001311,
+    "title:Pentagon can’t track thousands of F-35 parts: GAO": 1794254449.5001311
   },
   "events": [
-    {
-      "key": "美哥聯合軍事演習",
-      "timestamp": 1793994039.9006355
-    },
     {
       "key": "烏克蘭加入歐盟與川普斡旋",
       "timestamp": 1794000034.5223463
@@ -1944,6 +1940,10 @@
     {
       "key": "廷代爾F-35防無人機網",
       "timestamp": 1794252098.6297085
+    },
+    {
+      "key": "F-35零件失蹤",
+      "timestamp": 1794254488.9687395
     }
   ]
 }
