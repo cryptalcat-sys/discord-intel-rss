@@ -1,20 +1,5 @@
 {
   "ids": {
-    "https://www.cna.com.tw/news/acn/202611060110.aspx": 1793941258.6923816,
-    "CNA/2026-11-06/202611060110": 1793941258.6923816,
-    "title:前澳門議員區錦新涉國安罪被判12年半 陸委會：高度遺憾": 1793941258.6923816,
-    "https://www.cna.com.tw/news/acn/202611060105.aspx": 1793941268.1918542,
-    "CNA/2026-11-06/202611060105": 1793941268.1918542,
-    "title:澳門民主派人士區錦新違國安法 遭判刑12年半": 1793941268.1918542,
-    "https://thediplomat.com/2026/11/leaner-meaner-more-networked-the-royal-thai-air-forces-modernization-drive": 1793954432.7215147,
-    "https://thediplomat.com/2026/11/leaner-meaner-more-networked-the-royal-thai-air-forces-modernization-drive/": 1793954432.7215147,
-    "title:Leaner, Meaner, More Networked: The Royal Thai Air Force’s Modernization Drive": 1793954432.7215147,
-    "https://warontherocks.com/can-washington-and-china-build-confidence-around-ai-and-stability": 1793954448.548255,
-    "https://warontherocks.com/?p=48474": 1793954448.548255,
-    "title:Can Washington and China Build Confidence Around AI and Stability?": 1793954448.548255,
-    "https://www.cna.com.tw/news/acn/202611060206.aspx": 1793955654.8772945,
-    "CNA/2026-11-06/202611060206": 1793955654.8772945,
-    "title:中國海警船擾金門水域 海巡：停止類似騷擾行為": 1793955654.8772945,
     "https://www.navalnews.com/event-news/euronaval-2026/2026/11/fincantieri-and-j-a-solutions-sign-loi-to-advance-modularity-for-next-generation-naval-vessels": 1793956845.9726682,
     "https://www.navalnews.com/?p=93127": 1793956845.9726682,
     "title:Fincantieri and J.A. Solutions Sign LoI to Advance Modularity for Next-Generation Naval Vessels": 1793956845.9726682,
@@ -1655,25 +1640,15 @@
     "title:川習APEC峰會會晤前 中國再延暫停對美加徵24%關稅": 1794198040.7828865,
     "https://www.cna.com.tw/news/acn/202611090033.aspx": 1794198050.5047262,
     "CNA/2026-11-09/202611090033": 1794198050.5047262,
-    "title:中國央視播出紀錄片「孫中山」 稱對兩岸和平發展有意義": 1794198050.5047262
+    "title:中國央視播出紀錄片「孫中山」 稱對兩岸和平發展有意義": 1794198050.5047262,
+    "https://www.cna.com.tw/news/acn/202611090164.aspx": 1794214858.1069136,
+    "CNA/2026-11-09/202611090164": 1794214858.1069136,
+    "title:中國人口嚴重老化 老人數量首度超越兒童": 1794214858.1069136,
+    "https://www.cna.com.tw/news/acn/202611090156.aspx": 1794214867.7640312,
+    "CNA/2026-11-09/202611090156": 1794214867.7640312,
+    "title:黃仁勳出軌對象疑似中國女間諜 中國外交部聲稱捕風捉影": 1794214867.7640312
   },
   "events": [
-    {
-      "key": "澳門國安法判決",
-      "timestamp": 1793941260.1909459
-    },
-    {
-      "key": "泰空軍現代化轉型",
-      "timestamp": 1793954434.3697972
-    },
-    {
-      "key": "美中AI戰略對話",
-      "timestamp": 1793954450.142374
-    },
-    {
-      "key": "中國海警擾金門水域",
-      "timestamp": 1793955656.600566
-    },
     {
       "key": "芬坎蒂尼簽署軍艦模組化意向書",
       "timestamp": 1793956847.7712283
@@ -1869,6 +1844,14 @@
     {
       "key": "紀念孫中山統戰",
       "timestamp": 1794198051.8244932
+    },
+    {
+      "key": "中國人口老化危機",
+      "timestamp": 1794214859.7636824
+    },
+    {
+      "key": "黃仁勳婚外情間諜風波",
+      "timestamp": 1794214869.4145396
     }
   ]
 }
