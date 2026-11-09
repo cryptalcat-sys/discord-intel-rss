@@ -1721,7 +1721,10 @@
     "title:Pentagon can’t track thousands of F-35 parts: GAO": 1794254449.5001311,
     "https://breakingdefense.com/2026/11/the-next-breakthrough-is-software-built-on-the-battlefield-by-agentic-bots": 1794256844.0132816,
     "https://breakingdefense.com/?p=100580": 1794256844.0132816,
-    "title:The next breakthrough is software built on the battlefield by agentic bots": 1794256844.0132816
+    "title:The next breakthrough is software built on the battlefield by agentic bots": 1794256844.0132816,
+    "https://news.usni.org/2026/11/09/hegseth-calls-for-sweeping-military-education-changes-in-naval-war-college-address": 1794258060.7180345,
+    "https://news.usni.org/?p=126495": 1794258060.7180345,
+    "title:Hegseth Calls for Sweeping Military Education Changes in Naval War College Address": 1794258060.7180345
   },
   "events": [
     {
@@ -1947,6 +1950,10 @@
     {
       "key": "F-35零件失蹤",
       "timestamp": 1794254488.9687395
+    },
+    {
+      "key": "美軍校教育改革與實戰化轉型",
+      "timestamp": 1794258062.4631844
     }
   ]
 }
