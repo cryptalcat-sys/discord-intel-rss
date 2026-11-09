@@ -1,8 +1,5 @@
 {
   "ids": {
-    "https://www.foreignaffairs.com/united-states/democrats-shouldnt-squander-their-chance-launch-foreign-policy-revolution": 1793968838.6249504,
-    "1135745": 1793968838.6249504,
-    "title:Democrats Shouldn’t Squander Their Chance to Launch a Foreign Policy Revolution": 1793968838.6249504,
     "https://www.navalnews.com/event-news/euronaval-2026/2026/11/babcock-and-everllence-sign-mou-to-power-the-next-generation-of-arrowhead-frigates": 1793972447.7777476,
     "https://www.navalnews.com/?p=93148": 1793972447.7777476,
     "title:Babcock and Everllence sign MOU to power the next generation of Arrowhead Frigates": 1793972447.7777476,
@@ -1651,13 +1648,21 @@
     "title:Kongsberg Maritime launches Arctic Hunter USV for the Hybrid Navy": 1794220360.1515765,
     "https://www.cna.com.tw/news/acn/202611090257.aspx": 1794226841.561853,
     "CNA/2026-11-09/202611090257": 1794226841.561853,
-    "title:胡錫進宣稱中國不要求女情報員「上床」實現目標": 1794226841.561853
+    "title:胡錫進宣稱中國不要求女情報員「上床」實現目標": 1794226841.561853,
+    "https://www.youtube.com/shorts/u8CGmWiXriU": 1794228037.299592,
+    "yt:video:u8CGmWiXriU": 1794228037.299592,
+    "title:China’s Ambition for a Beijing-Centered Asia | Taiwan Talks #shorts": 1794228037.299592,
+    "https://www.navalnews.com/event-news/euronaval-2026/2026/11/mtg-dolphin-proposes-opv-90-for-hellenic-coast-guard": 1794228042.328387,
+    "https://www.navalnews.com/?p=93005": 1794228042.328387,
+    "title:MTG Dolphin Proposes OPV 90 for Hellenic Coast Guard": 1794228042.328387,
+    "https://www.defensenews.com/global/europe/2026/11/06/how-a-french-frigates-radical-bow-design-makes-for-smooth-sailing": 1794228053.7682946,
+    "https://one.sightlinemg.com/defensenews/?p=87615": 1794228053.7682946,
+    "title:How a French frigate’s radical bow design makes for smooth sailing": 1794228053.7682946,
+    "https://breakingdefense.com/2026/11/europe-nears-decision-on-competing-hypersonic-interceptor-programs": 1794228056.7877896,
+    "https://breakingdefense.com/?p=100384": 1794228056.7877896,
+    "title:Europe nears decision on competing hypersonic interceptor programs": 1794228056.7877896
   },
   "events": [
-    {
-      "key": "民主黨外交政策革新",
-      "timestamp": 1793968840.603631
-    },
     {
       "key": "箭頭級巡防艦動力研發",
       "timestamp": 1793972452.6773024
@@ -1853,6 +1858,10 @@
     {
       "key": "中國情報界美人計爭議",
       "timestamp": 1794226843.3314664
+    },
+    {
+      "key": "希臘海岸警衛隊投標",
+      "timestamp": 1794228044.2021503
     }
   ]
 }
