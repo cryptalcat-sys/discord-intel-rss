@@ -1,16 +1,5 @@
 {
   "ids": {
-    "https://www.piie.com/research/piie-charts/2025/trumps-tariff-revenue-tracker-how-much-us-collecting-which-imports-are": 1793989238.1307502,
-    "title:Trump's tariff revenue tracker: How much is the US collecting? Which imports are hit?": 1793989238.1307502,
-    "https://www.cna.com.tw/news/ait/202611070002.aspx": 1793989258.4488475,
-    "CNA/2026-11-07/202611070002": 1793989258.4488475,
-    "title:傳台積電進軍3D DRAM 應輝達要求規劃製造、評估建廠": 1793989258.4488475,
-    "https://www.navalnews.com/event-news/euronaval-2026/2026/11/saab-receives-order-to-equip-swedens-new-frigates": 1793989273.354407,
-    "https://www.navalnews.com/?p=93180": 1793989273.354407,
-    "title:Saab receives order to equip Sweden’s new frigates": 1793989273.354407,
-    "https://news.usni.org/2026/11/06/usni-news-western-pacific-pulse-nov-6-2026": 1793990448.7284667,
-    "https://news.usni.org/?p=126416": 1793990448.7284667,
-    "title:USNI News Western Pacific Pulse: Nov. 6, 2026": 1793990448.7284667,
     "https://www.defensenews.com/global/the-americas/2026/11/06/us-colombian-troops-kick-off-exercise-amid-the-pentagons-western-hemisphere-pivot": 1793994038.2459261,
     "https://one.sightlinemg.com/defensenews/news/2026/11/06/us-colombian-troops-kick-off-exercise-amid-the-pentagons-western-hemisphere-pivot/": 1793994038.2459261,
     "title:US, Colombian troops kick off exercise amid the Pentagon’s Western Hemisphere pivot": 1793994038.2459261,
@@ -1706,25 +1695,15 @@
     "title:Army fields launched effects to 11 of 12 divisions, with Griffon Aerospace delivering the majority": 1794246045.5295432,
     "https://www.twz.com/air/russian-mi-28-attack-helicopter-fires-cruise-missile": 1794247256.417968,
     "https://www.twz.com/?p=6605478": 1794247256.417968,
-    "title:Russian Mi-28 Attack Helicopters Are Now Firing Cruise Missiles": 1794247256.417968
+    "title:Russian Mi-28 Attack Helicopters Are Now Firing Cruise Missiles": 1794247256.417968,
+    "https://www.twz.com/sea/fishing-trawler-adapted-into-arctic-hunter-drone-ship-aims-to-scour-for-russian-submarines": 1794249637.7993455,
+    "https://www.twz.com/?p=6605834": 1794249637.7993455,
+    "title:Fishing Trawler Adapted Into Arctic Hunter Drone Ship Aims To Scour For Russian Submarines": 1794249637.7993455,
+    "https://news.usni.org/2026/11/09/royal-navy-commissions-first-unmanned-surface-vehicle-squadron": 1794249648.9179049,
+    "https://news.usni.org/?p=126464": 1794249648.9179049,
+    "title:Royal Navy Commissions First Unmanned Surface Vehicle Squadron": 1794249648.9179049
   },
   "events": [
-    {
-      "key": "美國關稅收入追蹤",
-      "timestamp": 1793989248.714963
-    },
-    {
-      "key": "台積電進軍3D DRAM",
-      "timestamp": 1793989262.0701766
-    },
-    {
-      "key": "瑞典採購巡防艦裝備",
-      "timestamp": 1793989276.4976919
-    },
-    {
-      "key": "美航母星港靠港與中東部署",
-      "timestamp": 1793990450.8654945
-    },
     {
       "key": "美哥聯合軍事演習",
       "timestamp": 1793994039.9006355
@@ -1932,6 +1911,14 @@
     {
       "key": "美軍師級無人機戰力部署",
       "timestamp": 1794246047.5188172
+    },
+    {
+      "key": "英軍北極獵人無人艦",
+      "timestamp": 1794249639.6911135
+    },
+    {
+      "key": "英軍首支無人水面艦中隊",
+      "timestamp": 1794249650.5906963
     }
   ]
 }
