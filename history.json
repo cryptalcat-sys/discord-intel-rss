@@ -1690,7 +1690,16 @@
     "title:Lichfield interviewed by Radio Télévision Suisse (RTS) about the US midterm elections": 1794240081.7092738,
     "https://www.atlanticcouncil.org/insight-impact/in-the-news/tannebaum-quoted-in-the-new-york-times-on-us-unreliability-influencing-de-dollarization-efforts-4-7": 1794240082.8218498,
     "https://www.atlanticcouncil.org/?p=958875": 1794240082.8218498,
-    "title:Lipsky quoted in a South China Morning Post article discussing how Congress could constrain Trump’s agenda following the 2026 US midterm elections": 1794240082.8218498
+    "title:Lipsky quoted in a South China Morning Post article discussing how Congress could constrain Trump’s agenda following the 2026 US midterm elections": 1794240082.8218498,
+    "https://www.atlanticcouncil.org/insight-impact/in-the-news/tannebaum-quoted-in-the-new-york-times-on-us-unreliability-influencing-de-dollarization-efforts-4-6": 1794241233.925553,
+    "https://www.atlanticcouncil.org/?p=958871": 1794241233.925553,
+    "title:Chhangani’s article on the future of the digital euro cited in an OMFIF article": 1794241233.925553,
+    "https://www.atlanticcouncil.org/insight-impact/in-the-news/tannebaum-quoted-in-the-new-york-times-on-us-unreliability-influencing-de-dollarization-efforts-4-5": 1794241243.3401804,
+    "https://www.atlanticcouncil.org/?p=958869": 1794241243.3401804,
+    "title:Lichfield interviewed by France Culture (Radio France) on how Trump’s economic policies could affect Republican support in the 2026 midterm elections": 1794241243.3401804,
+    "https://www.navalnews.com/event-news/euronaval-2026/2026/11/general-atomics-ranger-uuv-to-support-large-payloads-uavs": 1794241255.1210818,
+    "https://www.navalnews.com/?p=92912": 1794241255.1210818,
+    "title:General Atomics Ranger UUV to Support Large Payloads, UAVs": 1794241255.1210818
   },
   "events": [
     {
@@ -1908,6 +1917,18 @@
     {
       "key": "美國中期選舉與國會權力",
       "timestamp": 1794240084.3806255
+    },
+    {
+      "key": "數位歐元發展趨勢",
+      "timestamp": 1794241235.3398092
+    },
+    {
+      "key": "川普經濟政策與期中選舉",
+      "timestamp": 1794241244.7173088
+    },
+    {
+      "key": "GA長程UUV展示",
+      "timestamp": 1794241294.2831638
     }
   ]
 }
