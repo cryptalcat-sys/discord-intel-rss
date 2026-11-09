@@ -1,11 +1,5 @@
 {
   "ids": {
-    "https://breakingdefense.com/2026/11/key-space-force-satellites-cant-talk-to-each-other-likely-requiring-1b-solution-sources": 1793974832.5921023,
-    "https://breakingdefense.com/?p=99545": 1793974832.5921023,
-    "title:Key Space Force satellites can’t talk to each other, likely requiring $1B solution: Sources": 1793974832.5921023,
-    "https://news.usni.org/2026/11/06/theodore-roosevelt-carrier-strike-group-pulls-into-singapore": 1793974850.8070648,
-    "https://news.usni.org/?p=126450": 1793974850.8070648,
-    "title:Theodore Roosevelt Carrier Strike Group Pulls Into Singapore": 1793974850.8070648,
     "https://breakingdefense.com/2026/11/the-navys-trainer-is-now-the-biggest-test-of-the-pentagons-acquisition-reform-efforts": 1793978435.3165069,
     "https://breakingdefense.com/?p=100358": 1793978435.3165069,
     "title:The Navy’s trainer is now the biggest test of the Pentagon’s acquisition reform efforts": 1793978435.3165069,
@@ -1660,17 +1654,21 @@
     "title:中國海警船再度駛入釣魚台主權爭議海域": 1794232858.1273687,
     "https://www.cna.com.tw/news/acn/202611090262.aspx": 1794232868.0227299,
     "CNA/2026-11-09/202611090262": 1794232868.0227299,
-    "title:中國中東問題特使訪問伊朗 主張聚焦政治解決": 1794232868.0227299
+    "title:中國中東問題特使訪問伊朗 主張聚焦政治解決": 1794232868.0227299,
+    "https://www.defensenews.com/video/2026/11/09/drones-incoming-new-innovations-on-offer-in-uas-tech-defense-news-weekly-full-episode-11-10-26": 1794234039.7785332,
+    "https://one.sightlinemg.com/defensenews/?p=87655": 1794234039.7785332,
+    "title:Drones incoming! New innovations on offer in UAS tech | Defense News Weekly Full Episode 11.10.26": 1794234039.7785332,
+    "https://www.defensenews.com/video/2026/11/09/drones-that-see-sense-and-hunt-business-of-defense-part-2": 1794234049.244287,
+    "https://one.sightlinemg.com/defensenews/?p=87657": 1794234049.244287,
+    "title:Drones that see, sense and hunt | Business of Defense – Part 2": 1794234049.244287,
+    "https://www.atlanticcouncil.org/blogs/energysource/why-belgrades-new-government-should-not-let-the-vertical-gas-corridor-slip": 1794234064.368534,
+    "https://www.atlanticcouncil.org/?p=958712": 1794234064.368534,
+    "title:Why Belgrade’s new government should not let the Vertical Gas Corridor slip": 1794234064.368534,
+    "https://www.cna.com.tw/news/acn/202611090261.aspx": 1794234077.3309352,
+    "CNA/2026-11-09/202611090261": 1794234077.3309352,
+    "title:對美出口管制、不可靠實體清單 中國繼續暫停2個月": 1794234077.3309352
   },
   "events": [
-    {
-      "key": "美軍太空軍衛星通信鏈結升級",
-      "timestamp": 1793974835.6423512
-    },
-    {
-      "key": "羅斯福號航母停靠星國",
-      "timestamp": 1793974852.5384984
-    },
     {
       "key": "美軍教練機採購改革",
       "timestamp": 1793978437.3582857
@@ -1858,6 +1856,22 @@
     {
       "key": "中國特使訪問伊朗",
       "timestamp": 1794232869.9560194
+    },
+    {
+      "key": "無人機防務技術創新",
+      "timestamp": 1794234041.2438984
+    },
+    {
+      "key": "小型無人機反無人機戰術",
+      "timestamp": 1794234051.2880237
+    },
+    {
+      "key": "塞爾維亞垂直天然氣走廊",
+      "timestamp": 1794234065.955448
+    },
+    {
+      "key": "中美經貿暫停管制",
+      "timestamp": 1794234079.0791056
     }
   ]
 }
