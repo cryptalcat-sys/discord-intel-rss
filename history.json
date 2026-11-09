@@ -1712,7 +1712,13 @@
     "title:Trump's tariff revenue tracker: How much is the US collecting? Which imports are hit?": 1794250860.6573799,
     "https://www.cna.com.tw/news/ait/202611070002.aspx": 1794250862.8655777,
     "CNA/2026-11-07/202611070002": 1794250862.8655777,
-    "title:傳台積電進軍3D DRAM 應輝達要求規劃製造、評估建廠": 1794250862.8655777
+    "title:傳台積電進軍3D DRAM 應輝達要求規劃製造、評估建廠": 1794250862.8655777,
+    "https://news.usni.org/2026/11/09/usni-news-fleet-and-marine-tracker-nov-9-2026": 1794252032.9530559,
+    "https://news.usni.org/?p=126469": 1794252032.9530559,
+    "title:USNI News Fleet and Marine Tracker: Nov. 9, 2026": 1794252032.9530559,
+    "https://www.twz.com/news-features/netting-to-shield-f-35s-at-tyndall-afb-from-drone-attacks-eyed-by-usaf": 1794252059.7803538,
+    "https://www.twz.com/?p=6605830": 1794252059.7803538,
+    "title:Netting To Shield F-35s At Tyndall AFB From Drone Attacks Eyed By USAF": 1794252059.7803538
   },
   "events": [
     {
@@ -1930,6 +1936,14 @@
     {
       "key": "英軍首支無人水面艦中隊",
       "timestamp": 1794249650.5906963
+    },
+    {
+      "key": "美陸戰隊日本部署",
+      "timestamp": 1794252043.5554976
+    },
+    {
+      "key": "廷代爾F-35防無人機網",
+      "timestamp": 1794252098.6297085
     }
   ]
 }
