@@ -1,11 +1,5 @@
 {
   "ids": {
-    "https://www.twz.com/air/russian-mi-28-attack-helicopter-fires-cruise-missile": 1793986845.2080493,
-    "https://www.twz.com/?p=6605478": 1793986845.2080493,
-    "title:Russian Mi-28 Attack Helicopters Are Now Firing Cruise Missiles": 1793986845.2080493,
-    "https://www.defensenews.com/video/2026/11/06/bce-consulting-outlines-the-critical-elements-of-layered-air-defense-architecture": 1793986855.3351119,
-    "https://one.sightlinemg.com/defensenews/?p=87018": 1793986855.3351119,
-    "title:BCE Consulting outlines the critical elements of layered air defense architecture": 1793986855.3351119,
     "https://breakingdefense.com/2026/11/europes-airpower-future-is-taking-shape-but-not-as-originally-planned": 1793988061.5368066,
     "https://breakingdefense.com/?p=100472": 1793988061.5368066,
     "title:Europe’s airpower future is taking shape, but not as originally planned": 1793988061.5368066,
@@ -1706,17 +1700,15 @@
     "title:Lipsky quoted in a South China Morning Post article on how Democrats could push to rein in Trump’s tariffs and give Congress more control over trade policy": 1794243673.5326464,
     "https://breakingdefense.com/2026/11/cut-to-us-aid-would-impact-israeli-acquisition-timelines-spending-analysts": 1794244838.4569893,
     "https://breakingdefense.com/?p=100409": 1794244838.4569893,
-    "title:Cut to US aid would impact Israeli acquisition timelines, spending: Analysts": 1794244838.4569893
+    "title:Cut to US aid would impact Israeli acquisition timelines, spending: Analysts": 1794244838.4569893,
+    "https://warontherocks.com/talks-attacks-and-a-heist": 1794246044.9042704,
+    "https://warontherocks.com/?p=48530": 1794246044.9042704,
+    "title:Talks, Attacks, and a Heist": 1794246044.9042704,
+    "https://breakingdefense.com/2026/11/army-fields-launched-effects-to-11-of-12-divisions-with-griffon-aerospace-delivering-the-majority": 1794246045.5295432,
+    "https://breakingdefense.com/?p=100458": 1794246045.5295432,
+    "title:Army fields launched effects to 11 of 12 divisions, with Griffon Aerospace delivering the majority": 1794246045.5295432
   },
   "events": [
-    {
-      "key": "俄軍Mi-28試射巡弋飛彈",
-      "timestamp": 1793986846.746799
-    },
-    {
-      "key": "美軍多層防空架構佈局",
-      "timestamp": 1793986857.3271298
-    },
     {
       "key": "歐洲防空戰力轉型",
       "timestamp": 1793988063.4822187
@@ -1940,6 +1932,10 @@
     {
       "key": "美國民主黨限制關稅權",
       "timestamp": 1794243675.4071772
+    },
+    {
+      "key": "美軍師級無人機戰力部署",
+      "timestamp": 1794246047.5188172
     }
   ]
 }
