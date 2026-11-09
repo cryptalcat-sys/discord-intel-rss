@@ -1666,7 +1666,13 @@
     "title:Why Belgrade’s new government should not let the Vertical Gas Corridor slip": 1794234064.368534,
     "https://www.cna.com.tw/news/acn/202611090261.aspx": 1794234077.3309352,
     "CNA/2026-11-09/202611090261": 1794234077.3309352,
-    "title:對美出口管制、不可靠實體清單 中國繼續暫停2個月": 1794234077.3309352
+    "title:對美出口管制、不可靠實體清單 中國繼續暫停2個月": 1794234077.3309352,
+    "https://www.navalnews.com/event-news/euronaval-2026/2026/11/navantia-unveils-its-vision-for-next-generation-naval-capabilities-at-euronaval-2026": 1794235241.9630845,
+    "https://www.navalnews.com/?p=93263": 1794235241.9630845,
+    "title:Navantia unveils its vision for next-generation naval capabilities at Euronaval 2026": 1794235241.9630845,
+    "https://www.navalnews.com/event-news/euronaval-2026/2026/11/babcock-and-saab-denmark-sign-strategic-agreement-for-arrowhead-frigate-opportunities": 1794235251.7247334,
+    "https://www.navalnews.com/?p=93248": 1794235251.7247334,
+    "title:Babcock and Saab Denmark sign strategic agreement for Arrowhead frigate opportunities": 1794235251.7247334
   },
   "events": [
     {
@@ -1872,6 +1878,14 @@
     {
       "key": "中美經貿暫停管制",
       "timestamp": 1794234079.0791056
+    },
+    {
+      "key": "納凡蒂亞海軍次世代戰力",
+      "timestamp": 1794235243.7243683
+    },
+    {
+      "key": "標庫與薩伯簽署Arrowhead巡防艦戰略合作",
+      "timestamp": 1794235253.2606208
     }
   ]
 }
