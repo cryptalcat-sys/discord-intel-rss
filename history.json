@@ -1,8 +1,5 @@
 {
   "ids": {
-    "https://breakingdefense.com/2026/11/europes-airpower-future-is-taking-shape-but-not-as-originally-planned": 1793988061.5368066,
-    "https://breakingdefense.com/?p=100472": 1793988061.5368066,
-    "title:Europe’s airpower future is taking shape, but not as originally planned": 1793988061.5368066,
     "https://www.piie.com/research/piie-charts/2025/trumps-tariff-revenue-tracker-how-much-us-collecting-which-imports-are": 1793989238.1307502,
     "title:Trump's tariff revenue tracker: How much is the US collecting? Which imports are hit?": 1793989238.1307502,
     "https://www.cna.com.tw/news/ait/202611070002.aspx": 1793989258.4488475,
@@ -1706,13 +1703,12 @@
     "title:Talks, Attacks, and a Heist": 1794246044.9042704,
     "https://breakingdefense.com/2026/11/army-fields-launched-effects-to-11-of-12-divisions-with-griffon-aerospace-delivering-the-majority": 1794246045.5295432,
     "https://breakingdefense.com/?p=100458": 1794246045.5295432,
-    "title:Army fields launched effects to 11 of 12 divisions, with Griffon Aerospace delivering the majority": 1794246045.5295432
+    "title:Army fields launched effects to 11 of 12 divisions, with Griffon Aerospace delivering the majority": 1794246045.5295432,
+    "https://www.twz.com/air/russian-mi-28-attack-helicopter-fires-cruise-missile": 1794247256.417968,
+    "https://www.twz.com/?p=6605478": 1794247256.417968,
+    "title:Russian Mi-28 Attack Helicopters Are Now Firing Cruise Missiles": 1794247256.417968
   },
   "events": [
-    {
-      "key": "歐洲防空戰力轉型",
-      "timestamp": 1793988063.4822187
-    },
     {
       "key": "美國關稅收入追蹤",
       "timestamp": 1793989248.714963
