@@ -1,8 +1,5 @@
 {
   "ids": {
-    "https://warontherocks.com/talks-attacks-and-a-heist": 1793984507.238977,
-    "https://warontherocks.com/?p=48530": 1793984507.238977,
-    "title:Talks, Attacks, and a Heist": 1793984507.238977,
     "https://www.twz.com/air/russian-mi-28-attack-helicopter-fires-cruise-missile": 1793986845.2080493,
     "https://www.twz.com/?p=6605478": 1793986845.2080493,
     "title:Russian Mi-28 Attack Helicopters Are Now Firing Cruise Missiles": 1793986845.2080493,
@@ -1706,17 +1703,12 @@
     "title:Chhangani quoted in an AFP article on the G20 foreign ministers’ meeting in Atlanta": 1794243663.6306481,
     "https://www.atlanticcouncil.org/insight-impact/in-the-news/tannebaum-quoted-in-the-new-york-times-on-us-unreliability-influencing-de-dollarization-efforts-4-2": 1794243673.5326464,
     "https://www.atlanticcouncil.org/?p=958861": 1794243673.5326464,
-    "title:Lipsky quoted in a South China Morning Post article on how Democrats could push to rein in Trump’s tariffs and give Congress more control over trade policy": 1794243673.5326464
+    "title:Lipsky quoted in a South China Morning Post article on how Democrats could push to rein in Trump’s tariffs and give Congress more control over trade policy": 1794243673.5326464,
+    "https://breakingdefense.com/2026/11/cut-to-us-aid-would-impact-israeli-acquisition-timelines-spending-analysts": 1794244838.4569893,
+    "https://breakingdefense.com/?p=100409": 1794244838.4569893,
+    "title:Cut to US aid would impact Israeli acquisition timelines, spending: Analysts": 1794244838.4569893
   },
   "events": [
-    {
-      "key": "美援削減影響以軍採購",
-      "timestamp": 1793984496.1830144
-    },
-    {
-      "key": "美伊地緣政治博弈",
-      "timestamp": 1793984511.5084093
-    },
     {
       "key": "俄軍Mi-28試射巡弋飛彈",
       "timestamp": 1793986846.746799
