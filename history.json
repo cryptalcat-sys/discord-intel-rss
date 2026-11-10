@@ -1724,7 +1724,15 @@
     "title:The Future of French Fleet Close-in Defense": 1794262840.6402402,
     "https://www.twz.com/air/mq-58-valkyrie-drones-now-cost-6m-8m-each": 1794271239.9922106,
     "https://www.twz.com/?p=6606084": 1794271239.9922106,
-    "title:MQ-58 Valkyrie Drones Now Cost $6M-$8M Each": 1794271239.9922106
+    "title:MQ-58 Valkyrie Drones Now Cost $6M-$8M Each": 1794271239.9922106,
+    "https://www.atlanticcouncil.org/dispatches/putin-wants-peace-talks-he-doesnt-want-peace": 1794272449.6239765,
+    "https://www.atlanticcouncil.org/?p=959149": 1794272449.6239765,
+    "title:Putin wants peace talks. He doesn’t want peace.": 1794272449.6239765,
+    "https://www.atlanticcouncil.org/dispatches/why-this-us-midterm-was-unusually-important-for-the-middle-east": 1794272449.6244385,
+    "https://www.atlanticcouncil.org/?p=958373": 1794272449.6244385,
+    "title:Why this US midterm was unusually important for the Middle East": 1794272449.6244385,
+    "https://www.lowyinstitute.org/the-interpreter/billions-came-fast-for-the-fuel-crisis-the-pacific-still-waits-for-climate-finance": 1794272455.3651683,
+    "title:Billions came fast for the fuel crisis – the Pacific still waits for climate finance": 1794272455.3651683
   },
   "events": [
     {
@@ -1942,6 +1950,10 @@
     {
       "key": "XQ-58女武神無人機成本",
       "timestamp": 1794271241.5819547
+    },
+    {
+      "key": "太平洋島國氣候融資",
+      "timestamp": 1794272457.127744
     }
   ]
 }
