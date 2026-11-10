@@ -1,11 +1,5 @@
 {
   "ids": {
-    "https://www.atlanticcouncil.org/dispatches/why-this-us-midterm-was-unusually-important-for-the-middle-east": 1794004839.7000668,
-    "https://www.atlanticcouncil.org/?p=958373": 1794004839.7000668,
-    "title:Why this US midterm was unusually important for the Middle East": 1794004839.7000668,
-    "https://www.atlanticcouncil.org/dispatches/putin-wants-peace-talks-he-doesnt-want-peace": 1794006050.9262,
-    "https://www.atlanticcouncil.org/?p=959149": 1794006050.9262,
-    "title:Putin wants peace talks. He doesn’t want peace.": 1794006050.9262,
     "https://www.cna.com.tw/news/ait/202611050122.aspx": 1794028835.9038713,
     "CNA/2026-11-05/202611050122": 1794028835.9038713,
     "title:NASA雨燕天文台墜入大氣層 22年太空任務烈焰中謝幕": 1794028835.9038713,
@@ -1727,13 +1721,12 @@
     "title:To settle Russia’s Ukraine war, Europe needs to let Kyiv in. Trump can help (really).": 1794262840.4334207,
     "https://news.usni.org/2026/11/06/the-future-of-french-fleet-close-in-defense": 1794262840.6402402,
     "https://news.usni.org/?p=126439": 1794262840.6402402,
-    "title:The Future of French Fleet Close-in Defense": 1794262840.6402402
+    "title:The Future of French Fleet Close-in Defense": 1794262840.6402402,
+    "https://www.twz.com/air/mq-58-valkyrie-drones-now-cost-6m-8m-each": 1794271239.9922106,
+    "https://www.twz.com/?p=6606084": 1794271239.9922106,
+    "title:MQ-58 Valkyrie Drones Now Cost $6M-$8M Each": 1794271239.9922106
   },
   "events": [
-    {
-      "key": "俄烏和談戰略博弈",
-      "timestamp": 1794006052.6592991
-    },
     {
       "key": "中共二十大人事部署",
       "timestamp": 1794032448.0846937
@@ -1945,6 +1938,10 @@
     {
       "key": "美軍校教育改革與實戰化轉型",
       "timestamp": 1794258062.4631844
+    },
+    {
+      "key": "XQ-58女武神無人機成本",
+      "timestamp": 1794271241.5819547
     }
   ]
 }
