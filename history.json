@@ -1737,7 +1737,10 @@
     "CNA/2026-11-10/202611100031": 1794278435.848857,
     "title:黃仁勳婚外情掀國安疑慮 美3項對中晶片法案有望過關": 1794278435.848857,
     "https://www.lowyinstitute.org/the-interpreter/in-manila-the-quad-must-work-for-asean-not-around-it": 1794281740.6069872,
-    "title:In Manila, the Quad must work for ASEAN, not around it": 1794281740.6069872
+    "title:In Manila, the Quad must work for ASEAN, not around it": 1794281740.6069872,
+    "https://www.cna.com.tw/news/acn/202611100073.aspx": 1794285645.0903974,
+    "CNA/2026-11-10/202611100073": 1794285645.0903974,
+    "title:川習APEC峰會鋪路 中國延長暫停稀土等出口管制2個月": 1794285645.0903974
   },
   "events": [
     {
@@ -1963,6 +1966,10 @@
     {
       "key": "四方安全對話與東協互動",
       "timestamp": 1794281742.6215773
+    },
+    {
+      "key": "美中稀土出口管制",
+      "timestamp": 1794285649.7274735
     }
   ]
 }
