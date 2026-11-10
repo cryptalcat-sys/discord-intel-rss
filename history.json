@@ -1791,7 +1791,10 @@
     "title:China Lifts The Veil On Its GJ-11 Mysterious Dragon Stealth UCAV": 1794339656.546932,
     "https://breakingdefense.com/2026/11/beyond-the-cmmc-pause-protecting-the-engineering-data-defense-programs-depend-on": 1794340857.1066098,
     "https://breakingdefense.com/?p=100651": 1794340857.1066098,
-    "title:Beyond the CMMC pause: Protecting the engineering data defense programs depend on": 1794340857.1066098
+    "title:Beyond the CMMC pause: Protecting the engineering data defense programs depend on": 1794340857.1066098,
+    "https://breakingdefense.com/2026/11/remote-mine-hunters-silently-trawl-the-waters-as-minesweepers-go-by-the-wayside": 1794342047.0945659,
+    "https://breakingdefense.com/?p=100697": 1794342047.0945659,
+    "title:Remote mine hunters silently trawl the waters as minesweepers go by the wayside": 1794342047.0945659
   },
   "events": [
     {
@@ -2073,6 +2076,10 @@
     {
       "key": "攻城利刃隱形無人機",
       "timestamp": 1794339660.632287
+    },
+    {
+      "key": "無人掃雷艇演習",
+      "timestamp": 1794342054.0091367
     }
   ]
 }
