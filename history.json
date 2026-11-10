@@ -1,8 +1,5 @@
 {
   "ids": {
-    "https://www.cna.com.tw/news/acn/202611070192.aspx": 1794061235.9061751,
-    "CNA/2026-11-07/202611070192": 1794061235.9061751,
-    "title:輝達晶片滯香港 港媒：北京對短期需求與長期技術自主戰略取捨": 1794061235.9061751,
     "https://www.navalnews.com/event-news/euronaval-2026/2026/11/france-orders-32-aster-missiles-upgrade-fdi-frigates": 1794066047.762637,
     "https://www.navalnews.com/?p=93190": 1794066047.762637,
     "title:Euronaval 2026: France Orders 32-Cell Aster Missile Upgrade for FDI Frigates": 1794066047.762637,
@@ -1764,13 +1761,15 @@
     "title:Hegseth vows to fight impeachment ‘spectacle’": 1794318031.954735,
     "https://www.navalnews.com/event-news/euronaval-2026/2026/11/st-engineerings-autonomast-secures-dnv-approval-in-principle": 1794319258.5614538,
     "https://www.navalnews.com/?p=93343": 1794319258.5614538,
-    "title:ST Engineering’s AUTONOMAST Secures DNV Approval in Principle": 1794319258.5614538
+    "title:ST Engineering’s AUTONOMAST Secures DNV Approval in Principle": 1794319258.5614538,
+    "https://www.defensenews.com/global/europe/2026/11/10/britain-says-its-bases-are-safe-after-us-refueling-planes-evacuated": 1794320438.0766861,
+    "https://one.sightlinemg.com/defensenews/?p=87759": 1794320438.0766861,
+    "title:Britain says its bases are safe after US refueling planes evacuated": 1794320438.0766861,
+    "https://www.navalnews.com/naval-news/2026/11/90-million-investment-for-new-drones-and-sensors-to-protect-undersea-cables-and-hunt-russian-submarines": 1794320456.8233984,
+    "https://www.navalnews.com/?p=93375": 1794320456.8233984,
+    "title:UK Launches £90M ‘Atlantic Net’ Project to Protect Undersea Cables and Hunt Submarines": 1794320456.8233984
   },
   "events": [
-    {
-      "key": "輝達晶片滯留香港",
-      "timestamp": 1794061238.4888287
-    },
     {
       "key": "法軍防空巡防艦升級",
       "timestamp": 1794066055.7385764
@@ -2014,6 +2013,14 @@
     {
       "key": "新加坡自主船艇認證",
       "timestamp": 1794319265.6870394
+    },
+    {
+      "key": "英美基地加油機撤離",
+      "timestamp": 1794320443.9685996
+    },
+    {
+      "key": "英軍大西洋網路護纜反潛",
+      "timestamp": 1794320464.5121026
     }
   ]
 }
