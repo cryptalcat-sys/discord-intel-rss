@@ -1794,7 +1794,10 @@
     "title:Beyond the CMMC pause: Protecting the engineering data defense programs depend on": 1794340857.1066098,
     "https://breakingdefense.com/2026/11/remote-mine-hunters-silently-trawl-the-waters-as-minesweepers-go-by-the-wayside": 1794342047.0945659,
     "https://breakingdefense.com/?p=100697": 1794342047.0945659,
-    "title:Remote mine hunters silently trawl the waters as minesweepers go by the wayside": 1794342047.0945659
+    "title:Remote mine hunters silently trawl the waters as minesweepers go by the wayside": 1794342047.0945659,
+    "https://breakingdefense.com/2026/11/allen-control-systems-launches-new-division-to-develop-counter-drone-lasers": 1794344462.3026335,
+    "https://breakingdefense.com/?p=100693": 1794344462.3026335,
+    "title:Allen Control Systems launches new division to develop counter-drone lasers": 1794344462.3026335
   },
   "events": [
     {
@@ -2080,6 +2083,10 @@
     {
       "key": "無人掃雷艇演習",
       "timestamp": 1794342054.0091367
+    },
+    {
+      "key": "美軍防務反無人機雷射研發",
+      "timestamp": 1794344464.8092747
     }
   ]
 }
