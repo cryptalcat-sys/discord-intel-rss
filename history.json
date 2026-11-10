@@ -1,8 +1,5 @@
 {
   "ids": {
-    "https://breakingdefense.com/2026/11/saildrone-inks-agreement-with-norwegian-shipbuilder-umoe-mandal-to-produce-usvs": 1794073236.9958503,
-    "https://breakingdefense.com/?p=100324": 1794073236.9958503,
-    "title:Saildrone inks agreement with Norwegian shipbuilder Umoe Mandal to produce USVs": 1794073236.9958503,
     "https://breakingdefense.com/2026/11/ukraine-eyeing-new-spacex-starshield-deal-by-mid-2027-still-no-answers-about-october-problems": 1794075639.5690129,
     "https://breakingdefense.com/?p=100335": 1794075639.5690129,
     "title:Ukraine eyeing new SpaceX Starshield deal by mid-2027, still no answers about October problems": 1794075639.5690129,
@@ -1782,7 +1779,13 @@
     "title:Bolt司機台64線丟包乘客案，國民法官一審「遺棄致死罪」判刑13年": 1794327654.1315417,
     "https://www.cna.com.tw/news/ait/202611050353.aspx": 1794327656.4768581,
     "CNA/2026-11-05/202611050353": 1794327656.4768581,
-    "title:路透：微軟不擴大與Nscale德州資料中心算力租用合約": 1794327656.4768581
+    "title:路透：微軟不擴大與Nscale德州資料中心算力租用合約": 1794327656.4768581,
+    "https://news.usni.org/2026/11/10/u-k-to-develop-north-atlantic-network-of-drones-ai-systems-to-find-russian-subs": 1794332440.8556983,
+    "https://news.usni.org/?p=126513": 1794332440.8556983,
+    "title:U.K. to Develop North Atlantic Network of Drones, AI Systems to Find Russian Subs": 1794332440.8556983,
+    "https://www.atlanticcouncil.org/inflection-points-with-frederick-kempe/nick-clegg-on-trumo-silicon-valley-and-big-techs-political-shift": 1794332451.5487962,
+    "https://www.atlanticcouncil.org/?p=959661": 1794332451.5487962,
+    "title:Nick Clegg on Trump, Silicon Valley, and Big Tech’s political shift": 1794332451.5487962
   },
   "events": [
     {
@@ -2048,6 +2051,10 @@
     {
       "key": "英軍Type 92反潛",
       "timestamp": 1794325281.6448371
+    },
+    {
+      "key": "矽谷巨頭政治轉向",
+      "timestamp": 1794332454.2591524
     }
   ]
 }
