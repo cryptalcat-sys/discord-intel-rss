@@ -1,8 +1,5 @@
 {
   "ids": {
-    "https://www.navalnews.com/event-news/euronaval-2026/2026/11/france-orders-32-aster-missiles-upgrade-fdi-frigates": 1794066047.762637,
-    "https://www.navalnews.com/?p=93190": 1794066047.762637,
-    "title:Euronaval 2026: France Orders 32-Cell Aster Missile Upgrade for FDI Frigates": 1794066047.762637,
     "https://www.twreporter.org/a/bolt-driver-gets-13-years-in-fatal-abandonment-case": 1794067253.980505,
     "title:Bolt司機台64線丟包乘客案，國民法官一審「遺棄致死罪」判刑13年": 1794067253.980505,
     "https://www.twreporter.org/a/podcast-2026-11-06": 1794067253.9805827,
@@ -1779,13 +1776,12 @@
     "title:GAO Report on the Defense Department’s F-35 Program": 1794322857.00081,
     "https://www.navalnews.com/naval-news/2026/11/bae-systems-accelerates-delivery-of-advanced-lrasm-missile-sensors": 1794324044.8358402,
     "https://www.navalnews.com/?p=93386": 1794324044.8358402,
-    "title:BAE Systems accelerates delivery of advanced LRASM missile sensors": 1794324044.8358402
+    "title:BAE Systems accelerates delivery of advanced LRASM missile sensors": 1794324044.8358402,
+    "https://www.navalnews.com/naval-news/2026/11/thales-kongsberg-uk-type-92-usv-asw": 1794325239.1215057,
+    "https://www.navalnews.com/?p=93381": 1794325239.1215057,
+    "title:Thales and Kongsberg Team Up to Offer ASW Capability for UK Type 92 USV Requirement": 1794325239.1215057
   },
   "events": [
-    {
-      "key": "法軍防空巡防艦升級",
-      "timestamp": 1794066055.7385764
-    },
     {
       "key": "台灣大選中共介選",
       "timestamp": 1794114050.8227487
@@ -2045,6 +2041,10 @@
     {
       "key": "美軍加速交付LRASM導彈尋標器",
       "timestamp": 1794324053.0230098
+    },
+    {
+      "key": "英軍Type 92反潛",
+      "timestamp": 1794325281.6448371
     }
   ]
 }
