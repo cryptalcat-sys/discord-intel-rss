@@ -1783,7 +1783,12 @@
     "title:Nick Clegg on Trump, Silicon Valley, and Big Tech’s political shift": 1794332451.5487962,
     "https://www.twz.com/sea/aim-174b-long-range-missile-packed-with-glide-munitions-teased-new-details-shared": 1794338451.0951548,
     "https://www.twz.com/?p=6606273": 1794338451.0951548,
-    "title:AIM-174B Long-Range Missile Packed With Glide Munitions Teased, New Details Shared": 1794338451.0951548
+    "title:AIM-174B Long-Range Missile Packed With Glide Munitions Teased, New Details Shared": 1794338451.0951548,
+    "https://www.piie.com/events/2026/next-steps-usmca-and-us-trade-laws-post-election-review": 1794339639.9360688,
+    "title:Next steps for the USMCA and US trade laws: A post-election review": 1794339639.9360688,
+    "https://www.twz.com/air/china-lifts-the-veil-on-the-gj-11-mysterious-dragon-stealth-ucav": 1794339656.546932,
+    "https://www.twz.com/?p=6606268": 1794339656.546932,
+    "title:China Lifts The Veil On Its GJ-11 Mysterious Dragon Stealth UCAV": 1794339656.546932
   },
   "events": [
     {
@@ -2057,6 +2062,14 @@
     {
       "key": "AIM-174B匿蹤滑翔彈藥",
       "timestamp": 1794338458.8047612
+    },
+    {
+      "key": "美墨加協定貿易審查",
+      "timestamp": 1794339642.0908182
+    },
+    {
+      "key": "攻城利刃隱形無人機",
+      "timestamp": 1794339660.632287
     }
   ]
 }
