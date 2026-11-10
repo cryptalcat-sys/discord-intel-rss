@@ -1,8 +1,5 @@
 {
   "ids": {
-    "https://www.atlanticcouncil.org/blogs/ukrainealert/last-weeks-brief-ukraine-ceasefire-did-not-stop-russian-attacks-on-civilians": 1794086442.4840605,
-    "https://www.atlanticcouncil.org/?p=958732": 1794086442.4840605,
-    "title:Last week’s brief Ukraine ceasefire did not stop Russian attacks on civilians": 1794086442.4840605,
     "https://breakingdefense.com/2026/11/republicans-have-a-ticking-clock-what-can-they-get-done-on-defense": 1794088854.2744489,
     "https://breakingdefense.com/?p=100389": 1794088854.2744489,
     "title:Republicans have a ticking clock. What can they get done on defense?": 1794088854.2744489,
@@ -1797,7 +1794,9 @@
     "title:Remote mine hunters silently trawl the waters as minesweepers go by the wayside": 1794342047.0945659,
     "https://breakingdefense.com/2026/11/allen-control-systems-launches-new-division-to-develop-counter-drone-lasers": 1794344462.3026335,
     "https://breakingdefense.com/?p=100693": 1794344462.3026335,
-    "title:Allen Control Systems launches new division to develop counter-drone lasers": 1794344462.3026335
+    "title:Allen Control Systems launches new division to develop counter-drone lasers": 1794344462.3026335,
+    "https://www.piie.com/events/2026/chrystia-freeland-power-politics-and-future-democracy": 1794345634.0209486,
+    "title:Chrystia Freeland on power, politics, and the future of democracy": 1794345634.0209486
   },
   "events": [
     {
@@ -2087,6 +2086,10 @@
     {
       "key": "美軍防務反無人機雷射研發",
       "timestamp": 1794344464.8092747
+    },
+    {
+      "key": "加拿大民主政治與全球化",
+      "timestamp": 1794345635.8273187
     }
   ]
 }
