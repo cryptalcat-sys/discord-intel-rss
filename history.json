@@ -1776,7 +1776,10 @@
     "title:A Pentagon impeachment showdown, plus defense funding in limbo": 1794321651.9598248,
     "https://news.usni.org/2026/11/10/gao-report-on-the-defense-departments-f-35-program": 1794322857.00081,
     "https://news.usni.org/?p=126511": 1794322857.00081,
-    "title:GAO Report on the Defense Department’s F-35 Program": 1794322857.00081
+    "title:GAO Report on the Defense Department’s F-35 Program": 1794322857.00081,
+    "https://www.navalnews.com/naval-news/2026/11/bae-systems-accelerates-delivery-of-advanced-lrasm-missile-sensors": 1794324044.8358402,
+    "https://www.navalnews.com/?p=93386": 1794324044.8358402,
+    "title:BAE Systems accelerates delivery of advanced LRASM missile sensors": 1794324044.8358402
   },
   "events": [
     {
@@ -2038,6 +2041,10 @@
     {
       "key": "五角大廈彈劾與國防預算僵局",
       "timestamp": 1794321653.7761528
+    },
+    {
+      "key": "美軍加速交付LRASM導彈尋標器",
+      "timestamp": 1794324053.0230098
     }
   ]
 }
