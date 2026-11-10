@@ -1,7 +1,5 @@
 {
   "ids": {
-    "https://www.twreporter.org/a/bookreview-the-peoples-republic-of-the-disappeared": 1794043247.69866,
-    "title:經歷中共「指居」的恐懼控制，李翹楚：如果不能勇敢的講，就不能自由的行動": 1794043247.69866,
     "https://www.atlanticcouncil.org/dispatches/as-gen-z-asserts-itself-in-serbia-and-albania-the-upside-for-the-west-is-far-greater-than-the-headaches": 1794054036.7561643,
     "https://www.atlanticcouncil.org/?p=958097": 1794054036.7561643,
     "title:As Gen Z asserts itself in Serbia and Albania, the upside for the West is far greater than the headaches": 1794054036.7561643,
@@ -1749,13 +1747,12 @@
     "title:川習會是否談黃仁勳與女間諜案？北京：中美元首會晤安排保持溝通": 1794300051.3076231,
     "https://www.cna.com.tw/news/acn/202611100182.aspx": 1794301253.1208222,
     "CNA/2026-11-10/202611100182": 1794301253.1208222,
-    "title:中國學者談習近平黨建思想 對應時代考驗、反腐不會停": 1794301253.1208222
+    "title:中國學者談習近平黨建思想 對應時代考驗、反腐不會停": 1794301253.1208222,
+    "https://www.navalnews.com/event-news/euronaval-2026/2026/11/alseamars-sonusia-builds-layers-in-cui-and-wider-underwater-surveillance": 1794303638.3282073,
+    "https://www.navalnews.com/?p=93153": 1794303638.3282073,
+    "title:Alseamar’s Sonusia Builds Layers in CUI and Wider Underwater Surveillance": 1794303638.3282073
   },
   "events": [
-    {
-      "key": "李翹楚指居恐懼控制",
-      "timestamp": 1794043251.013303
-    },
     {
       "key": "中加財經戰略對話",
       "timestamp": 1794055238.5229993
@@ -1991,6 +1988,10 @@
     {
       "key": "中共黨建思想反腐",
       "timestamp": 1794301255.7377894
+    },
+    {
+      "key": "法企推出水下監視系統",
+      "timestamp": 1794303641.7600346
     }
   ]
 }
