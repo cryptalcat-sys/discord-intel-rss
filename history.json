@@ -1802,7 +1802,10 @@
     "title:North Korean Leader Inspects New Warship Under Construction at Nampho Shipyard": 1794350432.5330133,
     "https://thediplomat.com/2026/11/what-the-faaz-missile-means-for-pakistans-air-force": 1794351655.91957,
     "https://thediplomat.com/2026/11/what-the-faaz-missile-means-for-pakistans-air-force/": 1794351655.91957,
-    "title:What the Fa’az Missile Means for Pakistan’s Air Force": 1794351655.91957
+    "title:What the Fa’az Missile Means for Pakistan’s Air Force": 1794351655.91957,
+    "https://www.twz.com/land/army-wants-new-palletized-short-range-air-defenses-in-service-by-the-end-of-2029": 1794354926.3081207,
+    "https://www.twz.com/?p=6605521": 1794354926.3081207,
+    "title:Army Wants New Palletized Short-Range Air Defenses In Service By The End Of 2029": 1794354926.3081207
   },
   "events": [
     {
@@ -2104,6 +2107,10 @@
     {
       "key": "巴基斯坦法茲飛彈研發",
       "timestamp": 1794351658.4548156
+    },
+    {
+      "key": "美軍模組化短程防空部署",
+      "timestamp": 1794354928.0767956
     }
   ]
 }
