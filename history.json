@@ -1740,7 +1740,10 @@
     "title:環旭10月營收年增近19% 越南擴光通訊完整產能": 1794291642.2443683,
     "https://www.cna.com.tw/news/ait/202611050122.aspx": 1794292836.2467744,
     "CNA/2026-11-05/202611050122": 1794292836.2467744,
-    "title:NASA雨燕天文台墜入大氣層 22年太空任務烈焰中謝幕": 1794292836.2467744
+    "title:NASA雨燕天文台墜入大氣層 22年太空任務烈焰中謝幕": 1794292836.2467744,
+    "https://www.navalnews.com/event-news/euronaval-2026/2026/11/saab-launches-next-generation-9lv-naval-combat-system": 1794295240.221015,
+    "https://www.navalnews.com/?p=92934": 1794295240.221015,
+    "title:Saab launches next generation 9LV naval combat system": 1794295240.221015
   },
   "events": [
     {
@@ -1970,6 +1973,10 @@
     {
       "key": "環旭越南擴產布局",
       "timestamp": 1794291644.1153073
+    },
+    {
+      "key": "薩博發表新一代9LV戰鬥系統",
+      "timestamp": 1794295242.3598604
     }
   ]
 }
