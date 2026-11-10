@@ -1,14 +1,5 @@
 {
   "ids": {
-    "https://www.cna.com.tw/news/acn/202611070106.aspx": 1794039639.2297456,
-    "CNA/2026-11-07/202611070106": 1794039639.2297456,
-    "title:黃之鋒加判10年徒刑 邱垂正：台灣持續關注香港民主人士": 1794039639.2297456,
-    "https://www.cna.com.tw/news/acn/202611070098.aspx": 1794039648.563027,
-    "CNA/2026-11-07/202611070098": 1794039648.563027,
-    "title:台灣主動關閉駐巴紐代表處 邱垂正：我們不會退縮": 1794039648.563027,
-    "https://www.cna.com.tw/news/acn/202611070094.aspx": 1794040839.6837544,
-    "CNA/2026-11-07/202611070094": 1794040839.6837544,
-    "title:好友港節市集 陸委會：讓台灣民眾更加了解港澳文化": 1794040839.6837544,
     "https://www.twreporter.org/a/bookreview-the-peoples-republic-of-the-disappeared": 1794043247.69866,
     "title:經歷中共「指居」的恐懼控制，李翹楚：如果不能勇敢的講，就不能自由的行動": 1794043247.69866,
     "https://www.atlanticcouncil.org/dispatches/as-gen-z-asserts-itself-in-serbia-and-albania-the-upside-for-the-west-is-far-greater-than-the-headaches": 1794054036.7561643,
@@ -1749,21 +1740,15 @@
     "title:上海進博會國家展 76%來自「全球南方」": 1794296440.1517003,
     "https://www.cna.com.tw/news/acn/202611100166.aspx": 1794296459.444606,
     "CNA/2026-11-10/202611100166": 1794296459.444606,
-    "title:黃仁勳婚外情掀國安疑慮 中國學者：美對中AI晶片出口恐收緊": 1794296459.444606
+    "title:黃仁勳婚外情掀國安疑慮 中國學者：美對中AI晶片出口恐收緊": 1794296459.444606,
+    "https://www.youtube.com/shorts/Ld29wW3apn4": 1794300036.9576023,
+    "yt:video:Ld29wW3apn4": 1794300036.9576023,
+    "title:Expert: US Marines Could Help Manila Fight Back Against China | Taiwan Talks #shorts": 1794300036.9576023,
+    "https://www.cna.com.tw/news/acn/202611100203.aspx": 1794300051.3076231,
+    "CNA/2026-11-10/202611100203": 1794300051.3076231,
+    "title:川習會是否談黃仁勳與女間諜案？北京：中美元首會晤安排保持溝通": 1794300051.3076231
   },
   "events": [
-    {
-      "key": "黃之鋒判刑與港人自由",
-      "timestamp": 1794039640.5620844
-    },
-    {
-      "key": "台灣關閉駐巴紐館處",
-      "timestamp": 1794039649.8801289
-    },
-    {
-      "key": "台港民間文化交流",
-      "timestamp": 1794040841.1581311
-    },
     {
       "key": "李翹楚指居恐懼控制",
       "timestamp": 1794043251.013303
@@ -1991,6 +1976,14 @@
     {
       "key": "輝達高管涉間諜風波",
       "timestamp": 1794296498.798635
+    },
+    {
+      "key": "美菲南海軍事合作",
+      "timestamp": 1794300038.8390276
+    },
+    {
+      "key": "中美高層元首外交互動",
+      "timestamp": 1794300053.1253076
     }
   ]
 }
