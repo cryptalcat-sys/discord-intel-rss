@@ -1752,7 +1752,10 @@
     "https://www.navalnews.com/?p=93153": 1794303638.3282073,
     "title:Alseamar’s Sonusia Builds Layers in CUI and Wider Underwater Surveillance": 1794303638.3282073,
     "https://www.twreporter.org/a/bookreview-the-peoples-republic-of-the-disappeared": 1794304847.542512,
-    "title:經歷中共「指居」的恐懼控制，李翹楚：如果不能勇敢的講，就不能自由的行動": 1794304847.542512
+    "title:經歷中共「指居」的恐懼控制，李翹楚：如果不能勇敢的講，就不能自由的行動": 1794304847.542512,
+    "https://www.cna.com.tw/news/acn/202611100292.aspx": 1794310842.806088,
+    "CNA/2026-11-10/202611100292": 1794310842.806088,
+    "title:「台商張老師」成立30年 邱垂正：台商在陸面臨政經雙重風險": 1794310842.806088
   },
   "events": [
     {
@@ -1994,6 +1997,10 @@
     {
       "key": "法企推出水下監視系統",
       "timestamp": 1794303641.7600346
+    },
+    {
+      "key": "台商在陸政經風險",
+      "timestamp": 1794310844.924526
     }
   ]
 }
