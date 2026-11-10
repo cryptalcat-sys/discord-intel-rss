@@ -1767,7 +1767,13 @@
     "title:Britain says its bases are safe after US refueling planes evacuated": 1794320438.0766861,
     "https://www.navalnews.com/naval-news/2026/11/90-million-investment-for-new-drones-and-sensors-to-protect-undersea-cables-and-hunt-russian-submarines": 1794320456.8233984,
     "https://www.navalnews.com/?p=93375": 1794320456.8233984,
-    "title:UK Launches £90M ‘Atlantic Net’ Project to Protect Undersea Cables and Hunt Submarines": 1794320456.8233984
+    "title:UK Launches £90M ‘Atlantic Net’ Project to Protect Undersea Cables and Hunt Submarines": 1794320456.8233984,
+    "https://www.cna.com.tw/news/ait/202611100352.aspx": 1794321638.7039623,
+    "CNA/2026-11-10/202611100352": 1794321638.7039623,
+    "title:Diraq開發矽量子晶片 可望解決AI資料中心用電問題": 1794321638.7039623,
+    "https://breakingdefense.com/2026/11/a-pentagon-impeachment-showdown-plus-defense-funding-in-limbo": 1794321651.9598248,
+    "https://breakingdefense.com/?p=100553": 1794321651.9598248,
+    "title:A Pentagon impeachment showdown, plus defense funding in limbo": 1794321651.9598248
   },
   "events": [
     {
@@ -2021,6 +2027,14 @@
     {
       "key": "英軍大西洋網路護纜反潛",
       "timestamp": 1794320464.5121026
+    },
+    {
+      "key": "量子晶片能源解方",
+      "timestamp": 1794321640.9412901
+    },
+    {
+      "key": "五角大廈彈劾與國防預算僵局",
+      "timestamp": 1794321653.7761528
     }
   ]
 }
