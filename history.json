@@ -1743,7 +1743,13 @@
     "title:NASA雨燕天文台墜入大氣層 22年太空任務烈焰中謝幕": 1794292836.2467744,
     "https://www.navalnews.com/event-news/euronaval-2026/2026/11/saab-launches-next-generation-9lv-naval-combat-system": 1794295240.221015,
     "https://www.navalnews.com/?p=92934": 1794295240.221015,
-    "title:Saab launches next generation 9LV naval combat system": 1794295240.221015
+    "title:Saab launches next generation 9LV naval combat system": 1794295240.221015,
+    "https://www.cna.com.tw/news/acn/202611100178.aspx": 1794296440.1517003,
+    "CNA/2026-11-10/202611100178": 1794296440.1517003,
+    "title:上海進博會國家展 76%來自「全球南方」": 1794296440.1517003,
+    "https://www.cna.com.tw/news/acn/202611100166.aspx": 1794296459.444606,
+    "CNA/2026-11-10/202611100166": 1794296459.444606,
+    "title:黃仁勳婚外情掀國安疑慮 中國學者：美對中AI晶片出口恐收緊": 1794296459.444606
   },
   "events": [
     {
@@ -1977,6 +1983,14 @@
     {
       "key": "薩博發表新一代9LV戰鬥系統",
       "timestamp": 1794295242.3598604
+    },
+    {
+      "key": "上海進博會全球南方",
+      "timestamp": 1794296451.4439168
+    },
+    {
+      "key": "輝達高管涉間諜風波",
+      "timestamp": 1794296498.798635
     }
   ]
 }
