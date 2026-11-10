@@ -1,10 +1,5 @@
 {
   "ids": {
-    "https://breakingdefense.com/2026/11/ukraine-eyeing-new-spacex-starshield-deal-by-mid-2027-still-no-answers-about-october-problems": 1794075639.5690129,
-    "https://breakingdefense.com/?p=100335": 1794075639.5690129,
-    "title:Ukraine eyeing new SpaceX Starshield deal by mid-2027, still no answers about October problems": 1794075639.5690129,
-    "https://www.piie.com/blogs/realtime-economics/2026/piie-mourns-passing-beloved-colleague-gary-clyde-hufbauer": 1794076838.5487695,
-    "title:PIIE mourns the passing of beloved colleague, Gary Clyde Hufbauer": 1794076838.5487695,
     "https://www.atlanticcouncil.org/blogs/ukrainealert/last-weeks-brief-ukraine-ceasefire-did-not-stop-russian-attacks-on-civilians": 1794086442.4840605,
     "https://www.atlanticcouncil.org/?p=958732": 1794086442.4840605,
     "title:Last week’s brief Ukraine ceasefire did not stop Russian attacks on civilians": 1794086442.4840605,
@@ -1785,7 +1780,10 @@
     "title:U.K. to Develop North Atlantic Network of Drones, AI Systems to Find Russian Subs": 1794332440.8556983,
     "https://www.atlanticcouncil.org/inflection-points-with-frederick-kempe/nick-clegg-on-trumo-silicon-valley-and-big-techs-political-shift": 1794332451.5487962,
     "https://www.atlanticcouncil.org/?p=959661": 1794332451.5487962,
-    "title:Nick Clegg on Trump, Silicon Valley, and Big Tech’s political shift": 1794332451.5487962
+    "title:Nick Clegg on Trump, Silicon Valley, and Big Tech’s political shift": 1794332451.5487962,
+    "https://www.twz.com/sea/aim-174b-long-range-missile-packed-with-glide-munitions-teased-new-details-shared": 1794338451.0951548,
+    "https://www.twz.com/?p=6606273": 1794338451.0951548,
+    "title:AIM-174B Long-Range Missile Packed With Glide Munitions Teased, New Details Shared": 1794338451.0951548
   },
   "events": [
     {
@@ -2055,6 +2053,10 @@
     {
       "key": "矽谷巨頭政治轉向",
       "timestamp": 1794332454.2591524
+    },
+    {
+      "key": "AIM-174B匿蹤滑翔彈藥",
+      "timestamp": 1794338458.8047612
     }
   ]
 }
