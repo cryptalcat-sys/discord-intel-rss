@@ -1917,7 +1917,10 @@
     "title:LUCAS Drones To Be Built In Containerized Robotic Micro Factories Designed To Be Forward Deployed": 1794418831.3309846,
     "https://www.atlanticcouncil.org/insight-impact/in-the-news/charai-for-the-national-interest-on-immigration-the-us-is-not-europe-unless-it-chooses-to-be": 1794418831.6025212,
     "https://www.atlanticcouncil.org/?p=959359": 1794418831.6025212,
-    "title:Charai for The National Interest: On Immigration, the US Is Not Europe—Unless It Chooses to Be": 1794418831.6025212
+    "title:Charai for The National Interest: On Immigration, the US Is Not Europe—Unless It Chooses to Be": 1794418831.6025212,
+    "https://breakingdefense.com/2026/11/the-armys-coming-c2-challenge-is-fighting-across-thousands-of-miles": 1794421242.7576723,
+    "https://breakingdefense.com/?p=100793": 1794421242.7576723,
+    "title:The Army’s coming C2 challenge is fighting across thousands of miles": 1794421242.7576723
   },
   "events": [
     {
@@ -2299,6 +2302,10 @@
     {
       "key": "北約烏軍紅隊演習",
       "timestamp": 1794417646.7479718
+    },
+    {
+      "key": "陸軍NGC2遠程指揮",
+      "timestamp": 1794421262.0456753
     }
   ]
 }
