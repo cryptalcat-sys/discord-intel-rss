@@ -1885,7 +1885,13 @@
     "title:分析：誰將接替習近平？不是一位、是一個候選池": 1794399643.7396858,
     "https://www.defensenews.com/global/europe/2026/11/11/romanian-servers-targeted-by-russian-hackers-to-scoop-up-emails-about-nato-eu": 1794399656.2410798,
     "https://one.sightlinemg.com/defensenews/?p=87813": 1794399656.2410798,
-    "title:Romanian servers targeted by Russian hackers to scoop up emails about NATO, EU": 1794399656.2410798
+    "title:Romanian servers targeted by Russian hackers to scoop up emails about NATO, EU": 1794399656.2410798,
+    "https://www.youtube.com/shorts/8AjcYsP2wpE": 1794400841.443476,
+    "yt:video:8AjcYsP2wpE": 1794400841.443476,
+    "title:Why Taiwan Matters to India and Japan | Taiwan Talks #shorts": 1794400841.443476,
+    "https://news.usni.org/2026/11/11/report-to-congress-on-strategic-stability-of-the-golden-dome": 1794400849.0101376,
+    "https://news.usni.org/?p=126520": 1794400849.0101376,
+    "title:Report to Congress on Strategic Stability of the Golden Dome": 1794400849.0101376
   },
   "events": [
     {
@@ -2255,6 +2261,10 @@
     {
       "key": "俄駭客攻擊羅馬尼亞伺服器",
       "timestamp": 1794399664.3326325
+    },
+    {
+      "key": "美本土黃金穹頂飛彈防禦",
+      "timestamp": 1794400853.7557845
     }
   ]
 }
