@@ -1,8 +1,5 @@
 {
   "ids": {
-    "https://www.defensenews.com/industry/techwatch/2026/11/06/russia-using-own-version-of-starlink-for-military-comms-over-ukraine-kyiv-says": 1794157256.453381,
-    "https://www.defensenews.com/news/2026/11/06/russia-using-own-version-of-starlink-for-military-comms-over-ukraine-kyiv-says/": 1794157256.453381,
-    "title:Russia using own version of Starlink for military comms over Ukraine, Kyiv says": 1794157256.453381,
     "https://breakingdefense.com/2026/11/missed-ausa-2026-get-the-ground-truth-from-breaking-defenses-free-ebook": 1794164450.4513981,
     "https://breakingdefense.com/?p=100412": 1794164450.4513981,
     "title:Missed AUSA 2026? Get the Ground Truth from Breaking Defense’s free eBook": 1794164450.4513981,
@@ -1911,7 +1908,10 @@
     "https://news.usni.org/?p=126522": 1794414031.2447457,
     "title:VR Goggles Get Dual Use for Suicide Prevention, Counter-drone Training": 1794414031.2447457,
     "https://www.lowyinstitute.org/the-interpreter/beijing-s-new-common-language-law-doesn-t-sound-so-common": 1794414045.4434273,
-    "title:Beijing’s new “common language” law doesn’t sound so common": 1794414045.4434273
+    "title:Beijing’s new “common language” law doesn’t sound so common": 1794414045.4434273,
+    "https://breakingdefense.com/2026/11/nato-taps-ukraine-as-red-team-in-drills-to-trigger-an-adaptation-cycle": 1794417630.787952,
+    "https://breakingdefense.com/?p=100828": 1794417630.787952,
+    "title:NATO taps Ukraine as red-team in drills to ‘trigger an adaptation cycle’": 1794417630.787952
   },
   "events": [
     {
@@ -2289,6 +2289,10 @@
     {
       "key": "美軍部署反無人機VR訓練",
       "timestamp": 1794414035.02058
+    },
+    {
+      "key": "北約烏軍紅隊演習",
+      "timestamp": 1794417646.7479718
     }
   ]
 }
