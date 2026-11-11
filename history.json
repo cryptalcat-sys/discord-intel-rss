@@ -1,8 +1,5 @@
 {
   "ids": {
-    "https://www.youtube.com/shorts/tQon4cLBwmU": 1794124852.9217465,
-    "yt:video:tQon4cLBwmU": 1794124852.9217465,
-    "title:尊重離線權給喘息 盼能遏止\"網路公審\"｜ 公共電視 - 尖鋒對話": 1794124852.9217465,
     "https://www.youtube.com/shorts/Kh4jOdLtRCo": 1794127247.469279,
     "yt:video:Kh4jOdLtRCo": 1794127247.469279,
     "title:責任感過重.放不下 壓垮教師走上絕路｜ 公共電視 - 尖鋒對話": 1794127247.469279,
@@ -1843,7 +1840,13 @@
     "title:Gemini中文版購物功能登台 對話式AI重塑網購行為": 1794375652.7232108,
     "https://www.cna.com.tw/news/acn/202611110134.aspx": 1794380450.565072,
     "CNA/2026-11-11/202611110134": 1794380450.565072,
-    "title:談兩岸交流 邱垂正：應去統戰化與去風險化": 1794380450.565072
+    "title:談兩岸交流 邱垂正：應去統戰化與去風險化": 1794380450.565072,
+    "https://breakingdefense.com/2026/11/israels-rafael-unveils-new-larger-cruise-missile-dubbed-super-ice": 1794384045.8260248,
+    "https://breakingdefense.com/?p=100783": 1794384045.8260248,
+    "title:Israel’s Rafael unveils new, larger cruise missile dubbed Super Ice": 1794384045.8260248,
+    "https://www.navalnews.com/naval-news/2026/11/first-steel-cut-on-australian-landing-craft-heavy-at-austal": 1794384060.4818225,
+    "https://www.navalnews.com/?p=93407": 1794384060.4818225,
+    "title:Austal Cuts First Steel on Landing Craft Heavy for Australian Army": 1794384060.4818225
   },
   "events": [
     {
@@ -2189,6 +2192,14 @@
     {
       "key": "兩岸交流去統戰化",
       "timestamp": 1794380451.969385
+    },
+    {
+      "key": "以國拉 Rafael 發表超冰巡弋飛彈",
+      "timestamp": 1794384047.5400007
+    },
+    {
+      "key": "澳軍重型登陸艇開工",
+      "timestamp": 1794384064.646134
     }
   ]
 }
