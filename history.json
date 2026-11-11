@@ -1809,7 +1809,9 @@
     "https://www.lowyinstitute.org/the-interpreter/owning-a-satellite-isn-t-the-same-as-owning-the-expertise-to-replace-it": 1794355261.5978358,
     "title:Owning a satellite isn’t the same as owning the expertise to replace it": 1794355261.5978358,
     "https://www.lowyinstitute.org/the-interpreter/australia-talks-tough-on-sudan-but-won-t-confront-patrons-in-uae": 1794358873.3667655,
-    "title:Australia talks tough on Sudan but won’t confront patrons in UAE": 1794358873.3667655
+    "title:Australia talks tough on Sudan but won’t confront patrons in UAE": 1794358873.3667655,
+    "https://www.lowyinstitute.org/the-interpreter/jensen-huang-s-affair-exposes-silicon-valley-s-national-security-power": 1794362448.4570825,
+    "title:Jensen Huang’s affair exposes Silicon Valley’s national security power": 1794362448.4570825
   },
   "events": [
     {
@@ -2119,6 +2121,10 @@
     {
       "key": "澳洲蘇丹制裁",
       "timestamp": 1794358889.9222426
+    },
+    {
+      "key": "輝達執行長涉中爭議",
+      "timestamp": 1794362454.6138003
     }
   ]
 }
