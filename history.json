@@ -1,8 +1,5 @@
 {
   "ids": {
-    "https://www.navalnews.com/event-news/euronaval-2026/2026/11/naval-group-unveils-a-larger-more-powerful-fdi-frigate": 1794178858.9380746,
-    "https://www.navalnews.com/?p=92947": 1794178858.9380746,
-    "title:Naval Group Unveils a Larger, More Powerful FDI Frigate": 1794178858.9380746,
     "https://www.defensenews.com/industry/techwatch/2026/11/05/shield-ai-to-acquire-radar-maker-echodyne-to-bust-drones": 1794179871.937271,
     "https://one.sightlinemg.com/defensenews/news/2026/11/05/shield-ai-to-acquire-radar-maker-echodyne-to-bust-drones/": 1794179871.937271,
     "title:Shield AI to acquire radar maker Echodyne to bust drones": 1794179871.937271,
@@ -1648,7 +1645,14 @@
     "title:The six strategic mistakes that led to US defeat in Afghanistan": 1794436847.6125054,
     "https://news.usni.org/2026/11/09/ss-united-states-towed-from-mobile-berth-ahead-of-sinking": 1794436848.580775,
     "https://news.usni.org/?p=126505": 1794436848.580775,
-    "title:SS United States Towed from Mobile Berth Ahead of Sinking": 1794436848.580775
+    "title:SS United States Towed from Mobile Berth Ahead of Sinking": 1794436848.580775,
+    "https://www.lowyinstitute.org/the-interpreter/when-it-comes-to-japan-china-finds-it-hard-to-think-straight": 1794438064.013682,
+    "title:When it comes to Japan, China finds it hard to think straight": 1794438064.013682,
+    "https://www.lowyinstitute.org/the-interpreter/japan-needs-to-separate-protection-from-migration-for-myanmar": 1794438111.5561666,
+    "title:Japan needs to separate protection from migration for Myanmar": 1794438111.5561666,
+    "https://www.atlanticcouncil.org/blogs/ukrainealert/putin-suffers-balkan-setbacks-as-russia-struggles-to-retain-influence": 1794438114.6783803,
+    "https://www.atlanticcouncil.org/?p=958820": 1794438114.6783803,
+    "title:Putin suffers Balkan setbacks as Russia struggles to retain influence": 1794438114.6783803
   },
   "events": [
     {
@@ -2054,6 +2058,10 @@
     {
       "key": "美援菲軍無人艇交付",
       "timestamp": 1794432042.476279
+    },
+    {
+      "key": "中日台交惡僵局",
+      "timestamp": 1794438103.5545514
     }
   ]
 }
