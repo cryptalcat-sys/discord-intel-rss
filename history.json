@@ -1,11 +1,5 @@
 {
   "ids": {
-    "https://www.foreignaffairs.com/united-states/dont-soak-rich": 1794128450.0645735,
-    "1135728": 1794128450.0645735,
-    "title:Don’t Soak the Rich": 1794128450.0645735,
-    "https://www.foreignaffairs.com/united-states/true-meaning-power-david-sacks": 1794128450.0646265,
-    "1135742": 1794128450.0646265,
-    "title:The True Meaning of Power": 1794128450.0646265,
     "https://www.navalnews.com/event-news/euronaval-2026/2026/11/naval-group-to-build-ucuv-underwater-combat-drone-demonstrator-for-french-navy": 1794130840.513127,
     "https://www.navalnews.com/?p=93160": 1794130840.513127,
     "title:Naval Group to Build UCUV Underwater Combat Drone Demonstrator for French Navy": 1794130840.513127,
@@ -1858,7 +1852,25 @@
     "title:Japan’s Most Dangerous Military Constraint Is Time": 1794386441.5684686,
     "https://warontherocks.com/rethinking-strategic-stability-with-china-from-coercion-to-constructivism": 1794386488.9323602,
     "https://warontherocks.com/?p=48509": 1794386488.9323602,
-    "title:Rethinking Strategic Stability with China: From Coercion to Constructivism": 1794386488.9323602
+    "title:Rethinking Strategic Stability with China: From Coercion to Constructivism": 1794386488.9323602,
+    "https://www.cna.com.tw/news/acn/202611110215.aspx": 1794387648.5950806,
+    "CNA/2026-11-11/202611110215": 1794387648.5950806,
+    "title:日中領袖APEC能否會談？ 北京：已多次闡明立場": 1794387648.5950806,
+    "https://www.cna.com.tw/news/acn/202611110208.aspx": 1794387650.033967,
+    "CNA/2026-11-11/202611110208": 1794387650.033967,
+    "title:中共21大 沈有忠：複合性脅迫將更加劇": 1794387650.033967,
+    "https://www.foreignaffairs.com/nigeria/new-epicenter-global-terror": 1794387663.8014617,
+    "1135747": 1794387663.8014617,
+    "title:The New Epicenter of Global Terror": 1794387663.8014617,
+    "https://www.foreignaffairs.com/taiwan/recipe-disaster-taiwan-lissner-rapp-hooper": 1794387663.8015153,
+    "1135746": 1794387663.8015153,
+    "title:A Recipe for Disaster in Taiwan": 1794387663.8015153,
+    "https://www.youtube.com/shorts/Kh4jOdLtRCo": 1794387671.778031,
+    "yt:video:Kh4jOdLtRCo": 1794387671.778031,
+    "title:責任感過重.放不下 壓垮教師走上絕路｜ 公共電視 - 尖鋒對話": 1794387671.778031,
+    "https://warontherocks.com/cogs-of-war/the-record-budgets-and-missing-suppliers-shaping-americas-munitions-ramp": 1794387672.5126183,
+    "https://warontherocks.com/?p=48521": 1794387672.5126183,
+    "title:The Record Budgets and Missing Suppliers Shaping America’s Munitions Ramp": 1794387672.5126183
   },
   "events": [
     {
@@ -2216,6 +2228,10 @@
     {
       "key": "日本軍事部署限制",
       "timestamp": 1794386480.9249918
+    },
+    {
+      "key": "中共二十大對台脅迫",
+      "timestamp": 1794387651.5772498
     }
   ]
 }
