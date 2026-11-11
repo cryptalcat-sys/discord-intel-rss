@@ -1,8 +1,5 @@
 {
   "ids": {
-    "https://www.navalnews.com/event-news/euronaval-2026/2026/11/naval-group-to-build-ucuv-underwater-combat-drone-demonstrator-for-french-navy": 1794130840.513127,
-    "https://www.navalnews.com/?p=93160": 1794130840.513127,
-    "title:Naval Group to Build UCUV Underwater Combat Drone Demonstrator for French Navy": 1794130840.513127,
     "https://www.youtube.com/shorts/8AjcYsP2wpE": 1794136838.63708,
     "yt:video:8AjcYsP2wpE": 1794136838.63708,
     "title:Why Taiwan Matters to India and Japan | Taiwan Talks #shorts": 1794136838.63708,
@@ -1879,13 +1876,12 @@
     "title:The True Meaning of Power": 1794388847.5602343,
     "https://www.foreignaffairs.com/united-states/dont-soak-rich": 1794388847.5602713,
     "1135728": 1794388847.5602713,
-    "title:Don’t Soak the Rich": 1794388847.5602713
+    "title:Don’t Soak the Rich": 1794388847.5602713,
+    "https://www.cna.com.tw/news/acn/202611110242.aspx": 1794391252.2586205,
+    "CNA/2026-11-11/202611110242": 1794391252.2586205,
+    "title:國台辦聲稱跨國鎮壓是謊言 陸委會：事實俱在不容狡辯": 1794391252.2586205
   },
   "events": [
-    {
-      "key": "法海軍水下戰鬥無人艇",
-      "timestamp": 1794130842.5954182
-    },
     {
       "key": "美中化工雙反稅",
       "timestamp": 1794142855.7110758
@@ -2241,6 +2237,10 @@
     {
       "key": "中共二十大對台脅迫",
       "timestamp": 1794387651.5772498
+    },
+    {
+      "key": "兩岸反滲透法交鋒",
+      "timestamp": 1794391254.741632
     }
   ]
 }
