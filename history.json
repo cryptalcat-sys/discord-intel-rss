@@ -1,7 +1,5 @@
 {
   "ids": {
-    "https://www.lowyinstitute.org/the-interpreter/cop31-rebuilding-the-loss-and-damage-fund-for-speed": 1794106859.6586967,
-    "title:COP31: Rebuilding the Loss and Damage Fund for speed": 1794106859.6586967,
     "https://www.lowyinstitute.org/the-interpreter/indonesia-s-national-hero-titles-and-the-politics-of-unresolved-violence": 1794110446.694213,
     "title:Indonesia’s National Hero titles and the politics of unresolved violence": 1794110446.694213,
     "https://www.cna.com.tw/news/acn/202611080062.aspx": 1794114046.7521493,
@@ -1811,7 +1809,13 @@
     "https://www.lowyinstitute.org/the-interpreter/australia-talks-tough-on-sudan-but-won-t-confront-patrons-in-uae": 1794358873.3667655,
     "title:Australia talks tough on Sudan but won’t confront patrons in UAE": 1794358873.3667655,
     "https://www.lowyinstitute.org/the-interpreter/jensen-huang-s-affair-exposes-silicon-valley-s-national-security-power": 1794362448.4570825,
-    "title:Jensen Huang’s affair exposes Silicon Valley’s national security power": 1794362448.4570825
+    "title:Jensen Huang’s affair exposes Silicon Valley’s national security power": 1794362448.4570825,
+    "https://www.cna.com.tw/news/acn/202611110057.aspx": 1794367244.858593,
+    "CNA/2026-11-11/202611110057": 1794367244.858593,
+    "title:日媒：APEC峰會習近平與各國首腦會談 日本恐遭獨漏": 1794367244.858593,
+    "https://www.cna.com.tw/news/acn/202611110047.aspx": 1794367258.7521498,
+    "CNA/2026-11-11/202611110047": 1794367258.7521498,
+    "title:港媒：中共21大代表 可能首次有外賣員、快遞員等新就業群體": 1794367258.7521498
   },
   "events": [
     {
@@ -2125,6 +2129,14 @@
     {
       "key": "輝達執行長涉中爭議",
       "timestamp": 1794362454.6138003
+    },
+    {
+      "key": "中日APEC峰會僵局",
+      "timestamp": 1794367250.751768
+    },
+    {
+      "key": "中共二十大代表納入新就業群體",
+      "timestamp": 1794367264.1013157
     }
   ]
 }
