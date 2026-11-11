@@ -1,17 +1,5 @@
 {
   "ids": {
-    "https://www.cna.com.tw/news/ait/202611070005.aspx": 1794170434.3873656,
-    "CNA/2026-11-07/202611070005": 1794170434.3873656,
-    "title:傳微軟逐步終止租用甲骨文AI算力 重新評估雲端合作": 1794170434.3873656,
-    "https://news.usni.org/2026/11/05/marines-identify-member-who-died-after-fast-rope-training-in-japan": 1794171665.2257514,
-    "https://news.usni.org/?p=126411": 1794171665.2257514,
-    "title:Marines Identify Member Who Died After Fast-rope Training in Japan": 1794171665.2257514,
-    "https://breakingdefense.com/2026/11/the-push-to-give-dismounted-forces-direct-access-to-leo-and-meo-networks": 1794171669.0601819,
-    "https://breakingdefense.com/?p=100370": 1794171669.0601819,
-    "title:The push to give dismounted forces direct access to LEO and MEO networks": 1794171669.0601819,
-    "https://www.defensenews.com/land/2026/11/06/us-army-feeds-culinary-soldiers-new-job-title": 1794171670.2187638,
-    "https://one.sightlinemg.com/defensenews/news/2026/11/06/us-army-feeds-culinary-soldiers-new-job-title/": 1794171670.2187638,
-    "title:US Army feeds culinary soldiers new job title": 1794171670.2187638,
     "https://www.twz.com/sea/uss-theodore-roosevelt-arrives-in-singapore-last-stop-before-third-strike-group-reaches-the-middle-east": 1794172841.3989568,
     "https://www.twz.com/?p=6605187": 1794172841.3989568,
     "title:USS Theodore Roosevelt Arrives In Singapore; Last Stop Before Third Strike Group Reaches The Middle East": 1794172841.3989568,
@@ -1638,7 +1626,13 @@
     "title:Drones are breaking the deal that once kept aid workers safe": 1794427256.3178403,
     "https://www.cna.com.tw/news/aopl/202611050338.aspx": 1794427257.6961167,
     "CNA/2026-11-05/202611050338": 1794427257.6961167,
-    "title:英國：網攻利用系統既有弱點 迴避資安投資代價更高": 1794427257.6961167
+    "title:英國：網攻利用系統既有弱點 迴避資安投資代價更高": 1794427257.6961167,
+    "https://breakingdefense.com/2026/11/dod-pushes-out-3-loans-totally-450m-to-bolster-us-space-companies": 1794430868.8626475,
+    "https://breakingdefense.com/?p=100829": 1794430868.8626475,
+    "title:DoD pushes out 3 loans totaling $450M to bolster US space companies": 1794430868.8626475,
+    "https://www.twz.com/news-features/plans-to-fly-talon-blue-cca-drone-from-british-carrier-confirmed-by-northrop-grumman": 1794430884.675331,
+    "https://www.twz.com/?p=6606821": 1794430884.675331,
+    "title:Plans To Fly Talon Blue CCA Drone From British Carrier Confirmed By Northrop Grumman": 1794430884.675331
   },
   "events": [
     {
@@ -2032,6 +2026,14 @@
     {
       "key": "美國期中選舉經貿走向",
       "timestamp": 1794426051.4858646
+    },
+    {
+      "key": "美國防部太空產業融資",
+      "timestamp": 1794430873.2916322
+    },
+    {
+      "key": "英航母Talon Blue無人機",
+      "timestamp": 1794430891.6393049
     }
   ]
 }
