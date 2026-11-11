@@ -1,8 +1,5 @@
 {
   "ids": {
-    "https://www.twz.com/sea/uss-theodore-roosevelt-arrives-in-singapore-last-stop-before-third-strike-group-reaches-the-middle-east": 1794172841.3989568,
-    "https://www.twz.com/?p=6605187": 1794172841.3989568,
-    "title:USS Theodore Roosevelt Arrives In Singapore; Last Stop Before Third Strike Group Reaches The Middle East": 1794172841.3989568,
     "https://www.twz.com/air/chinas-military-helicopters-a-guide": 1794174038.0664673,
     "https://www.twz.com/?p=6605127": 1794174038.0664673,
     "title:A Guide To China’s Expanding Fleet Of Military Helicopters": 1794174038.0664673,
@@ -1632,7 +1629,16 @@
     "title:DoD pushes out 3 loans totaling $450M to bolster US space companies": 1794430868.8626475,
     "https://www.twz.com/news-features/plans-to-fly-talon-blue-cca-drone-from-british-carrier-confirmed-by-northrop-grumman": 1794430884.675331,
     "https://www.twz.com/?p=6606821": 1794430884.675331,
-    "title:Plans To Fly Talon Blue CCA Drone From British Carrier Confirmed By Northrop Grumman": 1794430884.675331
+    "title:Plans To Fly Talon Blue CCA Drone From British Carrier Confirmed By Northrop Grumman": 1794430884.675331,
+    "https://www.navalnews.com/naval-news/2026/11/philippine-marines-receives-martac-t38-usv-via-u-s-aid": 1794432038.56649,
+    "https://www.navalnews.com/?p=93319": 1794432038.56649,
+    "title:Philippine Marines Receives MARTAC T38 USV via U.S. Aid": 1794432038.56649,
+    "https://news.usni.org/2026/11/05/marines-identify-member-who-died-after-fast-rope-training-in-japan": 1794432053.6626427,
+    "https://news.usni.org/?p=126411": 1794432053.6626427,
+    "title:Marines Identify Member Who Died After Fast-rope Training in Japan": 1794432053.6626427,
+    "https://www.cna.com.tw/news/ait/202611070005.aspx": 1794432056.2996173,
+    "CNA/2026-11-07/202611070005": 1794432056.2996173,
+    "title:傳微軟逐步終止租用甲骨文AI算力 重新評估雲端合作": 1794432056.2996173
   },
   "events": [
     {
@@ -2034,6 +2040,10 @@
     {
       "key": "英航母Talon Blue無人機",
       "timestamp": 1794430891.6393049
+    },
+    {
+      "key": "美援菲軍無人艇交付",
+      "timestamp": 1794432042.476279
     }
   ]
 }
