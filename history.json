@@ -1,11 +1,5 @@
 {
   "ids": {
-    "https://www.cna.com.tw/news/acn/202611080062.aspx": 1794114046.7521493,
-    "CNA/2026-11-08/202611080062": 1794114046.7521493,
-    "title:民進黨示警中共介選 籲用選票阻止威權滲透民主台灣": 1794114046.7521493,
-    "https://www.cna.com.tw/news/ait/202611060121.aspx": 1794114065.042815,
-    "CNA/2026-11-06/202611060121": 1794114065.042815,
-    "title:IREN延後交付微軟AI基礎設施 宣布追加150億美元投資": 1794114065.042815,
     "https://www.youtube.com/shorts/tQon4cLBwmU": 1794124852.9217465,
     "yt:video:tQon4cLBwmU": 1794124852.9217465,
     "title:尊重離線權給喘息 盼能遏止\"網路公審\"｜ 公共電視 - 尖鋒對話": 1794124852.9217465,
@@ -1826,13 +1820,17 @@
     "CNA/2026-11-09/202611090066": 1794370839.6609633,
     "title:賴總統：台灣朝自主發射衛星目標穩健前進": 1794370839.6609633,
     "https://www.lowyinstitute.org/the-interpreter/indonesia-s-national-hero-titles-and-the-politics-of-unresolved-violence": 1794370839.844226,
-    "title:Indonesia’s National Hero titles and the politics of unresolved violence": 1794370839.844226
+    "title:Indonesia’s National Hero titles and the politics of unresolved violence": 1794370839.844226,
+    "https://www.lowyinstitute.org/the-interpreter/new-zealand-s-foreign-policy-could-change-but-we-won-t-know-for-weeks": 1794373249.0508163,
+    "title:New Zealand’s foreign policy could change – but we won’t know for weeks": 1794373249.0508163,
+    "https://www.cna.com.tw/news/ait/202611110088.aspx": 1794373249.7288742,
+    "CNA/2026-11-11/202611110088": 1794373249.7288742,
+    "title:黃仁勳傳記作者拆解輝達晶片走私黑幕 假伺服器調包偷天換日": 1794373249.7288742,
+    "https://www.cna.com.tw/news/acn/202611110089.aspx": 1794373259.4151852,
+    "CNA/2026-11-11/202611110089": 1794373259.4151852,
+    "title:黃仁勳緋聞是否衝擊兩岸科技業互信 國台辦避答指互有現實需求": 1794373259.4151852
   },
   "events": [
-    {
-      "key": "台灣大選中共介選",
-      "timestamp": 1794114050.8227487
-    },
     {
       "key": "法海軍水下戰鬥無人艇",
       "timestamp": 1794130842.5954182
@@ -2156,6 +2154,14 @@
     {
       "key": "美中AI晶片角力",
       "timestamp": 1794369667.3074708
+    },
+    {
+      "key": "輝達晶片走私黑幕",
+      "timestamp": 1794373251.1446989
+    },
+    {
+      "key": "兩岸科技供應鏈互信",
+      "timestamp": 1794373260.961445
     }
   ]
 }
