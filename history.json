@@ -1,7 +1,5 @@
 {
   "ids": {
-    "https://www.lowyinstitute.org/the-interpreter/indonesia-s-national-hero-titles-and-the-politics-of-unresolved-violence": 1794110446.694213,
-    "title:Indonesia’s National Hero titles and the politics of unresolved violence": 1794110446.694213,
     "https://www.cna.com.tw/news/acn/202611080062.aspx": 1794114046.7521493,
     "CNA/2026-11-08/202611080062": 1794114046.7521493,
     "title:民進黨示警中共介選 籲用選票阻止威權滲透民主台灣": 1794114046.7521493,
@@ -1817,7 +1815,13 @@
     "CNA/2026-11-11/202611110047": 1794367258.7521498,
     "title:港媒：中共21大代表 可能首次有外賣員、快遞員等新就業群體": 1794367258.7521498,
     "https://www.lowyinstitute.org/the-interpreter/cop31-rebuilding-the-loss-and-damage-fund-for-speed": 1794368325.509289,
-    "title:COP31: Rebuilding the Loss and Damage Fund for speed": 1794368325.509289
+    "title:COP31: Rebuilding the Loss and Damage Fund for speed": 1794368325.509289,
+    "https://www.cna.com.tw/news/ait/202611110054.aspx": 1794369649.1623588,
+    "CNA/2026-11-11/202611110054": 1794369649.1623588,
+    "title:傳記作者：輝達不會輕易開除黃仁勳 國會聽證若公開將成最大威脅": 1794369649.1623588,
+    "https://www.cna.com.tw/news/ait/202611110051.aspx": 1794369665.4979088,
+    "CNA/2026-11-11/202611110051": 1794369665.4979088,
+    "title:輝達醜聞震撼全球科技峰會 美中AI晶片角力再受關注": 1794369665.4979088
   },
   "events": [
     {
@@ -2139,6 +2143,14 @@
     {
       "key": "中共二十大代表納入新就業群體",
       "timestamp": 1794367264.1013157
+    },
+    {
+      "key": "輝達執行長地緣政治危機",
+      "timestamp": 1794369657.497535
+    },
+    {
+      "key": "美中AI晶片角力",
+      "timestamp": 1794369667.3074708
     }
   ]
 }
