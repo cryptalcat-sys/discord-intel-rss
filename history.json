@@ -1,8 +1,5 @@
 {
   "ids": {
-    "https://www.youtube.com/shorts/Kh4jOdLtRCo": 1794127247.469279,
-    "yt:video:Kh4jOdLtRCo": 1794127247.469279,
-    "title:責任感過重.放不下 壓垮教師走上絕路｜ 公共電視 - 尖鋒對話": 1794127247.469279,
     "https://www.foreignaffairs.com/united-states/dont-soak-rich": 1794128450.0645735,
     "1135728": 1794128450.0645735,
     "title:Don’t Soak the Rich": 1794128450.0645735,
@@ -1852,7 +1849,16 @@
     "title:捍衛同志平權被獵巫 遭轟爭取\"特權\"?!｜ 公共電視 - 尖鋒對話": 1794385237.9625695,
     "https://www.youtube.com/shorts/tQon4cLBwmU": 1794385237.962695,
     "yt:video:tQon4cLBwmU": 1794385237.962695,
-    "title:尊重離線權給喘息 盼能遏止\"網路公審\"｜ 公共電視 - 尖鋒對話": 1794385237.962695
+    "title:尊重離線權給喘息 盼能遏止\"網路公審\"｜ 公共電視 - 尖鋒對話": 1794385237.962695,
+    "https://www.youtube.com/shorts/mw42l_0_BU4": 1794386435.7546256,
+    "yt:video:mw42l_0_BU4": 1794386435.7546256,
+    "title:反DEI浪潮 淹沒多元族群平權推動?!｜ 公共電視 - 尖鋒對話": 1794386435.7546256,
+    "https://warontherocks.com/japans-most-dangerous-military-constraint-is-time": 1794386441.5684686,
+    "https://warontherocks.com/?p=48546": 1794386441.5684686,
+    "title:Japan’s Most Dangerous Military Constraint Is Time": 1794386441.5684686,
+    "https://warontherocks.com/rethinking-strategic-stability-with-china-from-coercion-to-constructivism": 1794386488.9323602,
+    "https://warontherocks.com/?p=48509": 1794386488.9323602,
+    "title:Rethinking Strategic Stability with China: From Coercion to Constructivism": 1794386488.9323602
   },
   "events": [
     {
@@ -2206,6 +2212,10 @@
     {
       "key": "澳軍重型登陸艇開工",
       "timestamp": 1794384064.646134
+    },
+    {
+      "key": "日本軍事部署限制",
+      "timestamp": 1794386480.9249918
     }
   ]
 }
