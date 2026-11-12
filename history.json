@@ -1,11 +1,5 @@
 {
   "ids": {
-    "https://www.twz.com/sea/fishing-trawler-adapted-into-arctic-hunter-drone-ship-aims-to-scour-for-russian-submarines": 1794249637.7993455,
-    "https://www.twz.com/?p=6605834": 1794249637.7993455,
-    "title:Fishing Trawler Adapted Into Arctic Hunter Drone Ship Aims To Scour For Russian Submarines": 1794249637.7993455,
-    "https://news.usni.org/2026/11/09/royal-navy-commissions-first-unmanned-surface-vehicle-squadron": 1794249648.9179049,
-    "https://news.usni.org/?p=126464": 1794249648.9179049,
-    "title:Royal Navy Commissions First Unmanned Surface Vehicle Squadron": 1794249648.9179049,
     "https://news.usni.org/2026/11/06/usni-news-western-pacific-pulse-nov-6-2026": 1794250853.821527,
     "https://news.usni.org/?p=126416": 1794250853.821527,
     "title:USNI News Western Pacific Pulse: Nov. 6, 2026": 1794250853.821527,
@@ -1721,17 +1715,17 @@
     "title:U.S. Navy Expands Tomahawk Warhead Production Capacity at China Lake": 1794507678.9279094,
     "https://www.youtube.com/shorts/3sLCS83sYxw": 1794507701.653272,
     "yt:video:3sLCS83sYxw": 1794507701.653272,
-    "title:Deterrence as a Strategy": 1794507701.653272
+    "title:Deterrence as a Strategy": 1794507701.653272,
+    "https://www.youtube.com/shorts/fry41inv8ts": 1794508831.7746284,
+    "yt:video:fry41inv8ts": 1794508831.7746284,
+    "title:Air Force finally getting modern helmets for fixed-wing aviators.": 1794508831.7746284,
+    "https://www.piie.com/blogs/realtime-economics/2026/remembering-gary-hufbauer": 1794508869.5044863,
+    "title:Remembering Gary Hufbauer": 1794508869.5044863,
+    "https://breakingdefense.com/2026/11/aukus-on-track-even-ahead-of-schedule-for-some-parts-admiral-says": 1794508871.2453773,
+    "https://breakingdefense.com/?p=100917": 1794508871.2453773,
+    "title:AUKUS on track, even ‘ahead of schedule’ for some parts, admiral says": 1794508871.2453773
   },
   "events": [
-    {
-      "key": "英軍北極獵人無人艦",
-      "timestamp": 1794249639.6911135
-    },
-    {
-      "key": "英軍首支無人水面艦中隊",
-      "timestamp": 1794249650.5906963
-    },
     {
       "key": "美陸戰隊日本部署",
       "timestamp": 1794252043.5554976
@@ -2127,6 +2121,14 @@
     {
       "key": "美軍擴產戰斧導彈彈頭",
       "timestamp": 1794507689.4722679
+    },
+    {
+      "key": "美軍航機機頭",
+      "timestamp": 1794508860.632597
+    },
+    {
+      "key": "AUKUS潛艦部署",
+      "timestamp": 1794508891.3437488
     }
   ]
 }
