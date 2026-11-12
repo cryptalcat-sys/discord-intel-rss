@@ -1,34 +1,5 @@
 {
   "ids": {
-    "https://www.bruegel.org/node/12486": 1794193278.5180411,
-    "12486 at https://www.bruegel.org": 1794193278.5180411,
-    "title:Session 5b: The path to Ukraine’s membership of the EU: conversation with Ambassador-designate Kachka": 1794193278.5180411,
-    "https://www.bruegel.org/node/12451": 1794193278.518107,
-    "12451 at https://www.bruegel.org": 1794193278.518107,
-    "title:Session 2a: Can the EU's better regulation agenda deliver competitiveness?": 1794193278.518107,
-    "https://www.bruegel.org/node/12382": 1794193278.518149,
-    "12382 at https://www.bruegel.org": 1794193278.518149,
-    "title:Lunch": 1794193278.518149,
-    "https://www.bruegel.org/node/12381": 1794193278.5181878,
-    "12381 at https://www.bruegel.org": 1794193278.5181878,
-    "title:Session 1b: Global monetary issues": 1794193278.5181878,
-    "https://www.bruegel.org/node/12380": 1794193278.518226,
-    "12380 at https://www.bruegel.org": 1794193278.518226,
-    "title:Session 2b: What would make the European Economy secure in 2030?": 1794193278.518226,
-    "https://www.bruegel.org/node/12379": 1794193278.5182602,
-    "12379 at https://www.bruegel.org": 1794193278.5182602,
-    "title:Coffee break": 1794193278.5182602,
-    "https://www.bruegel.org/node/12377": 1794193278.518295,
-    "12377 at https://www.bruegel.org": 1794193278.518295,
-    "title:Session 1a: Europe's digital sovereignty: lessons from China's AI quest": 1794193278.518295,
-    "https://www.bruegel.org/node/12376": 1794193278.5183334,
-    "12376 at https://www.bruegel.org": 1794193278.5183334,
-    "title:Session 6b: Can Europe become more “Schumpeterian” and how?": 1794193278.5183334,
-    "https://www.bruegel.org/node/12375": 1794193278.518368,
-    "12375 at https://www.bruegel.org": 1794193278.518368,
-    "title:Session 6a: European trade policy beyond FTAs: what is feasible without the US and China?": 1794193278.518368,
-    "https://www.lowyinstitute.org/the-interpreter/the-ocean-is-missing-from-climate-diplomacy-again": 1794194436.731658,
-    "title:The ocean is missing from climate diplomacy. Again.": 1794194436.731658,
     "https://www.cna.com.tw/news/acn/202611090058.aspx": 1794198040.7828865,
     "CNA/2026-11-09/202611090058": 1794198040.7828865,
     "title:川習APEC峰會會晤前 中國再延暫停對美加徵24%關稅": 1794198040.7828865,
@@ -1633,13 +1604,11 @@
     "CNA/2026-11-12/202611120039": 1794451256.1019225,
     "title:陸客來台被要求簽互不隸屬聲明？邱垂正：個案溝通問題": 1794451256.1019225,
     "https://www.lowyinstitute.org/the-interpreter/watch-what-trump-does-in-asia-not-what-he-says": 1794452452.3866043,
-    "title:Watch what Trump does in Asia, not what he says": 1794452452.3866043
+    "title:Watch what Trump does in Asia, not what he says": 1794452452.3866043,
+    "https://www.lowyinstitute.org/the-interpreter/the-philippines-is-looking-to-develop-an-expeditionary-navy": 1794453637.5687158,
+    "title:The Philippines is looking to develop an “expeditionary navy”": 1794453637.5687158
   },
   "events": [
-    {
-      "key": "菲律賓遠征海軍發展",
-      "timestamp": 1794193268.8166676
-    },
     {
       "key": "美中關稅暫緩徵收",
       "timestamp": 1794198042.504273
