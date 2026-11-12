@@ -1,8 +1,5 @@
 {
   "ids": {
-    "https://breakingdefense.com/2026/11/the-next-breakthrough-is-software-built-on-the-battlefield-by-agentic-bots": 1794256844.0132816,
-    "https://breakingdefense.com/?p=100580": 1794256844.0132816,
-    "title:The next breakthrough is software built on the battlefield by agentic bots": 1794256844.0132816,
     "https://news.usni.org/2026/11/09/hegseth-calls-for-sweeping-military-education-changes-in-naval-war-college-address": 1794258060.7180345,
     "https://news.usni.org/?p=126495": 1794258060.7180345,
     "title:Hegseth Calls for Sweeping Military Education Changes in Naval War College Address": 1794258060.7180345,
@@ -1742,7 +1739,13 @@
     "title:Most Americans want new Democratic Congress to end Trump’s Iran war, poll finds": 1794512442.1681635,
     "https://breakingdefense.com/2026/11/air-force-debuts-new-t-19a-aerobatic-plane": 1794514832.5089703,
     "https://breakingdefense.com/?p=100889": 1794514832.5089703,
-    "title:Air Force unveils T-19A, a new aerobatic plane to train future pilots": 1794514832.5089703
+    "title:Air Force unveils T-19A, a new aerobatic plane to train future pilots": 1794514832.5089703,
+    "https://news.usni.org/2026/11/12/royal-navy-to-trial-northrop-grumman-test-aircraft-on-carrier-in-2027": 1794516035.2171793,
+    "https://news.usni.org/?p=126549": 1794516035.2171793,
+    "title:Royal Navy to Trial Northrop Grumman Test Aircraft on Carrier in 2027": 1794516035.2171793,
+    "https://breakingdefense.com/2026/11/sda-explores-integration-of-spacex-laser-communication-terminals-with-missile-tracking-sats": 1794516054.834517,
+    "https://breakingdefense.com/?p=100930": 1794516054.834517,
+    "title:SDA explores integration of SpaceX laser communication terminals with missile tracking sats": 1794516054.834517
   },
   "events": [
     {
@@ -2148,6 +2151,14 @@
     {
       "key": "美軍新型T-19A教練機",
       "timestamp": 1794514839.5536385
+    },
+    {
+      "key": "英航母測試協同戰機",
+      "timestamp": 1794516038.6911623
+    },
+    {
+      "key": "美軍太空雷射通訊整合",
+      "timestamp": 1794516058.6307416
     }
   ]
 }
