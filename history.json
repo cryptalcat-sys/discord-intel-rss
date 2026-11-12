@@ -1668,7 +1668,10 @@
     "title:Yevgeniya Gaber discusses Black Sea Security as Russia tests regional NATO allies": 1794478848.6907613,
     "https://www.cna.com.tw/news/acn/202611120311.aspx": 1794482435.1578555,
     "CNA/2026-11-12/202611120311": 1794482435.1578555,
-    "title:國台辦稱跨國鎮壓是謊言 梁文傑：經不起檢驗": 1794482435.1578555
+    "title:國台辦稱跨國鎮壓是謊言 梁文傑：經不起檢驗": 1794482435.1578555,
+    "https://www.navalnews.com/event-news/euronaval-2026/2026/11/video-fincantieri-unveils-mmmv-details-fremm-evo-and-ddx-destroyer": 1794483634.759231,
+    "https://www.navalnews.com/?p=93481": 1794483634.759231,
+    "title:Video: Fincantieri Unveils MMMV, Details FREMM Evo and DDX Destroyer": 1794483634.759231
   },
   "events": [
     {
@@ -2114,6 +2117,10 @@
     {
       "key": "陸台跨國鎮壓爭議",
       "timestamp": 1794482446.6952374
+    },
+    {
+      "key": "歐洲海軍造艦與新型水面艦艇",
+      "timestamp": 1794483637.1959538
     }
   ]
 }
