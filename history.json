@@ -1,8 +1,5 @@
 {
   "ids": {
-    "https://www.navalnews.com/naval-news/2026/11/first-ever-autonomous-royal-navy-squadron-launches-as-part-of-investment-in-hybrid-operations": 1794261657.6760654,
-    "https://www.navalnews.com/?p=93329": 1794261657.6760654,
-    "title:First ever autonomous Royal Navy squadron launches as part of investment in hybrid operations": 1794261657.6760654,
     "https://www.twz.com/air/operational-f-15exs-have-started-flying-with-conformal-fuel-tanks": 1794262833.197795,
     "https://www.twz.com/?p=6605560": 1794262833.197795,
     "title:Operational F-15EXs Have Started Flying With Conformal Fuel Tanks": 1794262833.197795,
@@ -1765,7 +1762,16 @@
     "title:US soldier arrested in UK for suspected ‘espionage’ for Russia": 1794519665.6400294,
     "https://news.usni.org/2026/11/12/u-s-transfers-unmanned-surface-vessels-to-philippine-marine-corps": 1794519668.5720024,
     "https://news.usni.org/?p=126557": 1794519668.5720024,
-    "title:U.S. Transfers Unmanned Surface Vessels to Philippine Marine Corps": 1794519668.5720024
+    "title:U.S. Transfers Unmanned Surface Vessels to Philippine Marine Corps": 1794519668.5720024,
+    "https://www.atlanticcouncil.org/blogs/ukrainealert/putins-chief-negotiator-vows-to-return-every-inch-of-russian-land-in-ukraine": 1794520848.2947402,
+    "https://www.atlanticcouncil.org/?p=960326": 1794520848.2947402,
+    "title:Putin’s chief negotiator vows to return ‘every inch of Russian land’ in Ukraine": 1794520848.2947402,
+    "https://www.atlanticcouncil.org/dispatches/beyond-the-spy-scandal-what-the-nvidia-megaspeed-case-reveals-about-export-controls": 1794520858.12078,
+    "https://www.atlanticcouncil.org/?p=960191": 1794520858.12078,
+    "title:Beyond the spy scandal: What the Nvidia-Megaspeed case reveals about export controls": 1794520858.12078,
+    "https://news.usni.org/2026/11/09/hegseth-calls-for-sweeping-military-education-changes-in-naval-war-college-address": 1794520869.3341768,
+    "https://news.usni.org/?p=126495": 1794520869.3341768,
+    "title:Hegseth Calls for Sweeping Military Education Changes in Naval War College Address": 1794520869.3341768
   },
   "events": [
     {
@@ -2195,6 +2201,14 @@
     {
       "key": "美菲無人艇移交與防務",
       "timestamp": 1794519670.9959013
+    },
+    {
+      "key": "俄烏衝突談判立場",
+      "timestamp": 1794520850.1196089
+    },
+    {
+      "key": "輝達間諜案與出口管制",
+      "timestamp": 1794520860.214503
     }
   ]
 }
