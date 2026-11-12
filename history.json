@@ -1,8 +1,5 @@
 {
   "ids": {
-    "https://www.cna.com.tw/news/acn/202611090164.aspx": 1794214858.1069136,
-    "CNA/2026-11-09/202611090164": 1794214858.1069136,
-    "title:中國人口嚴重老化 老人數量首度超越兒童": 1794214858.1069136,
     "https://www.cna.com.tw/news/acn/202611090156.aspx": 1794214867.7640312,
     "CNA/2026-11-09/202611090156": 1794214867.7640312,
     "title:黃仁勳出軌對象疑似中國女間諜 中國外交部聲稱捕風捉影": 1794214867.7640312,
@@ -1662,13 +1659,18 @@
     "title:Is India Joining Malabar To Counter China? | Taiwan Talks #shorts": 1794472835.882046,
     "https://www.youtube.com/shorts/D27HR0CTopU": 1794472835.8820772,
     "yt:video:D27HR0CTopU": 1794472835.8820772,
-    "title:Is China Blurring Line Between Drills and War? | Taiwan Talks #shorts": 1794472835.8820772
+    "title:Is China Blurring Line Between Drills and War? | Taiwan Talks #shorts": 1794472835.8820772,
+    "https://warontherocks.com/cogs-of-war/to-implement-acquisition-transformation-empower-military-mavericks": 1794474058.4863877,
+    "https://warontherocks.com/?p=48385": 1794474058.4863877,
+    "title:To Implement Acquisition Transformation, Empower Military Mavericks": 1794474058.4863877,
+    "https://www.foreignaffairs.com/china/chinas-ai-diplomacy-working": 1794474059.9835,
+    "1135749": 1794474059.9835,
+    "title:China’s AI Diplomacy Is Working": 1794474059.9835,
+    "https://www.foreignaffairs.com/united-states/luxury-children": 1794474059.9835687,
+    "1135748": 1794474059.9835687,
+    "title:The Luxury of Children": 1794474059.9835687
   },
   "events": [
-    {
-      "key": "中國人口老化危機",
-      "timestamp": 1794214859.7636824
-    },
     {
       "key": "黃仁勳婚外情間諜風波",
       "timestamp": 1794214869.4145396
