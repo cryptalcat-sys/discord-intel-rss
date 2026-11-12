@@ -1638,7 +1638,16 @@
     "title:中共藉紀念孫中山重申國家統一 學者：刻意扭曲的政治性手法": 1794471644.8719275,
     "https://www.youtube.com/shorts/AehRwQlQ9fk": 1794471659.4415088,
     "yt:video:AehRwQlQ9fk": 1794471659.4415088,
-    "title:不為刺探輝達機密 黃樂想探美國情報｜ 公共電視 - 尖鋒對話": 1794471659.4415088
+    "title:不為刺探輝達機密 黃樂想探美國情報｜ 公共電視 - 尖鋒對話": 1794471659.4415088,
+    "https://www.cna.com.tw/news/ait/202611100194.aspx": 1794471706.736095,
+    "CNA/2026-11-10/202611100194": 1794471706.736095,
+    "title:防青少年謊報年齡 Meta擴大全球AI偵測": 1794471706.736095,
+    "https://www.navalnews.com/naval-news/2026/11/uk-and-jef-allies-sign-landmark-northern-navies-initiative-aboard-hms-prince-of-wales": 1794471710.4432018,
+    "https://www.navalnews.com/?p=93457": 1794471710.4432018,
+    "title:UK and JEF Allies Sign Landmark Northern Navies Initiative Aboard HMS Prince of Wales": 1794471710.4432018,
+    "https://www.cna.com.tw/news/acn/202611120212.aspx": 1794471724.2331853,
+    "CNA/2026-11-12/202611120212": 1794471724.2331853,
+    "title:中共紀念孫中山誕辰 習近平藉機重彈和平統一反台獨論調": 1794471724.2331853
   },
   "events": [
     {
@@ -2092,6 +2101,14 @@
     {
       "key": "中共紀念孫中山",
       "timestamp": 1794471650.4404416
+    },
+    {
+      "key": "英遠征軍簽署北海防務倡議",
+      "timestamp": 1794471712.543278
+    },
+    {
+      "key": "中共涉台統戰論調",
+      "timestamp": 1794471725.8228934
     }
   ]
 }
