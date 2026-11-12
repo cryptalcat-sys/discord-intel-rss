@@ -1,14 +1,5 @@
 {
   "ids": {
-    "https://breakingdefense.com/2026/11/cut-to-us-aid-would-impact-israeli-acquisition-timelines-spending-analysts": 1794244838.4569893,
-    "https://breakingdefense.com/?p=100409": 1794244838.4569893,
-    "title:Cut to US aid would impact Israeli acquisition timelines, spending: Analysts": 1794244838.4569893,
-    "https://warontherocks.com/talks-attacks-and-a-heist": 1794246044.9042704,
-    "https://warontherocks.com/?p=48530": 1794246044.9042704,
-    "title:Talks, Attacks, and a Heist": 1794246044.9042704,
-    "https://breakingdefense.com/2026/11/army-fields-launched-effects-to-11-of-12-divisions-with-griffon-aerospace-delivering-the-majority": 1794246045.5295432,
-    "https://breakingdefense.com/?p=100458": 1794246045.5295432,
-    "title:Army fields launched effects to 11 of 12 divisions, with Griffon Aerospace delivering the majority": 1794246045.5295432,
     "https://www.twz.com/air/russian-mi-28-attack-helicopter-fires-cruise-missile": 1794247256.417968,
     "https://www.twz.com/?p=6605478": 1794247256.417968,
     "title:Russian Mi-28 Attack Helicopters Are Now Firing Cruise Missiles": 1794247256.417968,
@@ -1718,13 +1709,12 @@
     "title:Chhangani quoted in an AFP article on the G20 foreign ministers’ meeting in Atlanta": 1794502929.2047617,
     "https://www.atlanticcouncil.org/insight-impact/in-the-news/tannebaum-quoted-in-the-new-york-times-on-us-unreliability-influencing-de-dollarization-efforts-4-2": 1794502929.2048154,
     "https://www.atlanticcouncil.org/?p=958861": 1794502929.2048154,
-    "title:Lipsky quoted in a South China Morning Post article on how Democrats could push to rein in Trump’s tariffs and give Congress more control over trade policy": 1794502929.2048154
+    "title:Lipsky quoted in a South China Morning Post article on how Democrats could push to rein in Trump’s tariffs and give Congress more control over trade policy": 1794502929.2048154,
+    "https://www.twz.com/air/new-facilities-to-pump-out-upgraded-f-a-18e-f-super-hornets-eyed-by-navy": 1794505232.1336439,
+    "https://www.twz.com/?p=6606989": 1794505232.1336439,
+    "title:New Facilities To Pump Out Upgraded F/A-18E/F Super Hornets Eyed By Navy": 1794505232.1336439
   },
   "events": [
-    {
-      "key": "美軍師級無人機戰力部署",
-      "timestamp": 1794246047.5188172
-    },
     {
       "key": "英軍北極獵人無人艦",
       "timestamp": 1794249639.6911135
@@ -2116,6 +2106,10 @@
     {
       "key": "美潛艇擱淺換將",
       "timestamp": 1794502874.480268
+    },
+    {
+      "key": "美海軍超黃蜂升級",
+      "timestamp": 1794505256.6748383
     }
   ]
 }
