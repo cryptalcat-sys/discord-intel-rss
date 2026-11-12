@@ -1,11 +1,5 @@
 {
   "ids": {
-    "https://www.atlanticcouncil.org/insight-impact/in-the-news/tannebaum-quoted-in-the-new-york-times-on-us-unreliability-influencing-de-dollarization-efforts-4-3": 1794243663.6306481,
-    "https://www.atlanticcouncil.org/?p=958863": 1794243663.6306481,
-    "title:Chhangani quoted in an AFP article on the G20 foreign ministers’ meeting in Atlanta": 1794243663.6306481,
-    "https://www.atlanticcouncil.org/insight-impact/in-the-news/tannebaum-quoted-in-the-new-york-times-on-us-unreliability-influencing-de-dollarization-efforts-4-2": 1794243673.5326464,
-    "https://www.atlanticcouncil.org/?p=958861": 1794243673.5326464,
-    "title:Lipsky quoted in a South China Morning Post article on how Democrats could push to rein in Trump’s tariffs and give Congress more control over trade policy": 1794243673.5326464,
     "https://breakingdefense.com/2026/11/cut-to-us-aid-would-impact-israeli-acquisition-timelines-spending-analysts": 1794244838.4569893,
     "https://breakingdefense.com/?p=100409": 1794244838.4569893,
     "title:Cut to US aid would impact Israeli acquisition timelines, spending: Analysts": 1794244838.4569893,
@@ -1705,17 +1699,22 @@
     "title:Cry ‘drone,’ and let slip the fruit flies of war": 1794501645.1582994,
     "https://www.defensenews.com/video/2026/11/10/hegseth-says-impeachment-filing-against-him-is-sabotage-and-political-farce": 1794501698.968504,
     "https://one.sightlinemg.com/defensenews/news/2026/11/10/hegesth-says-impeachment-filing-against-him-is-sabotage-and-political-farce/": 1794501698.968504,
-    "title:Hegseth says impeachment filing against him is ‘sabotage’ and political ‘farce’": 1794501698.968504
+    "title:Hegseth says impeachment filing against him is ‘sabotage’ and political ‘farce’": 1794501698.968504,
+    "https://www.lowyinstitute.org/the-interpreter/yalta-2-0-a-trump-xi-putin-summit-has-little-upside-for-beijing": 1794502851.1330743,
+    "title:Yalta 2.0: A Trump-Xi-Putin summit has little upside for Beijing": 1794502851.1330743,
+    "https://www.twreporter.org/a/hong-kong-joshua-wong-gets-10-more-years-in-jail-for-foreign-collusion": 1794502851.4255033,
+    "title:「不要忘記他」：黃之鋒獄中被控「勾結外國勢力」再判10年，延至2036年出獄": 1794502851.4255033,
+    "https://www.atlanticcouncil.org/insight-impact/in-the-news/tannebaum-quoted-in-the-new-york-times-on-us-unreliability-influencing-de-dollarization-efforts-4-5": 1794502851.7392077,
+    "https://www.atlanticcouncil.org/?p=958869": 1794502851.7392077,
+    "title:Lichfield interviewed by France Culture (Radio France) on how Trump’s economic policies could affect Republican support in the 2026 midterm elections": 1794502851.7392077,
+    "https://www.atlanticcouncil.org/insight-impact/in-the-news/tannebaum-quoted-in-the-new-york-times-on-us-unreliability-influencing-de-dollarization-efforts-4-4": 1794502851.7392488,
+    "https://www.atlanticcouncil.org/?p=958865": 1794502851.7392488,
+    "title:Piasecki’s research on Venezuela’s debt restructuring cited in a Congressional Research Service report": 1794502851.7392488,
+    "https://news.usni.org/2026/11/12/breaking-uss-south-dakota-command-triad-relieved-after-october-grounding-congressman-says": 1794502854.8571756,
+    "https://news.usni.org/?p=126537": 1794502854.8571756,
+    "title:BREAKING: USS South Dakota Command Triad Relieved After October Grounding, Congressman Says": 1794502854.8571756
   },
   "events": [
-    {
-      "key": "G20外長會議博弈",
-      "timestamp": 1794243665.5322137
-    },
-    {
-      "key": "美國民主黨限制關稅權",
-      "timestamp": 1794243675.4071772
-    },
     {
       "key": "美軍師級無人機戰力部署",
       "timestamp": 1794246047.5188172
@@ -2107,6 +2106,10 @@
     {
       "key": "美軍無人機快速演進",
       "timestamp": 1794501688.8031263
+    },
+    {
+      "key": "美潛艇擱淺換將",
+      "timestamp": 1794502874.480268
     }
   ]
 }
