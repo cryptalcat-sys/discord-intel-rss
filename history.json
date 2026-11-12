@@ -1,37 +1,5 @@
 {
   "ids": {
-    "https://pourquoi.tw/39th-anniversary-of-the-lifting-of-martial-law": 1794193262.5215406,
-    "https://pourquoi.tw/?p=204751": 1794193262.5215406,
-    "title:台灣民主的未竟之業 —— 解嚴39週年的回顧與展望": 1794193262.5215406,
-    "https://pourquoi.tw/the-odyssey": 1794193262.5216026,
-    "https://pourquoi.tw/?p=204652": 1794193262.5216026,
-    "title:【Lizard】《奧德賽》被誤讀的諾蘭還有他的中國夢": 1794193262.5216026,
-    "https://pourquoi.tw/luc-sees-2025-tiff": 1794193262.5216446,
-    "https://pourquoi.tw/?p=204404": 1794193262.5216446,
-    "title:技術、女性、台灣處境 —— L.U.C的 38 屆東京影展觀察": 1794193262.5216446,
-    "https://pourquoi.tw/retrocession-of-taiwan-interpretations-and-disputes": 1794193262.521681,
-    "https://pourquoi.tw/?p=204325": 1794193262.521681,
-    "title:在「光復」的美名下 ── 析論國民黨政權長年統治對臺灣文化的摧殘": 1794193262.521681,
-    "https://pourquoi.tw/20251017-reprot-deutchandnexperia": 1794193262.5217168,
-    "https://pourquoi.tw/?p=204216": 1794193262.5217168,
-    "title:【何澄輝】荷蘭政府干預安世半導體（Nexperia）事件綜合報告與影響評估": 1794193262.5217168,
-    "https://pourquoi.tw/zero-day-attack": 1794193262.5217516,
-    "https://pourquoi.tw/?p=204173": 1794193262.5217516,
-    "title:【Lizard】比帶狀皰疹更致命，《零日攻擊》受到的帶狀攻擊": 1794193262.5217516,
-    "https://pourquoi.tw/taiwan-news-20250922-4": 1794193262.5217872,
-    "https://pourquoi.tw/?p=204092": 1794193262.5217872,
-    "title:2025國家正常化研討會》陳方隅：斷開一中鎖鏈 強化「台灣不是中國的一部分」": 1794193262.5217872,
-    "https://pourquoi.tw/taiwan-news-20250922-3": 1794193262.5218215,
-    "https://pourquoi.tw/?p=204071": 1794193262.5218215,
-    "title:2025國家正常化研討會》林瓊華：台灣威權民主地景並列 錯亂又假的多元史觀": 1794193262.5218215,
-    "https://pourquoi.tw/taiwan-news-20250922-2": 1794193262.5218558,
-    "https://pourquoi.tw/?p=204053": 1794193262.5218558,
-    "title:2025國家正常化研討會》林佳和：假日不只是假日 慎防歷史記憶被鎖入「一個中國」": 1794193262.5218558,
-    "https://pourquoi.tw/taiwan-news-20250922-1": 1794193262.5218897,
-    "https://pourquoi.tw/?p=204051": 1794193262.5218897,
-    "title:2025國家正常化研討會》王美琇：大象還在客廳裡 中國國民黨在台灣最不正常": 1794193262.5218897,
-    "https://www.lowyinstitute.org/the-interpreter/the-philippines-is-looking-to-develop-an-expeditionary-navy": 1794193267.117482,
-    "title:The Philippines is looking to develop an “expeditionary navy”": 1794193267.117482,
     "https://www.bruegel.org/node/12486": 1794193278.5180411,
     "12486 at https://www.bruegel.org": 1794193278.5180411,
     "title:Session 5b: The path to Ukraine’s membership of the EU: conversation with Ambassador-designate Kachka": 1794193278.5180411,
@@ -1663,7 +1631,9 @@
     "title:黃樂持香港護照入境 邱垂正：嚴格註記給予嚴審": 1794451246.5481985,
     "https://www.cna.com.tw/news/acn/202611120039.aspx": 1794451256.1019225,
     "CNA/2026-11-12/202611120039": 1794451256.1019225,
-    "title:陸客來台被要求簽互不隸屬聲明？邱垂正：個案溝通問題": 1794451256.1019225
+    "title:陸客來台被要求簽互不隸屬聲明？邱垂正：個案溝通問題": 1794451256.1019225,
+    "https://www.lowyinstitute.org/the-interpreter/watch-what-trump-does-in-asia-not-what-he-says": 1794452452.3866043,
+    "title:Watch what Trump does in Asia, not what he says": 1794452452.3866043
   },
   "events": [
     {
@@ -2085,6 +2055,10 @@
     {
       "key": "陸客來台行政爭議",
       "timestamp": 1794451295.504925
+    },
+    {
+      "key": "川普亞太外交戰略",
+      "timestamp": 1794452453.76604
     }
   ]
 }
