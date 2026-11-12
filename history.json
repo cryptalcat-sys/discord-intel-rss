@@ -1,8 +1,5 @@
 {
   "ids": {
-    "https://breakingdefense.com/2026/11/pentagon-cant-track-thousands-of-f-35-parts-gao": 1794254449.5001311,
-    "https://breakingdefense.com/?p=100566": 1794254449.5001311,
-    "title:Pentagon can’t track thousands of F-35 parts: GAO": 1794254449.5001311,
     "https://breakingdefense.com/2026/11/the-next-breakthrough-is-software-built-on-the-battlefield-by-agentic-bots": 1794256844.0132816,
     "https://breakingdefense.com/?p=100580": 1794256844.0132816,
     "title:The next breakthrough is software built on the battlefield by agentic bots": 1794256844.0132816,
@@ -1742,13 +1739,12 @@
     "title:USNI News Fleet and Marine Tracker: Nov. 9, 2026": 1794512440.9663947,
     "https://www.defensenews.com/global/mideast-africa/2026/11/10/most-americans-want-new-democratic-congress-to-end-trumps-iran-war-poll-finds": 1794512442.1681635,
     "https://one.sightlinemg.com/defensenews/news/2026/11/10/most-americans-want-new-democratic-congress-to-end-trumps-iran-war-poll-finds/": 1794512442.1681635,
-    "title:Most Americans want new Democratic Congress to end Trump’s Iran war, poll finds": 1794512442.1681635
+    "title:Most Americans want new Democratic Congress to end Trump’s Iran war, poll finds": 1794512442.1681635,
+    "https://breakingdefense.com/2026/11/air-force-debuts-new-t-19a-aerobatic-plane": 1794514832.5089703,
+    "https://breakingdefense.com/?p=100889": 1794514832.5089703,
+    "title:Air Force unveils T-19A, a new aerobatic plane to train future pilots": 1794514832.5089703
   },
   "events": [
-    {
-      "key": "F-35零件失蹤",
-      "timestamp": 1794254488.9687395
-    },
     {
       "key": "美軍校教育改革與實戰化轉型",
       "timestamp": 1794258062.4631844
@@ -2148,6 +2144,10 @@
     {
       "key": "烏克蘭L-39反無人機",
       "timestamp": 1794511252.667195
+    },
+    {
+      "key": "美軍新型T-19A教練機",
+      "timestamp": 1794514839.5536385
     }
   ]
 }
