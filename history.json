@@ -1,8 +1,5 @@
 {
   "ids": {
-    "https://www.navalnews.com/naval-news/2026/11/kongsberg-maritime-launches-arctic-hunter-usv-for-the-hybrid-navy": 1794220360.1515765,
-    "https://www.navalnews.com/?p=93239": 1794220360.1515765,
-    "title:Kongsberg Maritime launches Arctic Hunter USV for the Hybrid Navy": 1794220360.1515765,
     "https://www.cna.com.tw/news/acn/202611090257.aspx": 1794226841.561853,
     "CNA/2026-11-09/202611090257": 1794226841.561853,
     "title:胡錫進宣稱中國不要求女情報員「上床」實現目標": 1794226841.561853,
@@ -1668,13 +1665,12 @@
     "title:從美中科技競逐到台灣晶片籌碼，郝珂靈談「AI帝國」的擴張與抵抗": 1794478844.956015,
     "https://www.atlanticcouncil.org/insight-impact/in-the-news/yevgeniya-gaber-discusses-black-sea-security-as-russia-tests-regional-nato-allies": 1794478848.6907613,
     "https://www.atlanticcouncil.org/?p=959982": 1794478848.6907613,
-    "title:Yevgeniya Gaber discusses Black Sea Security as Russia tests regional NATO allies": 1794478848.6907613
+    "title:Yevgeniya Gaber discusses Black Sea Security as Russia tests regional NATO allies": 1794478848.6907613,
+    "https://www.cna.com.tw/news/acn/202611120311.aspx": 1794482435.1578555,
+    "CNA/2026-11-12/202611120311": 1794482435.1578555,
+    "title:國台辦稱跨國鎮壓是謊言 梁文傑：經不起檢驗": 1794482435.1578555
   },
   "events": [
-    {
-      "key": "挪威發表極地獵人無人艇",
-      "timestamp": 1794220361.6431665
-    },
     {
       "key": "中國情報界美人計爭議",
       "timestamp": 1794226843.3314664
@@ -2114,6 +2110,10 @@
     {
       "key": "黃仁勳間諜疑雲",
       "timestamp": 1794477672.2043366
+    },
+    {
+      "key": "陸台跨國鎮壓爭議",
+      "timestamp": 1794482446.6952374
     }
   ]
 }
