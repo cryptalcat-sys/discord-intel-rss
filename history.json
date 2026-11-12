@@ -1,11 +1,5 @@
 {
   "ids": {
-    "https://www.navalnews.com/event-news/euronaval-2026/2026/11/navantia-unveils-its-vision-for-next-generation-naval-capabilities-at-euronaval-2026": 1794235241.9630845,
-    "https://www.navalnews.com/?p=93263": 1794235241.9630845,
-    "title:Navantia unveils its vision for next-generation naval capabilities at Euronaval 2026": 1794235241.9630845,
-    "https://www.navalnews.com/event-news/euronaval-2026/2026/11/babcock-and-saab-denmark-sign-strategic-agreement-for-arrowhead-frigate-opportunities": 1794235251.7247334,
-    "https://www.navalnews.com/?p=93248": 1794235251.7247334,
-    "title:Babcock and Saab Denmark sign strategic agreement for Arrowhead frigate opportunities": 1794235251.7247334,
     "https://news.usni.org/2026/11/06/theodore-roosevelt-carrier-strike-group-pulls-into-singapore": 1794236456.478378,
     "https://news.usni.org/?p=126450": 1794236456.478378,
     "title:Theodore Roosevelt Carrier Strike Group Pulls Into Singapore": 1794236456.478378,
@@ -1653,17 +1647,18 @@
     "title:Democrats Shouldn’t Squander Their Chance to Launch a Foreign Policy Revolution": 1794493292.919833,
     "https://www.youtube.com/shorts/u8CGmWiXriU": 1794493293.7135537,
     "yt:video:u8CGmWiXriU": 1794493293.7135537,
-    "title:China’s Ambition for a Beijing-Centered Asia | Taiwan Talks #shorts": 1794493293.7135537
+    "title:China’s Ambition for a Beijing-Centered Asia | Taiwan Talks #shorts": 1794493293.7135537,
+    "https://www.navalnews.com/event-news/euronaval-2026/2026/11/euronaval-2026-cmn-unveils-107-meter-multi-mission-corvette": 1794494435.962512,
+    "https://www.navalnews.com/?p=93357": 1794494435.962512,
+    "title:Euronaval 2026: CMN Unveils 107-Meter Multi-Mission Corvette": 1794494435.962512,
+    "https://www.navalnews.com/naval-news/2026/11/royal-navy-orders-saab-sea-giraffe-1x-radars-for-k3-scout-counter-drone-usvs": 1794494445.9329326,
+    "https://www.navalnews.com/?p=93435": 1794494445.9329326,
+    "title:Royal Navy Orders Saab Sea Giraffe 1X Radars for K3 Scout Counter-Drone USVs": 1794494445.9329326,
+    "https://www.atlanticcouncil.org/blogs/energysource/why-belgrades-new-government-should-not-let-the-vertical-gas-corridor-slip": 1794494458.4711747,
+    "https://www.atlanticcouncil.org/?p=958712": 1794494458.4711747,
+    "title:Why Belgrade’s new government should not let the Vertical Gas Corridor slip": 1794494458.4711747
   },
   "events": [
-    {
-      "key": "納凡蒂亞海軍次世代戰力",
-      "timestamp": 1794235243.7243683
-    },
-    {
-      "key": "標庫與薩伯簽署Arrowhead巡防艦戰略合作",
-      "timestamp": 1794235253.2606208
-    },
     {
       "key": "歐洲飛彈防空系統整合",
       "timestamp": 1794237632.2609932
@@ -2079,6 +2074,14 @@
     {
       "key": "北約防空飛彈供應危機",
       "timestamp": 1794493281.5543797
+    },
+    {
+      "key": "CMN發表新型匿蹤護衛艦",
+      "timestamp": 1794494437.9325929
+    },
+    {
+      "key": "英軍購置艦載反無人機雷達",
+      "timestamp": 1794494447.8648417
     }
   ]
 }
