@@ -1774,7 +1774,12 @@
     "title:To settle Russia’s Ukraine war, Europe needs to let Kyiv in. Trump can help (really).": 1794523239.5209618,
     "https://news.usni.org/2026/11/06/the-future-of-french-fleet-close-in-defense": 1794523239.9314792,
     "https://news.usni.org/?p=126439": 1794523239.9314792,
-    "title:The Future of French Fleet Close-in Defense": 1794523239.9314792
+    "title:The Future of French Fleet Close-in Defense": 1794523239.9314792,
+    "https://news.usni.org/2026/11/12/ssnx-attack-boat-will-be-a-swift-lethal-mothership-for-undersea-drones-navy-says": 1794524445.9048645,
+    "https://news.usni.org/?p=126566": 1794524445.9048645,
+    "title:SSN(X) Attack Boat Will be a Swift, Lethal Mothership for Undersea Drones, Navy Says": 1794524445.9048645,
+    "https://www.lowyinstitute.org/the-interpreter/eleven-phones-and-the-spectre-of-treason-jakarta-s-wiretap-scandal": 1794524462.5090582,
+    "title:Eleven phones and the spectre of treason: Jakarta’s wiretap scandal": 1794524462.5090582
   },
   "events": [
     {
@@ -2212,6 +2217,10 @@
     {
       "key": "輝達間諜案與出口管制",
       "timestamp": 1794520860.214503
+    },
+    {
+      "key": "美軍SSN(X)水下母艦",
+      "timestamp": 1794524447.6238275
     }
   ]
 }
