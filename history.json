@@ -1,11 +1,5 @@
 {
   "ids": {
-    "https://www.navalnews.com/naval-news/2026/11/mbda-on-contract-to-study-aster-30-missile-integration-in-mk-41-vls": 1794237630.4797132,
-    "https://www.navalnews.com/?p=93271": 1794237630.4797132,
-    "title:MBDA on contract to study Aster 30 missile integration in MK 41 VLS": 1794237630.4797132,
-    "https://www.defensenews.com/news/2026/11/07/european-troops-set-to-train-in-poland-for-postwar-ukraine-deployment": 1794237649.529528,
-    "https://www.defensenews.com/news/2026/11/07/european-troops-set-to-train-in-poland-for-postwar-ukraine-deployment/": 1794237649.529528,
-    "title:European troops set to train in Poland for postwar Ukraine deployment": 1794237649.529528,
     "https://breakingdefense.com/2026/11/the-navys-trainer-is-now-the-biggest-test-of-the-pentagons-acquisition-reform-efforts": 1794238842.5124555,
     "https://breakingdefense.com/?p=100358": 1794238842.5124555,
     "title:The Navy’s trainer is now the biggest test of the Pentagon’s acquisition reform efforts": 1794238842.5124555,
@@ -1652,13 +1646,15 @@
     "https://www.atlanticcouncil.org/?p=958712": 1794494458.4711747,
     "title:Why Belgrade’s new government should not let the Vertical Gas Corridor slip": 1794494458.4711747,
     "https://www.piie.com/events/2026/after-brazils-election-whats-next-latin-america": 1794495665.966499,
-    "title:After Brazil's election: What's next for Latin America?": 1794495665.966499
+    "title:After Brazil's election: What's next for Latin America?": 1794495665.966499,
+    "https://news.usni.org/2026/11/06/theodore-roosevelt-carrier-strike-group-pulls-into-singapore": 1794496831.5631742,
+    "https://news.usni.org/?p=126450": 1794496831.5631742,
+    "title:Theodore Roosevelt Carrier Strike Group Pulls Into Singapore": 1794496831.5631742,
+    "https://www.defensenews.com/global/europe/2026/11/12/finland-says-it-detects-strike-on-russian-warship-in-baltic-sea": 1794496835.748661,
+    "https://one.sightlinemg.com/defensenews/?p=87829": 1794496835.748661,
+    "title:Finland says it detects strike on Russian warship in Baltic Sea": 1794496835.748661
   },
   "events": [
-    {
-      "key": "歐洲飛彈防空系統整合",
-      "timestamp": 1794237632.2609932
-    },
     {
       "key": "美國軍工產能與小型無人機擴產",
       "timestamp": 1794240063.532306
@@ -2078,6 +2074,10 @@
     {
       "key": "英軍購置艦載反無人機雷達",
       "timestamp": 1794494447.8648417
+    },
+    {
+      "key": "波羅的海俄艦遇襲",
+      "timestamp": 1794496880.8787494
     }
   ]
 }
