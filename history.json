@@ -1,18 +1,5 @@
 {
   "ids": {
-    "https://www.atlanticcouncil.org/insight-impact/in-the-news/tannebaum-quoted-in-the-new-york-times-on-us-unreliability-influencing-de-dollarization-efforts-4-5": 1794241243.3401804,
-    "https://www.atlanticcouncil.org/?p=958869": 1794241243.3401804,
-    "title:Lichfield interviewed by France Culture (Radio France) on how Trump’s economic policies could affect Republican support in the 2026 midterm elections": 1794241243.3401804,
-    "https://www.navalnews.com/event-news/euronaval-2026/2026/11/general-atomics-ranger-uuv-to-support-large-payloads-uavs": 1794241255.1210818,
-    "https://www.navalnews.com/?p=92912": 1794241255.1210818,
-    "title:General Atomics Ranger UUV to Support Large Payloads, UAVs": 1794241255.1210818,
-    "https://www.twreporter.org/a/hong-kong-joshua-wong-gets-10-more-years-in-jail-for-foreign-collusion": 1794242440.562492,
-    "title:「不要忘記他」：黃之鋒獄中被控「勾結外國勢力」再判10年，延至2036年出獄": 1794242440.562492,
-    "https://www.lowyinstitute.org/the-interpreter/yalta-2-0-a-trump-xi-putin-summit-has-little-upside-for-beijing": 1794242442.4674869,
-    "title:Yalta 2.0: A Trump-Xi-Putin summit has little upside for Beijing": 1794242442.4674869,
-    "https://www.atlanticcouncil.org/insight-impact/in-the-news/tannebaum-quoted-in-the-new-york-times-on-us-unreliability-influencing-de-dollarization-efforts-4-4": 1794242456.7298691,
-    "https://www.atlanticcouncil.org/?p=958865": 1794242456.7298691,
-    "title:Piasecki’s research on Venezuela’s debt restructuring cited in a Congressional Research Service report": 1794242456.7298691,
     "https://www.atlanticcouncil.org/insight-impact/in-the-news/tannebaum-quoted-in-the-new-york-times-on-us-unreliability-influencing-de-dollarization-efforts-4-3": 1794243663.6306481,
     "https://www.atlanticcouncil.org/?p=958863": 1794243663.6306481,
     "title:Chhangani quoted in an AFP article on the G20 foreign ministers’ meeting in Atlanta": 1794243663.6306481,
@@ -1709,25 +1696,18 @@
     "https://www.atlanticcouncil.org/?p=958875": 1794500433.5982318,
     "title:Lipsky quoted in a South China Morning Post article discussing how Congress could constrain Trump’s agenda following the 2026 US midterm elections": 1794500433.5982318,
     "https://www.twreporter.org/a/photo-backrooms-art-liminal-space-mark-fisher": 1794500438.538876,
-    "title:詹育杰／在資本主義的無盡「後室」，尋找文化理論家馬克．費雪的藍色幽靈": 1794500438.538876
+    "title:詹育杰／在資本主義的無盡「後室」，尋找文化理論家馬克．費雪的藍色幽靈": 1794500438.538876,
+    "https://www.atlanticcouncil.org/insight-impact/in-the-news/tannebaum-quoted-in-the-new-york-times-on-us-unreliability-influencing-de-dollarization-efforts-4-6": 1794501637.2345872,
+    "https://www.atlanticcouncil.org/?p=958871": 1794501637.2345872,
+    "title:Chhangani’s article on the future of the digital euro cited in an OMFIF article": 1794501637.2345872,
+    "https://breakingdefense.com/2026/11/cry-drone-and-let-slip-the-fruit-flies-of-war": 1794501645.1582994,
+    "https://breakingdefense.com/?p=100880": 1794501645.1582994,
+    "title:Cry ‘drone,’ and let slip the fruit flies of war": 1794501645.1582994,
+    "https://www.defensenews.com/video/2026/11/10/hegseth-says-impeachment-filing-against-him-is-sabotage-and-political-farce": 1794501698.968504,
+    "https://one.sightlinemg.com/defensenews/news/2026/11/10/hegesth-says-impeachment-filing-against-him-is-sabotage-and-political-farce/": 1794501698.968504,
+    "title:Hegseth says impeachment filing against him is ‘sabotage’ and political ‘farce’": 1794501698.968504
   },
   "events": [
-    {
-      "key": "川普經濟政策與期中選舉",
-      "timestamp": 1794241244.7173088
-    },
-    {
-      "key": "GA長程UUV展示",
-      "timestamp": 1794241294.2831638
-    },
-    {
-      "key": "川習普三邊峰會",
-      "timestamp": 1794242444.3157964
-    },
-    {
-      "key": "委內瑞拉債務重組",
-      "timestamp": 1794242458.3081949
-    },
     {
       "key": "G20外長會議博弈",
       "timestamp": 1794243665.5322137
@@ -2123,6 +2103,10 @@
     {
       "key": "俄中對日北方領土",
       "timestamp": 1794499269.6013072
+    },
+    {
+      "key": "美軍無人機快速演進",
+      "timestamp": 1794501688.8031263
     }
   ]
 }
