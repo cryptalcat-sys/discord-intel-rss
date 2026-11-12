@@ -1,26 +1,5 @@
 {
   "ids": {
-    "https://www.cna.com.tw/news/acn/202611090257.aspx": 1794226841.561853,
-    "CNA/2026-11-09/202611090257": 1794226841.561853,
-    "title:胡錫進宣稱中國不要求女情報員「上床」實現目標": 1794226841.561853,
-    "https://www.youtube.com/shorts/u8CGmWiXriU": 1794228037.299592,
-    "yt:video:u8CGmWiXriU": 1794228037.299592,
-    "title:China’s Ambition for a Beijing-Centered Asia | Taiwan Talks #shorts": 1794228037.299592,
-    "https://www.navalnews.com/event-news/euronaval-2026/2026/11/mtg-dolphin-proposes-opv-90-for-hellenic-coast-guard": 1794228042.328387,
-    "https://www.navalnews.com/?p=93005": 1794228042.328387,
-    "title:MTG Dolphin Proposes OPV 90 for Hellenic Coast Guard": 1794228042.328387,
-    "https://www.defensenews.com/global/europe/2026/11/06/how-a-french-frigates-radical-bow-design-makes-for-smooth-sailing": 1794228053.7682946,
-    "https://one.sightlinemg.com/defensenews/?p=87615": 1794228053.7682946,
-    "title:How a French frigate’s radical bow design makes for smooth sailing": 1794228053.7682946,
-    "https://breakingdefense.com/2026/11/europe-nears-decision-on-competing-hypersonic-interceptor-programs": 1794228056.7877896,
-    "https://breakingdefense.com/?p=100384": 1794228056.7877896,
-    "title:Europe nears decision on competing hypersonic interceptor programs": 1794228056.7877896,
-    "https://www.foreignaffairs.com/united-states/matthew-duss-democrats-squander-chance-foreign-policy-congress-midterms": 1794229254.6928484,
-    "1135745": 1794229254.6928484,
-    "title:Democrats Shouldn’t Squander Their Chance to Launch a Foreign Policy Revolution": 1794229254.6928484,
-    "https://www.cna.com.tw/news/acn/202611090280.aspx": 1794232858.1273687,
-    "CNA/2026-11-09/202611090280": 1794232858.1273687,
-    "title:中國海警船再度駛入釣魚台主權爭議海域": 1794232858.1273687,
     "https://www.cna.com.tw/news/acn/202611090262.aspx": 1794232868.0227299,
     "CNA/2026-11-09/202611090262": 1794232868.0227299,
     "title:中國中東問題特使訪問伊朗 主張聚焦政治解決": 1794232868.0227299,
@@ -1671,17 +1650,15 @@
     "title:國台辦稱跨國鎮壓是謊言 梁文傑：經不起檢驗": 1794482435.1578555,
     "https://www.navalnews.com/event-news/euronaval-2026/2026/11/video-fincantieri-unveils-mmmv-details-fremm-evo-and-ddx-destroyer": 1794483634.759231,
     "https://www.navalnews.com/?p=93481": 1794483634.759231,
-    "title:Video: Fincantieri Unveils MMMV, Details FREMM Evo and DDX Destroyer": 1794483634.759231
+    "title:Video: Fincantieri Unveils MMMV, Details FREMM Evo and DDX Destroyer": 1794483634.759231,
+    "https://www.atlanticcouncil.org/in-depth-research-reports/report/water-infrastructure-at-the-mediterraneans-inflection-point": 1794492047.9167109,
+    "https://www.atlanticcouncil.org/?p=957535": 1794492047.9167109,
+    "title:Water infrastructure at the Mediterranean’s inflection point: Financing resilience for an industrializing, digitalizing region": 1794492047.9167109,
+    "https://breakingdefense.com/2026/11/rethinking-the-pipeline-for-critical-defense-electronics": 1794492055.5052793,
+    "https://breakingdefense.com/?p=100883": 1794492055.5052793,
+    "title:Rethinking the pipeline for critical defense electronics": 1794492055.5052793
   },
   "events": [
-    {
-      "key": "中國情報界美人計爭議",
-      "timestamp": 1794226843.3314664
-    },
-    {
-      "key": "希臘海岸警衛隊投標",
-      "timestamp": 1794228044.2021503
-    },
     {
       "key": "中國海警釣魚台巡航",
       "timestamp": 1794232860.0223055
