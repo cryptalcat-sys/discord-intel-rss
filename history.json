@@ -1712,7 +1712,16 @@
     "title:New Facilities To Pump Out Upgraded F/A-18E/F Super Hornets Eyed By Navy": 1794505232.1336439,
     "https://warontherocks.com/talks-attacks-and-a-heist": 1794506462.764572,
     "https://warontherocks.com/?p=48530": 1794506462.764572,
-    "title:Talks, Attacks, and a Heist": 1794506462.764572
+    "title:Talks, Attacks, and a Heist": 1794506462.764572,
+    "https://www.navalnews.com/naval-news/2026/11/uk-royal-navy-mine-hunting-motherships-norway": 1794507631.3175802,
+    "https://www.navalnews.com/?p=93513": 1794507631.3175802,
+    "title:UK Selects Norwegian P1118 Design for New Mine-Hunting Motherships": 1794507631.3175802,
+    "https://www.navalnews.com/naval-news/2026/11/u-s-navy-expands-tomahawk-warhead-production-capacity-at-china-lake": 1794507678.9279094,
+    "https://www.navalnews.com/?p=93509": 1794507678.9279094,
+    "title:U.S. Navy Expands Tomahawk Warhead Production Capacity at China Lake": 1794507678.9279094,
+    "https://www.youtube.com/shorts/3sLCS83sYxw": 1794507701.653272,
+    "yt:video:3sLCS83sYxw": 1794507701.653272,
+    "title:Deterrence as a Strategy": 1794507701.653272
   },
   "events": [
     {
@@ -2110,6 +2119,14 @@
     {
       "key": "美海軍超黃蜂升級",
       "timestamp": 1794505256.6748383
+    },
+    {
+      "key": "英軍選型掃雷母艦",
+      "timestamp": 1794507670.927492
+    },
+    {
+      "key": "美軍擴產戰斧導彈彈頭",
+      "timestamp": 1794507689.4722679
     }
   ]
 }
