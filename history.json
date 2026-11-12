@@ -1751,7 +1751,21 @@
     "title:Delivering first Columbia-class sub in 2028 is ‘absolutely achievable’, sub czar says": 1794518430.4530563,
     "https://www.atlanticcouncil.org/blogs/ukrainealert/europe-sees-surge-in-suspected-russian-hybrid-warfare-incidents": 1794518447.1825292,
     "https://www.atlanticcouncil.org/?p=959811": 1794518447.1825292,
-    "title:Europe sees surge in suspected Russian hybrid warfare incidents": 1794518447.1825292
+    "title:Europe sees surge in suspected Russian hybrid warfare incidents": 1794518447.1825292,
+    "https://www.atlanticcouncil.org/blogs/econographics/the-digital-yuan-is-only-part-of-chinas-expanding-global-payments-network": 1794519631.4781437,
+    "https://www.atlanticcouncil.org/?p=960006": 1794519631.4781437,
+    "title:The digital yuan is only part of China’s expanding global payments network": 1794519631.4781437,
+    "https://www.atlanticcouncil.org/content-series/fastthinking/what-jensen-huangs-nvidia-exit-means-for-washington-wall-street-and-beijing": 1794519642.3860366,
+    "https://www.atlanticcouncil.org/?p=960169": 1794519642.3860366,
+    "title:What Jensen Huang’s Nvidia exit means for Washington, Wall Street, and Beijing": 1794519642.3860366,
+    "https://www.defensenews.com/global/europe/2026/11/12/pentagon-greenlit-permanent-presence-of-us-troops-in-poland-official-says": 1794519655.320972,
+    "https://one.sightlinemg.com/defensenews/news/2026/11/12/pentagon-greenlit-permanent-presence-of-us-troops-in-poland-official-says/": 1794519655.320972,
+    "title:Pentagon ‘greenlit’ permanent presence of US troops in Poland, official says": 1794519655.320972,
+    "https://www.defensenews.com/global/europe/2026/11/10/us-soldier-arrested-in-uk-for-suspected-espionage-for-russia": 1794519665.6400294,
+    "title:US soldier arrested in UK for suspected ‘espionage’ for Russia": 1794519665.6400294,
+    "https://news.usni.org/2026/11/12/u-s-transfers-unmanned-surface-vessels-to-philippine-marine-corps": 1794519668.5720024,
+    "https://news.usni.org/?p=126557": 1794519668.5720024,
+    "title:U.S. Transfers Unmanned Surface Vessels to Philippine Marine Corps": 1794519668.5720024
   },
   "events": [
     {
@@ -2165,6 +2179,22 @@
     {
       "key": "哥倫比亞級潛艦建造進度",
       "timestamp": 1794518435.6250262
+    },
+    {
+      "key": "中國全球支付網絡擴張",
+      "timestamp": 1794519634.38566
+    },
+    {
+      "key": "輝達高層異動與美中博弈",
+      "timestamp": 1794519644.4941108
+    },
+    {
+      "key": "美軍常駐波蘭防務部署",
+      "timestamp": 1794519657.638681
+    },
+    {
+      "key": "美菲無人艇移交與防務",
+      "timestamp": 1794519670.9959013
     }
   ]
 }
