@@ -1614,7 +1614,10 @@
     "title:邱垂正：黃樂2024至2025年共來台8次": 1794458458.7821643,
     "https://www.cna.com.tw/news/acn/202611120078.aspx": 1794459655.3910003,
     "CNA/2026-11-12/202611120078": 1794459655.3910003,
-    "title:王毅盧比歐通話 稱中方願與美互支持辦好APEC和G20峰會": 1794459655.3910003
+    "title:王毅盧比歐通話 稱中方願與美互支持辦好APEC和G20峰會": 1794459655.3910003,
+    "https://www.navalnews.com/naval-news/2026/11/australian-propulsion-specialist-veem-wins-work-on-us-submarines": 1794469236.863821,
+    "https://www.navalnews.com/?p=93464": 1794469236.863821,
+    "title:Australian naval propulsion specialist VEEM wins work on US Navy submarines": 1794469236.863821
   },
   "events": [
     {
@@ -2040,6 +2043,10 @@
     {
       "key": "美中外長通話互動",
       "timestamp": 1794459659.0103502
+    },
+    {
+      "key": "澳廠供應美艦推進器",
+      "timestamp": 1794469242.0152855
     }
   ]
 }
