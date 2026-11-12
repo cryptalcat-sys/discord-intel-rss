@@ -1,20 +1,5 @@
 {
   "ids": {
-    "https://www.cna.com.tw/news/acn/202611090262.aspx": 1794232868.0227299,
-    "CNA/2026-11-09/202611090262": 1794232868.0227299,
-    "title:中國中東問題特使訪問伊朗 主張聚焦政治解決": 1794232868.0227299,
-    "https://www.defensenews.com/video/2026/11/09/drones-incoming-new-innovations-on-offer-in-uas-tech-defense-news-weekly-full-episode-11-10-26": 1794234039.7785332,
-    "https://one.sightlinemg.com/defensenews/?p=87655": 1794234039.7785332,
-    "title:Drones incoming! New innovations on offer in UAS tech | Defense News Weekly Full Episode 11.10.26": 1794234039.7785332,
-    "https://www.defensenews.com/video/2026/11/09/drones-that-see-sense-and-hunt-business-of-defense-part-2": 1794234049.244287,
-    "https://one.sightlinemg.com/defensenews/?p=87657": 1794234049.244287,
-    "title:Drones that see, sense and hunt | Business of Defense – Part 2": 1794234049.244287,
-    "https://www.atlanticcouncil.org/blogs/energysource/why-belgrades-new-government-should-not-let-the-vertical-gas-corridor-slip": 1794234064.368534,
-    "https://www.atlanticcouncil.org/?p=958712": 1794234064.368534,
-    "title:Why Belgrade’s new government should not let the Vertical Gas Corridor slip": 1794234064.368534,
-    "https://www.cna.com.tw/news/acn/202611090261.aspx": 1794234077.3309352,
-    "CNA/2026-11-09/202611090261": 1794234077.3309352,
-    "title:對美出口管制、不可靠實體清單 中國繼續暫停2個月": 1794234077.3309352,
     "https://www.navalnews.com/event-news/euronaval-2026/2026/11/navantia-unveils-its-vision-for-next-generation-naval-capabilities-at-euronaval-2026": 1794235241.9630845,
     "https://www.navalnews.com/?p=93263": 1794235241.9630845,
     "title:Navantia unveils its vision for next-generation naval capabilities at Euronaval 2026": 1794235241.9630845,
@@ -1656,33 +1641,21 @@
     "title:Water infrastructure at the Mediterranean’s inflection point: Financing resilience for an industrializing, digitalizing region": 1794492047.9167109,
     "https://breakingdefense.com/2026/11/rethinking-the-pipeline-for-critical-defense-electronics": 1794492055.5052793,
     "https://breakingdefense.com/?p=100883": 1794492055.5052793,
-    "title:Rethinking the pipeline for critical defense electronics": 1794492055.5052793
+    "title:Rethinking the pipeline for critical defense electronics": 1794492055.5052793,
+    "https://www.cna.com.tw/news/acn/202611120359.aspx": 1794493237.2298357,
+    "CNA/2026-11-12/202611120359": 1794493237.2298357,
+    "title:港媒：黃樂香港公司從印尼進口輝達晶片": 1794493237.2298357,
+    "https://breakingdefense.com/2026/11/nato-nations-have-a-missile-crisis-how-did-it-happen-and-can-it-be-fixed": 1794493273.38497,
+    "https://breakingdefense.com/?p=100812": 1794493273.38497,
+    "title:NATO nations have a missile crisis. How did it happen, and can it be fixed?": 1794493273.38497,
+    "https://www.foreignaffairs.com/united-states/matthew-duss-democrats-squander-chance-foreign-policy-congress-midterms": 1794493292.919833,
+    "1135745": 1794493292.919833,
+    "title:Democrats Shouldn’t Squander Their Chance to Launch a Foreign Policy Revolution": 1794493292.919833,
+    "https://www.youtube.com/shorts/u8CGmWiXriU": 1794493293.7135537,
+    "yt:video:u8CGmWiXriU": 1794493293.7135537,
+    "title:China’s Ambition for a Beijing-Centered Asia | Taiwan Talks #shorts": 1794493293.7135537
   },
   "events": [
-    {
-      "key": "中國海警釣魚台巡航",
-      "timestamp": 1794232860.0223055
-    },
-    {
-      "key": "中國特使訪問伊朗",
-      "timestamp": 1794232869.9560194
-    },
-    {
-      "key": "無人機防務技術創新",
-      "timestamp": 1794234041.2438984
-    },
-    {
-      "key": "小型無人機反無人機戰術",
-      "timestamp": 1794234051.2880237
-    },
-    {
-      "key": "塞爾維亞垂直天然氣走廊",
-      "timestamp": 1794234065.955448
-    },
-    {
-      "key": "中美經貿暫停管制",
-      "timestamp": 1794234079.0791056
-    },
     {
       "key": "納凡蒂亞海軍次世代戰力",
       "timestamp": 1794235243.7243683
@@ -2098,6 +2071,14 @@
     {
       "key": "歐洲海軍造艦與新型水面艦艇",
       "timestamp": 1794483637.1959538
+    },
+    {
+      "key": "輝達晶片出口違規",
+      "timestamp": 1794493262.7804341
+    },
+    {
+      "key": "北約防空飛彈供應危機",
+      "timestamp": 1794493281.5543797
     }
   ]
 }
