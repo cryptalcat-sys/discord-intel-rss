@@ -1,11 +1,5 @@
 {
   "ids": {
-    "https://news.usni.org/2026/11/09/usni-news-fleet-and-marine-tracker-nov-9-2026": 1794252032.9530559,
-    "https://news.usni.org/?p=126469": 1794252032.9530559,
-    "title:USNI News Fleet and Marine Tracker: Nov. 9, 2026": 1794252032.9530559,
-    "https://www.twz.com/news-features/netting-to-shield-f-35s-at-tyndall-afb-from-drone-attacks-eyed-by-usaf": 1794252059.7803538,
-    "https://www.twz.com/?p=6605830": 1794252059.7803538,
-    "title:Netting To Shield F-35s At Tyndall AFB From Drone Attacks Eyed By USAF": 1794252059.7803538,
     "https://breakingdefense.com/2026/11/pentagon-cant-track-thousands-of-f-35-parts-gao": 1794254449.5001311,
     "https://breakingdefense.com/?p=100566": 1794254449.5001311,
     "title:Pentagon can’t track thousands of F-35 parts: GAO": 1794254449.5001311,
@@ -1730,13 +1724,18 @@
     "title:Russian Mi-28 Attack Helicopters Are Now Firing Cruise Missiles": 1794510094.2320771,
     "https://warontherocks.com/analyzing-the-ethiopian-somaliland-deal-two-years-on": 1794510095.4257164,
     "https://warontherocks.com/?p=48565": 1794510095.4257164,
-    "title:Analyzing the Ethiopian-Somaliland Deal, Two Years On": 1794510095.4257164
+    "title:Analyzing the Ethiopian-Somaliland Deal, Two Years On": 1794510095.4257164,
+    "https://www.twz.com/air/l-39ng-skyfox-jets-could-give-ukraine-a-critical-new-russian-drone-hunting-capability": 1794511235.4768097,
+    "https://www.twz.com/?p=6606979": 1794511235.4768097,
+    "title:L-39NG Skyfox Jets Could Give Ukraine A Critical New Russian Drone Hunting Capability": 1794511235.4768097,
+    "https://news.usni.org/2026/11/06/usni-news-western-pacific-pulse-nov-6-2026": 1794511264.0324388,
+    "https://news.usni.org/?p=126416": 1794511264.0324388,
+    "title:USNI News Western Pacific Pulse: Nov. 6, 2026": 1794511264.0324388,
+    "https://www.cna.com.tw/news/ait/202611070002.aspx": 1794511264.1361816,
+    "CNA/2026-11-07/202611070002": 1794511264.1361816,
+    "title:傳台積電進軍3D DRAM 應輝達要求規劃製造、評估建廠": 1794511264.1361816
   },
   "events": [
-    {
-      "key": "美陸戰隊日本部署",
-      "timestamp": 1794252043.5554976
-    },
     {
       "key": "廷代爾F-35防無人機網",
       "timestamp": 1794252098.6297085
@@ -2140,6 +2139,10 @@
     {
       "key": "美驅逐艦換帥",
       "timestamp": 1794510084.6017332
+    },
+    {
+      "key": "烏克蘭L-39反無人機",
+      "timestamp": 1794511252.667195
     }
   ]
 }
