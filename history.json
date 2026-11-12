@@ -1,7 +1,5 @@
 {
   "ids": {
-    "https://www.twreporter.org/a/interview-empire-of-ai-karen-hao": 1794218451.5093408,
-    "title:從美中科技競逐到台灣晶片籌碼，郝珂靈談「AI帝國」的擴張與抵抗": 1794218451.5093408,
     "https://www.navalnews.com/event-news/euronaval-2026/2026/11/fincantieri-unveils-new-multi-mission-modular-vessel-at-euronaval-2026": 1794219637.3082604,
     "https://www.navalnews.com/?p=93123": 1794219637.3082604,
     "title:Fincantieri unveils new Multi-Mission Modular Vessel at Euronaval 2026": 1794219637.3082604,
@@ -1651,7 +1649,24 @@
     "title:The Luxury of Children": 1794474059.9835687,
     "https://www.navalnews.com/event-news/euronaval-2026/2026/11/euronaval-2026-seaowl-and-knds-unveil-tracus-kamikaze-usv": 1794476435.0674691,
     "https://www.navalnews.com/?p=93432": 1794476435.0674691,
-    "title:Euronaval 2026: SeaOwl and KNDS Unveil Tracus Kamikaze USV": 1794476435.0674691
+    "title:Euronaval 2026: SeaOwl and KNDS Unveil Tracus Kamikaze USV": 1794476435.0674691,
+    "https://www.twreporter.org/a/ukraine-first-defense-blueprint-for-taiwan": 1794477649.6336594,
+    "title:從黑海到台海：烏克蘭智庫首度為台灣提出防衛藍圖，實戰經驗能複製嗎？": 1794477649.6336594,
+    "https://thediplomat.com/2026/11/leaner-meaner-more-networked-the-royal-thai-air-forces-modernization-drive": 1794477649.9413278,
+    "https://thediplomat.com/2026/11/leaner-meaner-more-networked-the-royal-thai-air-forces-modernization-drive/": 1794477649.9413278,
+    "title:Leaner, Meaner, More Networked: The Royal Thai Air Force’s Modernization Drive": 1794477649.9413278,
+    "https://www.cna.com.tw/news/acn/202611120283.aspx": 1794477653.3448143,
+    "CNA/2026-11-12/202611120283": 1794477653.3448143,
+    "title:中共紀念孫中山誕辰 梁文傑：欲藉此確立統治合法性": 1794477653.3448143,
+    "https://www.cna.com.tw/news/acn/202611120280.aspx": 1794477658.2102406,
+    "CNA/2026-11-12/202611120280": 1794477658.2102406,
+    "title:紀念孫中山 陸委會籲中共正視中華民國屹立不搖事實": 1794477658.2102406,
+    "https://www.cna.com.tw/news/acn/202611120279.aspx": 1794477670.3680634,
+    "CNA/2026-11-12/202611120279": 1794477670.3680634,
+    "title:黃仁勳陷間諜疑雲 北京：美方應停止為科技封鎖找藉口": 1794477670.3680634,
+    "https://warontherocks.com/can-washington-and-china-build-confidence-around-ai-and-stability": 1794477683.0614302,
+    "https://warontherocks.com/?p=48474": 1794477683.0614302,
+    "title:Can Washington and China Build Confidence Around AI and Stability?": 1794477683.0614302
   },
   "events": [
     {
@@ -2093,6 +2108,10 @@
     {
       "key": "歐洲防務展自殺式無人艇",
       "timestamp": 1794476438.198355
+    },
+    {
+      "key": "黃仁勳間諜疑雲",
+      "timestamp": 1794477672.2043366
     }
   ]
 }
