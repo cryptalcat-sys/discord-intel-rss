@@ -1,16 +1,5 @@
 {
   "ids": {
-    "https://news.usni.org/2026/11/06/usni-news-western-pacific-pulse-nov-6-2026": 1794250853.821527,
-    "https://news.usni.org/?p=126416": 1794250853.821527,
-    "title:USNI News Western Pacific Pulse: Nov. 6, 2026": 1794250853.821527,
-    "https://breakingdefense.com/2026/11/europes-airpower-future-is-taking-shape-but-not-as-originally-planned": 1794250857.9048734,
-    "https://breakingdefense.com/?p=100472": 1794250857.9048734,
-    "title:Europe’s airpower future is taking shape, but not as originally planned": 1794250857.9048734,
-    "https://www.piie.com/research/piie-charts/2025/trumps-tariff-revenue-tracker-how-much-us-collecting-which-imports-are": 1794250860.6573799,
-    "title:Trump's tariff revenue tracker: How much is the US collecting? Which imports are hit?": 1794250860.6573799,
-    "https://www.cna.com.tw/news/ait/202611070002.aspx": 1794250862.8655777,
-    "CNA/2026-11-07/202611070002": 1794250862.8655777,
-    "title:傳台積電進軍3D DRAM 應輝達要求規劃製造、評估建廠": 1794250862.8655777,
     "https://news.usni.org/2026/11/09/usni-news-fleet-and-marine-tracker-nov-9-2026": 1794252032.9530559,
     "https://news.usni.org/?p=126469": 1794252032.9530559,
     "title:USNI News Fleet and Marine Tracker: Nov. 9, 2026": 1794252032.9530559,
@@ -1723,7 +1712,25 @@
     "title:Remembering Gary Hufbauer": 1794508869.5044863,
     "https://breakingdefense.com/2026/11/aukus-on-track-even-ahead-of-schedule-for-some-parts-admiral-says": 1794508871.2453773,
     "https://breakingdefense.com/?p=100917": 1794508871.2453773,
-    "title:AUKUS on track, even ‘ahead of schedule’ for some parts, admiral says": 1794508871.2453773
+    "title:AUKUS on track, even ‘ahead of schedule’ for some parts, admiral says": 1794508871.2453773,
+    "https://www.defensenews.com/global/europe/2026/11/10/ukraine-urges-us-to-speed-up-interceptor-deliveries-as-russia-targets-power-grid": 1794510045.9850285,
+    "https://one.sightlinemg.com/defensenews/?p=87784": 1794510045.9850285,
+    "title:Ukraine urges US to speed up interceptor deliveries as Russia targets power grid": 1794510045.9850285,
+    "https://news.usni.org/2026/11/12/navy-quietly-removes-uss-michael-murphy-commander": 1794510055.0880327,
+    "https://news.usni.org/?p=126543": 1794510055.0880327,
+    "title:Navy Quietly Removes USS Michael Murphy Commander": 1794510055.0880327,
+    "https://news.usni.org/2026/11/09/royal-navy-commissions-first-unmanned-surface-vehicle-squadron": 1794510092.602664,
+    "https://news.usni.org/?p=126464": 1794510092.602664,
+    "title:Royal Navy Commissions First Unmanned Surface Vehicle Squadron": 1794510092.602664,
+    "https://www.twz.com/sea/fishing-trawler-adapted-into-arctic-hunter-drone-ship-aims-to-scour-for-russian-submarines": 1794510094.2317576,
+    "https://www.twz.com/?p=6605834": 1794510094.2317576,
+    "title:Fishing Trawler Adapted Into Arctic Hunter Drone Ship Aims To Scour For Russian Submarines": 1794510094.2317576,
+    "https://www.twz.com/air/russian-mi-28-attack-helicopter-fires-cruise-missile": 1794510094.2320771,
+    "https://www.twz.com/?p=6605478": 1794510094.2320771,
+    "title:Russian Mi-28 Attack Helicopters Are Now Firing Cruise Missiles": 1794510094.2320771,
+    "https://warontherocks.com/analyzing-the-ethiopian-somaliland-deal-two-years-on": 1794510095.4257164,
+    "https://warontherocks.com/?p=48565": 1794510095.4257164,
+    "title:Analyzing the Ethiopian-Somaliland Deal, Two Years On": 1794510095.4257164
   },
   "events": [
     {
@@ -2129,6 +2136,10 @@
     {
       "key": "AUKUS潛艦部署",
       "timestamp": 1794508891.3437488
+    },
+    {
+      "key": "美驅逐艦換帥",
+      "timestamp": 1794510084.6017332
     }
   ]
 }
