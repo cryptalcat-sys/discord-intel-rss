@@ -1,8 +1,5 @@
 {
   "ids": {
-    "https://www.youtube.com/shorts/Ld29wW3apn4": 1794300036.9576023,
-    "yt:video:Ld29wW3apn4": 1794300036.9576023,
-    "title:Expert: US Marines Could Help Manila Fight Back Against China | Taiwan Talks #shorts": 1794300036.9576023,
     "https://www.cna.com.tw/news/acn/202611100203.aspx": 1794300051.3076231,
     "CNA/2026-11-10/202611100203": 1794300051.3076231,
     "title:川習會是否談黃仁勳與女間諜案？北京：中美元首會晤安排保持溝通": 1794300051.3076231,
@@ -1818,13 +1815,12 @@
     "title:台灣也遭駭客鎖定 日遭近300萬次攻擊｜ 公共電視 - 尖鋒對話": 1794556848.1580603,
     "https://www.youtube.com/shorts/QaUqBeHZ2Yk": 1794556850.6393132,
     "yt:video:QaUqBeHZ2Yk": 1794556850.6393132,
-    "title:“End State” in War": 1794556850.6393132
+    "title:“End State” in War": 1794556850.6393132,
+    "https://www.youtube.com/shorts/-IuE_VuYx3w": 1794559236.6971312,
+    "yt:video:-IuE_VuYx3w": 1794559236.6971312,
+    "title:善用AI工具 雙向防守掃描資安潛在漏洞｜ 公共電視 - 尖鋒對話": 1794559236.6971312
   },
   "events": [
-    {
-      "key": "美菲南海軍事合作",
-      "timestamp": 1794300038.8390276
-    },
     {
       "key": "中美高層元首外交互動",
       "timestamp": 1794300053.1253076
