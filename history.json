@@ -1,8 +1,5 @@
 {
   "ids": {
-    "https://www.cna.com.tw/news/ait/202611100031.aspx": 1794278435.848857,
-    "CNA/2026-11-10/202611100031": 1794278435.848857,
-    "title:黃仁勳婚外情掀國安疑慮 美3項對中晶片法案有望過關": 1794278435.848857,
     "https://www.lowyinstitute.org/the-interpreter/in-manila-the-quad-must-work-for-asean-not-around-it": 1794281740.6069872,
     "title:In Manila, the Quad must work for ASEAN, not around it": 1794281740.6069872,
     "https://www.cna.com.tw/news/acn/202611100073.aspx": 1794285645.0903974,
@@ -1803,7 +1800,10 @@
     "https://www.atlanticcouncil.org/?p=958373": 1794532834.5466049,
     "title:Why this US midterm was unusually important for the Middle East": 1794532834.5466049,
     "https://www.lowyinstitute.org/the-interpreter/billions-came-fast-for-the-fuel-crisis-the-pacific-still-waits-for-climate-finance": 1794532840.069201,
-    "title:Billions came fast for the fuel crisis – the Pacific still waits for climate finance": 1794532840.069201
+    "title:Billions came fast for the fuel crisis – the Pacific still waits for climate finance": 1794532840.069201,
+    "https://www.cna.com.tw/news/acn/202611130049.aspx": 1794538856.30129,
+    "CNA/2026-11-13/202611130049": 1794538856.30129,
+    "title:中國外交部：習近平將主持APEC峰會 與各國領導人雙邊會晤": 1794538856.30129
   },
   "events": [
     {
@@ -2249,6 +2249,10 @@
     {
       "key": "美空軍特技教練機列裝",
       "timestamp": 1794530453.5106373
+    },
+    {
+      "key": "習近平主持APEC峰會",
+      "timestamp": 1794538865.7536724
     }
   ]
 }
