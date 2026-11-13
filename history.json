@@ -1,12 +1,5 @@
 {
   "ids": {
-    "https://www.twreporter.org/a/podcast-2026-11-06": 1794327654.1314678,
-    "title:「兒子真的以妳為榮」金鐘最動人致詞幕後：賣金飾上早療、自學引導陪伴，張大一母親笑：金子在他身上發光": 1794327654.1314678,
-    "https://www.twreporter.org/a/bolt-driver-gets-13-years-in-fatal-abandonment-case": 1794327654.1315417,
-    "title:Bolt司機台64線丟包乘客案，國民法官一審「遺棄致死罪」判刑13年": 1794327654.1315417,
-    "https://www.cna.com.tw/news/ait/202611050353.aspx": 1794327656.4768581,
-    "CNA/2026-11-05/202611050353": 1794327656.4768581,
-    "title:路透：微軟不擴大與Nscale德州資料中心算力租用合約": 1794327656.4768581,
     "https://news.usni.org/2026/11/10/u-k-to-develop-north-atlantic-network-of-drones-ai-systems-to-find-russian-subs": 1794332440.8556983,
     "https://news.usni.org/?p=126513": 1794332440.8556983,
     "title:U.K. to Develop North Atlantic Network of Drones, AI Systems to Find Russian Subs": 1794332440.8556983,
@@ -1851,7 +1844,10 @@
     "https://www.twreporter.org/a/2026-taipei-golden-horse-film-festival-welcome-to-dollys-house": 1794585650.941319,
     "title:真人實拍到轉描，《歡迎來到朵莉之家》如何在台灣做出一部動畫長片？": 1794585650.941319,
     "https://www.lowyinstitute.org/the-interpreter/what-are-australia-s-offshore-university-campuses-for": 1794585651.869144,
-    "title:What are Australia’s offshore university campuses for?": 1794585651.869144
+    "title:What are Australia’s offshore university campuses for?": 1794585651.869144,
+    "https://breakingdefense.com/2026/11/hermeus-recruits-northrop-grumman-to-quarterhorse-drone-program": 1794586842.7823575,
+    "https://breakingdefense.com/?p=100939": 1794586842.7823575,
+    "title:Hermeus recruits Northrop Grumman to Quarterhorse drone program": 1794586842.7823575
   },
   "events": [
     {
@@ -2309,6 +2305,10 @@
     {
       "key": "美國北非安全戰略",
       "timestamp": 1794583254.215727
+    },
+    {
+      "key": "極音速無人機系統研發",
+      "timestamp": 1794586844.4664223
     }
   ]
 }
