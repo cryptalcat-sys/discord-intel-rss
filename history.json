@@ -1,11 +1,5 @@
 {
   "ids": {
-    "https://www.defensenews.com/global/europe/2026/11/10/britain-says-its-bases-are-safe-after-us-refueling-planes-evacuated": 1794320438.0766861,
-    "https://one.sightlinemg.com/defensenews/?p=87759": 1794320438.0766861,
-    "title:Britain says its bases are safe after US refueling planes evacuated": 1794320438.0766861,
-    "https://www.navalnews.com/naval-news/2026/11/90-million-investment-for-new-drones-and-sensors-to-protect-undersea-cables-and-hunt-russian-submarines": 1794320456.8233984,
-    "https://www.navalnews.com/?p=93375": 1794320456.8233984,
-    "title:UK Launches £90M ‘Atlantic Net’ Project to Protect Undersea Cables and Hunt Submarines": 1794320456.8233984,
     "https://www.cna.com.tw/news/ait/202611100352.aspx": 1794321638.7039623,
     "CNA/2026-11-10/202611100352": 1794321638.7039623,
     "title:Diraq開發矽量子晶片 可望解決AI資料中心用電問題": 1794321638.7039623,
@@ -1838,17 +1832,21 @@
     "title:'Loyalty Over Competence' in Xi’s China | Taiwan Talks #shorts": 1794566433.2654488,
     "https://www.atlanticcouncil.org/insight-impact/in-the-news/tannebaum-quoted-in-the-new-york-times-on-us-unreliability-influencing-de-dollarization-efforts-4-9-2": 1794578470.114474,
     "https://www.atlanticcouncil.org/?p=960262": 1794578470.114474,
-    "title:Tuteja interviewed on Bloomberg Tech about the implications of the midterm elections for data center development and the AI regulation": 1794578470.114474
+    "title:Tuteja interviewed on Bloomberg Tech about the implications of the midterm elections for data center development and the AI regulation": 1794578470.114474,
+    "https://www.navalnews.com/naval-news/2026/11/subpac-commander-warns-of-rapid-expansion-in-chinese-and-russian-submarine-fleets": 1794579640.6028469,
+    "https://www.navalnews.com/?p=93519": 1794579640.6028469,
+    "title:SUBPAC Commander Warns of Rapid Expansion in Chinese and Russian Submarine Fleets": 1794579640.6028469,
+    "https://breakingdefense.com/2026/11/uk-to-buy-three-new-mine-hunting-drone-motherships-under-norway-agreement": 1794579661.9150434,
+    "https://breakingdefense.com/?p=101015": 1794579661.9150434,
+    "title:UK to buy three new mine-hunting drone motherships under Norway agreement": 1794579661.9150434,
+    "https://www.atlanticcouncil.org/insight-impact/in-the-news/tannebaum-quoted-in-the-new-york-times-on-us-unreliability-influencing-de-dollarization-efforts-4-9-5": 1794579672.5482125,
+    "https://www.atlanticcouncil.org/?p=960278": 1794579672.5482125,
+    "title:Lichfield interviewed on Bloomberg TV to discuss Nvidia’s leadership crisis and the US – China AI competition": 1794579672.5482125,
+    "https://www.atlanticcouncil.org/insight-impact/in-the-news/tannebaum-quoted-in-the-new-york-times-on-us-unreliability-influencing-de-dollarization-efforts-4-9-4": 1794579690.3949738,
+    "https://www.atlanticcouncil.org/?p=960273": 1794579690.3949738,
+    "title:Lichfield and de Kruijf cited in a CNN on the dynamic between Russia and the Trump administration": 1794579690.3949738
   },
   "events": [
-    {
-      "key": "英美基地加油機撤離",
-      "timestamp": 1794320443.9685996
-    },
-    {
-      "key": "英軍大西洋網路護纜反潛",
-      "timestamp": 1794320464.5121026
-    },
     {
       "key": "量子晶片能源解方",
       "timestamp": 1794321640.9412901
@@ -2288,6 +2286,22 @@
     {
       "key": "美國中期選舉AI監管",
       "timestamp": 1794578483.1834884
+    },
+    {
+      "key": "中俄潛艦部隊快速擴張",
+      "timestamp": 1794579652.0881174
+    },
+    {
+      "key": "英挪採購獵雷無人母艦",
+      "timestamp": 1794579664.3855112
+    },
+    {
+      "key": "美中AI人工智慧博弈",
+      "timestamp": 1794579682.394654
+    },
+    {
+      "key": "美俄川普政權互動",
+      "timestamp": 1794579691.7941225
     }
   ]
 }
