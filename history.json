@@ -1,10 +1,5 @@
 {
   "ids": {
-    "https://www.twz.com/sea/aim-174b-long-range-missile-packed-with-glide-munitions-teased-new-details-shared": 1794338451.0951548,
-    "https://www.twz.com/?p=6606273": 1794338451.0951548,
-    "title:AIM-174B Long-Range Missile Packed With Glide Munitions Teased, New Details Shared": 1794338451.0951548,
-    "https://www.piie.com/events/2026/next-steps-usmca-and-us-trade-laws-post-election-review": 1794339639.9360688,
-    "title:Next steps for the USMCA and US trade laws: A post-election review": 1794339639.9360688,
     "https://www.twz.com/air/china-lifts-the-veil-on-the-gj-11-mysterious-dragon-stealth-ucav": 1794339656.546932,
     "https://www.twz.com/?p=6606268": 1794339656.546932,
     "title:China Lifts The Veil On Its GJ-11 Mysterious Dragon Stealth UCAV": 1794339656.546932,
@@ -1886,17 +1881,12 @@
     "title:US Air Force adopts new Force Design focusing on sensors and autonomy": 1794596447.0068822,
     "https://news.usni.org/2026/11/13/usni-news-western-pacific-pulse-nov-13-2026": 1794596463.2672737,
     "https://news.usni.org/?p=126573": 1794596463.2672737,
-    "title:USNI News Western Pacific Pulse: Nov. 13, 2026": 1794596463.2672737
+    "title:USNI News Western Pacific Pulse: Nov. 13, 2026": 1794596463.2672737,
+    "https://www.twz.com/land/berettas-new-counter-drone-system-packs-eight-benelli-m4-shotguns-onto-a-remote-turret": 1794598832.0421307,
+    "https://www.twz.com/?p=6607122": 1794598832.0421307,
+    "title:Beretta’s New Counter-Drone System Packs Eight Benelli M4 Shotguns Onto A Remote Turret": 1794598832.0421307
   },
   "events": [
-    {
-      "key": "AIM-174B匿蹤滑翔彈藥",
-      "timestamp": 1794338458.8047612
-    },
-    {
-      "key": "美墨加協定貿易審查",
-      "timestamp": 1794339642.0908182
-    },
     {
       "key": "攻城利刃隱形無人機",
       "timestamp": 1794339660.632287
@@ -2384,6 +2374,10 @@
     {
       "key": "美航母西太戰備巡弋與兵力調動",
       "timestamp": 1794596464.9335022
+    },
+    {
+      "key": "貝里達模組化反無人機系統",
+      "timestamp": 1794598833.7635627
     }
   ]
 }
