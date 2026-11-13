@@ -1,8 +1,5 @@
 {
   "ids": {
-    "https://www.navalnews.com/event-news/euronaval-2026/2026/11/alseamars-sonusia-builds-layers-in-cui-and-wider-underwater-surveillance": 1794303638.3282073,
-    "https://www.navalnews.com/?p=93153": 1794303638.3282073,
-    "title:Alseamar’s Sonusia Builds Layers in CUI and Wider Underwater Surveillance": 1794303638.3282073,
     "https://www.twreporter.org/a/bookreview-the-peoples-republic-of-the-disappeared": 1794304847.542512,
     "title:經歷中共「指居」的恐懼控制，李翹楚：如果不能勇敢的講，就不能自由的行動": 1794304847.542512,
     "https://www.cna.com.tw/news/acn/202611100292.aspx": 1794310842.806088,
@@ -1830,13 +1827,11 @@
     "title:A New Kind of Foreign Agent": 1794560523.3619595,
     "https://www.foreignaffairs.com/north-korea/trump-facing-very-different-north-korea": 1794560523.3620117,
     "1135754": 1794560523.3620117,
-    "title:Trump Is Facing a Very Different North Korea": 1794560523.3620117
+    "title:Trump Is Facing a Very Different North Korea": 1794560523.3620117,
+    "https://www.twreporter.org/a/hello-world-2026-11-12": 1794562841.6139042,
+    "title:當晶片的巨人在間諜醜聞中難堪倒下，黃仁勳下台風暴洗牌美中台晶片賽局？": 1794562841.6139042
   },
   "events": [
-    {
-      "key": "法企推出水下監視系統",
-      "timestamp": 1794303641.7600346
-    },
     {
       "key": "台商在陸政經風險",
       "timestamp": 1794310844.924526
@@ -2268,6 +2263,10 @@
     {
       "key": "薩博海鷲雷達升級",
       "timestamp": 1794560510.9027245
+    },
+    {
+      "key": "黃仁勳下台風波",
+      "timestamp": 1794562851.6952507
     }
   ]
 }
