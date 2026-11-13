@@ -1,14 +1,5 @@
 {
   "ids": {
-    "https://www.atlanticcouncil.org/blogs/ukrainealert/last-weeks-brief-ukraine-ceasefire-did-not-stop-russian-attacks-on-civilians": 1794346878.068743,
-    "https://www.atlanticcouncil.org/?p=958732": 1794346878.068743,
-    "title:Last week’s brief Ukraine ceasefire did not stop Russian attacks on civilians": 1794346878.068743,
-    "https://news.usni.org/2026/11/10/saildrone-blue-water-autonomy-ruling-adds-restrictions-to-ota-funding-model": 1794349239.2216034,
-    "https://news.usni.org/?p=126532": 1794349239.2216034,
-    "title:Saildrone, Blue Water Autonomy Ruling Adds Restrictions to OTA Funding Model": 1794349239.2216034,
-    "https://news.usni.org/2026/11/05/north-korean-leader-inspects-new-warship-under-construction-at-nampho-shipyard": 1794350432.5330133,
-    "https://news.usni.org/?p=126401": 1794350432.5330133,
-    "title:North Korean Leader Inspects New Warship Under Construction at Nampho Shipyard": 1794350432.5330133,
     "https://thediplomat.com/2026/11/what-the-faaz-missile-means-for-pakistans-air-force": 1794351655.91957,
     "https://thediplomat.com/2026/11/what-the-faaz-missile-means-for-pakistans-air-force/": 1794351655.91957,
     "title:What the Fa’az Missile Means for Pakistan’s Air Force": 1794351655.91957,
@@ -1898,13 +1889,12 @@
     "title:Chrystia Freeland on power, politics, and the future of democracy": 1794606045.0691185,
     "https://www.twz.com/news-features/ukraine-regretting-white-house-brokered-temporary-ceasefire-in-strategic-riverside-town-of-oleshky": 1794606065.101536,
     "https://www.twz.com/?p=6606827": 1794606065.101536,
-    "title:Ukraine Regretting White House-Brokered Temporary Ceasefire In Strategic Riverside Town Of Oleshky": 1794606065.101536
+    "title:Ukraine Regretting White House-Brokered Temporary Ceasefire In Strategic Riverside Town Of Oleshky": 1794606065.101536,
+    "https://breakingdefense.com/2026/11/securing-the-asia-pacific-digital-battlespace-technet-indo-pacific-2026": 1794609633.78443,
+    "https://breakingdefense.com/?p=99993": 1794609633.78443,
+    "title:Securing the Asia-Pacific digital battlespace: TechNet Indo-Pacific 2026": 1794609633.78443
   },
   "events": [
-    {
-      "key": "美軍無人載具採購法規變革",
-      "timestamp": 1794349244.3669753
-    },
     {
       "key": "巴基斯坦法茲飛彈研發",
       "timestamp": 1794351658.4548156
@@ -2400,6 +2390,10 @@
     {
       "key": "加拿大民主政治與全球化",
       "timestamp": 1794606046.601849
+    },
+    {
+      "key": "印太數位作戰網安演訓",
+      "timestamp": 1794609635.3970027
     }
   ]
 }
