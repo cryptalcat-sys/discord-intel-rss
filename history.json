@@ -1,8 +1,5 @@
 {
   "ids": {
-    "https://breakingdefense.com/2026/11/allen-control-systems-launches-new-division-to-develop-counter-drone-lasers": 1794344462.3026335,
-    "https://breakingdefense.com/?p=100693": 1794344462.3026335,
-    "title:Allen Control Systems launches new division to develop counter-drone lasers": 1794344462.3026335,
     "https://www.piie.com/events/2026/chrystia-freeland-power-politics-and-future-democracy": 1794345634.0209486,
     "title:Chrystia Freeland on power, politics, and the future of democracy": 1794345634.0209486,
     "https://www.atlanticcouncil.org/blogs/ukrainealert/last-weeks-brief-ukraine-ceasefire-did-not-stop-russian-attacks-on-civilians": 1794346878.068743,
@@ -1889,13 +1886,15 @@
     "title:China Lifts The Veil On Its GJ-11 Mysterious Dragon Stealth UCAV": 1794601232.3571892,
     "https://breakingdefense.com/2026/11/submarine-maintenance-delays-saw-significant-improvements-in-fy26-sub-czar-says": 1794602445.4624457,
     "https://breakingdefense.com/?p=101049": 1794602445.4624457,
-    "title:Submarine maintenance delays saw ‘significant’ improvements in FY26, sub czar says": 1794602445.4624457
+    "title:Submarine maintenance delays saw ‘significant’ improvements in FY26, sub czar says": 1794602445.4624457,
+    "https://news.usni.org/2026/11/13/peacoat-evicted-from-navy-sea-bags-after-a-century-at-sea": 1794603651.6957786,
+    "https://news.usni.org/?p=126605": 1794603651.6957786,
+    "title:Peacoat Evicted from Navy Seabags After a Century at Sea": 1794603651.6957786,
+    "https://www.twz.com/air/suspected-drones-over-raf-lakenheath-just-triggered-security-response-u-s-air-force": 1794603668.5333877,
+    "https://www.twz.com/?p=6607538": 1794603668.5333877,
+    "title:Suspected Drones Over RAF Lakenheath Just Triggered Security Response: U.S. Air Force": 1794603668.5333877
   },
   "events": [
-    {
-      "key": "美軍防務反無人機雷射研發",
-      "timestamp": 1794344464.8092747
-    },
     {
       "key": "加拿大民主政治與全球化",
       "timestamp": 1794345635.8273187
@@ -2383,6 +2382,14 @@
     {
       "key": "美軍核潛艦維修延宕改善",
       "timestamp": 1794602447.3147986
+    },
+    {
+      "key": "美軍海軍調整制服政策",
+      "timestamp": 1794603653.570057
+    },
+    {
+      "key": "拉肯希思基地無人機警報",
+      "timestamp": 1794603709.160333
     }
   ]
 }
