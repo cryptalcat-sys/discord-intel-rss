@@ -1874,7 +1874,13 @@
     "title:Autonomous Cessna Caravan Air Ambulance To Be Tested By U.S. Military": 1794592859.6899135,
     "https://www.defensenews.com/video/2026/11/13/inside-msis-next-generation-of-counter-drone-defense": 1794592862.187836,
     "https://one.sightlinemg.com/defensenews/uncategorized/2026/10/13/inside-msis-next-generation-of-counter-drone-defense/": 1794592862.187836,
-    "title:Inside MSI’s Next Generation of Counter-Drone Defense": 1794592862.187836
+    "title:Inside MSI’s Next Generation of Counter-Drone Defense": 1794592862.187836,
+    "https://www.defensenews.com/video/2026/11/13/drones-incoming-new-innovations-on-offer-in-uas-tech-defense-news-weekly-full-episode-11-10-26": 1794594034.7786238,
+    "https://one.sightlinemg.com/defensenews/?p=87655": 1794594034.7786238,
+    "title:Drones incoming! New innovations on offer in UAS tech | Defense News Weekly Full Episode 11.10.26": 1794594034.7786238,
+    "https://www.twz.com/sea/destroyer-that-has-been-deployed-longer-than-any-since-wwii-returns-home": 1794594049.1979873,
+    "https://www.twz.com/?p=6607338": 1794594049.1979873,
+    "title:Destroyer That Has Been Deployed Longer Than Any Since WWII Returns Home": 1794594049.1979873
   },
   "events": [
     {
@@ -2356,6 +2362,14 @@
     {
       "key": "微星反無人機防務",
       "timestamp": 1794592863.7346923
+    },
+    {
+      "key": "無人機防務技術創新",
+      "timestamp": 1794594037.203358
+    },
+    {
+      "key": "美艦中東超長部署返航",
+      "timestamp": 1794594051.0926876
     }
   ]
 }
