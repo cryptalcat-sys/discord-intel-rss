@@ -1,11 +1,5 @@
 {
   "ids": {
-    "https://www.cna.com.tw/news/acn/202611100203.aspx": 1794300051.3076231,
-    "CNA/2026-11-10/202611100203": 1794300051.3076231,
-    "title:川習會是否談黃仁勳與女間諜案？北京：中美元首會晤安排保持溝通": 1794300051.3076231,
-    "https://www.cna.com.tw/news/acn/202611100182.aspx": 1794301253.1208222,
-    "CNA/2026-11-10/202611100182": 1794301253.1208222,
-    "title:中國學者談習近平黨建思想 對應時代考驗、反腐不會停": 1794301253.1208222,
     "https://www.navalnews.com/event-news/euronaval-2026/2026/11/alseamars-sonusia-builds-layers-in-cui-and-wider-underwater-surveillance": 1794303638.3282073,
     "https://www.navalnews.com/?p=93153": 1794303638.3282073,
     "title:Alseamar’s Sonusia Builds Layers in CUI and Wider Underwater Surveillance": 1794303638.3282073,
@@ -1818,17 +1812,27 @@
     "title:“End State” in War": 1794556850.6393132,
     "https://www.youtube.com/shorts/-IuE_VuYx3w": 1794559236.6971312,
     "yt:video:-IuE_VuYx3w": 1794559236.6971312,
-    "title:善用AI工具 雙向防守掃描資安潛在漏洞｜ 公共電視 - 尖鋒對話": 1794559236.6971312
+    "title:善用AI工具 雙向防守掃描資安潛在漏洞｜ 公共電視 - 尖鋒對話": 1794559236.6971312,
+    "https://www.cna.com.tw/news/acn/202611130194.aspx": 1794560447.8459775,
+    "CNA/2026-11-13/202611130194": 1794560447.8459775,
+    "title:APEC峰會將登場 中國外交部：期待達成領導人深圳宣言": 1794560447.8459775,
+    "https://www.cna.com.tw/news/acn/202611130170.aspx": 1794560486.6275957,
+    "CNA/2026-11-13/202611130170": 1794560486.6275957,
+    "title:中共紀念孫中山誕辰 學者：意在擴大對台統戰宣傳": 1794560486.6275957,
+    "https://www.navalnews.com/event-news/euronaval-2026/2026/11/saab-sea-giraffe-amb-d-radar": 1794560502.4817364,
+    "https://www.navalnews.com/?p=92822": 1794560502.4817364,
+    "title:Saab’s New Sea Giraffe AMB D Radar Boosts Detection Range by 50%": 1794560502.4817364,
+    "https://www.youtube.com/shorts/Ld29wW3apn4": 1794560519.9474392,
+    "yt:video:Ld29wW3apn4": 1794560519.9474392,
+    "title:Expert: US Marines Could Help Manila Fight Back Against China | Taiwan Talks #shorts": 1794560519.9474392,
+    "https://www.foreignaffairs.com/china/new-kind-foreign-agent": 1794560523.3619595,
+    "1135759": 1794560523.3619595,
+    "title:A New Kind of Foreign Agent": 1794560523.3619595,
+    "https://www.foreignaffairs.com/north-korea/trump-facing-very-different-north-korea": 1794560523.3620117,
+    "1135754": 1794560523.3620117,
+    "title:Trump Is Facing a Very Different North Korea": 1794560523.3620117
   },
   "events": [
-    {
-      "key": "中美高層元首外交互動",
-      "timestamp": 1794300053.1253076
-    },
-    {
-      "key": "中共黨建思想反腐",
-      "timestamp": 1794301255.7377894
-    },
     {
       "key": "法企推出水下監視系統",
       "timestamp": 1794303641.7600346
@@ -2256,6 +2260,14 @@
     {
       "key": "台灣海洋無人系統展覽",
       "timestamp": 1794552043.2612865
+    },
+    {
+      "key": "中共紀念孫中山統戰",
+      "timestamp": 1794560489.5393205
+    },
+    {
+      "key": "薩博海鷲雷達升級",
+      "timestamp": 1794560510.9027245
     }
   ]
 }
