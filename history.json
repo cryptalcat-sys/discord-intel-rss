@@ -1779,7 +1779,13 @@
     "https://news.usni.org/?p=126566": 1794524445.9048645,
     "title:SSN(X) Attack Boat Will be a Swift, Lethal Mothership for Undersea Drones, Navy Says": 1794524445.9048645,
     "https://www.lowyinstitute.org/the-interpreter/eleven-phones-and-the-spectre-of-treason-jakarta-s-wiretap-scandal": 1794524462.5090582,
-    "title:Eleven phones and the spectre of treason: Jakarta’s wiretap scandal": 1794524462.5090582
+    "title:Eleven phones and the spectre of treason: Jakarta’s wiretap scandal": 1794524462.5090582,
+    "https://jamestown.org/russias-push-for-ai-sovereignty-faces-setbacks": 1794528060.6261888,
+    "https://jamestown.org/?p=886860": 1794528060.6261888,
+    "title:Russia’s Push for AI Sovereignty Faces Setbacks": 1794528060.6261888,
+    "https://jamestown.org/georgia-begins-de-facto-diplomatic-reset-with-russia": 1794528070.1498375,
+    "https://jamestown.org/?p=886857": 1794528070.1498375,
+    "title:Georgia Begins De Facto Diplomatic Reset with Russia": 1794528070.1498375
   },
   "events": [
     {
@@ -2221,6 +2227,14 @@
     {
       "key": "美軍SSN(X)水下母艦",
       "timestamp": 1794524447.6238275
+    },
+    {
+      "key": "俄羅斯AI主權受挫",
+      "timestamp": 1794528062.1494997
+    },
+    {
+      "key": "喬俄事實上恢復外交關係",
+      "timestamp": 1794528071.5322065
     }
   ]
 }
