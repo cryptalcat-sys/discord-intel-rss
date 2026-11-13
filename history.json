@@ -1,11 +1,5 @@
 {
   "ids": {
-    "https://www.twz.com/air/china-lifts-the-veil-on-the-gj-11-mysterious-dragon-stealth-ucav": 1794339656.546932,
-    "https://www.twz.com/?p=6606268": 1794339656.546932,
-    "title:China Lifts The Veil On Its GJ-11 Mysterious Dragon Stealth UCAV": 1794339656.546932,
-    "https://breakingdefense.com/2026/11/beyond-the-cmmc-pause-protecting-the-engineering-data-defense-programs-depend-on": 1794340857.1066098,
-    "https://breakingdefense.com/?p=100651": 1794340857.1066098,
-    "title:Beyond the CMMC pause: Protecting the engineering data defense programs depend on": 1794340857.1066098,
     "https://breakingdefense.com/2026/11/remote-mine-hunters-silently-trawl-the-waters-as-minesweepers-go-by-the-wayside": 1794342047.0945659,
     "https://breakingdefense.com/?p=100697": 1794342047.0945659,
     "title:Remote mine hunters silently trawl the waters as minesweepers go by the wayside": 1794342047.0945659,
@@ -1884,13 +1878,17 @@
     "title:USNI News Western Pacific Pulse: Nov. 13, 2026": 1794596463.2672737,
     "https://www.twz.com/land/berettas-new-counter-drone-system-packs-eight-benelli-m4-shotguns-onto-a-remote-turret": 1794598832.0421307,
     "https://www.twz.com/?p=6607122": 1794598832.0421307,
-    "title:Beretta’s New Counter-Drone System Packs Eight Benelli M4 Shotguns Onto A Remote Turret": 1794598832.0421307
+    "title:Beretta’s New Counter-Drone System Packs Eight Benelli M4 Shotguns Onto A Remote Turret": 1794598832.0421307,
+    "https://www.piie.com/events/2026/next-steps-usmca-and-us-trade-laws-post-election-review": 1794600055.873316,
+    "title:Next steps for the USMCA and US trade laws: A post-election review": 1794600055.873316,
+    "https://www.atlanticcouncil.org/content-series/fastthinking/where-the-russia-ukraine-peace-talks-stand-after-abu-dhabi": 1794600066.643353,
+    "https://www.atlanticcouncil.org/?p=959899": 1794600066.643353,
+    "title:Where the Russia-Ukraine peace talks stand after Abu Dhabi": 1794600066.643353,
+    "https://www.twz.com/sea/aim-174b-long-range-missile-packed-with-glide-munitions-teased-new-details-shared": 1794600068.0309386,
+    "https://www.twz.com/?p=6606273": 1794600068.0309386,
+    "title:AIM-174B Long-Range Missile Packed With Glide Munitions Teased, New Details Shared": 1794600068.0309386
   },
   "events": [
-    {
-      "key": "攻城利刃隱形無人機",
-      "timestamp": 1794339660.632287
-    },
     {
       "key": "無人掃雷艇演習",
       "timestamp": 1794342054.0091367
@@ -2378,6 +2376,10 @@
     {
       "key": "貝里達模組化反無人機系統",
       "timestamp": 1794598833.7635627
+    },
+    {
+      "key": "美墨加協定貿易審查",
+      "timestamp": 1794600057.6717608
     }
   ]
 }
