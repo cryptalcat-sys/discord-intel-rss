@@ -1,8 +1,5 @@
 {
   "ids": {
-    "https://news.usni.org/2026/11/10/gao-report-on-the-defense-departments-f-35-program": 1794322857.00081,
-    "https://news.usni.org/?p=126511": 1794322857.00081,
-    "title:GAO Report on the Defense Department’s F-35 Program": 1794322857.00081,
     "https://www.navalnews.com/naval-news/2026/11/bae-systems-accelerates-delivery-of-advanced-lrasm-missile-sensors": 1794324044.8358402,
     "https://www.navalnews.com/?p=93386": 1794324044.8358402,
     "title:BAE Systems accelerates delivery of advanced LRASM missile sensors": 1794324044.8358402,
@@ -1847,7 +1844,13 @@
     "title:As Gen Z asserts itself in Serbia and Albania, the upside for the West is far greater than the headaches": 1794580849.6223793,
     "https://www.defensenews.com/global/mideast-africa/2026/11/13/turkey-and-egypt-weigh-joint-naval-shipbuilding-projects": 1794580849.8258936,
     "https://one.sightlinemg.com/defensenews/?p=87865": 1794580849.8258936,
-    "title:Turkey and Egypt weigh joint naval shipbuilding projects": 1794580849.8258936
+    "title:Turkey and Egypt weigh joint naval shipbuilding projects": 1794580849.8258936,
+    "https://www.cna.com.tw/news/ait/202611100352.aspx": 1794582063.1889393,
+    "CNA/2026-11-10/202611100352": 1794582063.1889393,
+    "title:Diraq開發矽量子晶片 可望解決AI資料中心用電問題": 1794582063.1889393,
+    "https://thediplomat.com/2026/11/nato-is-not-the-right-forum-to-discuss-china": 1794582072.4794526,
+    "https://thediplomat.com/2026/11/nato-is-not-the-right-forum-to-discuss-china/": 1794582072.4794526,
+    "title:NATO Is Not the Right Forum to Discuss China": 1794582072.4794526
   },
   "events": [
     {
@@ -2305,6 +2308,10 @@
     {
       "key": "土埃海軍聯合造船合作",
       "timestamp": 1794580851.6388113
+    },
+    {
+      "key": "北約中國戰略定位",
+      "timestamp": 1794582108.8566103
     }
   ]
 }
