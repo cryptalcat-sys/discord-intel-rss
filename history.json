@@ -1,23 +1,5 @@
 {
   "ids": {
-    "https://www.cna.com.tw/news/acn/202611100292.aspx": 1794310842.806088,
-    "CNA/2026-11-10/202611100292": 1794310842.806088,
-    "title:「台商張老師」成立30年 邱垂正：台商在陸面臨政經雙重風險": 1794310842.806088,
-    "https://www.cna.com.tw/news/acn/202611100308.aspx": 1794313238.817224,
-    "CNA/2026-11-10/202611100308": 1794313238.817224,
-    "title:深圳APEC將登場 澳門公共航運警用救援以外禁飛12天": 1794313238.817224,
-    "https://www.atlanticcouncil.org/dispatches/as-gen-z-asserts-itself-in-serbia-and-albania-the-upside-for-the-west-is-far-greater-than-the-headaches": 1794314444.876436,
-    "https://www.atlanticcouncil.org/?p=958097": 1794314444.876436,
-    "title:As Gen Z asserts itself in Serbia and Albania, the upside for the West is far greater than the headaches": 1794314444.876436,
-    "https://breakingdefense.com/2026/11/the-interoperability-gap-why-joint-operations-still-depend-on-disconnected-communications-systems": 1794318031.9546223,
-    "https://breakingdefense.com/?p=100531": 1794318031.9546223,
-    "title:The Interoperability Gap: Why Joint Operations Still Depend on Disconnected Communications Systems": 1794318031.9546223,
-    "https://breakingdefense.com/2026/11/hegseth-vows-to-fight-impeachment-spectacle": 1794318031.954735,
-    "https://breakingdefense.com/?p=100616": 1794318031.954735,
-    "title:Hegseth vows to fight impeachment ‘spectacle’": 1794318031.954735,
-    "https://www.navalnews.com/event-news/euronaval-2026/2026/11/st-engineerings-autonomast-secures-dnv-approval-in-principle": 1794319258.5614538,
-    "https://www.navalnews.com/?p=93343": 1794319258.5614538,
-    "title:ST Engineering’s AUTONOMAST Secures DNV Approval in Principle": 1794319258.5614538,
     "https://www.defensenews.com/global/europe/2026/11/10/britain-says-its-bases-are-safe-after-us-refueling-planes-evacuated": 1794320438.0766861,
     "https://one.sightlinemg.com/defensenews/?p=87759": 1794320438.0766861,
     "title:Britain says its bases are safe after US refueling planes evacuated": 1794320438.0766861,
@@ -1853,21 +1835,12 @@
     "title:中國國防部：中美防務保持溝通妥善管控分歧": 1794565259.9326403,
     "https://www.youtube.com/shorts/PbWmNHqNW8E": 1794566433.2654488,
     "yt:video:PbWmNHqNW8E": 1794566433.2654488,
-    "title:'Loyalty Over Competence' in Xi’s China | Taiwan Talks #shorts": 1794566433.2654488
+    "title:'Loyalty Over Competence' in Xi’s China | Taiwan Talks #shorts": 1794566433.2654488,
+    "https://www.atlanticcouncil.org/insight-impact/in-the-news/tannebaum-quoted-in-the-new-york-times-on-us-unreliability-influencing-de-dollarization-efforts-4-9-2": 1794578470.114474,
+    "https://www.atlanticcouncil.org/?p=960262": 1794578470.114474,
+    "title:Tuteja interviewed on Bloomberg Tech about the implications of the midterm elections for data center development and the AI regulation": 1794578470.114474
   },
   "events": [
-    {
-      "key": "台商在陸政經風險",
-      "timestamp": 1794310844.924526
-    },
-    {
-      "key": "美國防長彈劾政治角力",
-      "timestamp": 1794318038.1183677
-    },
-    {
-      "key": "新加坡自主船艇認證",
-      "timestamp": 1794319265.6870394
-    },
     {
       "key": "英美基地加油機撤離",
       "timestamp": 1794320443.9685996
@@ -2311,6 +2284,10 @@
     {
       "key": "中美防務溝通管控分歧",
       "timestamp": 1794565261.4510062
+    },
+    {
+      "key": "美國中期選舉AI監管",
+      "timestamp": 1794578483.1834884
     }
   ]
 }
