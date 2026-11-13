@@ -1860,7 +1860,12 @@
     "title:Pentagon rebrands principle AI shop as ‘Super Intelligence Office’": 1794589270.0942967,
     "https://news.usni.org/2026/11/13/japan-pledges-drones-coastal-defense-radar-in-latest-philippine-defense-package": 1794589293.7502496,
     "https://news.usni.org/?p=126562": 1794589293.7502496,
-    "title:Japan Pledges Drones, Coastal Defense Radar in Latest Philippine Defense Package": 1794589293.7502496
+    "title:Japan Pledges Drones, Coastal Defense Radar in Latest Philippine Defense Package": 1794589293.7502496,
+    "https://www.piie.com/blogs/realtime-economics/2026/how-congress-might-take-back-its-trade-powers-and-limit-trumps": 1794590437.7436602,
+    "title:How Congress might take back its trade powers and limit Trump's tariffs": 1794590437.7436602,
+    "https://www.twz.com/air/b-21-raider-has-released-its-first-weapon": 1794590467.3323917,
+    "https://www.twz.com/?p=6607357": 1794590467.3323917,
+    "title:B-21 Raider Has Released Its First Weapon": 1794590467.3323917
   },
   "events": [
     {
@@ -2334,6 +2339,14 @@
     {
       "key": "日菲防務裝備無人機援助",
       "timestamp": 1794589295.3374758
+    },
+    {
+      "key": "美國國會貿易權力回收",
+      "timestamp": 1794590439.3498073
+    },
+    {
+      "key": "B-21首發實彈測試",
+      "timestamp": 1794590484.3266017
     }
   ]
 }
