@@ -1,8 +1,5 @@
 {
   "ids": {
-    "https://www.navalnews.com/naval-news/2026/11/bae-systems-accelerates-delivery-of-advanced-lrasm-missile-sensors": 1794324044.8358402,
-    "https://www.navalnews.com/?p=93386": 1794324044.8358402,
-    "title:BAE Systems accelerates delivery of advanced LRASM missile sensors": 1794324044.8358402,
     "https://www.navalnews.com/naval-news/2026/11/thales-kongsberg-uk-type-92-usv-asw": 1794325239.1215057,
     "https://www.navalnews.com/?p=93381": 1794325239.1215057,
     "title:Thales and Kongsberg Team Up to Offer ASW Capability for UK Type 92 USV Requirement": 1794325239.1215057,
@@ -1850,13 +1847,15 @@
     "title:Diraq開發矽量子晶片 可望解決AI資料中心用電問題": 1794582063.1889393,
     "https://thediplomat.com/2026/11/nato-is-not-the-right-forum-to-discuss-china": 1794582072.4794526,
     "https://thediplomat.com/2026/11/nato-is-not-the-right-forum-to-discuss-china/": 1794582072.4794526,
-    "title:NATO Is Not the Right Forum to Discuss China": 1794582072.4794526
+    "title:NATO Is Not the Right Forum to Discuss China": 1794582072.4794526,
+    "https://news.usni.org/2026/11/10/gao-report-on-the-defense-departments-f-35-program": 1794583241.057787,
+    "https://news.usni.org/?p=126511": 1794583241.057787,
+    "title:GAO Report on the Defense Department’s F-35 Program": 1794583241.057787,
+    "https://www.atlanticcouncil.org/blogs/menasource/washington-is-reshaping-security-in-north-africa-congress-needs-to-ask-how": 1794583244.5778096,
+    "https://www.atlanticcouncil.org/?p=960063": 1794583244.5778096,
+    "title:Washington is reshaping security in North Africa. Congress needs to ask how.": 1794583244.5778096
   },
   "events": [
-    {
-      "key": "美軍加速交付LRASM導彈尋標器",
-      "timestamp": 1794324053.0230098
-    },
     {
       "key": "英軍Type 92反潛",
       "timestamp": 1794325281.6448371
@@ -2312,6 +2311,10 @@
     {
       "key": "北約中國戰略定位",
       "timestamp": 1794582108.8566103
+    },
+    {
+      "key": "美國北非安全戰略",
+      "timestamp": 1794583254.215727
     }
   ]
 }
