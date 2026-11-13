@@ -1,8 +1,5 @@
 {
   "ids": {
-    "https://www.navalnews.com/event-news/euronaval-2026/2026/11/saab-launches-next-generation-9lv-naval-combat-system": 1794295240.221015,
-    "https://www.navalnews.com/?p=92934": 1794295240.221015,
-    "title:Saab launches next generation 9LV naval combat system": 1794295240.221015,
     "https://www.cna.com.tw/news/acn/202611100178.aspx": 1794296440.1517003,
     "CNA/2026-11-10/202611100178": 1794296440.1517003,
     "title:上海進博會國家展 76%來自「全球南方」": 1794296440.1517003,
@@ -1812,13 +1809,12 @@
     "title:The Case for a Trump-Xi-Putin Summit": 1794548441.9393783,
     "https://www.navalnews.com/naval-news/2026/11/naval-unmanned-systems-showcased-at-taiwans-marine-tech-show": 1794552041.600551,
     "https://www.navalnews.com/?p=93280": 1794552041.600551,
-    "title:Naval Unmanned Systems Showcased at Taiwan’s Marine Tech Show": 1794552041.600551
+    "title:Naval Unmanned Systems Showcased at Taiwan’s Marine Tech Show": 1794552041.600551,
+    "https://www.cna.com.tw/news/acn/202611130160.aspx": 1794554436.6156387,
+    "CNA/2026-11-13/202611130160": 1794554436.6156387,
+    "title:習近平：國有企業要堅定不移肅紀反腐": 1794554436.6156387
   },
   "events": [
-    {
-      "key": "薩博發表新一代9LV戰鬥系統",
-      "timestamp": 1794295242.3598604
-    },
     {
       "key": "上海進博會全球南方",
       "timestamp": 1794296451.4439168
