@@ -1,8 +1,5 @@
 {
   "ids": {
-    "https://www.twz.com/air/mq-58-valkyrie-drones-now-cost-6m-8m-each": 1794271239.9922106,
-    "https://www.twz.com/?p=6606084": 1794271239.9922106,
-    "title:MQ-58 Valkyrie Drones Now Cost $6M-$8M Each": 1794271239.9922106,
     "https://www.atlanticcouncil.org/dispatches/putin-wants-peace-talks-he-doesnt-want-peace": 1794272449.6239765,
     "https://www.atlanticcouncil.org/?p=959149": 1794272449.6239765,
     "title:Putin wants peace talks. He doesn’t want peace.": 1794272449.6239765,
@@ -1800,13 +1797,12 @@
     "title:Moscow’s Foothold in Moldova Votes Under Chișinău’s Rules": 1794529239.9997292,
     "https://jamestown.org/central-asias-financial-reliance-on-the-prc-grows": 1794529239.9997616,
     "https://jamestown.org/?p=886801": 1794529239.9997616,
-    "title:Central Asia’s Financial Reliance on the PRC Grows": 1794529239.9997616
+    "title:Central Asia’s Financial Reliance on the PRC Grows": 1794529239.9997616,
+    "https://www.twz.com/air/the-air-forces-newest-trainer-is-an-aerial-stunt-plane": 1794530445.5453699,
+    "https://www.twz.com/?p=6607278": 1794530445.5453699,
+    "title:The Air Force’s Newest Trainer Is An Aerial Stunt Plane": 1794530445.5453699
   },
   "events": [
-    {
-      "key": "XQ-58女武神無人機成本",
-      "timestamp": 1794271241.5819547
-    },
     {
       "key": "太平洋島國氣候融資",
       "timestamp": 1794272457.127744
@@ -2250,6 +2246,10 @@
     {
       "key": "喬俄事實上恢復外交關係",
       "timestamp": 1794528071.5322065
+    },
+    {
+      "key": "美空軍特技教練機列裝",
+      "timestamp": 1794530453.5106373
     }
   ]
 }
