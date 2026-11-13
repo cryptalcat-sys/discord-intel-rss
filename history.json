@@ -1,8 +1,5 @@
 {
   "ids": {
-    "https://breakingdefense.com/2026/11/remote-mine-hunters-silently-trawl-the-waters-as-minesweepers-go-by-the-wayside": 1794342047.0945659,
-    "https://breakingdefense.com/?p=100697": 1794342047.0945659,
-    "title:Remote mine hunters silently trawl the waters as minesweepers go by the wayside": 1794342047.0945659,
     "https://breakingdefense.com/2026/11/allen-control-systems-launches-new-division-to-develop-counter-drone-lasers": 1794344462.3026335,
     "https://breakingdefense.com/?p=100693": 1794344462.3026335,
     "title:Allen Control Systems launches new division to develop counter-drone lasers": 1794344462.3026335,
@@ -1889,13 +1886,12 @@
     "title:AIM-174B Long-Range Missile Packed With Glide Munitions Teased, New Details Shared": 1794600068.0309386,
     "https://www.twz.com/air/china-lifts-the-veil-on-the-gj-11-mysterious-dragon-stealth-ucav": 1794601232.3571892,
     "https://www.twz.com/?p=6606268": 1794601232.3571892,
-    "title:China Lifts The Veil On Its GJ-11 Mysterious Dragon Stealth UCAV": 1794601232.3571892
+    "title:China Lifts The Veil On Its GJ-11 Mysterious Dragon Stealth UCAV": 1794601232.3571892,
+    "https://breakingdefense.com/2026/11/submarine-maintenance-delays-saw-significant-improvements-in-fy26-sub-czar-says": 1794602445.4624457,
+    "https://breakingdefense.com/?p=101049": 1794602445.4624457,
+    "title:Submarine maintenance delays saw ‘significant’ improvements in FY26, sub czar says": 1794602445.4624457
   },
   "events": [
-    {
-      "key": "無人掃雷艇演習",
-      "timestamp": 1794342054.0091367
-    },
     {
       "key": "美軍防務反無人機雷射研發",
       "timestamp": 1794344464.8092747
@@ -2383,6 +2379,10 @@
     {
       "key": "美墨加協定貿易審查",
       "timestamp": 1794600057.6717608
+    },
+    {
+      "key": "美軍核潛艦維修延宕改善",
+      "timestamp": 1794602447.3147986
     }
   ]
 }
