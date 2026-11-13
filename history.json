@@ -1,11 +1,5 @@
 {
   "ids": {
-    "https://news.usni.org/2026/11/10/u-k-to-develop-north-atlantic-network-of-drones-ai-systems-to-find-russian-subs": 1794332440.8556983,
-    "https://news.usni.org/?p=126513": 1794332440.8556983,
-    "title:U.K. to Develop North Atlantic Network of Drones, AI Systems to Find Russian Subs": 1794332440.8556983,
-    "https://www.atlanticcouncil.org/inflection-points-with-frederick-kempe/nick-clegg-on-trumo-silicon-valley-and-big-techs-political-shift": 1794332451.5487962,
-    "https://www.atlanticcouncil.org/?p=959661": 1794332451.5487962,
-    "title:Nick Clegg on Trump, Silicon Valley, and Big Tech’s political shift": 1794332451.5487962,
     "https://www.twz.com/sea/aim-174b-long-range-missile-packed-with-glide-munitions-teased-new-details-shared": 1794338451.0951548,
     "https://www.twz.com/?p=6606273": 1794338451.0951548,
     "title:AIM-174B Long-Range Missile Packed With Glide Munitions Teased, New Details Shared": 1794338451.0951548,
@@ -1865,13 +1859,12 @@
     "title:How Congress might take back its trade powers and limit Trump's tariffs": 1794590437.7436602,
     "https://www.twz.com/air/b-21-raider-has-released-its-first-weapon": 1794590467.3323917,
     "https://www.twz.com/?p=6607357": 1794590467.3323917,
-    "title:B-21 Raider Has Released Its First Weapon": 1794590467.3323917
+    "title:B-21 Raider Has Released Its First Weapon": 1794590467.3323917,
+    "https://jamestown.org/ogarkov-to-the-baltics-russian-military-thought-evolved-from-zapad-77-to-ukraine-and-beyond": 1794591650.379764,
+    "https://jamestown.org/?p=886838": 1794591650.379764,
+    "title:Ogarkov to the Baltics: Russian Military Thought Evolved From Zapad-77 to Ukraine and Beyond": 1794591650.379764
   },
   "events": [
-    {
-      "key": "矽谷巨頭政治轉向",
-      "timestamp": 1794332454.2591524
-    },
     {
       "key": "AIM-174B匿蹤滑翔彈藥",
       "timestamp": 1794338458.8047612
