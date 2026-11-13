@@ -1893,7 +1893,12 @@
     "title:Suspected Drones Over RAF Lakenheath Just Triggered Security Response: U.S. Air Force": 1794603668.5333877,
     "https://www.cna.com.tw/news/ait/202611140004.aspx": 1794604836.991696,
     "CNA/2026-11-14/202611140004": 1794604836.991696,
-    "title:金融時報：輝達尋找新掌門人 安謀執行長哈斯列接班名單": 1794604836.991696
+    "title:金融時報：輝達尋找新掌門人 安謀執行長哈斯列接班名單": 1794604836.991696,
+    "https://www.piie.com/events/2026/chrystia-freeland-power-politics-and-future-democracy": 1794606045.0691185,
+    "title:Chrystia Freeland on power, politics, and the future of democracy": 1794606045.0691185,
+    "https://www.twz.com/news-features/ukraine-regretting-white-house-brokered-temporary-ceasefire-in-strategic-riverside-town-of-oleshky": 1794606065.101536,
+    "https://www.twz.com/?p=6606827": 1794606065.101536,
+    "title:Ukraine Regretting White House-Brokered Temporary Ceasefire In Strategic Riverside Town Of Oleshky": 1794606065.101536
   },
   "events": [
     {
@@ -2391,6 +2396,10 @@
     {
       "key": "輝達執行長接班布局",
       "timestamp": 1794604838.430827
+    },
+    {
+      "key": "加拿大民主政治與全球化",
+      "timestamp": 1794606046.601849
     }
   ]
 }
