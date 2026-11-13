@@ -1806,7 +1806,13 @@
     "CNA/2026-11-11/202611110106": 1794544836.7967253,
     "title:AI提升颶風預測準確度 但最終仍須仰賴人類做決定": 1794544836.7967253,
     "https://www.lowyinstitute.org/the-interpreter/in-manila-the-quad-must-work-for-asean-not-around-it": 1794546044.5725102,
-    "title:In Manila, the Quad must work for ASEAN, not around it": 1794546044.5725102
+    "title:In Manila, the Quad must work for ASEAN, not around it": 1794546044.5725102,
+    "https://www.cna.com.tw/news/acn/202611130107.aspx": 1794547237.996528,
+    "CNA/2026-11-13/202611130107": 1794547237.996528,
+    "title:共軍反腐 陸委會報告：基層部隊面臨人才斷層": 1794547237.996528,
+    "https://www.cna.com.tw/news/acn/202611130102.aspx": 1794547247.7658827,
+    "CNA/2026-11-13/202611130102": 1794547247.7658827,
+    "title:川習三會前 中美政黨對話北京召開": 1794547247.7658827
   },
   "events": [
     {
@@ -2248,6 +2254,14 @@
     {
       "key": "習近平主持APEC峰會",
       "timestamp": 1794538865.7536724
+    },
+    {
+      "key": "中共軍中反腐整肅",
+      "timestamp": 1794547239.7655504
+    },
+    {
+      "key": "中美政黨對話北京召開",
+      "timestamp": 1794547249.2327645
     }
   ]
 }
