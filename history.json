@@ -1862,7 +1862,19 @@
     "title:B-21 Raider Has Released Its First Weapon": 1794590467.3323917,
     "https://jamestown.org/ogarkov-to-the-baltics-russian-military-thought-evolved-from-zapad-77-to-ukraine-and-beyond": 1794591650.379764,
     "https://jamestown.org/?p=886838": 1794591650.379764,
-    "title:Ogarkov to the Baltics: Russian Military Thought Evolved From Zapad-77 to Ukraine and Beyond": 1794591650.379764
+    "title:Ogarkov to the Baltics: Russian Military Thought Evolved From Zapad-77 to Ukraine and Beyond": 1794591650.379764,
+    "https://www.atlanticcouncil.org/inflection-points-with-frederick-kempe/nick-clegg-on-trumo-silicon-valley-and-big-techs-political-shift": 1794592850.4925408,
+    "https://www.atlanticcouncil.org/?p=959661": 1794592850.4925408,
+    "title:Nick Clegg on Trump, Silicon Valley, and Big Tech’s political shift": 1794592850.4925408,
+    "https://news.usni.org/2026/11/10/u-k-to-develop-north-atlantic-network-of-drones-ai-systems-to-find-russian-subs": 1794592850.700815,
+    "https://news.usni.org/?p=126513": 1794592850.700815,
+    "title:U.K. to Develop North Atlantic Network of Drones, AI Systems to Find Russian Subs": 1794592850.700815,
+    "https://www.twz.com/news-features/autonomous-cessna-caravan-air-ambulance-to-be-tested-by-u-s-military": 1794592859.6899135,
+    "https://www.twz.com/?p=6606670": 1794592859.6899135,
+    "title:Autonomous Cessna Caravan Air Ambulance To Be Tested By U.S. Military": 1794592859.6899135,
+    "https://www.defensenews.com/video/2026/11/13/inside-msis-next-generation-of-counter-drone-defense": 1794592862.187836,
+    "https://one.sightlinemg.com/defensenews/uncategorized/2026/10/13/inside-msis-next-generation-of-counter-drone-defense/": 1794592862.187836,
+    "title:Inside MSI’s Next Generation of Counter-Drone Defense": 1794592862.187836
   },
   "events": [
     {
@@ -2340,6 +2352,10 @@
     {
       "key": "B-21首發實彈測試",
       "timestamp": 1794590484.3266017
+    },
+    {
+      "key": "微星反無人機防務",
+      "timestamp": 1794592863.7346923
     }
   ]
 }
