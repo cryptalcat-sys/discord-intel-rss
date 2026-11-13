@@ -1,8 +1,5 @@
 {
   "ids": {
-    "https://thediplomat.com/2026/11/what-the-faaz-missile-means-for-pakistans-air-force": 1794351655.91957,
-    "https://thediplomat.com/2026/11/what-the-faaz-missile-means-for-pakistans-air-force/": 1794351655.91957,
-    "title:What the Fa’az Missile Means for Pakistan’s Air Force": 1794351655.91957,
     "https://www.twz.com/land/army-wants-new-palletized-short-range-air-defenses-in-service-by-the-end-of-2029": 1794354926.3081207,
     "https://www.twz.com/?p=6605521": 1794354926.3081207,
     "title:Army Wants New Palletized Short-Range Air Defenses In Service By The End Of 2029": 1794354926.3081207,
@@ -1892,13 +1889,21 @@
     "title:Ukraine Regretting White House-Brokered Temporary Ceasefire In Strategic Riverside Town Of Oleshky": 1794606065.101536,
     "https://breakingdefense.com/2026/11/securing-the-asia-pacific-digital-battlespace-technet-indo-pacific-2026": 1794609633.78443,
     "https://breakingdefense.com/?p=99993": 1794609633.78443,
-    "title:Securing the Asia-Pacific digital battlespace: TechNet Indo-Pacific 2026": 1794609633.78443
+    "title:Securing the Asia-Pacific digital battlespace: TechNet Indo-Pacific 2026": 1794609633.78443,
+    "https://news.usni.org/2026/11/13/the-new-six-frigates": 1794610852.9224775,
+    "https://news.usni.org/?p=126603": 1794610852.9224775,
+    "title:The New Six Frigates": 1794610852.9224775,
+    "https://news.usni.org/2026/11/10/saildrone-blue-water-autonomy-ruling-adds-restrictions-to-ota-funding-model": 1794610862.8398204,
+    "https://news.usni.org/?p=126532": 1794610862.8398204,
+    "title:Saildrone, Blue Water Autonomy Ruling Adds Restrictions to OTA Funding Model": 1794610862.8398204,
+    "https://news.usni.org/2026/11/05/north-korean-leader-inspects-new-warship-under-construction-at-nampho-shipyard": 1794610862.840442,
+    "https://news.usni.org/?p=126401": 1794610862.840442,
+    "title:North Korean Leader Inspects New Warship Under Construction at Nampho Shipyard": 1794610862.840442,
+    "https://www.atlanticcouncil.org/blogs/ukrainealert/last-weeks-brief-ukraine-ceasefire-did-not-stop-russian-attacks-on-civilians": 1794610863.801324,
+    "https://www.atlanticcouncil.org/?p=958732": 1794610863.801324,
+    "title:Last week’s brief Ukraine ceasefire did not stop Russian attacks on civilians": 1794610863.801324
   },
   "events": [
-    {
-      "key": "巴基斯坦法茲飛彈研發",
-      "timestamp": 1794351658.4548156
-    },
     {
       "key": "美軍模組化短程防空部署",
       "timestamp": 1794354928.0767956
@@ -2394,6 +2399,10 @@
     {
       "key": "印太數位作戰網安演訓",
       "timestamp": 1794609635.3970027
+    },
+    {
+      "key": "美軍外購巡防艦計畫",
+      "timestamp": 1794610854.8386877
     }
   ]
 }
