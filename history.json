@@ -1851,7 +1851,16 @@
     "https://www.twreporter.org/a/bolt-driver-gets-13-years-in-fatal-abandonment-case": 1794588059.6089919,
     "title:Bolt司機台64線丟包乘客案，國民法官一審「遺棄致死罪」判刑13年": 1794588059.6089919,
     "https://www.twreporter.org/a/podcast-2026-11-06": 1794588059.609348,
-    "title:「兒子真的以妳為榮」金鐘最動人致詞幕後：賣金飾上早療、自學引導陪伴，張大一母親笑：金子在他身上發光": 1794588059.609348
+    "title:「兒子真的以妳為榮」金鐘最動人致詞幕後：賣金飾上早療、自學引導陪伴，張大一母親笑：金子在他身上發光": 1794588059.609348,
+    "https://www.atlanticcouncil.org/dispatches/the-election-that-never-happened-and-why-washington-needs-a-new-strategy-toward-nicaragua": 1794589249.9948466,
+    "https://www.atlanticcouncil.org/?p=960291": 1794589249.9948466,
+    "title:The election that never happened, and why Washington needs a new strategy toward Nicaragua": 1794589249.9948466,
+    "https://breakingdefense.com/2026/11/pentagon-rebrands-principle-ai-shop-as-super-intelligence-office": 1794589270.0942967,
+    "https://breakingdefense.com/?p=101029": 1794589270.0942967,
+    "title:Pentagon rebrands principle AI shop as ‘Super Intelligence Office’": 1794589270.0942967,
+    "https://news.usni.org/2026/11/13/japan-pledges-drones-coastal-defense-radar-in-latest-philippine-defense-package": 1794589293.7502496,
+    "https://news.usni.org/?p=126562": 1794589293.7502496,
+    "title:Japan Pledges Drones, Coastal Defense Radar in Latest Philippine Defense Package": 1794589293.7502496
   },
   "events": [
     {
@@ -2313,6 +2322,18 @@
     {
       "key": "極音速無人機系統研發",
       "timestamp": 1794586844.4664223
+    },
+    {
+      "key": "美國尼加拉瓜政策",
+      "timestamp": 1794589251.7702222
+    },
+    {
+      "key": "五角大廈AI機構改組",
+      "timestamp": 1794589271.5763073
+    },
+    {
+      "key": "日菲防務裝備無人機援助",
+      "timestamp": 1794589295.3374758
     }
   ]
 }
