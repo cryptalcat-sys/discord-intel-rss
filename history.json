@@ -1,13 +1,5 @@
 {
   "ids": {
-    "https://www.atlanticcouncil.org/dispatches/putin-wants-peace-talks-he-doesnt-want-peace": 1794272449.6239765,
-    "https://www.atlanticcouncil.org/?p=959149": 1794272449.6239765,
-    "title:Putin wants peace talks. He doesn’t want peace.": 1794272449.6239765,
-    "https://www.atlanticcouncil.org/dispatches/why-this-us-midterm-was-unusually-important-for-the-middle-east": 1794272449.6244385,
-    "https://www.atlanticcouncil.org/?p=958373": 1794272449.6244385,
-    "title:Why this US midterm was unusually important for the Middle East": 1794272449.6244385,
-    "https://www.lowyinstitute.org/the-interpreter/billions-came-fast-for-the-fuel-crisis-the-pacific-still-waits-for-climate-finance": 1794272455.3651683,
-    "title:Billions came fast for the fuel crisis – the Pacific still waits for climate finance": 1794272455.3651683,
     "https://www.cna.com.tw/news/ait/202611100031.aspx": 1794278435.848857,
     "CNA/2026-11-10/202611100031": 1794278435.848857,
     "title:黃仁勳婚外情掀國安疑慮 美3項對中晶片法案有望過關": 1794278435.848857,
@@ -1800,13 +1792,12 @@
     "title:Central Asia’s Financial Reliance on the PRC Grows": 1794529239.9997616,
     "https://www.twz.com/air/the-air-forces-newest-trainer-is-an-aerial-stunt-plane": 1794530445.5453699,
     "https://www.twz.com/?p=6607278": 1794530445.5453699,
-    "title:The Air Force’s Newest Trainer Is An Aerial Stunt Plane": 1794530445.5453699
+    "title:The Air Force’s Newest Trainer Is An Aerial Stunt Plane": 1794530445.5453699,
+    "https://www.twz.com/air/mq-58-valkyrie-drones-now-cost-6m-8m-each": 1794531652.7617347,
+    "https://www.twz.com/?p=6606084": 1794531652.7617347,
+    "title:MQ-58 Valkyrie Drones Now Cost $6M-$8M Each": 1794531652.7617347
   },
   "events": [
-    {
-      "key": "太平洋島國氣候融資",
-      "timestamp": 1794272457.127744
-    },
     {
       "key": "四方安全對話與東協互動",
       "timestamp": 1794281742.6215773
