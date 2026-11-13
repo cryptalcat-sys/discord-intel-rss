@@ -1880,7 +1880,13 @@
     "title:Drones incoming! New innovations on offer in UAS tech | Defense News Weekly Full Episode 11.10.26": 1794594034.7786238,
     "https://www.twz.com/sea/destroyer-that-has-been-deployed-longer-than-any-since-wwii-returns-home": 1794594049.1979873,
     "https://www.twz.com/?p=6607338": 1794594049.1979873,
-    "title:Destroyer That Has Been Deployed Longer Than Any Since WWII Returns Home": 1794594049.1979873
+    "title:Destroyer That Has Been Deployed Longer Than Any Since WWII Returns Home": 1794594049.1979873,
+    "https://www.defensenews.com/air/2026/11/13/us-air-force-adopts-new-force-design-focusing-on-sensors-and-autonomy": 1794596447.0068822,
+    "https://one.sightlinemg.com/defensenews/news/2026/11/13/us-air-force-adopts-new-force-design-focusing-on-sensors-and-autonomy/": 1794596447.0068822,
+    "title:US Air Force adopts new Force Design focusing on sensors and autonomy": 1794596447.0068822,
+    "https://news.usni.org/2026/11/13/usni-news-western-pacific-pulse-nov-13-2026": 1794596463.2672737,
+    "https://news.usni.org/?p=126573": 1794596463.2672737,
+    "title:USNI News Western Pacific Pulse: Nov. 13, 2026": 1794596463.2672737
   },
   "events": [
     {
@@ -2370,6 +2376,14 @@
     {
       "key": "美艦中東超長部署返航",
       "timestamp": 1794594051.0926876
+    },
+    {
+      "key": "美軍空軍部隊重組與AI轉型",
+      "timestamp": 1794596448.794879
+    },
+    {
+      "key": "美航母西太戰備巡弋與兵力調動",
+      "timestamp": 1794596464.9335022
     }
   ]
 }
