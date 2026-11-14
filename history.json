@@ -1,8 +1,5 @@
 {
   "ids": {
-    "https://www.cna.com.tw/news/acn/202611110242.aspx": 1794391252.2586205,
-    "CNA/2026-11-11/202611110242": 1794391252.2586205,
-    "title:國台辦聲稱跨國鎮壓是謊言 陸委會：事實俱在不容狡辯": 1794391252.2586205,
     "https://www.navalnews.com/naval-news/2026/11/mq-9b-fills-critical-gaps-for-europes-militaries-in-trying-times": 1794399632.134705,
     "https://www.navalnews.com/?p=92709": 1794399632.134705,
     "title:MQ-9B Fills Critical Gaps for Europe’s Militaries in Trying Times": 1794399632.134705,
@@ -1877,13 +1874,15 @@
     "title:‘US Needs to Understand India’s Interests’ | Taiwan Talks #shorts": 1794649244.0672724,
     "https://www.youtube.com/shorts/d8kWTVjszD4": 1794649244.0673134,
     "yt:video:d8kWTVjszD4": 1794649244.0673134,
-    "title:Expert: China Wants Filipinos to ‘Shut Up’ on the South China Sea | Taiwan Talks #shorts": 1794649244.0673134
+    "title:Expert: China Wants Filipinos to ‘Shut Up’ on the South China Sea | Taiwan Talks #shorts": 1794649244.0673134,
+    "https://www.foreignaffairs.com/united-states/true-meaning-power-david-sacks": 1794650443.6597552,
+    "1135742": 1794650443.6597552,
+    "title:The True Meaning of Power": 1794650443.6597552,
+    "https://www.foreignaffairs.com/united-states/dont-soak-rich": 1794650443.6598191,
+    "1135728": 1794650443.6598191,
+    "title:Don’t Soak the Rich": 1794650443.6598191
   },
   "events": [
-    {
-      "key": "兩岸反滲透法交鋒",
-      "timestamp": 1794391254.741632
-    },
     {
       "key": "中共高層接班梯隊",
       "timestamp": 1794399647.4770813
