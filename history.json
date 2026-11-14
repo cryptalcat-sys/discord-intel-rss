@@ -1,20 +1,5 @@
 {
   "ids": {
-    "https://www.cna.com.tw/news/acn/202611110114.aspx": 1794375635.3763897,
-    "CNA/2026-11-11/202611110114": 1794375635.3763897,
-    "title:APEC深圳峰會兩岸代表是否將互動 國台辦避答": 1794375635.3763897,
-    "https://www.cna.com.tw/news/ait/202611090093.aspx": 1794375652.7232108,
-    "CNA/2026-11-09/202611090093": 1794375652.7232108,
-    "title:Gemini中文版購物功能登台 對話式AI重塑網購行為": 1794375652.7232108,
-    "https://www.cna.com.tw/news/acn/202611110134.aspx": 1794380450.565072,
-    "CNA/2026-11-11/202611110134": 1794380450.565072,
-    "title:談兩岸交流 邱垂正：應去統戰化與去風險化": 1794380450.565072,
-    "https://breakingdefense.com/2026/11/israels-rafael-unveils-new-larger-cruise-missile-dubbed-super-ice": 1794384045.8260248,
-    "https://breakingdefense.com/?p=100783": 1794384045.8260248,
-    "title:Israel’s Rafael unveils new, larger cruise missile dubbed Super Ice": 1794384045.8260248,
-    "https://www.navalnews.com/naval-news/2026/11/first-steel-cut-on-australian-landing-craft-heavy-at-austal": 1794384060.4818225,
-    "https://www.navalnews.com/?p=93407": 1794384060.4818225,
-    "title:Austal Cuts First Steel on Landing Craft Heavy for Australian Army": 1794384060.4818225,
     "https://www.youtube.com/shorts/EJpqcsVbgVM": 1794385237.9625695,
     "yt:video:EJpqcsVbgVM": 1794385237.9625695,
     "title:捍衛同志平權被獵巫 遭轟爭取\"特權\"?!｜ 公共電視 - 尖鋒對話": 1794385237.9625695,
@@ -1892,25 +1877,12 @@
     "title:黃仁勳傳記作者拆解輝達晶片走私黑幕 假伺服器調包偷天換日": 1794633630.1766176,
     "https://www.cna.com.tw/news/ait/202611110054.aspx": 1794633630.176644,
     "CNA/2026-11-11/202611110054": 1794633630.176644,
-    "title:傳記作者：輝達不會輕易開除黃仁勳 國會聽證若公開將成最大威脅": 1794633630.176644
+    "title:傳記作者：輝達不會輕易開除黃仁勳 國會聽證若公開將成最大威脅": 1794633630.176644,
+    "https://www.cna.com.tw/news/acn/202611140121.aspx": 1794643249.9583836,
+    "CNA/2026-11-14/202611140121": 1794643249.9583836,
+    "title:美中首次貿易委員會會議 雙方談關稅、農產品貿易等議題": 1794643249.9583836
   },
   "events": [
-    {
-      "key": "APEC兩岸互動",
-      "timestamp": 1794375637.0815592
-    },
-    {
-      "key": "兩岸交流去統戰化",
-      "timestamp": 1794380451.969385
-    },
-    {
-      "key": "以國拉 Rafael 發表超冰巡弋飛彈",
-      "timestamp": 1794384047.5400007
-    },
-    {
-      "key": "澳軍重型登陸艇開工",
-      "timestamp": 1794384064.646134
-    },
     {
       "key": "日本軍事部署限制",
       "timestamp": 1794386480.9249918
@@ -2362,6 +2334,10 @@
     {
       "key": "王毅會見美政黨代表",
       "timestamp": 1794632450.3750362
+    },
+    {
+      "key": "美中貿易委員會會談",
+      "timestamp": 1794643252.0444827
     }
   ]
 }
