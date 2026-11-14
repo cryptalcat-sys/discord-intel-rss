@@ -1,8 +1,5 @@
 {
   "ids": {
-    "https://news.usni.org/2026/11/11/vr-goggles-get-dual-use-for-suicide-prevention-counter-drone-training": 1794414031.2447457,
-    "https://news.usni.org/?p=126522": 1794414031.2447457,
-    "title:VR Goggles Get Dual Use for Suicide Prevention, Counter-drone Training": 1794414031.2447457,
     "https://www.lowyinstitute.org/the-interpreter/beijing-s-new-common-language-law-doesn-t-sound-so-common": 1794414045.4434273,
     "title:Beijing’s new “common language” law doesn’t sound so common": 1794414045.4434273,
     "https://breakingdefense.com/2026/11/nato-taps-ukraine-as-red-team-in-drills-to-trigger-an-adaptation-cycle": 1794417630.787952,
@@ -1858,13 +1855,23 @@
     "https://www.atlanticcouncil.org/?p=958720": 1794663639.1135488,
     "title:Seeking the source: Biological attribution from anthrax to AI": 1794663639.1135488,
     "https://www.twreporter.org/a/school-zone-safety-pov-game": 1794672058.3850904,
-    "title:通學路上：體驗孩童上學考驗": 1794672058.3850904
+    "title:通學路上：體驗孩童上學考驗": 1794672058.3850904,
+    "https://www.twreporter.org/a/2026-taipei-golden-horse-film-festival-sayang": 1794673235.5824683,
+    "title:1個承諾、2場葬禮、3個聾人青少年──湯湘竹首部劇情片《沙央》，關於族群匯流的愛與疼惜": 1794673235.5824683,
+    "https://www.atlanticcouncil.org/insight-impact/in-the-news/the-cbdc-tracker-cited-in-coindesk-on-the-number-of-countries-actively-testing-or-developing-cbdcs-2-3": 1794673237.3076694,
+    "https://www.atlanticcouncil.org/?p=958882": 1794673237.3076694,
+    "title:Dollar Dominance Monitor cited in a Project Syndicate article on the yuan’s growing role in international trade": 1794673237.3076694,
+    "https://www.atlanticcouncil.org/insight-impact/in-the-news/the-cbdc-tracker-cited-in-coindesk-on-the-number-of-countries-actively-testing-or-developing-cbdcs-2-2": 1794673237.3077016,
+    "https://www.atlanticcouncil.org/?p=958879": 1794673237.3077016,
+    "title:CBDC Tracker cited in a CEPR paper on Europe’s plans for retail and wholesale payments": 1794673237.3077016,
+    "https://www.atlanticcouncil.org/content-series/inflection-points/dispatch-from-dubai-after-the-midterms-allies-see-both-us-resilience-and-unreliability": 1794673237.307935,
+    "https://www.atlanticcouncil.org/?p=959236": 1794673237.307935,
+    "title:Dispatch from Dubai: After the midterms, allies see both US resilience and unreliability": 1794673237.307935,
+    "https://www.atlanticcouncil.org/dispatches/not-quite-mercenaries-how-russia-lures-thousands-of-foreigners-to-fight-in-its-war-on-ukraine": 1794673237.3081884,
+    "https://www.atlanticcouncil.org/?p=957940": 1794673237.3081884,
+    "title:Not quite mercenaries: How Russia lures thousands of foreigners to fight in its war on Ukraine": 1794673237.3081884
   },
   "events": [
-    {
-      "key": "美軍部署反無人機VR訓練",
-      "timestamp": 1794414035.02058
-    },
     {
       "key": "北約烏軍紅隊演習",
       "timestamp": 1794417646.7479718
