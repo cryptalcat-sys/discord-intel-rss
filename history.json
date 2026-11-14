@@ -1880,7 +1880,10 @@
     "title:The True Meaning of Power": 1794650443.6597552,
     "https://www.foreignaffairs.com/united-states/dont-soak-rich": 1794650443.6598191,
     "1135728": 1794650443.6598191,
-    "title:Don’t Soak the Rich": 1794650443.6598191
+    "title:Don’t Soak the Rich": 1794650443.6598191,
+    "https://www.cna.com.tw/news/acn/202611140173.aspx": 1794655244.2940984,
+    "CNA/2026-11-14/202611140173": 1794655244.2940984,
+    "title:市場觀察：輝達「中國推銷員」謝幕 中國科技股承壓": 1794655244.2940984
   },
   "events": [
     {
@@ -2330,6 +2333,10 @@
     {
       "key": "海軍集團SCX26無人母艦",
       "timestamp": 1794646849.4873168
+    },
+    {
+      "key": "輝達晶片對中出口",
+      "timestamp": 1794655246.1290393
     }
   ]
 }
