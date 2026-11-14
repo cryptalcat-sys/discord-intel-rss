@@ -1,23 +1,5 @@
 {
   "ids": {
-    "https://breakingdefense.com/2026/11/dod-pushes-out-3-loans-totally-450m-to-bolster-us-space-companies": 1794430868.8626475,
-    "https://breakingdefense.com/?p=100829": 1794430868.8626475,
-    "title:DoD pushes out 3 loans totaling $450M to bolster US space companies": 1794430868.8626475,
-    "https://www.twz.com/news-features/plans-to-fly-talon-blue-cca-drone-from-british-carrier-confirmed-by-northrop-grumman": 1794430884.675331,
-    "https://www.twz.com/?p=6606821": 1794430884.675331,
-    "title:Plans To Fly Talon Blue CCA Drone From British Carrier Confirmed By Northrop Grumman": 1794430884.675331,
-    "https://www.navalnews.com/naval-news/2026/11/philippine-marines-receives-martac-t38-usv-via-u-s-aid": 1794432038.56649,
-    "https://www.navalnews.com/?p=93319": 1794432038.56649,
-    "title:Philippine Marines Receives MARTAC T38 USV via U.S. Aid": 1794432038.56649,
-    "https://news.usni.org/2026/11/05/marines-identify-member-who-died-after-fast-rope-training-in-japan": 1794432053.6626427,
-    "https://news.usni.org/?p=126411": 1794432053.6626427,
-    "title:Marines Identify Member Who Died After Fast-rope Training in Japan": 1794432053.6626427,
-    "https://www.cna.com.tw/news/ait/202611070005.aspx": 1794432056.2996173,
-    "CNA/2026-11-07/202611070005": 1794432056.2996173,
-    "title:傳微軟逐步終止租用甲骨文AI算力 重新評估雲端合作": 1794432056.2996173,
-    "https://www.twz.com/sea/uss-theodore-roosevelt-arrives-in-singapore-last-stop-before-third-strike-group-reaches-the-middle-east": 1794433234.5195532,
-    "https://www.twz.com/?p=6605187": 1794433234.5195532,
-    "title:USS Theodore Roosevelt Arrives In Singapore; Last Stop Before Third Strike Group Reaches The Middle East": 1794433234.5195532,
     "https://www.twz.com/air/chinas-military-helicopters-a-guide": 1794434464.3328168,
     "https://www.twz.com/?p=6605127": 1794434464.3328168,
     "title:A Guide To China’s Expanding Fleet Of Military Helicopters": 1794434464.3328168,
@@ -1716,21 +1698,15 @@
     "title:微軟365、Outlook等服務當機 數以千計美國用戶受影響": 1794690057.2012124,
     "https://www.twz.com/news-features/ukraine-says-starshield-disruptions-are-back-as-u-s-negotiators-meet-with-putin": 1794690065.4799998,
     "https://www.twz.com/?p=6607067": 1794690065.4799998,
-    "title:Ukraine Says Starshield Disruptions Are Back As U.S. Negotiators Meet With Putin": 1794690065.4799998
+    "title:Ukraine Says Starshield Disruptions Are Back As U.S. Negotiators Meet With Putin": 1794690065.4799998,
+    "https://breakingdefense.com/2026/11/hegseth-seeks-to-elevate-top-sof-civilian-to-service-secretary-equivalent": 1794692443.1344671,
+    "https://breakingdefense.com/?p=100986": 1794692443.1344671,
+    "title:Hegseth seeks to elevate top SOF civilian to service-secretary equivalent": 1794692443.1344671,
+    "https://www.atlanticcouncil.org/blogs/ukrainealert/moldova-cuts-energy-dependency-on-russia-with-landmark-new-power-line": 1794692448.826839,
+    "https://www.atlanticcouncil.org/?p=960290": 1794692448.826839,
+    "title:Moldova cuts energy dependency on Russia with landmark new power line": 1794692448.826839
   },
   "events": [
-    {
-      "key": "美國防部太空產業融資",
-      "timestamp": 1794430873.2916322
-    },
-    {
-      "key": "英航母Talon Blue無人機",
-      "timestamp": 1794430891.6393049
-    },
-    {
-      "key": "美援菲軍無人艇交付",
-      "timestamp": 1794432042.476279
-    },
     {
       "key": "中日台交惡僵局",
       "timestamp": 1794438103.5545514
