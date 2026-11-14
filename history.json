@@ -1701,7 +1701,22 @@
     "title:Navy Taps Career Submariner to Lead PAE Maritime": 1794687642.8931541,
     "https://news.usni.org/2026/11/04/royal-navy-carriers-operate-in-the-high-north-mediterranean": 1794687642.893181,
     "https://news.usni.org/?p=126370": 1794687642.893181,
-    "title:Royal Navy Carriers Operate in the High North, Mediterranean": 1794687642.893181
+    "title:Royal Navy Carriers Operate in the High North, Mediterranean": 1794687642.893181,
+    "https://breakingdefense.com/2026/11/aukus-review-was-best-thing-for-trilateral-pact-colby": 1794690045.4842842,
+    "https://breakingdefense.com/?p=100950": 1794690045.4842842,
+    "title:AUKUS review was ‘best thing’ for trilateral pact: Colby": 1794690045.4842842,
+    "https://www.cna.com.tw/news/aopl/202611150004.aspx": 1794690047.2415464,
+    "CNA/2026-11-15/202611150004": 1794690047.2415464,
+    "title:輝達兩大股東籲審慎評估領導人選 黃仁勳回任列入考量": 1794690047.2415464,
+    "https://www.cna.com.tw/news/aopl/202611130011.aspx": 1794690057.201172,
+    "CNA/2026-11-13/202611130011": 1794690057.201172,
+    "title:黃仁勳辭輝達執行長 科技界憂創新領導力流失": 1794690057.201172,
+    "https://www.cna.com.tw/news/ait/202611130010.aspx": 1794690057.2012124,
+    "CNA/2026-11-13/202611130010": 1794690057.2012124,
+    "title:微軟365、Outlook等服務當機 數以千計美國用戶受影響": 1794690057.2012124,
+    "https://www.twz.com/news-features/ukraine-says-starshield-disruptions-are-back-as-u-s-negotiators-meet-with-putin": 1794690065.4799998,
+    "https://www.twz.com/?p=6607067": 1794690065.4799998,
+    "title:Ukraine Says Starshield Disruptions Are Back As U.S. Negotiators Meet With Putin": 1794690065.4799998
   },
   "events": [
     {
@@ -2123,6 +2138,10 @@
     {
       "key": "法國總統大選與政治僵局",
       "timestamp": 1794686458.5616972
+    },
+    {
+      "key": "輝達高層領導人事",
+      "timestamp": 1794690049.199153
     }
   ]
 }
