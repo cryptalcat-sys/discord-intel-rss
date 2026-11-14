@@ -1,7 +1,5 @@
 {
   "ids": {
-    "https://www.lowyinstitute.org/the-interpreter/beijing-s-new-common-language-law-doesn-t-sound-so-common": 1794414045.4434273,
-    "title:Beijing’s new “common language” law doesn’t sound so common": 1794414045.4434273,
     "https://breakingdefense.com/2026/11/nato-taps-ukraine-as-red-team-in-drills-to-trigger-an-adaptation-cycle": 1794417630.787952,
     "https://breakingdefense.com/?p=100828": 1794417630.787952,
     "title:NATO taps Ukraine as red-team in drills to ‘trigger an adaptation cycle’": 1794417630.787952,
@@ -1869,7 +1867,13 @@
     "title:Dispatch from Dubai: After the midterms, allies see both US resilience and unreliability": 1794673237.307935,
     "https://www.atlanticcouncil.org/dispatches/not-quite-mercenaries-how-russia-lures-thousands-of-foreigners-to-fight-in-its-war-on-ukraine": 1794673237.3081884,
     "https://www.atlanticcouncil.org/?p=957940": 1794673237.3081884,
-    "title:Not quite mercenaries: How Russia lures thousands of foreigners to fight in its war on Ukraine": 1794673237.3081884
+    "title:Not quite mercenaries: How Russia lures thousands of foreigners to fight in its war on Ukraine": 1794673237.3081884,
+    "https://www.navalnews.com/naval-news/2026/11/uss-district-of-columbia-ssbn-826-back-on-track-for-2028-delivery": 1794674436.9131923,
+    "https://www.navalnews.com/?p=93548": 1794674436.9131923,
+    "title:Lead Columbia-class SSBN Claws Back from Delay Risk": 1794674436.9131923,
+    "https://news.usni.org/2026/11/11/vr-goggles-get-dual-use-for-suicide-prevention-counter-drone-training": 1794674449.534633,
+    "https://news.usni.org/?p=126522": 1794674449.534633,
+    "title:VR Goggles Get Dual Use for Suicide Prevention, Counter-drone Training": 1794674449.534633
   },
   "events": [
     {
@@ -2303,6 +2307,10 @@
     {
       "key": "日中東協峰會互動",
       "timestamp": 1794661250.7446704
+    },
+    {
+      "key": "哥倫比亞級潛艦交付進度",
+      "timestamp": 1794674438.7413201
     }
   ]
 }
