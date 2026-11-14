@@ -1,11 +1,5 @@
 {
   "ids": {
-    "https://breakingdefense.com/2026/11/the-armys-coming-c2-challenge-is-fighting-across-thousands-of-miles": 1794421242.7576723,
-    "https://breakingdefense.com/?p=100793": 1794421242.7576723,
-    "title:The Army’s coming C2 challenge is fighting across thousands of miles": 1794421242.7576723,
-    "https://www.twz.com/air/f-35s-train-in-india-for-red-flag-of-the-east": 1794422434.7742789,
-    "https://www.twz.com/?p=6606373": 1794422434.7742789,
-    "title:F-35s Train In India For “Red Flag Of The East”": 1794422434.7742789,
     "https://www.piie.com/blogs/realtime-economics/2026/ai-booms-two-engines": 1794423127.022171,
     "title:The AI Boom's Two Engines": 1794423127.022171,
     "https://www.atlanticcouncil.org/dispatches/what-germans-most-want-to-know-about-the-post-midterms-united-states": 1794423135.051423,
@@ -1875,17 +1869,12 @@
     "title:Charai for The National Interest: On Immigration, the US Is Not Europe—Unless It Chooses to Be": 1794679251.0404527,
     "https://www.twz.com/news-features/lucas-drones-to-be-built-in-containerized-robotic-micro-factories-designed-to-be-forward-deployed": 1794679254.1197162,
     "https://www.twz.com/?p=6605706": 1794679254.1197162,
-    "title:LUCAS Drones To Be Built In Containerized Robotic Micro Factories Designed To Be Forward Deployed": 1794679254.1197162
+    "title:LUCAS Drones To Be Built In Containerized Robotic Micro Factories Designed To Be Forward Deployed": 1794679254.1197162,
+    "https://warontherocks.com/how-purges-are-affecting-chinese-military-readiness-and-taiwan-contingencies": 1794681641.9514778,
+    "https://warontherocks.com/?p=48579": 1794681641.9514778,
+    "title:How Purges Are Affecting Chinese Military Readiness and Taiwan Contingencies": 1794681641.9514778
   },
   "events": [
-    {
-      "key": "陸軍NGC2遠程指揮",
-      "timestamp": 1794421262.0456753
-    },
-    {
-      "key": "美軍F-35赴印聯合軍演",
-      "timestamp": 1794422437.3370266
-    },
     {
       "key": "美軍波蘭永久基地",
       "timestamp": 1794424872.868071
