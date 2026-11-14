@@ -1,32 +1,5 @@
 {
   "ids": {
-    "https://www.youtube.com/shorts/EJpqcsVbgVM": 1794385237.9625695,
-    "yt:video:EJpqcsVbgVM": 1794385237.9625695,
-    "title:捍衛同志平權被獵巫 遭轟爭取\"特權\"?!｜ 公共電視 - 尖鋒對話": 1794385237.9625695,
-    "https://www.youtube.com/shorts/tQon4cLBwmU": 1794385237.962695,
-    "yt:video:tQon4cLBwmU": 1794385237.962695,
-    "title:尊重離線權給喘息 盼能遏止\"網路公審\"｜ 公共電視 - 尖鋒對話": 1794385237.962695,
-    "https://www.youtube.com/shorts/mw42l_0_BU4": 1794386435.7546256,
-    "yt:video:mw42l_0_BU4": 1794386435.7546256,
-    "title:反DEI浪潮 淹沒多元族群平權推動?!｜ 公共電視 - 尖鋒對話": 1794386435.7546256,
-    "https://warontherocks.com/japans-most-dangerous-military-constraint-is-time": 1794386441.5684686,
-    "https://warontherocks.com/?p=48546": 1794386441.5684686,
-    "title:Japan’s Most Dangerous Military Constraint Is Time": 1794386441.5684686,
-    "https://warontherocks.com/rethinking-strategic-stability-with-china-from-coercion-to-constructivism": 1794386488.9323602,
-    "https://warontherocks.com/?p=48509": 1794386488.9323602,
-    "title:Rethinking Strategic Stability with China: From Coercion to Constructivism": 1794386488.9323602,
-    "https://www.cna.com.tw/news/acn/202611110215.aspx": 1794387648.5950806,
-    "CNA/2026-11-11/202611110215": 1794387648.5950806,
-    "title:日中領袖APEC能否會談？ 北京：已多次闡明立場": 1794387648.5950806,
-    "https://www.cna.com.tw/news/acn/202611110208.aspx": 1794387650.033967,
-    "CNA/2026-11-11/202611110208": 1794387650.033967,
-    "title:中共21大 沈有忠：複合性脅迫將更加劇": 1794387650.033967,
-    "https://www.foreignaffairs.com/nigeria/new-epicenter-global-terror": 1794387663.8014617,
-    "1135747": 1794387663.8014617,
-    "title:The New Epicenter of Global Terror": 1794387663.8014617,
-    "https://www.foreignaffairs.com/taiwan/recipe-disaster-taiwan-lissner-rapp-hooper": 1794387663.8015153,
-    "1135746": 1794387663.8015153,
-    "title:A Recipe for Disaster in Taiwan": 1794387663.8015153,
     "https://www.youtube.com/shorts/Kh4jOdLtRCo": 1794387671.778031,
     "yt:video:Kh4jOdLtRCo": 1794387671.778031,
     "title:責任感過重.放不下 壓垮教師走上絕路｜ 公共電視 - 尖鋒對話": 1794387671.778031,
@@ -1880,17 +1853,18 @@
     "title:傳記作者：輝達不會輕易開除黃仁勳 國會聽證若公開將成最大威脅": 1794633630.176644,
     "https://www.cna.com.tw/news/acn/202611140121.aspx": 1794643249.9583836,
     "CNA/2026-11-14/202611140121": 1794643249.9583836,
-    "title:美中首次貿易委員會會議 雙方談關稅、農產品貿易等議題": 1794643249.9583836
+    "title:美中首次貿易委員會會議 雙方談關稅、農產品貿易等議題": 1794643249.9583836,
+    "https://www.navalnews.com/event-news/euronaval-2026/2026/11/naval-group-presents-scx-26-combatant-as-naval-drone-hub": 1794646847.5933757,
+    "https://www.navalnews.com/?p=93222": 1794646847.5933757,
+    "title:Naval Group Unveils SCX 26 ‘Hybrid Fleet’ Drone Mothership Concept": 1794646847.5933757,
+    "https://www.foreignaffairs.com/united-states/america-can-do-good-and-do-well": 1794646863.6832287,
+    "1135761": 1794646863.6832287,
+    "title:America Can Do Good—and Do Well": 1794646863.6832287,
+    "https://www.foreignaffairs.com/economics/paradox-dollar-dominance": 1794646863.6832721,
+    "1135752": 1794646863.6832721,
+    "title:The Paradox of Dollar Dominance": 1794646863.6832721
   },
   "events": [
-    {
-      "key": "日本軍事部署限制",
-      "timestamp": 1794386480.9249918
-    },
-    {
-      "key": "中共二十大對台脅迫",
-      "timestamp": 1794387651.5772498
-    },
     {
       "key": "兩岸反滲透法交鋒",
       "timestamp": 1794391254.741632
@@ -2338,6 +2312,10 @@
     {
       "key": "美中貿易委員會會談",
       "timestamp": 1794643252.0444827
+    },
+    {
+      "key": "海軍集團SCX26無人母艦",
+      "timestamp": 1794646849.4873168
     }
   ]
 }
