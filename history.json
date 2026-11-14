@@ -1,22 +1,5 @@
 {
   "ids": {
-    "https://www.twz.com/land/army-wants-new-palletized-short-range-air-defenses-in-service-by-the-end-of-2029": 1794354926.3081207,
-    "https://www.twz.com/?p=6605521": 1794354926.3081207,
-    "title:Army Wants New Palletized Short-Range Air Defenses In Service By The End Of 2029": 1794354926.3081207,
-    "https://www.lowyinstitute.org/the-interpreter/owning-a-satellite-isn-t-the-same-as-owning-the-expertise-to-replace-it": 1794355261.5978358,
-    "title:Owning a satellite isn’t the same as owning the expertise to replace it": 1794355261.5978358,
-    "https://www.lowyinstitute.org/the-interpreter/australia-talks-tough-on-sudan-but-won-t-confront-patrons-in-uae": 1794358873.3667655,
-    "title:Australia talks tough on Sudan but won’t confront patrons in UAE": 1794358873.3667655,
-    "https://www.lowyinstitute.org/the-interpreter/jensen-huang-s-affair-exposes-silicon-valley-s-national-security-power": 1794362448.4570825,
-    "title:Jensen Huang’s affair exposes Silicon Valley’s national security power": 1794362448.4570825,
-    "https://www.cna.com.tw/news/acn/202611110057.aspx": 1794367244.858593,
-    "CNA/2026-11-11/202611110057": 1794367244.858593,
-    "title:日媒：APEC峰會習近平與各國首腦會談 日本恐遭獨漏": 1794367244.858593,
-    "https://www.cna.com.tw/news/acn/202611110047.aspx": 1794367258.7521498,
-    "CNA/2026-11-11/202611110047": 1794367258.7521498,
-    "title:港媒：中共21大代表 可能首次有外賣員、快遞員等新就業群體": 1794367258.7521498,
-    "https://www.lowyinstitute.org/the-interpreter/cop31-rebuilding-the-loss-and-damage-fund-for-speed": 1794368325.509289,
-    "title:COP31: Rebuilding the Loss and Damage Fund for speed": 1794368325.509289,
     "https://www.cna.com.tw/news/ait/202611110054.aspx": 1794369649.1623588,
     "CNA/2026-11-11/202611110054": 1794369649.1623588,
     "title:傳記作者：輝達不會輕易開除黃仁勳 國會聽證若公開將成最大威脅": 1794369649.1623588,
@@ -1907,29 +1890,12 @@
     "title:What the Fa’az Missile Means for Pakistan’s Air Force": 1794612032.3393354,
     "https://thediplomat.com/2026/11/squad-nations-to-establish-coordination-hub-in-the-philippines-defense-chiefs-say": 1794613783.839162,
     "https://thediplomat.com/2026/11/squad-nations-to-establish-coordination-hub-in-the-philippines-defense-chiefs-say/": 1794613783.839162,
-    "title:‘Squad’ Nations to Establish Coordination Hub in the Philippines, Defense Chiefs Say": 1794613783.839162
+    "title:‘Squad’ Nations to Establish Coordination Hub in the Philippines, Defense Chiefs Say": 1794613783.839162,
+    "https://www.cna.com.tw/news/acn/202611140044.aspx": 1794627638.0757253,
+    "CNA/2026-11-14/202611140044": 1794627638.0757253,
+    "title:韓國外長趙顯晤王毅 盼APEC兩國元首會面促進中韓關係發展": 1794627638.0757253
   },
   "events": [
-    {
-      "key": "美軍模組化短程防空部署",
-      "timestamp": 1794354928.0767956
-    },
-    {
-      "key": "澳洲蘇丹制裁",
-      "timestamp": 1794358889.9222426
-    },
-    {
-      "key": "輝達執行長涉中爭議",
-      "timestamp": 1794362454.6138003
-    },
-    {
-      "key": "中日APEC峰會僵局",
-      "timestamp": 1794367250.751768
-    },
-    {
-      "key": "中共二十大代表納入新就業群體",
-      "timestamp": 1794367264.1013157
-    },
     {
       "key": "輝達執行長地緣政治危機",
       "timestamp": 1794369657.497535
@@ -2409,6 +2375,10 @@
     {
       "key": "美軍外購巡防艦計畫",
       "timestamp": 1794610854.8386877
+    },
+    {
+      "key": "中韓外長會談",
+      "timestamp": 1794627640.023175
     }
   ]
 }
