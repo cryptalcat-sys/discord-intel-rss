@@ -1,12 +1,5 @@
 {
   "ids": {
-    "https://www.lowyinstitute.org/the-interpreter/when-it-comes-to-japan-china-finds-it-hard-to-think-straight": 1794438064.013682,
-    "title:When it comes to Japan, China finds it hard to think straight": 1794438064.013682,
-    "https://www.lowyinstitute.org/the-interpreter/japan-needs-to-separate-protection-from-migration-for-myanmar": 1794438111.5561666,
-    "title:Japan needs to separate protection from migration for Myanmar": 1794438111.5561666,
-    "https://www.atlanticcouncil.org/blogs/ukrainealert/putin-suffers-balkan-setbacks-as-russia-struggles-to-retain-influence": 1794438114.6783803,
-    "https://www.atlanticcouncil.org/?p=958820": 1794438114.6783803,
-    "title:Putin suffers Balkan setbacks as Russia struggles to retain influence": 1794438114.6783803,
     "https://www.lowyinstitute.org/the-interpreter/the-climate-card-china-has-yet-to-play": 1794445264.4501498,
     "title:The climate card China has yet to play": 1794445264.4501498,
     "https://www.cna.com.tw/news/aopl/202611090014.aspx": 1794445698.6464164,
@@ -1721,13 +1714,15 @@
     "title:US–China strategic stability doesn’t reach the water": 1794697250.6056356,
     "https://www.cna.com.tw/news/ait/202611130018.aspx": 1794697251.4601374,
     "CNA/2026-11-13/202611130018": 1794697251.4601374,
-    "title:「輝達之道」作者談黃仁勳接班人 看好哈斯、巴克延續成功故事": 1794697251.4601374
+    "title:「輝達之道」作者談黃仁勳接班人 看好哈斯、巴克延續成功故事": 1794697251.4601374,
+    "https://www.atlanticcouncil.org/dispatches/the-six-strategic-mistakes-that-led-to-us-defeat-in-afghanistan": 1794698432.0597863,
+    "https://www.atlanticcouncil.org/?p=958640": 1794698432.0597863,
+    "title:The six strategic mistakes that led to US defeat in Afghanistan": 1794698432.0597863,
+    "https://news.usni.org/2026/11/09/ss-united-states-towed-from-mobile-berth-ahead-of-sinking": 1794698433.5851076,
+    "https://news.usni.org/?p=126505": 1794698433.5851076,
+    "title:SS United States Towed from Mobile Berth Ahead of Sinking": 1794698433.5851076
   },
   "events": [
-    {
-      "key": "中日台交惡僵局",
-      "timestamp": 1794438103.5545514
-    },
     {
       "key": "中美太平洋島嶼博弈",
       "timestamp": 1794445303.4890149
