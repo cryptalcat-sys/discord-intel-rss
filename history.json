@@ -1,8 +1,5 @@
 {
   "ids": {
-    "https://www.navalnews.com/naval-news/2026/11/australian-propulsion-specialist-veem-wins-work-on-us-submarines": 1794469236.863821,
-    "https://www.navalnews.com/?p=93464": 1794469236.863821,
-    "title:Australian naval propulsion specialist VEEM wins work on US Navy submarines": 1794469236.863821,
     "https://www.youtube.com/shorts/iGZJre6eEDw": 1794470448.8368852,
     "yt:video:iGZJre6eEDw": 1794470448.8368852,
     "title:雙層包圍態勢 共軍海空聯訓施壓東台灣｜ 公共電視 - 尖鋒對話": 1794470448.8368852,
@@ -1722,13 +1719,12 @@
     "title:La última oportunidad para la paz": 1794718857.9876554,
     "https://www.cna.com.tw/news/ait/202611130120.aspx": 1794718864.320783,
     "CNA/2026-11-13/202611130120": 1794718864.320783,
-    "title:傳記作者揭黃仁勳雙面人設 私下如暴君痛罵高層1小時": 1794718864.320783
+    "title:傳記作者揭黃仁勳雙面人設 私下如暴君痛罵高層1小時": 1794718864.320783,
+    "https://www.cna.com.tw/news/ait/202611130174.aspx": 1794728442.9890509,
+    "CNA/2026-11-13/202611130174": 1794728442.9890509,
+    "title:SpaceX將試射星艦 首度挑戰發射塔回收上段太空船": 1794728442.9890509
   },
   "events": [
-    {
-      "key": "澳廠供應美艦推進器",
-      "timestamp": 1794469242.0152855
-    },
     {
       "key": "共軍東台灣海空聯訓",
       "timestamp": 1794470471.4245002
