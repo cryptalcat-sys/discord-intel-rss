@@ -1,38 +1,5 @@
 {
   "ids": {
-    "https://news.usni.org/2026/11/06/theodore-roosevelt-carrier-strike-group-pulls-into-singapore": 1794496831.5631742,
-    "https://news.usni.org/?p=126450": 1794496831.5631742,
-    "title:Theodore Roosevelt Carrier Strike Group Pulls Into Singapore": 1794496831.5631742,
-    "https://www.defensenews.com/global/europe/2026/11/12/finland-says-it-detects-strike-on-russian-warship-in-baltic-sea": 1794496835.748661,
-    "https://one.sightlinemg.com/defensenews/?p=87829": 1794496835.748661,
-    "title:Finland says it detects strike on Russian warship in Baltic Sea": 1794496835.748661,
-    "https://www.bruegel.org/node/12486": 1794498038.646441,
-    "12486 at https://www.bruegel.org": 1794498038.646441,
-    "title:Session 5b: The path to Ukraine’s membership of the EU: conversation with Ambassador-designate Kachka": 1794498038.646441,
-    "https://www.bruegel.org/node/12451": 1794498038.646515,
-    "12451 at https://www.bruegel.org": 1794498038.646515,
-    "title:Session 2a: Can the EU's better regulation agenda deliver competitiveness?": 1794498038.646515,
-    "https://www.bruegel.org/node/12382": 1794498038.646572,
-    "12382 at https://www.bruegel.org": 1794498038.646572,
-    "title:Lunch": 1794498038.646572,
-    "https://www.bruegel.org/node/12381": 1794498038.646626,
-    "12381 at https://www.bruegel.org": 1794498038.646626,
-    "title:Session 1b: Global monetary issues": 1794498038.646626,
-    "https://www.bruegel.org/node/12380": 1794498038.6466727,
-    "12380 at https://www.bruegel.org": 1794498038.6466727,
-    "title:Session 2b: What would make the European Economy secure in 2030?": 1794498038.6466727,
-    "https://www.bruegel.org/node/12379": 1794498038.6467135,
-    "12379 at https://www.bruegel.org": 1794498038.6467135,
-    "title:Coffee break": 1794498038.6467135,
-    "https://www.bruegel.org/node/12377": 1794498038.6467557,
-    "12377 at https://www.bruegel.org": 1794498038.6467557,
-    "title:Session 1a: Europe's digital sovereignty: lessons from China's AI quest": 1794498038.6467557,
-    "https://www.bruegel.org/node/12376": 1794498038.6468294,
-    "12376 at https://www.bruegel.org": 1794498038.6468294,
-    "title:Session 6b: Can Europe become more “Schumpeterian” and how?": 1794498038.6468294,
-    "https://www.bruegel.org/node/12375": 1794498038.646892,
-    "12375 at https://www.bruegel.org": 1794498038.646892,
-    "title:Session 6a: European trade policy beyond FTAs: what is feasible without the US and China?": 1794498038.646892,
     "https://pourquoi.tw/39th-anniversary-of-the-lifting-of-martial-law": 1794498045.3272295,
     "https://pourquoi.tw/?p=204751": 1794498045.3272295,
     "title:台灣民主的未竟之業 —— 解嚴39週年的回顧與展望": 1794498045.3272295,
@@ -1707,13 +1674,12 @@
     "title:Euronaval 2026: CMN Unveils 107-Meter Multi-Mission Corvette": 1794754858.740476,
     "https://www.atlanticcouncil.org/blogs/energysource/why-belgrades-new-government-should-not-let-the-vertical-gas-corridor-slip": 1794755062.3377934,
     "https://www.atlanticcouncil.org/?p=958712": 1794755062.3377934,
-    "title:Why Belgrade’s new government should not let the Vertical Gas Corridor slip": 1794755062.3377934
+    "title:Why Belgrade’s new government should not let the Vertical Gas Corridor slip": 1794755062.3377934,
+    "https://breakingdefense.com/2026/11/gadi-eisenkot-could-be-israels-next-leader-his-military-experience-will-drive-his-approach": 1794757243.875618,
+    "https://breakingdefense.com/?p=100993": 1794757243.875618,
+    "title:Gadi Eisenkot could be Israel’s next leader. His military experience will drive his approach.": 1794757243.875618
   },
   "events": [
-    {
-      "key": "波羅的海俄艦遇襲",
-      "timestamp": 1794496880.8787494
-    },
     {
       "key": "俄中對日北方領土",
       "timestamp": 1794499269.6013072
