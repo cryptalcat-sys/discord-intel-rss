@@ -1,11 +1,5 @@
 {
   "ids": {
-    "https://www.atlanticcouncil.org/insight-impact/in-the-news/tannebaum-quoted-in-the-new-york-times-on-us-unreliability-influencing-de-dollarization-efforts-4-3": 1794502929.2047617,
-    "https://www.atlanticcouncil.org/?p=958863": 1794502929.2047617,
-    "title:Chhangani quoted in an AFP article on the G20 foreign ministers’ meeting in Atlanta": 1794502929.2047617,
-    "https://www.atlanticcouncil.org/insight-impact/in-the-news/tannebaum-quoted-in-the-new-york-times-on-us-unreliability-influencing-de-dollarization-efforts-4-2": 1794502929.2048154,
-    "https://www.atlanticcouncil.org/?p=958861": 1794502929.2048154,
-    "title:Lipsky quoted in a South China Morning Post article on how Democrats could push to rein in Trump’s tariffs and give Congress more control over trade policy": 1794502929.2048154,
     "https://www.twz.com/air/new-facilities-to-pump-out-upgraded-f-a-18e-f-super-hornets-eyed-by-navy": 1794505232.1336439,
     "https://www.twz.com/?p=6606989": 1794505232.1336439,
     "title:New Facilities To Pump Out Upgraded F/A-18E/F Super Hornets Eyed By Navy": 1794505232.1336439,
@@ -1671,13 +1665,26 @@
     "title:Syria shouldn’t join the Mecca Alliance. It should cooperate with it.": 1794762059.596116,
     "https://www.atlanticcouncil.org/insight-impact/in-the-news/tannebaum-quoted-in-the-new-york-times-on-us-unreliability-influencing-de-dollarization-efforts-4-6": 1794762059.5968075,
     "https://www.atlanticcouncil.org/?p=958871": 1794762059.5968075,
-    "title:Chhangani’s article on the future of the digital euro cited in an OMFIF article": 1794762059.5968075
+    "title:Chhangani’s article on the future of the digital euro cited in an OMFIF article": 1794762059.5968075,
+    "https://news.usni.org/2026/11/12/breaking-uss-south-dakota-command-triad-relieved-after-october-grounding-congressman-says": 1794763231.8820913,
+    "https://news.usni.org/?p=126537": 1794763231.8820913,
+    "title:UPDATED: USS South Dakota Command Triad Relieved After October Grounding, Congressman Says": 1794763231.8820913,
+    "https://www.atlanticcouncil.org/insight-impact/in-the-news/tannebaum-quoted-in-the-new-york-times-on-us-unreliability-influencing-de-dollarization-efforts-4-5": 1794763232.7872145,
+    "https://www.atlanticcouncil.org/?p=958869": 1794763232.7872145,
+    "title:Lichfield interviewed by France Culture (Radio France) on how Trump’s economic policies could affect Republican support in the 2026 midterm elections": 1794763232.7872145,
+    "https://www.atlanticcouncil.org/insight-impact/in-the-news/tannebaum-quoted-in-the-new-york-times-on-us-unreliability-influencing-de-dollarization-efforts-4-4": 1794763232.7872722,
+    "https://www.atlanticcouncil.org/?p=958865": 1794763232.7872722,
+    "title:Piasecki’s research on Venezuela’s debt restructuring cited in a Congressional Research Service report": 1794763232.7872722,
+    "https://www.defensenews.com/global/europe/2026/11/13/italy-boosts-gcap-fighter-spending-as-army-vehicles-take-a-hit-in-budget": 1794763242.9864166,
+    "https://one.sightlinemg.com/defensenews/?p=87903": 1794763242.9864166,
+    "title:Italy boosts GCAP fighter spending as Army vehicles take a hit in budget": 1794763242.9864166,
+    "https://www.lowyinstitute.org/the-interpreter/yalta-2-0-a-trump-xi-putin-summit-has-little-upside-for-beijing": 1794763246.0388985,
+    "title:Yalta 2.0: A Trump-Xi-Putin summit has little upside for Beijing": 1794763246.0388985,
+    "https://breakingdefense.com/2026/11/cry-drone-and-let-slip-the-fruit-flies-of-war": 1794763246.152613,
+    "https://breakingdefense.com/?p=100880": 1794763246.152613,
+    "title:Cry ‘drone,’ and let slip the fruit flies of war": 1794763246.152613
   },
   "events": [
-    {
-      "key": "美潛艇擱淺換將",
-      "timestamp": 1794502874.480268
-    },
     {
       "key": "美海軍超黃蜂升級",
       "timestamp": 1794505256.6748383
