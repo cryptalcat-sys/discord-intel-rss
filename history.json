@@ -1,22 +1,5 @@
 {
   "ids": {
-    "https://www.atlanticcouncil.org/content-series/fastthinking/what-jensen-huangs-nvidia-exit-means-for-washington-wall-street-and-beijing": 1794519642.3860366,
-    "https://www.atlanticcouncil.org/?p=960169": 1794519642.3860366,
-    "title:What Jensen Huang’s Nvidia exit means for Washington, Wall Street, and Beijing": 1794519642.3860366,
-    "https://www.defensenews.com/global/europe/2026/11/12/pentagon-greenlit-permanent-presence-of-us-troops-in-poland-official-says": 1794519655.320972,
-    "https://one.sightlinemg.com/defensenews/news/2026/11/12/pentagon-greenlit-permanent-presence-of-us-troops-in-poland-official-says/": 1794519655.320972,
-    "title:Pentagon ‘greenlit’ permanent presence of US troops in Poland, official says": 1794519655.320972,
-    "https://www.defensenews.com/global/europe/2026/11/10/us-soldier-arrested-in-uk-for-suspected-espionage-for-russia": 1794519665.6400294,
-    "title:US soldier arrested in UK for suspected ‘espionage’ for Russia": 1794519665.6400294,
-    "https://news.usni.org/2026/11/12/u-s-transfers-unmanned-surface-vessels-to-philippine-marine-corps": 1794519668.5720024,
-    "https://news.usni.org/?p=126557": 1794519668.5720024,
-    "title:U.S. Transfers Unmanned Surface Vessels to Philippine Marine Corps": 1794519668.5720024,
-    "https://www.atlanticcouncil.org/blogs/ukrainealert/putins-chief-negotiator-vows-to-return-every-inch-of-russian-land-in-ukraine": 1794520848.2947402,
-    "https://www.atlanticcouncil.org/?p=960326": 1794520848.2947402,
-    "title:Putin’s chief negotiator vows to return ‘every inch of Russian land’ in Ukraine": 1794520848.2947402,
-    "https://www.atlanticcouncil.org/dispatches/beyond-the-spy-scandal-what-the-nvidia-megaspeed-case-reveals-about-export-controls": 1794520858.12078,
-    "https://www.atlanticcouncil.org/?p=960191": 1794520858.12078,
-    "title:Beyond the spy scandal: What the Nvidia-Megaspeed case reveals about export controls": 1794520858.12078,
     "https://news.usni.org/2026/11/09/hegseth-calls-for-sweeping-military-education-changes-in-naval-war-college-address": 1794520869.3341768,
     "https://news.usni.org/?p=126495": 1794520869.3341768,
     "title:Hegseth Calls for Sweeping Military Education Changes in Naval War College Address": 1794520869.3341768,
@@ -1692,25 +1675,27 @@
     "title:Talks, Attacks, and a Heist": 1794774300.2498991,
     "https://breakingdefense.com/2026/11/senate-appropriators-resuscitate-commerce-space-tracking-program": 1794778836.9809017,
     "https://breakingdefense.com/?p=101040": 1794778836.9809017,
-    "title:Senate appropriators resuscitate Commerce space tracking program": 1794778836.9809017
+    "title:Senate appropriators resuscitate Commerce space tracking program": 1794778836.9809017,
+    "https://news.usni.org/2026/11/12/royal-navy-to-trial-northrop-grumman-test-aircraft-on-carrier-in-2027": 1794780046.2834358,
+    "https://news.usni.org/?p=126549": 1794780046.2834358,
+    "title:Royal Navy to Trial Northrop Grumman Test Aircraft on Carrier in 2027": 1794780046.2834358,
+    "https://www.twz.com/air/usaf-aircraft-continue-to-reposition-away-from-raf-mildenhall-amid-reports-of-iranian-threats": 1794780048.3175962,
+    "https://www.twz.com/?p=6606460": 1794780048.3175962,
+    "title:USAF Aircraft Continue To Reposition Away From RAF Mildenhall Amid Reports Of Iranian Threats": 1794780048.3175962,
+    "https://breakingdefense.com/2026/11/delivering-first-columbia-class-sub-in-2028-is-absolutely-achievable-sub-czar-says": 1794780056.7444935,
+    "https://breakingdefense.com/?p=100964": 1794780056.7444935,
+    "title:Delivering first Columbia-class sub in 2028 is ‘absolutely achievable’, sub czar says": 1794780056.7444935,
+    "https://breakingdefense.com/2026/11/sda-explores-integration-of-spacex-laser-communication-terminals-with-missile-tracking-sats": 1794780056.7445722,
+    "https://breakingdefense.com/?p=100930": 1794780056.7445722,
+    "title:SDA explores integration of SpaceX laser communication terminals with missile tracking sats": 1794780056.7445722,
+    "https://www.atlanticcouncil.org/blogs/econographics/the-digital-yuan-is-only-part-of-chinas-expanding-global-payments-network": 1794780057.5730002,
+    "https://www.atlanticcouncil.org/?p=960006": 1794780057.5730002,
+    "title:The digital yuan is only part of China’s expanding global payments network": 1794780057.5730002,
+    "https://www.atlanticcouncil.org/blogs/ukrainealert/europe-sees-surge-in-suspected-russian-hybrid-warfare-incidents": 1794780057.5732002,
+    "https://www.atlanticcouncil.org/?p=959811": 1794780057.5732002,
+    "title:Europe sees surge in suspected Russian hybrid warfare incidents": 1794780057.5732002
   },
   "events": [
-    {
-      "key": "輝達高層異動與美中博弈",
-      "timestamp": 1794519644.4941108
-    },
-    {
-      "key": "美軍常駐波蘭防務部署",
-      "timestamp": 1794519657.638681
-    },
-    {
-      "key": "美菲無人艇移交與防務",
-      "timestamp": 1794519670.9959013
-    },
-    {
-      "key": "俄烏衝突談判立場",
-      "timestamp": 1794520850.1196089
-    },
     {
       "key": "輝達間諜案與出口管制",
       "timestamp": 1794520860.214503
