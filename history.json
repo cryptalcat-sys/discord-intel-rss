@@ -1,11 +1,5 @@
 {
   "ids": {
-    "https://www.cna.com.tw/news/acn/202611120311.aspx": 1794482435.1578555,
-    "CNA/2026-11-12/202611120311": 1794482435.1578555,
-    "title:國台辦稱跨國鎮壓是謊言 梁文傑：經不起檢驗": 1794482435.1578555,
-    "https://www.navalnews.com/event-news/euronaval-2026/2026/11/video-fincantieri-unveils-mmmv-details-fremm-evo-and-ddx-destroyer": 1794483634.759231,
-    "https://www.navalnews.com/?p=93481": 1794483634.759231,
-    "title:Video: Fincantieri Unveils MMMV, Details FREMM Evo and DDX Destroyer": 1794483634.759231,
     "https://www.atlanticcouncil.org/in-depth-research-reports/report/water-infrastructure-at-the-mediterraneans-inflection-point": 1794492047.9167109,
     "https://www.atlanticcouncil.org/?p=957535": 1794492047.9167109,
     "title:Water infrastructure at the Mediterranean’s inflection point: Financing resilience for an industrializing, digitalizing region": 1794492047.9167109,
@@ -1723,17 +1717,11 @@
     "title:Can Washington and China Build Confidence Around AI and Stability?": 1794739230.6698666,
     "https://www.atlanticcouncil.org/insight-impact/in-the-news/yevgeniya-gaber-discusses-black-sea-security-as-russia-tests-regional-nato-allies": 1794740455.102299,
     "https://www.atlanticcouncil.org/?p=959982": 1794740455.102299,
-    "title:Yevgeniya Gaber discusses Black Sea Security as Russia tests regional NATO allies": 1794740455.102299
+    "title:Yevgeniya Gaber discusses Black Sea Security as Russia tests regional NATO allies": 1794740455.102299,
+    "https://www.piie.com/publications/working-papers/2026/debt-sustainability-and-range-multiple-equilibria": 1794744054.8308086,
+    "title:Debt sustainability and the range of multiple equilibria": 1794744054.8308086
   },
   "events": [
-    {
-      "key": "陸台跨國鎮壓爭議",
-      "timestamp": 1794482446.6952374
-    },
-    {
-      "key": "歐洲海軍造艦與新型水面艦艇",
-      "timestamp": 1794483637.1959538
-    },
     {
       "key": "輝達晶片出口違規",
       "timestamp": 1794493262.7804341
