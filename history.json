@@ -1,14 +1,5 @@
 {
   "ids": {
-    "https://www.cna.com.tw/news/acn/202611120090.aspx": 1794458448.481873,
-    "CNA/2026-11-12/202611120090": 1794458448.481873,
-    "title:中共形塑「議統」氛圍 邱垂正：政府堅定捍衛國家主權": 1794458448.481873,
-    "https://www.cna.com.tw/news/acn/202611120089.aspx": 1794458458.7821643,
-    "CNA/2026-11-12/202611120089": 1794458458.7821643,
-    "title:邱垂正：黃樂2024至2025年共來台8次": 1794458458.7821643,
-    "https://www.cna.com.tw/news/acn/202611120078.aspx": 1794459655.3910003,
-    "CNA/2026-11-12/202611120078": 1794459655.3910003,
-    "title:王毅盧比歐通話 稱中方願與美互支持辦好APEC和G20峰會": 1794459655.3910003,
     "https://www.navalnews.com/naval-news/2026/11/australian-propulsion-specialist-veem-wins-work-on-us-submarines": 1794469236.863821,
     "https://www.navalnews.com/?p=93464": 1794469236.863821,
     "title:Australian naval propulsion specialist VEEM wins work on US Navy submarines": 1794469236.863821,
@@ -1725,21 +1716,15 @@
     "CNA/2026-11-15/202611150048": 1794715256.3699133,
     "title:APEC將登場 分析：中日首腦會談機會低兩國短期難破冰": 1794715256.3699133,
     "https://www.lowyinstitute.org/the-interpreter/the-ocean-is-missing-from-climate-diplomacy-again": 1794715270.831871,
-    "title:The ocean is missing from climate diplomacy. Again.": 1794715270.831871
+    "title:The ocean is missing from climate diplomacy. Again.": 1794715270.831871,
+    "https://www.foreignaffairs.com/es/spain/pedro-sanchez-ultima-oportunidad-paz-evitar-guerra-mundial": 1794718857.9876554,
+    "1135757": 1794718857.9876554,
+    "title:La última oportunidad para la paz": 1794718857.9876554,
+    "https://www.cna.com.tw/news/ait/202611130120.aspx": 1794718864.320783,
+    "CNA/2026-11-13/202611130120": 1794718864.320783,
+    "title:傳記作者揭黃仁勳雙面人設 私下如暴君痛罵高層1小時": 1794718864.320783
   },
   "events": [
-    {
-      "key": "中共對台施壓與統戰",
-      "timestamp": 1794458450.7817395
-    },
-    {
-      "key": "陸委會黃樂來台調查",
-      "timestamp": 1794458464.211409
-    },
-    {
-      "key": "美中外長通話互動",
-      "timestamp": 1794459659.0103502
-    },
     {
       "key": "澳廠供應美艦推進器",
       "timestamp": 1794469242.0152855
