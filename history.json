@@ -1,8 +1,5 @@
 {
   "ids": {
-    "https://news.usni.org/2026/11/12/ssnx-attack-boat-will-be-a-swift-lethal-mothership-for-undersea-drones-navy-says": 1794524445.9048645,
-    "https://news.usni.org/?p=126566": 1794524445.9048645,
-    "title:SSN(X) Attack Boat Will be a Swift, Lethal Mothership for Undersea Drones, Navy Says": 1794524445.9048645,
     "https://www.lowyinstitute.org/the-interpreter/eleven-phones-and-the-spectre-of-treason-jakarta-s-wiretap-scandal": 1794524462.5090582,
     "title:Eleven phones and the spectre of treason: Jakarta’s wiretap scandal": 1794524462.5090582,
     "https://jamestown.org/russias-push-for-ai-sovereignty-faces-setbacks": 1794528060.6261888,
@@ -1701,13 +1698,21 @@
     "title:Ukraine’s new drone blitz cuts Russian oil refining capacity by 30 percent": 1794782434.7141478,
     "https://news.usni.org/2026/11/09/hegseth-calls-for-sweeping-military-education-changes-in-naval-war-college-address": 1794782435.5349472,
     "https://news.usni.org/?p=126495": 1794782435.5349472,
-    "title:Hegseth Calls for Sweeping Military Education Changes in Naval War College Address": 1794782435.5349472
+    "title:Hegseth Calls for Sweeping Military Education Changes in Naval War College Address": 1794782435.5349472,
+    "https://www.twz.com/air/faa-orders-ground-stop-for-all-flights-across-the-u-s": 1794783644.8988802,
+    "https://www.twz.com/?p=6607564": 1794783644.8988802,
+    "title:FAA Orders Ground Stop For All Flights Across The U.S. (Updated)": 1794783644.8988802,
+    "https://www.twz.com/air/operational-f-15exs-have-started-flying-with-conformal-fuel-tanks": 1794783644.8997684,
+    "https://www.twz.com/?p=6605560": 1794783644.8997684,
+    "title:Operational F-15EXs Have Started Flying With Conformal Fuel Tanks": 1794783644.8997684,
+    "https://www.atlanticcouncil.org/in-depth-research-reports/issue-brief/to-settle-russias-ukraine-war-europe-needs-to-let-kyiv-in-trump-can-help-really": 1794783645.8168194,
+    "https://www.atlanticcouncil.org/?p=959062": 1794783645.8168194,
+    "title:To settle Russia’s Ukraine war, Europe needs to let Kyiv in. Trump can help (really).": 1794783645.8168194,
+    "https://news.usni.org/2026/11/06/the-future-of-french-fleet-close-in-defense": 1794783653.798087,
+    "https://news.usni.org/?p=126439": 1794783653.798087,
+    "title:The Future of French Fleet Close-in Defense": 1794783653.798087
   },
   "events": [
-    {
-      "key": "美軍SSN(X)水下母艦",
-      "timestamp": 1794524447.6238275
-    },
     {
       "key": "俄羅斯AI主權受挫",
       "timestamp": 1794528062.1494997
