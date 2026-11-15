@@ -1,23 +1,5 @@
 {
   "ids": {
-    "https://www.cna.com.tw/news/acn/202611120212.aspx": 1794471724.2331853,
-    "CNA/2026-11-12/202611120212": 1794471724.2331853,
-    "title:中共紀念孫中山誕辰 習近平藉機重彈和平統一反台獨論調": 1794471724.2331853,
-    "https://www.youtube.com/shorts/_AO-73R9Xv8": 1794472833.2260711,
-    "yt:video:_AO-73R9Xv8": 1794472833.2260711,
-    "title:出口管制法辦輝達 學者：不致成國安危機｜ 公共電視 - 尖鋒對話": 1794472833.2260711,
-    "https://warontherocks.com/winning-time-ukraines-unmanned-systems-forces-and-the-new-dimension-of-war": 1794472834.105015,
-    "https://warontherocks.com/?p=48517": 1794472834.105015,
-    "title:Winning Time: Ukraine’s Unmanned Systems Forces and the New Dimension of War": 1794472834.105015,
-    "https://www.youtube.com/shorts/_nFzjUB5lbg": 1794472835.8820152,
-    "yt:video:_nFzjUB5lbg": 1794472835.8820152,
-    "title:Could Democrats Push Trump on Taiwan Arms Sales? | Taiwan Talks #shorts": 1794472835.8820152,
-    "https://www.youtube.com/shorts/vataQzF6_ZQ": 1794472835.882046,
-    "yt:video:vataQzF6_ZQ": 1794472835.882046,
-    "title:Is India Joining Malabar To Counter China? | Taiwan Talks #shorts": 1794472835.882046,
-    "https://www.youtube.com/shorts/D27HR0CTopU": 1794472835.8820772,
-    "yt:video:D27HR0CTopU": 1794472835.8820772,
-    "title:Is China Blurring Line Between Drills and War? | Taiwan Talks #shorts": 1794472835.8820772,
     "https://warontherocks.com/cogs-of-war/to-implement-acquisition-transformation-empower-military-mavericks": 1794474058.4863877,
     "https://warontherocks.com/?p=48385": 1794474058.4863877,
     "title:To Implement Acquisition Transformation, Empower Military Mavericks": 1794474058.4863877,
@@ -1707,17 +1689,30 @@
     "title:南韓外交官：川普金正恩會晤可能性不大 但不能排除": 1794730852.2413025,
     "https://www.cna.com.tw/news/acn/202611150102.aspx": 1794730899.698892,
     "CNA/2026-11-15/202611150102": 1794730899.698892,
-    "title:黃仁勳風波後美恐緊縮晶片出口 中國官媒憂衝擊尖端算力": 1794730899.698892
+    "title:黃仁勳風波後美恐緊縮晶片出口 中國官媒憂衝擊尖端算力": 1794730899.698892,
+    "https://www.youtube.com/shorts/iGZJre6eEDw": 1794732031.1118414,
+    "yt:video:iGZJre6eEDw": 1794732031.1118414,
+    "title:雙層包圍態勢 共軍海空聯訓施壓東台灣｜ 公共電視 - 尖鋒對話": 1794732031.1118414,
+    "https://www.youtube.com/shorts/j-b8fnLkZWY": 1794732031.1118948,
+    "yt:video:j-b8fnLkZWY": 1794732031.1118948,
+    "title:無聲軍演非政治宣傳 實戰導向強化訓練｜ 公共電視 - 尖鋒對話": 1794732031.1118948,
+    "https://www.youtube.com/shorts/AehRwQlQ9fk": 1794732031.1121557,
+    "yt:video:AehRwQlQ9fk": 1794732031.1121557,
+    "title:不為刺探輝達機密 黃樂想探美國情報｜ 公共電視 - 尖鋒對話": 1794732031.1121557,
+    "https://www.cna.com.tw/news/aopl/202611130197.aspx": 1794732032.1409333,
+    "CNA/2026-11-13/202611130197": 1794732032.1409333,
+    "title:因應AI資安威脅增加 泰國成立跨國小組加強防護": 1794732032.1409333,
+    "https://www.cna.com.tw/news/ait/202611120205.aspx": 1794732032.1413248,
+    "CNA/2026-11-12/202611120205": 1794732032.1413248,
+    "title:美擬禁止中企遠端用AI晶片 管制擴及星馬泰等7國": 1794732032.1413248,
+    "https://www.cna.com.tw/news/aopl/202611120169.aspx": 1794732032.1413717,
+    "CNA/2026-11-12/202611120169": 1794732032.1413717,
+    "title:黃仁勳另爆出軌公司女主管 專家：若遭撤換重大打擊AI產業": 1794732032.1413717,
+    "https://www.navalnews.com/naval-news/2026/11/malaysia-selects-roketsans-atmaca-to-replace-nsm-on-littoral-combat-ships": 1794732039.7567701,
+    "https://www.navalnews.com/?p=93536": 1794732039.7567701,
+    "title:Malaysia Selects Roketsan’s ATMACA to Replace NSM on Littoral Combat Ships": 1794732039.7567701
   },
   "events": [
-    {
-      "key": "英遠征軍簽署北海防務倡議",
-      "timestamp": 1794471712.543278
-    },
-    {
-      "key": "中共涉台統戰論調",
-      "timestamp": 1794471725.8228934
-    },
     {
       "key": "歐洲防務展自殺式無人艇",
       "timestamp": 1794476438.198355
@@ -2073,6 +2068,10 @@
     {
       "key": "美中晶片出口管制",
       "timestamp": 1794730901.3752627
+    },
+    {
+      "key": "馬國巡邏艦換裝反艦飛彈",
+      "timestamp": 1794732042.561158
     }
   ]
 }
