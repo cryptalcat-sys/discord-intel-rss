@@ -1719,7 +1719,10 @@
     "https://www.atlanticcouncil.org/?p=959982": 1794740455.102299,
     "title:Yevgeniya Gaber discusses Black Sea Security as Russia tests regional NATO allies": 1794740455.102299,
     "https://www.piie.com/publications/working-papers/2026/debt-sustainability-and-range-multiple-equilibria": 1794744054.8308086,
-    "title:Debt sustainability and the range of multiple equilibria": 1794744054.8308086
+    "title:Debt sustainability and the range of multiple equilibria": 1794744054.8308086,
+    "https://www.atlanticcouncil.org/in-depth-research-reports/issue-brief/a-new-vision-for-the-vertical-corridor-european-energy-security-through-infrastructure-optimization": 1794745235.5259821,
+    "https://www.atlanticcouncil.org/?p=959775": 1794745235.5259821,
+    "title:A new vision for the Vertical Corridor: European energy security through infrastructure optimization": 1794745235.5259821
   },
   "events": [
     {
@@ -2065,6 +2068,10 @@
     {
       "key": "馬國巡邏艦換裝反艦飛彈",
       "timestamp": 1794732042.561158
+    },
+    {
+      "key": "歐洲縱向天然氣走廊",
+      "timestamp": 1794745237.9653332
     }
   ]
 }
