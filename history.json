@@ -1,11 +1,5 @@
 {
   "ids": {
-    "https://news.usni.org/2026/11/09/hegseth-calls-for-sweeping-military-education-changes-in-naval-war-college-address": 1794520869.3341768,
-    "https://news.usni.org/?p=126495": 1794520869.3341768,
-    "title:Hegseth Calls for Sweeping Military Education Changes in Naval War College Address": 1794520869.3341768,
-    "https://www.atlanticcouncil.org/blogs/ukrainealert/ukraines-new-drone-blitz-cuts-russian-oil-refining-capacity-by-30-percent": 1794522038.9389231,
-    "https://www.atlanticcouncil.org/?p=959820": 1794522038.9389231,
-    "title:Ukraine’s new drone blitz cuts Russian oil refining capacity by 30 percent": 1794522038.9389231,
     "https://www.twz.com/air/operational-f-15exs-have-started-flying-with-conformal-fuel-tanks": 1794523237.1392913,
     "https://www.twz.com/?p=6605560": 1794523237.1392913,
     "title:Operational F-15EXs Have Started Flying With Conformal Fuel Tanks": 1794523237.1392913,
@@ -1693,13 +1687,26 @@
     "title:The digital yuan is only part of China’s expanding global payments network": 1794780057.5730002,
     "https://www.atlanticcouncil.org/blogs/ukrainealert/europe-sees-surge-in-suspected-russian-hybrid-warfare-incidents": 1794780057.5732002,
     "https://www.atlanticcouncil.org/?p=959811": 1794780057.5732002,
-    "title:Europe sees surge in suspected Russian hybrid warfare incidents": 1794780057.5732002
+    "title:Europe sees surge in suspected Russian hybrid warfare incidents": 1794780057.5732002,
+    "https://www.atlanticcouncil.org/blogs/ukrainealert/putins-chief-negotiator-vows-to-return-every-inch-of-russian-land-in-ukraine": 1794781230.6504297,
+    "https://www.atlanticcouncil.org/?p=960326": 1794781230.6504297,
+    "title:Putin’s chief negotiator vows to seize ‘every inch of Russian land’ in Ukraine": 1794781230.6504297,
+    "https://www.atlanticcouncil.org/content-series/fastthinking/what-jensen-huangs-nvidia-exit-means-for-washington-wall-street-and-beijing": 1794781230.6506078,
+    "https://www.atlanticcouncil.org/?p=960169": 1794781230.6506078,
+    "title:What Jensen Huang’s Nvidia exit means for Washington, Wall Street, and Beijing": 1794781230.6506078,
+    "https://www.atlanticcouncil.org/dispatches/beyond-the-spy-scandal-what-the-nvidia-megaspeed-case-reveals-about-export-controls": 1794781230.650667,
+    "https://www.atlanticcouncil.org/?p=960191": 1794781230.650667,
+    "title:Beyond the spy scandal: What the Nvidia-Megaspeed case reveals about export controls": 1794781230.650667,
+    "https://news.usni.org/2026/11/12/u-s-transfers-unmanned-surface-vessels-to-philippine-marine-corps": 1794781234.5884647,
+    "https://news.usni.org/?p=126557": 1794781234.5884647,
+    "title:U.S. Transfers Unmanned Surface Vessels to Philippine Marine Corps": 1794781234.5884647,
+    "https://www.lowyinstitute.org/the-interpreter/first-nations-ip-protection-risks-going-from-miracle-to-mirage": 1794781234.7775452,
+    "title:First Nations IP protection risks going from “miracle to mirage”": 1794781234.7775452,
+    "https://www.defensenews.com/global/europe/2026/11/12/pentagon-greenlit-permanent-presence-of-us-troops-in-poland-official-says": 1794781251.914222,
+    "https://one.sightlinemg.com/defensenews/news/2026/11/12/pentagon-greenlit-permanent-presence-of-us-troops-in-poland-official-says/": 1794781251.914222,
+    "title:Pentagon ‘greenlit’ permanent presence of US troops in Poland, official says": 1794781251.914222
   },
   "events": [
-    {
-      "key": "輝達間諜案與出口管制",
-      "timestamp": 1794520860.214503
-    },
     {
       "key": "美軍SSN(X)水下母艦",
       "timestamp": 1794524447.6238275
@@ -1947,6 +1954,10 @@
     {
       "key": "歐洲縱向天然氣走廊",
       "timestamp": 1794745237.9653332
+    },
+    {
+      "key": "澳洲原住民智財保護",
+      "timestamp": 1794781241.011259
     }
   ]
 }
