@@ -1,8 +1,5 @@
 {
   "ids": {
-    "https://www.cna.com.tw/news/ait/202611100087.aspx": 1794456058.352319,
-    "CNA/2026-11-10/202611100087": 1794456058.352319,
-    "title:Anthropic上市前推新AI模型 提升速度降低費用": 1794456058.352319,
     "https://www.cna.com.tw/news/acn/202611120090.aspx": 1794458448.481873,
     "CNA/2026-11-12/202611120090": 1794458448.481873,
     "title:中共形塑「議統」氛圍 邱垂正：政府堅定捍衛國家主權": 1794458448.481873,
@@ -1720,7 +1717,15 @@
     "CNA/2026-11-13/202611130089": 1794714038.071862,
     "title:微軟365全球大當機波及日本政府 網友喊「乾脆放假」": 1794714038.071862,
     "https://www.lowyinstitute.org/the-interpreter/the-philippines-is-looking-to-develop-an-expeditionary-navy": 1794714040.0948825,
-    "title:The Philippines is looking to develop an “expeditionary navy”": 1794714040.0948825
+    "title:The Philippines is looking to develop an “expeditionary navy”": 1794714040.0948825,
+    "https://www.cna.com.tw/news/ait/202611130092.aspx": 1794715252.7963262,
+    "CNA/2026-11-13/202611130092": 1794715252.7963262,
+    "title:微軟365全球當機搶修中 官方：代管郵件服務異常將盡快恢復": 1794715252.7963262,
+    "https://www.cna.com.tw/news/acn/202611150048.aspx": 1794715256.3699133,
+    "CNA/2026-11-15/202611150048": 1794715256.3699133,
+    "title:APEC將登場 分析：中日首腦會談機會低兩國短期難破冰": 1794715256.3699133,
+    "https://www.lowyinstitute.org/the-interpreter/the-ocean-is-missing-from-climate-diplomacy-again": 1794715270.831871,
+    "title:The ocean is missing from climate diplomacy. Again.": 1794715270.831871
   },
   "events": [
     {
@@ -2110,6 +2115,10 @@
     {
       "key": "輝達高層領導人事",
       "timestamp": 1794690049.199153
+    },
+    {
+      "key": "中日領袖APEC互動",
+      "timestamp": 1794715258.0430899
     }
   ]
 }
