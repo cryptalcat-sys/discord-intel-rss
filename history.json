@@ -1,8 +1,5 @@
 {
   "ids": {
-    "https://www.navalnews.com/event-news/euronaval-2026/2026/11/euronaval-2026-seaowl-and-knds-unveil-tracus-kamikaze-usv": 1794476435.0674691,
-    "https://www.navalnews.com/?p=93432": 1794476435.0674691,
-    "title:Euronaval 2026: SeaOwl and KNDS Unveil Tracus Kamikaze USV": 1794476435.0674691,
     "https://www.twreporter.org/a/ukraine-first-defense-blueprint-for-taiwan": 1794477649.6336594,
     "title:從黑海到台海：烏克蘭智庫首度為台灣提出防衛藍圖，實戰經驗能複製嗎？": 1794477649.6336594,
     "https://thediplomat.com/2026/11/leaner-meaner-more-networked-the-royal-thai-air-forces-modernization-drive": 1794477649.9413278,
@@ -1722,13 +1719,18 @@
     "title:Is China Blurring Line Between Drills and War? | Taiwan Talks #shorts": 1794733257.1914725,
     "https://warontherocks.com/cogs-of-war/to-implement-acquisition-transformation-empower-military-mavericks": 1794734436.3122458,
     "https://warontherocks.com/?p=48385": 1794734436.3122458,
-    "title:To Implement Acquisition Transformation, Empower Military Mavericks": 1794734436.3122458
+    "title:To Implement Acquisition Transformation, Empower Military Mavericks": 1794734436.3122458,
+    "https://www.foreignaffairs.com/china/chinas-ai-diplomacy-working": 1794735638.671471,
+    "1135749": 1794735638.671471,
+    "title:China’s AI Diplomacy Is Working": 1794735638.671471,
+    "https://www.foreignaffairs.com/united-states/luxury-children": 1794735638.671533,
+    "1135748": 1794735638.671533,
+    "title:The Luxury of Children": 1794735638.671533,
+    "https://www.youtube.com/shorts/C8uJMvPQj5s": 1794735640.15291,
+    "yt:video:C8uJMvPQj5s": 1794735640.15291,
+    "title:民調數字各自解讀 聲量恐掩蓋真實選票｜ 公共電視 - 尖鋒對話": 1794735640.15291
   },
   "events": [
-    {
-      "key": "歐洲防務展自殺式無人艇",
-      "timestamp": 1794476438.198355
-    },
     {
       "key": "黃仁勳間諜疑雲",
       "timestamp": 1794477672.2043366
