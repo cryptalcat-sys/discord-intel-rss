@@ -1,23 +1,5 @@
 {
   "ids": {
-    "https://news.usni.org/2026/11/12/royal-navy-to-trial-northrop-grumman-test-aircraft-on-carrier-in-2027": 1794516035.2171793,
-    "https://news.usni.org/?p=126549": 1794516035.2171793,
-    "title:Royal Navy to Trial Northrop Grumman Test Aircraft on Carrier in 2027": 1794516035.2171793,
-    "https://breakingdefense.com/2026/11/sda-explores-integration-of-spacex-laser-communication-terminals-with-missile-tracking-sats": 1794516054.834517,
-    "https://breakingdefense.com/?p=100930": 1794516054.834517,
-    "title:SDA explores integration of SpaceX laser communication terminals with missile tracking sats": 1794516054.834517,
-    "https://www.twz.com/air/usaf-aircraft-continue-to-reposition-away-from-raf-mildenhall-amid-reports-of-iranian-threats": 1794517247.1934648,
-    "https://www.twz.com/?p=6606460": 1794517247.1934648,
-    "title:USAF Aircraft Continue To Reposition Away From RAF Mildenhall Amid Reports Of Iranian Threats": 1794517247.1934648,
-    "https://breakingdefense.com/2026/11/delivering-first-columbia-class-sub-in-2028-is-absolutely-achievable-sub-czar-says": 1794518430.4530563,
-    "https://breakingdefense.com/?p=100964": 1794518430.4530563,
-    "title:Delivering first Columbia-class sub in 2028 is ‘absolutely achievable’, sub czar says": 1794518430.4530563,
-    "https://www.atlanticcouncil.org/blogs/ukrainealert/europe-sees-surge-in-suspected-russian-hybrid-warfare-incidents": 1794518447.1825292,
-    "https://www.atlanticcouncil.org/?p=959811": 1794518447.1825292,
-    "title:Europe sees surge in suspected Russian hybrid warfare incidents": 1794518447.1825292,
-    "https://www.atlanticcouncil.org/blogs/econographics/the-digital-yuan-is-only-part-of-chinas-expanding-global-payments-network": 1794519631.4781437,
-    "https://www.atlanticcouncil.org/?p=960006": 1794519631.4781437,
-    "title:The digital yuan is only part of China’s expanding global payments network": 1794519631.4781437,
     "https://www.atlanticcouncil.org/content-series/fastthinking/what-jensen-huangs-nvidia-exit-means-for-washington-wall-street-and-beijing": 1794519642.3860366,
     "https://www.atlanticcouncil.org/?p=960169": 1794519642.3860366,
     "title:What Jensen Huang’s Nvidia exit means for Washington, Wall Street, and Beijing": 1794519642.3860366,
@@ -1707,25 +1689,12 @@
     "title:Analyzing the Ethiopian-Somaliland Deal, Two Years On": 1794774300.2496812,
     "https://warontherocks.com/talks-attacks-and-a-heist": 1794774300.2498991,
     "https://warontherocks.com/?p=48530": 1794774300.2498991,
-    "title:Talks, Attacks, and a Heist": 1794774300.2498991
+    "title:Talks, Attacks, and a Heist": 1794774300.2498991,
+    "https://breakingdefense.com/2026/11/senate-appropriators-resuscitate-commerce-space-tracking-program": 1794778836.9809017,
+    "https://breakingdefense.com/?p=101040": 1794778836.9809017,
+    "title:Senate appropriators resuscitate Commerce space tracking program": 1794778836.9809017
   },
   "events": [
-    {
-      "key": "英航母測試協同戰機",
-      "timestamp": 1794516038.6911623
-    },
-    {
-      "key": "美軍太空雷射通訊整合",
-      "timestamp": 1794516058.6307416
-    },
-    {
-      "key": "哥倫比亞級潛艦建造進度",
-      "timestamp": 1794518435.6250262
-    },
-    {
-      "key": "中國全球支付網絡擴張",
-      "timestamp": 1794519634.38566
-    },
     {
       "key": "輝達高層異動與美中博弈",
       "timestamp": 1794519644.4941108
