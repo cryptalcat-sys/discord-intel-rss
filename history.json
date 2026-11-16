@@ -1,7 +1,5 @@
 {
   "ids": {
-    "https://www.twreporter.org/a/hello-world-2026-11-12": 1794562841.6139042,
-    "title:當晶片的巨人在間諜醜聞中難堪倒下，黃仁勳下台風暴洗牌美中台晶片賽局？": 1794562841.6139042,
     "https://www.youtube.com/shorts/kWD21wNlauA": 1794564043.097193,
     "yt:video:kWD21wNlauA": 1794564043.097193,
     "title:What India Can Give Manila That US Can’t | Taiwan Talks #shorts": 1794564043.097193,
@@ -1710,13 +1708,21 @@
     "title:RIP to the $1.45 Trillion FY2027 Defense Budget": 1794820837.2350988,
     "https://www.navalnews.com/naval-news/2026/11/hd-hhi-anduril-launch-600-ton-asv-alpha": 1794820854.7638195,
     "https://www.navalnews.com/?p=93605": 1794820854.7638195,
-    "title:HD HHI and Anduril Launch 600-Ton Autonomous Surface Vessel ‘ASV Alpha’": 1794820854.7638195
+    "title:HD HHI and Anduril Launch 600-Ton Autonomous Surface Vessel ‘ASV Alpha’": 1794820854.7638195,
+    "https://www.cna.com.tw/news/acn/202611160180.aspx": 1794822039.9113588,
+    "CNA/2026-11-16/202611160180": 1794822039.9113588,
+    "title:黃仁勳去職 中媒：催化國產晶片自主研發與替代進程": 1794822039.9113588,
+    "https://www.navalnews.com/event-news/euronaval-2026/2026/11/saab-sea-giraffe-amb-d-radar": 1794822055.1022613,
+    "https://www.navalnews.com/?p=92822": 1794822055.1022613,
+    "title:Saab’s New Sea Giraffe AMB D Radar Boosts Detection Range by 50%": 1794822055.1022613,
+    "https://www.foreignaffairs.com/china/new-kind-foreign-agent": 1794822055.9538755,
+    "1135759": 1794822055.9538755,
+    "title:A New Kind of Foreign Agent": 1794822055.9538755,
+    "https://www.foreignaffairs.com/north-korea/trump-facing-very-different-north-korea": 1794822055.9539168,
+    "1135754": 1794822055.9539168,
+    "title:Trump Is Facing a Very Different North Korea": 1794822055.9539168
   },
   "events": [
-    {
-      "key": "黃仁勳下台風波",
-      "timestamp": 1794562851.6952507
-    },
     {
       "key": "印菲戰略合作與美印分工",
       "timestamp": 1794564044.8988807
@@ -1960,6 +1966,10 @@
     {
       "key": "韓美聯手研發大型無人水面艦",
       "timestamp": 1794820858.5216234
+    },
+    {
+      "key": "輝達高層異動與中國晶片自主",
+      "timestamp": 1794822044.6991444
     }
   ]
 }
