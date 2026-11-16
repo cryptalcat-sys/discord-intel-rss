@@ -1718,7 +1718,12 @@
     "https://www.atlanticcouncil.org/?p=958373": 1794793232.2840633,
     "title:Why this US midterm was unusually important for the Middle East": 1794793232.2840633,
     "https://www.lowyinstitute.org/the-interpreter/billions-came-fast-for-the-fuel-crisis-the-pacific-still-waits-for-climate-finance": 1794793237.7188742,
-    "title:Billions came fast for the fuel crisis – the Pacific still waits for climate finance": 1794793237.7188742
+    "title:Billions came fast for the fuel crisis – the Pacific still waits for climate finance": 1794793237.7188742,
+    "https://www.lowyinstitute.org/the-interpreter/aukus-inquiry-scepticism-runs-only-one-way": 1794794450.0380106,
+    "title:AUKUS inquiry scepticism runs only one way": 1794794450.0380106,
+    "https://www.cna.com.tw/news/acn/202611160023.aspx": 1794794460.704063,
+    "CNA/2026-11-16/202611160023": 1794794460.704063,
+    "title:中國外交部：中俄美元首19日舉行會晤": 1794794460.704063
   },
   "events": [
     {
@@ -1960,6 +1965,14 @@
     {
       "key": "日本衛星主權布局",
       "timestamp": 1794788381.275922
+    },
+    {
+      "key": "AUKUS公聽會審查",
+      "timestamp": 1794794452.2675045
+    },
+    {
+      "key": "中俄美元首會晤",
+      "timestamp": 1794794463.396896
     }
   ]
 }
