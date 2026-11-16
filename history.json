@@ -1,8 +1,5 @@
 {
   "ids": {
-    "https://breakingdefense.com/2026/11/securing-the-asia-pacific-digital-battlespace-technet-indo-pacific-2026": 1794609633.78443,
-    "https://breakingdefense.com/?p=99993": 1794609633.78443,
-    "title:Securing the Asia-Pacific digital battlespace: TechNet Indo-Pacific 2026": 1794609633.78443,
     "https://news.usni.org/2026/11/13/the-new-six-frigates": 1794610852.9224775,
     "https://news.usni.org/?p=126603": 1794610852.9224775,
     "title:The New Six Frigates": 1794610852.9224775,
@@ -1779,13 +1776,15 @@
     "title:Pentagon fails 9th audit, asserts path towards clean books in 2028": 1794867638.080393,
     "https://news.usni.org/2026/11/16/vice-adm-oliver-lewis-takes-command-of-2nd-fleet": 1794867660.2167828,
     "https://news.usni.org/?p=126665": 1794867660.2167828,
-    "title:Vice Adm. Oliver Lewis Takes Command of 2nd Fleet": 1794867660.2167828
+    "title:Vice Adm. Oliver Lewis Takes Command of 2nd Fleet": 1794867660.2167828,
+    "https://www.navalnews.com/naval-news/2026/11/u-s-navy-orders-82-additional-lionfish-uuvs-from-hii": 1794868832.1345649,
+    "https://www.navalnews.com/?p=93648": 1794868832.1345649,
+    "title:U.S. Navy Orders 82 Additional Lionfish UUVs from HII": 1794868832.1345649,
+    "https://www.navalnews.com/naval-news/2026/11/u-s-navy-orders-four-additional-40-pb-flight-2-patrol-boats-from-metal-shark": 1794868850.2593436,
+    "https://www.navalnews.com/?p=93636": 1794868850.2593436,
+    "title:U.S. Navy Orders Four Additional 40 PB Flight 2 Patrol Boats from Metal Shark": 1794868850.2593436
   },
   "events": [
-    {
-      "key": "印太數位作戰網安演訓",
-      "timestamp": 1794609635.3970027
-    },
     {
       "key": "美軍外購巡防艦計畫",
       "timestamp": 1794610854.8386877
@@ -2021,6 +2020,14 @@
     {
       "key": "美軍第二艦隊換將",
       "timestamp": 1794867662.8661063
+    },
+    {
+      "key": "美軍採購獅子魚無人潛航器",
+      "timestamp": 1794868842.2589648
+    },
+    {
+      "key": "美軍採購巡邏艇",
+      "timestamp": 1794868859.2245717
     }
   ]
 }
