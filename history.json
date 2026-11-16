@@ -1,8 +1,5 @@
 {
   "ids": {
-    "https://www.cna.com.tw/news/acn/202611130160.aspx": 1794554436.6156387,
-    "CNA/2026-11-13/202611130160": 1794554436.6156387,
-    "title:習近平：國有企業要堅定不移肅紀反腐": 1794554436.6156387,
     "https://www.cna.com.tw/news/ait/202611110191.aspx": 1794555631.691016,
     "CNA/2026-11-11/202611110191": 1794555631.691016,
     "title:日本宜得利3762萬筆個資恐外洩 代理式AI助長網路攻擊": 1794555631.691016,
@@ -1722,7 +1719,10 @@
     "title:輝達風波未平仍獲美力挺 傳將列AI國家冠軍企業": 1794811231.696644,
     "https://www.navalnews.com/naval-news/2026/11/naval-unmanned-systems-showcased-at-taiwans-marine-tech-show": 1794811546.3463695,
     "https://www.navalnews.com/?p=93280": 1794811546.3463695,
-    "title:Naval Unmanned Systems Showcased at Taiwan’s Marine Tech Show": 1794811546.3463695
+    "title:Naval Unmanned Systems Showcased at Taiwan’s Marine Tech Show": 1794811546.3463695,
+    "https://www.cna.com.tw/news/acn/202611160139.aspx": 1794813631.6936548,
+    "CNA/2026-11-16/202611160139": 1794813631.6936548,
+    "title:李強出席東協中國峰會 稱期待早日達成南海行為準則": 1794813631.6936548
   },
   "events": [
     {
@@ -1964,6 +1964,10 @@
     {
       "key": "輝達AI國家冠軍",
       "timestamp": 1794811233.1305203
+    },
+    {
+      "key": "南海行為準則外交斡旋",
+      "timestamp": 1794813633.4097078
     }
   ]
 }
