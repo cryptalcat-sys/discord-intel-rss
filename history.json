@@ -1,12 +1,5 @@
 {
   "ids": {
-    "https://www.twreporter.org/a/2026-taipei-golden-horse-film-festival-welcome-to-dollys-house": 1794585650.941319,
-    "title:真人實拍到轉描，《歡迎來到朵莉之家》如何在台灣做出一部動畫長片？": 1794585650.941319,
-    "https://www.lowyinstitute.org/the-interpreter/what-are-australia-s-offshore-university-campuses-for": 1794585651.869144,
-    "title:What are Australia’s offshore university campuses for?": 1794585651.869144,
-    "https://breakingdefense.com/2026/11/hermeus-recruits-northrop-grumman-to-quarterhorse-drone-program": 1794586842.7823575,
-    "https://breakingdefense.com/?p=100939": 1794586842.7823575,
-    "title:Hermeus recruits Northrop Grumman to Quarterhorse drone program": 1794586842.7823575,
     "https://www.twreporter.org/a/bolt-driver-gets-13-years-in-fatal-abandonment-case": 1794588059.6089919,
     "title:Bolt司機台64線丟包乘客案，國民法官一審「遺棄致死罪」判刑13年": 1794588059.6089919,
     "https://www.twreporter.org/a/podcast-2026-11-06": 1794588059.609348,
@@ -1733,13 +1726,12 @@
     "title:GAO Report on the Defense Department’s F-35 Program": 1794843637.980946,
     "https://www.atlanticcouncil.org/blogs/menasource/washington-is-reshaping-security-in-north-africa-congress-needs-to-ask-how": 1794843647.3291843,
     "https://www.atlanticcouncil.org/?p=960063": 1794843647.3291843,
-    "title:Washington is reshaping security in North Africa. Congress needs to ask how.": 1794843647.3291843
+    "title:Washington is reshaping security in North Africa. Congress needs to ask how.": 1794843647.3291843,
+    "https://www.atlanticcouncil.org/content-series/balkans-debrief/can-montenegros-accession-reinvigorate-eu-enlargement-a-debrief-with-gert-jan-koopman": 1794846928.568028,
+    "https://www.atlanticcouncil.org/?p=960941": 1794846928.568028,
+    "title:Can Montenegro’s accession reinvigorate EU enlargement? A Debrief with Gert Jan Koopman": 1794846928.568028
   },
   "events": [
-    {
-      "key": "極音速無人機系統研發",
-      "timestamp": 1794586844.4664223
-    },
     {
       "key": "美國尼加拉瓜政策",
       "timestamp": 1794589251.7702222
@@ -1963,6 +1955,10 @@
     {
       "key": "美軍部署奧卡無人潛航器",
       "timestamp": 1794841266.8092396
+    },
+    {
+      "key": "歐盟東擴黑山入會",
+      "timestamp": 1794846931.2532496
     }
   ]
 }
