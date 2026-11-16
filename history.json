@@ -1,10 +1,5 @@
 {
   "ids": {
-    "https://news.usni.org/2026/11/13/japan-pledges-drones-coastal-defense-radar-in-latest-philippine-defense-package": 1794589293.7502496,
-    "https://news.usni.org/?p=126562": 1794589293.7502496,
-    "title:Japan Pledges Drones, Coastal Defense Radar in Latest Philippine Defense Package": 1794589293.7502496,
-    "https://www.piie.com/blogs/realtime-economics/2026/how-congress-might-take-back-its-trade-powers-and-limit-trumps": 1794590437.7436602,
-    "title:How Congress might take back its trade powers and limit Trump's tariffs": 1794590437.7436602,
     "https://www.twz.com/air/b-21-raider-has-released-its-first-weapon": 1794590467.3323917,
     "https://www.twz.com/?p=6607357": 1794590467.3323917,
     "title:B-21 Raider Has Released Its First Weapon": 1794590467.3323917,
@@ -1729,17 +1724,18 @@
     "title:Hermeus recruits Northrop Grumman to Quarterhorse drone program": 1794847260.49321,
     "https://news.usni.org/2026/11/16/navy-weapons-division-to-make-tomahawk-components-in-2027": 1794848469.2575436,
     "https://news.usni.org/?p=126625": 1794848469.2575436,
-    "title:Navy Weapons Division to Make Tomahawk Components in 2027": 1794848469.2575436
+    "title:Navy Weapons Division to Make Tomahawk Components in 2027": 1794848469.2575436,
+    "https://www.atlanticcouncil.org/dispatches/the-election-that-never-happened-and-why-washington-needs-a-new-strategy-toward-nicaragua": 1794849637.6273787,
+    "https://www.atlanticcouncil.org/?p=960291": 1794849637.6273787,
+    "title:The election that never happened, and why Washington needs a new strategy toward Nicaragua": 1794849637.6273787,
+    "https://breakingdefense.com/2026/11/pentagon-rebrands-principle-ai-shop-as-super-intelligence-office": 1794849646.6277168,
+    "https://breakingdefense.com/?p=101029": 1794849646.6277168,
+    "title:Pentagon rebrands principal AI shop as ‘Super Intelligence Office’": 1794849646.6277168,
+    "https://www.defensenews.com/global/asia-pacific/2026/11/16/china-has-normalized-naval-presence-near-japan-since-political-spat-of-2025": 1794849648.974025,
+    "https://one.sightlinemg.com/defensenews/?p=87975": 1794849648.974025,
+    "title:China has ‘normalized’ naval presence near Japan since political spat of 2025": 1794849648.974025
   },
   "events": [
-    {
-      "key": "日菲防務裝備無人機援助",
-      "timestamp": 1794589295.3374758
-    },
-    {
-      "key": "美國國會貿易權力回收",
-      "timestamp": 1794590439.3498073
-    },
     {
       "key": "B-21首發實彈測試",
       "timestamp": 1794590484.3266017
@@ -1955,6 +1951,10 @@
     {
       "key": "美國海軍戰斧巡弋飛彈產能",
       "timestamp": 1794848471.1244526
+    },
+    {
+      "key": "中艦隊近海常態化",
+      "timestamp": 1794849656.6751676
     }
   ]
 }
