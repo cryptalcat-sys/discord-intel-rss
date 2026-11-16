@@ -1,17 +1,5 @@
 {
   "ids": {
-    "https://www.atlanticcouncil.org/dispatches/as-gen-z-asserts-itself-in-serbia-and-albania-the-upside-for-the-west-is-far-greater-than-the-headaches": 1794580849.6223793,
-    "https://www.atlanticcouncil.org/?p=958097": 1794580849.6223793,
-    "title:As Gen Z asserts itself in Serbia and Albania, the upside for the West is far greater than the headaches": 1794580849.6223793,
-    "https://www.defensenews.com/global/mideast-africa/2026/11/13/turkey-and-egypt-weigh-joint-naval-shipbuilding-projects": 1794580849.8258936,
-    "https://one.sightlinemg.com/defensenews/?p=87865": 1794580849.8258936,
-    "title:Turkey and Egypt weigh joint naval shipbuilding projects": 1794580849.8258936,
-    "https://www.cna.com.tw/news/ait/202611100352.aspx": 1794582063.1889393,
-    "CNA/2026-11-10/202611100352": 1794582063.1889393,
-    "title:Diraq開發矽量子晶片 可望解決AI資料中心用電問題": 1794582063.1889393,
-    "https://thediplomat.com/2026/11/nato-is-not-the-right-forum-to-discuss-china": 1794582072.4794526,
-    "https://thediplomat.com/2026/11/nato-is-not-the-right-forum-to-discuss-china/": 1794582072.4794526,
-    "title:NATO Is Not the Right Forum to Discuss China": 1794582072.4794526,
     "https://news.usni.org/2026/11/10/gao-report-on-the-defense-departments-f-35-program": 1794583241.057787,
     "https://news.usni.org/?p=126511": 1794583241.057787,
     "title:GAO Report on the Defense Department’s F-35 Program": 1794583241.057787,
@@ -1724,13 +1712,21 @@
     "title:Tuteja interviewed on Bloomberg Tech about the implications of the midterm elections for data center development and the AI regulation": 1794838869.2642546,
     "https://breakingdefense.com/2026/11/uk-to-buy-three-new-mine-hunting-drone-motherships-under-norway-agreement": 1794840035.476405,
     "https://breakingdefense.com/?p=101015": 1794840035.476405,
-    "title:UK to buy three new mine-hunting drone motherships under Norway agreement": 1794840035.476405
+    "title:UK to buy three new mine-hunting drone motherships under Norway agreement": 1794840035.476405,
+    "https://www.atlanticcouncil.org/insight-impact/in-the-news/tannebaum-quoted-in-the-new-york-times-on-us-unreliability-influencing-de-dollarization-efforts-4-9-5": 1794841250.6494987,
+    "https://www.atlanticcouncil.org/?p=960278": 1794841250.6494987,
+    "title:Lichfield interviewed on Bloomberg TV to discuss Nvidia’s leadership crisis and the US – China AI competition": 1794841250.6494987,
+    "https://www.atlanticcouncil.org/insight-impact/in-the-news/tannebaum-quoted-in-the-new-york-times-on-us-unreliability-influencing-de-dollarization-efforts-4-9-4": 1794841250.6496625,
+    "https://www.atlanticcouncil.org/?p=960273": 1794841250.6496625,
+    "title:Lichfield and de Kruijf cited in a CNN on the dynamic between Russia and the Trump administration": 1794841250.6496625,
+    "https://www.atlanticcouncil.org/insight-impact/in-the-news/tannebaum-quoted-in-the-new-york-times-on-us-unreliability-influencing-de-dollarization-efforts-4-9-3": 1794841250.6497664,
+    "https://www.atlanticcouncil.org/?p=960269": 1794841250.6497664,
+    "title:Lichfield quoted in a Reuters on the midterm impact on the US support for Ukraine and policy towards Russia": 1794841250.6497664,
+    "https://breakingdefense.com/2026/11/navy-eyes-operational-employment-of-key-uuv-programs-admiral-says": 1794841254.8430667,
+    "https://breakingdefense.com/?p=101087": 1794841254.8430667,
+    "title:Navy eyes ‘operational employment’ of key UUV programs, admiral says": 1794841254.8430667
   },
   "events": [
-    {
-      "key": "土埃海軍聯合造船合作",
-      "timestamp": 1794580851.6388113
-    },
     {
       "key": "北約中國戰略定位",
       "timestamp": 1794582108.8566103
@@ -1962,6 +1958,10 @@
     {
       "key": "月球防務與後勤美軍事佈局",
       "timestamp": 1794838858.462075
+    },
+    {
+      "key": "美軍部署奧卡無人潛航器",
+      "timestamp": 1794841266.8092396
     }
   ]
 }
