@@ -1,11 +1,5 @@
 {
   "ids": {
-    "https://www.youtube.com/shorts/kWD21wNlauA": 1794564043.097193,
-    "yt:video:kWD21wNlauA": 1794564043.097193,
-    "title:What India Can Give Manila That US Can’t | Taiwan Talks #shorts": 1794564043.097193,
-    "https://www.youtube.com/shorts/RCrDOfwWs50": 1794564052.8992102,
-    "yt:video:RCrDOfwWs50": 1794564052.8992102,
-    "title:Expert: BrahMos Could Help Manila Deter Beijing | Taiwan Talks #shorts": 1794564052.8992102,
     "https://www.navalnews.com/interviews/2026/11/french-navy-chief-reasoned-hybrid-fleet": 1794564102.4411407,
     "https://www.navalnews.com/?p=93490": 1794564102.4411407,
     "title:Beyond the Hype: French Navy Chief Advocates for a ‘Reasoned’ Hybrid Fleet": 1794564102.4411407,
@@ -1720,13 +1714,11 @@
     "title:A New Kind of Foreign Agent": 1794822055.9538755,
     "https://www.foreignaffairs.com/north-korea/trump-facing-very-different-north-korea": 1794822055.9539168,
     "1135754": 1794822055.9539168,
-    "title:Trump Is Facing a Very Different North Korea": 1794822055.9539168
+    "title:Trump Is Facing a Very Different North Korea": 1794822055.9539168,
+    "https://www.twreporter.org/a/hello-world-2026-11-12": 1794823253.9979746,
+    "title:當晶片的巨人在間諜醜聞中難堪倒下，黃仁勳下台風暴洗牌美中台晶片賽局？": 1794823253.9979746
   },
   "events": [
-    {
-      "key": "印菲戰略合作與美印分工",
-      "timestamp": 1794564044.8988807
-    },
     {
       "key": "菲印導彈部署",
       "timestamp": 1794564092.1068654
