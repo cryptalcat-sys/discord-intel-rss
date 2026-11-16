@@ -1785,7 +1785,13 @@
     "title:Saildrone, Blue Water Autonomy Ruling Adds Restrictions to OTA Funding Model": 1794871239.5138695,
     "https://news.usni.org/2026/11/05/north-korean-leader-inspects-new-warship-under-construction-at-nampho-shipyard": 1794871239.5144477,
     "https://news.usni.org/?p=126401": 1794871239.5144477,
-    "title:North Korean Leader Inspects New Warship Under Construction at Nampho Shipyard": 1794871239.5144477
+    "title:North Korean Leader Inspects New Warship Under Construction at Nampho Shipyard": 1794871239.5144477,
+    "https://thediplomat.com/2026/11/what-the-faaz-missile-means-for-pakistans-air-force": 1794872431.2727168,
+    "https://thediplomat.com/2026/11/what-the-faaz-missile-means-for-pakistans-air-force/": 1794872431.2727168,
+    "title:What the Fa’az Missile Means for Pakistan’s Air Force": 1794872431.2727168,
+    "https://www.defensenews.com/air/2026/11/16/first-permanently-assigned-f-15exs-touch-down-at-kadena-air-base": 1794872440.3113523,
+    "https://one.sightlinemg.com/defensenews/news/2026/11/16/first-permanently-assigned-f-15exs-touch-down-at-kadena-air-base/": 1794872440.3113523,
+    "title:First permanently assigned F-15EXs touch down at Kadena Air Base": 1794872440.3113523
   },
   "events": [
     {
@@ -2027,6 +2033,10 @@
     {
       "key": "美軍採購巡邏艇",
       "timestamp": 1794868859.2245717
+    },
+    {
+      "key": "嘉手納基地部署F-15EX",
+      "timestamp": 1794872442.1871912
     }
   ]
 }
