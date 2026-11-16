@@ -1,11 +1,5 @@
 {
   "ids": {
-    "https://www.cna.com.tw/news/acn/202611130049.aspx": 1794538856.30129,
-    "CNA/2026-11-13/202611130049": 1794538856.30129,
-    "title:中國外交部：習近平將主持APEC峰會 與各國領導人雙邊會晤": 1794538856.30129,
-    "https://www.cna.com.tw/news/ait/202611100031.aspx": 1794538900.1171176,
-    "CNA/2026-11-10/202611100031": 1794538900.1171176,
-    "title:黃仁勳婚外情掀國安疑慮 美3項對中晶片法案有望過關": 1794538900.1171176,
     "https://www.cna.com.tw/news/ait/202611110106.aspx": 1794544836.7967253,
     "CNA/2026-11-11/202611110106": 1794544836.7967253,
     "title:AI提升颶風預測準確度 但最終仍須仰賴人類做決定": 1794544836.7967253,
@@ -1723,13 +1717,11 @@
     "title:AUKUS inquiry scepticism runs only one way": 1794794450.0380106,
     "https://www.cna.com.tw/news/acn/202611160023.aspx": 1794794460.704063,
     "CNA/2026-11-16/202611160023": 1794794460.704063,
-    "title:中國外交部：中俄美元首19日舉行會晤": 1794794460.704063
+    "title:中國外交部：中俄美元首19日舉行會晤": 1794794460.704063,
+    "https://www.lowyinstitute.org/the-interpreter/ganges-treaty-expiry-tests-a-fragile-bilateral-relationship": 1794799243.1049128,
+    "title:Ganges treaty expiry tests a fragile bilateral relationship": 1794799243.1049128
   },
   "events": [
-    {
-      "key": "習近平主持APEC峰會",
-      "timestamp": 1794538865.7536724
-    },
     {
       "key": "中共軍中反腐整肅",
       "timestamp": 1794547239.7655504
@@ -1973,6 +1965,10 @@
     {
       "key": "中俄美元首會晤",
       "timestamp": 1794794463.396896
+    },
+    {
+      "key": "恆河條約到期檢驗印孟關係",
+      "timestamp": 1794799248.0957432
     }
   ]
 }
