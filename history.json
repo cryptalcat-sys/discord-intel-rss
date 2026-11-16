@@ -1,11 +1,5 @@
 {
   "ids": {
-    "https://www.defensenews.com/air/2026/11/13/us-air-force-adopts-new-force-design-focusing-on-sensors-and-autonomy": 1794596447.0068822,
-    "https://one.sightlinemg.com/defensenews/news/2026/11/13/us-air-force-adopts-new-force-design-focusing-on-sensors-and-autonomy/": 1794596447.0068822,
-    "title:US Air Force adopts new Force Design focusing on sensors and autonomy": 1794596447.0068822,
-    "https://news.usni.org/2026/11/13/usni-news-western-pacific-pulse-nov-13-2026": 1794596463.2672737,
-    "https://news.usni.org/?p=126573": 1794596463.2672737,
-    "title:USNI News Western Pacific Pulse: Nov. 13, 2026": 1794596463.2672737,
     "https://www.twz.com/land/berettas-new-counter-drone-system-packs-eight-benelli-m4-shotguns-onto-a-remote-turret": 1794598832.0421307,
     "https://www.twz.com/?p=6607122": 1794598832.0421307,
     "title:Beretta’s New Counter-Drone System Packs Eight Benelli M4 Shotguns Onto A Remote Turret": 1794598832.0421307,
@@ -1743,17 +1737,15 @@
     "title:Italy unveils plans to develop a new naval missile launcher": 1794853245.3668542,
     "https://www.twz.com/sea/destroyer-that-has-been-deployed-longer-than-any-since-wwii-returns-home": 1794854442.2246456,
     "https://www.twz.com/?p=6607338": 1794854442.2246456,
-    "title:Destroyer That Has Been Deployed Longer Than Any Since WWII Returns Home": 1794854442.2246456
+    "title:Destroyer That Has Been Deployed Longer Than Any Since WWII Returns Home": 1794854442.2246456,
+    "https://breakingdefense.com/2026/11/as-exquisite-radars-become-targets-smaller-tactical-sensors-take-on-a-bigger-role": 1794855654.6687624,
+    "https://breakingdefense.com/?p=101161": 1794855654.6687624,
+    "title:As exquisite radars become targets, smaller tactical sensors take on a bigger role": 1794855654.6687624,
+    "https://www.twz.com/news-features/russias-prized-kerch-bridge-struck-in-ukrainian-drone-onslaught": 1794855659.8682122,
+    "https://www.twz.com/?p=6607875": 1794855659.8682122,
+    "title:Russia’s Prized Kerch Bridge Struck In Ukrainian Drone Onslaught": 1794855659.8682122
   },
   "events": [
-    {
-      "key": "美軍空軍部隊重組與AI轉型",
-      "timestamp": 1794596448.794879
-    },
-    {
-      "key": "美航母西太戰備巡弋與兵力調動",
-      "timestamp": 1794596464.9335022
-    },
     {
       "key": "貝里達模組化反無人機系統",
       "timestamp": 1794598833.7635627
@@ -1965,6 +1957,10 @@
     {
       "key": "意海軍彈道發射器",
       "timestamp": 1794853284.2362604
+    },
+    {
+      "key": "烏軍無人機襲擊克赤大橋",
+      "timestamp": 1794855661.701909
     }
   ]
 }
