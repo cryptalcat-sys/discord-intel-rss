@@ -1711,7 +1711,16 @@
     "title:Estonian drone company targeted in sabotage attempt as part of ‘Russia’s hybrid war against Europe’: Prime Minister Michal": 1794825638.1062732,
     "https://www.navalnews.com/interviews/2026/11/french-navy-chief-reasoned-hybrid-fleet": 1794825671.7558465,
     "https://www.navalnews.com/?p=93490": 1794825671.7558465,
-    "title:Beyond the Hype: French Navy Chief Advocates for a ‘Reasoned’ Hybrid Fleet": 1794825671.7558465
+    "title:Beyond the Hype: French Navy Chief Advocates for a ‘Reasoned’ Hybrid Fleet": 1794825671.7558465,
+    "https://www.youtube.com/shorts/PbWmNHqNW8E": 1794828033.5385861,
+    "yt:video:PbWmNHqNW8E": 1794828033.5385861,
+    "title:'Loyalty Over Competence' in Xi’s China | Taiwan Talks #shorts": 1794828033.5385861,
+    "https://www.youtube.com/shorts/I0QDfh-A2Mg": 1794828033.5386744,
+    "yt:video:I0QDfh-A2Mg": 1794828033.5386744,
+    "title:Are Xi’s Purges Weakening China’s Military? | Taiwan Talks #shorts": 1794828033.5386744,
+    "https://www.navalnews.com/event-news/euronaval-2026/2026/11/safran-ngds-hk-rocket-launcher-euronaval-2026": 1794828040.5806808,
+    "https://www.navalnews.com/?p=93621": 1794828040.5806808,
+    "title:Safran Unveils NGDS HK Rocket Launcher and PASEO Master D at Euronaval 2026": 1794828040.5806808
   },
   "events": [
     {
@@ -1949,6 +1958,10 @@
     {
       "key": "愛沙無人機廠遇襲",
       "timestamp": 1794825661.5555353
+    },
+    {
+      "key": "賽峰新型艦載火箭發射系統",
+      "timestamp": 1794828042.2032003
     }
   ]
 }
