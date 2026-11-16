@@ -1,8 +1,5 @@
 {
   "ids": {
-    "https://www.twz.com/air/china-lifts-the-veil-on-the-gj-11-mysterious-dragon-stealth-ucav": 1794601232.3571892,
-    "https://www.twz.com/?p=6606268": 1794601232.3571892,
-    "title:China Lifts The Veil On Its GJ-11 Mysterious Dragon Stealth UCAV": 1794601232.3571892,
     "https://breakingdefense.com/2026/11/submarine-maintenance-delays-saw-significant-improvements-in-fy26-sub-czar-says": 1794602445.4624457,
     "https://breakingdefense.com/?p=101049": 1794602445.4624457,
     "title:Submarine maintenance delays saw ‘significant’ improvements in FY26, sub czar says": 1794602445.4624457,
@@ -1750,7 +1747,18 @@
     "title:Beretta’s New Counter-Drone System Packs Eight Benelli M4 Shotguns Onto A Remote Turret": 1794859252.030249,
     "https://news.usni.org/2026/11/16/usni-news-fleet-and-marine-tracker-nov-16-2026": 1794859253.7945306,
     "https://news.usni.org/?p=126626": 1794859253.7945306,
-    "title:USNI News Fleet and Marine Tracker: Nov. 16, 2026": 1794859253.7945306
+    "title:USNI News Fleet and Marine Tracker: Nov. 16, 2026": 1794859253.7945306,
+    "https://www.twz.com/sea/aim-174b-long-range-missile-packed-with-glide-munitions-teased-new-details-shared": 1794860438.2509296,
+    "https://www.twz.com/?p=6606273": 1794860438.2509296,
+    "title:AIM-174B Long-Range Missile Packed With Glide Munitions Teased, New Details Shared": 1794860438.2509296,
+    "https://www.piie.com/events/2026/next-steps-usmca-and-us-trade-laws-post-election-review": 1794860439.2953544,
+    "title:Next steps for the USMCA and US trade laws: A post-election review": 1794860439.2953544,
+    "https://www.atlanticcouncil.org/content-series/fastthinking/where-the-russia-ukraine-peace-talks-stand-after-abu-dhabi": 1794860450.2098932,
+    "https://www.atlanticcouncil.org/?p=959899": 1794860450.2098932,
+    "title:Where the Russia-Ukraine peace talks stand after Abu Dhabi": 1794860450.2098932,
+    "https://breakingdefense.com/2026/11/vulcan-failure-deepens-concerns-over-us-military-launch-capacity": 1794860451.957688,
+    "https://breakingdefense.com/?p=101149": 1794860451.957688,
+    "title:Vulcan failure deepens concerns over US military launch capacity": 1794860451.957688
   },
   "events": [
     {
@@ -1976,6 +1984,14 @@
     {
       "key": "美艦部署動態與海基兵力",
       "timestamp": 1794859255.7122595
+    },
+    {
+      "key": "美墨加協定貿易檢視",
+      "timestamp": 1794860441.964305
+    },
+    {
+      "key": "火神火箭發射失敗",
+      "timestamp": 1794860493.4945016
     }
   ]
 }
