@@ -1,13 +1,5 @@
 {
   "ids": {
-    "https://www.piie.com/events/2026/next-steps-usmca-and-us-trade-laws-post-election-review": 1794600055.873316,
-    "title:Next steps for the USMCA and US trade laws: A post-election review": 1794600055.873316,
-    "https://www.atlanticcouncil.org/content-series/fastthinking/where-the-russia-ukraine-peace-talks-stand-after-abu-dhabi": 1794600066.643353,
-    "https://www.atlanticcouncil.org/?p=959899": 1794600066.643353,
-    "title:Where the Russia-Ukraine peace talks stand after Abu Dhabi": 1794600066.643353,
-    "https://www.twz.com/sea/aim-174b-long-range-missile-packed-with-glide-munitions-teased-new-details-shared": 1794600068.0309386,
-    "https://www.twz.com/?p=6606273": 1794600068.0309386,
-    "title:AIM-174B Long-Range Missile Packed With Glide Munitions Teased, New Details Shared": 1794600068.0309386,
     "https://www.twz.com/air/china-lifts-the-veil-on-the-gj-11-mysterious-dragon-stealth-ucav": 1794601232.3571892,
     "https://www.twz.com/?p=6606268": 1794601232.3571892,
     "title:China Lifts The Veil On Its GJ-11 Mysterious Dragon Stealth UCAV": 1794601232.3571892,
@@ -1752,13 +1744,15 @@
     "title:USNI News Western Pacific Pulse: Nov. 13, 2026": 1794856903.825313,
     "https://jamestown.org/ajnad-beit-al-maqdis-and-al-qaedas-restructuring-in-syria-and-iraq": 1794858045.2393677,
     "https://jamestown.org/?p=886896": 1794858045.2393677,
-    "title:Ajnad Beit al-Maqdis and al-Qaeda’s Restructuring in Syria and Iraq": 1794858045.2393677
+    "title:Ajnad Beit al-Maqdis and al-Qaeda’s Restructuring in Syria and Iraq": 1794858045.2393677,
+    "https://www.twz.com/land/berettas-new-counter-drone-system-packs-eight-benelli-m4-shotguns-onto-a-remote-turret": 1794859252.030249,
+    "https://www.twz.com/?p=6607122": 1794859252.030249,
+    "title:Beretta’s New Counter-Drone System Packs Eight Benelli M4 Shotguns Onto A Remote Turret": 1794859252.030249,
+    "https://news.usni.org/2026/11/16/usni-news-fleet-and-marine-tracker-nov-16-2026": 1794859253.7945306,
+    "https://news.usni.org/?p=126626": 1794859253.7945306,
+    "title:USNI News Fleet and Marine Tracker: Nov. 16, 2026": 1794859253.7945306
   },
   "events": [
-    {
-      "key": "美墨加協定貿易審查",
-      "timestamp": 1794600057.6717608
-    },
     {
       "key": "美軍核潛艦維修延宕改善",
       "timestamp": 1794602447.3147986
@@ -1978,6 +1972,10 @@
     {
       "key": "基地組織敘利亞重組",
       "timestamp": 1794858054.0094485
+    },
+    {
+      "key": "美艦部署動態與海基兵力",
+      "timestamp": 1794859255.7122595
     }
   ]
 }
