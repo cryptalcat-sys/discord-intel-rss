@@ -1,8 +1,5 @@
 {
   "ids": {
-    "https://www.twz.com/land/berettas-new-counter-drone-system-packs-eight-benelli-m4-shotguns-onto-a-remote-turret": 1794598832.0421307,
-    "https://www.twz.com/?p=6607122": 1794598832.0421307,
-    "title:Beretta’s New Counter-Drone System Packs Eight Benelli M4 Shotguns Onto A Remote Turret": 1794598832.0421307,
     "https://www.piie.com/events/2026/next-steps-usmca-and-us-trade-laws-post-election-review": 1794600055.873316,
     "title:Next steps for the USMCA and US trade laws: A post-election review": 1794600055.873316,
     "https://www.atlanticcouncil.org/content-series/fastthinking/where-the-russia-ukraine-peace-talks-stand-after-abu-dhabi": 1794600066.643353,
@@ -1752,13 +1749,12 @@
     "title:LeoLabs acquires FishEye to bolster its missile defense chops": 1794856892.7089362,
     "https://news.usni.org/2026/11/13/usni-news-western-pacific-pulse-nov-13-2026": 1794856903.825313,
     "https://news.usni.org/?p=126573": 1794856903.825313,
-    "title:USNI News Western Pacific Pulse: Nov. 13, 2026": 1794856903.825313
+    "title:USNI News Western Pacific Pulse: Nov. 13, 2026": 1794856903.825313,
+    "https://jamestown.org/ajnad-beit-al-maqdis-and-al-qaedas-restructuring-in-syria-and-iraq": 1794858045.2393677,
+    "https://jamestown.org/?p=886896": 1794858045.2393677,
+    "title:Ajnad Beit al-Maqdis and al-Qaeda’s Restructuring in Syria and Iraq": 1794858045.2393677
   },
   "events": [
-    {
-      "key": "貝里達模組化反無人機系統",
-      "timestamp": 1794598833.7635627
-    },
     {
       "key": "美墨加協定貿易審查",
       "timestamp": 1794600057.6717608
@@ -1978,6 +1974,10 @@
     {
       "key": "LeoLabs併購FishEye",
       "timestamp": 1794856894.8319051
+    },
+    {
+      "key": "基地組織敘利亞重組",
+      "timestamp": 1794858054.0094485
     }
   ]
 }
