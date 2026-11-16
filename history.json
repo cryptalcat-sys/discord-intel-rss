@@ -1,14 +1,5 @@
 {
   "ids": {
-    "https://breakingdefense.com/2026/11/submarine-maintenance-delays-saw-significant-improvements-in-fy26-sub-czar-says": 1794602445.4624457,
-    "https://breakingdefense.com/?p=101049": 1794602445.4624457,
-    "title:Submarine maintenance delays saw ‘significant’ improvements in FY26, sub czar says": 1794602445.4624457,
-    "https://news.usni.org/2026/11/13/peacoat-evicted-from-navy-sea-bags-after-a-century-at-sea": 1794603651.6957786,
-    "https://news.usni.org/?p=126605": 1794603651.6957786,
-    "title:Peacoat Evicted from Navy Seabags After a Century at Sea": 1794603651.6957786,
-    "https://www.twz.com/air/suspected-drones-over-raf-lakenheath-just-triggered-security-response-u-s-air-force": 1794603668.5333877,
-    "https://www.twz.com/?p=6607538": 1794603668.5333877,
-    "title:Suspected Drones Over RAF Lakenheath Just Triggered Security Response: U.S. Air Force": 1794603668.5333877,
     "https://www.cna.com.tw/news/ait/202611140004.aspx": 1794604836.991696,
     "CNA/2026-11-14/202611140004": 1794604836.991696,
     "title:金融時報：輝達尋找新掌門人 安謀執行長哈斯列接班名單": 1794604836.991696,
@@ -1758,17 +1749,15 @@
     "title:Where the Russia-Ukraine peace talks stand after Abu Dhabi": 1794860450.2098932,
     "https://breakingdefense.com/2026/11/vulcan-failure-deepens-concerns-over-us-military-launch-capacity": 1794860451.957688,
     "https://breakingdefense.com/?p=101149": 1794860451.957688,
-    "title:Vulcan failure deepens concerns over US military launch capacity": 1794860451.957688
+    "title:Vulcan failure deepens concerns over US military launch capacity": 1794860451.957688,
+    "https://www.twz.com/sea/new-bow-sonar-dome-for-heavily-damaged-submarine-uss-connecticut-seen-for-the-first-time": 1794862859.7378101,
+    "https://www.twz.com/?p=6607888": 1794862859.7378101,
+    "title:New Bow Sonar Dome For Heavily Damaged Submarine USS Connecticut Seen For The First Time": 1794862859.7378101,
+    "https://www.twz.com/air/china-lifts-the-veil-on-the-gj-11-mysterious-dragon-stealth-ucav": 1794862871.1987991,
+    "https://www.twz.com/?p=6606268": 1794862871.1987991,
+    "title:China Lifts The Veil On Its GJ-11 Mysterious Dragon Stealth UCAV": 1794862871.1987991
   },
   "events": [
-    {
-      "key": "美軍核潛艦維修延宕改善",
-      "timestamp": 1794602447.3147986
-    },
-    {
-      "key": "美軍海軍調整制服政策",
-      "timestamp": 1794603653.570057
-    },
     {
       "key": "拉肯希思基地無人機警報",
       "timestamp": 1794603709.160333
@@ -1992,6 +1981,10 @@
     {
       "key": "火神火箭發射失敗",
       "timestamp": 1794860493.4945016
+    },
+    {
+      "key": "海狼級潛艦戰力恢復",
+      "timestamp": 1794862863.1969204
     }
   ]
 }
