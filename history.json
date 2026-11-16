@@ -1743,7 +1743,16 @@
     "title:As exquisite radars become targets, smaller tactical sensors take on a bigger role": 1794855654.6687624,
     "https://www.twz.com/news-features/russias-prized-kerch-bridge-struck-in-ukrainian-drone-onslaught": 1794855659.8682122,
     "https://www.twz.com/?p=6607875": 1794855659.8682122,
-    "title:Russia’s Prized Kerch Bridge Struck In Ukrainian Drone Onslaught": 1794855659.8682122
+    "title:Russia’s Prized Kerch Bridge Struck In Ukrainian Drone Onslaught": 1794855659.8682122,
+    "https://warontherocks.com/taiwans-political-and-security-future": 1794856843.256765,
+    "https://warontherocks.com/?p=48633": 1794856843.256765,
+    "title:Taiwan’s Political and Security Future": 1794856843.256765,
+    "https://breakingdefense.com/2026/11/leolabs-acquires-fisheye-to-bolster-its-missile-defense-chops": 1794856892.7089362,
+    "https://breakingdefense.com/?p=101123": 1794856892.7089362,
+    "title:LeoLabs acquires FishEye to bolster its missile defense chops": 1794856892.7089362,
+    "https://news.usni.org/2026/11/13/usni-news-western-pacific-pulse-nov-13-2026": 1794856903.825313,
+    "https://news.usni.org/?p=126573": 1794856903.825313,
+    "title:USNI News Western Pacific Pulse: Nov. 13, 2026": 1794856903.825313
   },
   "events": [
     {
@@ -1961,6 +1970,14 @@
     {
       "key": "烏軍無人機襲擊克赤大橋",
       "timestamp": 1794855661.701909
+    },
+    {
+      "key": "台美安全博弈",
+      "timestamp": 1794856884.0839787
+    },
+    {
+      "key": "LeoLabs併購FishEye",
+      "timestamp": 1794856894.8319051
     }
   ]
 }
