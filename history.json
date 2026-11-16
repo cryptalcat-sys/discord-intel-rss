@@ -1,11 +1,5 @@
 {
   "ids": {
-    "https://www.twz.com/air/b-21-raider-has-released-its-first-weapon": 1794590467.3323917,
-    "https://www.twz.com/?p=6607357": 1794590467.3323917,
-    "title:B-21 Raider Has Released Its First Weapon": 1794590467.3323917,
-    "https://jamestown.org/ogarkov-to-the-baltics-russian-military-thought-evolved-from-zapad-77-to-ukraine-and-beyond": 1794591650.379764,
-    "https://jamestown.org/?p=886838": 1794591650.379764,
-    "title:Ogarkov to the Baltics: Russian Military Thought Evolved From Zapad-77 to Ukraine and Beyond": 1794591650.379764,
     "https://www.atlanticcouncil.org/inflection-points-with-frederick-kempe/nick-clegg-on-trumo-silicon-valley-and-big-techs-political-shift": 1794592850.4925408,
     "https://www.atlanticcouncil.org/?p=959661": 1794592850.4925408,
     "title:Nick Clegg on Trump, Silicon Valley, and Big Tech’s political shift": 1794592850.4925408,
@@ -1733,13 +1727,17 @@
     "title:Pentagon rebrands principal AI shop as ‘Super Intelligence Office’": 1794849646.6277168,
     "https://www.defensenews.com/global/asia-pacific/2026/11/16/china-has-normalized-naval-presence-near-japan-since-political-spat-of-2025": 1794849648.974025,
     "https://one.sightlinemg.com/defensenews/?p=87975": 1794849648.974025,
-    "title:China has ‘normalized’ naval presence near Japan since political spat of 2025": 1794849648.974025
+    "title:China has ‘normalized’ naval presence near Japan since political spat of 2025": 1794849648.974025,
+    "https://www.atlanticcouncil.org/dispatches/why-congress-and-the-european-parliament-need-an-ai-safety-dialogue": 1794850832.0784192,
+    "https://www.atlanticcouncil.org/?p=960600": 1794850832.0784192,
+    "title:Why Congress and the European Parliament need an AI safety dialogue": 1794850832.0784192,
+    "https://www.piie.com/blogs/realtime-economics/2026/after-blue-tsunami-getting-rid-trumps-tariffs": 1794850849.1898565,
+    "title:After the Blue Tsunami: Getting rid of Trump’s tariffs": 1794850849.1898565,
+    "https://news.usni.org/2026/11/13/japan-pledges-drones-coastal-defense-radar-in-latest-philippine-defense-package": 1794850869.240936,
+    "https://news.usni.org/?p=126562": 1794850869.240936,
+    "title:Japan Pledges Drones, Coastal Defense Radar in Latest Philippine Defense Package": 1794850869.240936
   },
   "events": [
-    {
-      "key": "B-21首發實彈測試",
-      "timestamp": 1794590484.3266017
-    },
     {
       "key": "微星反無人機防務",
       "timestamp": 1794592863.7346923
@@ -1955,6 +1953,14 @@
     {
       "key": "中艦隊近海常態化",
       "timestamp": 1794849656.6751676
+    },
+    {
+      "key": "歐美AI安全對話",
+      "timestamp": 1794850840.4423895
+    },
+    {
+      "key": "美國關稅政策角力",
+      "timestamp": 1794850857.260598
     }
   ]
 }
