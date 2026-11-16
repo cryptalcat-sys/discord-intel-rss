@@ -1,11 +1,5 @@
 {
   "ids": {
-    "https://news.usni.org/2026/11/10/gao-report-on-the-defense-departments-f-35-program": 1794583241.057787,
-    "https://news.usni.org/?p=126511": 1794583241.057787,
-    "title:GAO Report on the Defense Department’s F-35 Program": 1794583241.057787,
-    "https://www.atlanticcouncil.org/blogs/menasource/washington-is-reshaping-security-in-north-africa-congress-needs-to-ask-how": 1794583244.5778096,
-    "https://www.atlanticcouncil.org/?p=960063": 1794583244.5778096,
-    "title:Washington is reshaping security in North Africa. Congress needs to ask how.": 1794583244.5778096,
     "https://www.twreporter.org/a/2026-taipei-golden-horse-film-festival-welcome-to-dollys-house": 1794585650.941319,
     "title:真人實拍到轉描，《歡迎來到朵莉之家》如何在台灣做出一部動畫長片？": 1794585650.941319,
     "https://www.lowyinstitute.org/the-interpreter/what-are-australia-s-offshore-university-campuses-for": 1794585651.869144,
@@ -1724,13 +1718,18 @@
     "title:Lichfield quoted in a Reuters on the midterm impact on the US support for Ukraine and policy towards Russia": 1794841250.6497664,
     "https://breakingdefense.com/2026/11/navy-eyes-operational-employment-of-key-uuv-programs-admiral-says": 1794841254.8430667,
     "https://breakingdefense.com/?p=101087": 1794841254.8430667,
-    "title:Navy eyes ‘operational employment’ of key UUV programs, admiral says": 1794841254.8430667
+    "title:Navy eyes ‘operational employment’ of key UUV programs, admiral says": 1794841254.8430667,
+    "https://www.atlanticcouncil.org/dispatches/as-gen-z-asserts-itself-in-serbia-and-albania-the-upside-for-the-west-is-far-greater-than-the-headaches": 1794842434.7665818,
+    "https://www.atlanticcouncil.org/?p=958097": 1794842434.7665818,
+    "title:As Gen Z asserts itself in Serbia and Albania, the upside for the West is far greater than the headaches": 1794842434.7665818,
+    "https://www.navalnews.com/naval-news/2026/11/subpac-commander-warns-of-rapid-expansion-in-chinese-and-russian-submarine-fleets": 1794842436.9643824,
+    "https://www.navalnews.com/?p=93519": 1794842436.9643824,
+    "title:SUBPAC Commander Warns of Rapid Expansion in Chinese and Russian Submarine Fleets": 1794842436.9643824,
+    "https://thediplomat.com/2026/11/nato-is-not-the-right-forum-to-discuss-china": 1794842438.1430163,
+    "https://thediplomat.com/2026/11/nato-is-not-the-right-forum-to-discuss-china/": 1794842438.1430163,
+    "title:NATO Is Not the Right Forum to Discuss China": 1794842438.1430163
   },
   "events": [
-    {
-      "key": "北約中國戰略定位",
-      "timestamp": 1794582108.8566103
-    },
     {
       "key": "美國北非安全戰略",
       "timestamp": 1794583254.215727
