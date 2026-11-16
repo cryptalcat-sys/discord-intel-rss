@@ -1,11 +1,5 @@
 {
   "ids": {
-    "https://www.atlanticcouncil.org/dispatches/the-election-that-never-happened-and-why-washington-needs-a-new-strategy-toward-nicaragua": 1794589249.9948466,
-    "https://www.atlanticcouncil.org/?p=960291": 1794589249.9948466,
-    "title:The election that never happened, and why Washington needs a new strategy toward Nicaragua": 1794589249.9948466,
-    "https://breakingdefense.com/2026/11/pentagon-rebrands-principle-ai-shop-as-super-intelligence-office": 1794589270.0942967,
-    "https://breakingdefense.com/?p=101029": 1794589270.0942967,
-    "title:Pentagon rebrands principle AI shop as ‘Super Intelligence Office’": 1794589270.0942967,
     "https://news.usni.org/2026/11/13/japan-pledges-drones-coastal-defense-radar-in-latest-philippine-defense-package": 1794589293.7502496,
     "https://news.usni.org/?p=126562": 1794589293.7502496,
     "title:Japan Pledges Drones, Coastal Defense Radar in Latest Philippine Defense Package": 1794589293.7502496,
@@ -1732,17 +1726,12 @@
     "title:What are Australia’s offshore university campuses for?": 1794847255.9348307,
     "https://breakingdefense.com/2026/11/hermeus-recruits-northrop-grumman-to-quarterhorse-drone-program": 1794847260.49321,
     "https://breakingdefense.com/?p=100939": 1794847260.49321,
-    "title:Hermeus recruits Northrop Grumman to Quarterhorse drone program": 1794847260.49321
+    "title:Hermeus recruits Northrop Grumman to Quarterhorse drone program": 1794847260.49321,
+    "https://news.usni.org/2026/11/16/navy-weapons-division-to-make-tomahawk-components-in-2027": 1794848469.2575436,
+    "https://news.usni.org/?p=126625": 1794848469.2575436,
+    "title:Navy Weapons Division to Make Tomahawk Components in 2027": 1794848469.2575436
   },
   "events": [
-    {
-      "key": "美國尼加拉瓜政策",
-      "timestamp": 1794589251.7702222
-    },
-    {
-      "key": "五角大廈AI機構改組",
-      "timestamp": 1794589271.5763073
-    },
     {
       "key": "日菲防務裝備無人機援助",
       "timestamp": 1794589295.3374758
@@ -1962,6 +1951,10 @@
     {
       "key": "歐盟東擴黑山入會",
       "timestamp": 1794846931.2532496
+    },
+    {
+      "key": "美國海軍戰斧巡弋飛彈產能",
+      "timestamp": 1794848471.1244526
     }
   ]
 }
