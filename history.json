@@ -1,14 +1,5 @@
 {
   "ids": {
-    "https://www.youtube.com/shorts/I0QDfh-A2Mg": 1794565259.7958548,
-    "yt:video:I0QDfh-A2Mg": 1794565259.7958548,
-    "title:Are Xi’s Purges Weakening China’s Military? | Taiwan Talks #shorts": 1794565259.7958548,
-    "https://www.cna.com.tw/news/acn/202611130213.aspx": 1794565259.9326403,
-    "CNA/2026-11-13/202611130213": 1794565259.9326403,
-    "title:中國國防部：中美防務保持溝通妥善管控分歧": 1794565259.9326403,
-    "https://www.youtube.com/shorts/PbWmNHqNW8E": 1794566433.2654488,
-    "yt:video:PbWmNHqNW8E": 1794566433.2654488,
-    "title:'Loyalty Over Competence' in Xi’s China | Taiwan Talks #shorts": 1794566433.2654488,
     "https://www.atlanticcouncil.org/insight-impact/in-the-news/tannebaum-quoted-in-the-new-york-times-on-us-unreliability-influencing-de-dollarization-efforts-4-9-2": 1794578470.114474,
     "https://www.atlanticcouncil.org/?p=960262": 1794578470.114474,
     "title:Tuteja interviewed on Bloomberg Tech about the implications of the midterm elections for data center development and the AI regulation": 1794578470.114474,
@@ -1714,13 +1705,15 @@
     "title:Expert: BrahMos Could Help Manila Deter Beijing | Taiwan Talks #shorts": 1794824438.3641865,
     "https://www.navalnews.com/naval-news/2026/11/french-navy-intercepts-narco-sub-atlantic": 1794824445.293867,
     "https://www.navalnews.com/?p=93612": 1794824445.293867,
-    "title:French Navy Intercepts Narco-Sub for the First Time in Atlantic Ocean": 1794824445.293867
+    "title:French Navy Intercepts Narco-Sub for the First Time in Atlantic Ocean": 1794824445.293867,
+    "https://breakingdefense.com/2026/11/estonian-drone-company-targeted-in-sabotage-attempt-as-part-of-russias-hybrid-war-against-europe-prime-minister-michal": 1794825638.1062732,
+    "https://breakingdefense.com/?p=101090": 1794825638.1062732,
+    "title:Estonian drone company targeted in sabotage attempt as part of ‘Russia’s hybrid war against Europe’: Prime Minister Michal": 1794825638.1062732,
+    "https://www.navalnews.com/interviews/2026/11/french-navy-chief-reasoned-hybrid-fleet": 1794825671.7558465,
+    "https://www.navalnews.com/?p=93490": 1794825671.7558465,
+    "title:Beyond the Hype: French Navy Chief Advocates for a ‘Reasoned’ Hybrid Fleet": 1794825671.7558465
   },
   "events": [
-    {
-      "key": "中美防務溝通管控分歧",
-      "timestamp": 1794565261.4510062
-    },
     {
       "key": "美國中期選舉AI監管",
       "timestamp": 1794578483.1834884
@@ -1952,6 +1945,10 @@
     {
       "key": "法軍大西洋攔截販毒潛艇",
       "timestamp": 1794824447.5482986
+    },
+    {
+      "key": "愛沙無人機廠遇襲",
+      "timestamp": 1794825661.5555353
     }
   ]
 }
