@@ -1,11 +1,5 @@
 {
   "ids": {
-    "https://www.navalnews.com/naval-news/2026/11/subpac-commander-warns-of-rapid-expansion-in-chinese-and-russian-submarine-fleets": 1794579640.6028469,
-    "https://www.navalnews.com/?p=93519": 1794579640.6028469,
-    "title:SUBPAC Commander Warns of Rapid Expansion in Chinese and Russian Submarine Fleets": 1794579640.6028469,
-    "https://breakingdefense.com/2026/11/uk-to-buy-three-new-mine-hunting-drone-motherships-under-norway-agreement": 1794579661.9150434,
-    "https://breakingdefense.com/?p=101015": 1794579661.9150434,
-    "title:UK to buy three new mine-hunting drone motherships under Norway agreement": 1794579661.9150434,
     "https://www.atlanticcouncil.org/insight-impact/in-the-news/tannebaum-quoted-in-the-new-york-times-on-us-unreliability-influencing-de-dollarization-efforts-4-9-5": 1794579672.5482125,
     "https://www.atlanticcouncil.org/?p=960278": 1794579672.5482125,
     "title:Lichfield interviewed on Bloomberg TV to discuss Nvidia’s leadership crisis and the US – China AI competition": 1794579672.5482125,
@@ -1728,21 +1722,17 @@
     "title:Estonia to close border with Russia after arson attack on local drone maker": 1794837651.752058,
     "https://www.cna.com.tw/news/ait/202611140219.aspx": 1794837671.087407,
     "CNA/2026-11-14/202611140219": 1794837671.087407,
-    "title:NASA旅行家1號飛行49年 即將締造「光日」里程碑": 1794837671.087407
+    "title:NASA旅行家1號飛行49年 即將締造「光日」里程碑": 1794837671.087407,
+    "https://www.defensenews.com/video/2026/11/16/drone-meet-bullet-companies-develop-new-counter-uas-capability-business-of-defense-part-3": 1794838833.8141074,
+    "title:Drone, meet bullet — companies develop new counter UAS capability | Business of Defense – Part 3": 1794838833.8141074,
+    "https://www.defensenews.com/video/2026/11/16/defense-companies-on-the-moon-defense-dollars": 1794838856.7782109,
+    "https://one.sightlinemg.com/defensenews/?p=87880": 1794838856.7782109,
+    "title:Defense companies on the moon | Defense Dollars": 1794838856.7782109,
+    "https://www.atlanticcouncil.org/insight-impact/in-the-news/tannebaum-quoted-in-the-new-york-times-on-us-unreliability-influencing-de-dollarization-efforts-4-9-2": 1794838869.2642546,
+    "https://www.atlanticcouncil.org/?p=960262": 1794838869.2642546,
+    "title:Tuteja interviewed on Bloomberg Tech about the implications of the midterm elections for data center development and the AI regulation": 1794838869.2642546
   },
   "events": [
-    {
-      "key": "美國中期選舉AI監管",
-      "timestamp": 1794578483.1834884
-    },
-    {
-      "key": "中俄潛艦部隊快速擴張",
-      "timestamp": 1794579652.0881174
-    },
-    {
-      "key": "英挪採購獵雷無人母艦",
-      "timestamp": 1794579664.3855112
-    },
     {
       "key": "美中AI人工智慧博弈",
       "timestamp": 1794579682.394654
@@ -1982,6 +1972,14 @@
     {
       "key": "愛國者邊境封鎖事件",
       "timestamp": 1794837654.6285672
+    },
+    {
+      "key": "反無人機激光研發",
+      "timestamp": 1794838848.7771368
+    },
+    {
+      "key": "月球防務與後勤美軍事佈局",
+      "timestamp": 1794838858.462075
     }
   ]
 }
