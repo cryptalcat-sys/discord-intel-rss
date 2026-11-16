@@ -1,14 +1,5 @@
 {
   "ids": {
-    "https://www.atlanticcouncil.org/insight-impact/in-the-news/tannebaum-quoted-in-the-new-york-times-on-us-unreliability-influencing-de-dollarization-efforts-4-9-5": 1794579672.5482125,
-    "https://www.atlanticcouncil.org/?p=960278": 1794579672.5482125,
-    "title:Lichfield interviewed on Bloomberg TV to discuss Nvidia’s leadership crisis and the US – China AI competition": 1794579672.5482125,
-    "https://www.atlanticcouncil.org/insight-impact/in-the-news/tannebaum-quoted-in-the-new-york-times-on-us-unreliability-influencing-de-dollarization-efforts-4-9-4": 1794579690.3949738,
-    "https://www.atlanticcouncil.org/?p=960273": 1794579690.3949738,
-    "title:Lichfield and de Kruijf cited in a CNN on the dynamic between Russia and the Trump administration": 1794579690.3949738,
-    "https://www.atlanticcouncil.org/insight-impact/in-the-news/tannebaum-quoted-in-the-new-york-times-on-us-unreliability-influencing-de-dollarization-efforts-4-9-3": 1794580834.052996,
-    "https://www.atlanticcouncil.org/?p=960269": 1794580834.052996,
-    "title:Lichfield quoted in a Reuters on the midterm impact on the US support for Ukraine and policy towards Russia": 1794580834.052996,
     "https://www.atlanticcouncil.org/dispatches/as-gen-z-asserts-itself-in-serbia-and-albania-the-upside-for-the-west-is-far-greater-than-the-headaches": 1794580849.6223793,
     "https://www.atlanticcouncil.org/?p=958097": 1794580849.6223793,
     "title:As Gen Z asserts itself in Serbia and Albania, the upside for the West is far greater than the headaches": 1794580849.6223793,
@@ -1730,21 +1721,12 @@
     "title:Defense companies on the moon | Defense Dollars": 1794838856.7782109,
     "https://www.atlanticcouncil.org/insight-impact/in-the-news/tannebaum-quoted-in-the-new-york-times-on-us-unreliability-influencing-de-dollarization-efforts-4-9-2": 1794838869.2642546,
     "https://www.atlanticcouncil.org/?p=960262": 1794838869.2642546,
-    "title:Tuteja interviewed on Bloomberg Tech about the implications of the midterm elections for data center development and the AI regulation": 1794838869.2642546
+    "title:Tuteja interviewed on Bloomberg Tech about the implications of the midterm elections for data center development and the AI regulation": 1794838869.2642546,
+    "https://breakingdefense.com/2026/11/uk-to-buy-three-new-mine-hunting-drone-motherships-under-norway-agreement": 1794840035.476405,
+    "https://breakingdefense.com/?p=101015": 1794840035.476405,
+    "title:UK to buy three new mine-hunting drone motherships under Norway agreement": 1794840035.476405
   },
   "events": [
-    {
-      "key": "美中AI人工智慧博弈",
-      "timestamp": 1794579682.394654
-    },
-    {
-      "key": "美俄川普政權互動",
-      "timestamp": 1794579691.7941225
-    },
-    {
-      "key": "美中期選舉烏政策",
-      "timestamp": 1794580841.6196985
-    },
     {
       "key": "土埃海軍聯合造船合作",
       "timestamp": 1794580851.6388113
