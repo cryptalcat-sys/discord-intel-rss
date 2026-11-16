@@ -1,11 +1,5 @@
 {
   "ids": {
-    "https://jamestown.org/russias-push-for-ai-sovereignty-faces-setbacks": 1794528060.6261888,
-    "https://jamestown.org/?p=886860": 1794528060.6261888,
-    "title:Russia’s Push for AI Sovereignty Faces Setbacks": 1794528060.6261888,
-    "https://jamestown.org/georgia-begins-de-facto-diplomatic-reset-with-russia": 1794528070.1498375,
-    "https://jamestown.org/?p=886857": 1794528070.1498375,
-    "title:Georgia Begins De Facto Diplomatic Reset with Russia": 1794528070.1498375,
     "https://jamestown.org/sovereign-satellite-constellations-emerging-from-russia-and-ukraine": 1794529239.9996212,
     "https://jamestown.org/?p=886822": 1794529239.9996212,
     "title:Sovereign Satellite Constellations Emerging From Russia and Ukraine": 1794529239.9996212,
@@ -1713,17 +1707,11 @@
     "https://news.usni.org/?p=126566": 1794784843.2990553,
     "title:SSN(X) Attack Boat Will be a Swift, Lethal Mothership for Undersea Drones, Navy Says": 1794784843.2990553,
     "https://www.lowyinstitute.org/the-interpreter/eleven-phones-and-the-spectre-of-treason-jakarta-s-wiretap-scandal": 1794786029.808839,
-    "title:Eleven phones and the spectre of treason: Jakarta’s wiretap scandal": 1794786029.808839
+    "title:Eleven phones and the spectre of treason: Jakarta’s wiretap scandal": 1794786029.808839,
+    "https://www.lowyinstitute.org/the-interpreter/japan-wants-satellite-sovereignty": 1794788379.2885618,
+    "title:Japan wants satellite sovereignty": 1794788379.2885618
   },
   "events": [
-    {
-      "key": "俄羅斯AI主權受挫",
-      "timestamp": 1794528062.1494997
-    },
-    {
-      "key": "喬俄事實上恢復外交關係",
-      "timestamp": 1794528071.5322065
-    },
     {
       "key": "美空軍特技教練機列裝",
       "timestamp": 1794530453.5106373
@@ -1963,6 +1951,10 @@
     {
       "key": "澳洲原住民智財保護",
       "timestamp": 1794781241.011259
+    },
+    {
+      "key": "日本衛星主權布局",
+      "timestamp": 1794788381.275922
     }
   ]
 }
