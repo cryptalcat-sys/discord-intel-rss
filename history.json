@@ -1,8 +1,5 @@
 {
   "ids": {
-    "https://www.navalnews.com/naval-news/2026/11/naval-unmanned-systems-showcased-at-taiwans-marine-tech-show": 1794552041.600551,
-    "https://www.navalnews.com/?p=93280": 1794552041.600551,
-    "title:Naval Unmanned Systems Showcased at Taiwan’s Marine Tech Show": 1794552041.600551,
     "https://www.cna.com.tw/news/acn/202611130160.aspx": 1794554436.6156387,
     "CNA/2026-11-13/202611130160": 1794554436.6156387,
     "title:習近平：國有企業要堅定不移肅紀反腐": 1794554436.6156387,
@@ -1719,13 +1716,12 @@
     "title:In Manila, the Quad must work for ASEAN, not around it": 1794807638.7485926,
     "https://www.foreignaffairs.com/united-states/case-trump-xi-putin-summit": 1794808846.036323,
     "1135762": 1794808846.036323,
-    "title:The Case for a Trump-Xi-Putin Summit": 1794808846.036323
+    "title:The Case for a Trump-Xi-Putin Summit": 1794808846.036323,
+    "https://www.cna.com.tw/news/ait/202611160117.aspx": 1794811231.696644,
+    "CNA/2026-11-16/202611160117": 1794811231.696644,
+    "title:輝達風波未平仍獲美力挺 傳將列AI國家冠軍企業": 1794811231.696644
   },
   "events": [
-    {
-      "key": "台灣海洋無人系統展覽",
-      "timestamp": 1794552043.2612865
-    },
     {
       "key": "中共紀念孫中山統戰",
       "timestamp": 1794560489.5393205
@@ -1961,6 +1957,10 @@
     {
       "key": "東協跨境能源互聯",
       "timestamp": 1794806445.0162666
+    },
+    {
+      "key": "輝達AI國家冠軍",
+      "timestamp": 1794811233.1305203
     }
   ]
 }
