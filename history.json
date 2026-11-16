@@ -1,20 +1,5 @@
 {
   "ids": {
-    "https://www.cna.com.tw/news/acn/202611130170.aspx": 1794560486.6275957,
-    "CNA/2026-11-13/202611130170": 1794560486.6275957,
-    "title:中共紀念孫中山誕辰 學者：意在擴大對台統戰宣傳": 1794560486.6275957,
-    "https://www.navalnews.com/event-news/euronaval-2026/2026/11/saab-sea-giraffe-amb-d-radar": 1794560502.4817364,
-    "https://www.navalnews.com/?p=92822": 1794560502.4817364,
-    "title:Saab’s New Sea Giraffe AMB D Radar Boosts Detection Range by 50%": 1794560502.4817364,
-    "https://www.youtube.com/shorts/Ld29wW3apn4": 1794560519.9474392,
-    "yt:video:Ld29wW3apn4": 1794560519.9474392,
-    "title:Expert: US Marines Could Help Manila Fight Back Against China | Taiwan Talks #shorts": 1794560519.9474392,
-    "https://www.foreignaffairs.com/china/new-kind-foreign-agent": 1794560523.3619595,
-    "1135759": 1794560523.3619595,
-    "title:A New Kind of Foreign Agent": 1794560523.3619595,
-    "https://www.foreignaffairs.com/north-korea/trump-facing-very-different-north-korea": 1794560523.3620117,
-    "1135754": 1794560523.3620117,
-    "title:Trump Is Facing a Very Different North Korea": 1794560523.3620117,
     "https://www.twreporter.org/a/hello-world-2026-11-12": 1794562841.6139042,
     "title:當晶片的巨人在間諜醜聞中難堪倒下，黃仁勳下台風暴洗牌美中台晶片賽局？": 1794562841.6139042,
     "https://www.youtube.com/shorts/kWD21wNlauA": 1794564043.097193,
@@ -1719,17 +1704,15 @@
     "title:美中俄元首將會談 中國外交部：具開創性意義": 1794818439.438976,
     "https://www.youtube.com/shorts/-IuE_VuYx3w": 1794819654.067638,
     "yt:video:-IuE_VuYx3w": 1794819654.067638,
-    "title:善用AI工具 雙向防守掃描資安潛在漏洞｜ 公共電視 - 尖鋒對話": 1794819654.067638
+    "title:善用AI工具 雙向防守掃描資安潛在漏洞｜ 公共電視 - 尖鋒對話": 1794819654.067638,
+    "https://warontherocks.com/cogs-of-war/rip-to-the-1-45-trillion-fy2027-defense-budget": 1794820837.2350988,
+    "https://warontherocks.com/?p=48607": 1794820837.2350988,
+    "title:RIP to the $1.45 Trillion FY2027 Defense Budget": 1794820837.2350988,
+    "https://www.navalnews.com/naval-news/2026/11/hd-hhi-anduril-launch-600-ton-asv-alpha": 1794820854.7638195,
+    "https://www.navalnews.com/?p=93605": 1794820854.7638195,
+    "title:HD HHI and Anduril Launch 600-Ton Autonomous Surface Vessel ‘ASV Alpha’": 1794820854.7638195
   },
   "events": [
-    {
-      "key": "中共紀念孫中山統戰",
-      "timestamp": 1794560489.5393205
-    },
-    {
-      "key": "薩博海鷲雷達升級",
-      "timestamp": 1794560510.9027245
-    },
     {
       "key": "黃仁勳下台風波",
       "timestamp": 1794562851.6952507
@@ -1969,6 +1952,14 @@
     {
       "key": "空軍資深飛官流失",
       "timestamp": 1794816059.9418914
+    },
+    {
+      "key": "美國國防預算刪減",
+      "timestamp": 1794820839.102197
+    },
+    {
+      "key": "韓美聯手研發大型無人水面艦",
+      "timestamp": 1794820858.5216234
     }
   ]
 }
