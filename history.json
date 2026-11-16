@@ -1,8 +1,5 @@
 {
   "ids": {
-    "https://www.atlanticcouncil.org/insight-impact/in-the-news/tannebaum-quoted-in-the-new-york-times-on-us-unreliability-influencing-de-dollarization-efforts-4-9-2": 1794578470.114474,
-    "https://www.atlanticcouncil.org/?p=960262": 1794578470.114474,
-    "title:Tuteja interviewed on Bloomberg Tech about the implications of the midterm elections for data center development and the AI regulation": 1794578470.114474,
     "https://www.navalnews.com/naval-news/2026/11/subpac-commander-warns-of-rapid-expansion-in-chinese-and-russian-submarine-fleets": 1794579640.6028469,
     "https://www.navalnews.com/?p=93519": 1794579640.6028469,
     "title:SUBPAC Commander Warns of Rapid Expansion in Chinese and Russian Submarine Fleets": 1794579640.6028469,
@@ -1726,7 +1723,12 @@
     "title:U.S. Navy Cuts Submarine Maintenance Delays by 40% as Output Surges": 1794836438.892215,
     "https://www.cna.com.tw/news/acn/202611160264.aspx": 1794836495.6834369,
     "CNA/2026-11-16/202611160264": 1794836495.6834369,
-    "title:APEC深圳峰會週 禁鳴喇叭、計程車駕駛學英文": 1794836495.6834369
+    "title:APEC深圳峰會週 禁鳴喇叭、計程車駕駛學英文": 1794836495.6834369,
+    "https://www.defensenews.com/global/europe/2026/11/16/estonia-to-close-border-with-russia-after-arson-attack-on-local-drone-maker": 1794837651.752058,
+    "title:Estonia to close border with Russia after arson attack on local drone maker": 1794837651.752058,
+    "https://www.cna.com.tw/news/ait/202611140219.aspx": 1794837671.087407,
+    "CNA/2026-11-14/202611140219": 1794837671.087407,
+    "title:NASA旅行家1號飛行49年 即將締造「光日」里程碑": 1794837671.087407
   },
   "events": [
     {
@@ -1976,6 +1978,10 @@
     {
       "key": "深圳APEC峰會空域管制",
       "timestamp": 1794836497.705636
+    },
+    {
+      "key": "愛國者邊境封鎖事件",
+      "timestamp": 1794837654.6285672
     }
   ]
 }
