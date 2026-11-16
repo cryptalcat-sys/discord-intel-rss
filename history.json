@@ -1770,7 +1770,16 @@
     "title:Chrystia Freeland on power, politics, and the future of democracy": 1794866488.334822,
     "https://www.atlanticcouncil.org/blogs/econographics/congress-could-soon-rein-in-trumps-tariffs-on-canada-heres-what-that-could-look-like": 1794866539.8260434,
     "https://www.atlanticcouncil.org/?p=961080": 1794866539.8260434,
-    "title:Congress could soon rein in Trump’s tariffs on Canada. Here’s what that could look like.": 1794866539.8260434
+    "title:Congress could soon rein in Trump’s tariffs on Canada. Here’s what that could look like.": 1794866539.8260434,
+    "https://www.twz.com/news-features/ukraine-regretting-white-house-brokered-temporary-ceasefire-in-strategic-riverside-town-of-oleshky": 1794867637.4020267,
+    "https://www.twz.com/?p=6606827": 1794867637.4020267,
+    "title:Ukraine Regretting White House-Brokered Temporary Ceasefire In Strategic Riverside Town Of Oleshky": 1794867637.4020267,
+    "https://breakingdefense.com/2026/11/pentagon-fails-9th-audit-asserts-path-towards-clean-books-in-2028": 1794867638.080393,
+    "https://breakingdefense.com/?p=101176": 1794867638.080393,
+    "title:Pentagon fails 9th audit, asserts path towards clean books in 2028": 1794867638.080393,
+    "https://news.usni.org/2026/11/16/vice-adm-oliver-lewis-takes-command-of-2nd-fleet": 1794867660.2167828,
+    "https://news.usni.org/?p=126665": 1794867660.2167828,
+    "title:Vice Adm. Oliver Lewis Takes Command of 2nd Fleet": 1794867660.2167828
   },
   "events": [
     {
@@ -2004,6 +2013,14 @@
     {
       "key": "美加關稅立法博弈",
       "timestamp": 1794866548.6911557
+    },
+    {
+      "key": "五角大樓審計失守",
+      "timestamp": 1794867651.304481
+    },
+    {
+      "key": "美軍第二艦隊換將",
+      "timestamp": 1794867662.8661063
     }
   ]
 }
