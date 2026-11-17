@@ -1,8 +1,5 @@
 {
   "ids": {
-    "https://thediplomat.com/2026/11/squad-nations-to-establish-coordination-hub-in-the-philippines-defense-chiefs-say": 1794613783.839162,
-    "https://thediplomat.com/2026/11/squad-nations-to-establish-coordination-hub-in-the-philippines-defense-chiefs-say/": 1794613783.839162,
-    "title:‘Squad’ Nations to Establish Coordination Hub in the Philippines, Defense Chiefs Say": 1794613783.839162,
     "https://www.cna.com.tw/news/acn/202611140044.aspx": 1794627638.0757253,
     "CNA/2026-11-14/202611140044": 1794627638.0757253,
     "title:韓國外長趙顯晤王毅 盼APEC兩國元首會面促進中韓關係發展": 1794627638.0757253,
@@ -1791,7 +1788,10 @@
     "title:What the Fa’az Missile Means for Pakistan’s Air Force": 1794872431.2727168,
     "https://www.defensenews.com/air/2026/11/16/first-permanently-assigned-f-15exs-touch-down-at-kadena-air-base": 1794872440.3113523,
     "https://one.sightlinemg.com/defensenews/news/2026/11/16/first-permanently-assigned-f-15exs-touch-down-at-kadena-air-base/": 1794872440.3113523,
-    "title:First permanently assigned F-15EXs touch down at Kadena Air Base": 1794872440.3113523
+    "title:First permanently assigned F-15EXs touch down at Kadena Air Base": 1794872440.3113523,
+    "https://www.navalnews.com/naval-news/2026/11/diu-awards-saronic-contract-to-deliver-autonomous-low-profile-vessel-for-usmc-contested-logistics": 1794876034.3851342,
+    "https://www.navalnews.com/?p=93639": 1794876034.3851342,
+    "title:DIU Awards Saronic Contract to Deliver Autonomous Low Profile Vessel for USMC Contested Logistics": 1794876034.3851342
   },
   "events": [
     {
@@ -2037,6 +2037,10 @@
     {
       "key": "嘉手納基地部署F-15EX",
       "timestamp": 1794872442.1871912
+    },
+    {
+      "key": "美陸戰隊無人補給",
+      "timestamp": 1794876074.2319124
     }
   ]
 }
