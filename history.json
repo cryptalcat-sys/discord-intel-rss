@@ -1,20 +1,5 @@
 {
   "ids": {
-    "https://breakingdefense.com/2026/11/aukus-review-was-best-thing-for-trilateral-pact-colby": 1794690045.4842842,
-    "https://breakingdefense.com/?p=100950": 1794690045.4842842,
-    "title:AUKUS review was ‘best thing’ for trilateral pact: Colby": 1794690045.4842842,
-    "https://www.cna.com.tw/news/aopl/202611150004.aspx": 1794690047.2415464,
-    "CNA/2026-11-15/202611150004": 1794690047.2415464,
-    "title:輝達兩大股東籲審慎評估領導人選 黃仁勳回任列入考量": 1794690047.2415464,
-    "https://www.cna.com.tw/news/aopl/202611130011.aspx": 1794690057.201172,
-    "CNA/2026-11-13/202611130011": 1794690057.201172,
-    "title:黃仁勳辭輝達執行長 科技界憂創新領導力流失": 1794690057.201172,
-    "https://www.cna.com.tw/news/ait/202611130010.aspx": 1794690057.2012124,
-    "CNA/2026-11-13/202611130010": 1794690057.2012124,
-    "title:微軟365、Outlook等服務當機 數以千計美國用戶受影響": 1794690057.2012124,
-    "https://www.twz.com/news-features/ukraine-says-starshield-disruptions-are-back-as-u-s-negotiators-meet-with-putin": 1794690065.4799998,
-    "https://www.twz.com/?p=6607067": 1794690065.4799998,
-    "title:Ukraine Says Starshield Disruptions Are Back As U.S. Negotiators Meet With Putin": 1794690065.4799998,
     "https://breakingdefense.com/2026/11/hegseth-seeks-to-elevate-top-sof-civilian-to-service-secretary-equivalent": 1794692443.1344671,
     "https://breakingdefense.com/?p=100986": 1794692443.1344671,
     "title:Hegseth seeks to elevate top SOF civilian to service-secretary equivalent": 1794692443.1344671,
@@ -1720,13 +1705,18 @@
     "title:Schieffer Series: A Discussion on Terrorism": 1794948114.6703308,
     "https://www.csis.org/events/defense-outlook-csis-series-strategy-budget-forces-and-acquisition": 1794948114.6703641,
     "34773 at https://www.csis.org": 1794948114.6703641,
-    "title:Defense Outlook: A CSIS Series on Strategy, Budget, Forces, and Acquisition": 1794948114.6703641
+    "title:Defense Outlook: A CSIS Series on Strategy, Budget, Forces, and Acquisition": 1794948114.6703641,
+    "https://breakingdefense.com/2026/11/army-kicks-off-manufacturing-rodeo-with-focus-on-small-drones": 1794949244.1636727,
+    "https://breakingdefense.com/?p=101321": 1794949244.1636727,
+    "title:Army kicks off ‘manufacturing rodeo’ with focus on small drones": 1794949244.1636727,
+    "https://jamestown.org/russia-increases-engagement-with-taliban-led-afghanistan": 1794949266.8659556,
+    "https://jamestown.org/?p=886926": 1794949266.8659556,
+    "title:Russia Increases Engagement with Taliban-Led Afghanistan": 1794949266.8659556,
+    "https://jamestown.org/kazakhstan-expands-its-role-in-eurasian-connectivity-through-the-middle-corridor": 1794949276.3438728,
+    "https://jamestown.org/?p=886925": 1794949276.3438728,
+    "title:Kazakhstan Expands Its Role in Eurasian Connectivity Through the Middle Corridor": 1794949276.3438728
   },
   "events": [
-    {
-      "key": "輝達高層領導人事",
-      "timestamp": 1794690049.199153
-    },
     {
       "key": "中日領袖APEC互動",
       "timestamp": 1794715258.0430899
@@ -2046,6 +2036,18 @@
     {
       "key": "烏軍前線無人機醫療撤退",
       "timestamp": 1794948106.5430808
+    },
+    {
+      "key": "美軍小型無人機製造競賽",
+      "timestamp": 1794949252.0767534
+    },
+    {
+      "key": "俄羅斯深化塔利班政權外交",
+      "timestamp": 1794949268.3427129
+    },
+    {
+      "key": "哈薩克擴大中間走廊",
+      "timestamp": 1794949281.621889
     }
   ]
 }
