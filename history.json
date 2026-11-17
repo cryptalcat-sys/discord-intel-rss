@@ -1,8 +1,5 @@
 {
   "ids": {
-    "https://www.twz.com/air/f-35s-train-in-india-for-red-flag-of-the-east": 1794682860.271877,
-    "https://www.twz.com/?p=6606373": 1794682860.271877,
-    "title:F-35s Train In India For “Red Flag Of The East”": 1794682860.271877,
     "https://www.atlanticcouncil.org/dispatches/what-germans-most-want-to-know-about-the-post-midterms-united-states": 1794684037.4157612,
     "https://www.atlanticcouncil.org/?p=959364": 1794684037.4157612,
     "title:Dispatch from Berlin: What Germans most want to know about the post-midterms United States": 1794684037.4157612,
@@ -1833,7 +1830,13 @@
     "title:LUCAS Drones To Be Built In Containerized Robotic Micro Factories Designed To Be Forward Deployed": 1794939649.7697403,
     "https://warontherocks.com/keeping-america-out-revisiting-chinas-deterrence-strategy-for-taiwan": 1794940840.777822,
     "https://warontherocks.com/?p=48656": 1794940840.777822,
-    "title:Keeping America Out: Revisiting China’s Deterrence Strategy for Taiwan": 1794940840.777822
+    "title:Keeping America Out: Revisiting China’s Deterrence Strategy for Taiwan": 1794940840.777822,
+    "https://news.usni.org/2026/11/17/suspected-russian-aircraft-violated-japans-airspace-says-defense-minister": 1794942058.708183,
+    "https://news.usni.org/?p=126676": 1794942058.708183,
+    "title:Suspected Russian Aircraft Violated Japan’s Airspace, Says Defense Minister": 1794942058.708183,
+    "https://warontherocks.com/how-purges-are-affecting-chinese-military-readiness-and-taiwan-contingencies": 1794942071.444688,
+    "https://warontherocks.com/?p=48579": 1794942071.444688,
+    "title:How Purges Are Affecting Chinese Military Readiness and Taiwan Contingencies": 1794942071.444688
   },
   "events": [
     {
@@ -2135,6 +2138,10 @@
     {
       "key": "中國台海威懾",
       "timestamp": 1794940849.880573
+    },
+    {
+      "key": "俄機侵犯日本領空",
+      "timestamp": 1794942060.6261623
     }
   ]
 }
