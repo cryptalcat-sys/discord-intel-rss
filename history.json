@@ -1,8 +1,5 @@
 {
   "ids": {
-    "https://warontherocks.com/how-purges-are-affecting-chinese-military-readiness-and-taiwan-contingencies": 1794681641.9514778,
-    "https://warontherocks.com/?p=48579": 1794681641.9514778,
-    "title:How Purges Are Affecting Chinese Military Readiness and Taiwan Contingencies": 1794681641.9514778,
     "https://www.twz.com/air/f-35s-train-in-india-for-red-flag-of-the-east": 1794682860.271877,
     "https://www.twz.com/?p=6606373": 1794682860.271877,
     "title:F-35s Train In India For “Red Flag Of The East”": 1794682860.271877,
@@ -1833,7 +1830,10 @@
     "title:Charai for The National Interest: On Immigration, the US Is Not Europe—Unless It Chooses to Be": 1794939640.4893665,
     "https://www.twz.com/news-features/lucas-drones-to-be-built-in-containerized-robotic-micro-factories-designed-to-be-forward-deployed": 1794939649.7697403,
     "https://www.twz.com/?p=6605706": 1794939649.7697403,
-    "title:LUCAS Drones To Be Built In Containerized Robotic Micro Factories Designed To Be Forward Deployed": 1794939649.7697403
+    "title:LUCAS Drones To Be Built In Containerized Robotic Micro Factories Designed To Be Forward Deployed": 1794939649.7697403,
+    "https://warontherocks.com/keeping-america-out-revisiting-chinas-deterrence-strategy-for-taiwan": 1794940840.777822,
+    "https://warontherocks.com/?p=48656": 1794940840.777822,
+    "title:Keeping America Out: Revisiting China’s Deterrence Strategy for Taiwan": 1794940840.777822
   },
   "events": [
     {
@@ -2131,6 +2131,10 @@
     {
       "key": "美海軍部長提名聽證",
       "timestamp": 1794938461.9387848
+    },
+    {
+      "key": "中國台海威懾",
+      "timestamp": 1794940849.880573
     }
   ]
 }
