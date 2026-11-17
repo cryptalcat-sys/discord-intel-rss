@@ -1799,7 +1799,10 @@
     "https://breakingdefense.com/?p=101225": 1794879641.4087417,
     "title:Senate appropriators unveil $1.1T Pentagon spending bill, folding in reconciliation priorities": 1794879641.4087417,
     "https://www.lowyinstitute.org/the-interpreter/press-play-russia-s-push-to-recruit-through-gaming": 1794884454.5201468,
-    "title:Press play: Russia’s push to recruit through gaming": 1794884454.5201468
+    "title:Press play: Russia’s push to recruit through gaming": 1794884454.5201468,
+    "https://www.cna.com.tw/news/acn/202611170045.aspx": 1794885636.9709125,
+    "CNA/2026-11-17/202611170045": 1794885636.9709125,
+    "title:25年間3次主辦APEC 中國從融入世界到遭遇「去風險」抵制": 1794885636.9709125
   },
   "events": [
     {
@@ -2053,6 +2056,10 @@
     {
       "key": "美參院軍費撥款",
       "timestamp": 1794879652.549663
+    },
+    {
+      "key": "中國APEC與去風險化",
+      "timestamp": 1794885644.2426717
     }
   ]
 }
