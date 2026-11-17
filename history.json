@@ -1,11 +1,5 @@
 {
   "ids": {
-    "https://www.navalnews.com/naval-news/2026/11/uss-district-of-columbia-ssbn-826-back-on-track-for-2028-delivery": 1794674436.9131923,
-    "https://www.navalnews.com/?p=93548": 1794674436.9131923,
-    "title:Lead Columbia-class SSBN Claws Back from Delay Risk": 1794674436.9131923,
-    "https://news.usni.org/2026/11/11/vr-goggles-get-dual-use-for-suicide-prevention-counter-drone-training": 1794674449.534633,
-    "https://news.usni.org/?p=126522": 1794674449.534633,
-    "title:VR Goggles Get Dual Use for Suicide Prevention, Counter-drone Training": 1794674449.534633,
     "https://www.lowyinstitute.org/the-interpreter/beijing-s-new-common-language-law-doesn-t-sound-so-common": 1794675654.711027,
     "title:Beijing’s new “common language” law doesn’t sound so common": 1794675654.711027,
     "https://breakingdefense.com/2026/11/instead-of-stockpiling-small-attack-drones-army-looking-to-simply-buy-new-ones": 1794678030.8463676,
@@ -1816,13 +1810,26 @@
     "title:PRC Views Vary on Jensen Huang’s Resignation": 1794932447.3675666,
     "https://breakingdefense.com/2026/11/a-new-air-force-stunt-plane-plus-a-shakeup-for-special-operations": 1794932468.7079232,
     "https://breakingdefense.com/?p=101158": 1794932468.7079232,
-    "title:A new Air Force stunt plane, plus a shakeup for special operations": 1794932468.7079232
+    "title:A new Air Force stunt plane, plus a shakeup for special operations": 1794932468.7079232,
+    "https://www.navalnews.com/naval-news/2026/11/eastern-shipbuilding-to-build-grand-block-units-for-future-uss-telesforo-trinidad-ddg-139": 1794933637.7427778,
+    "https://www.navalnews.com/?p=93693": 1794933637.7427778,
+    "title:Eastern Shipbuilding to Build Grand Block Units for Future USS Telesforo Trinidad (DDG 139)": 1794933637.7427778,
+    "https://www.atlanticcouncil.org/insight-impact/in-the-news/the-cbdc-tracker-cited-in-coindesk-on-the-number-of-countries-actively-testing-or-developing-cbdcs-2-3": 1794933657.9277213,
+    "https://www.atlanticcouncil.org/?p=958882": 1794933657.9277213,
+    "title:Dollar Dominance Monitor cited in a Project Syndicate article on the yuan’s growing role in international trade": 1794933657.9277213,
+    "https://www.atlanticcouncil.org/insight-impact/in-the-news/the-cbdc-tracker-cited-in-coindesk-on-the-number-of-countries-actively-testing-or-developing-cbdcs-2-2": 1794933657.927752,
+    "https://www.atlanticcouncil.org/?p=958879": 1794933657.927752,
+    "title:CBDC Tracker cited in a CEPR paper on Europe’s plans for retail and wholesale payments": 1794933657.927752,
+    "https://www.atlanticcouncil.org/content-series/inflection-points/dispatch-from-dubai-after-the-midterms-allies-see-both-us-resilience-and-unreliability": 1794933657.927973,
+    "https://www.atlanticcouncil.org/?p=959236": 1794933657.927973,
+    "title:Dispatch from Dubai: After the midterms, allies see both US resilience and unreliability": 1794933657.927973,
+    "https://www.atlanticcouncil.org/dispatches/not-quite-mercenaries-how-russia-lures-thousands-of-foreigners-to-fight-in-its-war-on-ukraine": 1794933657.928107,
+    "https://www.atlanticcouncil.org/?p=957940": 1794933657.928107,
+    "title:Not quite mercenaries: How Russia lures thousands of foreigners to fight in its war on Ukraine": 1794933657.928107,
+    "https://www.twreporter.org/a/2026-taipei-golden-horse-film-festival-sayang": 1794933661.2745934,
+    "title:1個承諾、2場葬禮、3個聾人青少年──湯湘竹首部劇情片《沙央》，關於族群匯流的愛與疼惜": 1794933661.2745934
   },
   "events": [
-    {
-      "key": "哥倫比亞級潛艦交付進度",
-      "timestamp": 1794674438.7413201
-    },
     {
       "key": "B21常規武器投擲測試",
       "timestamp": 1794686448.7581494
@@ -2106,6 +2113,10 @@
     {
       "key": "美軍特戰編裝重組與新型教練機",
       "timestamp": 1794932472.6885722
+    },
+    {
+      "key": "美艦建造與模組化合約",
+      "timestamp": 1794933648.1304803
     }
   ]
 }
