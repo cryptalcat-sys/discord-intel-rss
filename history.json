@@ -1810,7 +1810,13 @@
     "title:How Far Could Stocks Fall?": 1794926457.1737359,
     "https://www.youtube.com/shorts/LNmHcTmg-yM": 1794927659.6504552,
     "yt:video:LNmHcTmg-yM": 1794927659.6504552,
-    "title:The Sailors": 1794927659.6504552
+    "title:The Sailors": 1794927659.6504552,
+    "https://www.navalnews.com/event-news/euronaval-2026/2026/11/rheinmetall-pitches-gmf-140-frigate-us-navy-nato": 1794928834.753694,
+    "https://www.navalnews.com/?p=93667": 1794928834.753694,
+    "title:Video: Rheinmetall Pitches Aegis-Equipped GMF 140 Frigate to U.S. Navy": 1794928834.753694,
+    "https://www.atlanticcouncil.org/dispatches/spain-votes-first-what-its-snap-election-could-mean-for-europe-and-the-united-states": 1794928850.2982414,
+    "https://www.atlanticcouncil.org/?p=960883": 1794928850.2982414,
+    "title:Spain votes first: What its snap election could mean for Europe and the United States": 1794928850.2982414
   },
   "events": [
     {
@@ -2080,6 +2086,14 @@
     {
       "key": "五角大廈連續九年審計未過",
       "timestamp": 1794926441.929627
+    },
+    {
+      "key": "萊茵金屬推銷神盾巡防艦",
+      "timestamp": 1794928836.928861
+    },
+    {
+      "key": "西班牙大選影響",
+      "timestamp": 1794928877.1754746
     }
   ]
 }
