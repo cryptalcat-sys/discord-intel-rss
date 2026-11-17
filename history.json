@@ -1,13 +1,5 @@
 {
   "ids": {
-    "https://www.piie.com/newsroom/short-videos/2026/jeffrey-j-schott-remembers-piie-colleague-gary-clyde-hufbauer": 1794657649.6291745,
-    "title:Jeffrey J. Schott remembers PIIE colleague Gary Clyde Hufbauer": 1794657649.6291745,
-    "https://www.cna.com.tw/news/acn/202611140204.aspx": 1794661249.3340876,
-    "CNA/2026-11-14/202611140204": 1794661249.3340876,
-    "title:共同社：日中領導東協會議期間接觸機會有限": 1794661249.3340876,
-    "https://thediplomat.com/2026/11/japans-denial-defense-capabilities-and-the-debate-over-port-calls-by-nuclear-armed-us-ships": 1794661263.5674067,
-    "https://thediplomat.com/2026/11/japans-denial-defense-capabilities-and-the-debate-over-port-calls-by-nuclear-armed-us-ships/": 1794661263.5674067,
-    "title:Japan’s ‘Denial Defense Capabilities’ and the Debate Over Port Calls by Nuclear-Armed US Ships": 1794661263.5674067,
     "https://news.usni.org/2026/11/11/report-to-congress-on-strategic-stability-of-the-golden-dome": 1794662433.0402956,
     "https://news.usni.org/?p=126520": 1794662433.0402956,
     "title:Report to Congress on Strategic Stability of the Golden Dome": 1794662433.0402956,
@@ -1801,13 +1793,12 @@
     "title:川習會前美嚴控先進AI晶片出口 北京批經濟脅迫": 1794914431.5789537,
     "https://www.cna.com.tw/news/acn/202611170168.aspx": 1794914445.8470366,
     "CNA/2026-11-17/202611170168": 1794914445.8470366,
-    "title:APEC峰會前夕習近平會卡尼 籲增進政治互信深化貿易能源合作": 1794914445.8470366
+    "title:APEC峰會前夕習近平會卡尼 籲增進政治互信深化貿易能源合作": 1794914445.8470366,
+    "https://www.cna.com.tw/news/acn/202611170292.aspx": 1794920457.1682663,
+    "CNA/2026-11-17/202611170292": 1794920457.1682663,
+    "title:陸委會民調：逾7成民眾支持政府以對等尊嚴參加深圳APEC峰會": 1794920457.1682663
   },
   "events": [
-    {
-      "key": "日中東協峰會互動",
-      "timestamp": 1794661250.7446704
-    },
     {
       "key": "哥倫比亞級潛艦交付進度",
       "timestamp": 1794674438.7413201
@@ -2067,6 +2058,10 @@
     {
       "key": "中加領袖會晤APEC",
       "timestamp": 1794914456.314117
+    },
+    {
+      "key": "兩岸APEC互動民調",
+      "timestamp": 1794920459.2450078
     }
   ]
 }
