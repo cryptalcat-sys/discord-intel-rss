@@ -1,10 +1,5 @@
 {
   "ids": {
-    "https://www.youtube.com/watch": 1794686447.1611993,
-    "yt:video:FlCnwb_3TI0": 1794686447.1611993,
-    "title:B 21 Raider | Successfully completed its first conventional weapons release test": 1794686447.1611993,
-    "https://www.piie.com/events/2026/upcoming-2027-french-election-cycle-and-political-discontent": 1794686456.9198542,
-    "title:The upcoming 2027 French election cycle and political discontent": 1794686456.9198542,
     "https://warontherocks.com/stained-glass-and-sacred-spaces-symbolism-abounds-in-ukrainian-media": 1794686473.6715019,
     "https://warontherocks.com/?p=48550": 1794686473.6715019,
     "title:Stained Glass and Sacred Spaces: Symbolism Abounds in Ukrainian Media": 1794686473.6715019,
@@ -1839,17 +1834,12 @@
     "title:F-35s Train In India For “Red Flag Of The East”": 1794943248.343145,
     "https://www.atlanticcouncil.org/dispatches/what-germans-most-want-to-know-about-the-post-midterms-united-states": 1794944441.3053343,
     "https://www.atlanticcouncil.org/?p=959364": 1794944441.3053343,
-    "title:Dispatch from Berlin: What Germans most want to know about the post-midterms United States": 1794944441.3053343
+    "title:Dispatch from Berlin: What Germans most want to know about the post-midterms United States": 1794944441.3053343,
+    "https://breakingdefense.com/2026/11/army-aviation-fleet-facing-more-accidents-lower-readiness-rates-obadal": 1794945655.9187822,
+    "https://breakingdefense.com/?p=101274": 1794945655.9187822,
+    "title:Army Aviation fleet facing more accidents, lower readiness rates: Obadal": 1794945655.9187822
   },
   "events": [
-    {
-      "key": "B21常規武器投擲測試",
-      "timestamp": 1794686448.7581494
-    },
-    {
-      "key": "法國總統大選與政治僵局",
-      "timestamp": 1794686458.5616972
-    },
     {
       "key": "輝達高層領導人事",
       "timestamp": 1794690049.199153
@@ -2149,6 +2139,10 @@
     {
       "key": "美中稀土與晶片博弈",
       "timestamp": 1794943237.670987
+    },
+    {
+      "key": "美軍航空隊戰備率下滑",
+      "timestamp": 1794945657.9430397
     }
   ]
 }
