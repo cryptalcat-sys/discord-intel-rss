@@ -1793,7 +1793,13 @@
     "title:COP31: Rebuilding the Loss and Damage Fund for speed": 1794896432.9690733,
     "https://www.twz.com/land/army-wants-new-palletized-short-range-air-defenses-in-service-by-the-end-of-2029": 1794896435.3291245,
     "https://www.twz.com/?p=6605521": 1794896435.3291245,
-    "title:Army Wants New Palletized Short-Range Air Defenses In Service By The End Of 2029": 1794896435.3291245
+    "title:Army Wants New Palletized Short-Range Air Defenses In Service By The End Of 2029": 1794896435.3291245,
+    "https://www.cna.com.tw/news/ait/202611150091.aspx": 1794897639.6605818,
+    "CNA/2026-11-15/202611150091": 1794897639.6605818,
+    "title:美台高科技論壇矽谷登場 輝達副總裁強調台灣為關鍵供應鏈": 1794897639.6605818,
+    "https://www.navalnews.com/naval-news/2026/11/babcock-and-st-engineering-partner-on-international-maritime-opportunities": 1794897642.1003327,
+    "https://www.navalnews.com/?p=93630": 1794897642.1003327,
+    "title:Babcock and ST Engineering partner on international maritime opportunities": 1794897642.1003327
   },
   "events": [
     {
@@ -2047,6 +2053,10 @@
     {
       "key": "中俄元首會談",
       "timestamp": 1794895306.5916607
+    },
+    {
+      "key": "英新防務企業印太造船合作",
+      "timestamp": 1794897643.95337
     }
   ]
 }
