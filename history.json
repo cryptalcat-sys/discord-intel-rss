@@ -1,8 +1,5 @@
 {
   "ids": {
-    "https://www.atlanticcouncil.org/dispatches/what-germans-most-want-to-know-about-the-post-midterms-united-states": 1794684037.4157612,
-    "https://www.atlanticcouncil.org/?p=959364": 1794684037.4157612,
-    "title:Dispatch from Berlin: What Germans most want to know about the post-midterms United States": 1794684037.4157612,
     "https://jamestown.org/military-makes-up-majority-of-expulsions-at-fifth-plenum": 1794685235.0578306,
     "https://jamestown.org/?p=886849": 1794685235.0578306,
     "title:Military Makes up Majority of Expulsions at Fifth Plenum": 1794685235.0578306,
@@ -1836,7 +1833,13 @@
     "title:Suspected Russian Aircraft Violated Japan’s Airspace, Says Defense Minister": 1794942058.708183,
     "https://warontherocks.com/how-purges-are-affecting-chinese-military-readiness-and-taiwan-contingencies": 1794942071.444688,
     "https://warontherocks.com/?p=48579": 1794942071.444688,
-    "title:How Purges Are Affecting Chinese Military Readiness and Taiwan Contingencies": 1794942071.444688
+    "title:How Purges Are Affecting Chinese Military Readiness and Taiwan Contingencies": 1794942071.444688,
+    "https://www.atlanticcouncil.org/blogs/econographics/as-the-nvidia-scandal-threatens-to-reignite-trade-tensions-at-trump-xi-talks-beijing-still-holds-the-rare-earths": 1794943235.9455657,
+    "https://www.atlanticcouncil.org/?p=961235": 1794943235.9455657,
+    "title:As the Nvidia scandal threatens to reignite trade tensions at Trump-Xi talks, Beijing still holds the rare earths": 1794943235.9455657,
+    "https://www.twz.com/air/f-35s-train-in-india-for-red-flag-of-the-east": 1794943248.343145,
+    "https://www.twz.com/?p=6606373": 1794943248.343145,
+    "title:F-35s Train In India For “Red Flag Of The East”": 1794943248.343145
   },
   "events": [
     {
@@ -2142,6 +2145,10 @@
     {
       "key": "俄機侵犯日本領空",
       "timestamp": 1794942060.6261623
+    },
+    {
+      "key": "美中稀土與晶片博弈",
+      "timestamp": 1794943237.670987
     }
   ]
 }
