@@ -1816,7 +1816,10 @@
     "title:Video: Rheinmetall Pitches Aegis-Equipped GMF 140 Frigate to U.S. Navy": 1794928834.753694,
     "https://www.atlanticcouncil.org/dispatches/spain-votes-first-what-its-snap-election-could-mean-for-europe-and-the-united-states": 1794928850.2982414,
     "https://www.atlanticcouncil.org/?p=960883": 1794928850.2982414,
-    "title:Spain votes first: What its snap election could mean for Europe and the United States": 1794928850.2982414
+    "title:Spain votes first: What its snap election could mean for Europe and the United States": 1794928850.2982414,
+    "https://breakingdefense.com/2026/11/nato-kicks-off-11-nation-starlift-satellite-launch-program": 1794930040.4634643,
+    "https://breakingdefense.com/?p=101237": 1794930040.4634643,
+    "title:NATO kicks off 11-nation Starlift satellite launch program": 1794930040.4634643
   },
   "events": [
     {
@@ -2094,6 +2097,10 @@
     {
       "key": "西班牙大選影響",
       "timestamp": 1794928877.1754746
+    },
+    {
+      "key": "北約星升衛星發射",
+      "timestamp": 1794930050.6835573
     }
   ]
 }
