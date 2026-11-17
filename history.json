@@ -1,19 +1,5 @@
 {
   "ids": {
-    "https://www.twreporter.org/a/2026-taipei-golden-horse-film-festival-sayang": 1794673235.5824683,
-    "title:1個承諾、2場葬禮、3個聾人青少年──湯湘竹首部劇情片《沙央》，關於族群匯流的愛與疼惜": 1794673235.5824683,
-    "https://www.atlanticcouncil.org/insight-impact/in-the-news/the-cbdc-tracker-cited-in-coindesk-on-the-number-of-countries-actively-testing-or-developing-cbdcs-2-3": 1794673237.3076694,
-    "https://www.atlanticcouncil.org/?p=958882": 1794673237.3076694,
-    "title:Dollar Dominance Monitor cited in a Project Syndicate article on the yuan’s growing role in international trade": 1794673237.3076694,
-    "https://www.atlanticcouncil.org/insight-impact/in-the-news/the-cbdc-tracker-cited-in-coindesk-on-the-number-of-countries-actively-testing-or-developing-cbdcs-2-2": 1794673237.3077016,
-    "https://www.atlanticcouncil.org/?p=958879": 1794673237.3077016,
-    "title:CBDC Tracker cited in a CEPR paper on Europe’s plans for retail and wholesale payments": 1794673237.3077016,
-    "https://www.atlanticcouncil.org/content-series/inflection-points/dispatch-from-dubai-after-the-midterms-allies-see-both-us-resilience-and-unreliability": 1794673237.307935,
-    "https://www.atlanticcouncil.org/?p=959236": 1794673237.307935,
-    "title:Dispatch from Dubai: After the midterms, allies see both US resilience and unreliability": 1794673237.307935,
-    "https://www.atlanticcouncil.org/dispatches/not-quite-mercenaries-how-russia-lures-thousands-of-foreigners-to-fight-in-its-war-on-ukraine": 1794673237.3081884,
-    "https://www.atlanticcouncil.org/?p=957940": 1794673237.3081884,
-    "title:Not quite mercenaries: How Russia lures thousands of foreigners to fight in its war on Ukraine": 1794673237.3081884,
     "https://www.navalnews.com/naval-news/2026/11/uss-district-of-columbia-ssbn-826-back-on-track-for-2028-delivery": 1794674436.9131923,
     "https://www.navalnews.com/?p=93548": 1794674436.9131923,
     "title:Lead Columbia-class SSBN Claws Back from Delay Risk": 1794674436.9131923,
@@ -1822,7 +1808,15 @@
     "https://www.twz.com/?p=6608271": 1794931261.0735068,
     "title:What We Know About Ukraine’s Strikes That Cut Russia’s Kerch Bridge Road Vehicle Span": 1794931261.0735068,
     "https://www.twreporter.org/a/2026-local-elections-labor-party-china-united-front": 1794931275.801993,
-    "title:促統力量攻基層：跨8縣市提名年輕新血，勞動黨轉為統派新箭頭？": 1794931275.801993
+    "title:促統力量攻基層：跨8縣市提名年輕新血，勞動黨轉為統派新箭頭？": 1794931275.801993,
+    "https://www.twreporter.org/a/school-zone-safety-pov-game": 1794932438.759215,
+    "title:通學路上：體驗孩童上學考驗": 1794932438.759215,
+    "https://jamestown.org/prc-views-vary-on-jensen-huangs-resignation": 1794932447.3675666,
+    "https://jamestown.org/?p=886916": 1794932447.3675666,
+    "title:PRC Views Vary on Jensen Huang’s Resignation": 1794932447.3675666,
+    "https://breakingdefense.com/2026/11/a-new-air-force-stunt-plane-plus-a-shakeup-for-special-operations": 1794932468.7079232,
+    "https://breakingdefense.com/?p=101158": 1794932468.7079232,
+    "title:A new Air Force stunt plane, plus a shakeup for special operations": 1794932468.7079232
   },
   "events": [
     {
@@ -2104,6 +2098,14 @@
     {
       "key": "北約星升衛星發射",
       "timestamp": 1794930050.6835573
+    },
+    {
+      "key": "黃仁勛辭任Nvidia",
+      "timestamp": 1794932459.005977
+    },
+    {
+      "key": "美軍特戰編裝重組與新型教練機",
+      "timestamp": 1794932472.6885722
     }
   ]
 }
