@@ -1,14 +1,5 @@
 {
   "ids": {
-    "https://warontherocks.com/cogs-of-war/the-record-budgets-and-missing-suppliers-shaping-americas-munitions-ramp": 1794649232.9710763,
-    "https://warontherocks.com/?p=48521": 1794649232.9710763,
-    "title:The Record Budgets and Missing Suppliers Shaping America’s Munitions Ramp": 1794649232.9710763,
-    "https://www.youtube.com/shorts/wVzrAhCNeIA": 1794649244.0672724,
-    "yt:video:wVzrAhCNeIA": 1794649244.0672724,
-    "title:‘US Needs to Understand India’s Interests’ | Taiwan Talks #shorts": 1794649244.0672724,
-    "https://www.youtube.com/shorts/d8kWTVjszD4": 1794649244.0673134,
-    "yt:video:d8kWTVjszD4": 1794649244.0673134,
-    "title:Expert: China Wants Filipinos to ‘Shut Up’ on the South China Sea | Taiwan Talks #shorts": 1794649244.0673134,
     "https://www.foreignaffairs.com/united-states/true-meaning-power-david-sacks": 1794650443.6597552,
     "1135742": 1794650443.6597552,
     "title:The True Meaning of Power": 1794650443.6597552,
@@ -1771,7 +1762,31 @@
     "https://warontherocks.com/?p=48606": 1794907244.1006992,
     "title:Spending Isn’t Deterrence: Fixing Germany’s Procurement Machine": 1794907244.1006992,
     "https://www.twreporter.org/a/2026-taipei-golden-horse-film-festival-moya-chou": 1794907256.2168775,
-    "title:從隱藏角色走入聚光燈，周佳聖：擁有視覺魔法的調光師，沒有標準答案": 1794907256.2168775
+    "title:從隱藏角色走入聚光燈，周佳聖：擁有視覺魔法的調光師，沒有標準答案": 1794907256.2168775,
+    "https://www.foreignaffairs.com/united-states/china-misreading-moment": 1794908433.4742534,
+    "1135768": 1794908433.4742534,
+    "title:Is China Misreading the Moment?": 1794908433.4742534,
+    "https://www.foreignaffairs.com/united-states/america-can-do-good-and-do-well": 1794908452.4289508,
+    "1135761": 1794908452.4289508,
+    "title:America Can Do Good—and Do Well": 1794908452.4289508,
+    "https://www.foreignaffairs.com/economics/paradox-dollar-dominance": 1794908452.4289913,
+    "1135752": 1794908452.4289913,
+    "title:The Paradox of Dollar Dominance": 1794908452.4289913,
+    "https://www.foreignaffairs.com/nigeria/new-epicenter-global-terror": 1794908452.429188,
+    "1135747": 1794908452.429188,
+    "title:The New Epicenter of Global Terror": 1794908452.429188,
+    "https://www.foreignaffairs.com/taiwan/recipe-disaster-taiwan-lissner-rapp-hooper": 1794908452.4292264,
+    "1135746": 1794908452.4292264,
+    "title:A Recipe for Disaster in Taiwan": 1794908452.4292264,
+    "https://warontherocks.com/cogs-of-war/the-promise-of-biomanufacturing-at-the-edge": 1794908455.5094564,
+    "https://warontherocks.com/?p=48447": 1794908455.5094564,
+    "title:The Promise of Biomanufacturing at the Edge": 1794908455.5094564,
+    "https://warontherocks.com/japans-most-dangerous-military-constraint-is-time": 1794908455.5094922,
+    "https://warontherocks.com/?p=48546": 1794908455.5094922,
+    "title:Japan’s Most Dangerous Military Constraint Is Time": 1794908455.5094922,
+    "https://warontherocks.com/rethinking-strategic-stability-with-china-from-coercion-to-constructivism": 1794908455.5096571,
+    "https://warontherocks.com/?p=48509": 1794908455.5096571,
+    "title:Rethinking Strategic Stability with China: From Coercion to Constructivism": 1794908455.5096571
   },
   "events": [
     {
@@ -2025,6 +2040,10 @@
     {
       "key": "德國國防軍事改革",
       "timestamp": 1794907245.6810057
+    },
+    {
+      "key": "美中戰略穩定",
+      "timestamp": 1794908444.4280298
     }
   ]
 }
