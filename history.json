@@ -1,8 +1,5 @@
 {
   "ids": {
-    "https://www.defensenews.com/news/2026/11/12/house-passes-bill-to-expand-benefits-for-combat-injured-veterans": 1794694829.7245107,
-    "https://one.sightlinemg.com/defensenews/?p=87860": 1794694829.7245107,
-    "title:House passes bill to expand benefits for combat-injured veterans": 1794694829.7245107,
     "https://www.defensenews.com/congress/2026/11/12/democrats-push-to-remove-us-israel-tech-measure-from-defense-bill": 1794696030.3759017,
     "https://one.sightlinemg.com/defensenews/news/2026/11/12/democrats-push-to-remove-us-israel-tech-measure-from-defense-bill/": 1794696030.3759017,
     "title:Democrats push to remove US-Israel tech measure from defense bill": 1794696030.3759017,
@@ -1714,7 +1711,16 @@
     "title:Russia’s colossal losses in Ukraine will not push Putin toward peace": 1794952854.9987588,
     "https://www.atlanticcouncil.org/blogs/ukrainealert/moldova-cuts-energy-dependency-on-russia-with-landmark-new-power-line": 1794952865.0488114,
     "https://www.atlanticcouncil.org/?p=960290": 1794952865.0488114,
-    "title:Moldova cuts energy dependency on Russia with landmark new power line": 1794952865.0488114
+    "title:Moldova cuts energy dependency on Russia with landmark new power line": 1794952865.0488114,
+    "https://breakingdefense.com/2026/11/lawmakers-challenge-trumps-push-to-bring-steam-catapults-back-to-ford-class": 1794954028.5776467,
+    "https://breakingdefense.com/?p=101331": 1794954028.5776467,
+    "title:Lawmakers challenge Trump’s push to bring steam catapults back to Ford-class carriers": 1794954028.5776467,
+    "https://news.usni.org/2026/11/05/marines-identify-member-who-died-after-fast-rope-training-in-japan": 1794954043.5188322,
+    "https://news.usni.org/?p=126411": 1794954043.5188322,
+    "title:Marines Identify Member Who Died After Fast-rope Training in Japan": 1794954043.5188322,
+    "https://www.twz.com/news-features/plans-to-fly-talon-blue-cca-drone-from-british-carrier-confirmed-by-northrop-grumman": 1794954045.3997638,
+    "https://www.twz.com/?p=6606821": 1794954045.3997638,
+    "title:Plans To Fly Talon Blue CCA Drone From British Carrier Confirmed By Northrop Grumman": 1794954045.3997638
   },
   "events": [
     {
@@ -2056,6 +2062,10 @@
     {
       "key": "俄烏戰爭持續僵局",
       "timestamp": 1794952857.0434752
+    },
+    {
+      "key": "福特級航母蒸氣彈射器爭議",
+      "timestamp": 1794954030.551296
     }
   ]
 }
