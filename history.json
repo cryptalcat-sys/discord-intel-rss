@@ -1802,7 +1802,12 @@
     "title:India’s Theater Commands: A Never-ending Debate?": 1794924062.8741066,
     "https://www.atlanticcouncil.org/in-depth-research-reports/report/seeking-the-source-biological-attribution-from-anthrax-to-ai": 1794924065.1752355,
     "https://www.atlanticcouncil.org/?p=958720": 1794924065.1752355,
-    "title:Seeking the source: Biological attribution from anthrax to AI": 1794924065.1752355
+    "title:Seeking the source: Biological attribution from anthrax to AI": 1794924065.1752355,
+    "https://www.defensenews.com/pentagon/2026/11/17/pentagon-fails-ninth-straight-audit-despite-progress-in-organizing-finances": 1794926436.5293808,
+    "https://one.sightlinemg.com/defensenews/news/2026/11/17/pentagon-fails-ninth-straight-audit-despite-progress-in-organizing-finances/": 1794926436.5293808,
+    "title:Pentagon fails ninth straight audit despite progress in organizing finances": 1794926436.5293808,
+    "https://www.piie.com/blogs/realtime-economics/2026/how-far-could-stocks-fall": 1794926457.1737359,
+    "title:How Far Could Stocks Fall?": 1794926457.1737359
   },
   "events": [
     {
@@ -2068,6 +2073,10 @@
     {
       "key": "兩岸APEC互動民調",
       "timestamp": 1794920459.2450078
+    },
+    {
+      "key": "五角大廈連續九年審計未過",
+      "timestamp": 1794926441.929627
     }
   ]
 }
