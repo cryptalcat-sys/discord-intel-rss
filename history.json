@@ -1794,7 +1794,10 @@
     "title:DIU Awards Saronic Contract to Deliver Autonomous Low Profile Vessel for USMC Contested Logistics": 1794876034.3851342,
     "https://thediplomat.com/2026/11/squad-nations-to-establish-coordination-hub-in-the-philippines-defense-chiefs-say": 1794877248.4117737,
     "https://thediplomat.com/2026/11/squad-nations-to-establish-coordination-hub-in-the-philippines-defense-chiefs-say/": 1794877248.4117737,
-    "title:‘Squad’ Nations to Establish Coordination Hub in the Philippines, Defense Chiefs Say": 1794877248.4117737
+    "title:‘Squad’ Nations to Establish Coordination Hub in the Philippines, Defense Chiefs Say": 1794877248.4117737,
+    "https://breakingdefense.com/2026/11/senate-appropriators-unveil-1-1t-pentagon-spending-bill-folding-in-reconciliation-priorities": 1794879641.4087417,
+    "https://breakingdefense.com/?p=101225": 1794879641.4087417,
+    "title:Senate appropriators unveil $1.1T Pentagon spending bill, folding in reconciliation priorities": 1794879641.4087417
   },
   "events": [
     {
@@ -2044,6 +2047,10 @@
     {
       "key": "美陸戰隊無人補給",
       "timestamp": 1794876074.2319124
+    },
+    {
+      "key": "美參院軍費撥款",
+      "timestamp": 1794879652.549663
     }
   ]
 }
