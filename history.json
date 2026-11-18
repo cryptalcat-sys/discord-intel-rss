@@ -1751,7 +1751,13 @@
     "title:Session 6b: Can Europe become more “Schumpeterian” and how?": 1795026060.947477,
     "https://www.bruegel.org/node/12375": 1795026060.9475129,
     "12375 at https://www.bruegel.org": 1795026060.9475129,
-    "title:Session 6a: European trade policy beyond FTAs: what is feasible without the US and China?": 1795026060.9475129
+    "title:Session 6a: European trade policy beyond FTAs: what is feasible without the US and China?": 1795026060.9475129,
+    "https://www.atlanticcouncil.org/insight-impact/in-the-news/lipsky-quoted-in-bloomberg-on-trumps-trade-leverage-ahead-of-the-xi-summit": 1795027233.7971008,
+    "https://www.atlanticcouncil.org/?p=961620": 1795027233.7971008,
+    "title:Lipsky quoted in Bloomberg on Trump’s trade leverage ahead of the Xi summit": 1795027233.7971008,
+    "https://news.usni.org/2026/11/18/u-k-carrier-strike-group-concludes-6-month-operation-firecrest-deployment": 1795027251.0818045,
+    "https://news.usni.org/?p=126700": 1795027251.0818045,
+    "title:U.K. Carrier Strike Group Concludes 6-month Operation Firecrest Deployment": 1795027251.0818045
   },
   "events": [
     {
@@ -2137,6 +2143,14 @@
     {
       "key": "英核潛艇巡邏",
       "timestamp": 1795023649.0798657
+    },
+    {
+      "key": "川習會貿易籌碼博弈",
+      "timestamp": 1795027242.603439
+    },
+    {
+      "key": "英航母大西洋演訓",
+      "timestamp": 1795027262.4986086
     }
   ]
 }
