@@ -1,14 +1,5 @@
 {
   "ids": {
-    "https://www.defensenews.com/global/europe/2026/11/12/pentagon-greenlit-permanent-presence-of-us-troops-in-poland-official-says": 1794781251.914222,
-    "https://one.sightlinemg.com/defensenews/news/2026/11/12/pentagon-greenlit-permanent-presence-of-us-troops-in-poland-official-says/": 1794781251.914222,
-    "title:Pentagon ‘greenlit’ permanent presence of US troops in Poland, official says": 1794781251.914222,
-    "https://www.atlanticcouncil.org/blogs/ukrainealert/ukraines-new-drone-blitz-cuts-russian-oil-refining-capacity-by-30-percent": 1794782434.7141478,
-    "https://www.atlanticcouncil.org/?p=959820": 1794782434.7141478,
-    "title:Ukraine’s new drone blitz cuts Russian oil refining capacity by 30 percent": 1794782434.7141478,
-    "https://news.usni.org/2026/11/09/hegseth-calls-for-sweeping-military-education-changes-in-naval-war-college-address": 1794782435.5349472,
-    "https://news.usni.org/?p=126495": 1794782435.5349472,
-    "title:Hegseth Calls for Sweeping Military Education Changes in Naval War College Address": 1794782435.5349472,
     "https://www.twz.com/air/faa-orders-ground-stop-for-all-flights-across-the-u-s": 1794783644.8988802,
     "https://www.twz.com/?p=6607564": 1794783644.8988802,
     "title:FAA Orders Ground Stop For All Flights Across The U.S. (Updated)": 1794783644.8988802,
@@ -1745,13 +1736,32 @@
     "title:Russia to Create New Gulag Archipelago": 1795040434.6342208,
     "https://news.usni.org/2026/11/12/royal-navy-to-trial-northrop-grumman-test-aircraft-on-carrier-in-2027": 1795040437.2712247,
     "https://news.usni.org/?p=126549": 1795040437.2712247,
-    "title:Royal Navy to Trial Northrop Grumman Test Aircraft on Carrier in 2027": 1795040437.2712247
+    "title:Royal Navy to Trial Northrop Grumman Test Aircraft on Carrier in 2027": 1795040437.2712247,
+    "https://www.atlanticcouncil.org/blogs/ukrainealert/putins-chief-negotiator-vows-to-return-every-inch-of-russian-land-in-ukraine": 1795041631.4666505,
+    "https://www.atlanticcouncil.org/?p=960326": 1795041631.4666505,
+    "title:Putin’s chief negotiator vows to seize ‘every inch of Russian land’ in Ukraine": 1795041631.4666505,
+    "https://www.atlanticcouncil.org/content-series/fastthinking/what-jensen-huangs-nvidia-exit-means-for-washington-wall-street-and-beijing": 1795041631.4667368,
+    "https://www.atlanticcouncil.org/?p=960169": 1795041631.4667368,
+    "title:What Jensen Huang’s Nvidia exit means for Washington, Wall Street, and Beijing": 1795041631.4667368,
+    "https://www.atlanticcouncil.org/dispatches/beyond-the-spy-scandal-what-the-nvidia-megaspeed-case-reveals-about-export-controls": 1795041631.466766,
+    "https://www.atlanticcouncil.org/?p=960191": 1795041631.466766,
+    "title:Beyond the spy scandal: What the Nvidia-Megaspeed case reveals about export controls": 1795041631.466766,
+    "https://news.usni.org/2026/11/12/u-s-transfers-unmanned-surface-vessels-to-philippine-marine-corps": 1795041633.3783972,
+    "https://news.usni.org/?p=126557": 1795041633.3783972,
+    "title:U.S. Transfers Unmanned Surface Vessels to Philippine Marine Corps": 1795041633.3783972,
+    "https://www.lowyinstitute.org/the-interpreter/first-nations-ip-protection-risks-going-from-miracle-to-mirage": 1795041635.6086295,
+    "title:First Nations IP protection risks going from “miracle to mirage”": 1795041635.6086295,
+    "https://www.navalnews.com/naval-news/2026/11/south-korea-launches-fifth-ffx-batch-iii-frigate-roks-pyeongtaek": 1795041637.5704627,
+    "https://www.navalnews.com/?p=93768": 1795041637.5704627,
+    "title:South Korea Launches Fifth FFX Batch-III Frigate, ROKS Pyeongtaek": 1795041637.5704627,
+    "https://www.defensenews.com/global/the-americas/2026/11/18/us-surges-power-projection-to-westernmost-island-chain-as-russia-china-loom": 1795041647.5769508,
+    "https://one.sightlinemg.com/defensenews/news/2026/11/18/us-surges-power-projection-to-westernmost-island-chain-as-russia-china-loom/": 1795041647.5769508,
+    "title:US surges power projection to westernmost island chain as Russia, China loom": 1795041647.5769508,
+    "https://jamestown.org/tbilisis-revolving-security-door-reflects-deeper-purge": 1795041660.9059217,
+    "https://jamestown.org/?p=886910": 1795041660.9059217,
+    "title:Tbilisi’s Revolving Security Door Reflects Deeper Purge": 1795041660.9059217
   },
   "events": [
-    {
-      "key": "澳洲原住民智財保護",
-      "timestamp": 1794781241.011259
-    },
     {
       "key": "日本衛星主權布局",
       "timestamp": 1794788381.275922
@@ -2179,6 +2189,14 @@
     {
       "key": "美參院刪減造艦預算",
       "timestamp": 1795039263.1115766
+    },
+    {
+      "key": "韓造第五艘忠南級巡防艦",
+      "timestamp": 1795041639.2346168
+    },
+    {
+      "key": "美軍西端島鏈兵力投射",
+      "timestamp": 1795041649.2437267
     }
   ]
 }
