@@ -1757,7 +1757,19 @@
     "title:Lipsky quoted in Bloomberg on Trump’s trade leverage ahead of the Xi summit": 1795027233.7971008,
     "https://news.usni.org/2026/11/18/u-k-carrier-strike-group-concludes-6-month-operation-firecrest-deployment": 1795027251.0818045,
     "https://news.usni.org/?p=126700": 1795027251.0818045,
-    "title:U.K. Carrier Strike Group Concludes 6-month Operation Firecrest Deployment": 1795027251.0818045
+    "title:U.K. Carrier Strike Group Concludes 6-month Operation Firecrest Deployment": 1795027251.0818045,
+    "https://warontherocks.com/is-dollar-dominance-in-decline": 1795028454.751858,
+    "https://warontherocks.com/?p=48669": 1795028454.751858,
+    "title:Is Dollar Dominance in Decline?": 1795028454.751858,
+    "https://www.atlanticcouncil.org/insight-impact/in-the-news/tannebaum-quoted-in-the-new-york-times-on-us-unreliability-influencing-de-dollarization-efforts-4-9-6": 1795028503.9033785,
+    "https://www.atlanticcouncil.org/?p=961625": 1795028503.9033785,
+    "title:Lichfield cited in a The Diplomatic Insight article on Trump’s Russian diesel deal and congressional opposition": 1795028503.9033785,
+    "https://www.twz.com/land/u-s-air-forces-containerized-surface-to-air-missile-program-comes-into-sharper-focus": 1795028547.5080464,
+    "https://www.twz.com/?p=6608675": 1795028547.5080464,
+    "title:U.S. Air Force’s Containerized Surface-To-Air Missile Program Comes Into Sharper Focus": 1795028547.5080464,
+    "https://breakingdefense.com/2026/11/making-super-intelligence-useful-when-connectivity-disappears-at-the-tactical-edge": 1795028560.6216373,
+    "https://breakingdefense.com/?p=101382": 1795028560.6216373,
+    "title:Making Super Intelligence useful when connectivity disappears at the tactical edge": 1795028560.6216373
   },
   "events": [
     {
@@ -2151,6 +2163,18 @@
     {
       "key": "英航母大西洋演訓",
       "timestamp": 1795027262.4986086
+    },
+    {
+      "key": "美元霸權動搖",
+      "timestamp": 1795028494.2750518
+    },
+    {
+      "key": "美俄柴油貿易爭議",
+      "timestamp": 1795028537.6801448
+    },
+    {
+      "key": "美軍貨櫃防空飛彈計畫",
+      "timestamp": 1795028549.0959032
     }
   ]
 }
