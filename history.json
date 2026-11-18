@@ -1,8 +1,5 @@
 {
   "ids": {
-    "https://breakingdefense.com/2026/11/senate-appropriators-resuscitate-commerce-space-tracking-program": 1794778836.9809017,
-    "https://breakingdefense.com/?p=101040": 1794778836.9809017,
-    "title:Senate appropriators resuscitate Commerce space tracking program": 1794778836.9809017,
     "https://news.usni.org/2026/11/12/royal-navy-to-trial-northrop-grumman-test-aircraft-on-carrier-in-2027": 1794780046.2834358,
     "https://news.usni.org/?p=126549": 1794780046.2834358,
     "title:Royal Navy to Trial Northrop Grumman Test Aircraft on Carrier in 2027": 1794780046.2834358,
@@ -1754,7 +1751,12 @@
     "title:Royal Navy Commissions First Unmanned Surface Vehicle Squadron": 1795036862.08495,
     "https://news.usni.org/2026/11/06/usni-news-western-pacific-pulse-nov-6-2026": 1795036862.0850906,
     "https://news.usni.org/?p=126416": 1795036862.0850906,
-    "title:USNI News Western Pacific Pulse: Nov. 6, 2026": 1795036862.0850906
+    "title:USNI News Western Pacific Pulse: Nov. 6, 2026": 1795036862.0850906,
+    "https://www.piie.com/events/2026/what-economic-vibes-say-about-reality-jason-furman-consumer-sentiment-recession": 1795038035.7475762,
+    "title:What economic vibes say about reality: Jason Furman on consumer sentiment, recession indicators, and more": 1795038035.7475762,
+    "https://news.usni.org/2026/11/18/carrier-uss-george-washington-leaves-middle-east-after-three-months": 1795038042.8853164,
+    "https://news.usni.org/?p=126706": 1795038042.8853164,
+    "title:Carrier USS George Washington Leaves Middle East After Three Months": 1795038042.8853164
   },
   "events": [
     {
@@ -2176,6 +2178,10 @@
     {
       "key": "美軍消耗過期彈藥",
       "timestamp": 1795036853.0299292
+    },
+    {
+      "key": "美航母重返西太平洋",
+      "timestamp": 1795038044.9360185
     }
   ]
 }
