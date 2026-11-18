@@ -1,11 +1,5 @@
 {
   "ids": {
-    "https://www.atlanticcouncil.org/insight-impact/in-the-news/tannebaum-quoted-in-the-new-york-times-on-us-unreliability-influencing-de-dollarization-efforts-4-3": 1794764436.8771884,
-    "https://www.atlanticcouncil.org/?p=958863": 1794764436.8771884,
-    "title:Chhangani quoted in an AFP article on the G20 foreign ministers’ meeting in Atlanta": 1794764436.8771884,
-    "https://www.atlanticcouncil.org/insight-impact/in-the-news/tannebaum-quoted-in-the-new-york-times-on-us-unreliability-influencing-de-dollarization-efforts-4-2": 1794764436.8772647,
-    "https://www.atlanticcouncil.org/?p=958861": 1794764436.8772647,
-    "title:Lipsky quoted in a South China Morning Post article on how Democrats could push to rein in Trump’s tariffs and give Congress more control over trade policy": 1794764436.8772647,
     "https://www.defensenews.com/global/mideast-africa/2026/11/13/judges-close-part-of-icc-afghanistan-investigations-that-could-look-at-us-troops": 1794765646.1400213,
     "https://one.sightlinemg.com/defensenews/news/2026/11/13/judges-close-part-of-icc-afghanistan-investigations-that-could-look-at-us-troops/": 1794765646.1400213,
     "title:Judges close part of ICC Afghanistan investigations that could look at US troops": 1794765646.1400213,
@@ -1707,7 +1701,27 @@
     "title:Congress Rebukes U.S. Navy Battleship in New Budget Proposal": 1795022432.6397502,
     "https://www.navalnews.com/naval-news/2026/11/mistral-in-a-box-mbda-revives-spimm-concept-against-drones": 1795022454.831101,
     "https://www.navalnews.com/?p=92666": 1795022454.831101,
-    "title:Mistral in a Box: MBDA Revives SPIMM Concept Against Drones": 1795022454.831101
+    "title:Mistral in a Box: MBDA Revives SPIMM Concept Against Drones": 1795022454.831101,
+    "https://www.lowyinstitute.org/the-interpreter/yalta-2-0-a-trump-xi-putin-summit-has-little-upside-for-beijing": 1795023636.8751805,
+    "title:Yalta 2.0: A Trump-Xi-Putin summit has little upside for Beijing": 1795023636.8751805,
+    "https://news.usni.org/2026/11/12/breaking-uss-south-dakota-command-triad-relieved-after-october-grounding-congressman-says": 1795023637.0694706,
+    "https://news.usni.org/?p=126537": 1795023637.0694706,
+    "title:UPDATED: USS South Dakota Command Triad Relieved After October Grounding, Congressman Says": 1795023637.0694706,
+    "https://www.twz.com/sea/this-is-what-submarine-hms-vengeance-looks-like-after-its-record-setting-nuclear-deterrance-patrol": 1795023638.7725446,
+    "https://www.twz.com/?p=6608611": 1795023638.7725446,
+    "title:This Is What Submarine HMS Vengeance Looks Like After Its Record-Setting Nuclear Deterrence Patrol": 1795023638.7725446,
+    "https://www.atlanticcouncil.org/blogs/menasource/syria-shouldnt-join-the-mecca-alliance-it-should-cooperate-with-it": 1795023659.689376,
+    "https://www.atlanticcouncil.org/?p=959969": 1795023659.689376,
+    "title:Syria shouldn’t join the Mecca Alliance. It should cooperate with it.": 1795023659.689376,
+    "https://www.atlanticcouncil.org/insight-impact/in-the-news/tannebaum-quoted-in-the-new-york-times-on-us-unreliability-influencing-de-dollarization-efforts-4-6": 1795023659.6908448,
+    "https://www.atlanticcouncil.org/?p=958871": 1795023659.6908448,
+    "title:Chhangani’s article on the future of the digital euro cited in an OMFIF article": 1795023659.6908448,
+    "https://www.atlanticcouncil.org/insight-impact/in-the-news/tannebaum-quoted-in-the-new-york-times-on-us-unreliability-influencing-de-dollarization-efforts-4-5": 1795023659.6909046,
+    "https://www.atlanticcouncil.org/?p=958869": 1795023659.6909046,
+    "title:Lichfield interviewed by France Culture (Radio France) on how Trump’s economic policies could affect Republican support in the 2026 midterm elections": 1795023659.6909046,
+    "https://www.atlanticcouncil.org/insight-impact/in-the-news/tannebaum-quoted-in-the-new-york-times-on-us-unreliability-influencing-de-dollarization-efforts-4-4": 1795023659.6909597,
+    "https://www.atlanticcouncil.org/?p=958865": 1795023659.6909597,
+    "title:Piasecki’s research on Venezuela’s debt restructuring cited in a Congressional Research Service report": 1795023659.6909597
   },
   "events": [
     {
@@ -2089,6 +2103,10 @@
     {
       "key": "SPIMM箱式防空",
       "timestamp": 1795022464.6526327
+    },
+    {
+      "key": "英核潛艇巡邏",
+      "timestamp": 1795023649.0798657
     }
   ]
 }
