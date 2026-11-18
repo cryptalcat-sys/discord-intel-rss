@@ -1734,7 +1734,13 @@
     "title:碳價疲軟加深資金缺口 歐洲碳捕捉恐累及公共財政": 1794985254.2030132,
     "https://www.navalnews.com/naval-news/2026/11/tkms-and-baainbw-sign-contract-for-four-additional-meko-a-200-deu-frigates": 1794985260.673006,
     "https://www.navalnews.com/?p=93680": 1794985260.673006,
-    "title:TKMS and BAAINBw sign contract for four additional MEKO A-200 DEU frigates": 1794985260.673006
+    "title:TKMS and BAAINBw sign contract for four additional MEKO A-200 DEU frigates": 1794985260.673006,
+    "https://www.cna.com.tw/news/acn/202611180185.aspx": 1794987007.9106803,
+    "CNA/2026-11-18/202611180185": 1794987007.9106803,
+    "title:金門小三通年度旅運量逾200萬人次 縣府：續提升服務品質": 1794987007.9106803,
+    "https://www.cna.com.tw/news/ait/202611160151.aspx": 1794987025.5564163,
+    "CNA/2026-11-16/202611160151": 1794987025.5564163,
+    "title:LINE無聲訊息功能完成階段性測試 轉為訂閱會員專屬": 1794987025.5564163
   },
   "events": [
     {
@@ -2092,6 +2098,10 @@
     {
       "key": "德軍MEKO護衛艦採購",
       "timestamp": 1794985271.4008236
+    },
+    {
+      "key": "金門小三通旅運量突破",
+      "timestamp": 1794987009.9529128
     }
   ]
 }
