@@ -1,10 +1,5 @@
 {
   "ids": {
-    "https://news.usni.org/2026/11/12/ssnx-attack-boat-will-be-a-swift-lethal-mothership-for-undersea-drones-navy-says": 1794784843.2990553,
-    "https://news.usni.org/?p=126566": 1794784843.2990553,
-    "title:SSN(X) Attack Boat Will be a Swift, Lethal Mothership for Undersea Drones, Navy Says": 1794784843.2990553,
-    "https://www.lowyinstitute.org/the-interpreter/eleven-phones-and-the-spectre-of-treason-jakarta-s-wiretap-scandal": 1794786029.808839,
-    "title:Eleven phones and the spectre of treason: Jakarta’s wiretap scandal": 1794786029.808839,
     "https://www.lowyinstitute.org/the-interpreter/japan-wants-satellite-sovereignty": 1794788379.2885618,
     "title:Japan wants satellite sovereignty": 1794788379.2885618,
     "https://jamestown.org/russias-push-for-ai-sovereignty-faces-setbacks": 1794788443.8387039,
@@ -1794,7 +1789,10 @@
     "title:FAA Orders Ground Stop For All Flights Across The U.S. (Updated)": 1795043554.650209,
     "https://news.usni.org/2026/11/06/the-future-of-french-fleet-close-in-defense": 1795043556.8384414,
     "https://news.usni.org/?p=126439": 1795043556.8384414,
-    "title:The Future of French Fleet Close-in Defense": 1795043556.8384414
+    "title:The Future of French Fleet Close-in Defense": 1795043556.8384414,
+    "https://www.atlanticcouncil.org/commentary/event-recap/donald-tusk-chris-wright-and-milosz-motyka-on-the-mindset-shift-needed-across-the-energy-system": 1795045244.2563076,
+    "https://www.atlanticcouncil.org/?p=961863": 1795045244.2563076,
+    "title:Donald Tusk, Chris Wright, and Miłosz Motyka on the mindset shift needed across the energy system": 1795045244.2563076
   },
   "events": [
     {
@@ -2232,6 +2230,10 @@
     {
       "key": "美軍西端島鏈兵力投射",
       "timestamp": 1795041649.2437267
+    },
+    {
+      "key": "跨大西洋能源合作",
+      "timestamp": 1795045246.2714763
     }
   ]
 }
