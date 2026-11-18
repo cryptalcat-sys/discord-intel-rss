@@ -1,7 +1,5 @@
 {
   "ids": {
-    "https://www.piie.com/events/2026/fourth-annual-richard-n-cooper-memorial-lecture-featuring-maurice-obstfeld": 1794753642.765669,
-    "title:Fourth annual Richard N. Cooper Memorial Lecture featuring Maurice Obstfeld": 1794753642.765669,
     "https://www.foreignaffairs.com/united-states/matthew-duss-democrats-squander-chance-foreign-policy-congress-midterms": 1794754848.6435702,
     "1135745": 1794754848.6435702,
     "title:Democrats Shouldn’t Squander Their Chance to Launch a Foreign Policy Revolution": 1794754848.6435702,
@@ -1741,7 +1739,16 @@
     "title:A new vision for the Vertical Corridor: European energy security through infrastructure optimization": 1795008041.0919096,
     "https://breakingdefense.com/2026/11/from-mine-to-magnet-what-defense-buyers-need-to-verify-before-2027": 1795009245.9023824,
     "https://breakingdefense.com/?p=101184": 1795009245.9023824,
-    "title:From mine to magnet: What defense buyers need to verify before 2027": 1795009245.9023824
+    "title:From mine to magnet: What defense buyers need to verify before 2027": 1795009245.9023824,
+    "https://www.youtube.com/shorts/O3kumpA6roU": 1795012841.1142013,
+    "yt:video:O3kumpA6roU": 1795012841.1142013,
+    "title:Nvidia’s Earnings Overshadowed By Leadership Dilemma｜TaiwanPlus News": 1795012841.1142013,
+    "https://www.youtube.com/shorts/h1Wf6eflWMU": 1795012850.7865832,
+    "yt:video:h1Wf6eflWMU": 1795012850.7865832,
+    "title:Taiwan's APEC Envoy Arrives in China": 1795012850.7865832,
+    "https://breakingdefense.com/2026/11/the-pentagon-fails-another-audit-can-it-turn-things-around-by-2028": 1795012875.670746,
+    "https://breakingdefense.com/?p=101360": 1795012875.670746,
+    "title:The Pentagon fails another audit. Can it turn things around by 2028?": 1795012875.670746
   },
   "events": [
     {
@@ -2099,6 +2106,18 @@
     {
       "key": "高金素梅案攻防",
       "timestamp": 1795006898.6243513
+    },
+    {
+      "key": "輝達領導危機與財報",
+      "timestamp": 1795012842.7862463
+    },
+    {
+      "key": "台APEC特使赴中",
+      "timestamp": 1795012867.5176818
+    },
+    {
+      "key": "五角大樓審計失守",
+      "timestamp": 1795012918.8943253
     }
   ]
 }
