@@ -1,28 +1,5 @@
 {
   "ids": {
-    "https://www.atlanticcouncil.org/blogs/menasource/syria-shouldnt-join-the-mecca-alliance-it-should-cooperate-with-it": 1794762059.596116,
-    "https://www.atlanticcouncil.org/?p=959969": 1794762059.596116,
-    "title:Syria shouldn’t join the Mecca Alliance. It should cooperate with it.": 1794762059.596116,
-    "https://www.atlanticcouncil.org/insight-impact/in-the-news/tannebaum-quoted-in-the-new-york-times-on-us-unreliability-influencing-de-dollarization-efforts-4-6": 1794762059.5968075,
-    "https://www.atlanticcouncil.org/?p=958871": 1794762059.5968075,
-    "title:Chhangani’s article on the future of the digital euro cited in an OMFIF article": 1794762059.5968075,
-    "https://news.usni.org/2026/11/12/breaking-uss-south-dakota-command-triad-relieved-after-october-grounding-congressman-says": 1794763231.8820913,
-    "https://news.usni.org/?p=126537": 1794763231.8820913,
-    "title:UPDATED: USS South Dakota Command Triad Relieved After October Grounding, Congressman Says": 1794763231.8820913,
-    "https://www.atlanticcouncil.org/insight-impact/in-the-news/tannebaum-quoted-in-the-new-york-times-on-us-unreliability-influencing-de-dollarization-efforts-4-5": 1794763232.7872145,
-    "https://www.atlanticcouncil.org/?p=958869": 1794763232.7872145,
-    "title:Lichfield interviewed by France Culture (Radio France) on how Trump’s economic policies could affect Republican support in the 2026 midterm elections": 1794763232.7872145,
-    "https://www.atlanticcouncil.org/insight-impact/in-the-news/tannebaum-quoted-in-the-new-york-times-on-us-unreliability-influencing-de-dollarization-efforts-4-4": 1794763232.7872722,
-    "https://www.atlanticcouncil.org/?p=958865": 1794763232.7872722,
-    "title:Piasecki’s research on Venezuela’s debt restructuring cited in a Congressional Research Service report": 1794763232.7872722,
-    "https://www.defensenews.com/global/europe/2026/11/13/italy-boosts-gcap-fighter-spending-as-army-vehicles-take-a-hit-in-budget": 1794763242.9864166,
-    "https://one.sightlinemg.com/defensenews/?p=87903": 1794763242.9864166,
-    "title:Italy boosts GCAP fighter spending as Army vehicles take a hit in budget": 1794763242.9864166,
-    "https://www.lowyinstitute.org/the-interpreter/yalta-2-0-a-trump-xi-putin-summit-has-little-upside-for-beijing": 1794763246.0388985,
-    "title:Yalta 2.0: A Trump-Xi-Putin summit has little upside for Beijing": 1794763246.0388985,
-    "https://breakingdefense.com/2026/11/cry-drone-and-let-slip-the-fruit-flies-of-war": 1794763246.152613,
-    "https://breakingdefense.com/?p=100880": 1794763246.152613,
-    "title:Cry ‘drone,’ and let slip the fruit flies of war": 1794763246.152613,
     "https://www.atlanticcouncil.org/insight-impact/in-the-news/tannebaum-quoted-in-the-new-york-times-on-us-unreliability-influencing-de-dollarization-efforts-4-3": 1794764436.8771884,
     "https://www.atlanticcouncil.org/?p=958863": 1794764436.8771884,
     "title:Chhangani quoted in an AFP article on the G20 foreign ministers’ meeting in Atlanta": 1794764436.8771884,
@@ -1724,7 +1701,13 @@
     "title:Lichfield interviewed by Radio Télévision Suisse (RTS) about the US midterm elections": 1795020141.3500638,
     "https://www.atlanticcouncil.org/insight-impact/in-the-news/tannebaum-quoted-in-the-new-york-times-on-us-unreliability-influencing-de-dollarization-efforts-4-7": 1795020141.3500962,
     "https://www.atlanticcouncil.org/?p=958875": 1795020141.3500962,
-    "title:Lipsky quoted in a South China Morning Post article discussing how Congress could constrain Trump’s agenda following the 2026 US midterm elections": 1795020141.3500962
+    "title:Lipsky quoted in a South China Morning Post article discussing how Congress could constrain Trump’s agenda following the 2026 US midterm elections": 1795020141.3500962,
+    "https://www.navalnews.com/naval-news/2026/11/congress-rebukes-u-s-navy-battleship-in-new-budget-proposal": 1795022432.6397502,
+    "https://www.navalnews.com/?p=93729": 1795022432.6397502,
+    "title:Congress Rebukes U.S. Navy Battleship in New Budget Proposal": 1795022432.6397502,
+    "https://www.navalnews.com/naval-news/2026/11/mistral-in-a-box-mbda-revives-spimm-concept-against-drones": 1795022454.831101,
+    "https://www.navalnews.com/?p=92666": 1795022454.831101,
+    "title:Mistral in a Box: MBDA Revives SPIMM Concept Against Drones": 1795022454.831101
   },
   "events": [
     {
@@ -2098,6 +2081,14 @@
     {
       "key": "美英巡防艦技術轉移與本土造船合作",
       "timestamp": 1795015244.2369597
+    },
+    {
+      "key": "美海軍戰艦預算遭否",
+      "timestamp": 1795022446.8307374
+    },
+    {
+      "key": "SPIMM箱式防空",
+      "timestamp": 1795022464.6526327
     }
   ]
 }
