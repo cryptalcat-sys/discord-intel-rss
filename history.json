@@ -1725,7 +1725,16 @@
     "title:習近平指中國進入深水區改革 支持成立「灣區經濟合作聯盟」": 1794979254.3821971,
     "https://www.cna.com.tw/news/acn/202611160122.aspx": 1794981653.7776062,
     "CNA/2026-11-16/202611160122": 1794981653.7776062,
-    "title:DeepSeek自承算力不足 近日設定多種限制引議": 1794981653.7776062
+    "title:DeepSeek自承算力不足 近日設定多種限制引議": 1794981653.7776062,
+    "https://www.cna.com.tw/news/ait/202611180141.aspx": 1794985254.2012038,
+    "CNA/2026-11-18/202611180141": 1794985254.2012038,
+    "title:台灣Google Play年度榜單揭曉 得獎App一次看": 1794985254.2012038,
+    "https://www.cna.com.tw/news/ait/202611160133.aspx": 1794985254.2030132,
+    "CNA/2026-11-16/202611160133": 1794985254.2030132,
+    "title:碳價疲軟加深資金缺口 歐洲碳捕捉恐累及公共財政": 1794985254.2030132,
+    "https://www.navalnews.com/naval-news/2026/11/tkms-and-baainbw-sign-contract-for-four-additional-meko-a-200-deu-frigates": 1794985260.673006,
+    "https://www.navalnews.com/?p=93680": 1794985260.673006,
+    "title:TKMS and BAAINBw sign contract for four additional MEKO A-200 DEU frigates": 1794985260.673006
   },
   "events": [
     {
@@ -2079,6 +2088,10 @@
     {
       "key": "中國APEC經濟改革",
       "timestamp": 1794979256.4763691
+    },
+    {
+      "key": "德軍MEKO護衛艦採購",
+      "timestamp": 1794985271.4008236
     }
   ]
 }
