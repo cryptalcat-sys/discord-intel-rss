@@ -1,14 +1,5 @@
 {
   "ids": {
-    "https://www.foreignaffairs.com/china/chinas-ai-diplomacy-working": 1794735638.671471,
-    "1135749": 1794735638.671471,
-    "title:China’s AI Diplomacy Is Working": 1794735638.671471,
-    "https://www.foreignaffairs.com/united-states/luxury-children": 1794735638.671533,
-    "1135748": 1794735638.671533,
-    "title:The Luxury of Children": 1794735638.671533,
-    "https://www.youtube.com/shorts/C8uJMvPQj5s": 1794735640.15291,
-    "yt:video:C8uJMvPQj5s": 1794735640.15291,
-    "title:民調數字各自解讀 聲量恐掩蓋真實選票｜ 公共電視 - 尖鋒對話": 1794735640.15291,
     "https://www.youtube.com/shorts/F2BewIAidPU": 1794736854.9796083,
     "yt:video:F2BewIAidPU": 1794736854.9796083,
     "title:Philippine Defense Chief: We Want More BrahMos | Taiwan Talks #shorts": 1794736854.9796083,
@@ -1722,7 +1713,13 @@
     "title:樂隊花車?沉默螺旋? 聲量能化為實際選票? ｜ 公共電視 - 尖鋒對話": 1794993635.8934271,
     "https://warontherocks.com/winning-time-ukraines-unmanned-systems-forces-and-the-new-dimension-of-war": 1794993636.1675575,
     "https://warontherocks.com/?p=48517": 1794993636.1675575,
-    "title:Winning Time: Ukraine’s Unmanned Systems Forces and the New Dimension of War": 1794993636.1675575
+    "title:Winning Time: Ukraine’s Unmanned Systems Forces and the New Dimension of War": 1794993636.1675575,
+    "https://www.navalnews.com/naval-news/2026/11/italy-confirms-new-national-vls-for-deep-strike-and-hypersonic-defense": 1794994843.018402,
+    "https://www.navalnews.com/?p=93683": 1794994843.018402,
+    "title:Italy Confirms New National VLS for Deep-Strike and Hypersonic Defense": 1794994843.018402,
+    "https://warontherocks.com/cogs-of-war/to-implement-acquisition-transformation-empower-military-mavericks": 1794994856.0759172,
+    "https://warontherocks.com/?p=48385": 1794994856.0759172,
+    "title:To Implement Acquisition Transformation, Empower Military Mavericks": 1794994856.0759172
   },
   "events": [
     {
@@ -2072,6 +2069,10 @@
     {
       "key": "APEC台灣供應鏈定位",
       "timestamp": 1794990033.6203003
+    },
+    {
+      "key": "義大利國產垂直發射系統",
+      "timestamp": 1794994844.9599588
     }
   ]
 }
