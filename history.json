@@ -1,8 +1,5 @@
 {
   "ids": {
-    "https://www.atlanticcouncil.org/in-depth-research-reports/issue-brief/a-new-vision-for-the-vertical-corridor-european-energy-security-through-infrastructure-optimization": 1794745235.5259821,
-    "https://www.atlanticcouncil.org/?p=959775": 1794745235.5259821,
-    "title:A new vision for the Vertical Corridor: European energy security through infrastructure optimization": 1794745235.5259821,
     "https://www.piie.com/events/2026/fourth-annual-richard-n-cooper-memorial-lecture-featuring-maurice-obstfeld": 1794753642.765669,
     "title:Fourth annual Richard N. Cooper Memorial Lecture featuring Maurice Obstfeld": 1794753642.765669,
     "https://www.foreignaffairs.com/united-states/matthew-duss-democrats-squander-chance-foreign-policy-congress-midterms": 1794754848.6435702,
@@ -1729,13 +1726,12 @@
     "https://www.atlanticcouncil.org/?p=959895": 1795002031.277098,
     "title:The rising cost of ambition in Saudi Arabia’s Vision 2030": 1795002031.277098,
     "https://www.piie.com/commentary/speeches-papers/2026/founding-oecd-steel-committee-and-looking-future-international": 1795003254.3819182,
-    "title:On the founding of the OECD Steel Committee and looking to the future of international cooperation for the steel sector": 1795003254.3819182
+    "title:On the founding of the OECD Steel Committee and looking to the future of international cooperation for the steel sector": 1795003254.3819182,
+    "https://www.cna.com.tw/news/acn/202611180313.aspx": 1795006848.1968982,
+    "CNA/2026-11-18/202611180313": 1795006848.1968982,
+    "title:國台辦聲稱高金素梅案是「政治迫害」 陸委會：不容狡辯": 1795006848.1968982
   },
   "events": [
-    {
-      "key": "歐洲縱向天然氣走廊",
-      "timestamp": 1794745237.9653332
-    },
     {
       "key": "澳洲原住民智財保護",
       "timestamp": 1794781241.011259
@@ -2087,6 +2083,10 @@
     {
       "key": "川普深圳APEC會晤",
       "timestamp": 1794998472.9230964
+    },
+    {
+      "key": "高金素梅案攻防",
+      "timestamp": 1795006898.6243513
     }
   ]
 }
