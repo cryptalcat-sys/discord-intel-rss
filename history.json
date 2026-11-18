@@ -1,21 +1,5 @@
 {
   "ids": {
-    "https://www.lowyinstitute.org/the-interpreter/the-philippines-is-looking-to-develop-an-expeditionary-navy": 1794714040.0948825,
-    "title:The Philippines is looking to develop an “expeditionary navy”": 1794714040.0948825,
-    "https://www.cna.com.tw/news/ait/202611130092.aspx": 1794715252.7963262,
-    "CNA/2026-11-13/202611130092": 1794715252.7963262,
-    "title:微軟365全球當機搶修中 官方：代管郵件服務異常將盡快恢復": 1794715252.7963262,
-    "https://www.cna.com.tw/news/acn/202611150048.aspx": 1794715256.3699133,
-    "CNA/2026-11-15/202611150048": 1794715256.3699133,
-    "title:APEC將登場 分析：中日首腦會談機會低兩國短期難破冰": 1794715256.3699133,
-    "https://www.lowyinstitute.org/the-interpreter/the-ocean-is-missing-from-climate-diplomacy-again": 1794715270.831871,
-    "title:The ocean is missing from climate diplomacy. Again.": 1794715270.831871,
-    "https://www.foreignaffairs.com/es/spain/pedro-sanchez-ultima-oportunidad-paz-evitar-guerra-mundial": 1794718857.9876554,
-    "1135757": 1794718857.9876554,
-    "title:La última oportunidad para la paz": 1794718857.9876554,
-    "https://www.cna.com.tw/news/ait/202611130120.aspx": 1794718864.320783,
-    "CNA/2026-11-13/202611130120": 1794718864.320783,
-    "title:傳記作者揭黃仁勳雙面人設 私下如暴君痛罵高層1小時": 1794718864.320783,
     "https://www.cna.com.tw/news/ait/202611130174.aspx": 1794728442.9890509,
     "CNA/2026-11-13/202611130174": 1794728442.9890509,
     "title:SpaceX將試射星艦 首度挑戰發射塔回收上段太空船": 1794728442.9890509,
@@ -1722,13 +1706,12 @@
     "https://www.lowyinstitute.org/the-interpreter/watch-what-trump-does-in-asia-not-what-he-says": 1794973238.612,
     "title:Watch what Trump does in Asia, not what he says": 1794973238.612,
     "https://www.lowyinstitute.org/the-interpreter/the-climate-card-china-has-yet-to-play": 1794973238.6120331,
-    "title:The climate card China has yet to play": 1794973238.6120331
+    "title:The climate card China has yet to play": 1794973238.6120331,
+    "https://www.youtube.com/shorts/5Rs8QfhjVdM": 1794978048.7942739,
+    "yt:video:5Rs8QfhjVdM": 1794978048.7942739,
+    "title:Why Putin Wants a New Yalta with Trump and Xi | The Impossible State": 1794978048.7942739
   },
   "events": [
-    {
-      "key": "中日領袖APEC互動",
-      "timestamp": 1794715258.0430899
-    },
     {
       "key": "北京無人機全域禁管",
       "timestamp": 1794730844.0951595
@@ -2072,6 +2055,10 @@
     {
       "key": "四國機制持續運作",
       "timestamp": 1794962477.6995895
+    },
+    {
+      "key": "美中俄三方領袖峰會",
+      "timestamp": 1794978054.5725775
     }
   ]
 }
