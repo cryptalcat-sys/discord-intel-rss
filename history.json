@@ -1,32 +1,5 @@
 {
   "ids": {
-    "https://www.cna.com.tw/news/acn/202611150104.aspx": 1794730852.2413025,
-    "CNA/2026-11-15/202611150104": 1794730852.2413025,
-    "title:南韓外交官：川普金正恩會晤可能性不大 但不能排除": 1794730852.2413025,
-    "https://www.cna.com.tw/news/acn/202611150102.aspx": 1794730899.698892,
-    "CNA/2026-11-15/202611150102": 1794730899.698892,
-    "title:黃仁勳風波後美恐緊縮晶片出口 中國官媒憂衝擊尖端算力": 1794730899.698892,
-    "https://www.youtube.com/shorts/iGZJre6eEDw": 1794732031.1118414,
-    "yt:video:iGZJre6eEDw": 1794732031.1118414,
-    "title:雙層包圍態勢 共軍海空聯訓施壓東台灣｜ 公共電視 - 尖鋒對話": 1794732031.1118414,
-    "https://www.youtube.com/shorts/j-b8fnLkZWY": 1794732031.1118948,
-    "yt:video:j-b8fnLkZWY": 1794732031.1118948,
-    "title:無聲軍演非政治宣傳 實戰導向強化訓練｜ 公共電視 - 尖鋒對話": 1794732031.1118948,
-    "https://www.youtube.com/shorts/AehRwQlQ9fk": 1794732031.1121557,
-    "yt:video:AehRwQlQ9fk": 1794732031.1121557,
-    "title:不為刺探輝達機密 黃樂想探美國情報｜ 公共電視 - 尖鋒對話": 1794732031.1121557,
-    "https://www.cna.com.tw/news/aopl/202611130197.aspx": 1794732032.1409333,
-    "CNA/2026-11-13/202611130197": 1794732032.1409333,
-    "title:因應AI資安威脅增加 泰國成立跨國小組加強防護": 1794732032.1409333,
-    "https://www.cna.com.tw/news/ait/202611120205.aspx": 1794732032.1413248,
-    "CNA/2026-11-12/202611120205": 1794732032.1413248,
-    "title:美擬禁止中企遠端用AI晶片 管制擴及星馬泰等7國": 1794732032.1413248,
-    "https://www.cna.com.tw/news/aopl/202611120169.aspx": 1794732032.1413717,
-    "CNA/2026-11-12/202611120169": 1794732032.1413717,
-    "title:黃仁勳另爆出軌公司女主管 專家：若遭撤換重大打擊AI產業": 1794732032.1413717,
-    "https://www.navalnews.com/naval-news/2026/11/malaysia-selects-roketsans-atmaca-to-replace-nsm-on-littoral-combat-ships": 1794732039.7567701,
-    "https://www.navalnews.com/?p=93536": 1794732039.7567701,
-    "title:Malaysia Selects Roketsan’s ATMACA to Replace NSM on Littoral Combat Ships": 1794732039.7567701,
     "https://www.youtube.com/shorts/O2vf6kwyCwc": 1794733251.0560167,
     "yt:video:O2vf6kwyCwc": 1794733251.0560167,
     "title:樂隊花車?沉默螺旋? 聲量能化為實際選票? ｜ 公共電視 - 尖鋒對話": 1794733251.0560167,
@@ -1743,21 +1716,15 @@
     "title:China Accelerates Militarization as US Prepares for Taiwan Conflict | Taiwan Talks #shorts": 1794990043.300929,
     "https://www.youtube.com/shorts/mu10kQWIKAg": 1794990049.4036536,
     "yt:video:mu10kQWIKAg": 1794990049.4036536,
-    "title:美軍三航母壓境中東 軍事威嚇以戰逼和｜ 公共電視 - 尖鋒對話": 1794990049.4036536
+    "title:美軍三航母壓境中東 軍事威嚇以戰逼和｜ 公共電視 - 尖鋒對話": 1794990049.4036536,
+    "https://warontherocks.com/the-u-s-chinese-russian-summit-and-the-future-of-trilateral-nuclear-talks": 1794991244.26536,
+    "https://warontherocks.com/?p=48665": 1794991244.26536,
+    "title:The U.S.-Chinese-Russian Summit and the Future of Trilateral Nuclear Talks": 1794991244.26536,
+    "https://warontherocks.com/the-limits-of-quiet-resignation-from-the-u-s-military": 1794991245.4632497,
+    "https://warontherocks.com/?p=48613": 1794991245.4632497,
+    "title:The Limits of Quiet Resignation from the U.S. Military": 1794991245.4632497
   },
   "events": [
-    {
-      "key": "美朝會晤評估",
-      "timestamp": 1794730891.6985347
-    },
-    {
-      "key": "美中晶片出口管制",
-      "timestamp": 1794730901.3752627
-    },
-    {
-      "key": "馬國巡邏艦換裝反艦飛彈",
-      "timestamp": 1794732042.561158
-    },
     {
       "key": "歐洲縱向天然氣走廊",
       "timestamp": 1794745237.9653332
