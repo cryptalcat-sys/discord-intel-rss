@@ -1,23 +1,5 @@
 {
   "ids": {
-    "https://news.usni.org/2026/11/12/royal-navy-to-trial-northrop-grumman-test-aircraft-on-carrier-in-2027": 1794780046.2834358,
-    "https://news.usni.org/?p=126549": 1794780046.2834358,
-    "title:Royal Navy to Trial Northrop Grumman Test Aircraft on Carrier in 2027": 1794780046.2834358,
-    "https://www.twz.com/air/usaf-aircraft-continue-to-reposition-away-from-raf-mildenhall-amid-reports-of-iranian-threats": 1794780048.3175962,
-    "https://www.twz.com/?p=6606460": 1794780048.3175962,
-    "title:USAF Aircraft Continue To Reposition Away From RAF Mildenhall Amid Reports Of Iranian Threats": 1794780048.3175962,
-    "https://breakingdefense.com/2026/11/delivering-first-columbia-class-sub-in-2028-is-absolutely-achievable-sub-czar-says": 1794780056.7444935,
-    "https://breakingdefense.com/?p=100964": 1794780056.7444935,
-    "title:Delivering first Columbia-class sub in 2028 is ‘absolutely achievable’, sub czar says": 1794780056.7444935,
-    "https://breakingdefense.com/2026/11/sda-explores-integration-of-spacex-laser-communication-terminals-with-missile-tracking-sats": 1794780056.7445722,
-    "https://breakingdefense.com/?p=100930": 1794780056.7445722,
-    "title:SDA explores integration of SpaceX laser communication terminals with missile tracking sats": 1794780056.7445722,
-    "https://www.atlanticcouncil.org/blogs/econographics/the-digital-yuan-is-only-part-of-chinas-expanding-global-payments-network": 1794780057.5730002,
-    "https://www.atlanticcouncil.org/?p=960006": 1794780057.5730002,
-    "title:The digital yuan is only part of China’s expanding global payments network": 1794780057.5730002,
-    "https://www.atlanticcouncil.org/blogs/ukrainealert/europe-sees-surge-in-suspected-russian-hybrid-warfare-incidents": 1794780057.5732002,
-    "https://www.atlanticcouncil.org/?p=959811": 1794780057.5732002,
-    "title:Europe sees surge in suspected Russian hybrid warfare incidents": 1794780057.5732002,
     "https://www.atlanticcouncil.org/blogs/ukrainealert/putins-chief-negotiator-vows-to-return-every-inch-of-russian-land-in-ukraine": 1794781230.6504297,
     "https://www.atlanticcouncil.org/?p=960326": 1794781230.6504297,
     "title:Putin’s chief negotiator vows to seize ‘every inch of Russian land’ in Ukraine": 1794781230.6504297,
@@ -1756,7 +1738,13 @@
     "title:What economic vibes say about reality: Jason Furman on consumer sentiment, recession indicators, and more": 1795038035.7475762,
     "https://news.usni.org/2026/11/18/carrier-uss-george-washington-leaves-middle-east-after-three-months": 1795038042.8853164,
     "https://news.usni.org/?p=126706": 1795038042.8853164,
-    "title:Carrier USS George Washington Leaves Middle East After Three Months": 1795038042.8853164
+    "title:Carrier USS George Washington Leaves Middle East After Three Months": 1795038042.8853164,
+    "https://breakingdefense.com/2026/11/a-1-1-trillion-pentagon-budget-sets-up-a-fight-on-capitol-hill": 1795039250.3573403,
+    "https://breakingdefense.com/?p=101398": 1795039250.3573403,
+    "title:A $1.1 trillion Pentagon budget sets up a fight on Capitol Hill": 1795039250.3573403,
+    "https://news.usni.org/2026/11/18/senate-appropriators-cut-20b-from-navy-shipbuilding-request": 1795039261.0837953,
+    "https://news.usni.org/?p=126712": 1795039261.0837953,
+    "title:Senate Appropriators Cut $20B from Navy Shipbuilding Request": 1795039261.0837953
   },
   "events": [
     {
@@ -2182,6 +2170,14 @@
     {
       "key": "美航母重返西太平洋",
       "timestamp": 1795038044.9360185
+    },
+    {
+      "key": "五角大廈預算國會攻防",
+      "timestamp": 1795039252.4991846
+    },
+    {
+      "key": "美參院刪減造艦預算",
+      "timestamp": 1795039263.1115766
     }
   ]
 }
