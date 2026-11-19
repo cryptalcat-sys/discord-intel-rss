@@ -1,11 +1,5 @@
 {
   "ids": {
-    "https://breakingdefense.com/2026/11/as-exquisite-radars-become-targets-smaller-tactical-sensors-take-on-a-bigger-role": 1794855654.6687624,
-    "https://breakingdefense.com/?p=101161": 1794855654.6687624,
-    "title:As exquisite radars become targets, smaller tactical sensors take on a bigger role": 1794855654.6687624,
-    "https://www.twz.com/news-features/russias-prized-kerch-bridge-struck-in-ukrainian-drone-onslaught": 1794855659.8682122,
-    "https://www.twz.com/?p=6607875": 1794855659.8682122,
-    "title:Russia’s Prized Kerch Bridge Struck In Ukrainian Drone Onslaught": 1794855659.8682122,
     "https://warontherocks.com/taiwans-political-and-security-future": 1794856843.256765,
     "https://warontherocks.com/?p=48633": 1794856843.256765,
     "title:Taiwan’s Political and Security Future": 1794856843.256765,
@@ -1814,13 +1808,15 @@
     "title:Thirty years of progress, lost at sea": 1795113657.0919163,
     "https://www.atlanticcouncil.org/inflection-points-with-frederick-kempe/nick-clegg-on-trumo-silicon-valley-and-big-techs-political-shift": 1795113657.0924082,
     "https://www.atlanticcouncil.org/?p=959661": 1795113657.0924082,
-    "title:Nick Clegg on Trump, Silicon Valley, and Big Tech’s political shift": 1795113657.0924082
+    "title:Nick Clegg on Trump, Silicon Valley, and Big Tech’s political shift": 1795113657.0924082,
+    "https://www.defensenews.com/industry/techwatch/2026/11/19/pentagon-lacks-overarching-plan-for-munitions-production-watchdog-warns": 1795114852.8378055,
+    "https://one.sightlinemg.com/defensenews/news/2026/11/19/pentagon-lacks-overarching-plan-for-munitions-production-watchdog-warns/": 1795114852.8378055,
+    "title:Pentagon lacks ‘overarching plan’ for munitions production, watchdog warns": 1795114852.8378055,
+    "https://www.twz.com/sea/destroyer-that-has-been-deployed-longer-than-any-since-wwii-returns-home": 1795114866.1190236,
+    "https://www.twz.com/?p=6607338": 1795114866.1190236,
+    "title:Destroyer That Has Been Deployed Longer Than Any Since WWII Returns Home": 1795114866.1190236
   },
   "events": [
-    {
-      "key": "烏軍無人機襲擊克赤大橋",
-      "timestamp": 1794855661.701909
-    },
     {
       "key": "台美安全博弈",
       "timestamp": 1794856884.0839787
@@ -2248,6 +2244,10 @@
     {
       "key": "法瑞聯合核嚇阻演習",
       "timestamp": 1795113643.511816
+    },
+    {
+      "key": "五角大廈彈藥產能規劃",
+      "timestamp": 1795114857.7841723
     }
   ]
 }
