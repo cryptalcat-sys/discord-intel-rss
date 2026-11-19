@@ -1821,13 +1821,17 @@
     "title:Beretta’s New Counter-Drone System Packs Eight Benelli M4 Shotguns Onto A Remote Turret": 1795119637.44903,
     "https://warontherocks.com/handshakes-without-headway": 1795119638.7970588,
     "https://warontherocks.com/?p=48689": 1795119638.7970588,
-    "title:Handshakes Without Headway": 1795119638.7970588
+    "title:Handshakes Without Headway": 1795119638.7970588,
+    "https://www.atlanticcouncil.org/content-series/fastthinking/where-the-russia-ukraine-peace-talks-stand-after-abu-dhabi": 1795120835.4564877,
+    "https://www.atlanticcouncil.org/?p=959899": 1795120835.4564877,
+    "title:Where the Russia-Ukraine peace talks stand after Abu Dhabi": 1795120835.4564877,
+    "https://www.piie.com/events/2026/next-steps-usmca-and-us-trade-laws-post-election-review": 1795120835.9524438,
+    "title:Next steps for the USMCA and US trade laws: A post-election review": 1795120835.9524438,
+    "https://www.twz.com/sea/aim-174b-long-range-missile-packed-with-glide-munitions-teased-new-details-shared": 1795120846.8084617,
+    "https://www.twz.com/?p=6606273": 1795120846.8084617,
+    "title:AIM-174B Long-Range Missile Packed With Glide Munitions Teased, New Details Shared": 1795120846.8084617
   },
   "events": [
-    {
-      "key": "火神火箭發射失敗",
-      "timestamp": 1794860493.4945016
-    },
     {
       "key": "海狼級潛艦戰力恢復",
       "timestamp": 1794862863.1969204
@@ -2251,6 +2255,10 @@
     {
       "key": "美伊外交僵局與制裁",
       "timestamp": 1795119640.6403806
+    },
+    {
+      "key": "美加墨協定與貿易審查",
+      "timestamp": 1795120837.5734823
     }
   ]
 }
