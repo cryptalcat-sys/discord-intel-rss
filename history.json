@@ -1,14 +1,5 @@
 {
   "ids": {
-    "https://www.youtube.com/shorts/kWD21wNlauA": 1794824438.3641431,
-    "yt:video:kWD21wNlauA": 1794824438.3641431,
-    "title:What India Can Give Manila That US Can’t | Taiwan Talks #shorts": 1794824438.3641431,
-    "https://www.youtube.com/shorts/RCrDOfwWs50": 1794824438.3641865,
-    "yt:video:RCrDOfwWs50": 1794824438.3641865,
-    "title:Expert: BrahMos Could Help Manila Deter Beijing | Taiwan Talks #shorts": 1794824438.3641865,
-    "https://www.navalnews.com/naval-news/2026/11/french-navy-intercepts-narco-sub-atlantic": 1794824445.293867,
-    "https://www.navalnews.com/?p=93612": 1794824445.293867,
-    "title:French Navy Intercepts Narco-Sub for the First Time in Atlantic Ocean": 1794824445.293867,
     "https://breakingdefense.com/2026/11/estonian-drone-company-targeted-in-sabotage-attempt-as-part-of-russias-hybrid-war-against-europe-prime-minister-michal": 1794825638.1062732,
     "https://breakingdefense.com/?p=101090": 1794825638.1062732,
     "title:Estonian drone company targeted in sabotage attempt as part of ‘Russia’s hybrid war against Europe’: Prime Minister Michal": 1794825638.1062732,
@@ -1799,13 +1790,12 @@
     "title:A New Kind of Foreign Agent": 1795082465.0997324,
     "https://www.foreignaffairs.com/north-korea/trump-facing-very-different-north-korea": 1795082465.0997794,
     "1135754": 1795082465.0997794,
-    "title:Trump Is Facing a Very Different North Korea": 1795082465.0997794
+    "title:Trump Is Facing a Very Different North Korea": 1795082465.0997794,
+    "https://www.navalnews.com/naval-news/2026/11/adsb-to-relocate-shipyard-as-it-eyes-shipbuilding-expansion": 1795083636.4846654,
+    "https://www.navalnews.com/?p=93685": 1795083636.4846654,
+    "title:ADSB to relocate shipyard as it eyes shipbuilding expansion": 1795083636.4846654
   },
   "events": [
-    {
-      "key": "法軍大西洋攔截販毒潛艇",
-      "timestamp": 1794824447.5482986
-    },
     {
       "key": "愛沙無人機廠遇襲",
       "timestamp": 1794825661.5555353
@@ -2237,6 +2227,10 @@
     {
       "key": "川習會高層會晤",
       "timestamp": 1795082454.0603533
+    },
+    {
+      "key": "阿布達比造船廠擴建遷移",
+      "timestamp": 1795083639.9241471
     }
   ]
 }
