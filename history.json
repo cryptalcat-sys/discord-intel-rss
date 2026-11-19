@@ -1,11 +1,5 @@
 {
   "ids": {
-    "https://breakingdefense.com/2026/11/securing-the-asia-pacific-digital-battlespace-technet-indo-pacific-2026": 1794870057.550462,
-    "https://breakingdefense.com/?p=99993": 1794870057.550462,
-    "title:Securing the Asia-Pacific digital battlespace: TechNet Indo-Pacific 2026": 1794870057.550462,
-    "https://www.cna.com.tw/news/ait/202611150008.aspx": 1794870062.9680164,
-    "CNA/2026-11-15/202611150008": 1794870062.9680164,
-    "title:SpaceX首度完成太空船捕捉回收 星艦返回發射台[影]": 1794870062.9680164,
     "https://www.atlanticcouncil.org/blogs/ukrainealert/last-weeks-brief-ukraine-ceasefire-did-not-stop-russian-attacks-on-civilians": 1794871233.3999898,
     "https://www.atlanticcouncil.org/?p=958732": 1794871233.3999898,
     "title:Last week’s brief Ukraine ceasefire did not stop Russian attacks on civilians": 1794871233.3999898,
@@ -1848,7 +1842,12 @@
     "title:USS Theodore Roosevelt Now in the Middle East, Lincoln’s Last Escorts Finally Home": 1795128060.2839723,
     "https://www.twz.com/news-features/ukraine-regretting-white-house-brokered-temporary-ceasefire-in-strategic-riverside-town-of-oleshky": 1795128061.0712094,
     "https://www.twz.com/?p=6606827": 1795128061.0712094,
-    "title:Ukraine Regretting White House-Brokered Temporary Ceasefire In Strategic Riverside Town Of Oleshky": 1795128061.0712094
+    "title:Ukraine Regretting White House-Brokered Temporary Ceasefire In Strategic Riverside Town Of Oleshky": 1795128061.0712094,
+    "https://www.piie.com/events/2026/chrystia-freeland-power-politics-and-future-democracy": 1795129245.7799468,
+    "title:Chrystia Freeland on power, politics, and the future of democracy": 1795129245.7799468,
+    "https://www.atlanticcouncil.org/dispatches/the-us-didnt-have-a-strong-plan-for-the-shenzhen-summit-it-showed": 1795129261.0857015,
+    "https://www.atlanticcouncil.org/?p=962173": 1795129261.0857015,
+    "title:The US didn’t have a strong plan for the Shenzhen summit. It showed.": 1795129261.0857015
   },
   "events": [
     {
@@ -2278,6 +2277,14 @@
     {
       "key": "川習普大國共治言論",
       "timestamp": 1795128047.6625712
+    },
+    {
+      "key": "加拿大民主政治與全球化",
+      "timestamp": 1795129247.2764575
+    },
+    {
+      "key": "深圳峰會美中外交",
+      "timestamp": 1795129262.576977
     }
   ]
 }
