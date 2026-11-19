@@ -1,8 +1,5 @@
 {
   "ids": {
-    "https://breakingdefense.com/2026/11/estonian-drone-company-targeted-in-sabotage-attempt-as-part-of-russias-hybrid-war-against-europe-prime-minister-michal": 1794825638.1062732,
-    "https://breakingdefense.com/?p=101090": 1794825638.1062732,
-    "title:Estonian drone company targeted in sabotage attempt as part of ‘Russia’s hybrid war against Europe’: Prime Minister Michal": 1794825638.1062732,
     "https://www.navalnews.com/interviews/2026/11/french-navy-chief-reasoned-hybrid-fleet": 1794825671.7558465,
     "https://www.navalnews.com/?p=93490": 1794825671.7558465,
     "title:Beyond the Hype: French Navy Chief Advocates for a ‘Reasoned’ Hybrid Fleet": 1794825671.7558465,
@@ -1793,13 +1790,18 @@
     "title:Trump Is Facing a Very Different North Korea": 1795082465.0997794,
     "https://www.navalnews.com/naval-news/2026/11/adsb-to-relocate-shipyard-as-it-eyes-shipbuilding-expansion": 1795083636.4846654,
     "https://www.navalnews.com/?p=93685": 1795083636.4846654,
-    "title:ADSB to relocate shipyard as it eyes shipbuilding expansion": 1795083636.4846654
+    "title:ADSB to relocate shipyard as it eyes shipbuilding expansion": 1795083636.4846654,
+    "https://www.cna.com.tw/news/acn/202611190314.aspx": 1795084829.854098,
+    "CNA/2026-11-19/202611190314": 1795084829.854098,
+    "title:川習三會 分析：台海議題內容在預期之內": 1795084829.854098,
+    "https://www.cna.com.tw/news/acn/202611190293.aspx": 1795084839.5014822,
+    "CNA/2026-11-19/202611190293": 1795084839.5014822,
+    "title:APEC深圳峰會 施振榮：AI永續有賴於半導體供應鏈穩定": 1795084839.5014822,
+    "https://www.defensenews.com/global/europe/2026/11/19/mbda-and-german-startup-atmos-team-up-to-study-space-based-strike-weapons": 1795084852.4717922,
+    "https://one.sightlinemg.com/defensenews/?p=88117": 1795084852.4717922,
+    "title:MBDA and German startup Atmos team up to study space-based strike weapons": 1795084852.4717922
   },
   "events": [
-    {
-      "key": "愛沙無人機廠遇襲",
-      "timestamp": 1794825661.5555353
-    },
     {
       "key": "賽峰新型艦載火箭發射系統",
       "timestamp": 1794828042.2032003
@@ -2231,6 +2233,18 @@
     {
       "key": "阿布達比造船廠擴建遷移",
       "timestamp": 1795083639.9241471
+    },
+    {
+      "key": "川習會台海互動",
+      "timestamp": 1795084831.5009575
+    },
+    {
+      "key": "APEC半導體AI永續",
+      "timestamp": 1795084842.681019
+    },
+    {
+      "key": "軌道精準打擊武器研發",
+      "timestamp": 1795084857.7364872
     }
   ]
 }
