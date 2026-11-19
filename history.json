@@ -1,11 +1,5 @@
 {
   "ids": {
-    "https://warontherocks.com/cogs-of-war/rip-to-the-1-45-trillion-fy2027-defense-budget": 1794820837.2350988,
-    "https://warontherocks.com/?p=48607": 1794820837.2350988,
-    "title:RIP to the $1.45 Trillion FY2027 Defense Budget": 1794820837.2350988,
-    "https://www.navalnews.com/naval-news/2026/11/hd-hhi-anduril-launch-600-ton-asv-alpha": 1794820854.7638195,
-    "https://www.navalnews.com/?p=93605": 1794820854.7638195,
-    "title:HD HHI and Anduril Launch 600-Ton Autonomous Surface Vessel ‘ASV Alpha’": 1794820854.7638195,
     "https://www.cna.com.tw/news/acn/202611160180.aspx": 1794822039.9113588,
     "CNA/2026-11-16/202611160180": 1794822039.9113588,
     "title:黃仁勳去職 中媒：催化國產晶片自主研發與替代進程": 1794822039.9113588,
@@ -1786,17 +1780,15 @@
     "title:資深飛官五年大流失 空軍戰力結構失衡｜ 公共電視 - 尖鋒對話": 1795077638.232417,
     "https://www.foreignaffairs.com/turkey/fantasy-turkish-middle-east": 1795078849.8004386,
     "1135769": 1795078849.8004386,
-    "title:The Fantasy of a Turkish Middle East": 1795078849.8004386
+    "title:The Fantasy of a Turkish Middle East": 1795078849.8004386,
+    "https://www.cna.com.tw/news/acn/202611190258.aspx": 1795080036.285792,
+    "CNA/2026-11-19/202611190258": 1795080036.285792,
+    "title:深圳川習會 陸委會：台灣非這次會談重點": 1795080036.285792,
+    "https://www.cna.com.tw/news/acn/202611190257.aspx": 1795080046.3355343,
+    "CNA/2026-11-19/202611190257": 1795080046.3355343,
+    "title:梁文傑：陸方APEC接機安排算合理": 1795080046.3355343
   },
   "events": [
-    {
-      "key": "美國國防預算刪減",
-      "timestamp": 1794820839.102197
-    },
-    {
-      "key": "韓美聯手研發大型無人水面艦",
-      "timestamp": 1794820858.5216234
-    },
     {
       "key": "輝達高層異動與中國晶片自主",
       "timestamp": 1794822044.6991444
@@ -2212,6 +2204,14 @@
     {
       "key": "輝達高層人事爭議",
       "timestamp": 1795065701.7976863
+    },
+    {
+      "key": "川習會涉台議題",
+      "timestamp": 1795080038.3351371
+    },
+    {
+      "key": "兩岸APEC互動安排",
+      "timestamp": 1795080048.3539612
     }
   ]
 }
