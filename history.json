@@ -1,14 +1,5 @@
 {
   "ids": {
-    "https://breakingdefense.com/2026/11/leolabs-acquires-fisheye-to-bolster-its-missile-defense-chops": 1794856892.7089362,
-    "https://breakingdefense.com/?p=101123": 1794856892.7089362,
-    "title:LeoLabs acquires FishEye to bolster its missile defense chops": 1794856892.7089362,
-    "https://news.usni.org/2026/11/13/usni-news-western-pacific-pulse-nov-13-2026": 1794856903.825313,
-    "https://news.usni.org/?p=126573": 1794856903.825313,
-    "title:USNI News Western Pacific Pulse: Nov. 13, 2026": 1794856903.825313,
-    "https://jamestown.org/ajnad-beit-al-maqdis-and-al-qaedas-restructuring-in-syria-and-iraq": 1794858045.2393677,
-    "https://jamestown.org/?p=886896": 1794858045.2393677,
-    "title:Ajnad Beit al-Maqdis and al-Qaeda’s Restructuring in Syria and Iraq": 1794858045.2393677,
     "https://www.twz.com/land/berettas-new-counter-drone-system-packs-eight-benelli-m4-shotguns-onto-a-remote-turret": 1794859252.030249,
     "https://www.twz.com/?p=6607122": 1794859252.030249,
     "title:Beretta’s New Counter-Drone System Packs Eight Benelli M4 Shotguns Onto A Remote Turret": 1794859252.030249,
@@ -1820,21 +1811,21 @@
     "title:U.S. Senate Seeks to Exchange Shipbuilding Funds for More Munitions": 1795116045.711761,
     "https://www.navalnews.com/naval-news/2026/11/estonian-president-christens-first-euroguard-the-largest-warship-ever-built-in-the-country": 1795116047.694659,
     "https://www.navalnews.com/?p=93815": 1795116047.694659,
-    "title:Baltic Workboats Launches EUROGUARD Modular Ship in Estonia": 1795116047.694659
+    "title:Baltic Workboats Launches EUROGUARD Modular Ship in Estonia": 1795116047.694659,
+    "https://www.twz.com/news-features/these-are-the-weapons-ukraine-used-to-drop-the-kerch-bridge": 1795117251.602724,
+    "https://www.twz.com/?p=6608307": 1795117251.602724,
+    "title:These Are The Weapons Ukraine Used To Drop The Kerch Bridge": 1795117251.602724,
+    "https://warontherocks.com/taiwans-political-and-security-future": 1795117252.3625011,
+    "https://warontherocks.com/?p=48633": 1795117252.3625011,
+    "title:Taiwan’s Political and Security Future": 1795117252.3625011,
+    "https://www.atlanticcouncil.org/news/transcripts/us-energy-secretary-chris-wright-and-polish-energy-minister-milosz-motyka-on-why-europes-security-depends-on-its-energy-supply": 1795117252.6892376,
+    "https://www.atlanticcouncil.org/?p=962047": 1795117252.6892376,
+    "title:US Energy Secretary Chris Wright and Polish Energy Minister Miłosz Motyka on why Europe’s security depends on its energy supply": 1795117252.6892376,
+    "https://www.atlanticcouncil.org/commentary/event-recap/five-european-ministers-on-why-they-wont-go-back-to-business-with-russia": 1795117254.2568219,
+    "https://www.atlanticcouncil.org/?p=962055": 1795117254.2568219,
+    "title:Five European ministers on why they won’t go back to business with Russia": 1795117254.2568219
   },
   "events": [
-    {
-      "key": "台美安全博弈",
-      "timestamp": 1794856884.0839787
-    },
-    {
-      "key": "LeoLabs併購FishEye",
-      "timestamp": 1794856894.8319051
-    },
-    {
-      "key": "基地組織敘利亞重組",
-      "timestamp": 1794858054.0094485
-    },
     {
       "key": "美艦部署動態與海基兵力",
       "timestamp": 1794859255.7122595
@@ -2258,6 +2249,10 @@
     {
       "key": "愛沙尼亞歐衛模組軍艦下水",
       "timestamp": 1795116049.8427997
+    },
+    {
+      "key": "歐洲能源去俄羅斯化",
+      "timestamp": 1795117256.5905304
     }
   ]
 }
