@@ -1,11 +1,5 @@
 {
   "ids": {
-    "https://news.usni.org/2026/11/10/gao-report-on-the-defense-departments-f-35-program": 1794843637.980946,
-    "https://news.usni.org/?p=126511": 1794843637.980946,
-    "title:GAO Report on the Defense Department’s F-35 Program": 1794843637.980946,
-    "https://www.atlanticcouncil.org/blogs/menasource/washington-is-reshaping-security-in-north-africa-congress-needs-to-ask-how": 1794843647.3291843,
-    "https://www.atlanticcouncil.org/?p=960063": 1794843647.3291843,
-    "title:Washington is reshaping security in North Africa. Congress needs to ask how.": 1794843647.3291843,
     "https://www.atlanticcouncil.org/content-series/balkans-debrief/can-montenegros-accession-reinvigorate-eu-enlargement-a-debrief-with-gert-jan-koopman": 1794846928.568028,
     "https://www.atlanticcouncil.org/?p=960941": 1794846928.568028,
     "title:Can Montenegro’s accession reinvigorate EU enlargement? A Debrief with Gert Jan Koopman": 1794846928.568028,
@@ -1790,7 +1784,16 @@
     "https://thediplomat.com/2026/11/a-former-pakistani-army-captain-now-commands-the-bla/": 1795101636.6931472,
     "title:The BLA’s Leadership Transition: Understanding Its New Tactics and Strategic Calculus": 1795101636.6931472,
     "https://www.piie.com/blogs/realtime-economics/2026/consumers-can-handle-stock-crash": 1795101639.7001157,
-    "title:Consumers Can Handle a Stock Crash": 1795101639.7001157
+    "title:Consumers Can Handle a Stock Crash": 1795101639.7001157,
+    "https://breakingdefense.com/2026/11/warsaw-shoots-for-the-stars-mod-to-buy-new-sats-as-part-of-major-space-expansion-plans": 1795102837.1317852,
+    "https://breakingdefense.com/?p=101446": 1795102837.1317852,
+    "title:Warsaw shoots for the stars: MoD to buy new sats as part of major space expansion plans": 1795102837.1317852,
+    "https://www.atlanticcouncil.org/dispatches/as-gen-z-asserts-itself-in-serbia-and-albania-the-upside-for-the-west-is-far-greater-than-the-headaches": 1795102860.722568,
+    "https://www.atlanticcouncil.org/?p=958097": 1795102860.722568,
+    "title:As Gen Z asserts itself in Serbia and Albania, the upside for the West is far greater than the headaches": 1795102860.722568,
+    "https://thediplomat.com/2026/11/nato-is-not-the-right-forum-to-discuss-china": 1795102866.9262686,
+    "https://thediplomat.com/2026/11/nato-is-not-the-right-forum-to-discuss-china/": 1795102866.9262686,
+    "title:NATO Is Not the Right Forum to Discuss China": 1795102866.9262686
   },
   "events": [
     {
@@ -2220,6 +2223,10 @@
     {
       "key": "法潛蘇弗朗級維護",
       "timestamp": 1795099265.043339
+    },
+    {
+      "key": "波蘭軍用衛星擴建",
+      "timestamp": 1795102850.4903054
     }
   ]
 }
