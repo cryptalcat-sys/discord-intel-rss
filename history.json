@@ -1,13 +1,5 @@
 {
   "ids": {
-    "https://www.cna.com.tw/news/acn/202611160264.aspx": 1794836495.6834369,
-    "CNA/2026-11-16/202611160264": 1794836495.6834369,
-    "title:APEC深圳峰會週 禁鳴喇叭、計程車駕駛學英文": 1794836495.6834369,
-    "https://www.defensenews.com/global/europe/2026/11/16/estonia-to-close-border-with-russia-after-arson-attack-on-local-drone-maker": 1794837651.752058,
-    "title:Estonia to close border with Russia after arson attack on local drone maker": 1794837651.752058,
-    "https://www.cna.com.tw/news/ait/202611140219.aspx": 1794837671.087407,
-    "CNA/2026-11-14/202611140219": 1794837671.087407,
-    "title:NASA旅行家1號飛行49年 即將締造「光日」里程碑": 1794837671.087407,
     "https://www.defensenews.com/video/2026/11/16/drone-meet-bullet-companies-develop-new-counter-uas-capability-business-of-defense-part-3": 1794838833.8141074,
     "title:Drone, meet bullet — companies develop new counter UAS capability | Business of Defense – Part 3": 1794838833.8141074,
     "https://www.defensenews.com/video/2026/11/16/defense-companies-on-the-moon-defense-dollars": 1794838856.7782109,
@@ -1802,21 +1794,15 @@
     "title:Australia, Philippines Sign New Defense Cooperation Arrangement": 1795095634.7758403,
     "https://www.defensenews.com/global/europe/2026/11/19/ukraine-plans-to-double-drone-supplies-triple-deep-strikes": 1795095639.7067807,
     "https://one.sightlinemg.com/defensenews/?p=88123": 1795095639.7067807,
-    "title:Ukraine plans to double drone supplies, triple deep strikes": 1795095639.7067807
+    "title:Ukraine plans to double drone supplies, triple deep strikes": 1795095639.7067807,
+    "https://breakingdefense.com/2026/11/cyclokinetics-wins-86-3-million-pentagon-contract-for-alternative-fuels": 1795096853.4675748,
+    "https://breakingdefense.com/?p=101384": 1795096853.4675748,
+    "title:Cyclokinetics wins $86.3 million Pentagon contract for alternative fuels": 1795096853.4675748,
+    "https://breakingdefense.com/2026/11/training-for-any-scenario-anywhere-in-the-world-starting-with-the-pacific-in-guam": 1795096885.152291,
+    "https://breakingdefense.com/?p=101423": 1795096885.152291,
+    "title:Training for any scenario, anywhere in the world, starting with the Pacific in Guam": 1795096885.152291
   },
   "events": [
-    {
-      "key": "美潛艇維修提速",
-      "timestamp": 1794836484.9031637
-    },
-    {
-      "key": "深圳APEC峰會空域管制",
-      "timestamp": 1794836497.705636
-    },
-    {
-      "key": "愛國者邊境封鎖事件",
-      "timestamp": 1794837654.6285672
-    },
     {
       "key": "反無人機激光研發",
       "timestamp": 1794838848.7771368
@@ -2248,6 +2234,10 @@
     {
       "key": "烏軍長程打擊無人機戰略",
       "timestamp": 1795095644.239807
+    },
+    {
+      "key": "美軍替代燃料採購",
+      "timestamp": 1795096877.1519275
     }
   ]
 }
