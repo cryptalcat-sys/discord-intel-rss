@@ -1,26 +1,5 @@
 {
   "ids": {
-    "https://jamestown.org/ogarkov-to-the-baltics-russian-military-thought-evolved-from-zapad-77-to-ukraine-and-beyond": 1794852059.859819,
-    "https://jamestown.org/?p=886838": 1794852059.859819,
-    "title:Ogarkov to the Baltics: Russian Military Thought Evolved From Zapad-77 to Ukraine and Beyond": 1794852059.859819,
-    "https://www.atlanticcouncil.org/in-depth-research-reports/issue-brief/thirty-years-of-progress-lost-at-sea": 1794852061.4813786,
-    "https://www.atlanticcouncil.org/?p=960111": 1794852061.4813786,
-    "title:Thirty years of progress, lost at sea": 1794852061.4813786,
-    "https://www.twz.com/air/b-21-raider-has-released-its-first-weapon": 1794852083.32384,
-    "https://www.twz.com/?p=6607357": 1794852083.32384,
-    "title:B-21 Raider Has Released Its First Weapon": 1794852083.32384,
-    "https://www.twz.com/news-features/autonomous-cessna-caravan-air-ambulance-to-be-tested-by-u-s-military": 1794853236.8883808,
-    "https://www.twz.com/?p=6606670": 1794853236.8883808,
-    "title:Autonomous Cessna Caravan Air Ambulance To Be Tested By U.S. Military": 1794853236.8883808,
-    "https://www.atlanticcouncil.org/inflection-points-with-frederick-kempe/nick-clegg-on-trumo-silicon-valley-and-big-techs-political-shift": 1794853244.9323976,
-    "https://www.atlanticcouncil.org/?p=959661": 1794853244.9323976,
-    "title:Nick Clegg on Trump, Silicon Valley, and Big Tech’s political shift": 1794853244.9323976,
-    "https://news.usni.org/2026/11/10/u-k-to-develop-north-atlantic-network-of-drones-ai-systems-to-find-russian-subs": 1794853245.2168329,
-    "https://news.usni.org/?p=126513": 1794853245.2168329,
-    "title:U.K. to Develop North Atlantic Network of Drones, AI Systems to Find Russian Subs": 1794853245.2168329,
-    "https://breakingdefense.com/2026/11/italy-unveils-plans-to-develop-a-new-naval-missile-launcher": 1794853245.3668542,
-    "https://breakingdefense.com/?p=101126": 1794853245.3668542,
-    "title:Italy unveils plans to develop a new naval missile launcher": 1794853245.3668542,
     "https://www.twz.com/sea/destroyer-that-has-been-deployed-longer-than-any-since-wwii-returns-home": 1794854442.2246456,
     "https://www.twz.com/?p=6607338": 1794854442.2246456,
     "title:Destroyer That Has Been Deployed Longer Than Any Since WWII Returns Home": 1794854442.2246456,
@@ -1815,17 +1794,14 @@
     "title:Navy Weapons Division to Make Tomahawk Components in 2027": 1795111255.593185,
     "https://news.usni.org/2026/11/13/japan-pledges-drones-coastal-defense-radar-in-latest-philippine-defense-package": 1795111255.593288,
     "https://news.usni.org/?p=126562": 1795111255.593288,
-    "title:Japan Pledges Drones, Coastal Defense Radar in Latest Philippine Defense Package": 1795111255.593288
+    "title:Japan Pledges Drones, Coastal Defense Radar in Latest Philippine Defense Package": 1795111255.593288,
+    "https://www.twz.com/news-features/impacts-of-latest-neptune-missile-strike-on-kerch-bridge-seen-in-satellite-imagery": 1795112435.317014,
+    "https://www.twz.com/?p=6609076": 1795112435.317014,
+    "title:Impacts Of Latest Neptune Missile Strike On Kerch Bridge Seen In Satellite Imagery": 1795112435.317014,
+    "https://www.piie.com/blogs/realtime-economics/2026/how-congress-might-take-back-its-trade-powers-and-limit-trumps": 1795112482.926126,
+    "title:How Congress might take back its trade powers and limit Trump's tariffs": 1795112482.926126
   },
   "events": [
-    {
-      "key": "全球海運安全危機",
-      "timestamp": 1794852069.715259
-    },
-    {
-      "key": "意海軍彈道發射器",
-      "timestamp": 1794853284.2362604
-    },
     {
       "key": "烏軍無人機襲擊克赤大橋",
       "timestamp": 1794855661.701909
@@ -2249,6 +2225,10 @@
     {
       "key": "戰斧飛彈固態火箭發動機",
       "timestamp": 1795110084.277471
+    },
+    {
+      "key": "海王星擊克里米橋",
+      "timestamp": 1795112474.1734004
     }
   ]
 }
