@@ -1,25 +1,5 @@
 {
   "ids": {
-    "https://www.cna.com.tw/news/ait/202611140004.aspx": 1794865240.0158691,
-    "CNA/2026-11-14/202611140004": 1794865240.0158691,
-    "title:金融時報：輝達尋找新掌門人 安謀執行長哈斯列接班名單": 1794865240.0158691,
-    "https://news.usni.org/2026/11/16/uss-theodore-roosevelt-now-in-the-middle-east-lincolns-last-escorts-finally-home": 1794866450.6229696,
-    "https://news.usni.org/?p=126655": 1794866450.6229696,
-    "title:USS Theodore Roosevelt Now in the Middle East, Lincoln’s Last Escorts Finally Home": 1794866450.6229696,
-    "https://www.piie.com/events/2026/chrystia-freeland-power-politics-and-future-democracy": 1794866488.334822,
-    "title:Chrystia Freeland on power, politics, and the future of democracy": 1794866488.334822,
-    "https://www.atlanticcouncil.org/blogs/econographics/congress-could-soon-rein-in-trumps-tariffs-on-canada-heres-what-that-could-look-like": 1794866539.8260434,
-    "https://www.atlanticcouncil.org/?p=961080": 1794866539.8260434,
-    "title:Congress could soon rein in Trump’s tariffs on Canada. Here’s what that could look like.": 1794866539.8260434,
-    "https://www.twz.com/news-features/ukraine-regretting-white-house-brokered-temporary-ceasefire-in-strategic-riverside-town-of-oleshky": 1794867637.4020267,
-    "https://www.twz.com/?p=6606827": 1794867637.4020267,
-    "title:Ukraine Regretting White House-Brokered Temporary Ceasefire In Strategic Riverside Town Of Oleshky": 1794867637.4020267,
-    "https://breakingdefense.com/2026/11/pentagon-fails-9th-audit-asserts-path-towards-clean-books-in-2028": 1794867638.080393,
-    "https://breakingdefense.com/?p=101176": 1794867638.080393,
-    "title:Pentagon fails 9th audit, asserts path towards clean books in 2028": 1794867638.080393,
-    "https://news.usni.org/2026/11/16/vice-adm-oliver-lewis-takes-command-of-2nd-fleet": 1794867660.2167828,
-    "https://news.usni.org/?p=126665": 1794867660.2167828,
-    "title:Vice Adm. Oliver Lewis Takes Command of 2nd Fleet": 1794867660.2167828,
     "https://www.navalnews.com/naval-news/2026/11/u-s-navy-orders-82-additional-lionfish-uuvs-from-hii": 1794868832.1345649,
     "https://www.navalnews.com/?p=93648": 1794868832.1345649,
     "title:U.S. Navy Orders 82 Additional Lionfish UUVs from HII": 1794868832.1345649,
@@ -1847,29 +1827,18 @@
     "title:Suspected Drones Over RAF Lakenheath Just Triggered Security Response: U.S. Air Force (Updated)": 1795124210.5939233,
     "https://www.defensenews.com/air/2026/11/19/us-missile-shortages-create-a-range-problem-report-shows": 1795124215.7918572,
     "https://www.defensenews.com/news/2026/11/19/us-missile-shortages-create-a-range-problem-report-shows/": 1795124215.7918572,
-    "title:US missile shortages create a range problem, report shows": 1795124215.7918572
+    "title:US missile shortages create a range problem, report shows": 1795124215.7918572,
+    "https://www.twz.com/news-features/regent-squire-wing-in-ground-effect-drone-to-patrol-middle-east-waters": 1795126834.636234,
+    "https://www.twz.com/?p=6609261": 1795126834.636234,
+    "title:Regent Squire Wing-In-Ground Effect Drone To Patrol Middle East Waters": 1795126834.636234,
+    "https://www.twz.com/sea/trumps-demand-for-steam-catapults-on-new-carriers-is-a-non-starter-senate-armed-forces-chair": 1795126844.1349096,
+    "https://www.twz.com/?p=6608364": 1795126844.1349096,
+    "title:Trump’s Demand For Steam Catapults On New Carriers Is A “Non-Starter”: Senate Armed Forces Chair": 1795126844.1349096,
+    "https://jamestown.org/alice-huangs-shady-shanghai-ties-to-business-and-government": 1795126851.0409842,
+    "https://jamestown.org/?p=886968": 1795126851.0409842,
+    "title:Alice Huang’s Shady Shanghai Ties to Business and Government": 1795126851.0409842
   },
   "events": [
-    {
-      "key": "美航母部署中東",
-      "timestamp": 1794866471.3480148
-    },
-    {
-      "key": "加拿大前副總理演講",
-      "timestamp": 1794866528.201121
-    },
-    {
-      "key": "美加關稅立法博弈",
-      "timestamp": 1794866548.6911557
-    },
-    {
-      "key": "五角大樓審計失守",
-      "timestamp": 1794867651.304481
-    },
-    {
-      "key": "美軍第二艦隊換將",
-      "timestamp": 1794867662.8661063
-    },
     {
       "key": "美軍採購獅子魚無人潛航器",
       "timestamp": 1794868842.2589648
@@ -2289,6 +2258,14 @@
     {
       "key": "美軍飛彈短缺與對中戰備",
       "timestamp": 1795124218.0537271
+    },
+    {
+      "key": "美軍地效無人機部署中東",
+      "timestamp": 1795126836.1311815
+    },
+    {
+      "key": "輝達高層涉中調查",
+      "timestamp": 1795126852.541564
     }
   ]
 }
