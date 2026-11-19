@@ -1,8 +1,5 @@
 {
   "ids": {
-    "https://www.twz.com/sea/destroyer-that-has-been-deployed-longer-than-any-since-wwii-returns-home": 1794854442.2246456,
-    "https://www.twz.com/?p=6607338": 1794854442.2246456,
-    "title:Destroyer That Has Been Deployed Longer Than Any Since WWII Returns Home": 1794854442.2246456,
     "https://breakingdefense.com/2026/11/as-exquisite-radars-become-targets-smaller-tactical-sensors-take-on-a-bigger-role": 1794855654.6687624,
     "https://breakingdefense.com/?p=101161": 1794855654.6687624,
     "title:As exquisite radars become targets, smaller tactical sensors take on a bigger role": 1794855654.6687624,
@@ -1799,7 +1796,25 @@
     "https://www.twz.com/?p=6609076": 1795112435.317014,
     "title:Impacts Of Latest Neptune Missile Strike On Kerch Bridge Seen In Satellite Imagery": 1795112435.317014,
     "https://www.piie.com/blogs/realtime-economics/2026/how-congress-might-take-back-its-trade-powers-and-limit-trumps": 1795112482.926126,
-    "title:How Congress might take back its trade powers and limit Trump's tariffs": 1795112482.926126
+    "title:How Congress might take back its trade powers and limit Trump's tariffs": 1795112482.926126,
+    "https://www.twz.com/air/b-21-raider-has-released-its-first-weapon": 1795113633.734624,
+    "https://www.twz.com/?p=6607357": 1795113633.734624,
+    "title:B-21 Raider Has Released Its First Weapon": 1795113633.734624,
+    "https://www.twz.com/news-features/autonomous-cessna-caravan-air-ambulance-to-be-tested-by-u-s-military": 1795113633.734844,
+    "https://www.twz.com/?p=6606670": 1795113633.734844,
+    "title:Autonomous Cessna Caravan Air Ambulance To Be Tested By U.S. Military": 1795113633.734844,
+    "https://news.usni.org/2026/11/10/u-k-to-develop-north-atlantic-network-of-drones-ai-systems-to-find-russian-subs": 1795113635.283174,
+    "https://news.usni.org/?p=126513": 1795113635.283174,
+    "title:U.K. to Develop North Atlantic Network of Drones, AI Systems to Find Russian Subs": 1795113635.283174,
+    "https://www.defensenews.com/global/europe/2026/11/19/france-and-sweden-hold-first-joint-nuclear-deterrence-exercise": 1795113637.5199153,
+    "https://one.sightlinemg.com/defensenews/?p=88143": 1795113637.5199153,
+    "title:France and Sweden hold first joint nuclear-deterrence exercise": 1795113637.5199153,
+    "https://www.atlanticcouncil.org/in-depth-research-reports/issue-brief/thirty-years-of-progress-lost-at-sea": 1795113657.0919163,
+    "https://www.atlanticcouncil.org/?p=960111": 1795113657.0919163,
+    "title:Thirty years of progress, lost at sea": 1795113657.0919163,
+    "https://www.atlanticcouncil.org/inflection-points-with-frederick-kempe/nick-clegg-on-trumo-silicon-valley-and-big-techs-political-shift": 1795113657.0924082,
+    "https://www.atlanticcouncil.org/?p=959661": 1795113657.0924082,
+    "title:Nick Clegg on Trump, Silicon Valley, and Big Tech’s political shift": 1795113657.0924082
   },
   "events": [
     {
@@ -2229,6 +2244,10 @@
     {
       "key": "海王星擊克里米橋",
       "timestamp": 1795112474.1734004
+    },
+    {
+      "key": "法瑞聯合核嚇阻演習",
+      "timestamp": 1795113643.511816
     }
   ]
 }
