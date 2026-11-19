@@ -1,8 +1,5 @@
 {
   "ids": {
-    "https://www.navalnews.com/naval-news/2026/11/us-submarine-industrial-base-cuts-maintenance-delays": 1794836438.892215,
-    "https://www.navalnews.com/?p=93565": 1794836438.892215,
-    "title:U.S. Navy Cuts Submarine Maintenance Delays by 40% as Output Surges": 1794836438.892215,
     "https://www.cna.com.tw/news/acn/202611160264.aspx": 1794836495.6834369,
     "CNA/2026-11-16/202611160264": 1794836495.6834369,
     "title:APEC深圳峰會週 禁鳴喇叭、計程車駕駛學英文": 1794836495.6834369,
@@ -1799,7 +1796,13 @@
     "title:微軟全球大當機停擺逾24小時 確認潛伏約4個月程式缺陷是禍因": 1795088434.2410083,
     "https://www.cna.com.tw/news/acn/202611190363.aspx": 1795094442.909036,
     "CNA/2026-11-19/202611190363": 1795094442.909036,
-    "title:川普離開深圳返美 中國外長王毅送行": 1795094442.909036
+    "title:川普離開深圳返美 中國外長王毅送行": 1795094442.909036,
+    "https://thediplomat.com/2026/11/australia-philippines-sign-new-defense-cooperation-arrangement": 1795095634.7758403,
+    "https://thediplomat.com/2026/11/australia-philippines-sign-new-defense-cooperation-arrangement/": 1795095634.7758403,
+    "title:Australia, Philippines Sign New Defense Cooperation Arrangement": 1795095634.7758403,
+    "https://www.defensenews.com/global/europe/2026/11/19/ukraine-plans-to-double-drone-supplies-triple-deep-strikes": 1795095639.7067807,
+    "https://one.sightlinemg.com/defensenews/?p=88123": 1795095639.7067807,
+    "title:Ukraine plans to double drone supplies, triple deep strikes": 1795095639.7067807
   },
   "events": [
     {
@@ -2241,6 +2244,10 @@
     {
       "key": "軌道精準打擊武器研發",
       "timestamp": 1795084857.7364872
+    },
+    {
+      "key": "烏軍長程打擊無人機戰略",
+      "timestamp": 1795095644.239807
     }
   ]
 }
