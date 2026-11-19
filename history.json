@@ -1,7 +1,5 @@
 {
   "ids": {
-    "https://www.twreporter.org/a/hello-world-2026-11-12": 1794823253.9979746,
-    "title:當晶片的巨人在間諜醜聞中難堪倒下，黃仁勳下台風暴洗牌美中台晶片賽局？": 1794823253.9979746,
     "https://www.youtube.com/shorts/kWD21wNlauA": 1794824438.3641431,
     "yt:video:kWD21wNlauA": 1794824438.3641431,
     "title:What India Can Give Manila That US Can’t | Taiwan Talks #shorts": 1794824438.3641431,
@@ -1792,7 +1790,16 @@
     "title:RIP to the $1.45 Trillion FY2027 Defense Budget": 1795081254.9625177,
     "https://www.cna.com.tw/news/acn/202611190235.aspx": 1795081256.4264345,
     "CNA/2026-11-19/202611190235": 1795081256.4264345,
-    "title:是否舉行中日領導人會晤？中國外交部稱立場明確": 1795081256.4264345
+    "title:是否舉行中日領導人會晤？中國外交部稱立場明確": 1795081256.4264345,
+    "https://www.cna.com.tw/news/acn/202611190228.aspx": 1795082452.2898076,
+    "CNA/2026-11-19/202611190228": 1795082452.2898076,
+    "title:川習會 中美經貿官員高層幕僚出席": 1795082452.2898076,
+    "https://www.foreignaffairs.com/china/new-kind-foreign-agent": 1795082465.0997324,
+    "1135759": 1795082465.0997324,
+    "title:A New Kind of Foreign Agent": 1795082465.0997324,
+    "https://www.foreignaffairs.com/north-korea/trump-facing-very-different-north-korea": 1795082465.0997794,
+    "1135754": 1795082465.0997794,
+    "title:Trump Is Facing a Very Different North Korea": 1795082465.0997794
   },
   "events": [
     {
@@ -2226,6 +2233,10 @@
     {
       "key": "中日領導人會晤",
       "timestamp": 1795081257.9593644
+    },
+    {
+      "key": "川習會高層會晤",
+      "timestamp": 1795082454.0603533
     }
   ]
 }
