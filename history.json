@@ -1777,7 +1777,13 @@
     "title:SSN(X) Attack Boat Will be a Swift, Lethal Mothership for Undersea Drones, Navy Says": 1795046455.9901996,
     "https://www.twz.com/air/first-f-15exs-arrive-in-okinawa-25-now-delivered-to-the-usaf": 1795048841.9964972,
     "https://www.twz.com/?p=6608130": 1795048841.9964972,
-    "title:First F-15EXs Arrive At Kadena Air Base In Japan, 25 Now Delivered To The USAF": 1795048841.9964972
+    "title:First F-15EXs Arrive At Kadena Air Base In Japan, 25 Now Delivered To The USAF": 1795048841.9964972,
+    "https://www.lowyinstitute.org/the-interpreter/washington-built-the-hub-and-spokes-australia-and-japan-are-rewiring-it": 1795050051.0023801,
+    "title:Washington built the hub-and-spokes – Australia and Japan are rewiring it": 1795050051.0023801,
+    "https://www.lowyinstitute.org/the-interpreter/us-china-ai-rivalry-surpasses-summitry": 1795050060.990135,
+    "title:US-China: The AI rivalry that surpasses summitry": 1795050060.990135,
+    "https://www.lowyinstitute.org/the-interpreter/japan-wants-satellite-sovereignty": 1795050060.9902864,
+    "title:Japan wants satellite sovereignty": 1795050060.9902864
   },
   "events": [
     {
@@ -2215,6 +2221,10 @@
     {
       "key": "跨大西洋能源合作",
       "timestamp": 1795045246.2714763
+    },
+    {
+      "key": "美日澳安防架構重塑",
+      "timestamp": 1795050052.9889627
     }
   ]
 }
