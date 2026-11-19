@@ -1,17 +1,5 @@
 {
   "ids": {
-    "https://news.usni.org/2026/11/16/navy-weapons-division-to-make-tomahawk-components-in-2027": 1794848469.2575436,
-    "https://news.usni.org/?p=126625": 1794848469.2575436,
-    "title:Navy Weapons Division to Make Tomahawk Components in 2027": 1794848469.2575436,
-    "https://www.atlanticcouncil.org/dispatches/the-election-that-never-happened-and-why-washington-needs-a-new-strategy-toward-nicaragua": 1794849637.6273787,
-    "https://www.atlanticcouncil.org/?p=960291": 1794849637.6273787,
-    "title:The election that never happened, and why Washington needs a new strategy toward Nicaragua": 1794849637.6273787,
-    "https://breakingdefense.com/2026/11/pentagon-rebrands-principle-ai-shop-as-super-intelligence-office": 1794849646.6277168,
-    "https://breakingdefense.com/?p=101029": 1794849646.6277168,
-    "title:Pentagon rebrands principal AI shop as ‘Super Intelligence Office’": 1794849646.6277168,
-    "https://www.defensenews.com/global/asia-pacific/2026/11/16/china-has-normalized-naval-presence-near-japan-since-political-spat-of-2025": 1794849648.974025,
-    "https://one.sightlinemg.com/defensenews/?p=87975": 1794849648.974025,
-    "title:China has ‘normalized’ naval presence near Japan since political spat of 2025": 1794849648.974025,
     "https://www.atlanticcouncil.org/dispatches/why-congress-and-the-european-parliament-need-an-ai-safety-dialogue": 1794850832.0784192,
     "https://www.atlanticcouncil.org/?p=960600": 1794850832.0784192,
     "title:Why Congress and the European Parliament need an AI safety dialogue": 1794850832.0784192,
@@ -1808,17 +1796,15 @@
     "https://www.atlanticcouncil.org/?p=960941": 1795107651.4318256,
     "title:Can Montenegro’s accession reinvigorate EU enlargement? A Debrief with Gert Jan Koopman": 1795107651.4318256,
     "https://www.lowyinstitute.org/the-interpreter/what-are-australia-s-offshore-university-campuses-for": 1795107653.0191045,
-    "title:What are Australia’s offshore university campuses for?": 1795107653.0191045
+    "title:What are Australia’s offshore university campuses for?": 1795107653.0191045,
+    "https://news.usni.org/2026/11/19/report-to-congress-on-the-creation-of-an-autonomous-warfare-command": 1795108835.6279485,
+    "https://news.usni.org/?p=126720": 1795108835.6279485,
+    "title:Report to Congress on the Creation of an Autonomous Warfare Command": 1795108835.6279485,
+    "https://www.cna.com.tw/news/acn/202611200002.aspx": 1795108854.260193,
+    "CNA/2026-11-20/202611200002": 1795108854.260193,
+    "title:中俄美元首會晤 中國外長：大國加強溝通符合世界期待": 1795108854.260193
   },
   "events": [
-    {
-      "key": "美國海軍戰斧巡弋飛彈產能",
-      "timestamp": 1794848471.1244526
-    },
-    {
-      "key": "中艦隊近海常態化",
-      "timestamp": 1794849656.6751676
-    },
     {
       "key": "歐美AI安全對話",
       "timestamp": 1794850840.4423895
@@ -2242,6 +2228,14 @@
     {
       "key": "烏伊導防經驗對中",
       "timestamp": 1795106445.4634993
+    },
+    {
+      "key": "美軍自主作戰司令部建軍",
+      "timestamp": 1795108841.9108365
+    },
+    {
+      "key": "中俄美元首會晤",
+      "timestamp": 1795108879.9542234
     }
   ]
 }
