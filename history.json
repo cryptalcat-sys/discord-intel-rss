@@ -1,11 +1,5 @@
 {
   "ids": {
-    "https://www.twz.com/sea/new-bow-sonar-dome-for-heavily-damaged-submarine-uss-connecticut-seen-for-the-first-time": 1794862859.7378101,
-    "https://www.twz.com/?p=6607888": 1794862859.7378101,
-    "title:New Bow Sonar Dome For Heavily Damaged Submarine USS Connecticut Seen For The First Time": 1794862859.7378101,
-    "https://www.twz.com/air/china-lifts-the-veil-on-the-gj-11-mysterious-dragon-stealth-ucav": 1794862871.1987991,
-    "https://www.twz.com/?p=6606268": 1794862871.1987991,
-    "title:China Lifts The Veil On Its GJ-11 Mysterious Dragon Stealth UCAV": 1794862871.1987991,
     "https://breakingdefense.com/2026/11/submarine-maintenance-delays-saw-significant-improvements-in-fy26-sub-czar-says": 1794864033.1929212,
     "https://breakingdefense.com/?p=101049": 1794864033.1929212,
     "title:Submarine maintenance delays saw ‘significant’ improvements in FY26, sub czar says": 1794864033.1929212,
@@ -1829,13 +1823,18 @@
     "title:Next steps for the USMCA and US trade laws: A post-election review": 1795120835.9524438,
     "https://www.twz.com/sea/aim-174b-long-range-missile-packed-with-glide-munitions-teased-new-details-shared": 1795120846.8084617,
     "https://www.twz.com/?p=6606273": 1795120846.8084617,
-    "title:AIM-174B Long-Range Missile Packed With Glide Munitions Teased, New Details Shared": 1795120846.8084617
+    "title:AIM-174B Long-Range Missile Packed With Glide Munitions Teased, New Details Shared": 1795120846.8084617,
+    "https://jamestown.org/uncertain-precedents-for-redrawing-russian-ukrainian-border-in-post-soviet-space": 1795122050.338291,
+    "https://jamestown.org/?p=886924": 1795122050.338291,
+    "title:Uncertain Precedents for Redrawing Russian–Ukrainian Border in Post-Soviet Space": 1795122050.338291,
+    "https://news.usni.org/2026/11/19/u-s-expands-iranian-blockade-as-ship-attacks-continue": 1795122052.2796113,
+    "https://news.usni.org/?p=126726": 1795122052.2796113,
+    "title:U.S. Expands Iranian Blockade As Ship Attacks Continue": 1795122052.2796113,
+    "https://www.defensenews.com/global/europe/2026/11/19/denmark-ratifies-trump-deal-over-greenland-hoping-to-end-conflict": 1795122066.2130756,
+    "https://www.defensenews.com/news/2026/11/19/denmark-ratifies-trump-deal-over-greenland-hoping-to-end-conflict/": 1795122066.2130756,
+    "title:Denmark ratifies Trump deal over Greenland, hoping to end conflict": 1795122066.2130756
   },
   "events": [
-    {
-      "key": "海狼級潛艦戰力恢復",
-      "timestamp": 1794862863.1969204
-    },
     {
       "key": "美軍中東基地強化防護",
       "timestamp": 1794864037.186425
@@ -2259,6 +2258,14 @@
     {
       "key": "美加墨協定與貿易審查",
       "timestamp": 1795120837.5734823
+    },
+    {
+      "key": "美軍擴大伊朗海上封鎖",
+      "timestamp": 1795122055.190734
+    },
+    {
+      "key": "丹麥批准格陵蘭防務協議",
+      "timestamp": 1795122067.9140196
     }
   ]
 }
