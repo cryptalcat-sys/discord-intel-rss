@@ -1,15 +1,5 @@
 {
   "ids": {
-    "https://www.atlanticcouncil.org/content-series/balkans-debrief/can-montenegros-accession-reinvigorate-eu-enlargement-a-debrief-with-gert-jan-koopman": 1794846928.568028,
-    "https://www.atlanticcouncil.org/?p=960941": 1794846928.568028,
-    "title:Can Montenegro’s accession reinvigorate EU enlargement? A Debrief with Gert Jan Koopman": 1794846928.568028,
-    "https://www.twreporter.org/a/2026-taipei-golden-horse-film-festival-welcome-to-dollys-house": 1794847251.9320738,
-    "title:真人實拍到轉描，《歡迎來到朵莉之家》如何在台灣做出一部動畫長片？": 1794847251.9320738,
-    "https://www.lowyinstitute.org/the-interpreter/what-are-australia-s-offshore-university-campuses-for": 1794847255.9348307,
-    "title:What are Australia’s offshore university campuses for?": 1794847255.9348307,
-    "https://breakingdefense.com/2026/11/hermeus-recruits-northrop-grumman-to-quarterhorse-drone-program": 1794847260.49321,
-    "https://breakingdefense.com/?p=100939": 1794847260.49321,
-    "title:Hermeus recruits Northrop Grumman to Quarterhorse drone program": 1794847260.49321,
     "https://news.usni.org/2026/11/16/navy-weapons-division-to-make-tomahawk-components-in-2027": 1794848469.2575436,
     "https://news.usni.org/?p=126625": 1794848469.2575436,
     "title:Navy Weapons Division to Make Tomahawk Components in 2027": 1794848469.2575436,
@@ -1807,13 +1797,12 @@
     "title:GAO Report on the Defense Department’s F-35 Program": 1795104051.1087782,
     "https://www.atlanticcouncil.org/blogs/menasource/washington-is-reshaping-security-in-north-africa-congress-needs-to-ask-how": 1795104051.48031,
     "https://www.atlanticcouncil.org/?p=960063": 1795104051.48031,
-    "title:Washington is reshaping security in North Africa. Congress needs to ask how.": 1795104051.48031
+    "title:Washington is reshaping security in North Africa. Congress needs to ask how.": 1795104051.48031,
+    "https://breakingdefense.com/2026/11/the-real-world-missile-defense-lessons-from-ukraine-and-iran-and-how-they-matter-for-china": 1795106434.1055505,
+    "https://breakingdefense.com/?p=101376": 1795106434.1055505,
+    "title:The real-world missile defense lessons from Ukraine and Iran — and how they matter for China": 1795106434.1055505
   },
   "events": [
-    {
-      "key": "歐盟東擴黑山入會",
-      "timestamp": 1794846931.2532496
-    },
     {
       "key": "美國海軍戰斧巡弋飛彈產能",
       "timestamp": 1794848471.1244526
@@ -2241,6 +2230,10 @@
     {
       "key": "波蘭軍用衛星擴建",
       "timestamp": 1795102850.4903054
+    },
+    {
+      "key": "烏伊導防經驗對中",
+      "timestamp": 1795106445.4634993
     }
   ]
 }
