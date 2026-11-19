@@ -1,11 +1,5 @@
 {
   "ids": {
-    "https://www.twz.com/land/berettas-new-counter-drone-system-packs-eight-benelli-m4-shotguns-onto-a-remote-turret": 1794859252.030249,
-    "https://www.twz.com/?p=6607122": 1794859252.030249,
-    "title:Beretta’s New Counter-Drone System Packs Eight Benelli M4 Shotguns Onto A Remote Turret": 1794859252.030249,
-    "https://news.usni.org/2026/11/16/usni-news-fleet-and-marine-tracker-nov-16-2026": 1794859253.7945306,
-    "https://news.usni.org/?p=126626": 1794859253.7945306,
-    "title:USNI News Fleet and Marine Tracker: Nov. 16, 2026": 1794859253.7945306,
     "https://www.twz.com/sea/aim-174b-long-range-missile-packed-with-glide-munitions-teased-new-details-shared": 1794860438.2509296,
     "https://www.twz.com/?p=6606273": 1794860438.2509296,
     "title:AIM-174B Long-Range Missile Packed With Glide Munitions Teased, New Details Shared": 1794860438.2509296,
@@ -1823,13 +1817,15 @@
     "title:US Energy Secretary Chris Wright and Polish Energy Minister Miłosz Motyka on why Europe’s security depends on its energy supply": 1795117252.6892376,
     "https://www.atlanticcouncil.org/commentary/event-recap/five-european-ministers-on-why-they-wont-go-back-to-business-with-russia": 1795117254.2568219,
     "https://www.atlanticcouncil.org/?p=962055": 1795117254.2568219,
-    "title:Five European ministers on why they won’t go back to business with Russia": 1795117254.2568219
+    "title:Five European ministers on why they won’t go back to business with Russia": 1795117254.2568219,
+    "https://breakingdefense.com/2026/11/new-leadership-new-tensions-for-top-house-defense-panel": 1795118446.3076484,
+    "https://breakingdefense.com/?p=101469": 1795118446.3076484,
+    "title:New leadership, new tensions for top House defense panel": 1795118446.3076484,
+    "https://news.usni.org/2026/11/13/usni-news-western-pacific-pulse-nov-13-2026": 1795118462.1358538,
+    "https://news.usni.org/?p=126573": 1795118462.1358538,
+    "title:USNI News Western Pacific Pulse: Nov. 13, 2026": 1795118462.1358538
   },
   "events": [
-    {
-      "key": "美艦部署動態與海基兵力",
-      "timestamp": 1794859255.7122595
-    },
     {
       "key": "美墨加協定貿易檢視",
       "timestamp": 1794860441.964305
@@ -2253,6 +2249,10 @@
     {
       "key": "歐洲能源去俄羅斯化",
       "timestamp": 1795117256.5905304
+    },
+    {
+      "key": "美國眾議院防務委員會權力交接",
+      "timestamp": 1795118448.2702734
     }
   ]
 }
