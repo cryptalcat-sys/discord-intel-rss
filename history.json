@@ -1,11 +1,5 @@
 {
   "ids": {
-    "https://www.navalnews.com/naval-news/2026/11/u-s-navy-orders-82-additional-lionfish-uuvs-from-hii": 1794868832.1345649,
-    "https://www.navalnews.com/?p=93648": 1794868832.1345649,
-    "title:U.S. Navy Orders 82 Additional Lionfish UUVs from HII": 1794868832.1345649,
-    "https://www.navalnews.com/naval-news/2026/11/u-s-navy-orders-four-additional-40-pb-flight-2-patrol-boats-from-metal-shark": 1794868850.2593436,
-    "https://www.navalnews.com/?p=93636": 1794868850.2593436,
-    "title:U.S. Navy Orders Four Additional 40 PB Flight 2 Patrol Boats from Metal Shark": 1794868850.2593436,
     "https://breakingdefense.com/2026/11/securing-the-asia-pacific-digital-battlespace-technet-indo-pacific-2026": 1794870057.550462,
     "https://breakingdefense.com/?p=99993": 1794870057.550462,
     "title:Securing the Asia-Pacific digital battlespace: TechNet Indo-Pacific 2026": 1794870057.550462,
@@ -1836,17 +1830,27 @@
     "title:Trump’s Demand For Steam Catapults On New Carriers Is A “Non-Starter”: Senate Armed Forces Chair": 1795126844.1349096,
     "https://jamestown.org/alice-huangs-shady-shanghai-ties-to-business-and-government": 1795126851.0409842,
     "https://jamestown.org/?p=886968": 1795126851.0409842,
-    "title:Alice Huang’s Shady Shanghai Ties to Business and Government": 1795126851.0409842
+    "title:Alice Huang’s Shady Shanghai Ties to Business and Government": 1795126851.0409842,
+    "https://www.youtube.com/shorts/_QsaAOy0zN8": 1795128034.7791328,
+    "yt:video:_QsaAOy0zN8": 1795128034.7791328,
+    "title:Is China Winning on Taiwan? | The Capital Cable": 1795128034.7791328,
+    "https://www.youtube.com/shorts/oYEFpYvaL4Y": 1795128036.2688038,
+    "yt:video:oYEFpYvaL4Y": 1795128036.2688038,
+    "title:Why Kim Jong-un Skipped the Shenzhen Summit? | The Capital Cable": 1795128036.2688038,
+    "https://www.youtube.com/shorts/YEBrO93avXg": 1795128045.920633,
+    "yt:video:YEBrO93avXg": 1795128045.920633,
+    "title:Trump, Xi, Putin: A Great Power Condominium? | The Capital Cable": 1795128045.920633,
+    "https://news.usni.org/2026/11/16/vice-adm-oliver-lewis-takes-command-of-2nd-fleet": 1795128060.2839327,
+    "https://news.usni.org/?p=126665": 1795128060.2839327,
+    "title:Vice Adm. Oliver Lewis Takes Command of 2nd Fleet": 1795128060.2839327,
+    "https://news.usni.org/2026/11/16/uss-theodore-roosevelt-now-in-the-middle-east-lincolns-last-escorts-finally-home": 1795128060.2839723,
+    "https://news.usni.org/?p=126655": 1795128060.2839723,
+    "title:USS Theodore Roosevelt Now in the Middle East, Lincoln’s Last Escorts Finally Home": 1795128060.2839723,
+    "https://www.twz.com/news-features/ukraine-regretting-white-house-brokered-temporary-ceasefire-in-strategic-riverside-town-of-oleshky": 1795128061.0712094,
+    "https://www.twz.com/?p=6606827": 1795128061.0712094,
+    "title:Ukraine Regretting White House-Brokered Temporary Ceasefire In Strategic Riverside Town Of Oleshky": 1795128061.0712094
   },
   "events": [
-    {
-      "key": "美軍採購獅子魚無人潛航器",
-      "timestamp": 1794868842.2589648
-    },
-    {
-      "key": "美軍採購巡邏艇",
-      "timestamp": 1794868859.2245717
-    },
     {
       "key": "嘉手納基地部署F-15EX",
       "timestamp": 1794872442.1871912
@@ -2266,6 +2270,14 @@
     {
       "key": "輝達高層涉中調查",
       "timestamp": 1795126852.541564
+    },
+    {
+      "key": "朝美峰會停滯與中俄同盟",
+      "timestamp": 1795128037.920271
+    },
+    {
+      "key": "川習普大國共治言論",
+      "timestamp": 1795128047.6625712
     }
   ]
 }
