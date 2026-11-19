@@ -1,17 +1,5 @@
 {
   "ids": {
-    "https://www.cna.com.tw/news/acn/202611160180.aspx": 1794822039.9113588,
-    "CNA/2026-11-16/202611160180": 1794822039.9113588,
-    "title:黃仁勳去職 中媒：催化國產晶片自主研發與替代進程": 1794822039.9113588,
-    "https://www.navalnews.com/event-news/euronaval-2026/2026/11/saab-sea-giraffe-amb-d-radar": 1794822055.1022613,
-    "https://www.navalnews.com/?p=92822": 1794822055.1022613,
-    "title:Saab’s New Sea Giraffe AMB D Radar Boosts Detection Range by 50%": 1794822055.1022613,
-    "https://www.foreignaffairs.com/china/new-kind-foreign-agent": 1794822055.9538755,
-    "1135759": 1794822055.9538755,
-    "title:A New Kind of Foreign Agent": 1794822055.9538755,
-    "https://www.foreignaffairs.com/north-korea/trump-facing-very-different-north-korea": 1794822055.9539168,
-    "1135754": 1794822055.9539168,
-    "title:Trump Is Facing a Very Different North Korea": 1794822055.9539168,
     "https://www.twreporter.org/a/hello-world-2026-11-12": 1794823253.9979746,
     "title:當晶片的巨人在間諜醜聞中難堪倒下，黃仁勳下台風暴洗牌美中台晶片賽局？": 1794823253.9979746,
     "https://www.youtube.com/shorts/kWD21wNlauA": 1794824438.3641431,
@@ -1786,13 +1774,27 @@
     "title:深圳川習會 陸委會：台灣非這次會談重點": 1795080036.285792,
     "https://www.cna.com.tw/news/acn/202611190257.aspx": 1795080046.3355343,
     "CNA/2026-11-19/202611190257": 1795080046.3355343,
-    "title:梁文傑：陸方APEC接機安排算合理": 1795080046.3355343
+    "title:梁文傑：陸方APEC接機安排算合理": 1795080046.3355343,
+    "https://www.foreignaffairs.com/united-states/paradox-american-credibility": 1795081232.0316715,
+    "1135775": 1795081232.0316715,
+    "title:The Paradox of American Credibility": 1795081232.0316715,
+    "https://www.youtube.com/shorts/603DPk31hOA": 1795081244.0252156,
+    "yt:video:603DPk31hOA": 1795081244.0252156,
+    "title:Do Chinese Boat Landings Expose Gaps in Taiwan’s Defenses? | Taiwan Talks #shorts": 1795081244.0252156,
+    "https://www.youtube.com/shorts/g5ytRigfQec": 1795081244.0252495,
+    "yt:video:g5ytRigfQec": 1795081244.0252495,
+    "title:Expert: China’s Civilian Ferries Could Aid a Taiwan Invasion | Taiwan Talks #shorts": 1795081244.0252495,
+    "https://www.defensenews.com/opinion/2026/11/19/japanese-nuclear-submarines-are-a-bad-idea-for-east-china-sea-security-for-now": 1795081244.9671786,
+    "https://one.sightlinemg.com/defensenews/?p=88105": 1795081244.9671786,
+    "title:Japanese nuclear submarines are a bad idea for East China Sea security — for now": 1795081244.9671786,
+    "https://warontherocks.com/cogs-of-war/rip-to-the-1-45-trillion-fy2027-defense-budget": 1795081254.9625177,
+    "https://warontherocks.com/?p=48607": 1795081254.9625177,
+    "title:RIP to the $1.45 Trillion FY2027 Defense Budget": 1795081254.9625177,
+    "https://www.cna.com.tw/news/acn/202611190235.aspx": 1795081256.4264345,
+    "CNA/2026-11-19/202611190235": 1795081256.4264345,
+    "title:是否舉行中日領導人會晤？中國外交部稱立場明確": 1795081256.4264345
   },
   "events": [
-    {
-      "key": "輝達高層異動與中國晶片自主",
-      "timestamp": 1794822044.6991444
-    },
     {
       "key": "法軍大西洋攔截販毒潛艇",
       "timestamp": 1794824447.5482986
@@ -2212,6 +2214,18 @@
     {
       "key": "兩岸APEC互動安排",
       "timestamp": 1795080048.3539612
+    },
+    {
+      "key": "美國信譽悖論",
+      "timestamp": 1795081234.0144897
+    },
+    {
+      "key": "日本核潛艦防務爭議",
+      "timestamp": 1795081246.6614673
+    },
+    {
+      "key": "中日領導人會晤",
+      "timestamp": 1795081257.9593644
     }
   ]
 }
