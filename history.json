@@ -1,29 +1,5 @@
 {
   "ids": {
-    "https://www.cna.com.tw/news/ait/202611140029.aspx": 1794792045.8543863,
-    "CNA/2026-11-14/202611140029": 1794792045.8543863,
-    "title:SpaceX星艦火箭進入地球軌道 推進器回收任務中止": 1794792045.8543863,
-    "https://www.twz.com/air/the-air-forces-newest-trainer-is-an-aerial-stunt-plane": 1794793231.1818423,
-    "https://www.twz.com/?p=6607278": 1794793231.1818423,
-    "title:The Air Force’s Newest Trainer Is An Aerobatic Plane": 1794793231.1818423,
-    "https://www.twz.com/air/mq-58-valkyrie-drones-now-cost-6m-8m-each": 1794793231.182565,
-    "https://www.twz.com/?p=6606084": 1794793231.182565,
-    "title:MQ-58 Valkyrie Drones Now Cost $6M-$8M Each": 1794793231.182565,
-    "https://www.atlanticcouncil.org/dispatches/putin-wants-peace-talks-he-doesnt-want-peace": 1794793232.283815,
-    "https://www.atlanticcouncil.org/?p=959149": 1794793232.283815,
-    "title:Putin wants peace talks. He doesn’t want peace.": 1794793232.283815,
-    "https://www.atlanticcouncil.org/dispatches/why-this-us-midterm-was-unusually-important-for-the-middle-east": 1794793232.2840633,
-    "https://www.atlanticcouncil.org/?p=958373": 1794793232.2840633,
-    "title:Why this US midterm was unusually important for the Middle East": 1794793232.2840633,
-    "https://www.lowyinstitute.org/the-interpreter/billions-came-fast-for-the-fuel-crisis-the-pacific-still-waits-for-climate-finance": 1794793237.7188742,
-    "title:Billions came fast for the fuel crisis – the Pacific still waits for climate finance": 1794793237.7188742,
-    "https://www.lowyinstitute.org/the-interpreter/aukus-inquiry-scepticism-runs-only-one-way": 1794794450.0380106,
-    "title:AUKUS inquiry scepticism runs only one way": 1794794450.0380106,
-    "https://www.cna.com.tw/news/acn/202611160023.aspx": 1794794460.704063,
-    "CNA/2026-11-16/202611160023": 1794794460.704063,
-    "title:中國外交部：中俄美元首19日舉行會晤": 1794794460.704063,
-    "https://www.lowyinstitute.org/the-interpreter/ganges-treaty-expiry-tests-a-fragile-bilateral-relationship": 1794799243.1049128,
-    "title:Ganges treaty expiry tests a fragile bilateral relationship": 1794799243.1049128,
     "https://www.cna.com.tw/news/acn/202611140084.aspx": 1794804032.272536,
     "CNA/2026-11-14/202611140084": 1794804032.272536,
     "title:成蕾自傳在台出版 盼台灣讀者認清「不要以為絲綢手銬是好手銬」": 1794804032.272536,
@@ -1783,21 +1759,12 @@
     "https://www.lowyinstitute.org/the-interpreter/us-china-ai-rivalry-surpasses-summitry": 1795050060.990135,
     "title:US-China: The AI rivalry that surpasses summitry": 1795050060.990135,
     "https://www.lowyinstitute.org/the-interpreter/japan-wants-satellite-sovereignty": 1795050060.9902864,
-    "title:Japan wants satellite sovereignty": 1795050060.9902864
+    "title:Japan wants satellite sovereignty": 1795050060.9902864,
+    "https://www.cna.com.tw/news/acn/202611190058.aspx": 1795062034.1335034,
+    "CNA/2026-11-19/202611190058": 1795062034.1335034,
+    "title:香港配合APEC峰會設禁飛區 3人違規被捕": 1795062034.1335034
   },
   "events": [
-    {
-      "key": "AUKUS公聽會審查",
-      "timestamp": 1794794452.2675045
-    },
-    {
-      "key": "中俄美元首會晤",
-      "timestamp": 1794794463.396896
-    },
-    {
-      "key": "恆河條約到期檢驗印孟關係",
-      "timestamp": 1794799248.0957432
-    },
     {
       "key": "東協跨境能源互聯",
       "timestamp": 1794806445.0162666
@@ -2225,6 +2192,10 @@
     {
       "key": "美日澳安防架構重塑",
       "timestamp": 1795050052.9889627
+    },
+    {
+      "key": "香港APEC禁飛無人機",
+      "timestamp": 1795062035.676002
     }
   ]
 }
