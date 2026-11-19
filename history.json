@@ -1,14 +1,5 @@
 {
   "ids": {
-    "https://www.atlanticcouncil.org/dispatches/as-gen-z-asserts-itself-in-serbia-and-albania-the-upside-for-the-west-is-far-greater-than-the-headaches": 1794842434.7665818,
-    "https://www.atlanticcouncil.org/?p=958097": 1794842434.7665818,
-    "title:As Gen Z asserts itself in Serbia and Albania, the upside for the West is far greater than the headaches": 1794842434.7665818,
-    "https://www.navalnews.com/naval-news/2026/11/subpac-commander-warns-of-rapid-expansion-in-chinese-and-russian-submarine-fleets": 1794842436.9643824,
-    "https://www.navalnews.com/?p=93519": 1794842436.9643824,
-    "title:SUBPAC Commander Warns of Rapid Expansion in Chinese and Russian Submarine Fleets": 1794842436.9643824,
-    "https://thediplomat.com/2026/11/nato-is-not-the-right-forum-to-discuss-china": 1794842438.1430163,
-    "https://thediplomat.com/2026/11/nato-is-not-the-right-forum-to-discuss-china/": 1794842438.1430163,
-    "title:NATO Is Not the Right Forum to Discuss China": 1794842438.1430163,
     "https://news.usni.org/2026/11/10/gao-report-on-the-defense-departments-f-35-program": 1794843637.980946,
     "https://news.usni.org/?p=126511": 1794843637.980946,
     "title:GAO Report on the Defense Department’s F-35 Program": 1794843637.980946,
@@ -1785,13 +1776,23 @@
     "title:Labor markets and structural transformation in times of change: AI and demographic shifts": 1795099274.1801546,
     "https://www.atlanticcouncil.org/insight-impact/in-the-news/tannebaum-quoted-in-the-new-york-times-on-us-unreliability-influencing-de-dollarization-efforts-4-9-2": 1795100466.0938623,
     "https://www.atlanticcouncil.org/?p=960262": 1795100466.0938623,
-    "title:Tuteja interviewed on Bloomberg Tech about the implications of the midterm elections for data center development and the AI regulation": 1795100466.0938623
+    "title:Tuteja interviewed on Bloomberg Tech about the implications of the midterm elections for data center development and the AI regulation": 1795100466.0938623,
+    "https://www.atlanticcouncil.org/insight-impact/in-the-news/tannebaum-quoted-in-the-new-york-times-on-us-unreliability-influencing-de-dollarization-efforts-4-9-5": 1795101631.6289263,
+    "https://www.atlanticcouncil.org/?p=960278": 1795101631.6289263,
+    "title:Lichfield interviewed on Bloomberg TV to discuss Nvidia’s leadership crisis and the US – China AI competition": 1795101631.6289263,
+    "https://www.atlanticcouncil.org/insight-impact/in-the-news/tannebaum-quoted-in-the-new-york-times-on-us-unreliability-influencing-de-dollarization-efforts-4-9-4": 1795101631.6289597,
+    "https://www.atlanticcouncil.org/?p=960273": 1795101631.6289597,
+    "title:Lichfield and de Kruijf cited in a CNN on the dynamic between Russia and the Trump administration": 1795101631.6289597,
+    "https://www.atlanticcouncil.org/insight-impact/in-the-news/tannebaum-quoted-in-the-new-york-times-on-us-unreliability-influencing-de-dollarization-efforts-4-9-3": 1795101631.6290684,
+    "https://www.atlanticcouncil.org/?p=960269": 1795101631.6290684,
+    "title:Lichfield quoted in a Reuters on the midterm impact on the US support for Ukraine and policy towards Russia": 1795101631.6290684,
+    "https://thediplomat.com/2026/11/a-former-pakistani-army-captain-now-commands-the-bla": 1795101636.6931472,
+    "https://thediplomat.com/2026/11/a-former-pakistani-army-captain-now-commands-the-bla/": 1795101636.6931472,
+    "title:The BLA’s Leadership Transition: Understanding Its New Tactics and Strategic Calculus": 1795101636.6931472,
+    "https://www.piie.com/blogs/realtime-economics/2026/consumers-can-handle-stock-crash": 1795101639.7001157,
+    "title:Consumers Can Handle a Stock Crash": 1795101639.7001157
   },
   "events": [
-    {
-      "key": "美軍部署奧卡無人潛航器",
-      "timestamp": 1794841266.8092396
-    },
     {
       "key": "歐盟東擴黑山入會",
       "timestamp": 1794846931.2532496
