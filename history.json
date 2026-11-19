@@ -1,28 +1,5 @@
 {
   "ids": {
-    "https://www.lowyinstitute.org/the-interpreter/japan-wants-satellite-sovereignty": 1794788379.2885618,
-    "title:Japan wants satellite sovereignty": 1794788379.2885618,
-    "https://jamestown.org/russias-push-for-ai-sovereignty-faces-setbacks": 1794788443.8387039,
-    "https://jamestown.org/?p=886860": 1794788443.8387039,
-    "title:Russia’s Push for AI Sovereignty Faces Setbacks": 1794788443.8387039,
-    "https://jamestown.org/georgia-begins-de-facto-diplomatic-reset-with-russia": 1794788443.838778,
-    "https://jamestown.org/?p=886857": 1794788443.838778,
-    "title:Georgia Begins De Facto Diplomatic Reset with Russia": 1794788443.838778,
-    "https://jamestown.org/sovereign-satellite-constellations-emerging-from-russia-and-ukraine": 1794789634.1708183,
-    "https://jamestown.org/?p=886822": 1794789634.1708183,
-    "title:Sovereign Satellite Constellations Emerging From Russia and Ukraine": 1794789634.1708183,
-    "https://jamestown.org/risc-v-open-source-chip-push-puts-strategy-over-capability": 1794789634.1708703,
-    "https://jamestown.org/?p=886811": 1794789634.1708703,
-    "title:RISC-V Open-Source Chip Push Puts Strategy Over Capability": 1794789634.1708703,
-    "https://jamestown.org/russias-nationalities-agency-playing-disturbing-role-in-fsb-crackdown": 1794789634.1709049,
-    "https://jamestown.org/?p=886821": 1794789634.1709049,
-    "title:Russia’s Nationalities Agency Playing Disturbing Role in FSB Crackdown": 1794789634.1709049,
-    "https://jamestown.org/moscows-foothold-in-moldova-votes-under-chisinaus-rules": 1794789634.1709366,
-    "https://jamestown.org/?p=886818": 1794789634.1709366,
-    "title:Moscow’s Foothold in Moldova Votes Under Chișinău’s Rules": 1794789634.1709366,
-    "https://jamestown.org/central-asias-financial-reliance-on-the-prc-grows": 1794789634.1709678,
-    "https://jamestown.org/?p=886801": 1794789634.1709678,
-    "title:Central Asia’s Financial Reliance on the PRC Grows": 1794789634.1709678,
     "https://www.cna.com.tw/news/ait/202611140029.aspx": 1794792045.8543863,
     "CNA/2026-11-14/202611140029": 1794792045.8543863,
     "title:SpaceX星艦火箭進入地球軌道 推進器回收任務中止": 1794792045.8543863,
@@ -1797,13 +1774,12 @@
     "title:Eleven phones and the spectre of treason: Jakarta’s wiretap scandal": 1795046449.3499026,
     "https://news.usni.org/2026/11/12/ssnx-attack-boat-will-be-a-swift-lethal-mothership-for-undersea-drones-navy-says": 1795046455.9901996,
     "https://news.usni.org/?p=126566": 1795046455.9901996,
-    "title:SSN(X) Attack Boat Will be a Swift, Lethal Mothership for Undersea Drones, Navy Says": 1795046455.9901996
+    "title:SSN(X) Attack Boat Will be a Swift, Lethal Mothership for Undersea Drones, Navy Says": 1795046455.9901996,
+    "https://www.twz.com/air/first-f-15exs-arrive-in-okinawa-25-now-delivered-to-the-usaf": 1795048841.9964972,
+    "https://www.twz.com/?p=6608130": 1795048841.9964972,
+    "title:First F-15EXs Arrive At Kadena Air Base In Japan, 25 Now Delivered To The USAF": 1795048841.9964972
   },
   "events": [
-    {
-      "key": "日本衛星主權布局",
-      "timestamp": 1794788381.275922
-    },
     {
       "key": "AUKUS公聽會審查",
       "timestamp": 1794794452.2675045
