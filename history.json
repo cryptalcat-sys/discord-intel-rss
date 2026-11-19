@@ -1,16 +1,5 @@
 {
   "ids": {
-    "https://www.twz.com/sea/aim-174b-long-range-missile-packed-with-glide-munitions-teased-new-details-shared": 1794860438.2509296,
-    "https://www.twz.com/?p=6606273": 1794860438.2509296,
-    "title:AIM-174B Long-Range Missile Packed With Glide Munitions Teased, New Details Shared": 1794860438.2509296,
-    "https://www.piie.com/events/2026/next-steps-usmca-and-us-trade-laws-post-election-review": 1794860439.2953544,
-    "title:Next steps for the USMCA and US trade laws: A post-election review": 1794860439.2953544,
-    "https://www.atlanticcouncil.org/content-series/fastthinking/where-the-russia-ukraine-peace-talks-stand-after-abu-dhabi": 1794860450.2098932,
-    "https://www.atlanticcouncil.org/?p=959899": 1794860450.2098932,
-    "title:Where the Russia-Ukraine peace talks stand after Abu Dhabi": 1794860450.2098932,
-    "https://breakingdefense.com/2026/11/vulcan-failure-deepens-concerns-over-us-military-launch-capacity": 1794860451.957688,
-    "https://breakingdefense.com/?p=101149": 1794860451.957688,
-    "title:Vulcan failure deepens concerns over US military launch capacity": 1794860451.957688,
     "https://www.twz.com/sea/new-bow-sonar-dome-for-heavily-damaged-submarine-uss-connecticut-seen-for-the-first-time": 1794862859.7378101,
     "https://www.twz.com/?p=6607888": 1794862859.7378101,
     "title:New Bow Sonar Dome For Heavily Damaged Submarine USS Connecticut Seen For The First Time": 1794862859.7378101,
@@ -1823,13 +1812,18 @@
     "title:New leadership, new tensions for top House defense panel": 1795118446.3076484,
     "https://news.usni.org/2026/11/13/usni-news-western-pacific-pulse-nov-13-2026": 1795118462.1358538,
     "https://news.usni.org/?p=126573": 1795118462.1358538,
-    "title:USNI News Western Pacific Pulse: Nov. 13, 2026": 1795118462.1358538
+    "title:USNI News Western Pacific Pulse: Nov. 13, 2026": 1795118462.1358538,
+    "https://news.usni.org/2026/11/16/usni-news-fleet-and-marine-tracker-nov-16-2026": 1795119635.165112,
+    "https://news.usni.org/?p=126626": 1795119635.165112,
+    "title:USNI News Fleet and Marine Tracker: Nov. 16, 2026": 1795119635.165112,
+    "https://www.twz.com/land/berettas-new-counter-drone-system-packs-eight-benelli-m4-shotguns-onto-a-remote-turret": 1795119637.44903,
+    "https://www.twz.com/?p=6607122": 1795119637.44903,
+    "title:Beretta’s New Counter-Drone System Packs Eight Benelli M4 Shotguns Onto A Remote Turret": 1795119637.44903,
+    "https://warontherocks.com/handshakes-without-headway": 1795119638.7970588,
+    "https://warontherocks.com/?p=48689": 1795119638.7970588,
+    "title:Handshakes Without Headway": 1795119638.7970588
   },
   "events": [
-    {
-      "key": "美墨加協定貿易檢視",
-      "timestamp": 1794860441.964305
-    },
     {
       "key": "火神火箭發射失敗",
       "timestamp": 1794860493.4945016
@@ -2253,6 +2247,10 @@
     {
       "key": "美國眾議院防務委員會權力交接",
       "timestamp": 1795118448.2702734
+    },
+    {
+      "key": "美伊外交僵局與制裁",
+      "timestamp": 1795119640.6403806
     }
   ]
 }
