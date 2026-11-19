@@ -1,14 +1,5 @@
 {
   "ids": {
-    "https://www.youtube.com/shorts/PbWmNHqNW8E": 1794828033.5385861,
-    "yt:video:PbWmNHqNW8E": 1794828033.5385861,
-    "title:'Loyalty Over Competence' in Xi’s China | Taiwan Talks #shorts": 1794828033.5385861,
-    "https://www.youtube.com/shorts/I0QDfh-A2Mg": 1794828033.5386744,
-    "yt:video:I0QDfh-A2Mg": 1794828033.5386744,
-    "title:Are Xi’s Purges Weakening China’s Military? | Taiwan Talks #shorts": 1794828033.5386744,
-    "https://www.navalnews.com/event-news/euronaval-2026/2026/11/safran-ngds-hk-rocket-launcher-euronaval-2026": 1794828040.5806808,
-    "https://www.navalnews.com/?p=93621": 1794828040.5806808,
-    "title:Safran Unveils NGDS HK Rocket Launcher and PASEO Master D at Euronaval 2026": 1794828040.5806808,
     "https://www.navalnews.com/naval-news/2026/11/us-submarine-industrial-base-cuts-maintenance-delays": 1794836438.892215,
     "https://www.navalnews.com/?p=93565": 1794836438.892215,
     "title:U.S. Navy Cuts Submarine Maintenance Delays by 40% as Output Surges": 1794836438.892215,
@@ -1802,13 +1793,12 @@
     "title:What India Can Give Manila That US Can’t | Taiwan Talks #shorts": 1795086048.9561925,
     "https://www.youtube.com/shorts/RCrDOfwWs50": 1795086048.9562473,
     "yt:video:RCrDOfwWs50": 1795086048.9562473,
-    "title:Expert: BrahMos Could Help Manila Deter Beijing | Taiwan Talks #shorts": 1795086048.9562473
+    "title:Expert: BrahMos Could Help Manila Deter Beijing | Taiwan Talks #shorts": 1795086048.9562473,
+    "https://www.cna.com.tw/news/ait/202611170287.aspx": 1795088434.2410083,
+    "CNA/2026-11-17/202611170287": 1795088434.2410083,
+    "title:微軟全球大當機停擺逾24小時 確認潛伏約4個月程式缺陷是禍因": 1795088434.2410083
   },
   "events": [
-    {
-      "key": "賽峰新型艦載火箭發射系統",
-      "timestamp": 1794828042.2032003
-    },
     {
       "key": "美潛艇維修提速",
       "timestamp": 1794836484.9031637
