@@ -1,11 +1,5 @@
 {
   "ids": {
-    "https://thediplomat.com/2026/11/what-the-faaz-missile-means-for-pakistans-air-force": 1794872431.2727168,
-    "https://thediplomat.com/2026/11/what-the-faaz-missile-means-for-pakistans-air-force/": 1794872431.2727168,
-    "title:What the Fa’az Missile Means for Pakistan’s Air Force": 1794872431.2727168,
-    "https://www.defensenews.com/air/2026/11/16/first-permanently-assigned-f-15exs-touch-down-at-kadena-air-base": 1794872440.3113523,
-    "https://one.sightlinemg.com/defensenews/news/2026/11/16/first-permanently-assigned-f-15exs-touch-down-at-kadena-air-base/": 1794872440.3113523,
-    "title:First permanently assigned F-15EXs touch down at Kadena Air Base": 1794872440.3113523,
     "https://www.navalnews.com/naval-news/2026/11/diu-awards-saronic-contract-to-deliver-autonomous-low-profile-vessel-for-usmc-contested-logistics": 1794876034.3851342,
     "https://www.navalnews.com/?p=93639": 1794876034.3851342,
     "title:DIU Awards Saronic Contract to Deliver Autonomous Low Profile Vessel for USMC Contested Logistics": 1794876034.3851342,
@@ -1843,13 +1837,21 @@
     "title:What the Trump-Putin-Xi meeting actually achieved": 1795130445.7978237,
     "https://www.atlanticcouncil.org/blogs/econographics/congress-could-soon-rein-in-trumps-tariffs-on-canada-heres-what-that-could-look-like": 1795130447.0169683,
     "https://www.atlanticcouncil.org/?p=961080": 1795130447.0169683,
-    "title:Congress could soon rein in Trump’s tariffs on Canada. Here’s what that could look like.": 1795130447.0169683
+    "title:Congress could soon rein in Trump’s tariffs on Canada. Here’s what that could look like.": 1795130447.0169683,
+    "https://www.twz.com/air/russian-bombers-arrive-in-vietnam-after-flurry-of-northeast-asia-air-alerts": 1795131634.0913904,
+    "https://www.twz.com/?p=6608460": 1795131634.0913904,
+    "title:Russian Tu-95 Bombers Arrive In Vietnam After Flurry Of Northeast Asia Air Alerts": 1795131634.0913904,
+    "https://news.usni.org/2026/11/13/the-new-six-frigates": 1795131638.8071764,
+    "https://news.usni.org/?p=126603": 1795131638.8071764,
+    "title:The New Six Frigates": 1795131638.8071764,
+    "https://news.usni.org/2026/11/10/saildrone-blue-water-autonomy-ruling-adds-restrictions-to-ota-funding-model": 1795131638.8074672,
+    "https://news.usni.org/?p=126532": 1795131638.8074672,
+    "title:Saildrone, Blue Water Autonomy Ruling Adds Restrictions to OTA Funding Model": 1795131638.8074672,
+    "https://www.atlanticcouncil.org/blogs/ukrainealert/last-weeks-brief-ukraine-ceasefire-did-not-stop-russian-attacks-on-civilians": 1795131639.2715788,
+    "https://www.atlanticcouncil.org/?p=958732": 1795131639.2715788,
+    "title:Last week’s brief Ukraine ceasefire did not stop Russian attacks on civilians": 1795131639.2715788
   },
   "events": [
-    {
-      "key": "嘉手納基地部署F-15EX",
-      "timestamp": 1794872442.1871912
-    },
     {
       "key": "美陸戰隊無人補給",
       "timestamp": 1794876074.2319124
