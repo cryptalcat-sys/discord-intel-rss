@@ -1,16 +1,5 @@
 {
   "ids": {
-    "https://www.defensenews.com/video/2026/11/16/drone-meet-bullet-companies-develop-new-counter-uas-capability-business-of-defense-part-3": 1794838833.8141074,
-    "title:Drone, meet bullet — companies develop new counter UAS capability | Business of Defense – Part 3": 1794838833.8141074,
-    "https://www.defensenews.com/video/2026/11/16/defense-companies-on-the-moon-defense-dollars": 1794838856.7782109,
-    "https://one.sightlinemg.com/defensenews/?p=87880": 1794838856.7782109,
-    "title:Defense companies on the moon | Defense Dollars": 1794838856.7782109,
-    "https://www.atlanticcouncil.org/insight-impact/in-the-news/tannebaum-quoted-in-the-new-york-times-on-us-unreliability-influencing-de-dollarization-efforts-4-9-2": 1794838869.2642546,
-    "https://www.atlanticcouncil.org/?p=960262": 1794838869.2642546,
-    "title:Tuteja interviewed on Bloomberg Tech about the implications of the midterm elections for data center development and the AI regulation": 1794838869.2642546,
-    "https://breakingdefense.com/2026/11/uk-to-buy-three-new-mine-hunting-drone-motherships-under-norway-agreement": 1794840035.476405,
-    "https://breakingdefense.com/?p=101015": 1794840035.476405,
-    "title:UK to buy three new mine-hunting drone motherships under Norway agreement": 1794840035.476405,
     "https://www.atlanticcouncil.org/insight-impact/in-the-news/tannebaum-quoted-in-the-new-york-times-on-us-unreliability-influencing-de-dollarization-efforts-4-9-5": 1794841250.6494987,
     "https://www.atlanticcouncil.org/?p=960278": 1794841250.6494987,
     "title:Lichfield interviewed on Bloomberg TV to discuss Nvidia’s leadership crisis and the US – China AI competition": 1794841250.6494987,
@@ -1800,17 +1789,14 @@
     "title:Cyclokinetics wins $86.3 million Pentagon contract for alternative fuels": 1795096853.4675748,
     "https://breakingdefense.com/2026/11/training-for-any-scenario-anywhere-in-the-world-starting-with-the-pacific-in-guam": 1795096885.152291,
     "https://breakingdefense.com/?p=101423": 1795096885.152291,
-    "title:Training for any scenario, anywhere in the world, starting with the Pacific in Guam": 1795096885.152291
+    "title:Training for any scenario, anywhere in the world, starting with the Pacific in Guam": 1795096885.152291,
+    "https://news.usni.org/2026/11/19/compact-and-covert": 1795099235.6882792,
+    "https://news.usni.org/?p=126689": 1795099235.6882792,
+    "title:Compact and Covert": 1795099235.6882792,
+    "https://www.piie.com/events/2026/labor-markets-and-structural-transformation-times-change-ai-and-demographic-shifts": 1795099274.1801546,
+    "title:Labor markets and structural transformation in times of change: AI and demographic shifts": 1795099274.1801546
   },
   "events": [
-    {
-      "key": "反無人機激光研發",
-      "timestamp": 1794838848.7771368
-    },
-    {
-      "key": "月球防務與後勤美軍事佈局",
-      "timestamp": 1794838858.462075
-    },
     {
       "key": "美軍部署奧卡無人潛航器",
       "timestamp": 1794841266.8092396
@@ -2238,6 +2224,10 @@
     {
       "key": "美軍替代燃料採購",
       "timestamp": 1795096877.1519275
+    },
+    {
+      "key": "法潛蘇弗朗級維護",
+      "timestamp": 1795099265.043339
     }
   ]
 }
