@@ -1,17 +1,5 @@
 {
   "ids": {
-    "https://breakingdefense.com/2026/11/submarine-maintenance-delays-saw-significant-improvements-in-fy26-sub-czar-says": 1794864033.1929212,
-    "https://breakingdefense.com/?p=101049": 1794864033.1929212,
-    "title:Submarine maintenance delays saw ‘significant’ improvements in FY26, sub czar says": 1794864033.1929212,
-    "https://www.twz.com/news-features/u-s-army-now-wants-concrete-bunkers-for-troops-in-israel-saudi-arabia-and-lebanon": 1794864033.6849465,
-    "https://www.twz.com/?p=6607910": 1794864033.6849465,
-    "title:U.S. Army Now Wants Concrete Bunkers For Troops In Israel, Saudi Arabia And Lebanon": 1794864033.6849465,
-    "https://www.twz.com/air/suspected-drones-over-raf-lakenheath-just-triggered-security-response-u-s-air-force": 1794864045.1878343,
-    "https://www.twz.com/?p=6607538": 1794864045.1878343,
-    "title:Suspected Drones Over RAF Lakenheath Just Triggered Security Response: U.S. Air Force (Updated)": 1794864045.1878343,
-    "https://news.usni.org/2026/11/13/peacoat-evicted-from-navy-sea-bags-after-a-century-at-sea": 1794864048.462725,
-    "https://news.usni.org/?p=126605": 1794864048.462725,
-    "title:Peacoat Evicted from Navy Seabags After a Century at Sea": 1794864048.462725,
     "https://www.cna.com.tw/news/ait/202611140004.aspx": 1794865240.0158691,
     "CNA/2026-11-14/202611140004": 1794865240.0158691,
     "title:金融時報：輝達尋找新掌門人 安謀執行長哈斯列接班名單": 1794865240.0158691,
@@ -1832,13 +1820,18 @@
     "title:U.S. Expands Iranian Blockade As Ship Attacks Continue": 1795122052.2796113,
     "https://www.defensenews.com/global/europe/2026/11/19/denmark-ratifies-trump-deal-over-greenland-hoping-to-end-conflict": 1795122066.2130756,
     "https://www.defensenews.com/news/2026/11/19/denmark-ratifies-trump-deal-over-greenland-hoping-to-end-conflict/": 1795122066.2130756,
-    "title:Denmark ratifies Trump deal over Greenland, hoping to end conflict": 1795122066.2130756
+    "title:Denmark ratifies Trump deal over Greenland, hoping to end conflict": 1795122066.2130756,
+    "https://www.twz.com/sea/new-bow-sonar-dome-for-heavily-damaged-submarine-uss-connecticut-seen-for-the-first-time": 1795123230.409003,
+    "https://www.twz.com/?p=6607888": 1795123230.409003,
+    "title:New Bow Sonar Dome For Heavily Damaged Submarine USS Connecticut Seen For The First Time (Updated)": 1795123230.409003,
+    "https://www.twz.com/air/china-lifts-the-veil-on-the-gj-11-mysterious-dragon-stealth-ucav": 1795123230.409776,
+    "https://www.twz.com/?p=6606268": 1795123230.409776,
+    "title:China Lifts The Veil On Its GJ-11 Mysterious Dragon Stealth UCAV": 1795123230.409776,
+    "https://news.usni.org/2026/11/19/navy-wants-new-u-s-frigate-shipyard-paid-for-by-foreign-shipbuilder": 1795123238.2481022,
+    "https://news.usni.org/?p=126730": 1795123238.2481022,
+    "title:Navy Wants New U.S. Frigate Shipyard Paid for by Foreign Shipbuilder": 1795123238.2481022
   },
   "events": [
-    {
-      "key": "美軍中東基地強化防護",
-      "timestamp": 1794864037.186425
-    },
     {
       "key": "美航母部署中東",
       "timestamp": 1794866471.3480148
@@ -2266,6 +2259,10 @@
     {
       "key": "丹麥批准格陵蘭防務協議",
       "timestamp": 1795122067.9140196
+    },
+    {
+      "key": "美海軍尋求外資造船廠",
+      "timestamp": 1795123240.2030854
     }
   ]
 }
