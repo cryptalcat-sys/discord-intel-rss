@@ -1829,7 +1829,25 @@
     "title:China Lifts The Veil On Its GJ-11 Mysterious Dragon Stealth UCAV": 1795123230.409776,
     "https://news.usni.org/2026/11/19/navy-wants-new-u-s-frigate-shipyard-paid-for-by-foreign-shipbuilder": 1795123238.2481022,
     "https://news.usni.org/?p=126730": 1795123238.2481022,
-    "title:Navy Wants New U.S. Frigate Shipyard Paid for by Foreign Shipbuilder": 1795123238.2481022
+    "title:Navy Wants New U.S. Frigate Shipyard Paid for by Foreign Shipbuilder": 1795123238.2481022,
+    "https://www.atlanticcouncil.org/blogs/ukrainealert/ukraines-crimean-bridge-attack-is-a-very-personal-humiliation-for-putin": 1795124195.9764612,
+    "https://www.atlanticcouncil.org/?p=961445": 1795124195.9764612,
+    "title:Ukraine’s Crimean Bridge attack is a very personal humiliation for Putin": 1795124195.9764612,
+    "https://www.navalnews.com/naval-news/2026/11/argentine-navy-interested-in-acquiring-up-to-three-fcx20-corvettes": 1795124197.7136261,
+    "https://www.navalnews.com/?p=93825": 1795124197.7136261,
+    "title:Argentine Navy interested in acquiring up to three FCX20 corvettes": 1795124197.7136261,
+    "https://news.usni.org/2026/11/13/peacoat-evicted-from-navy-sea-bags-after-a-century-at-sea": 1795124208.1122537,
+    "https://news.usni.org/?p=126605": 1795124208.1122537,
+    "title:Peacoat Evicted from Navy Seabags After a Century at Sea": 1795124208.1122537,
+    "https://www.twz.com/news-features/u-s-army-now-wants-concrete-bunkers-for-troops-in-israel-saudi-arabia-and-lebanon": 1795124210.5935664,
+    "https://www.twz.com/?p=6607910": 1795124210.5935664,
+    "title:U.S. Army Now Wants Concrete Bunkers For Troops In Israel, Saudi Arabia And Lebanon": 1795124210.5935664,
+    "https://www.twz.com/air/suspected-drones-over-raf-lakenheath-just-triggered-security-response-u-s-air-force": 1795124210.5939233,
+    "https://www.twz.com/?p=6607538": 1795124210.5939233,
+    "title:Suspected Drones Over RAF Lakenheath Just Triggered Security Response: U.S. Air Force (Updated)": 1795124210.5939233,
+    "https://www.defensenews.com/air/2026/11/19/us-missile-shortages-create-a-range-problem-report-shows": 1795124215.7918572,
+    "https://www.defensenews.com/news/2026/11/19/us-missile-shortages-create-a-range-problem-report-shows/": 1795124215.7918572,
+    "title:US missile shortages create a range problem, report shows": 1795124215.7918572
   },
   "events": [
     {
@@ -2263,6 +2281,14 @@
     {
       "key": "美海軍尋求外資造船廠",
       "timestamp": 1795123240.2030854
+    },
+    {
+      "key": "阿根廷採購FCX20護衛艦",
+      "timestamp": 1795124199.5719876
+    },
+    {
+      "key": "美軍飛彈短缺與對中戰備",
+      "timestamp": 1795124218.0537271
     }
   ]
 }
