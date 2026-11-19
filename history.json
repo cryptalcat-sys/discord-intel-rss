@@ -1,14 +1,5 @@
 {
   "ids": {
-    "https://www.cna.com.tw/news/ait/202611160117.aspx": 1794811231.696644,
-    "CNA/2026-11-16/202611160117": 1794811231.696644,
-    "title:輝達風波未平仍獲美力挺 傳將列AI國家冠軍企業": 1794811231.696644,
-    "https://www.navalnews.com/naval-news/2026/11/naval-unmanned-systems-showcased-at-taiwans-marine-tech-show": 1794811546.3463695,
-    "https://www.navalnews.com/?p=93280": 1794811546.3463695,
-    "title:Naval Unmanned Systems Showcased at Taiwan’s Marine Tech Show": 1794811546.3463695,
-    "https://www.cna.com.tw/news/acn/202611160139.aspx": 1794813631.6936548,
-    "CNA/2026-11-16/202611160139": 1794813631.6936548,
-    "title:李強出席東協中國峰會 稱期待早日達成南海行為準則": 1794813631.6936548,
     "https://www.youtube.com/shorts/24W6SSFGGTw": 1794816058.4095802,
     "yt:video:24W6SSFGGTw": 1794816058.4095802,
     "title:疫後民航鬧機師荒 中國也搶台灣飛官?!｜ 公共電視 - 尖鋒對話": 1794816058.4095802,
@@ -1783,17 +1774,12 @@
     "title:Russia’s Kerch Bridge Road Vehicle Span Has Been Destroyed By Ukraine": 1795069246.6880298,
     "https://www.foreignaffairs.com/united-states/case-trump-xi-putin-summit": 1795069248.3478842,
     "1135762": 1795069248.3478842,
-    "title:The Case for a Trump-Xi-Putin Summit": 1795069248.3478842
+    "title:The Case for a Trump-Xi-Putin Summit": 1795069248.3478842,
+    "https://www.cna.com.tw/news/acn/202611190196.aspx": 1795072830.5161796,
+    "CNA/2026-11-19/202611190196": 1795072830.5161796,
+    "title:川普抵深圳出席APEC峰會 不少中國民眾齊聚下榻飯店外歡呼": 1795072830.5161796
   },
   "events": [
-    {
-      "key": "輝達AI國家冠軍",
-      "timestamp": 1794811233.1305203
-    },
-    {
-      "key": "南海行為準則外交斡旋",
-      "timestamp": 1794813633.4097078
-    },
     {
       "key": "空軍資深飛官流失",
       "timestamp": 1794816059.9418914
