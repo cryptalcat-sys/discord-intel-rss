@@ -1,7 +1,5 @@
 {
   "ids": {
-    "https://www.lowyinstitute.org/the-interpreter/beijing-s-new-common-language-law-doesn-t-sound-so-common": 1794936037.5692105,
-    "title:Beijing’s new “common language” law doesn’t sound so common": 1794936037.5692105,
     "https://breakingdefense.com/2026/11/russia-reportedly-wants-finland-to-leave-nato-as-part-of-ukraine-deal-history-geography-explain-why": 1794937841.8554196,
     "https://breakingdefense.com/?p=101245": 1794937841.8554196,
     "title:Russia reportedly wants Finland to leave NATO as part of Ukraine deal. History, geography explain why.": 1794937841.8554196,
@@ -1893,7 +1891,25 @@
     "title:One data foundation and many application layers drive the Army’s NGC2 transformation": 1795194066.3374085,
     "https://www.defensenews.com/global/europe/2026/11/20/german-attack-drones-pass-live-fire-tests-with-first-deliveries-planned-this-year": 1795194089.5725908,
     "https://one.sightlinemg.com/defensenews/?p=88174": 1795194089.5725908,
-    "title:German attack drones pass live-fire tests, with first deliveries planned this year": 1795194089.5725908
+    "title:German attack drones pass live-fire tests, with first deliveries planned this year": 1795194089.5725908,
+    "https://breakingdefense.com/2026/11/swedens-nordic-air-defence-launches-k200-drone-interceptor-pushes-toward-ukraine-tests": 1795195233.7308664,
+    "https://breakingdefense.com/?p=101544": 1795195233.7308664,
+    "title:Sweden’s Nordic Air Defence launches K200 drone interceptor, pushes toward Ukraine tests": 1795195233.7308664,
+    "https://news.usni.org/2026/11/11/vr-goggles-get-dual-use-for-suicide-prevention-counter-drone-training": 1795195245.794527,
+    "https://news.usni.org/?p=126522": 1795195245.794527,
+    "title:VR Goggles Get Dual Use for Suicide Prevention, Counter-drone Training": 1795195245.794527,
+    "https://www.atlanticcouncil.org/insight-impact/in-the-news/the-cbdc-tracker-cited-in-coindesk-on-the-number-of-countries-actively-testing-or-developing-cbdcs-2-3": 1795195248.0659783,
+    "https://www.atlanticcouncil.org/?p=958882": 1795195248.0659783,
+    "title:Dollar Dominance Monitor cited in a Project Syndicate article on the yuan’s growing role in international trade": 1795195248.0659783,
+    "https://www.atlanticcouncil.org/insight-impact/in-the-news/the-cbdc-tracker-cited-in-coindesk-on-the-number-of-countries-actively-testing-or-developing-cbdcs-2-2": 1795195248.0660243,
+    "https://www.atlanticcouncil.org/?p=958879": 1795195248.0660243,
+    "title:CBDC Tracker cited in a CEPR paper on Europe’s plans for retail and wholesale payments": 1795195248.0660243,
+    "https://www.atlanticcouncil.org/content-series/inflection-points/dispatch-from-dubai-after-the-midterms-allies-see-both-us-resilience-and-unreliability": 1795195248.0665064,
+    "https://www.atlanticcouncil.org/?p=959236": 1795195248.0665064,
+    "title:Dispatch from Dubai: After the midterms, allies see both US resilience and unreliability": 1795195248.0665064,
+    "https://www.atlanticcouncil.org/dispatches/not-quite-mercenaries-how-russia-lures-thousands-of-foreigners-to-fight-in-its-war-on-ukraine": 1795195248.066697,
+    "https://www.atlanticcouncil.org/?p=957940": 1795195248.066697,
+    "title:Not quite mercenaries: How Russia lures thousands of foreigners to fight in its war on Ukraine": 1795195248.066697
   },
   "events": [
     {
@@ -2355,6 +2371,10 @@
     {
       "key": "德軍自殺無人機實彈測試",
       "timestamp": 1795194095.3407848
+    },
+    {
+      "key": "瑞典推出K200反無人機攔截器",
+      "timestamp": 1795195236.7989383
     }
   ]
 }
