@@ -1,14 +1,5 @@
 {
   "ids": {
-    "https://warontherocks.com/cogs-of-war/the-record-budgets-and-missing-suppliers-shaping-americas-munitions-ramp": 1794909648.5432904,
-    "https://warontherocks.com/?p=48521": 1794909648.5432904,
-    "title:The Record Budgets and Missing Suppliers Shaping America’s Munitions Ramp": 1794909648.5432904,
-    "https://www.youtube.com/shorts/wVzrAhCNeIA": 1794909656.9218016,
-    "yt:video:wVzrAhCNeIA": 1794909656.9218016,
-    "title:‘US Needs to Understand India’s Interests’ | Taiwan Talks #shorts": 1794909656.9218016,
-    "https://www.youtube.com/shorts/d8kWTVjszD4": 1794909656.921864,
-    "yt:video:d8kWTVjszD4": 1794909656.921864,
-    "title:Expert: China Wants Filipinos to ‘Shut Up’ on the South China Sea | Taiwan Talks #shorts": 1794909656.921864,
     "https://www.navalnews.com/naval-news/2026/11/mangrove-nato-underwater-battlespace-network-arctic-trial": 1794910831.776789,
     "https://www.navalnews.com/?p=93658": 1794910831.776789,
     "title:MANGROVE completes first phase of NATO underwater battlespace network, eyes Arctic trial": 1794910831.776789,
@@ -1871,7 +1862,33 @@
     "title:Congress and the Coming Crises": 1795167642.799169,
     "https://www.foreignaffairs.com/venezuela/americas-bad-bargain-venezuela": 1795167652.2180603,
     "1135753": 1795167652.2180603,
-    "title:America’s Bad Bargain in Venezuela": 1795167652.2180603
+    "title:America’s Bad Bargain in Venezuela": 1795167652.2180603,
+    "https://www.twreporter.org/a/2026-taipei-golden-horse-film-festival-moya-chou": 1795168864.0068235,
+    "title:從隱藏角色走入聚光燈，周佳聖：擁有視覺魔法的調光師，沒有標準答案": 1795168864.0068235,
+    "https://warontherocks.com/cogs-of-war/spending-isnt-deterrence-fixing-germanys-procurement-machine": 1795168864.386903,
+    "https://warontherocks.com/?p=48606": 1795168864.386903,
+    "title:Spending Isn’t Deterrence: Fixing Germany’s Procurement Machine": 1795168864.386903,
+    "https://warontherocks.com/cogs-of-war/the-promise-of-biomanufacturing-at-the-edge": 1795168864.3871095,
+    "https://warontherocks.com/?p=48447": 1795168864.3871095,
+    "title:The Promise of Biomanufacturing at the Edge": 1795168864.3871095,
+    "https://warontherocks.com/japans-most-dangerous-military-constraint-is-time": 1795168864.3871434,
+    "https://warontherocks.com/?p=48546": 1795168864.3871434,
+    "title:Japan’s Most Dangerous Military Constraint Is Time": 1795168864.3871434,
+    "https://warontherocks.com/rethinking-strategic-stability-with-china-from-coercion-to-constructivism": 1795168864.3873105,
+    "https://warontherocks.com/?p=48509": 1795168864.3873105,
+    "title:Rethinking Strategic Stability with China: From Coercion to Constructivism": 1795168864.3873105,
+    "https://www.cna.com.tw/news/acn/202611200253.aspx": 1795168868.251191,
+    "CNA/2026-11-20/202611200253": 1795168868.251191,
+    "title:學者：美中戰略穩定關係仍在發展中 美日印澳軍事合作值得關注": 1795168868.251191,
+    "https://www.foreignaffairs.com/united-states/china-misreading-moment": 1795168882.0010977,
+    "1135768": 1795168882.0010977,
+    "title:Is China Misreading the Moment?": 1795168882.0010977,
+    "https://www.foreignaffairs.com/united-states/america-can-do-good-and-do-well": 1795168882.0012991,
+    "1135761": 1795168882.0012991,
+    "title:America Can Do Good—and Do Well": 1795168882.0012991,
+    "https://www.foreignaffairs.com/economics/paradox-dollar-dominance": 1795168882.001336,
+    "1135752": 1795168882.001336,
+    "title:The Paradox of Dollar Dominance": 1795168882.001336
   },
   "events": [
     {
@@ -2325,6 +2342,10 @@
     {
       "key": "美委石油制裁協定",
       "timestamp": 1795167653.7462053
+    },
+    {
+      "key": "美中戰略穩定關係",
+      "timestamp": 1795168872.9822905
     }
   ]
 }
