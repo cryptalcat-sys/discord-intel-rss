@@ -1,8 +1,5 @@
 {
   "ids": {
-    "https://www.cna.com.tw/news/acn/202611170168.aspx": 1794914445.8470366,
-    "CNA/2026-11-17/202611170168": 1794914445.8470366,
-    "title:APEC峰會前夕習近平會卡尼 籲增進政治互信深化貿易能源合作": 1794914445.8470366,
     "https://www.cna.com.tw/news/acn/202611170292.aspx": 1794920457.1682663,
     "CNA/2026-11-17/202611170292": 1794920457.1682663,
     "title:陸委會民調：逾7成民眾支持政府以對等尊嚴參加深圳APEC峰會": 1794920457.1682663,
@@ -1885,13 +1882,12 @@
     "title:Italy’s Next-Generation DDG (NG DDG / DDX): First Platform and Combat System Details": 1795170041.0183158,
     "https://www.youtube.com/shorts/D14Y_c81oHM": 1795173640.1497912,
     "yt:video:D14Y_c81oHM": 1795173640.1497912,
-    "title:Papua New Guinea’s Delicate Balancing Act | Taiwan Talks #shorts": 1795173640.1497912
+    "title:Papua New Guinea’s Delicate Balancing Act | Taiwan Talks #shorts": 1795173640.1497912,
+    "https://www.youtube.com/shorts/F6sgPizUvXU": 1795174831.4259236,
+    "yt:video:F6sgPizUvXU": 1795174831.4259236,
+    "title:Ex-US Marine Colonel: US ‘Dropped the Ball’ in the Pacific | Taiwan Talks #shorts": 1795174831.4259236
   },
   "events": [
-    {
-      "key": "中加領袖會晤APEC",
-      "timestamp": 1794914456.314117
-    },
     {
       "key": "兩岸APEC互動民調",
       "timestamp": 1794920459.2450078
