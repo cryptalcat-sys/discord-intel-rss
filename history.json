@@ -1852,7 +1852,10 @@
     "title:Last week’s brief Ukraine ceasefire did not stop Russian attacks on civilians": 1795131639.2715788,
     "https://thediplomat.com/2026/11/what-the-faaz-missile-means-for-pakistans-air-force": 1795132853.9920394,
     "https://thediplomat.com/2026/11/what-the-faaz-missile-means-for-pakistans-air-force/": 1795132853.9920394,
-    "title:What the Fa’az Missile Means for Pakistan’s Air Force": 1795132853.9920394
+    "title:What the Fa’az Missile Means for Pakistan’s Air Force": 1795132853.9920394,
+    "https://www.twz.com/news-features/why-the-e-4b-doomsday-plane-always-shadows-air-force-one-when-the-president-travels-abroad": 1795134036.6045525,
+    "https://www.twz.com/?p=6609243": 1795134036.6045525,
+    "title:Why The E-4B Nightwatch Always Shadows Air Force One When The President Travels Abroad": 1795134036.6045525
   },
   "events": [
     {
@@ -2286,6 +2289,10 @@
     {
       "key": "深圳峰會美中外交",
       "timestamp": 1795129262.576977
+    },
+    {
+      "key": "美軍E-4B末日機護航",
+      "timestamp": 1795134038.203747
     }
   ]
 }
