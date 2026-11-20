@@ -1,14 +1,5 @@
 {
   "ids": {
-    "https://www.navalnews.com/naval-news/2026/11/mangrove-nato-underwater-battlespace-network-arctic-trial": 1794910831.776789,
-    "https://www.navalnews.com/?p=93658": 1794910831.776789,
-    "title:MANGROVE completes first phase of NATO underwater battlespace network, eyes Arctic trial": 1794910831.776789,
-    "https://www.foreignaffairs.com/united-states/true-meaning-power-david-sacks": 1794910844.9508495,
-    "1135742": 1794910844.9508495,
-    "title:The True Meaning of Power": 1794910844.9508495,
-    "https://www.foreignaffairs.com/united-states/dont-soak-rich": 1794910844.9508877,
-    "1135728": 1794910844.9508877,
-    "title:Don’t Soak the Rich": 1794910844.9508877,
     "https://www.cna.com.tw/news/acn/202611170186.aspx": 1794914431.5789537,
     "CNA/2026-11-17/202611170186": 1794914431.5789537,
     "title:川習會前美嚴控先進AI晶片出口 北京批經濟脅迫": 1794914431.5789537,
@@ -1888,13 +1879,15 @@
     "title:America Can Do Good—and Do Well": 1795168882.0012991,
     "https://www.foreignaffairs.com/economics/paradox-dollar-dominance": 1795168882.001336,
     "1135752": 1795168882.001336,
-    "title:The Paradox of Dollar Dominance": 1795168882.001336
+    "title:The Paradox of Dollar Dominance": 1795168882.001336,
+    "https://warontherocks.com/cogs-of-war/the-record-budgets-and-missing-suppliers-shaping-americas-munitions-ramp": 1795170037.707722,
+    "https://warontherocks.com/?p=48521": 1795170037.707722,
+    "title:The Record Budgets and Missing Suppliers Shaping America’s Munitions Ramp": 1795170037.707722,
+    "https://www.navalnews.com/features/2026/11/italy-next-generation-ddg-ddx-combat-system-details": 1795170041.0183158,
+    "https://www.navalnews.com/?p=93715": 1795170041.0183158,
+    "title:Italy’s Next-Generation DDG (NG DDG / DDX): First Platform and Combat System Details": 1795170041.0183158
   },
   "events": [
-    {
-      "key": "北約水下戰場網路部署",
-      "timestamp": 1794910833.455549
-    },
     {
       "key": "美中AI晶片管制",
       "timestamp": 1794914437.8466842
@@ -2346,6 +2339,10 @@
     {
       "key": "美中戰略穩定關係",
       "timestamp": 1795168872.9822905
+    },
+    {
+      "key": "義大利新一代驅逐艦造艦",
+      "timestamp": 1795170042.8639667
     }
   ]
 }
