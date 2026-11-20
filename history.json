@@ -1,11 +1,5 @@
 {
   "ids": {
-    "https://www.twz.com/news-features/davidson-window-admiral-hopes-he-was-wrong-on-chinas-ability-to-take-taiwan-by-2027": 1794952851.011174,
-    "https://www.twz.com/?p=6607469": 1794952851.011174,
-    "title:‘Davidson Window’ Admiral Hopes He Was Wrong On China’s Ability To Take Taiwan By 2027": 1794952851.011174,
-    "https://www.atlanticcouncil.org/blogs/ukrainealert/russias-colossal-losses-in-ukraine-will-not-push-putin-toward-peace": 1794952854.9987588,
-    "https://www.atlanticcouncil.org/?p=961486": 1794952854.9987588,
-    "title:Russia’s colossal losses in Ukraine will not push Putin toward peace": 1794952854.9987588,
     "https://www.atlanticcouncil.org/blogs/ukrainealert/moldova-cuts-energy-dependency-on-russia-with-landmark-new-power-line": 1794952865.0488114,
     "https://www.atlanticcouncil.org/?p=960290": 1794952865.0488114,
     "title:Moldova cuts energy dependency on Russia with landmark new power line": 1794952865.0488114,
@@ -1779,17 +1773,12 @@
     "title:Ukraine Says Starshield Disruptions Are Back As U.S. Negotiators Meet With Putin": 1795210848.4217124,
     "https://www.atlanticcouncil.org/blogs/menasource/libyas-reunification-and-path-to-democracy-start-with-fixing-its-budget": 1795210852.432736,
     "https://www.atlanticcouncil.org/?p=961727": 1795210852.432736,
-    "title:Libya’s reunification and path to democracy start with fixing its budget": 1795210852.432736
+    "title:Libya’s reunification and path to democracy start with fixing its budget": 1795210852.432736,
+    "https://www.twz.com/space/europe-is-exploring-orbital-deep-strike-weapons": 1795212050.4153872,
+    "https://www.twz.com/?p=6608800": 1795212050.4153872,
+    "title:Europe Is Exploring Orbital Deep Strike Weapons": 1795212050.4153872
   },
   "events": [
-    {
-      "key": "澳洲水下戰爭論壇",
-      "timestamp": 1794951684.272325
-    },
-    {
-      "key": "俄烏戰爭持續僵局",
-      "timestamp": 1794952857.0434752
-    },
     {
       "key": "福特級航母蒸氣彈射器爭議",
       "timestamp": 1794954030.551296
