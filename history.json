@@ -1,12 +1,5 @@
 {
   "ids": {
-    "https://www.twreporter.org/a/2026-local-elections-labor-party-china-united-front": 1794931275.801993,
-    "title:促統力量攻基層：跨8縣市提名年輕新血，勞動黨轉為統派新箭頭？": 1794931275.801993,
-    "https://www.twreporter.org/a/school-zone-safety-pov-game": 1794932438.759215,
-    "title:通學路上：體驗孩童上學考驗": 1794932438.759215,
-    "https://jamestown.org/prc-views-vary-on-jensen-huangs-resignation": 1794932447.3675666,
-    "https://jamestown.org/?p=886916": 1794932447.3675666,
-    "title:PRC Views Vary on Jensen Huang’s Resignation": 1794932447.3675666,
     "https://breakingdefense.com/2026/11/a-new-air-force-stunt-plane-plus-a-shakeup-for-special-operations": 1794932468.7079232,
     "https://breakingdefense.com/?p=101158": 1794932468.7079232,
     "title:A new Air Force stunt plane, plus a shakeup for special operations": 1794932468.7079232,
@@ -1906,7 +1899,13 @@
     "https://www.twreporter.org/a/2026-taipei-golden-horse-film-festival-chairmanship-hands-over": 1795190459.261836,
     "title:李屏賓交棒，張震接力──金馬主席的精神象徵與全新江湖": 1795190459.261836,
     "https://www.twreporter.org/a/column-gender-trouble-2026-11-19": 1795190459.2618783,
-    "title:加碼補助、擴大公托、安全審計：從性別政見，思考我們想望的性平生活": 1795190459.2618783
+    "title:加碼補助、擴大公托、安全審計：從性別政見，思考我們想望的性平生活": 1795190459.2618783,
+    "https://www.twz.com/news-features/what-we-know-about-ukraines-strikes-that-cut-russias-kerch-bridge-road-vehicle-span": 1795191631.7025707,
+    "https://www.twz.com/?p=6608271": 1795191631.7025707,
+    "title:What We Know About Ukraine’s Strikes That Cut Russia’s Kerch Bridge (Updated)": 1795191631.7025707,
+    "https://news.usni.org/2026/11/20/cbo-analysis-of-the-navys-fiscal-year-2027-shipbuilding-plan": 1795191639.7030437,
+    "https://news.usni.org/?p=126745": 1795191639.7030437,
+    "title:CBO Analysis of the Navy’s Fiscal Year 2027 Shipbuilding Plan": 1795191639.7030437
   },
   "events": [
     {
@@ -2364,6 +2363,10 @@
     {
       "key": "芬蘭總統談AI依賴",
       "timestamp": 1795189269.8800392
+    },
+    {
+      "key": "美海軍2027造艦計畫",
+      "timestamp": 1795191641.7062986
     }
   ]
 }
