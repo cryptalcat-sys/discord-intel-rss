@@ -1,34 +1,5 @@
 {
   "ids": {
-    "https://warontherocks.com/cogs-of-war/spending-isnt-deterrence-fixing-germanys-procurement-machine": 1794907244.1006992,
-    "https://warontherocks.com/?p=48606": 1794907244.1006992,
-    "title:Spending Isn’t Deterrence: Fixing Germany’s Procurement Machine": 1794907244.1006992,
-    "https://www.twreporter.org/a/2026-taipei-golden-horse-film-festival-moya-chou": 1794907256.2168775,
-    "title:從隱藏角色走入聚光燈，周佳聖：擁有視覺魔法的調光師，沒有標準答案": 1794907256.2168775,
-    "https://www.foreignaffairs.com/united-states/china-misreading-moment": 1794908433.4742534,
-    "1135768": 1794908433.4742534,
-    "title:Is China Misreading the Moment?": 1794908433.4742534,
-    "https://www.foreignaffairs.com/united-states/america-can-do-good-and-do-well": 1794908452.4289508,
-    "1135761": 1794908452.4289508,
-    "title:America Can Do Good—and Do Well": 1794908452.4289508,
-    "https://www.foreignaffairs.com/economics/paradox-dollar-dominance": 1794908452.4289913,
-    "1135752": 1794908452.4289913,
-    "title:The Paradox of Dollar Dominance": 1794908452.4289913,
-    "https://www.foreignaffairs.com/nigeria/new-epicenter-global-terror": 1794908452.429188,
-    "1135747": 1794908452.429188,
-    "title:The New Epicenter of Global Terror": 1794908452.429188,
-    "https://www.foreignaffairs.com/taiwan/recipe-disaster-taiwan-lissner-rapp-hooper": 1794908452.4292264,
-    "1135746": 1794908452.4292264,
-    "title:A Recipe for Disaster in Taiwan": 1794908452.4292264,
-    "https://warontherocks.com/cogs-of-war/the-promise-of-biomanufacturing-at-the-edge": 1794908455.5094564,
-    "https://warontherocks.com/?p=48447": 1794908455.5094564,
-    "title:The Promise of Biomanufacturing at the Edge": 1794908455.5094564,
-    "https://warontherocks.com/japans-most-dangerous-military-constraint-is-time": 1794908455.5094922,
-    "https://warontherocks.com/?p=48546": 1794908455.5094922,
-    "title:Japan’s Most Dangerous Military Constraint Is Time": 1794908455.5094922,
-    "https://warontherocks.com/rethinking-strategic-stability-with-china-from-coercion-to-constructivism": 1794908455.5096571,
-    "https://warontherocks.com/?p=48509": 1794908455.5096571,
-    "title:Rethinking Strategic Stability with China: From Coercion to Constructivism": 1794908455.5096571,
     "https://warontherocks.com/cogs-of-war/the-record-budgets-and-missing-suppliers-shaping-americas-munitions-ramp": 1794909648.5432904,
     "https://warontherocks.com/?p=48521": 1794909648.5432904,
     "title:The Record Budgets and Missing Suppliers Shaping America’s Munitions Ramp": 1794909648.5432904,
@@ -1894,17 +1865,15 @@
     "title:The Model Middle Power": 1795165262.8586178,
     "https://www.foreignaffairs.com/united-states/americas-hidden-ai-advantage": 1795165262.8586864,
     "1135770": 1795165262.8586864,
-    "title:America’s Hidden AI Advantage": 1795165262.8586864
+    "title:America’s Hidden AI Advantage": 1795165262.8586864,
+    "https://www.foreignaffairs.com/united-states/congress-and-coming-crises": 1795167642.799169,
+    "1135776": 1795167642.799169,
+    "title:Congress and the Coming Crises": 1795167642.799169,
+    "https://www.foreignaffairs.com/venezuela/americas-bad-bargain-venezuela": 1795167652.2180603,
+    "1135753": 1795167652.2180603,
+    "title:America’s Bad Bargain in Venezuela": 1795167652.2180603
   },
   "events": [
-    {
-      "key": "德國國防軍事改革",
-      "timestamp": 1794907245.6810057
-    },
-    {
-      "key": "美中戰略穩定",
-      "timestamp": 1794908444.4280298
-    },
     {
       "key": "北約水下戰場網路部署",
       "timestamp": 1794910833.455549
@@ -2348,6 +2317,14 @@
     {
       "key": "帕列托海軍發表MPV54",
       "timestamp": 1795165253.2040195
+    },
+    {
+      "key": "美國國會國家安全",
+      "timestamp": 1795167644.2176826
+    },
+    {
+      "key": "美委石油制裁協定",
+      "timestamp": 1795167653.7462053
     }
   ]
 }
