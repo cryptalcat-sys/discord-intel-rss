@@ -1,8 +1,5 @@
 {
   "ids": {
-    "https://www.atlanticcouncil.org/dispatches/what-germans-most-want-to-know-about-the-post-midterms-united-states": 1794944441.3053343,
-    "https://www.atlanticcouncil.org/?p=959364": 1794944441.3053343,
-    "title:Dispatch from Berlin: What Germans most want to know about the post-midterms United States": 1794944441.3053343,
     "https://breakingdefense.com/2026/11/army-aviation-fleet-facing-more-accidents-lower-readiness-rates-obadal": 1794945655.9187822,
     "https://breakingdefense.com/?p=101274": 1794945655.9187822,
     "title:Army Aviation fleet facing more accidents, lower readiness rates: Obadal": 1794945655.9187822,
@@ -1905,7 +1902,25 @@
     "title:Mysterious MQ-25 Stingray-Like Chinese Drone Emerges At Little-Known Flight Test Center": 1795202433.9441803,
     "https://www.twz.com/air/flying-stripped-down-f-15-silver-eagles-to-their-limits": 1795202443.7958488,
     "https://www.twz.com/?p=6608450": 1795202443.7958488,
-    "title:Flying Stripped-Down F-15 “Silver Eagles” To Their Limits": 1795202443.7958488
+    "title:Flying Stripped-Down F-15 “Silver Eagles” To Their Limits": 1795202443.7958488,
+    "https://www.atlanticcouncil.org/blogs/econographics/as-the-nvidia-scandal-threatens-to-reignite-trade-tensions-at-trump-xi-talks-beijing-still-holds-the-rare-earths": 1795203635.5472884,
+    "https://www.atlanticcouncil.org/?p=961235": 1795203635.5472884,
+    "title:As the Nvidia scandal threatens to reignite trade tensions at Trump-Xi talks, Beijing still holds the rare earths": 1795203635.5472884,
+    "https://breakingdefense.com/2026/11/navys-shipbuilding-plan-would-require-massive-hike-in-annual-appropriations-cbo": 1795203636.6858895,
+    "https://breakingdefense.com/?p=101585": 1795203636.6858895,
+    "title:Navy’s shipbuilding plan would require massive hike in annual appropriations: CBO": 1795203636.6858895,
+    "https://warontherocks.com/how-purges-are-affecting-chinese-military-readiness-and-taiwan-contingencies": 1795203640.2316844,
+    "https://warontherocks.com/?p=48579": 1795203640.2316844,
+    "title:How Purges Are Affecting Chinese Military Readiness and Taiwan Contingencies": 1795203640.2316844,
+    "https://www.twz.com/air/navy-cca-plans-will-not-wait-for-f-a-xx-next-generation-fighter": 1795203642.600475,
+    "https://www.twz.com/?p=6609467": 1795203642.600475,
+    "title:Navy CCA Plans Will Not Wait For F/A-XX Next Generation Fighter": 1795203642.600475,
+    "https://www.twz.com/air/f-35s-train-in-india-for-red-flag-of-the-east": 1795203652.2662745,
+    "https://www.twz.com/?p=6606373": 1795203652.2662745,
+    "title:F-35s Train In India For “Red Flag Of The East”": 1795203652.2662745,
+    "https://news.usni.org/2026/11/17/suspected-russian-aircraft-violated-japans-airspace-says-defense-minister": 1795203655.0006006,
+    "https://news.usni.org/?p=126676": 1795203655.0006006,
+    "title:Suspected Russian Aircraft Violated Japan’s Airspace, Says Defense Minister": 1795203655.0006006
   },
   "events": [
     {
@@ -2359,6 +2374,10 @@
     {
       "key": "中國試飛神祕隱形無人機",
       "timestamp": 1795202435.7932456
+    },
+    {
+      "key": "美軍協同戰鬥機發展",
+      "timestamp": 1795203644.2632904
     }
   ]
 }
