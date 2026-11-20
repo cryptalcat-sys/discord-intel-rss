@@ -1867,7 +1867,16 @@
     "https://www.lowyinstitute.org/the-interpreter/indonesia-s-national-hero-titles-and-the-politics-of-unresolved-violence": 1795160435.6295345,
     "title:Indonesia’s National Hero titles and the politics of unresolved violence": 1795160435.6295345,
     "https://www.lowyinstitute.org/the-interpreter/cop31-rebuilding-the-loss-and-damage-fund-for-speed": 1795160435.6295652,
-    "title:COP31: Rebuilding the Loss and Damage Fund for speed": 1795160435.6295652
+    "title:COP31: Rebuilding the Loss and Damage Fund for speed": 1795160435.6295652,
+    "https://www.cna.com.tw/news/acn/202611200143.aspx": 1795161655.6724687,
+    "CNA/2026-11-20/202611200143": 1795161655.6724687,
+    "title:APEC深圳峰會結束 深圳寶安機場多個航班延誤": 1795161655.6724687,
+    "https://www.cna.com.tw/news/acn/202611200138.aspx": 1795161655.6725266,
+    "CNA/2026-11-20/202611200138": 1795161655.6725266,
+    "title:俄軍機穿越日、台空域 學者：中俄在東亞地緣政治聯動": 1795161655.6725266,
+    "https://www.navalnews.com/naval-news/2026/11/indian-navy-exploring-development-of-rotating-detonation-engine-powered-supersonic-cruise-missile": 1795161675.8466916,
+    "https://www.navalnews.com/?p=93800": 1795161675.8466916,
+    "title:Indian Navy Exploring Development of Rotating Detonation Engine Powered Supersonic Cruise Missile": 1795161675.8466916
   },
   "events": [
     {
@@ -2297,6 +2306,14 @@
     {
       "key": "澳軍接收海鷹直升機",
       "timestamp": 1795159237.3053825
+    },
+    {
+      "key": "中俄東亞地緣聯動",
+      "timestamp": 1795161664.8380222
+    },
+    {
+      "key": "印軍開發旋轉爆轟巡弋飛彈",
+      "timestamp": 1795161680.2301576
     }
   ]
 }
