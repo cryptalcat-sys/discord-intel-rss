@@ -1,19 +1,5 @@
 {
   "ids": {
-    "https://thediplomat.com/2026/11/indias-theater-commands-a-never-ending-debate": 1794924062.8741066,
-    "https://thediplomat.com/2026/11/indias-theater-commands-a-never-ending-debate/": 1794924062.8741066,
-    "title:India’s Theater Commands: A Never-ending Debate?": 1794924062.8741066,
-    "https://www.atlanticcouncil.org/in-depth-research-reports/report/seeking-the-source-biological-attribution-from-anthrax-to-ai": 1794924065.1752355,
-    "https://www.atlanticcouncil.org/?p=958720": 1794924065.1752355,
-    "title:Seeking the source: Biological attribution from anthrax to AI": 1794924065.1752355,
-    "https://www.defensenews.com/pentagon/2026/11/17/pentagon-fails-ninth-straight-audit-despite-progress-in-organizing-finances": 1794926436.5293808,
-    "https://one.sightlinemg.com/defensenews/news/2026/11/17/pentagon-fails-ninth-straight-audit-despite-progress-in-organizing-finances/": 1794926436.5293808,
-    "title:Pentagon fails ninth straight audit despite progress in organizing finances": 1794926436.5293808,
-    "https://www.piie.com/blogs/realtime-economics/2026/how-far-could-stocks-fall": 1794926457.1737359,
-    "title:How Far Could Stocks Fall?": 1794926457.1737359,
-    "https://www.youtube.com/shorts/LNmHcTmg-yM": 1794927659.6504552,
-    "yt:video:LNmHcTmg-yM": 1794927659.6504552,
-    "title:The Sailors": 1794927659.6504552,
     "https://www.navalnews.com/event-news/euronaval-2026/2026/11/rheinmetall-pitches-gmf-140-frigate-us-navy-nato": 1794928834.753694,
     "https://www.navalnews.com/?p=93667": 1794928834.753694,
     "title:Video: Rheinmetall Pitches Aegis-Equipped GMF 140 Frigate to U.S. Navy": 1794928834.753694,
@@ -1891,13 +1877,18 @@
     "title:Japan’s ‘Denial Defense Capabilities’ and the Debate Over Port Calls by Nuclear-Armed US Ships": 1795183250.098208,
     "https://www.cna.com.tw/news/ait/202611180350.aspx": 1795183255.9520082,
     "CNA/2026-11-18/202611180350": 1795183255.9520082,
-    "title:NASA旅行家1號探測器 估已達成「光日」里程碑": 1795183255.9520082
+    "title:NASA旅行家1號探測器 估已達成「光日」里程碑": 1795183255.9520082,
+    "https://www.navalnews.com/naval-news/2026/11/tkms-unveils-future-german-navy-f128-frigate-model-at-euronaval-2026": 1795186858.2013085,
+    "https://www.navalnews.com/?p=93371": 1795186858.2013085,
+    "title:TKMS Unveils Future German Navy F128 Frigate Model at Euronaval 2026": 1795186858.2013085,
+    "https://www.atlanticcouncil.org/insight-impact/in-the-news/nikoladze-and-de-kruijf-cited-in-challenges-on-nvidias-pressure-on-washington-to-preserve-their-access-to-the-chinese-market": 1795186900.9298174,
+    "https://www.atlanticcouncil.org/?p=962254": 1795186900.9298174,
+    "title:Nikoladze and De Kruijf cited in Challenges on Nvidia’s pressure on Washington to preserve their access to the Chinese market": 1795186900.9298174,
+    "https://www.atlanticcouncil.org/insight-impact/in-the-news/nikoladze-and-de-kruijf-cited-in-journal-of-law-cyber-warfare-on-us-chips-and-nvidias-influence": 1795186964.9236076,
+    "https://www.atlanticcouncil.org/?p=962252": 1795186964.9236076,
+    "title:Nikoladze and de Kruijf cited in Journal of Law & Cyber Warfare on US chips and Nvidia’s influence": 1795186964.9236076
   },
   "events": [
-    {
-      "key": "五角大廈連續九年審計未過",
-      "timestamp": 1794926441.929627
-    },
     {
       "key": "萊茵金屬推銷神盾巡防艦",
       "timestamp": 1794928836.928861
@@ -2341,6 +2332,18 @@
     {
       "key": "荷蘭國防產業擴張計畫",
       "timestamp": 1795176062.9590108
+    },
+    {
+      "key": "德軍F128護衛艦模型",
+      "timestamp": 1795186890.3797474
+    },
+    {
+      "key": "Nvidia施壓華府",
+      "timestamp": 1795186956.9232376
+    },
+    {
+      "key": "美晶片出口管制",
+      "timestamp": 1795187021.2863977
     }
   ]
 }
