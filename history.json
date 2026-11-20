@@ -1,29 +1,5 @@
 {
   "ids": {
-    "https://www.cna.com.tw/news/acn/202611170113.aspx": 1794895262.586717,
-    "CNA/2026-11-17/202611170113": 1794895262.586717,
-    "title:俄媒：普丁與習近平將於18日舉行雙邊會談": 1794895262.586717,
-    "https://www.lowyinstitute.org/the-interpreter/jensen-huang-s-affair-exposes-silicon-valley-s-national-security-power": 1794896432.9683924,
-    "title:Jensen Huang’s affair exposes Silicon Valley’s national security power": 1794896432.9683924,
-    "https://www.lowyinstitute.org/the-interpreter/australia-talks-tough-on-sudan-but-won-t-confront-patrons-in-uae": 1794896432.9684443,
-    "title:Australia talks tough on Sudan but won’t confront patrons in UAE": 1794896432.9684443,
-    "https://www.lowyinstitute.org/the-interpreter/new-zealand-s-foreign-policy-could-change-but-we-won-t-know-for-weeks": 1794896432.968831,
-    "title:New Zealand’s foreign policy could change – but we won’t know for weeks": 1794896432.968831,
-    "https://www.lowyinstitute.org/the-interpreter/owning-a-satellite-isn-t-the-same-as-owning-the-expertise-to-replace-it": 1794896432.968931,
-    "title:Owning a satellite isn’t the same as owning the expertise to replace it": 1794896432.968931,
-    "https://www.lowyinstitute.org/the-interpreter/indonesia-s-national-hero-titles-and-the-politics-of-unresolved-violence": 1794896432.9690242,
-    "title:Indonesia’s National Hero titles and the politics of unresolved violence": 1794896432.9690242,
-    "https://www.lowyinstitute.org/the-interpreter/cop31-rebuilding-the-loss-and-damage-fund-for-speed": 1794896432.9690733,
-    "title:COP31: Rebuilding the Loss and Damage Fund for speed": 1794896432.9690733,
-    "https://www.twz.com/land/army-wants-new-palletized-short-range-air-defenses-in-service-by-the-end-of-2029": 1794896435.3291245,
-    "https://www.twz.com/?p=6605521": 1794896435.3291245,
-    "title:Army Wants New Palletized Short-Range Air Defenses In Service By The End Of 2029": 1794896435.3291245,
-    "https://www.cna.com.tw/news/ait/202611150091.aspx": 1794897639.6605818,
-    "CNA/2026-11-15/202611150091": 1794897639.6605818,
-    "title:美台高科技論壇矽谷登場 輝達副總裁強調台灣為關鍵供應鏈": 1794897639.6605818,
-    "https://www.navalnews.com/naval-news/2026/11/babcock-and-st-engineering-partner-on-international-maritime-opportunities": 1794897642.1003327,
-    "https://www.navalnews.com/?p=93630": 1794897642.1003327,
-    "title:Babcock and ST Engineering partner on international maritime opportunities": 1794897642.1003327,
     "https://warontherocks.com/cogs-of-war/spending-isnt-deterrence-fixing-germanys-procurement-machine": 1794907244.1006992,
     "https://warontherocks.com/?p=48606": 1794907244.1006992,
     "title:Spending Isn’t Deterrence: Fixing Germany’s Procurement Machine": 1794907244.1006992,
@@ -1870,17 +1846,12 @@
     "title:Marape reassures Beijing after PNG’s pacts with the West": 1795153237.002045,
     "https://www.cna.com.tw/news/ait/202611180151.aspx": 1795154444.395975,
     "CNA/2026-11-18/202611180151": 1795154444.395975,
-    "title:Anthropic啟動上市 將成檢驗全球AI投資熱潮關鍵指標": 1795154444.395975
+    "title:Anthropic啟動上市 將成檢驗全球AI投資熱潮關鍵指標": 1795154444.395975,
+    "https://breakingdefense.com/2026/11/australia-receives-first-2-of-13-additional-seahawk-helicopters": 1795159235.8256943,
+    "https://breakingdefense.com/?p=101451": 1795159235.8256943,
+    "title:Australia receives first 2 of 13 additional Seahawk helicopters": 1795159235.8256943
   },
   "events": [
-    {
-      "key": "中俄元首會談",
-      "timestamp": 1794895306.5916607
-    },
-    {
-      "key": "英新防務企業印太造船合作",
-      "timestamp": 1794897643.95337
-    },
     {
       "key": "德國國防軍事改革",
       "timestamp": 1794907245.6810057
@@ -2304,6 +2275,10 @@
     {
       "key": "巴紐平衡美中外交",
       "timestamp": 1795153238.3546953
+    },
+    {
+      "key": "澳軍接收海鷹直升機",
+      "timestamp": 1795159237.3053825
     }
   ]
 }
