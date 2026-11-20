@@ -1,11 +1,5 @@
 {
   "ids": {
-    "https://www.navalnews.com/event-news/euronaval-2026/2026/11/rheinmetall-pitches-gmf-140-frigate-us-navy-nato": 1794928834.753694,
-    "https://www.navalnews.com/?p=93667": 1794928834.753694,
-    "title:Video: Rheinmetall Pitches Aegis-Equipped GMF 140 Frigate to U.S. Navy": 1794928834.753694,
-    "https://www.atlanticcouncil.org/dispatches/spain-votes-first-what-its-snap-election-could-mean-for-europe-and-the-united-states": 1794928850.2982414,
-    "https://www.atlanticcouncil.org/?p=960883": 1794928850.2982414,
-    "title:Spain votes first: What its snap election could mean for Europe and the United States": 1794928850.2982414,
     "https://breakingdefense.com/2026/11/nato-kicks-off-11-nation-starlift-satellite-launch-program": 1794930040.4634643,
     "https://breakingdefense.com/?p=101237": 1794930040.4634643,
     "title:NATO kicks off 11-nation Starlift satellite launch program": 1794930040.4634643,
@@ -1886,13 +1880,26 @@
     "title:Nikoladze and De Kruijf cited in Challenges on Nvidia’s pressure on Washington to preserve their access to the Chinese market": 1795186900.9298174,
     "https://www.atlanticcouncil.org/insight-impact/in-the-news/nikoladze-and-de-kruijf-cited-in-journal-of-law-cyber-warfare-on-us-chips-and-nvidias-influence": 1795186964.9236076,
     "https://www.atlanticcouncil.org/?p=962252": 1795186964.9236076,
-    "title:Nikoladze and de Kruijf cited in Journal of Law & Cyber Warfare on US chips and Nvidia’s influence": 1795186964.9236076
+    "title:Nikoladze and de Kruijf cited in Journal of Law & Cyber Warfare on US chips and Nvidia’s influence": 1795186964.9236076,
+    "https://news.usni.org/2026/11/20/u-s-philippine-marines-set-up-surveillance-radar-in-palawan": 1795188029.797161,
+    "https://news.usni.org/?p=126738": 1795188029.797161,
+    "title:U.S., Philippine Marines Set Up Surveillance Radar in Palawan": 1795188029.797161,
+    "https://www.piie.com/blogs/realtime-economics/2026/how-far-could-stocks-fall": 1795188047.5939808,
+    "title:How Far Could Stocks Fall?": 1795188047.5939808,
+    "https://www.youtube.com/shorts/LNmHcTmg-yM": 1795188048.3175719,
+    "yt:video:LNmHcTmg-yM": 1795188048.3175719,
+    "title:The Deadliest Day In Naval Special Warfare History": 1795188048.3175719,
+    "https://www.atlanticcouncil.org/insight-impact/in-the-news/nikoladze-interviewed-by-malaysian-business-fm-on-the-nvidia-scandal-and-implications-for-export-controls": 1795188049.9660263,
+    "https://www.atlanticcouncil.org/?p=961998": 1795188049.9660263,
+    "title:Nikoladze interviewed by Malaysian Business FM on the Nvidia scandal and implications for export controls": 1795188049.9660263,
+    "https://www.atlanticcouncil.org/in-depth-research-reports/report/seeking-the-source-biological-attribution-from-anthrax-to-ai": 1795188069.666018,
+    "https://www.atlanticcouncil.org/?p=958720": 1795188069.666018,
+    "title:Seeking the source: Biological attribution from anthrax to AI": 1795188069.666018,
+    "https://thediplomat.com/2026/11/indias-theater-commands-a-never-ending-debate": 1795188074.9228187,
+    "https://thediplomat.com/2026/11/indias-theater-commands-a-never-ending-debate/": 1795188074.9228187,
+    "title:India’s Theater Commands: A Never-ending Debate?": 1795188074.9228187
   },
   "events": [
-    {
-      "key": "萊茵金屬推銷神盾巡防艦",
-      "timestamp": 1794928836.928861
-    },
     {
       "key": "西班牙大選影響",
       "timestamp": 1794928877.1754746
@@ -2344,6 +2351,14 @@
     {
       "key": "美晶片出口管制",
       "timestamp": 1795187021.2863977
+    },
+    {
+      "key": "美菲巴拉望部署岸基雷達",
+      "timestamp": 1795188037.6411364
+    },
+    {
+      "key": "輝達醜聞與出口管制",
+      "timestamp": 1795188061.6559017
     }
   ]
 }
