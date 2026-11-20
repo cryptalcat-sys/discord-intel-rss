@@ -1,11 +1,5 @@
 {
   "ids": {
-    "https://breakingdefense.com/2026/11/a-new-air-force-stunt-plane-plus-a-shakeup-for-special-operations": 1794932468.7079232,
-    "https://breakingdefense.com/?p=101158": 1794932468.7079232,
-    "title:A new Air Force stunt plane, plus a shakeup for special operations": 1794932468.7079232,
-    "https://www.navalnews.com/naval-news/2026/11/eastern-shipbuilding-to-build-grand-block-units-for-future-uss-telesforo-trinidad-ddg-139": 1794933637.7427778,
-    "https://www.navalnews.com/?p=93693": 1794933637.7427778,
-    "title:Eastern Shipbuilding to Build Grand Block Units for Future USS Telesforo Trinidad (DDG 139)": 1794933637.7427778,
     "https://www.atlanticcouncil.org/insight-impact/in-the-news/the-cbdc-tracker-cited-in-coindesk-on-the-number-of-countries-actively-testing-or-developing-cbdcs-2-3": 1794933657.9277213,
     "https://www.atlanticcouncil.org/?p=958882": 1794933657.9277213,
     "title:Dollar Dominance Monitor cited in a Project Syndicate article on the yuan’s growing role in international trade": 1794933657.9277213,
@@ -1905,21 +1899,14 @@
     "title:What We Know About Ukraine’s Strikes That Cut Russia’s Kerch Bridge (Updated)": 1795191631.7025707,
     "https://news.usni.org/2026/11/20/cbo-analysis-of-the-navys-fiscal-year-2027-shipbuilding-plan": 1795191639.7030437,
     "https://news.usni.org/?p=126745": 1795191639.7030437,
-    "title:CBO Analysis of the Navy’s Fiscal Year 2027 Shipbuilding Plan": 1795191639.7030437
+    "title:CBO Analysis of the Navy’s Fiscal Year 2027 Shipbuilding Plan": 1795191639.7030437,
+    "https://breakingdefense.com/2026/11/pentagon-cio-davies-tapped-as-acting-national-cyber-director": 1795192837.2158372,
+    "https://breakingdefense.com/?p=101545": 1795192837.2158372,
+    "title:Pentagon CIO Davies tapped as acting National Cyber Director": 1795192837.2158372,
+    "https://www.twreporter.org/a/2026-local-elections-labor-party-china-united-front": 1795192850.76232,
+    "title:促統力量攻基層：跨8縣市提名年輕新血，勞動黨轉為統派新箭頭？": 1795192850.76232
   },
   "events": [
-    {
-      "key": "黃仁勛辭任Nvidia",
-      "timestamp": 1794932459.005977
-    },
-    {
-      "key": "美軍特戰編裝重組與新型教練機",
-      "timestamp": 1794932472.6885722
-    },
-    {
-      "key": "美艦建造與模組化合約",
-      "timestamp": 1794933648.1304803
-    },
     {
       "key": "俄要求芬蘭退出北約",
       "timestamp": 1794937855.051869
@@ -2367,6 +2354,10 @@
     {
       "key": "美海軍2027造艦計畫",
       "timestamp": 1795191641.7062986
+    },
+    {
+      "key": "美國國家網絡總監人事任命",
+      "timestamp": 1795192839.4914725
     }
   ]
 }
