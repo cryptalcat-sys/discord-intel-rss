@@ -1,11 +1,5 @@
 {
   "ids": {
-    "https://news.usni.org/2026/11/05/marines-identify-member-who-died-after-fast-rope-training-in-japan": 1794954043.5188322,
-    "https://news.usni.org/?p=126411": 1794954043.5188322,
-    "title:Marines Identify Member Who Died After Fast-rope Training in Japan": 1794954043.5188322,
-    "https://www.twz.com/news-features/plans-to-fly-talon-blue-cca-drone-from-british-carrier-confirmed-by-northrop-grumman": 1794954045.3997638,
-    "https://www.twz.com/?p=6606821": 1794954045.3997638,
-    "title:Plans To Fly Talon Blue CCA Drone From British Carrier Confirmed By Northrop Grumman": 1794954045.3997638,
     "https://news.usni.org/2026/11/17/reverting-ford-class-carriers-to-steam-is-non-starter-says-sasc-chair-wicker": 1794957640.3486726,
     "https://news.usni.org/?p=126682": 1794957640.3486726,
     "title:Reverting Ford-class Carriers to Steam is ‘Non-Starter,’ Says SASC Chair Wicker": 1794957640.3486726,
@@ -1779,7 +1773,16 @@
     "title:‘Davidson Window’ Admiral Hopes He Was Wrong On China’s Ability To Take Taiwan By 2027": 1795213237.067643,
     "https://www.atlanticcouncil.org/blogs/ukrainealert/russias-colossal-losses-in-ukraine-will-not-push-putin-toward-peace": 1795213238.2641873,
     "https://www.atlanticcouncil.org/?p=961486": 1795213238.2641873,
-    "title:Russia’s colossal losses in Ukraine will not push Putin toward peace": 1795213238.2641873
+    "title:Russia’s colossal losses in Ukraine will not push Putin toward peace": 1795213238.2641873,
+    "https://www.atlanticcouncil.org/commentary/event-recap/pennsylvania-governor-josh-shapiro-outlines-his-vision-for-us-leadership-in-the-world": 1795214448.7774317,
+    "https://www.atlanticcouncil.org/?p=962357": 1795214448.7774317,
+    "title:Pennsylvania Governor Josh Shapiro outlines his vision for US leadership in the world": 1795214448.7774317,
+    "https://www.atlanticcouncil.org/blogs/ukrainealert/moldova-cuts-energy-dependency-on-russia-with-landmark-new-power-line": 1795214458.7740786,
+    "https://www.atlanticcouncil.org/?p=960290": 1795214458.7740786,
+    "title:Moldova cuts energy dependency on Russia with landmark new power line": 1795214458.7740786,
+    "https://www.twz.com/air/there-is-more-to-air-force-ones-long-flight-from-china-than-just-breaking-records": 1795214462.201564,
+    "https://www.twz.com/?p=6609538": 1795214462.201564,
+    "title:There Is More To Air Force One’s Long Flight From China Than Just Breaking Records": 1795214462.201564
   },
   "events": [
     {
@@ -2209,6 +2212,14 @@
     {
       "key": "法國總統大選與政治僵局",
       "timestamp": 1795208477.642816
+    },
+    {
+      "key": "美國全球領導願景",
+      "timestamp": 1795214450.7663217
+    },
+    {
+      "key": "美軍專機自中國長程飛行",
+      "timestamp": 1795214463.4712706
     }
   ]
 }
