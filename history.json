@@ -1,17 +1,5 @@
 {
   "ids": {
-    "https://news.usni.org/2026/11/17/suspected-russian-aircraft-violated-japans-airspace-says-defense-minister": 1794942058.708183,
-    "https://news.usni.org/?p=126676": 1794942058.708183,
-    "title:Suspected Russian Aircraft Violated Japan’s Airspace, Says Defense Minister": 1794942058.708183,
-    "https://warontherocks.com/how-purges-are-affecting-chinese-military-readiness-and-taiwan-contingencies": 1794942071.444688,
-    "https://warontherocks.com/?p=48579": 1794942071.444688,
-    "title:How Purges Are Affecting Chinese Military Readiness and Taiwan Contingencies": 1794942071.444688,
-    "https://www.atlanticcouncil.org/blogs/econographics/as-the-nvidia-scandal-threatens-to-reignite-trade-tensions-at-trump-xi-talks-beijing-still-holds-the-rare-earths": 1794943235.9455657,
-    "https://www.atlanticcouncil.org/?p=961235": 1794943235.9455657,
-    "title:As the Nvidia scandal threatens to reignite trade tensions at Trump-Xi talks, Beijing still holds the rare earths": 1794943235.9455657,
-    "https://www.twz.com/air/f-35s-train-in-india-for-red-flag-of-the-east": 1794943248.343145,
-    "https://www.twz.com/?p=6606373": 1794943248.343145,
-    "title:F-35s Train In India For “Red Flag Of The East”": 1794943248.343145,
     "https://www.atlanticcouncil.org/dispatches/what-germans-most-want-to-know-about-the-post-midterms-united-states": 1794944441.3053343,
     "https://www.atlanticcouncil.org/?p=959364": 1794944441.3053343,
     "title:Dispatch from Berlin: What Germans most want to know about the post-midterms United States": 1794944441.3053343,
@@ -1911,17 +1899,15 @@
     "title:Keeping America Out: Revisiting China’s Deterrence Strategy for Taiwan": 1795200432.2301464,
     "https://news.usni.org/2026/11/17/opening-remarks-from-acting-navy-secretary-hung-caos-confirmation-hearing": 1795200434.8299408,
     "https://news.usni.org/?p=126672": 1795200434.8299408,
-    "title:Opening Remarks from Acting Navy Secretary Hung Cao’s Confirmation Hearing": 1795200434.8299408
+    "title:Opening Remarks from Acting Navy Secretary Hung Cao’s Confirmation Hearing": 1795200434.8299408,
+    "https://www.twz.com/air/mysterious-mq-25-stingray-like-chinese-drone-emerges-at-little-known-flight-test-center": 1795202433.9441803,
+    "https://www.twz.com/?p=6609499": 1795202433.9441803,
+    "title:Mysterious MQ-25 Stingray-Like Chinese Drone Emerges At Little-Known Flight Test Center": 1795202433.9441803,
+    "https://www.twz.com/air/flying-stripped-down-f-15-silver-eagles-to-their-limits": 1795202443.7958488,
+    "https://www.twz.com/?p=6608450": 1795202443.7958488,
+    "title:Flying Stripped-Down F-15 “Silver Eagles” To Their Limits": 1795202443.7958488
   },
   "events": [
-    {
-      "key": "俄機侵犯日本領空",
-      "timestamp": 1794942060.6261623
-    },
-    {
-      "key": "美中稀土與晶片博弈",
-      "timestamp": 1794943237.670987
-    },
     {
       "key": "美軍航空隊戰備率下滑",
       "timestamp": 1794945657.9430397
@@ -2369,6 +2355,10 @@
     {
       "key": "烏無人機德企合資量產",
       "timestamp": 1795200042.5904562
+    },
+    {
+      "key": "中國試飛神祕隱形無人機",
+      "timestamp": 1795202435.7932456
     }
   ]
 }
