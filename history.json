@@ -1,8 +1,5 @@
 {
   "ids": {
-    "https://breakingdefense.com/2026/11/army-aviation-fleet-facing-more-accidents-lower-readiness-rates-obadal": 1794945655.9187822,
-    "https://breakingdefense.com/?p=101274": 1794945655.9187822,
-    "title:Army Aviation fleet facing more accidents, lower readiness rates: Obadal": 1794945655.9187822,
     "https://www.youtube.com/watch": 1794946832.2985163,
     "yt:video:0fU3rnZG6jQ": 1794946832.2985163,
     "title:戰火燒進美本土? 傳伊朗備\"髒彈攻擊\"｜公共電視 - 尖鋒對話": 1794946832.2985163,
@@ -1920,13 +1917,15 @@
     "title:F-35s Train In India For “Red Flag Of The East”": 1795203652.2662745,
     "https://news.usni.org/2026/11/17/suspected-russian-aircraft-violated-japans-airspace-says-defense-minister": 1795203655.0006006,
     "https://news.usni.org/?p=126676": 1795203655.0006006,
-    "title:Suspected Russian Aircraft Violated Japan’s Airspace, Says Defense Minister": 1795203655.0006006
+    "title:Suspected Russian Aircraft Violated Japan’s Airspace, Says Defense Minister": 1795203655.0006006,
+    "https://news.usni.org/2026/11/20/usni-news-western-pacific-pulse-nov-20-2026": 1795204846.0255125,
+    "https://news.usni.org/?p=126750": 1795204846.0255125,
+    "title:USNI News Western Pacific Pulse: Nov. 20, 2026": 1795204846.0255125,
+    "https://www.atlanticcouncil.org/dispatches/what-germans-most-want-to-know-about-the-post-midterms-united-states": 1795204866.2622766,
+    "https://www.atlanticcouncil.org/?p=959364": 1795204866.2622766,
+    "title:Dispatch from Berlin: What Germans most want to know about the post-midterms United States": 1795204866.2622766
   },
   "events": [
-    {
-      "key": "美軍航空隊戰備率下滑",
-      "timestamp": 1794945657.9430397
-    },
     {
       "key": "美軍三航艦集結中東防堵伊朗",
       "timestamp": 1794946834.2132552
@@ -2378,6 +2377,10 @@
     {
       "key": "美軍協同戰鬥機發展",
       "timestamp": 1795203644.2632904
+    },
+    {
+      "key": "美兩棲遠征群星港動態",
+      "timestamp": 1795204847.848657
     }
   ]
 }
