@@ -1,20 +1,5 @@
 {
   "ids": {
-    "https://breakingdefense.com/2026/11/russia-reportedly-wants-finland-to-leave-nato-as-part-of-ukraine-deal-history-geography-explain-why": 1794937841.8554196,
-    "https://breakingdefense.com/?p=101245": 1794937841.8554196,
-    "title:Russia reportedly wants Finland to leave NATO as part of Ukraine deal. History, geography explain why.": 1794937841.8554196,
-    "https://news.usni.org/2026/11/17/opening-remarks-from-acting-navy-secretary-hung-caos-confirmation-hearing": 1794938460.094161,
-    "https://news.usni.org/?p=126672": 1794938460.094161,
-    "title:Opening Remarks from Acting Navy Secretary Hung Cao’s Confirmation Hearing": 1794938460.094161,
-    "https://www.atlanticcouncil.org/insight-impact/in-the-news/charai-for-the-national-interest-on-immigration-the-us-is-not-europe-unless-it-chooses-to-be": 1794939640.4893665,
-    "https://www.atlanticcouncil.org/?p=959359": 1794939640.4893665,
-    "title:Charai for The National Interest: On Immigration, the US Is Not Europe—Unless It Chooses to Be": 1794939640.4893665,
-    "https://www.twz.com/news-features/lucas-drones-to-be-built-in-containerized-robotic-micro-factories-designed-to-be-forward-deployed": 1794939649.7697403,
-    "https://www.twz.com/?p=6605706": 1794939649.7697403,
-    "title:LUCAS Drones To Be Built In Containerized Robotic Micro Factories Designed To Be Forward Deployed": 1794939649.7697403,
-    "https://warontherocks.com/keeping-america-out-revisiting-chinas-deterrence-strategy-for-taiwan": 1794940840.777822,
-    "https://warontherocks.com/?p=48656": 1794940840.777822,
-    "title:Keeping America Out: Revisiting China’s Deterrence Strategy for Taiwan": 1794940840.777822,
     "https://news.usni.org/2026/11/17/suspected-russian-aircraft-violated-japans-airspace-says-defense-minister": 1794942058.708183,
     "https://news.usni.org/?p=126676": 1794942058.708183,
     "title:Suspected Russian Aircraft Violated Japan’s Airspace, Says Defense Minister": 1794942058.708183,
@@ -1911,21 +1896,12 @@
     "https://www.atlanticcouncil.org/?p=957940": 1795195248.066697,
     "title:Not quite mercenaries: How Russia lures thousands of foreigners to fight in its war on Ukraine": 1795195248.066697,
     "https://www.lowyinstitute.org/the-interpreter/beijing-s-new-common-language-law-doesn-t-sound-so-common": 1795196435.3138509,
-    "title:Beijing’s new “common language” law doesn’t sound so common": 1795196435.3138509
+    "title:Beijing’s new “common language” law doesn’t sound so common": 1795196435.3138509,
+    "https://breakingdefense.com/2026/11/autonomy-firm-auterion-to-launch-joint-venture-with-ukrainian-drone-maker-skyfall": 1795200040.5974228,
+    "https://breakingdefense.com/?p=101588": 1795200040.5974228,
+    "title:Autonomy firm Auterion to launch joint venture with Ukrainian drone maker Skyfall": 1795200040.5974228
   },
   "events": [
-    {
-      "key": "俄要求芬蘭退出北約",
-      "timestamp": 1794937855.051869
-    },
-    {
-      "key": "美海軍部長提名聽證",
-      "timestamp": 1794938461.9387848
-    },
-    {
-      "key": "中國台海威懾",
-      "timestamp": 1794940849.880573
-    },
     {
       "key": "俄機侵犯日本領空",
       "timestamp": 1794942060.6261623
@@ -2377,6 +2353,10 @@
     {
       "key": "瑞典推出K200反無人機攔截器",
       "timestamp": 1795195236.7989383
+    },
+    {
+      "key": "烏無人機德企合資量產",
+      "timestamp": 1795200042.5904562
     }
   ]
 }
