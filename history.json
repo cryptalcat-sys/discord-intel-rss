@@ -1865,7 +1865,9 @@
     "title:Press play: Russia’s push to recruit through gaming": 1795144834.3020573,
     "https://www.cna.com.tw/news/ait/202611180106.aspx": 1795149641.566845,
     "CNA/2026-11-18/202611180106": 1795149641.566845,
-    "title:LINE電腦版強化語音報讀助視障溝通 網頁版2027年退場": 1795149641.566845
+    "title:LINE電腦版強化語音報讀助視障溝通 網頁版2027年退場": 1795149641.566845,
+    "https://www.lowyinstitute.org/the-interpreter/marape-reassures-beijing-after-png-s-pacts-with-the-west": 1795153237.002045,
+    "title:Marape reassures Beijing after PNG’s pacts with the West": 1795153237.002045
   },
   "events": [
     {
@@ -2295,6 +2297,10 @@
     {
       "key": "美中俄大國外交博弈",
       "timestamp": 1795142038.532654
+    },
+    {
+      "key": "巴紐平衡美中外交",
+      "timestamp": 1795153238.3546953
     }
   ]
 }
