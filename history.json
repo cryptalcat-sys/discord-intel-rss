@@ -1,8 +1,5 @@
 {
   "ids": {
-    "https://www.cna.com.tw/news/acn/202611180098.aspx": 1794979254.3821971,
-    "CNA/2026-11-18/202611180098": 1794979254.3821971,
-    "title:習近平指中國進入深水區改革 支持成立「灣區經濟合作聯盟」": 1794979254.3821971,
     "https://www.cna.com.tw/news/acn/202611160122.aspx": 1794981653.7776062,
     "CNA/2026-11-16/202611160122": 1794981653.7776062,
     "title:DeepSeek自承算力不足 近日設定多種限制引議": 1794981653.7776062,
@@ -1776,13 +1773,16 @@
     "https://www.lowyinstitute.org/the-interpreter/watch-what-trump-does-in-asia-not-what-he-says": 1795238443.9611259,
     "title:Watch what Trump does in Asia, not what he says": 1795238443.9611259,
     "https://www.lowyinstitute.org/the-interpreter/the-climate-card-china-has-yet-to-play": 1795238443.9611607,
-    "title:The climate card China has yet to play": 1795238443.9611607
+    "title:The climate card China has yet to play": 1795238443.9611607,
+    "https://www.lowyinstitute.org/the-interpreter/the-philippines-is-looking-to-develop-an-expeditionary-navy": 1795239643.973707,
+    "title:The Philippines is looking to develop an “expeditionary navy”": 1795239643.973707,
+    "https://www.lowyinstitute.org/the-interpreter/the-ocean-is-missing-from-climate-diplomacy-again": 1795239643.973875,
+    "title:The ocean is missing from climate diplomacy. Again.": 1795239643.973875,
+    "https://www.foreignaffairs.com/spain/pedro-sanchez-world-last-chance-peace-avert-world-war": 1795239644.427473,
+    "1135757": 1795239644.427473,
+    "title:The World’s Last Chance for Peace": 1795239644.427473
   },
   "events": [
-    {
-      "key": "中國APEC經濟改革",
-      "timestamp": 1794979256.4763691
-    },
     {
       "key": "德軍MEKO護衛艦採購",
       "timestamp": 1794985271.4008236
