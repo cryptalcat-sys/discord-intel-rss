@@ -1,8 +1,5 @@
 {
   "ids": {
-    "https://www.cna.com.tw/news/acn/202611180045.aspx": 1794970852.7421534,
-    "CNA/2026-11-18/202611180045": 1794970852.7421534,
-    "title:中國旅客迷信向客機擲幣祈福 航班延誤近1小時": 1794970852.7421534,
     "https://www.lowyinstitute.org/the-interpreter/southeast-asia-must-breed-smarter-rice-to-outlast-el-nino-and-the-next-one": 1794972043.1621046,
     "title:Southeast Asia must breed smarter rice to outlast El Niño – and the next one": 1794972043.1621046,
     "https://www.atlanticcouncil.org/blogs/econographics/a-6-billion-hack-in-a-season-of-ai-anxiety": 1794973229.1973627,
@@ -1788,7 +1785,11 @@
     "title:The Quad’s work does not stop between summits": 1795222849.8205864,
     "https://www.cna.com.tw/news/ait/202611190043.aspx": 1795228844.6211023,
     "CNA/2026-11-19/202611190043": 1795228844.6211023,
-    "title:Anthropic超越SpaceX 改寫史上最大IPO紀錄": 1795228844.6211023
+    "title:Anthropic超越SpaceX 改寫史上最大IPO紀錄": 1795228844.6211023,
+    "https://www.lowyinstitute.org/the-interpreter/for-the-pacific-cop31-must-make-adaptation-last": 1795230051.542347,
+    "title:For the Pacific, COP31 must make adaptation last": 1795230051.542347,
+    "https://www.lowyinstitute.org/the-interpreter/why-the-arctic-cannot-replace-the-middle-east-s-shipping-lanes": 1795230051.5428255,
+    "title:Why the Arctic cannot replace the Middle East’s shipping lanes": 1795230051.5428255
   },
   "events": [
     {
