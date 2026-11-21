@@ -1,11 +1,5 @@
 {
   "ids": {
-    "https://news.usni.org/2026/11/18/carrier-uss-george-washington-leaves-middle-east-after-three-months": 1795038042.8853164,
-    "https://news.usni.org/?p=126706": 1795038042.8853164,
-    "title:Carrier USS George Washington Leaves Middle East After Three Months": 1795038042.8853164,
-    "https://breakingdefense.com/2026/11/a-1-1-trillion-pentagon-budget-sets-up-a-fight-on-capitol-hill": 1795039250.3573403,
-    "https://breakingdefense.com/?p=101398": 1795039250.3573403,
-    "title:A $1.1 trillion Pentagon budget sets up a fight on Capitol Hill": 1795039250.3573403,
     "https://news.usni.org/2026/11/18/senate-appropriators-cut-20b-from-navy-shipbuilding-request": 1795039261.0837953,
     "https://news.usni.org/?p=126712": 1795039261.0837953,
     "title:Senate Appropriators Cut $20B from Navy Shipbuilding Request": 1795039261.0837953,
@@ -1732,17 +1726,17 @@
     "title:Analyzing the Ethiopian-Somaliland Deal, Two Years On": 1795297238.7436001,
     "https://warontherocks.com/talks-attacks-and-a-heist": 1795297238.7438397,
     "https://warontherocks.com/?p=48530": 1795297238.7438397,
-    "title:Talks, Attacks, and a Heist": 1795297238.7438397
+    "title:Talks, Attacks, and a Heist": 1795297238.7438397,
+    "https://www.piie.com/events/2026/what-economic-vibes-say-about-reality-jason-furman-consumer-sentiment-recession": 1795298447.2102642,
+    "title:What economic vibes say about reality: Jason Furman on consumer sentiment, recession indicators, and more": 1795298447.2102642,
+    "https://news.usni.org/2026/11/12/navy-quietly-removes-uss-michael-murphy-commander": 1795298452.6125388,
+    "https://news.usni.org/?p=126543": 1795298452.6125388,
+    "title:Navy Quietly Removed USS Michael Murphy Commander in September": 1795298452.6125388,
+    "https://www.atlanticcouncil.org/dispatches/dispatch-from-manama-the-most-underappreciated-us-ally-in-the-gulf": 1795298455.27805,
+    "https://www.atlanticcouncil.org/?p=961757": 1795298455.27805,
+    "title:Dispatch from Manama: The Iran war is not over for Bahrain": 1795298455.27805
   },
   "events": [
-    {
-      "key": "美航母重返西太平洋",
-      "timestamp": 1795038044.9360185
-    },
-    {
-      "key": "五角大廈預算國會攻防",
-      "timestamp": 1795039252.4991846
-    },
     {
       "key": "美參院刪減造艦預算",
       "timestamp": 1795039263.1115766
