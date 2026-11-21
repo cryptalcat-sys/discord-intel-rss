@@ -1,19 +1,5 @@
 {
   "ids": {
-    "https://www.defensenews.com/global/the-americas/2026/11/18/us-surges-power-projection-to-westernmost-island-chain-as-russia-china-loom": 1795041647.5769508,
-    "https://one.sightlinemg.com/defensenews/news/2026/11/18/us-surges-power-projection-to-westernmost-island-chain-as-russia-china-loom/": 1795041647.5769508,
-    "title:US surges power projection to westernmost island chain as Russia, China loom": 1795041647.5769508,
-    "https://jamestown.org/tbilisis-revolving-security-door-reflects-deeper-purge": 1795041660.9059217,
-    "https://jamestown.org/?p=886910": 1795041660.9059217,
-    "title:Tbilisi’s Revolving Security Door Reflects Deeper Purge": 1795041660.9059217,
-    "https://www.lowyinstitute.org/the-interpreter/apec-finally-delivers-just-not-what-we-hoped-for": 1795042847.2008507,
-    "title:APEC finally delivers, just not what we hoped for": 1795042847.2008507,
-    "https://news.usni.org/2026/11/09/hegseth-calls-for-sweeping-military-education-changes-in-naval-war-college-address": 1795042857.165397,
-    "https://news.usni.org/?p=126495": 1795042857.165397,
-    "title:Hegseth Calls for Sweeping Military Education Changes in Naval War College Address": 1795042857.165397,
-    "https://www.atlanticcouncil.org/blogs/ukrainealert/ukraines-new-drone-blitz-cuts-russian-oil-refining-capacity-by-30-percent": 1795042857.7073581,
-    "https://www.atlanticcouncil.org/?p=959820": 1795042857.7073581,
-    "title:Ukraine’s new drone blitz cuts Russian oil refining capacity by 30 percent": 1795042857.7073581,
     "https://pourquoi.tw/39th-anniversary-of-the-lifting-of-martial-law": 1795043549.1786947,
     "https://pourquoi.tw/?p=204751": 1795043549.1786947,
     "title:台灣民主的未竟之業 —— 解嚴39週年的回顧與展望": 1795043549.1786947,
@@ -1720,13 +1706,25 @@
     "title:The digital yuan is only part of China’s expanding global payments network": 1795300840.8651097,
     "https://www.atlanticcouncil.org/blogs/ukrainealert/europe-sees-surge-in-suspected-russian-hybrid-warfare-incidents": 1795300840.8652782,
     "https://www.atlanticcouncil.org/?p=959811": 1795300840.8652782,
-    "title:Europe sees surge in suspected Russian hybrid warfare incidents": 1795300840.8652782
+    "title:Europe sees surge in suspected Russian hybrid warfare incidents": 1795300840.8652782,
+    "https://www.lowyinstitute.org/the-interpreter/the-yttrium-squeeze-how-a-little-known-rare-earth-became-china-s-latest-geopolitical-lever": 1795302048.4267702,
+    "title:The yttrium squeeze: How a little-known rare earth became China’s latest geopolitical lever": 1795302048.4267702,
+    "https://www.lowyinstitute.org/the-interpreter/first-nations-ip-protection-risks-going-from-miracle-to-mirage": 1795302048.427698,
+    "title:First Nations IP protection risks going from “miracle to mirage”": 1795302048.427698,
+    "https://www.atlanticcouncil.org/blogs/ukrainealert/putins-chief-negotiator-vows-to-return-every-inch-of-russian-land-in-ukraine": 1795302053.4885988,
+    "https://www.atlanticcouncil.org/?p=960326": 1795302053.4885988,
+    "title:Putin’s chief negotiator vows to seize ‘every inch of Russian land’ in Ukraine": 1795302053.4885988,
+    "https://www.atlanticcouncil.org/content-series/fastthinking/what-jensen-huangs-nvidia-exit-means-for-washington-wall-street-and-beijing": 1795302053.4887462,
+    "https://www.atlanticcouncil.org/?p=960169": 1795302053.4887462,
+    "title:What Jensen Huang’s Nvidia exit means for Washington, Wall Street, and Beijing": 1795302053.4887462,
+    "https://www.atlanticcouncil.org/dispatches/beyond-the-spy-scandal-what-the-nvidia-megaspeed-case-reveals-about-export-controls": 1795302053.4888299,
+    "https://www.atlanticcouncil.org/?p=960191": 1795302053.4888299,
+    "title:Beyond the spy scandal: What the Nvidia-Megaspeed case reveals about export controls": 1795302053.4888299,
+    "https://news.usni.org/2026/11/12/u-s-transfers-unmanned-surface-vessels-to-philippine-marine-corps": 1795302057.8000798,
+    "https://news.usni.org/?p=126557": 1795302057.8000798,
+    "title:U.S. Transfers Unmanned Surface Vessels to Philippine Marine Corps": 1795302057.8000798
   },
   "events": [
-    {
-      "key": "美軍西端島鏈兵力投射",
-      "timestamp": 1795041649.2437267
-    },
     {
       "key": "跨大西洋能源合作",
       "timestamp": 1795045246.2714763
