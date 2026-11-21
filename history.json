@@ -1,16 +1,5 @@
 {
   "ids": {
-    "https://www.navalnews.com/naval-news/2026/11/mistral-in-a-box-mbda-revives-spimm-concept-against-drones": 1795022454.831101,
-    "https://www.navalnews.com/?p=92666": 1795022454.831101,
-    "title:Mistral in a Box: MBDA Revives SPIMM Concept Against Drones": 1795022454.831101,
-    "https://www.lowyinstitute.org/the-interpreter/yalta-2-0-a-trump-xi-putin-summit-has-little-upside-for-beijing": 1795023636.8751805,
-    "title:Yalta 2.0: A Trump-Xi-Putin summit has little upside for Beijing": 1795023636.8751805,
-    "https://news.usni.org/2026/11/12/breaking-uss-south-dakota-command-triad-relieved-after-october-grounding-congressman-says": 1795023637.0694706,
-    "https://news.usni.org/?p=126537": 1795023637.0694706,
-    "title:UPDATED: USS South Dakota Command Triad Relieved After October Grounding, Congressman Says": 1795023637.0694706,
-    "https://www.twz.com/sea/this-is-what-submarine-hms-vengeance-looks-like-after-its-record-setting-nuclear-deterrance-patrol": 1795023638.7725446,
-    "https://www.twz.com/?p=6608611": 1795023638.7725446,
-    "title:This Is What Submarine HMS Vengeance Looks Like After Its Record-Setting Nuclear Deterrence Patrol": 1795023638.7725446,
     "https://www.atlanticcouncil.org/blogs/menasource/syria-shouldnt-join-the-mecca-alliance-it-should-cooperate-with-it": 1795023659.689376,
     "https://www.atlanticcouncil.org/?p=959969": 1795023659.689376,
     "title:Syria shouldn’t join the Mecca Alliance. It should cooperate with it.": 1795023659.689376,
@@ -1719,21 +1708,36 @@
     "title:8年第4次核能公投：核電振興經濟？6大爭點看「廢除非核家園」公投": 1795276855.0841057,
     "https://www.defensenews.com/pentagon/2026/11/19/hegseth-in-caracas-announces-us-venezuela-military-partnership-agreement": 1795281631.4712505,
     "https://www.defensenews.com/news/2026/11/19/hegseth-in-caracas-announces-us-venezuela-military-partnership-agreement/": 1795281631.4712505,
-    "title:Hegseth, in Caracas, announces US-Venezuela military partnership agreement": 1795281631.4712505
+    "title:Hegseth, in Caracas, announces US-Venezuela military partnership agreement": 1795281631.4712505,
+    "https://www.navalnews.com/naval-news/2026/11/u-s-navy-prepares-for-third-zumwalt-hypersonic-upgrade": 1795282831.3201172,
+    "https://www.navalnews.com/?p=93734": 1795282831.3201172,
+    "title:U.S. Navy Prepares for Third Zumwalt Hypersonic Upgrade": 1795282831.3201172,
+    "https://www.lowyinstitute.org/the-interpreter/indonesia-needs-strategic-redundancy-not-a-third-pole": 1795282847.779186,
+    "title:Indonesia needs strategic redundancy, not a third pole": 1795282847.779186,
+    "https://www.lowyinstitute.org/the-interpreter/kuril-islands-moscow-and-beijing-close-ranks-against-tokyo": 1795282847.7796307,
+    "title:Kuril Islands: Moscow and Beijing close ranks against Tokyo": 1795282847.7796307,
+    "https://www.lowyinstitute.org/the-interpreter/australia-has-picked-its-national-soundtrack-but-not-its-story": 1795282847.780059,
+    "title:Australia has picked its national soundtrack – but not its story": 1795282847.780059,
+    "https://www.atlanticcouncil.org/in-depth-research-reports/issue-brief/the-foresight-brief-chokepoints-past-present-and-future": 1795282848.3036664,
+    "https://www.atlanticcouncil.org/?p=961555": 1795282848.3036664,
+    "title:The foresight brief: Chokepoints past, present, and future": 1795282848.3036664,
+    "https://www.atlanticcouncil.org/blogs/econographics/same-metric-still-a-mess-the-geoeconomics-of-youth-unemployment-in-china": 1795282848.3051686,
+    "https://www.atlanticcouncil.org/?p=960355": 1795282848.3051686,
+    "title:Same metric, still a mess: The geoeconomics of youth unemployment in China": 1795282848.3051686,
+    "https://www.atlanticcouncil.org/in-depth-research-reports/issue-brief/materials-matter-managing-critical-commodities-for-the-next-generation-energy-economy": 1795282848.3059225,
+    "https://www.atlanticcouncil.org/?p=907106": 1795282848.3059225,
+    "title:Materials matter: Managing critical commodities for the next-generation energy economy": 1795282848.3059225,
+    "https://www.atlanticcouncil.org/insight-impact/in-the-news/tannebaum-quoted-in-the-new-york-times-on-us-unreliability-influencing-de-dollarization-efforts-4-9": 1795282848.3063562,
+    "https://www.atlanticcouncil.org/?p=958877": 1795282848.3063562,
+    "title:Lipsky and Piasecki quoted in a China Daily article on the impact of the 2027 budget and debt ceiling negotiations on global financial markets": 1795282848.3063562,
+    "https://www.atlanticcouncil.org/insight-impact/in-the-news/tannebaum-quoted-in-the-new-york-times-on-us-unreliability-influencing-de-dollarization-efforts-4-8": 1795282848.3064187,
+    "https://www.atlanticcouncil.org/?p=958873": 1795282848.3064187,
+    "title:Lichfield interviewed by Radio Télévision Suisse (RTS) about the US midterm elections": 1795282848.3064187,
+    "https://www.atlanticcouncil.org/insight-impact/in-the-news/tannebaum-quoted-in-the-new-york-times-on-us-unreliability-influencing-de-dollarization-efforts-4-7": 1795282848.306478,
+    "https://www.atlanticcouncil.org/?p=958875": 1795282848.306478,
+    "title:Lipsky quoted in a South China Morning Post article discussing how Congress could constrain Trump’s agenda following the 2026 US midterm elections": 1795282848.306478
   },
   "events": [
-    {
-      "key": "美海軍戰艦預算遭否",
-      "timestamp": 1795022446.8307374
-    },
-    {
-      "key": "SPIMM箱式防空",
-      "timestamp": 1795022464.6526327
-    },
-    {
-      "key": "英核潛艇巡邏",
-      "timestamp": 1795023649.0798657
-    },
     {
       "key": "川習會貿易籌碼博弈",
       "timestamp": 1795027242.603439
@@ -2133,6 +2137,10 @@
     {
       "key": "菲律賓加入矽盛世倡議",
       "timestamp": 1795268437.9712615
+    },
+    {
+      "key": "朱瓦特級極音速升級",
+      "timestamp": 1795282833.3182907
     }
   ]
 }
