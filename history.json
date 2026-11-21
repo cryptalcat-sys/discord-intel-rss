@@ -1,8 +1,5 @@
 {
   "ids": {
-    "https://www.defensenews.com/video/2026/11/17/acting-navy-secretary-hung-cao-faces-transparency-questions-in-senate-confirmation-hearing": 1794963649.998037,
-    "https://one.sightlinemg.com/defensenews/news/2026/11/17/acting-navy-secretary-hung-cao-faces-transparency-questions-in-senate-confirmation-hearing/": 1794963649.998037,
-    "title:Acting Navy Secretary Hung Cao faces transparency questions in Senate confirmation hearing": 1794963649.998037,
     "https://www.lowyinstitute.org/the-interpreter/why-the-arctic-cannot-replace-the-middle-east-s-shipping-lanes": 1794964843.7542584,
     "title:Why the Arctic cannot replace the Middle East’s shipping lanes": 1794964843.7542584,
     "https://www.cna.com.tw/news/acn/202611180045.aspx": 1794970852.7421534,
@@ -1785,13 +1782,14 @@
     "title:Philippines, Australia Sign New Defense Agreement Amid China Pressure": 1795220789.3466167,
     "https://www.cna.com.tw/news/ait/202611190030.aspx": 1795221659.3602052,
     "CNA/2026-11-19/202611190030": 1795221659.3602052,
-    "title:App Store大獎決選名單 45家開發者入圍": 1795221659.3602052
+    "title:App Store大獎決選名單 45家開發者入圍": 1795221659.3602052,
+    "https://www.twz.com/news-features/ukraine-strikes-kerch-bridge-once-again-crimea-governor": 1795222848.1864138,
+    "https://www.twz.com/?p=6609020": 1795222848.1864138,
+    "title:Ukraine Strikes Kerch Bridge Once Again: Crimea Governor (Updated)": 1795222848.1864138,
+    "https://www.lowyinstitute.org/the-interpreter/the-quad-s-work-does-not-stop-between-summits": 1795222849.8205864,
+    "title:The Quad’s work does not stop between summits": 1795222849.8205864
   },
   "events": [
-    {
-      "key": "四國機制持續運作",
-      "timestamp": 1794962477.6995895
-    },
     {
       "key": "美中俄三方領袖峰會",
       "timestamp": 1794978054.5725775
