@@ -1,26 +1,5 @@
 {
   "ids": {
-    "https://www.navalnews.com/naval-news/2026/11/italy-confirms-new-national-vls-for-deep-strike-and-hypersonic-defense": 1794994843.018402,
-    "https://www.navalnews.com/?p=93683": 1794994843.018402,
-    "title:Italy Confirms New National VLS for Deep-Strike and Hypersonic Defense": 1794994843.018402,
-    "https://warontherocks.com/cogs-of-war/to-implement-acquisition-transformation-empower-military-mavericks": 1794994856.0759172,
-    "https://warontherocks.com/?p=48385": 1794994856.0759172,
-    "title:To Implement Acquisition Transformation, Empower Military Mavericks": 1794994856.0759172,
-    "https://www.foreignaffairs.com/china/chinas-ai-diplomacy-working": 1794996054.1413457,
-    "1135749": 1794996054.1413457,
-    "title:China’s AI Diplomacy Is Working": 1794996054.1413457,
-    "https://www.foreignaffairs.com/united-states/luxury-children": 1794996054.141407,
-    "1135748": 1794996054.141407,
-    "title:The Luxury of Children": 1794996054.141407,
-    "https://www.cna.com.tw/news/ait/202611160223.aspx": 1794996057.6012747,
-    "CNA/2026-11-16/202611160223": 1794996057.6012747,
-    "title:日本超級電腦遭不當存取 日媒：企業機密恐外洩": 1794996057.6012747,
-    "https://www.youtube.com/shorts/C8uJMvPQj5s": 1794996060.2639177,
-    "yt:video:C8uJMvPQj5s": 1794996060.2639177,
-    "title:民調數字各自解讀 聲量恐掩蓋真實選票｜ 公共電視 - 尖鋒對話": 1794996060.2639177,
-    "https://www.youtube.com/shorts/F2BewIAidPU": 1794997229.6130064,
-    "yt:video:F2BewIAidPU": 1794997229.6130064,
-    "title:Philippine Defense Chief: We Want More BrahMos | Taiwan Talks #shorts": 1794997229.6130064,
     "https://www.cna.com.tw/news/aopl/202611180287.aspx": 1794998435.6605256,
     "CNA/2026-11-18/202611180287": 1794998435.6605256,
     "title:川普抵深圳出席APEC 習近平親自接機": 1794998435.6605256,
@@ -1762,13 +1741,12 @@
     "title:The Limits of Quiet Resignation from the U.S. Military": 1795252840.6945755,
     "https://warontherocks.com/winning-time-ukraines-unmanned-systems-forces-and-the-new-dimension-of-war": 1795254041.9731274,
     "https://warontherocks.com/?p=48517": 1795254041.9731274,
-    "title:Winning Time: Ukraine’s Unmanned Systems Forces and the New Dimension of War": 1795254041.9731274
+    "title:Winning Time: Ukraine’s Unmanned Systems Forces and the New Dimension of War": 1795254041.9731274,
+    "https://www.navalnews.com/naval-news/2026/11/french-navy-suffren-class-ssn-de-grasse-active-service": 1795256441.2792025,
+    "https://www.navalnews.com/?p=93912": 1795256441.2792025,
+    "title:French Navy’s Fourth Suffren-class SSN ‘De Grasse’ Enters Active Service": 1795256441.2792025
   },
   "events": [
-    {
-      "key": "義大利國產垂直發射系統",
-      "timestamp": 1794994844.9599588
-    },
     {
       "key": "川普深圳APEC會晤",
       "timestamp": 1794998472.9230964
@@ -2196,6 +2174,10 @@
     {
       "key": "英挪援烏快攻艇",
       "timestamp": 1795251697.046116
+    },
+    {
+      "key": "法軍蘇弗朗級潛艦服役",
+      "timestamp": 1795256443.1309981
     }
   ]
 }
