@@ -1,17 +1,5 @@
 {
   "ids": {
-    "https://www.cna.com.tw/news/acn/202611160122.aspx": 1794981653.7776062,
-    "CNA/2026-11-16/202611160122": 1794981653.7776062,
-    "title:DeepSeek自承算力不足 近日設定多種限制引議": 1794981653.7776062,
-    "https://www.cna.com.tw/news/ait/202611180141.aspx": 1794985254.2012038,
-    "CNA/2026-11-18/202611180141": 1794985254.2012038,
-    "title:台灣Google Play年度榜單揭曉 得獎App一次看": 1794985254.2012038,
-    "https://www.cna.com.tw/news/ait/202611160133.aspx": 1794985254.2030132,
-    "CNA/2026-11-16/202611160133": 1794985254.2030132,
-    "title:碳價疲軟加深資金缺口 歐洲碳捕捉恐累及公共財政": 1794985254.2030132,
-    "https://www.navalnews.com/naval-news/2026/11/tkms-and-baainbw-sign-contract-for-four-additional-meko-a-200-deu-frigates": 1794985260.673006,
-    "https://www.navalnews.com/?p=93680": 1794985260.673006,
-    "title:TKMS and BAAINBw sign contract for four additional MEKO A-200 DEU frigates": 1794985260.673006,
     "https://www.cna.com.tw/news/acn/202611180185.aspx": 1794987007.9106803,
     "CNA/2026-11-18/202611180185": 1794987007.9106803,
     "title:金門小三通年度旅運量逾200萬人次 縣府：續提升服務品質": 1794987007.9106803,
@@ -1780,13 +1768,12 @@
     "title:The ocean is missing from climate diplomacy. Again.": 1795239643.973875,
     "https://www.foreignaffairs.com/spain/pedro-sanchez-world-last-chance-peace-avert-world-war": 1795239644.427473,
     "1135757": 1795239644.427473,
-    "title:The World’s Last Chance for Peace": 1795239644.427473
+    "title:The World’s Last Chance for Peace": 1795239644.427473,
+    "https://www.cna.com.tw/news/acn/202611210107.aspx": 1795245628.7836294,
+    "CNA/2026-11-21/202611210107": 1795245628.7836294,
+    "title:強化中共領導 北京電影學院成立馬克思主義學院": 1795245628.7836294
   },
   "events": [
-    {
-      "key": "德軍MEKO護衛艦採購",
-      "timestamp": 1794985271.4008236
-    },
     {
       "key": "金門小三通旅運量突破",
       "timestamp": 1794987009.9529128
@@ -2218,6 +2205,10 @@
     {
       "key": "中共對台統戰施壓",
       "timestamp": 1795237273.9245515
+    },
+    {
+      "key": "北京電影學院馬克思主義學院成立",
+      "timestamp": 1795245629.9276178
     }
   ]
 }
