@@ -1,22 +1,5 @@
 {
   "ids": {
-    "https://www.atlanticcouncil.org/blogs/ukrainealert/putins-chief-negotiator-vows-to-return-every-inch-of-russian-land-in-ukraine": 1795041631.4666505,
-    "https://www.atlanticcouncil.org/?p=960326": 1795041631.4666505,
-    "title:Putin’s chief negotiator vows to seize ‘every inch of Russian land’ in Ukraine": 1795041631.4666505,
-    "https://www.atlanticcouncil.org/content-series/fastthinking/what-jensen-huangs-nvidia-exit-means-for-washington-wall-street-and-beijing": 1795041631.4667368,
-    "https://www.atlanticcouncil.org/?p=960169": 1795041631.4667368,
-    "title:What Jensen Huang’s Nvidia exit means for Washington, Wall Street, and Beijing": 1795041631.4667368,
-    "https://www.atlanticcouncil.org/dispatches/beyond-the-spy-scandal-what-the-nvidia-megaspeed-case-reveals-about-export-controls": 1795041631.466766,
-    "https://www.atlanticcouncil.org/?p=960191": 1795041631.466766,
-    "title:Beyond the spy scandal: What the Nvidia-Megaspeed case reveals about export controls": 1795041631.466766,
-    "https://news.usni.org/2026/11/12/u-s-transfers-unmanned-surface-vessels-to-philippine-marine-corps": 1795041633.3783972,
-    "https://news.usni.org/?p=126557": 1795041633.3783972,
-    "title:U.S. Transfers Unmanned Surface Vessels to Philippine Marine Corps": 1795041633.3783972,
-    "https://www.lowyinstitute.org/the-interpreter/first-nations-ip-protection-risks-going-from-miracle-to-mirage": 1795041635.6086295,
-    "title:First Nations IP protection risks going from “miracle to mirage”": 1795041635.6086295,
-    "https://www.navalnews.com/naval-news/2026/11/south-korea-launches-fifth-ffx-batch-iii-frigate-roks-pyeongtaek": 1795041637.5704627,
-    "https://www.navalnews.com/?p=93768": 1795041637.5704627,
-    "title:South Korea Launches Fifth FFX Batch-III Frigate, ROKS Pyeongtaek": 1795041637.5704627,
     "https://www.defensenews.com/global/the-americas/2026/11/18/us-surges-power-projection-to-westernmost-island-chain-as-russia-china-loom": 1795041647.5769508,
     "https://one.sightlinemg.com/defensenews/news/2026/11/18/us-surges-power-projection-to-westernmost-island-chain-as-russia-china-loom/": 1795041647.5769508,
     "title:US surges power projection to westernmost island chain as Russia, China loom": 1795041647.5769508,
@@ -1722,13 +1705,24 @@
     "title:Carrier USS George Washington Leaves Middle East After Three Months": 1795299631.1357503,
     "https://www.atlanticcouncil.org/blogs/geotech-cues/lessons-from-brazil-and-peru-on-how-to-build-ai-ready-institutions-across-latin-america": 1795299635.7582448,
     "https://www.atlanticcouncil.org/?p=962027": 1795299635.7582448,
-    "title:Lessons from Brazil and Peru on how to build AI-ready institutions across Latin America": 1795299635.7582448
+    "title:Lessons from Brazil and Peru on how to build AI-ready institutions across Latin America": 1795299635.7582448,
+    "https://news.usni.org/2026/11/18/senate-appropriators-cut-20b-from-navy-shipbuilding-request": 1795300832.125304,
+    "https://news.usni.org/?p=126712": 1795300832.125304,
+    "title:Senate Appropriators Cut $20B from Navy Shipbuilding Request": 1795300832.125304,
+    "https://news.usni.org/2026/11/12/royal-navy-to-trial-northrop-grumman-test-aircraft-on-carrier-in-2027": 1795300832.1258533,
+    "https://news.usni.org/?p=126549": 1795300832.1258533,
+    "title:Royal Navy to Trial Northrop Grumman Test Aircraft on Carrier in 2027": 1795300832.1258533,
+    "https://www.atlanticcouncil.org/insight-impact/in-the-news/charai-for-the-jerusalem-strategic-tribune-the-hidden-cost-of-americas-political-inconsistency": 1795300840.863808,
+    "https://www.atlanticcouncil.org/?p=962172": 1795300840.863808,
+    "title:Charai for The Jerusalem Strategic Tribune: The Hidden Cost of America’s Political Inconsistency": 1795300840.863808,
+    "https://www.atlanticcouncil.org/blogs/econographics/the-digital-yuan-is-only-part-of-chinas-expanding-global-payments-network": 1795300840.8651097,
+    "https://www.atlanticcouncil.org/?p=960006": 1795300840.8651097,
+    "title:The digital yuan is only part of China’s expanding global payments network": 1795300840.8651097,
+    "https://www.atlanticcouncil.org/blogs/ukrainealert/europe-sees-surge-in-suspected-russian-hybrid-warfare-incidents": 1795300840.8652782,
+    "https://www.atlanticcouncil.org/?p=959811": 1795300840.8652782,
+    "title:Europe sees surge in suspected Russian hybrid warfare incidents": 1795300840.8652782
   },
   "events": [
-    {
-      "key": "韓造第五艘忠南級巡防艦",
-      "timestamp": 1795041639.2346168
-    },
     {
       "key": "美軍西端島鏈兵力投射",
       "timestamp": 1795041649.2437267
