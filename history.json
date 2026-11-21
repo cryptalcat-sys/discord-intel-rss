@@ -1,22 +1,5 @@
 {
   "ids": {
-    "https://www.defensenews.com/newsletters/daily-news-roundup/2026/11/18/us-navy-used-expired-munitions-during-iran-war-cao-says": 1795036851.0352054,
-    "https://one.sightlinemg.com/defensenews/news/2026/11/18/us-navy-used-expired-munitions-during-iran-war-cao-says/": 1795036851.0352054,
-    "title:US Navy used expired munitions during Iran war, Cao says": 1795036851.0352054,
-    "https://news.usni.org/2026/11/12/navy-quietly-removes-uss-michael-murphy-commander": 1795036862.0844831,
-    "https://news.usni.org/?p=126543": 1795036862.0844831,
-    "title:Navy Quietly Removed USS Michael Murphy Commander in September": 1795036862.0844831,
-    "https://news.usni.org/2026/11/09/usni-news-fleet-and-marine-tracker-nov-9-2026": 1795036862.084903,
-    "https://news.usni.org/?p=126469": 1795036862.084903,
-    "title:USNI News Fleet and Marine Tracker: Nov. 9, 2026": 1795036862.084903,
-    "https://news.usni.org/2026/11/09/royal-navy-commissions-first-unmanned-surface-vehicle-squadron": 1795036862.08495,
-    "https://news.usni.org/?p=126464": 1795036862.08495,
-    "title:Royal Navy Commissions First Unmanned Surface Vehicle Squadron": 1795036862.08495,
-    "https://news.usni.org/2026/11/06/usni-news-western-pacific-pulse-nov-6-2026": 1795036862.0850906,
-    "https://news.usni.org/?p=126416": 1795036862.0850906,
-    "title:USNI News Western Pacific Pulse: Nov. 6, 2026": 1795036862.0850906,
-    "https://www.piie.com/events/2026/what-economic-vibes-say-about-reality-jason-furman-consumer-sentiment-recession": 1795038035.7475762,
-    "title:What economic vibes say about reality: Jason Furman on consumer sentiment, recession indicators, and more": 1795038035.7475762,
     "https://news.usni.org/2026/11/18/carrier-uss-george-washington-leaves-middle-east-after-three-months": 1795038042.8853164,
     "https://news.usni.org/?p=126706": 1795038042.8853164,
     "title:Carrier USS George Washington Leaves Middle East After Three Months": 1795038042.8853164,
@@ -1731,13 +1714,27 @@
     "title:AI agents promise a life free from friction. The cost could be human judgment.": 1795294847.556551,
     "https://breakingdefense.com/2026/11/toti-pushes-new-foreign-built-shipyard-in-the-us-to-focus-on-frigates-large-surface-combatants": 1795296044.1188745,
     "https://breakingdefense.com/?p=101512": 1795296044.1188745,
-    "title:Toti pushes new foreign-built shipyard in the US to focus on frigates, large surface combatants": 1795296044.1188745
+    "title:Toti pushes new foreign-built shipyard in the US to focus on frigates, large surface combatants": 1795296044.1188745,
+    "https://www.youtube.com/shorts/fry41inv8ts": 1795297231.8178012,
+    "yt:video:fry41inv8ts": 1795297231.8178012,
+    "title:Air Force finally getting modern helmets for fixed-wing aviators.": 1795297231.8178012,
+    "https://jamestown.org/turkic-integration-deepens-as-defense-cooperation-lags": 1795297234.0738723,
+    "https://jamestown.org/?p=886938": 1795297234.0738723,
+    "title:Turkic Integration Deepens as Defense Cooperation Lags": 1795297234.0738723,
+    "https://www.twz.com/air/l-39ng-skyfox-jets-could-give-ukraine-a-critical-new-russian-drone-hunting-capability": 1795297235.072751,
+    "https://www.twz.com/?p=6606979": 1795297235.072751,
+    "title:L-39NG Skyfox Jets Could Give Ukraine A Critical New Russian Drone Hunting Capability": 1795297235.072751,
+    "https://www.atlanticcouncil.org/blogs/menasource/upheaval-in-the-greater-north-african-security-complex-demands-a-new-transatlantic-policy-approach": 1795297235.8069048,
+    "https://www.atlanticcouncil.org/?p=961752": 1795297235.8069048,
+    "title:Upheaval in the Greater North African Security Complex demands a new transatlantic policy approach": 1795297235.8069048,
+    "https://warontherocks.com/analyzing-the-ethiopian-somaliland-deal-two-years-on": 1795297238.7436001,
+    "https://warontherocks.com/?p=48565": 1795297238.7436001,
+    "title:Analyzing the Ethiopian-Somaliland Deal, Two Years On": 1795297238.7436001,
+    "https://warontherocks.com/talks-attacks-and-a-heist": 1795297238.7438397,
+    "https://warontherocks.com/?p=48530": 1795297238.7438397,
+    "title:Talks, Attacks, and a Heist": 1795297238.7438397
   },
   "events": [
-    {
-      "key": "美軍消耗過期彈藥",
-      "timestamp": 1795036853.0299292
-    },
     {
       "key": "美航母重返西太平洋",
       "timestamp": 1795038044.9360185
