@@ -1,26 +1,5 @@
 {
   "ids": {
-    "https://warontherocks.com/the-u-s-chinese-russian-summit-and-the-future-of-trilateral-nuclear-talks": 1794991244.26536,
-    "https://warontherocks.com/?p=48665": 1794991244.26536,
-    "title:The U.S.-Chinese-Russian Summit and the Future of Trilateral Nuclear Talks": 1794991244.26536,
-    "https://warontherocks.com/the-limits-of-quiet-resignation-from-the-u-s-military": 1794991245.4632497,
-    "https://warontherocks.com/?p=48613": 1794991245.4632497,
-    "title:The Limits of Quiet Resignation from the U.S. Military": 1794991245.4632497,
-    "https://www.youtube.com/shorts/iGZJre6eEDw": 1794992455.7055366,
-    "yt:video:iGZJre6eEDw": 1794992455.7055366,
-    "title:雙層包圍態勢 共軍海空聯訓施壓東台灣｜ 公共電視 - 尖鋒對話": 1794992455.7055366,
-    "https://www.youtube.com/shorts/j-b8fnLkZWY": 1794992455.7055995,
-    "yt:video:j-b8fnLkZWY": 1794992455.7055995,
-    "title:無聲軍演非政治宣傳 實戰導向強化訓練｜ 公共電視 - 尖鋒對話": 1794992455.7055995,
-    "https://www.foreignaffairs.com/israel/why-israel-losing-america": 1794992456.3925977,
-    "1135764": 1794992456.3925977,
-    "title:Why Israel Is Losing America": 1794992456.3925977,
-    "https://www.foreignaffairs.com/china/china-doesnt-want-nuclear-arms-race": 1794992456.3926673,
-    "1135765": 1794992456.3926673,
-    "title:China Doesn’t Want a Nuclear Arms Race": 1794992456.3926673,
-    "https://www.cna.com.tw/news/acn/202611150102.aspx": 1794992457.2732897,
-    "CNA/2026-11-15/202611150102": 1794992457.2732897,
-    "title:黃仁勳風波後美恐緊縮晶片出口 中國官媒憂衝擊尖端算力": 1794992457.2732897,
     "https://www.youtube.com/shorts/O2vf6kwyCwc": 1794993635.8934271,
     "yt:video:O2vf6kwyCwc": 1794993635.8934271,
     "title:樂隊花車?沉默螺旋? 聲量能化為實際選票? ｜ 公共電視 - 尖鋒對話": 1794993635.8934271,
@@ -1759,7 +1738,22 @@
     "title:台灣Google Play年度榜單揭曉 得獎App一次看": 1795246728.8786757,
     "https://warontherocks.com/the-ground-beneath-the-cloud-dispersion-and-dependency-in-the-digital-age": 1795250435.6114905,
     "https://warontherocks.com/?p=48661": 1795250435.6114905,
-    "title:The Ground Beneath the Cloud: Dispersion and Dependency in the Digital Age": 1795250435.6114905
+    "title:The Ground Beneath the Cloud: Dispersion and Dependency in the Digital Age": 1795250435.6114905,
+    "https://www.youtube.com/shorts/L_t25J6My98": 1795251645.1889286,
+    "yt:video:L_t25J6My98": 1795251645.1889286,
+    "title:Ex-US Navy Captain: A Chinese Attack Risks Full US Response | Taiwan Talks #shorts": 1795251645.1889286,
+    "https://www.navalnews.com/naval-news/2026/11/uk-and-norway-commit-over-100m-for-two-new-fast-attack-craft-for-ukraine": 1795251649.0995262,
+    "https://www.navalnews.com/?p=93904": 1795251649.0995262,
+    "title:UK and Norway Commit Over £100M for Two New Fast Attack Craft for Ukraine": 1795251649.0995262,
+    "https://www.youtube.com/shorts/mu10kQWIKAg": 1795251706.5551298,
+    "yt:video:mu10kQWIKAg": 1795251706.5551298,
+    "title:美軍三航母壓境中東 軍事威嚇以戰逼和｜ 公共電視 - 尖鋒對話": 1795251706.5551298,
+    "https://www.foreignaffairs.com/israel/only-way-end-netanyahu-era": 1795251709.8587954,
+    "1135771": 1795251709.8587954,
+    "title:The Only Way to End the Netanyahu Era": 1795251709.8587954,
+    "https://www.foreignaffairs.com/colombia/avoiding-colombias-escalation-trap": 1795251709.8588712,
+    "1135773": 1795251709.8588712,
+    "title:Avoiding Colombia’s Escalation Trap": 1795251709.8588712
   },
   "events": [
     {
@@ -2189,6 +2183,10 @@
     {
       "key": "北京電影學院馬克思主義學院成立",
       "timestamp": 1795245629.9276178
+    },
+    {
+      "key": "英挪援烏快攻艇",
+      "timestamp": 1795251697.046116
     }
   ]
 }
