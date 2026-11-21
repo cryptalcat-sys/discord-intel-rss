@@ -1,17 +1,5 @@
 {
   "ids": {
-    "https://www.cna.com.tw/news/acn/202611180210.aspx": 1794990031.9076145,
-    "CNA/2026-11-18/202611180210": 1794990031.9076145,
-    "title:APEC經濟體互動 施振榮：強化台灣供應鏈不可或缺角色": 1794990031.9076145,
-    "https://www.youtube.com/shorts/L_t25J6My98": 1794990043.3008604,
-    "yt:video:L_t25J6My98": 1794990043.3008604,
-    "title:Ex-US Navy Captain: A Chinese Attack Risks Full US Response | Taiwan Talks #shorts": 1794990043.3008604,
-    "https://www.youtube.com/shorts/H_HW0i2V6kU": 1794990043.300929,
-    "yt:video:H_HW0i2V6kU": 1794990043.300929,
-    "title:China Accelerates Militarization as US Prepares for Taiwan Conflict | Taiwan Talks #shorts": 1794990043.300929,
-    "https://www.youtube.com/shorts/mu10kQWIKAg": 1794990049.4036536,
-    "yt:video:mu10kQWIKAg": 1794990049.4036536,
-    "title:美軍三航母壓境中東 軍事威嚇以戰逼和｜ 公共電視 - 尖鋒對話": 1794990049.4036536,
     "https://warontherocks.com/the-u-s-chinese-russian-summit-and-the-future-of-trilateral-nuclear-talks": 1794991244.26536,
     "https://warontherocks.com/?p=48665": 1794991244.26536,
     "title:The U.S.-Chinese-Russian Summit and the Future of Trilateral Nuclear Talks": 1794991244.26536,
@@ -1768,13 +1756,12 @@
     "title:強化中共領導 北京電影學院成立馬克思主義學院": 1795245628.7836294,
     "https://www.cna.com.tw/news/ait/202611180141.aspx": 1795246728.8786757,
     "CNA/2026-11-18/202611180141": 1795246728.8786757,
-    "title:台灣Google Play年度榜單揭曉 得獎App一次看": 1795246728.8786757
+    "title:台灣Google Play年度榜單揭曉 得獎App一次看": 1795246728.8786757,
+    "https://warontherocks.com/the-ground-beneath-the-cloud-dispersion-and-dependency-in-the-digital-age": 1795250435.6114905,
+    "https://warontherocks.com/?p=48661": 1795250435.6114905,
+    "title:The Ground Beneath the Cloud: Dispersion and Dependency in the Digital Age": 1795250435.6114905
   },
   "events": [
-    {
-      "key": "APEC台灣供應鏈定位",
-      "timestamp": 1794990033.6203003
-    },
     {
       "key": "義大利國產垂直發射系統",
       "timestamp": 1794994844.9599588
