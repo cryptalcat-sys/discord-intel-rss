@@ -1,23 +1,5 @@
 {
   "ids": {
-    "https://news.usni.org/2026/11/18/senate-appropriators-cut-20b-from-navy-shipbuilding-request": 1795039261.0837953,
-    "https://news.usni.org/?p=126712": 1795039261.0837953,
-    "title:Senate Appropriators Cut $20B from Navy Shipbuilding Request": 1795039261.0837953,
-    "https://www.atlanticcouncil.org/blogs/econographics/the-digital-yuan-is-only-part-of-chinas-expanding-global-payments-network": 1795040433.6420944,
-    "https://www.atlanticcouncil.org/?p=960006": 1795040433.6420944,
-    "title:The digital yuan is only part of China’s expanding global payments network": 1795040433.6420944,
-    "https://www.atlanticcouncil.org/blogs/ukrainealert/europe-sees-surge-in-suspected-russian-hybrid-warfare-incidents": 1795040433.6423805,
-    "https://www.atlanticcouncil.org/?p=959811": 1795040433.6423805,
-    "title:Europe sees surge in suspected Russian hybrid warfare incidents": 1795040433.6423805,
-    "https://www.twz.com/air/usaf-aircraft-continue-to-reposition-away-from-raf-mildenhall-amid-reports-of-iranian-threats": 1795040434.1122117,
-    "https://www.twz.com/?p=6606460": 1795040434.1122117,
-    "title:USAF Aircraft Continue To Reposition Away From RAF Mildenhall Amid Reports Of Iranian Threats": 1795040434.1122117,
-    "https://jamestown.org/russia-to-create-new-gulag-archipelago": 1795040434.6342208,
-    "https://jamestown.org/?p=886906": 1795040434.6342208,
-    "title:Russia to Create New Gulag Archipelago": 1795040434.6342208,
-    "https://news.usni.org/2026/11/12/royal-navy-to-trial-northrop-grumman-test-aircraft-on-carrier-in-2027": 1795040437.2712247,
-    "https://news.usni.org/?p=126549": 1795040437.2712247,
-    "title:Royal Navy to Trial Northrop Grumman Test Aircraft on Carrier in 2027": 1795040437.2712247,
     "https://www.atlanticcouncil.org/blogs/ukrainealert/putins-chief-negotiator-vows-to-return-every-inch-of-russian-land-in-ukraine": 1795041631.4666505,
     "https://www.atlanticcouncil.org/?p=960326": 1795041631.4666505,
     "title:Putin’s chief negotiator vows to seize ‘every inch of Russian land’ in Ukraine": 1795041631.4666505,
@@ -1734,13 +1716,15 @@
     "title:Navy Quietly Removed USS Michael Murphy Commander in September": 1795298452.6125388,
     "https://www.atlanticcouncil.org/dispatches/dispatch-from-manama-the-most-underappreciated-us-ally-in-the-gulf": 1795298455.27805,
     "https://www.atlanticcouncil.org/?p=961757": 1795298455.27805,
-    "title:Dispatch from Manama: The Iran war is not over for Bahrain": 1795298455.27805
+    "title:Dispatch from Manama: The Iran war is not over for Bahrain": 1795298455.27805,
+    "https://news.usni.org/2026/11/18/carrier-uss-george-washington-leaves-middle-east-after-three-months": 1795299631.1357503,
+    "https://news.usni.org/?p=126706": 1795299631.1357503,
+    "title:Carrier USS George Washington Leaves Middle East After Three Months": 1795299631.1357503,
+    "https://www.atlanticcouncil.org/blogs/geotech-cues/lessons-from-brazil-and-peru-on-how-to-build-ai-ready-institutions-across-latin-america": 1795299635.7582448,
+    "https://www.atlanticcouncil.org/?p=962027": 1795299635.7582448,
+    "title:Lessons from Brazil and Peru on how to build AI-ready institutions across Latin America": 1795299635.7582448
   },
   "events": [
-    {
-      "key": "美參院刪減造艦預算",
-      "timestamp": 1795039263.1115766
-    },
     {
       "key": "韓造第五艘忠南級巡防艦",
       "timestamp": 1795041639.2346168
