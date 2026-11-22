@@ -1,8 +1,5 @@
 {
   "ids": {
-    "https://www.cna.com.tw/news/ait/202611170287.aspx": 1795088434.2410083,
-    "CNA/2026-11-17/202611170287": 1795088434.2410083,
-    "title:微軟全球大當機停擺逾24小時 確認潛伏約4個月程式缺陷是禍因": 1795088434.2410083,
     "https://www.cna.com.tw/news/acn/202611190363.aspx": 1795094442.909036,
     "CNA/2026-11-19/202611190363": 1795094442.909036,
     "title:川普離開深圳返美 中國外長王毅送行": 1795094442.909036,
@@ -1786,7 +1783,10 @@
     "title:Trump Is Facing a Very Different North Korea": 1795344038.7341504,
     "https://www.cna.com.tw/news/acn/202611200295.aspx": 1795346431.1490633,
     "CNA/2026-11-20/202611200295": 1795346431.1490633,
-    "title:中美兩軍於上海舉行年度海上軍事安全磋商會議": 1795346431.1490633
+    "title:中美兩軍於上海舉行年度海上軍事安全磋商會議": 1795346431.1490633,
+    "https://www.navalnews.com/naval-news/2026/11/russian-warship-destroyed-in-huge-explosion-in-libya": 1795348860.884183,
+    "https://www.navalnews.com/?p=93927": 1795348860.884183,
+    "title:Russian Warship Destroyed In Huge Explosion In Libya": 1795348860.884183
   },
   "events": [
     {
@@ -2088,6 +2088,10 @@
     {
       "key": "陸民族法涉台風險",
       "timestamp": 1795323660.0072684
+    },
+    {
+      "key": "利比亞港口俄艦爆炸",
+      "timestamp": 1795348867.4793868
     }
   ]
 }
