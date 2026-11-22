@@ -1,25 +1,5 @@
 {
   "ids": {
-    "https://www.atlanticcouncil.org/dispatches/as-gen-z-asserts-itself-in-serbia-and-albania-the-upside-for-the-west-is-far-greater-than-the-headaches": 1795102860.722568,
-    "https://www.atlanticcouncil.org/?p=958097": 1795102860.722568,
-    "title:As Gen Z asserts itself in Serbia and Albania, the upside for the West is far greater than the headaches": 1795102860.722568,
-    "https://thediplomat.com/2026/11/nato-is-not-the-right-forum-to-discuss-china": 1795102866.9262686,
-    "https://thediplomat.com/2026/11/nato-is-not-the-right-forum-to-discuss-china/": 1795102866.9262686,
-    "title:NATO Is Not the Right Forum to Discuss China": 1795102866.9262686,
-    "https://www.twreporter.org/a/2026-local-elections-municipality-mayors-campaign-promises-check": 1795104046.8095465,
-    "title:社宅、幼托、長照、綠色運輸，4年後體檢六都現任市長競選政見落實程度": 1795104046.8095465,
-    "https://www.twreporter.org/a/podcast-2026-11-18": 1795104046.809608,
-    "title:年邁母親一句「我想斷食」，是善終或磨難的開始？從照顧者親身說法看生命末期的抉擇困境": 1795104046.809608,
-    "https://www.twreporter.org/a/2026-taipei-golden-horse-film-festival-double-happiness": 1795104046.8096633,
-    "title:出包之後，有人陪你一起走過──《雙囍》許承傑、謝沛如重寫婚禮的意義": 1795104046.8096633,
-    "https://www.lowyinstitute.org/the-interpreter/malaysia-taiwan-anwar-s-china-line-triggers-a-quiet-investment-freeze": 1795104049.1348214,
-    "title:Malaysia-Taiwan: Anwar’s China line triggers a quiet investment freeze": 1795104049.1348214,
-    "https://news.usni.org/2026/11/10/gao-report-on-the-defense-departments-f-35-program": 1795104051.1087782,
-    "https://news.usni.org/?p=126511": 1795104051.1087782,
-    "title:GAO Report on the Defense Department’s F-35 Program": 1795104051.1087782,
-    "https://www.atlanticcouncil.org/blogs/menasource/washington-is-reshaping-security-in-north-africa-congress-needs-to-ask-how": 1795104051.48031,
-    "https://www.atlanticcouncil.org/?p=960063": 1795104051.48031,
-    "title:Washington is reshaping security in North Africa. Congress needs to ask how.": 1795104051.48031,
     "https://breakingdefense.com/2026/11/the-real-world-missile-defense-lessons-from-ukraine-and-iran-and-how-they-matter-for-china": 1795106434.1055505,
     "https://breakingdefense.com/?p=101376": 1795106434.1055505,
     "title:The real-world missile defense lessons from Ukraine and Iran — and how they matter for China": 1795106434.1055505,
@@ -1792,13 +1772,18 @@
     "title:Tuteja interviewed on Bloomberg Tech about the implications of the midterm elections for data center development and the AI regulation": 1795362040.1199586,
     "https://thediplomat.com/2026/11/a-former-pakistani-army-captain-now-commands-the-bla": 1795362040.4188118,
     "https://thediplomat.com/2026/11/a-former-pakistani-army-captain-now-commands-the-bla/": 1795362040.4188118,
-    "title:The BLA’s Leadership Transition: Understanding Its New Tactics and Strategic Calculus": 1795362040.4188118
+    "title:The BLA’s Leadership Transition: Understanding Its New Tactics and Strategic Calculus": 1795362040.4188118,
+    "https://www.twreporter.org/a/saturday-features-legal-profession-drama-the-odyssey": 1795363249.353016,
+    "title:王子榮／《奧德賽》投射的司法難題：法律如何看見一個人的自我認同與內心傷痕？": 1795363249.353016,
+    "https://www.twreporter.org/a/2026-taipei-golden-horse-film-festival-we-are-born-good": 1795363249.3530948,
+    "title:吃盤乾炒牛河，找到善惡背後的理解──《善男信女》楊兩全的香港浮世繪": 1795363249.3530948,
+    "https://www.twreporter.org/a/2026-taipei-golden-horse-film-festival-yu-kan-ping": 1795363249.353184,
+    "title:記得自己、理解他人，清醒地走過時間──虞戡平的山屋、忠犬與晚年": 1795363249.353184,
+    "https://ecfr.eu/podcasts/episode/western-balkans-how-serbias-political-tsunami-changes-the-region": 1795363260.126084,
+    "https://ecfr.eu/podcasts/episode/western-balkans-how-serbias-political-tsunami-changes-the-region/": 1795363260.126084,
+    "title:Western Balkans: How Serbia’s political tsunami changes the region": 1795363260.126084
   },
   "events": [
-    {
-      "key": "波蘭軍用衛星擴建",
-      "timestamp": 1795102850.4903054
-    },
     {
       "key": "烏伊導防經驗對中",
       "timestamp": 1795106445.4634993
