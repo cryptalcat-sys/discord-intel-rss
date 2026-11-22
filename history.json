@@ -1,13 +1,5 @@
 {
   "ids": {
-    "https://www.lowyinstitute.org/the-interpreter/cockroach-janata-party-how-india-tried-to-delete-its-protesters-app": 1795130443.8477676,
-    "title:Cockroach Janata Party: how India tried to delete its protesters’ app": 1795130443.8477676,
-    "https://www.atlanticcouncil.org/content-series/fastthinking/what-the-trump-putin-xi-meeting-actually-achieved": 1795130445.7978237,
-    "https://www.atlanticcouncil.org/?p=962135": 1795130445.7978237,
-    "title:What the Trump-Putin-Xi meeting actually achieved": 1795130445.7978237,
-    "https://www.atlanticcouncil.org/blogs/econographics/congress-could-soon-rein-in-trumps-tariffs-on-canada-heres-what-that-could-look-like": 1795130447.0169683,
-    "https://www.atlanticcouncil.org/?p=961080": 1795130447.0169683,
-    "title:Congress could soon rein in Trump’s tariffs on Canada. Here’s what that could look like.": 1795130447.0169683,
     "https://www.twz.com/air/russian-bombers-arrive-in-vietnam-after-flurry-of-northeast-asia-air-alerts": 1795131634.0913904,
     "https://www.twz.com/?p=6608460": 1795131634.0913904,
     "title:Russian Tu-95 Bombers Arrive In Vietnam After Flurry Of Northeast Asia Air Alerts": 1795131634.0913904,
@@ -1776,7 +1768,18 @@
     "title:Why Kim Jong-un Skipped China? | The Capital Cable": 1795388460.9545896,
     "https://www.youtube.com/shorts/YEBrO93avXg": 1795388460.9546244,
     "yt:video:YEBrO93avXg": 1795388460.9546244,
-    "title:Trump, Xi, Putin: A Great Power Condominium? | The Capital Cable": 1795388460.9546244
+    "title:Trump, Xi, Putin: A Great Power Condominium? | The Capital Cable": 1795388460.9546244,
+    "https://www.atlanticcouncil.org/dispatches/the-us-didnt-have-a-strong-plan-for-the-shenzhen-summit-it-showed": 1795389633.1528466,
+    "https://www.atlanticcouncil.org/?p=962173": 1795389633.1528466,
+    "title:The US didn’t have a strong plan for the Shenzhen summit. It showed.": 1795389633.1528466,
+    "https://www.piie.com/events/2026/chrystia-freeland-power-politics-and-future-democracy": 1795389638.5914545,
+    "title:Chrystia Freeland on power, politics, and the future of democracy": 1795389638.5914545,
+    "https://news.usni.org/2026/11/16/vice-adm-oliver-lewis-takes-command-of-2nd-fleet": 1795389653.7529378,
+    "https://news.usni.org/?p=126665": 1795389653.7529378,
+    "title:Vice Adm. Oliver Lewis Takes Command of 2nd Fleet": 1795389653.7529378,
+    "https://news.usni.org/2026/11/16/uss-theodore-roosevelt-now-in-the-middle-east-lincolns-last-escorts-finally-home": 1795389653.752992,
+    "https://news.usni.org/?p=126655": 1795389653.752992,
+    "title:USS Theodore Roosevelt Now in the Middle East, Lincoln’s Last Escorts Finally Home": 1795389653.752992
   },
   "events": [
     {
@@ -1982,6 +1985,10 @@
     {
       "key": "太平洋警務安全博弈",
       "timestamp": 1795388447.8452024
+    },
+    {
+      "key": "加拿大民主政治演變",
+      "timestamp": 1795389642.3188844
     }
   ]
 }
