@@ -1,7 +1,5 @@
 {
   "ids": {
-    "https://www.piie.com/events/2026/labor-markets-and-structural-transformation-times-change-ai-and-demographic-shifts": 1795099274.1801546,
-    "title:Labor markets and structural transformation in times of change: AI and demographic shifts": 1795099274.1801546,
     "https://www.atlanticcouncil.org/insight-impact/in-the-news/tannebaum-quoted-in-the-new-york-times-on-us-unreliability-influencing-de-dollarization-efforts-4-9-2": 1795100466.0938623,
     "https://www.atlanticcouncil.org/?p=960262": 1795100466.0938623,
     "title:Tuteja interviewed on Bloomberg Tech about the implications of the midterm elections for data center development and the AI regulation": 1795100466.0938623,
@@ -1783,13 +1781,21 @@
     "title:Tannebaum interviewed on CNBC on the key takeaways from Trump-Xi-Putin meeting": 1795358433.916738,
     "https://www.atlanticcouncil.org/insight-impact/in-the-news/lipsky-featured-in-war-on-the-rocks-on-declining-widespread-use-of-the-dollar": 1795358433.916813,
     "https://www.atlanticcouncil.org/?p=961991": 1795358433.916813,
-    "title:Lipsky featured in War on the Rocks on declining widespread use of the dollar": 1795358433.916813
+    "title:Lipsky featured in War on the Rocks on declining widespread use of the dollar": 1795358433.916813,
+    "https://www.cna.com.tw/news/acn/202611220191.aspx": 1795359648.867831,
+    "CNA/2026-11-22/202611220191": 1795359648.867831,
+    "title:iPhone Duo上市滿月 中國市場降價幅度續擴大": 1795359648.867831,
+    "https://ecfr.eu/article/investment-at-home-cooperation-in-europe-how-italy-can-deal-with-hybrid-threats": 1795359649.4731479,
+    "https://ecfr.eu/article/investment-at-home-cooperation-in-europe-how-italy-can-deal-with-hybrid-threats/": 1795359649.4731479,
+    "title:Investment at home, cooperation in Europe: How Italy can deal with hybrid threats": 1795359649.4731479,
+    "https://news.usni.org/2026/11/19/compact-and-covert": 1795359654.2960923,
+    "https://news.usni.org/?p=126689": 1795359654.2960923,
+    "title:Compact and Covert": 1795359654.2960923,
+    "https://thediplomat.com/2026/11/australia-philippines-sign-new-defense-cooperation-arrangement": 1795359656.9814756,
+    "https://thediplomat.com/2026/11/australia-philippines-sign-new-defense-cooperation-arrangement/": 1795359656.9814756,
+    "title:Australia, Philippines Sign New Defense Cooperation Arrangement": 1795359656.9814756
   },
   "events": [
-    {
-      "key": "法潛蘇弗朗級維護",
-      "timestamp": 1795099265.043339
-    },
     {
       "key": "波蘭軍用衛星擴建",
       "timestamp": 1795102850.4903054
