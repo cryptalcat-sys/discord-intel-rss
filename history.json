@@ -1,14 +1,5 @@
 {
   "ids": {
-    "https://www.atlanticcouncil.org/in-depth-research-reports/issue-brief/thirty-years-of-progress-lost-at-sea": 1795113657.0919163,
-    "https://www.atlanticcouncil.org/?p=960111": 1795113657.0919163,
-    "title:Thirty years of progress, lost at sea": 1795113657.0919163,
-    "https://www.atlanticcouncil.org/inflection-points-with-frederick-kempe/nick-clegg-on-trumo-silicon-valley-and-big-techs-political-shift": 1795113657.0924082,
-    "https://www.atlanticcouncil.org/?p=959661": 1795113657.0924082,
-    "title:Nick Clegg on Trump, Silicon Valley, and Big Tech’s political shift": 1795113657.0924082,
-    "https://www.defensenews.com/industry/techwatch/2026/11/19/pentagon-lacks-overarching-plan-for-munitions-production-watchdog-warns": 1795114852.8378055,
-    "https://one.sightlinemg.com/defensenews/news/2026/11/19/pentagon-lacks-overarching-plan-for-munitions-production-watchdog-warns/": 1795114852.8378055,
-    "title:Pentagon lacks ‘overarching plan’ for munitions production, watchdog warns": 1795114852.8378055,
     "https://www.twz.com/sea/destroyer-that-has-been-deployed-longer-than-any-since-wwii-returns-home": 1795114866.1190236,
     "https://www.twz.com/?p=6607338": 1795114866.1190236,
     "title:Destroyer That Has Been Deployed Longer Than Any Since WWII Returns Home": 1795114866.1190236,
@@ -1789,17 +1780,17 @@
     "title:Japan Pledges Drones, Coastal Defense Radar in Latest Philippine Defense Package": 1795372831.6613026,
     "https://www.twz.com/news-features/impacts-of-latest-neptune-missile-strike-on-kerch-bridge-seen-in-satellite-imagery": 1795372836.2107286,
     "https://www.twz.com/?p=6609076": 1795372836.2107286,
-    "title:Impacts Of Latest Neptune Missile Strike On Kerch Bridge Seen In Satellite Imagery": 1795372836.2107286
+    "title:Impacts Of Latest Neptune Missile Strike On Kerch Bridge Seen In Satellite Imagery": 1795372836.2107286,
+    "https://www.defensenews.com/global/europe/2026/11/19/france-and-sweden-hold-first-joint-nuclear-deterrence-exercise": 1795374046.2842503,
+    "https://one.sightlinemg.com/defensenews/?p=88143": 1795374046.2842503,
+    "title:France and Sweden hold first joint nuclear-deterrence exercise": 1795374046.2842503,
+    "https://www.piie.com/blogs/realtime-economics/2026/how-congress-might-take-back-its-trade-powers-and-limit-trumps": 1795374052.3632667,
+    "title:How Congress might take back its trade powers and limit Trump's tariffs": 1795374052.3632667,
+    "https://www.twz.com/air/b-21-raider-has-released-its-first-weapon": 1795374056.6724265,
+    "https://www.twz.com/?p=6607357": 1795374056.6724265,
+    "title:B-21 Raider Has Released Its First Weapon": 1795374056.6724265
   },
   "events": [
-    {
-      "key": "法瑞聯合核嚇阻演習",
-      "timestamp": 1795113643.511816
-    },
-    {
-      "key": "五角大廈彈藥產能規劃",
-      "timestamp": 1795114857.7841723
-    },
     {
       "key": "愛沙尼亞歐衛模組軍艦下水",
       "timestamp": 1795116049.8427997
