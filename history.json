@@ -1,11 +1,5 @@
 {
   "ids": {
-    "https://www.navalnews.com/naval-news/2026/11/u-s-senate-seeks-to-exchange-shipbuilding-funds-for-more-munitions": 1795116045.711761,
-    "https://www.navalnews.com/?p=93656": 1795116045.711761,
-    "title:U.S. Senate Seeks to Exchange Shipbuilding Funds for More Munitions": 1795116045.711761,
-    "https://www.navalnews.com/naval-news/2026/11/estonian-president-christens-first-euroguard-the-largest-warship-ever-built-in-the-country": 1795116047.694659,
-    "https://www.navalnews.com/?p=93815": 1795116047.694659,
-    "title:Baltic Workboats Launches EUROGUARD Modular Ship in Estonia": 1795116047.694659,
     "https://www.twz.com/news-features/these-are-the-weapons-ukraine-used-to-drop-the-kerch-bridge": 1795117251.602724,
     "https://www.twz.com/?p=6608307": 1795117251.602724,
     "title:These Are The Weapons Ukraine Used To Drop The Kerch Bridge": 1795117251.602724,
@@ -1791,13 +1785,15 @@
     "title:Thirty years of progress, lost at sea": 1795375233.4018264,
     "https://www.atlanticcouncil.org/inflection-points-with-frederick-kempe/nick-clegg-on-trumo-silicon-valley-and-big-techs-political-shift": 1795375233.4027867,
     "https://www.atlanticcouncil.org/?p=959661": 1795375233.4027867,
-    "title:Nick Clegg on Trump, Silicon Valley, and Big Tech’s political shift": 1795375233.4027867
+    "title:Nick Clegg on Trump, Silicon Valley, and Big Tech’s political shift": 1795375233.4027867,
+    "https://www.twz.com/news-features/russias-prized-kerch-bridge-struck-in-ukrainian-drone-onslaught": 1795376437.0600374,
+    "https://www.twz.com/?p=6607875": 1795376437.0600374,
+    "title:Russia’s Prized Kerch Bridge Struck In Ukrainian Drone Onslaught (Updated)": 1795376437.0600374,
+    "https://www.twz.com/sea/destroyer-that-has-been-deployed-longer-than-any-since-wwii-returns-home": 1795376437.060364,
+    "https://www.twz.com/?p=6607338": 1795376437.060364,
+    "title:Destroyer That Has Been Deployed Longer Than Any Since WWII Returns Home": 1795376437.060364
   },
   "events": [
-    {
-      "key": "愛沙尼亞歐衛模組軍艦下水",
-      "timestamp": 1795116049.8427997
-    },
     {
       "key": "歐洲能源去俄羅斯化",
       "timestamp": 1795117256.5905304
