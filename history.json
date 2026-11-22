@@ -1,19 +1,5 @@
 {
   "ids": {
-    "https://news.usni.org/2026/11/16/vice-adm-oliver-lewis-takes-command-of-2nd-fleet": 1795128060.2839327,
-    "https://news.usni.org/?p=126665": 1795128060.2839327,
-    "title:Vice Adm. Oliver Lewis Takes Command of 2nd Fleet": 1795128060.2839327,
-    "https://news.usni.org/2026/11/16/uss-theodore-roosevelt-now-in-the-middle-east-lincolns-last-escorts-finally-home": 1795128060.2839723,
-    "https://news.usni.org/?p=126655": 1795128060.2839723,
-    "title:USS Theodore Roosevelt Now in the Middle East, Lincoln’s Last Escorts Finally Home": 1795128060.2839723,
-    "https://www.twz.com/news-features/ukraine-regretting-white-house-brokered-temporary-ceasefire-in-strategic-riverside-town-of-oleshky": 1795128061.0712094,
-    "https://www.twz.com/?p=6606827": 1795128061.0712094,
-    "title:Ukraine Regretting White House-Brokered Temporary Ceasefire In Strategic Riverside Town Of Oleshky": 1795128061.0712094,
-    "https://www.piie.com/events/2026/chrystia-freeland-power-politics-and-future-democracy": 1795129245.7799468,
-    "title:Chrystia Freeland on power, politics, and the future of democracy": 1795129245.7799468,
-    "https://www.atlanticcouncil.org/dispatches/the-us-didnt-have-a-strong-plan-for-the-shenzhen-summit-it-showed": 1795129261.0857015,
-    "https://www.atlanticcouncil.org/?p=962173": 1795129261.0857015,
-    "title:The US didn’t have a strong plan for the Shenzhen summit. It showed.": 1795129261.0857015,
     "https://www.lowyinstitute.org/the-interpreter/cockroach-janata-party-how-india-tried-to-delete-its-protesters-app": 1795130443.8477676,
     "title:Cockroach Janata Party: how India tried to delete its protesters’ app": 1795130443.8477676,
     "https://www.atlanticcouncil.org/content-series/fastthinking/what-the-trump-putin-xi-meeting-actually-achieved": 1795130445.7978237,
@@ -1770,17 +1756,29 @@
     "title:Where the Russia-Ukraine peace talks stand after Abu Dhabi": 1795384876.2736018,
     "https://www.twz.com/sea/ukraines-campaign-against-russian-naval-assets-far-beyond-the-black-sea-enters-a-new-phase": 1795387234.9164472,
     "https://www.twz.com/?p=6609886": 1795387234.9164472,
-    "title:Ukraine’s Campaign Against Russian Naval Assets Far Beyond The Black Sea Enters A New Phase": 1795387234.9164472
+    "title:Ukraine’s Campaign Against Russian Naval Assets Far Beyond The Black Sea Enters A New Phase": 1795387234.9164472,
+    "https://www.lowyinstitute.org/the-interpreter/how-pacific-islands-are-right-sizing-chinese-policing": 1795388443.4075522,
+    "title:How Pacific Islands are right-sizing Chinese policing": 1795388443.4075522,
+    "https://jamestown.org/alice-huangs-shady-shanghai-ties-to-business-and-government": 1795388458.5191762,
+    "https://jamestown.org/?p=886968": 1795388458.5191762,
+    "title:Alice Huang’s Shady Shanghai Ties to Business and Government": 1795388458.5191762,
+    "https://www.twz.com/news-features/regent-squire-wing-in-ground-effect-drone-to-patrol-middle-east-waters": 1795388459.4030368,
+    "https://www.twz.com/?p=6609261": 1795388459.4030368,
+    "title:Regent Squire Wing-In-Ground Effect Drone To Patrol Middle East Waters": 1795388459.4030368,
+    "https://www.twz.com/sea/trumps-demand-for-steam-catapults-on-new-carriers-is-a-non-starter-senate-armed-forces-chair": 1795388459.4033346,
+    "https://www.twz.com/?p=6608364": 1795388459.4033346,
+    "title:Trump’s Demand For Steam Catapults On New Carriers Is A “Non-Starter”: Senate Armed Forces Chair": 1795388459.4033346,
+    "https://www.youtube.com/shorts/_QsaAOy0zN8": 1795388460.954518,
+    "yt:video:_QsaAOy0zN8": 1795388460.954518,
+    "title:Is China Winning on Taiwan? | The Capital Cable": 1795388460.954518,
+    "https://www.youtube.com/shorts/oYEFpYvaL4Y": 1795388460.9545896,
+    "yt:video:oYEFpYvaL4Y": 1795388460.9545896,
+    "title:Why Kim Jong-un Skipped China? | The Capital Cable": 1795388460.9545896,
+    "https://www.youtube.com/shorts/YEBrO93avXg": 1795388460.9546244,
+    "yt:video:YEBrO93avXg": 1795388460.9546244,
+    "title:Trump, Xi, Putin: A Great Power Condominium? | The Capital Cable": 1795388460.9546244
   },
   "events": [
-    {
-      "key": "加拿大民主政治與全球化",
-      "timestamp": 1795129247.2764575
-    },
-    {
-      "key": "深圳峰會美中外交",
-      "timestamp": 1795129262.576977
-    },
     {
       "key": "美軍E-4B末日機護航",
       "timestamp": 1795134038.203747
@@ -1980,6 +1978,10 @@
     {
       "key": "烏軍跨黑海打擊俄艦",
       "timestamp": 1795387237.1732101
+    },
+    {
+      "key": "太平洋警務安全博弈",
+      "timestamp": 1795388447.8452024
     }
   ]
 }
