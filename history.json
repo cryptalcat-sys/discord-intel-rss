@@ -1,23 +1,5 @@
 {
   "ids": {
-    "https://www.cna.com.tw/news/acn/202611190363.aspx": 1795094442.909036,
-    "CNA/2026-11-19/202611190363": 1795094442.909036,
-    "title:川普離開深圳返美 中國外長王毅送行": 1795094442.909036,
-    "https://thediplomat.com/2026/11/australia-philippines-sign-new-defense-cooperation-arrangement": 1795095634.7758403,
-    "https://thediplomat.com/2026/11/australia-philippines-sign-new-defense-cooperation-arrangement/": 1795095634.7758403,
-    "title:Australia, Philippines Sign New Defense Cooperation Arrangement": 1795095634.7758403,
-    "https://www.defensenews.com/global/europe/2026/11/19/ukraine-plans-to-double-drone-supplies-triple-deep-strikes": 1795095639.7067807,
-    "https://one.sightlinemg.com/defensenews/?p=88123": 1795095639.7067807,
-    "title:Ukraine plans to double drone supplies, triple deep strikes": 1795095639.7067807,
-    "https://breakingdefense.com/2026/11/cyclokinetics-wins-86-3-million-pentagon-contract-for-alternative-fuels": 1795096853.4675748,
-    "https://breakingdefense.com/?p=101384": 1795096853.4675748,
-    "title:Cyclokinetics wins $86.3 million Pentagon contract for alternative fuels": 1795096853.4675748,
-    "https://breakingdefense.com/2026/11/training-for-any-scenario-anywhere-in-the-world-starting-with-the-pacific-in-guam": 1795096885.152291,
-    "https://breakingdefense.com/?p=101423": 1795096885.152291,
-    "title:Training for any scenario, anywhere in the world, starting with the Pacific in Guam": 1795096885.152291,
-    "https://news.usni.org/2026/11/19/compact-and-covert": 1795099235.6882792,
-    "https://news.usni.org/?p=126689": 1795099235.6882792,
-    "title:Compact and Covert": 1795099235.6882792,
     "https://www.piie.com/events/2026/labor-markets-and-structural-transformation-times-change-ai-and-demographic-shifts": 1795099274.1801546,
     "title:Labor markets and structural transformation in times of change: AI and demographic shifts": 1795099274.1801546,
     "https://www.atlanticcouncil.org/insight-impact/in-the-news/tannebaum-quoted-in-the-new-york-times-on-us-unreliability-influencing-de-dollarization-efforts-4-9-2": 1795100466.0938623,
@@ -1792,17 +1774,18 @@
     "title:微軟全球大當機停擺逾24小時 確認潛伏約4個月程式缺陷是禍因": 1795350039.4217784,
     "https://www.youtube.com/shorts/xAye6TXz8y0": 1795352451.9009464,
     "yt:video:xAye6TXz8y0": 1795352451.9009464,
-    "title:What AI Agent Attacks Mean for India’s Cyberspace": 1795352451.9009464
+    "title:What AI Agent Attacks Mean for India’s Cyberspace": 1795352451.9009464,
+    "https://www.atlanticcouncil.org/insight-impact/in-the-news/chhangani-cited-in-imf-policy-paper-on-the-shift-of-cbdc-projects-towards-wholesale-applications": 1795358433.916515,
+    "https://www.atlanticcouncil.org/?p=962257": 1795358433.916515,
+    "title:Chhangani cited in IMF Policy Paper on the shift of CBDC projects towards wholesale applications": 1795358433.916515,
+    "https://www.atlanticcouncil.org/insight-impact/in-the-news/tannebaum-interviewed-on-cnbc-on-the-key-takeaways-from-trump-xi-putin-meeting": 1795358433.916738,
+    "https://www.atlanticcouncil.org/?p=961995": 1795358433.916738,
+    "title:Tannebaum interviewed on CNBC on the key takeaways from Trump-Xi-Putin meeting": 1795358433.916738,
+    "https://www.atlanticcouncil.org/insight-impact/in-the-news/lipsky-featured-in-war-on-the-rocks-on-declining-widespread-use-of-the-dollar": 1795358433.916813,
+    "https://www.atlanticcouncil.org/?p=961991": 1795358433.916813,
+    "title:Lipsky featured in War on the Rocks on declining widespread use of the dollar": 1795358433.916813
   },
   "events": [
-    {
-      "key": "烏軍長程打擊無人機戰略",
-      "timestamp": 1795095644.239807
-    },
-    {
-      "key": "美軍替代燃料採購",
-      "timestamp": 1795096877.1519275
-    },
     {
       "key": "法潛蘇弗朗級維護",
       "timestamp": 1795099265.043339
