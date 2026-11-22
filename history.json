@@ -1,19 +1,5 @@
 {
   "ids": {
-    "https://www.piie.com/blogs/realtime-economics/2026/how-congress-might-take-back-its-trade-powers-and-limit-trumps": 1795112482.926126,
-    "title:How Congress might take back its trade powers and limit Trump's tariffs": 1795112482.926126,
-    "https://www.twz.com/air/b-21-raider-has-released-its-first-weapon": 1795113633.734624,
-    "https://www.twz.com/?p=6607357": 1795113633.734624,
-    "title:B-21 Raider Has Released Its First Weapon": 1795113633.734624,
-    "https://www.twz.com/news-features/autonomous-cessna-caravan-air-ambulance-to-be-tested-by-u-s-military": 1795113633.734844,
-    "https://www.twz.com/?p=6606670": 1795113633.734844,
-    "title:Autonomous Cessna Caravan Air Ambulance To Be Tested By U.S. Military": 1795113633.734844,
-    "https://news.usni.org/2026/11/10/u-k-to-develop-north-atlantic-network-of-drones-ai-systems-to-find-russian-subs": 1795113635.283174,
-    "https://news.usni.org/?p=126513": 1795113635.283174,
-    "title:U.K. to Develop North Atlantic Network of Drones, AI Systems to Find Russian Subs": 1795113635.283174,
-    "https://www.defensenews.com/global/europe/2026/11/19/france-and-sweden-hold-first-joint-nuclear-deterrence-exercise": 1795113637.5199153,
-    "https://one.sightlinemg.com/defensenews/?p=88143": 1795113637.5199153,
-    "title:France and Sweden hold first joint nuclear-deterrence exercise": 1795113637.5199153,
     "https://www.atlanticcouncil.org/in-depth-research-reports/issue-brief/thirty-years-of-progress-lost-at-sea": 1795113657.0919163,
     "https://www.atlanticcouncil.org/?p=960111": 1795113657.0919163,
     "title:Thirty years of progress, lost at sea": 1795113657.0919163,
@@ -1794,13 +1780,18 @@
     "https://www.atlanticcouncil.org/?p=960600": 1795371630.434453,
     "title:Why Congress and the European Parliament need an AI safety dialogue": 1795371630.434453,
     "https://www.piie.com/blogs/realtime-economics/2026/after-blue-tsunami-getting-rid-trumps-tariffs": 1795371633.7068174,
-    "title:After the Blue Tsunami: Getting rid of Trump’s tariffs": 1795371633.7068174
+    "title:After the Blue Tsunami: Getting rid of Trump’s tariffs": 1795371633.7068174,
+    "https://news.usni.org/2026/11/16/navy-weapons-division-to-make-tomahawk-components-in-2027": 1795372831.6611662,
+    "https://news.usni.org/?p=126625": 1795372831.6611662,
+    "title:Navy Weapons Division to Make Tomahawk Components in 2027": 1795372831.6611662,
+    "https://news.usni.org/2026/11/13/japan-pledges-drones-coastal-defense-radar-in-latest-philippine-defense-package": 1795372831.6613026,
+    "https://news.usni.org/?p=126562": 1795372831.6613026,
+    "title:Japan Pledges Drones, Coastal Defense Radar in Latest Philippine Defense Package": 1795372831.6613026,
+    "https://www.twz.com/news-features/impacts-of-latest-neptune-missile-strike-on-kerch-bridge-seen-in-satellite-imagery": 1795372836.2107286,
+    "https://www.twz.com/?p=6609076": 1795372836.2107286,
+    "title:Impacts Of Latest Neptune Missile Strike On Kerch Bridge Seen In Satellite Imagery": 1795372836.2107286
   },
   "events": [
-    {
-      "key": "海王星擊克里米橋",
-      "timestamp": 1795112474.1734004
-    },
     {
       "key": "法瑞聯合核嚇阻演習",
       "timestamp": 1795113643.511816
