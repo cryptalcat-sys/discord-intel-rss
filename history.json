@@ -1,17 +1,5 @@
 {
   "ids": {
-    "https://www.cna.com.tw/news/acn/202611200002.aspx": 1795108854.260193,
-    "CNA/2026-11-20/202611200002": 1795108854.260193,
-    "title:中俄美元首會晤 中國外長：大國加強溝通符合世界期待": 1795108854.260193,
-    "https://www.atlanticcouncil.org/dispatches/what-trump-putin-and-xi-want-from-their-meeting-in-shenzhen": 1795110032.8445125,
-    "https://www.atlanticcouncil.org/?p=961216": 1795110032.8445125,
-    "title:What Trump, Putin, and Xi want from their meeting in Shenzhen": 1795110032.8445125,
-    "https://www.atlanticcouncil.org/dispatches/the-election-that-never-happened-and-why-washington-needs-a-new-strategy-toward-nicaragua": 1795110032.8452444,
-    "https://www.atlanticcouncil.org/?p=960291": 1795110032.8452444,
-    "title:The election that never happened, and why Washington needs a new strategy toward Nicaragua": 1795110032.8452444,
-    "https://www.defensenews.com/air/2026/11/19/f-35c-completes-first-launch-and-recovery-trials-on-a-ford-class-carrier": 1795110033.1819408,
-    "https://one.sightlinemg.com/defensenews/news/2026/11/19/f-35c-completes-first-launch-and-recovery-trials-on-a-ford-class-carrier/": 1795110033.1819408,
-    "title:F-35C completes first launch and recovery trials on a Ford-class carrier": 1795110033.1819408,
     "https://breakingdefense.com/2026/11/raytheon-taps-ursa-major-avio-usa-as-second-source-for-tomahawk-solid-rocket-motors": 1795110068.0671284,
     "https://breakingdefense.com/?p=101476": 1795110068.0671284,
     "title:Raytheon taps Ursa Major, Avio USA as second source for Tomahawk solid rocket motors": 1795110068.0671284,
@@ -1800,17 +1788,12 @@
     "title:What are Australia’s offshore university campuses for?": 1795368038.2529268,
     "https://warontherocks.com/what-ukraine-hath-wrought-lessons-for-war-if-were-listening": 1795368038.5384004,
     "https://warontherocks.com/?p=48715": 1795368038.5384004,
-    "title:What Ukraine Hath Wrought: Lessons for War, If We’re Listening": 1795368038.5384004
+    "title:What Ukraine Hath Wrought: Lessons for War, If We’re Listening": 1795368038.5384004,
+    "https://news.usni.org/2026/11/19/report-to-congress-on-the-creation-of-an-autonomous-warfare-command": 1795369244.6513307,
+    "https://news.usni.org/?p=126720": 1795369244.6513307,
+    "title:Report to Congress on the Creation of an Autonomous Warfare Command": 1795369244.6513307
   },
   "events": [
-    {
-      "key": "美軍自主作戰司令部建軍",
-      "timestamp": 1795108841.9108365
-    },
-    {
-      "key": "中俄美元首會晤",
-      "timestamp": 1795108879.9542234
-    },
     {
       "key": "福特級F-35C試飛",
       "timestamp": 1795110058.9863484
