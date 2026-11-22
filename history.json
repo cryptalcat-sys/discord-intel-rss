@@ -1,13 +1,5 @@
 {
   "ids": {
-    "https://www.atlanticcouncil.org/commentary/podcast/mercenaries-apps-and-crypto-russias-hybrid-war-on-europe": 1795107651.4244514,
-    "https://www.atlanticcouncil.org/?p=960566": 1795107651.4244514,
-    "title:Mercenaries, apps, and crypto: Russia’s hybrid war on Europe": 1795107651.4244514,
-    "https://www.atlanticcouncil.org/content-series/balkans-debrief/can-montenegros-accession-reinvigorate-eu-enlargement-a-debrief-with-gert-jan-koopman": 1795107651.4318256,
-    "https://www.atlanticcouncil.org/?p=960941": 1795107651.4318256,
-    "title:Can Montenegro’s accession reinvigorate EU enlargement? A Debrief with Gert Jan Koopman": 1795107651.4318256,
-    "https://www.lowyinstitute.org/the-interpreter/what-are-australia-s-offshore-university-campuses-for": 1795107653.0191045,
-    "title:What are Australia’s offshore university campuses for?": 1795107653.0191045,
     "https://news.usni.org/2026/11/19/report-to-congress-on-the-creation-of-an-autonomous-warfare-command": 1795108835.6279485,
     "https://news.usni.org/?p=126720": 1795108835.6279485,
     "title:Report to Congress on the Creation of an Autonomous Warfare Command": 1795108835.6279485,
@@ -1797,13 +1789,12 @@
     "title:Malaysia-Taiwan: Anwar’s China line triggers a quiet investment freeze": 1795364450.0817034,
     "https://www.youtube.com/shorts/jT0Cw1NckRg": 1795365638.3178403,
     "yt:video:jT0Cw1NckRg": 1795365638.3178403,
-    "title:U.S. Technology Dependency": 1795365638.3178403
+    "title:U.S. Technology Dependency": 1795365638.3178403,
+    "https://breakingdefense.com/2026/11/trump-to-keynote-reagan-national-defense-forum": 1795366849.3840892,
+    "https://breakingdefense.com/?p=101572": 1795366849.3840892,
+    "title:Trump to keynote Reagan National Defense Forum": 1795366849.3840892
   },
   "events": [
-    {
-      "key": "烏伊導防經驗對中",
-      "timestamp": 1795106445.4634993
-    },
     {
       "key": "美軍自主作戰司令部建軍",
       "timestamp": 1795108841.9108365
