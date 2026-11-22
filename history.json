@@ -1,26 +1,5 @@
 {
   "ids": {
-    "https://www.cna.com.tw/news/acn/202611190058.aspx": 1795062034.1335034,
-    "CNA/2026-11-19/202611190058": 1795062034.1335034,
-    "title:香港配合APEC峰會設禁飛區 3人違規被捕": 1795062034.1335034,
-    "https://www.atlanticcouncil.org/dispatches/putin-wants-peace-talks-he-doesnt-want-peace": 1795063235.1895447,
-    "https://www.atlanticcouncil.org/?p=959149": 1795063235.1895447,
-    "title:Putin wants peace talks. He doesn’t want peace.": 1795063235.1895447,
-    "https://www.atlanticcouncil.org/dispatches/why-this-us-midterm-was-unusually-important-for-the-middle-east": 1795063235.1899664,
-    "https://www.atlanticcouncil.org/?p=958373": 1795063235.1899664,
-    "title:Why this US midterm was unusually important for the Middle East": 1795063235.1899664,
-    "https://www.lowyinstitute.org/the-interpreter/ganges-treaty-expiry-tests-a-fragile-bilateral-relationship": 1795063237.8152149,
-    "title:Ganges treaty expiry tests a fragile bilateral relationship": 1795063237.8152149,
-    "https://www.lowyinstitute.org/the-interpreter/aukus-inquiry-scepticism-runs-only-one-way": 1795063237.8152766,
-    "title:AUKUS inquiry scepticism runs only one way": 1795063237.8152766,
-    "https://www.lowyinstitute.org/the-interpreter/billions-came-fast-for-the-fuel-crisis-the-pacific-still-waits-for-climate-finance": 1795063237.8161395,
-    "title:Billions came fast for the fuel crisis – the Pacific still waits for climate finance": 1795063237.8161395,
-    "https://www.twz.com/air/the-air-forces-newest-trainer-is-an-aerial-stunt-plane": 1795063241.5186088,
-    "https://www.twz.com/?p=6607278": 1795063241.5186088,
-    "title:The Air Force’s Newest Trainer Is An Aerobatic Plane": 1795063241.5186088,
-    "https://www.twz.com/air/mq-58-valkyrie-drones-now-cost-6m-8m-each": 1795063241.5192883,
-    "https://www.twz.com/?p=6606084": 1795063241.5192883,
-    "title:MQ-58 Valkyrie Drones Now Cost $6M-$8M Each": 1795063241.5192883,
     "https://www.cna.com.tw/news/aopl/202611190111.aspx": 1795065636.8789084,
     "CNA/2026-11-19/202611190111": 1795065636.8789084,
     "title:輝達預告12月加薪留才 高層揭示擴大AI工廠業務": 1795065636.8789084,
@@ -1711,13 +1690,12 @@
     "title:AI熱潮衝擊企業氣候承諾 Meta重新評估2030淨零目標": 1795317639.4504914,
     "https://www.cna.com.tw/news/acn/202611220051.aspx": 1795320044.121236,
     "CNA/2026-11-22/202611220051": 1795320044.121236,
-    "title:股市大跌中國官媒喊話指經濟唱空者終落空 網友紛吐槽": 1795320044.121236
+    "title:股市大跌中國官媒喊話指經濟唱空者終落空 網友紛吐槽": 1795320044.121236,
+    "https://www.cna.com.tw/news/acn/202611220055.aspx": 1795323649.5354598,
+    "CNA/2026-11-22/202611220055": 1795323649.5354598,
+    "title:中國實施民族團結法 邱垂正：增加國人赴陸風險": 1795323649.5354598
   },
   "events": [
-    {
-      "key": "香港APEC禁飛無人機",
-      "timestamp": 1795062035.676002
-    },
     {
       "key": "輝達AI戰略與人才留任",
       "timestamp": 1795065646.6866548
@@ -2061,6 +2039,10 @@
     {
       "key": "中國官媒唱空論",
       "timestamp": 1795320046.4611337
+    },
+    {
+      "key": "陸民族法涉台風險",
+      "timestamp": 1795323660.0072684
     }
   ]
 }
