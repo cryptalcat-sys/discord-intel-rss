@@ -1,13 +1,5 @@
 {
   "ids": {
-    "https://breakingdefense.com/2026/11/raytheon-taps-ursa-major-avio-usa-as-second-source-for-tomahawk-solid-rocket-motors": 1795110068.0671284,
-    "https://breakingdefense.com/?p=101476": 1795110068.0671284,
-    "title:Raytheon taps Ursa Major, Avio USA as second source for Tomahawk solid rocket motors": 1795110068.0671284,
-    "https://www.atlanticcouncil.org/dispatches/why-congress-and-the-european-parliament-need-an-ai-safety-dialogue": 1795111252.266248,
-    "https://www.atlanticcouncil.org/?p=960600": 1795111252.266248,
-    "title:Why Congress and the European Parliament need an AI safety dialogue": 1795111252.266248,
-    "https://www.piie.com/blogs/realtime-economics/2026/after-blue-tsunami-getting-rid-trumps-tariffs": 1795111252.49246,
-    "title:After the Blue Tsunami: Getting rid of Trump’s tariffs": 1795111252.49246,
     "https://news.usni.org/2026/11/16/navy-weapons-division-to-make-tomahawk-components-in-2027": 1795111255.593185,
     "https://news.usni.org/?p=126625": 1795111255.593185,
     "title:Navy Weapons Division to Make Tomahawk Components in 2027": 1795111255.593185,
@@ -1791,17 +1783,21 @@
     "title:What Ukraine Hath Wrought: Lessons for War, If We’re Listening": 1795368038.5384004,
     "https://news.usni.org/2026/11/19/report-to-congress-on-the-creation-of-an-autonomous-warfare-command": 1795369244.6513307,
     "https://news.usni.org/?p=126720": 1795369244.6513307,
-    "title:Report to Congress on the Creation of an Autonomous Warfare Command": 1795369244.6513307
+    "title:Report to Congress on the Creation of an Autonomous Warfare Command": 1795369244.6513307,
+    "https://www.atlanticcouncil.org/dispatches/what-trump-putin-and-xi-want-from-their-meeting-in-shenzhen": 1795370448.596961,
+    "https://www.atlanticcouncil.org/?p=961216": 1795370448.596961,
+    "title:What Trump, Putin, and Xi want from their meeting in Shenzhen": 1795370448.596961,
+    "https://www.atlanticcouncil.org/dispatches/the-election-that-never-happened-and-why-washington-needs-a-new-strategy-toward-nicaragua": 1795370448.597493,
+    "https://www.atlanticcouncil.org/?p=960291": 1795370448.597493,
+    "title:The election that never happened, and why Washington needs a new strategy toward Nicaragua": 1795370448.597493,
+    "https://www.defensenews.com/global/asia-pacific/2026/11/20/trump-xi-agreed-that-military-ai-decisions-should-involve-humans-bessent-says": 1795370450.3445363,
+    "https://one.sightlinemg.com/defensenews/news/2026/11/20/trump-xi-agreed-that-military-ai-decisions-should-involve-humans-bessent-says/": 1795370450.3445363,
+    "title:Trump, Xi agreed that military AI decisions should involve humans, Bessent says": 1795370450.3445363,
+    "https://www.defensenews.com/air/2026/11/19/f-35c-completes-first-launch-and-recovery-trials-on-a-ford-class-carrier": 1795370450.3450115,
+    "https://one.sightlinemg.com/defensenews/news/2026/11/19/f-35c-completes-first-launch-and-recovery-trials-on-a-ford-class-carrier/": 1795370450.3450115,
+    "title:F-35C completes first launch and recovery trials on a Ford-class carrier": 1795370450.3450115
   },
   "events": [
-    {
-      "key": "福特級F-35C試飛",
-      "timestamp": 1795110058.9863484
-    },
-    {
-      "key": "戰斧飛彈固態火箭發動機",
-      "timestamp": 1795110084.277471
-    },
     {
       "key": "海王星擊克里米橋",
       "timestamp": 1795112474.1734004
