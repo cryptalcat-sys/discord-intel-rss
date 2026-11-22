@@ -1,14 +1,5 @@
 {
   "ids": {
-    "https://www.defensenews.com/global/europe/2026/11/19/mbda-and-german-startup-atmos-team-up-to-study-space-based-strike-weapons": 1795084852.4717922,
-    "https://one.sightlinemg.com/defensenews/?p=88117": 1795084852.4717922,
-    "title:MBDA and German startup Atmos team up to study space-based strike weapons": 1795084852.4717922,
-    "https://www.youtube.com/shorts/kWD21wNlauA": 1795086048.9561925,
-    "yt:video:kWD21wNlauA": 1795086048.9561925,
-    "title:What India Can Give Manila That US Can’t | Taiwan Talks #shorts": 1795086048.9561925,
-    "https://www.youtube.com/shorts/RCrDOfwWs50": 1795086048.9562473,
-    "yt:video:RCrDOfwWs50": 1795086048.9562473,
-    "title:Expert: BrahMos Could Help Manila Deter Beijing | Taiwan Talks #shorts": 1795086048.9562473,
     "https://www.cna.com.tw/news/ait/202611170287.aspx": 1795088434.2410083,
     "CNA/2026-11-17/202611170287": 1795088434.2410083,
     "title:微軟全球大當機停擺逾24小時 確認潛伏約4個月程式缺陷是禍因": 1795088434.2410083,
@@ -1792,13 +1783,12 @@
     "title:A New Kind of Foreign Agent": 1795344038.73412,
     "https://www.foreignaffairs.com/north-korea/trump-facing-very-different-north-korea": 1795344038.7341504,
     "1135754": 1795344038.7341504,
-    "title:Trump Is Facing a Very Different North Korea": 1795344038.7341504
+    "title:Trump Is Facing a Very Different North Korea": 1795344038.7341504,
+    "https://www.cna.com.tw/news/acn/202611200295.aspx": 1795346431.1490633,
+    "CNA/2026-11-20/202611200295": 1795346431.1490633,
+    "title:中美兩軍於上海舉行年度海上軍事安全磋商會議": 1795346431.1490633
   },
   "events": [
-    {
-      "key": "軌道精準打擊武器研發",
-      "timestamp": 1795084857.7364872
-    },
     {
       "key": "烏軍長程打擊無人機戰略",
       "timestamp": 1795095644.239807
