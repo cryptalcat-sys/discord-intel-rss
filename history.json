@@ -1,23 +1,5 @@
 {
   "ids": {
-    "https://www.twz.com/news-features/regent-squire-wing-in-ground-effect-drone-to-patrol-middle-east-waters": 1795126834.636234,
-    "https://www.twz.com/?p=6609261": 1795126834.636234,
-    "title:Regent Squire Wing-In-Ground Effect Drone To Patrol Middle East Waters": 1795126834.636234,
-    "https://www.twz.com/sea/trumps-demand-for-steam-catapults-on-new-carriers-is-a-non-starter-senate-armed-forces-chair": 1795126844.1349096,
-    "https://www.twz.com/?p=6608364": 1795126844.1349096,
-    "title:Trump’s Demand For Steam Catapults On New Carriers Is A “Non-Starter”: Senate Armed Forces Chair": 1795126844.1349096,
-    "https://jamestown.org/alice-huangs-shady-shanghai-ties-to-business-and-government": 1795126851.0409842,
-    "https://jamestown.org/?p=886968": 1795126851.0409842,
-    "title:Alice Huang’s Shady Shanghai Ties to Business and Government": 1795126851.0409842,
-    "https://www.youtube.com/shorts/_QsaAOy0zN8": 1795128034.7791328,
-    "yt:video:_QsaAOy0zN8": 1795128034.7791328,
-    "title:Is China Winning on Taiwan? | The Capital Cable": 1795128034.7791328,
-    "https://www.youtube.com/shorts/oYEFpYvaL4Y": 1795128036.2688038,
-    "yt:video:oYEFpYvaL4Y": 1795128036.2688038,
-    "title:Why Kim Jong-un Skipped the Shenzhen Summit? | The Capital Cable": 1795128036.2688038,
-    "https://www.youtube.com/shorts/YEBrO93avXg": 1795128045.920633,
-    "yt:video:YEBrO93avXg": 1795128045.920633,
-    "title:Trump, Xi, Putin: A Great Power Condominium? | The Capital Cable": 1795128045.920633,
     "https://news.usni.org/2026/11/16/vice-adm-oliver-lewis-takes-command-of-2nd-fleet": 1795128060.2839327,
     "https://news.usni.org/?p=126665": 1795128060.2839327,
     "title:Vice Adm. Oliver Lewis Takes Command of 2nd Fleet": 1795128060.2839327,
@@ -1785,25 +1767,12 @@
     "title:Ukraine’s Crimean Bridge attack is a very personal humiliation for Putin": 1795384876.2723281,
     "https://www.atlanticcouncil.org/content-series/fastthinking/where-the-russia-ukraine-peace-talks-stand-after-abu-dhabi": 1795384876.2736018,
     "https://www.atlanticcouncil.org/?p=959899": 1795384876.2736018,
-    "title:Where the Russia-Ukraine peace talks stand after Abu Dhabi": 1795384876.2736018
+    "title:Where the Russia-Ukraine peace talks stand after Abu Dhabi": 1795384876.2736018,
+    "https://www.twz.com/sea/ukraines-campaign-against-russian-naval-assets-far-beyond-the-black-sea-enters-a-new-phase": 1795387234.9164472,
+    "https://www.twz.com/?p=6609886": 1795387234.9164472,
+    "title:Ukraine’s Campaign Against Russian Naval Assets Far Beyond The Black Sea Enters A New Phase": 1795387234.9164472
   },
   "events": [
-    {
-      "key": "美軍地效無人機部署中東",
-      "timestamp": 1795126836.1311815
-    },
-    {
-      "key": "輝達高層涉中調查",
-      "timestamp": 1795126852.541564
-    },
-    {
-      "key": "朝美峰會停滯與中俄同盟",
-      "timestamp": 1795128037.920271
-    },
-    {
-      "key": "川習普大國共治言論",
-      "timestamp": 1795128047.6625712
-    },
     {
       "key": "加拿大民主政治與全球化",
       "timestamp": 1795129247.2764575
@@ -2007,6 +1976,10 @@
     {
       "key": "USMCA後選審議",
       "timestamp": 1795384860.4888737
+    },
+    {
+      "key": "烏軍跨黑海打擊俄艦",
+      "timestamp": 1795387237.1732101
     }
   ]
 }
