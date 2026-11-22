@@ -1,14 +1,5 @@
 {
   "ids": {
-    "https://news.usni.org/2026/11/16/navy-weapons-division-to-make-tomahawk-components-in-2027": 1795111255.593185,
-    "https://news.usni.org/?p=126625": 1795111255.593185,
-    "title:Navy Weapons Division to Make Tomahawk Components in 2027": 1795111255.593185,
-    "https://news.usni.org/2026/11/13/japan-pledges-drones-coastal-defense-radar-in-latest-philippine-defense-package": 1795111255.593288,
-    "https://news.usni.org/?p=126562": 1795111255.593288,
-    "title:Japan Pledges Drones, Coastal Defense Radar in Latest Philippine Defense Package": 1795111255.593288,
-    "https://www.twz.com/news-features/impacts-of-latest-neptune-missile-strike-on-kerch-bridge-seen-in-satellite-imagery": 1795112435.317014,
-    "https://www.twz.com/?p=6609076": 1795112435.317014,
-    "title:Impacts Of Latest Neptune Missile Strike On Kerch Bridge Seen In Satellite Imagery": 1795112435.317014,
     "https://www.piie.com/blogs/realtime-economics/2026/how-congress-might-take-back-its-trade-powers-and-limit-trumps": 1795112482.926126,
     "title:How Congress might take back its trade powers and limit Trump's tariffs": 1795112482.926126,
     "https://www.twz.com/air/b-21-raider-has-released-its-first-weapon": 1795113633.734624,
@@ -1795,7 +1786,15 @@
     "title:Trump, Xi agreed that military AI decisions should involve humans, Bessent says": 1795370450.3445363,
     "https://www.defensenews.com/air/2026/11/19/f-35c-completes-first-launch-and-recovery-trials-on-a-ford-class-carrier": 1795370450.3450115,
     "https://one.sightlinemg.com/defensenews/news/2026/11/19/f-35c-completes-first-launch-and-recovery-trials-on-a-ford-class-carrier/": 1795370450.3450115,
-    "title:F-35C completes first launch and recovery trials on a Ford-class carrier": 1795370450.3450115
+    "title:F-35C completes first launch and recovery trials on a Ford-class carrier": 1795370450.3450115,
+    "https://www.atlanticcouncil.org/inflection-points-with-frederick-kempe/us-soccer-president-cindy-parlow-cone-on-equal-pay-for-athletes-and-soccers-future-in-the-us": 1795371630.4323108,
+    "https://www.atlanticcouncil.org/?p=962078": 1795371630.4323108,
+    "title:US Soccer President Cindy Parlow Cone on equal pay for athletes and soccer’s future in the US": 1795371630.4323108,
+    "https://www.atlanticcouncil.org/dispatches/why-congress-and-the-european-parliament-need-an-ai-safety-dialogue": 1795371630.434453,
+    "https://www.atlanticcouncil.org/?p=960600": 1795371630.434453,
+    "title:Why Congress and the European Parliament need an AI safety dialogue": 1795371630.434453,
+    "https://www.piie.com/blogs/realtime-economics/2026/after-blue-tsunami-getting-rid-trumps-tariffs": 1795371633.7068174,
+    "title:After the Blue Tsunami: Getting rid of Trump’s tariffs": 1795371633.7068174
   },
   "events": [
     {
