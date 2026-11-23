@@ -1,26 +1,5 @@
 {
   "ids": {
-    "https://www.cna.com.tw/news/ait/202611180034.aspx": 1795137639.5543473,
-    "CNA/2026-11-18/202611180034": 1795137639.5543473,
-    "title:超微蘇姿丰挺「表舅」黃仁勳 讚傑出領袖指雜音終將平息": 1795137639.5543473,
-    "https://thediplomat.com/2026/11/squad-nations-to-establish-coordination-hub-in-the-philippines-defense-chiefs-say": 1795138833.7879455,
-    "https://thediplomat.com/2026/11/squad-nations-to-establish-coordination-hub-in-the-philippines-defense-chiefs-say/": 1795138833.7879455,
-    "title:‘Squad’ Nations to Establish Coordination Hub in the Philippines, Defense Chiefs Say": 1795138833.7879455,
-    "https://www.lowyinstitute.org/the-interpreter/coalition-s-climate-backsliding-sells-the-young-short": 1795140055.559333,
-    "title:Coalition’s climate backsliding sells the young short": 1795140055.559333,
-    "https://www.cna.com.tw/news/ait/202611180040.aspx": 1795140061.6786282,
-    "CNA/2026-11-18/202611180040": 1795140061.6786282,
-    "title:黃仁勳婚外情掀國安風暴 將首度赴美國會公開作證": 1795140061.6786282,
-    "https://www.atlanticcouncil.org/dispatches/putin-didnt-get-his-yalta-but-hes-happy-nonetheless": 1795142035.4191222,
-    "https://www.atlanticcouncil.org/?p=962202": 1795142035.4191222,
-    "title:Putin didn’t get his Yalta, but he’s happy nonetheless": 1795142035.4191222,
-    "https://www.cna.com.tw/news/acn/202611200050.aspx": 1795143654.1098828,
-    "CNA/2026-11-20/202611200050": 1795143654.1098828,
-    "title:新華社指「美國不支持台獨」 陸委會：初步查證不是事實": 1795143654.1098828,
-    "https://www.lowyinstitute.org/the-interpreter/bluey-is-a-triumph-but-not-a-soft-power-strategy": 1795144834.300771,
-    "title:Bluey is a triumph, but not a soft-power strategy": 1795144834.300771,
-    "https://www.lowyinstitute.org/the-interpreter/press-play-russia-s-push-to-recruit-through-gaming": 1795144834.3020573,
-    "title:Press play: Russia’s push to recruit through gaming": 1795144834.3020573,
     "https://www.cna.com.tw/news/ait/202611180106.aspx": 1795149641.566845,
     "CNA/2026-11-18/202611180106": 1795149641.566845,
     "title:LINE電腦版強化語音報讀助視障溝通 網頁版2027年退場": 1795149641.566845,
@@ -1787,13 +1766,12 @@
     "title:The Jet That Always Shadows Air Force One When The President Travels Abroad": 1795394442.646918,
     "https://www.cna.com.tw/news/aopl/202611210030.aspx": 1795395652.038715,
     "CNA/2026-11-21/202611210030": 1795395652.038715,
-    "title:芬蘭創業盛會Slush「押注歐洲」 聚焦AI與硬體創新": 1795395652.038715
+    "title:芬蘭創業盛會Slush「押注歐洲」 聚焦AI與硬體創新": 1795395652.038715,
+    "https://www.cna.com.tw/news/acn/202611230040.aspx": 1795404040.0947504,
+    "CNA/2026-11-23/202611230040": 1795404040.0947504,
+    "title:傳北京正檢討香港主權轉移30年得失": 1795404040.0947504
   },
   "events": [
-    {
-      "key": "美中俄大國外交博弈",
-      "timestamp": 1795142038.532654
-    },
     {
       "key": "巴紐平衡美中外交",
       "timestamp": 1795153238.3546953
@@ -1993,6 +1971,10 @@
     {
       "key": "加拿大民主政治演變",
       "timestamp": 1795389642.3188844
+    },
+    {
+      "key": "香港主權轉移檢討",
+      "timestamp": 1795404041.4470313
     }
   ]
 }
