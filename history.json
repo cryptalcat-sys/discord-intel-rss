@@ -1,13 +1,5 @@
 {
   "ids": {
-    "https://www.cna.com.tw/news/ait/202611180106.aspx": 1795149641.566845,
-    "CNA/2026-11-18/202611180106": 1795149641.566845,
-    "title:LINE電腦版強化語音報讀助視障溝通 網頁版2027年退場": 1795149641.566845,
-    "https://www.lowyinstitute.org/the-interpreter/marape-reassures-beijing-after-png-s-pacts-with-the-west": 1795153237.002045,
-    "title:Marape reassures Beijing after PNG’s pacts with the West": 1795153237.002045,
-    "https://www.cna.com.tw/news/ait/202611180151.aspx": 1795154444.395975,
-    "CNA/2026-11-18/202611180151": 1795154444.395975,
-    "title:Anthropic啟動上市 將成檢驗全球AI投資熱潮關鍵指標": 1795154444.395975,
     "https://breakingdefense.com/2026/11/australia-receives-first-2-of-13-additional-seahawk-helicopters": 1795159235.8256943,
     "https://breakingdefense.com/?p=101451": 1795159235.8256943,
     "title:Australia receives first 2 of 13 additional Seahawk helicopters": 1795159235.8256943,
@@ -1787,13 +1779,12 @@
     "title:黃仁勳婚外情掀國安風暴 將首度赴美國會公開作證": 1795405239.8609724,
     "https://www.cna.com.tw/news/ait/202611210071.aspx": 1795406453.8198612,
     "CNA/2026-11-21/202611210071": 1795406453.8198612,
-    "title:NGINX釋重大安全更新 資安署籲儘速升級防範入侵": 1795406453.8198612
+    "title:NGINX釋重大安全更新 資安署籲儘速升級防範入侵": 1795406453.8198612,
+    "https://www.cna.com.tw/news/acn/202611230108.aspx": 1795414829.8656108,
+    "CNA/2026-11-23/202611230108": 1795414829.8656108,
+    "title:沈有忠：中國利用APEC營造大國形象 錯誤宣傳兩岸敘事": 1795414829.8656108
   },
   "events": [
-    {
-      "key": "巴紐平衡美中外交",
-      "timestamp": 1795153238.3546953
-    },
     {
       "key": "澳軍接收海鷹直升機",
       "timestamp": 1795159237.3053825
@@ -1993,6 +1984,10 @@
     {
       "key": "香港主權轉移檢討",
       "timestamp": 1795404041.4470313
+    },
+    {
+      "key": "APEC兩岸敘事攻防",
+      "timestamp": 1795414831.3218462
     }
   ]
 }
