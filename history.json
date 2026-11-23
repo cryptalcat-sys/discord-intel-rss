@@ -1,32 +1,5 @@
 {
   "ids": {
-    "https://breakingdefense.com/2026/11/australia-receives-first-2-of-13-additional-seahawk-helicopters": 1795159235.8256943,
-    "https://breakingdefense.com/?p=101451": 1795159235.8256943,
-    "title:Australia receives first 2 of 13 additional Seahawk helicopters": 1795159235.8256943,
-    "https://www.twz.com/land/army-wants-new-palletized-short-range-air-defenses-in-service-by-the-end-of-2029": 1795160430.5517483,
-    "https://www.twz.com/?p=6605521": 1795160430.5517483,
-    "title:Army Wants New Palletized Short-Range Air Defenses In Service By The End Of 2029": 1795160430.5517483,
-    "https://www.youtube.com/shorts/7y1bf46Ar-8": 1795160434.804681,
-    "yt:video:7y1bf46Ar-8": 1795160434.804681,
-    "title:柴油.尿素齊漲傷農 俄烏停火成三方會重點｜ 公共電視 - 尖鋒對話": 1795160434.804681,
-    "https://www.lowyinstitute.org/the-interpreter/jensen-huang-s-affair-exposes-silicon-valley-s-national-security-power": 1795160435.6291795,
-    "title:Jensen Huang’s affair exposes Silicon Valley’s national security power": 1795160435.6291795,
-    "https://www.lowyinstitute.org/the-interpreter/australia-talks-tough-on-sudan-but-won-t-confront-patrons-in-uae": 1795160435.6292124,
-    "title:Australia talks tough on Sudan but won’t confront patrons in UAE": 1795160435.6292124,
-    "https://www.lowyinstitute.org/the-interpreter/new-zealand-s-foreign-policy-could-change-but-we-won-t-know-for-weeks": 1795160435.6294065,
-    "title:New Zealand’s foreign policy could change – but we won’t know for weeks": 1795160435.6294065,
-    "https://www.lowyinstitute.org/the-interpreter/owning-a-satellite-isn-t-the-same-as-owning-the-expertise-to-replace-it": 1795160435.6294653,
-    "title:Owning a satellite isn’t the same as owning the expertise to replace it": 1795160435.6294653,
-    "https://www.lowyinstitute.org/the-interpreter/indonesia-s-national-hero-titles-and-the-politics-of-unresolved-violence": 1795160435.6295345,
-    "title:Indonesia’s National Hero titles and the politics of unresolved violence": 1795160435.6295345,
-    "https://www.lowyinstitute.org/the-interpreter/cop31-rebuilding-the-loss-and-damage-fund-for-speed": 1795160435.6295652,
-    "title:COP31: Rebuilding the Loss and Damage Fund for speed": 1795160435.6295652,
-    "https://www.cna.com.tw/news/acn/202611200143.aspx": 1795161655.6724687,
-    "CNA/2026-11-20/202611200143": 1795161655.6724687,
-    "title:APEC深圳峰會結束 深圳寶安機場多個航班延誤": 1795161655.6724687,
-    "https://www.cna.com.tw/news/acn/202611200138.aspx": 1795161655.6725266,
-    "CNA/2026-11-20/202611200138": 1795161655.6725266,
-    "title:俄軍機穿越日、台空域 學者：中俄在東亞地緣政治聯動": 1795161655.6725266,
     "https://www.navalnews.com/naval-news/2026/11/indian-navy-exploring-development-of-rotating-detonation-engine-powered-supersonic-cruise-missile": 1795161675.8466916,
     "https://www.navalnews.com/?p=93800": 1795161675.8466916,
     "title:Indian Navy Exploring Development of Rotating Detonation Engine Powered Supersonic Cruise Missile": 1795161675.8466916,
@@ -1790,13 +1763,12 @@
     "CNA/2026-11-18/202611180106": 1795416031.5991335,
     "title:LINE電腦版強化語音報讀助視障溝通 網頁版2027年退場": 1795416031.5991335,
     "https://www.lowyinstitute.org/the-interpreter/marape-reassures-beijing-after-png-s-pacts-with-the-west": 1795416034.4047797,
-    "title:Marape reassures Beijing after PNG’s pacts with the West": 1795416034.4047797
+    "title:Marape reassures Beijing after PNG’s pacts with the West": 1795416034.4047797,
+    "https://www.cna.com.tw/news/acn/202611210123.aspx": 1795420856.0027797,
+    "CNA/2026-11-21/202611210123": 1795420856.0027797,
+    "title:華為余承東「開車可以睡覺」言論惹議 隨後改口專心開車": 1795420856.0027797
   },
   "events": [
-    {
-      "key": "澳軍接收海鷹直升機",
-      "timestamp": 1795159237.3053825
-    },
     {
       "key": "中俄東亞地緣聯動",
       "timestamp": 1795161664.8380222
