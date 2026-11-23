@@ -1,8 +1,5 @@
 {
   "ids": {
-    "https://www.twz.com/news-features/why-the-e-4b-doomsday-plane-always-shadows-air-force-one-when-the-president-travels-abroad": 1795134036.6045525,
-    "https://www.twz.com/?p=6609243": 1795134036.6045525,
-    "title:Why The E-4B Nightwatch Always Shadows Air Force One When The President Travels Abroad": 1795134036.6045525,
     "https://www.cna.com.tw/news/ait/202611180034.aspx": 1795137639.5543473,
     "CNA/2026-11-18/202611180034": 1795137639.5543473,
     "title:超微蘇姿丰挺「表舅」黃仁勳 讚傑出領袖指雜音終將平息": 1795137639.5543473,
@@ -1781,13 +1778,12 @@
     "title:Last week’s brief Ukraine ceasefire did not stop Russian attacks on civilians": 1795392051.5670223,
     "https://www.twz.com/air/russian-bombers-arrive-in-vietnam-after-flurry-of-northeast-asia-air-alerts": 1795392053.5853212,
     "https://www.twz.com/?p=6608460": 1795392053.5853212,
-    "title:Russian Tu-95 Bombers Arrive In Vietnam After Flurry Of Northeast Asia Air Alerts": 1795392053.5853212
+    "title:Russian Tu-95 Bombers Arrive In Vietnam After Flurry Of Northeast Asia Air Alerts": 1795392053.5853212,
+    "https://thediplomat.com/2026/11/what-the-faaz-missile-means-for-pakistans-air-force": 1795393240.1312456,
+    "https://thediplomat.com/2026/11/what-the-faaz-missile-means-for-pakistans-air-force/": 1795393240.1312456,
+    "title:What the Fa’az Missile Means for Pakistan’s Air Force": 1795393240.1312456
   },
   "events": [
-    {
-      "key": "美軍E-4B末日機護航",
-      "timestamp": 1795134038.203747
-    },
     {
       "key": "美中俄大國外交博弈",
       "timestamp": 1795142038.532654
