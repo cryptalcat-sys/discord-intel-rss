@@ -729,7 +729,37 @@
     "title:America Can Do Good—and Do Well": 1795636882.9878979,
     "https://www.cna.com.tw/news/acn/202611250329.aspx": 1795636883.114085,
     "CNA/2026-11-25/202611250329": 1795636883.114085,
-    "title:陳吉寧被查 外媒：中國「清華系」官員網絡接連失勢": 1795636883.114085
+    "title:陳吉寧被查 外媒：中國「清華系」官員網絡接連失勢": 1795636883.114085,
+    "https://jamestown.org/russian-communist-split-could-lead-to-new-breakup-of-the-empire": 1795638029.9990149,
+    "https://jamestown.org/?p=886956": 1795638029.9990149,
+    "title:Russian Communist Split Could Lead to New Breakup of the Empire": 1795638029.9990149,
+    "https://jamestown.org/russia-and-iran-seek-closer-cooperation": 1795638029.9990675,
+    "https://jamestown.org/?p=886955": 1795638029.9990675,
+    "title:Russia and Iran Seek Closer Cooperation": 1795638029.9990675,
+    "https://jamestown.org/honor-killings-and-blood-feuds-remain-widespread-in-north-caucasus": 1795638029.9991405,
+    "https://jamestown.org/?p=886957": 1795638029.9991405,
+    "title:Honor Killings and Blood Feuds Remain Widespread in North Caucasus": 1795638029.9991405,
+    "https://jamestown.org/fifth-plenum-resolution-shifts-party-discipline-toward-implementation": 1795638029.9991846,
+    "https://jamestown.org/?p=886943": 1795638029.9991846,
+    "title:Fifth Plenum Resolution Shifts Party Discipline Toward Implementation": 1795638029.9991846,
+    "https://jamestown.org/moscow-balances-relationship-with-pakistan-and-taliban-led-afghanistan": 1795638029.9992237,
+    "https://jamestown.org/?p=886940": 1795638029.9992237,
+    "title:Moscow Balances Relationship with Pakistan and Taliban-led Afghanistan": 1795638029.9992237,
+    "https://www.navalnews.com/naval-news/2026/11/uk-awards-hii-142-million-contract-for-royal-navy-remus-620-uuvs": 1795638030.979337,
+    "https://www.navalnews.com/?p=94045": 1795638030.979337,
+    "title:UK Awards HII £142 Million Contract for Royal Navy REMUS 620 UUVs": 1795638030.979337,
+    "https://www.navalnews.com/naval-news/2026/11/u-s-navy-taps-raytheon-to-advance-slcm-n-nuclear-cruise-missile": 1795638032.872291,
+    "https://www.navalnews.com/?p=94030": 1795638032.872291,
+    "title:U.S. Navy Taps Raytheon to Advance SLCM-N Nuclear Cruise Missile": 1795638032.872291,
+    "https://www.navalnews.com/naval-news/2026/11/bayraktar-akinci-conducts-first-orka-torpedo-release-test": 1795638042.450935,
+    "https://www.navalnews.com/?p=93974": 1795638042.450935,
+    "title:Bayraktar AKINCI Conducts First ORKA Torpedo Release Test": 1795638042.450935,
+    "https://www.cna.com.tw/news/acn/202611250296.aspx": 1795638056.622779,
+    "CNA/2026-11-25/202611250296": 1795638056.622779,
+    "title:中共防範邪教官員高以忱退休仍遭查 受賄被判11年": 1795638056.622779,
+    "https://www.cna.com.tw/news/acn/202611250290.aspx": 1795638071.9964068,
+    "CNA/2026-11-25/202611250290": 1795638071.9964068,
+    "title:陸藉「逐玉」指禁限交流 陸委會：中共才是阻礙元凶": 1795638071.9964068
   },
   "events": [
     {
@@ -867,6 +897,22 @@
     {
       "key": "中國清華系官員失勢",
       "timestamp": 1795636884.6499205
+    },
+    {
+      "key": "美軍推進核巡弋飛彈研發",
+      "timestamp": 1795638034.4506133
+    },
+    {
+      "key": "察打無人機魚雷測試",
+      "timestamp": 1795638048.3587112
+    },
+    {
+      "key": "中共反腐與官員查處",
+      "timestamp": 1795638063.99603
+    },
+    {
+      "key": "陸委會反擊國台辦",
+      "timestamp": 1795638078.7015324
     }
   ]
 }
