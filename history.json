@@ -1,13 +1,5 @@
 {
   "ids": {
-    "https://www.defensenews.com/global/europe/2026/11/19/france-and-sweden-hold-first-joint-nuclear-deterrence-exercise": 1795374046.2842503,
-    "https://one.sightlinemg.com/defensenews/?p=88143": 1795374046.2842503,
-    "title:France and Sweden hold first joint nuclear-deterrence exercise": 1795374046.2842503,
-    "https://www.piie.com/blogs/realtime-economics/2026/how-congress-might-take-back-its-trade-powers-and-limit-trumps": 1795374052.3632667,
-    "title:How Congress might take back its trade powers and limit Trump's tariffs": 1795374052.3632667,
-    "https://www.twz.com/air/b-21-raider-has-released-its-first-weapon": 1795374056.6724265,
-    "https://www.twz.com/?p=6607357": 1795374056.6724265,
-    "title:B-21 Raider Has Released Its First Weapon": 1795374056.6724265,
     "https://www.defensenews.com/industry/techwatch/2026/11/19/pentagon-lacks-overarching-plan-for-munitions-production-watchdog-warns": 1795375232.0721226,
     "https://one.sightlinemg.com/defensenews/news/2026/11/19/pentagon-lacks-overarching-plan-for-munitions-production-watchdog-warns/": 1795375232.0721226,
     "title:Pentagon lacks ‘overarching plan’ for munitions production, watchdog warns": 1795375232.0721226,
@@ -237,7 +229,19 @@
     "title:Air Force issues Boeing $2.8 billion for more KC-46s": 1795632118.5129719,
     "https://breakingdefense.com/2026/11/the-us-is-racing-to-fix-its-missile-production-challenge-will-it-work-and-can-partners-help": 1795632122.7423732,
     "https://breakingdefense.com/?p=101905": 1795632122.7423732,
-    "title:The US is racing to fix its missile production challenge. Will it work, and can partners help?": 1795632122.7423732
+    "title:The US is racing to fix its missile production challenge. Will it work, and can partners help?": 1795632122.7423732,
+    "https://news.usni.org/2026/11/24/philippine-forces-train-to-secure-luzon-strait-with-warships-brahmos-missiles": 1795633245.9619095,
+    "https://news.usni.org/?p=126845": 1795633245.9619095,
+    "title:Philippine Forces Train to Secure Luzon Strait with Warships, BrahMos Missiles": 1795633245.9619095,
+    "https://news.usni.org/2026/11/24/amphibs-uss-makin-island-uss-john-p-murtha-depart-singapore": 1795633261.9372072,
+    "https://news.usni.org/?p=126837": 1795633261.9372072,
+    "title:Amphibs USS Makin Island, USS John P. Murtha Depart Singapore": 1795633261.9372072,
+    "https://warontherocks.com/britains-balancing-act-between-washington-and-brussels": 1795633282.1261227,
+    "https://warontherocks.com/?p=48808": 1795633282.1261227,
+    "title:Britain’s Balancing Act Between Washington and Brussels": 1795633282.1261227,
+    "https://warontherocks.com/does-congress-really-want-its-war-powers-back": 1795633291.6353495,
+    "https://warontherocks.com/?p=48796": 1795633291.6353495,
+    "title:Does Congress Really Want Its War Powers Back?": 1795633291.6353495
   },
   "events": [
     {
@@ -311,6 +315,22 @@
     {
       "key": "美軍防空飛彈產能危機",
       "timestamp": 1795632126.9804351
+    },
+    {
+      "key": "呂宋海峽布拉莫斯演訓",
+      "timestamp": 1795633253.9367507
+    },
+    {
+      "key": "美陸戰隊穿越馬六甲",
+      "timestamp": 1795633272.2789001
+    },
+    {
+      "key": "英美歐大國戰略平衡",
+      "timestamp": 1795633283.6334994
+    },
+    {
+      "key": "美國會戰爭權力",
+      "timestamp": 1795633299.9970422
     }
   ]
 }
