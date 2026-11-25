@@ -1,17 +1,5 @@
 {
   "ids": {
-    "https://news.usni.org/2026/11/16/vice-adm-oliver-lewis-takes-command-of-2nd-fleet": 1795389653.7529378,
-    "https://news.usni.org/?p=126665": 1795389653.7529378,
-    "title:Vice Adm. Oliver Lewis Takes Command of 2nd Fleet": 1795389653.7529378,
-    "https://news.usni.org/2026/11/16/uss-theodore-roosevelt-now-in-the-middle-east-lincolns-last-escorts-finally-home": 1795389653.752992,
-    "https://news.usni.org/?p=126655": 1795389653.752992,
-    "title:USS Theodore Roosevelt Now in the Middle East, Lincoln’s Last Escorts Finally Home": 1795389653.752992,
-    "https://www.atlanticcouncil.org/content-series/fastthinking/what-the-trump-putin-xi-meeting-actually-achieved": 1795390835.7034404,
-    "https://www.atlanticcouncil.org/?p=962135": 1795390835.7034404,
-    "title:What the Trump-Putin-Xi meeting actually achieved": 1795390835.7034404,
-    "https://www.atlanticcouncil.org/blogs/econographics/congress-could-soon-rein-in-trumps-tariffs-on-canada-heres-what-that-could-look-like": 1795390835.7047892,
-    "https://www.atlanticcouncil.org/?p=961080": 1795390835.7047892,
-    "title:Congress could soon rein in Trump’s tariffs on Canada. Here’s what that could look like.": 1795390835.7047892,
     "https://www.lowyinstitute.org/the-interpreter/cockroach-janata-party-how-india-tried-to-delete-its-protesters-app": 1795390846.5446365,
     "title:Cockroach Janata Party: how India tried to delete its protesters’ app": 1795390846.5446365,
     "https://news.usni.org/2026/11/13/the-new-six-frigates": 1795392046.4047775,
@@ -1645,13 +1633,17 @@
     "https://www.twz.com/?p=6608364": 1795648838.7037022,
     "title:Trump’s Demand For Steam Catapults On New Carriers Is A “Non-Starter”: Senate Armed Forces Chair": 1795648838.7037022,
     "https://www.lowyinstitute.org/the-interpreter/how-pacific-islands-are-right-sizing-chinese-policing": 1795648840.4692101,
-    "title:How Pacific Islands are right-sizing Chinese policing": 1795648840.4692101
+    "title:How Pacific Islands are right-sizing Chinese policing": 1795648840.4692101,
+    "https://www.piie.com/events/2026/chrystia-freeland-power-politics-and-future-democracy": 1795650031.486606,
+    "title:Chrystia Freeland on power, politics, and the future of democracy": 1795650031.486606,
+    "https://www.atlanticcouncil.org/dispatches/why-cop31-climate-talks-collapsed-and-what-to-expect-next": 1795650034.3453066,
+    "https://www.atlanticcouncil.org/?p=962607": 1795650034.3453066,
+    "title:Why COP31 climate talks collapsed and what to expect next": 1795650034.3453066,
+    "https://www.atlanticcouncil.org/dispatches/the-us-didnt-have-a-strong-plan-for-the-shenzhen-summit-it-showed": 1795650034.3461342,
+    "https://www.atlanticcouncil.org/?p=962173": 1795650034.3461342,
+    "title:The US didn’t have a strong plan for the Shenzhen summit. It showed.": 1795650034.3461342
   },
   "events": [
-    {
-      "key": "加拿大民主政治演變",
-      "timestamp": 1795389642.3188844
-    },
     {
       "key": "香港主權轉移檢討",
       "timestamp": 1795404041.4470313
