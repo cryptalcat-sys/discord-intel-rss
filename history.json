@@ -1173,7 +1173,25 @@
     "title:2025國家正常化研討會》王美琇：大象還在客廳裡 中國國民黨在台灣最不正常": 1795639320.3167865,
     "https://www.cna.com.tw/news/acn/202611250100.aspx": 1795639320.858253,
     "CNA/2026-11-25/202611250100": 1795639320.858253,
-    "title:藍天行動聯盟主席武之璋過世 國台辦表哀悼": 1795639320.858253
+    "title:藍天行動聯盟主席武之璋過世 國台辦表哀悼": 1795639320.858253,
+    "https://www.cna.com.tw/news/acn/202611250097.aspx": 1795640453.793131,
+    "CNA/2026-11-25/202611250097": 1795640453.793131,
+    "title:陳吉寧被查後 中共中央政研室主任撰文強調全面從嚴治黨": 1795640453.793131,
+    "https://www.cna.com.tw/news/acn/202611250067.aspx": 1795640472.8547041,
+    "CNA/2026-11-25/202611250067": 1795640472.8547041,
+    "title:陳吉寧落馬引發震撼 國台辦：繼續支持雙城論壇舉辦": 1795640472.8547041,
+    "https://www.cna.com.tw/news/acn/202611250047.aspx": 1795640485.9862936,
+    "CNA/2026-11-25/202611250047": 1795640485.9862936,
+    "title:陳吉寧落馬 上海市長朱忠明視察基層反貪腐": 1795640485.9862936,
+    "https://www.cna.com.tw/news/acn/202611250038.aspx": 1795640490.1552413,
+    "CNA/2026-11-25/202611250038": 1795640490.1552413,
+    "title:黃仁勳效應退 中國股市三大指數開盤均跌逾1%": 1795640490.1552413,
+    "https://www.defensenews.com/global/europe/2026/11/25/buried-in-italys-budget-officials-see-rome-meeting-nato-spending-target": 1795640537.4929478,
+    "https://one.sightlinemg.com/defensenews/?p=88270": 1795640537.4929478,
+    "title:Buried in Italy’s budget, officials see Rome meeting NATO spending target": 1795640537.4929478,
+    "https://www.defensenews.com/pentagon/2026/11/24/ford-in-talks-with-the-pentagon-to-supply-military-vehicles": 1795640551.482224,
+    "https://one.sightlinemg.com/defensenews/news/2026/11/24/ford-in-talks-with-the-pentagon-to-supply-military-vehicles/": 1795640551.482224,
+    "title:Ford in talks with the Pentagon to supply military vehicles": 1795640551.482224
   },
   "events": [
     {
@@ -1359,6 +1377,22 @@
     {
       "key": "國台辦哀悼武之璋",
       "timestamp": 1795639324.4149258
+    },
+    {
+      "key": "上海書記被查",
+      "timestamp": 1795640464.854104
+    },
+    {
+      "key": "輝達效應退潮",
+      "timestamp": 1795640529.4071686
+    },
+    {
+      "key": "義國防務預算達標",
+      "timestamp": 1795640543.4814682
+    },
+    {
+      "key": "福特軍車供應談判",
+      "timestamp": 1795640558.2984428
     }
   ]
 }
