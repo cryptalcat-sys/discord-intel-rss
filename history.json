@@ -1,25 +1,5 @@
 {
   "ids": {
-    "https://www.lowyinstitute.org/the-interpreter/how-pacific-islands-are-right-sizing-chinese-policing": 1795388443.4075522,
-    "title:How Pacific Islands are right-sizing Chinese policing": 1795388443.4075522,
-    "https://jamestown.org/alice-huangs-shady-shanghai-ties-to-business-and-government": 1795388458.5191762,
-    "https://jamestown.org/?p=886968": 1795388458.5191762,
-    "title:Alice Huang’s Shady Shanghai Ties to Business and Government": 1795388458.5191762,
-    "https://www.twz.com/news-features/regent-squire-wing-in-ground-effect-drone-to-patrol-middle-east-waters": 1795388459.4030368,
-    "https://www.twz.com/?p=6609261": 1795388459.4030368,
-    "title:Regent Squire Wing-In-Ground Effect Drone To Patrol Middle East Waters": 1795388459.4030368,
-    "https://www.twz.com/sea/trumps-demand-for-steam-catapults-on-new-carriers-is-a-non-starter-senate-armed-forces-chair": 1795388459.4033346,
-    "https://www.twz.com/?p=6608364": 1795388459.4033346,
-    "title:Trump’s Demand For Steam Catapults On New Carriers Is A “Non-Starter”: Senate Armed Forces Chair": 1795388459.4033346,
-    "https://www.youtube.com/shorts/_QsaAOy0zN8": 1795388460.954518,
-    "yt:video:_QsaAOy0zN8": 1795388460.954518,
-    "title:Is China Winning on Taiwan? | The Capital Cable": 1795388460.954518,
-    "https://www.youtube.com/shorts/oYEFpYvaL4Y": 1795388460.9545896,
-    "yt:video:oYEFpYvaL4Y": 1795388460.9545896,
-    "title:Why Kim Jong-un Skipped China? | The Capital Cable": 1795388460.9545896,
-    "https://www.youtube.com/shorts/YEBrO93avXg": 1795388460.9546244,
-    "yt:video:YEBrO93avXg": 1795388460.9546244,
-    "title:Trump, Xi, Putin: A Great Power Condominium? | The Capital Cable": 1795388460.9546244,
     "https://www.atlanticcouncil.org/dispatches/the-us-didnt-have-a-strong-plan-for-the-shenzhen-summit-it-showed": 1795389633.1528466,
     "https://www.atlanticcouncil.org/?p=962173": 1795389633.1528466,
     "title:The US didn’t have a strong plan for the Shenzhen summit. It showed.": 1795389633.1528466,
@@ -1645,13 +1625,20 @@
     "title:First Dark Eagle hypersonic battery ‘fully fielded,’ Lozano says": 1795646452.9215946,
     "https://breakingdefense.com/2026/11/white-house-seeks-funding-exemptions-for-golden-dome-trump-battleship-in-next-funding-stopgap": 1795646468.3687706,
     "https://breakingdefense.com/?p=101813": 1795646468.3687706,
-    "title:White House seeks funding exemptions for Golden Dome, Trump battleship in next funding stopgap": 1795646468.3687706
+    "title:White House seeks funding exemptions for Golden Dome, Trump battleship in next funding stopgap": 1795646468.3687706,
+    "https://breakingdefense.com/2026/11/rehearsing-the-indo-pacific-fight-with-ai-enhanced-simulation": 1795647647.524729,
+    "https://breakingdefense.com/?p=101811": 1795647647.524729,
+    "title:Rehearsing the Indo-Pacific fight with AI-enhanced simulation": 1795647647.524729,
+    "https://breakingdefense.com/2026/11/trumps-carrier-desire-might-not-take-flight-and-a-new-twist-for-navy-shipbuilding": 1795647647.5248497,
+    "https://breakingdefense.com/?p=101787": 1795647647.5248497,
+    "title:Trump’s carrier desire might not take flight, and a new twist for Navy shipbuilding": 1795647647.5248497,
+    "https://breakingdefense.com/2026/11/laneves-campaign-plan-aims-for-top-down-guidance-flipping-transformation-in-contact-era": 1795647695.7094107,
+    "https://breakingdefense.com/?p=101699": 1795647695.7094107,
+    "title:LaNeve’s campaign plan aims for top-down guidance, flipping ‘transformation in contact’ era": 1795647695.7094107,
+    "https://www.lowyinstitute.org/the-interpreter/what-does-putin-really-mean-by-dangling-a-compromise-over-ukraine": 1795647744.5156167,
+    "title:What does Putin really mean by dangling a “compromise” over Ukraine?": 1795647744.5156167
   },
   "events": [
-    {
-      "key": "太平洋警務安全博弈",
-      "timestamp": 1795388447.8452024
-    },
     {
       "key": "加拿大民主政治演變",
       "timestamp": 1795389642.3188844
@@ -1907,6 +1894,14 @@
     {
       "key": "美軍防務預算與戰艦豁免",
       "timestamp": 1795646474.1437123
+    },
+    {
+      "key": "美航母造艦策略調整",
+      "timestamp": 1795647687.7090178
+    },
+    {
+      "key": "美陸軍戰役規劃",
+      "timestamp": 1795647736.0678623
     }
   ]
 }
