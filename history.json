@@ -1,14 +1,5 @@
 {
   "ids": {
-    "https://www.defensenews.com/industry/techwatch/2026/11/19/pentagon-lacks-overarching-plan-for-munitions-production-watchdog-warns": 1795375232.0721226,
-    "https://one.sightlinemg.com/defensenews/news/2026/11/19/pentagon-lacks-overarching-plan-for-munitions-production-watchdog-warns/": 1795375232.0721226,
-    "title:Pentagon lacks ‘overarching plan’ for munitions production, watchdog warns": 1795375232.0721226,
-    "https://www.atlanticcouncil.org/in-depth-research-reports/issue-brief/thirty-years-of-progress-lost-at-sea": 1795375233.4018264,
-    "https://www.atlanticcouncil.org/?p=960111": 1795375233.4018264,
-    "title:Thirty years of progress, lost at sea": 1795375233.4018264,
-    "https://www.atlanticcouncil.org/inflection-points-with-frederick-kempe/nick-clegg-on-trumo-silicon-valley-and-big-techs-political-shift": 1795375233.4027867,
-    "https://www.atlanticcouncil.org/?p=959661": 1795375233.4027867,
-    "title:Nick Clegg on Trump, Silicon Valley, and Big Tech’s political shift": 1795375233.4027867,
     "https://www.twz.com/news-features/russias-prized-kerch-bridge-struck-in-ukrainian-drone-onslaught": 1795376437.0600374,
     "https://www.twz.com/?p=6607875": 1795376437.0600374,
     "title:Russia’s Prized Kerch Bridge Struck In Ukrainian Drone Onslaught (Updated)": 1795376437.0600374,
@@ -241,7 +232,34 @@
     "title:Britain’s Balancing Act Between Washington and Brussels": 1795633282.1261227,
     "https://warontherocks.com/does-congress-really-want-its-war-powers-back": 1795633291.6353495,
     "https://warontherocks.com/?p=48796": 1795633291.6353495,
-    "title:Does Congress Really Want Its War Powers Back?": 1795633291.6353495
+    "title:Does Congress Really Want Its War Powers Back?": 1795633291.6353495,
+    "https://jamestown.org/fall-of-politburos-chen-jining-marks-end-of-tsinghua-clique": 1795634434.8547862,
+    "https://jamestown.org/?p=887023": 1795634434.8547862,
+    "title:Fall of Politburo’s Chen Jining Marks End of Tsinghua Clique": 1795634434.8547862,
+    "https://jamestown.org/hong-kongs-police-training-advances-beijings-global-reach": 1795634444.43325,
+    "https://jamestown.org/?p=887012": 1795634444.43325,
+    "title:Hong Kong’s Police Training Advances Beijing’s Global Reach": 1795634444.43325,
+    "https://www.youtube.com/watch": 1795634454.579291,
+    "yt:video:P2Lwge8-Qno": 1795634454.579291,
+    "title:82 more Lionfish Small unmanned underwater vehicles for US Navy !": 1795634454.579291,
+    "https://www.youtube.com/shorts/LNmHcTmg-yM": 1795634465.2059488,
+    "yt:video:LNmHcTmg-yM": 1795634465.2059488,
+    "title:The Deadliest Day In Naval Special Warfare History": 1795634465.2059488,
+    "https://www.youtube.com/shorts/fry41inv8ts": 1795634465.2060285,
+    "yt:video:fry41inv8ts": 1795634465.2060285,
+    "title:Air Force finally getting modern helmets for fixed-wing aviators.": 1795634465.2060285,
+    "https://www.youtube.com/shorts/LZGs4u0YllI": 1795634465.2061265,
+    "yt:video:LZGs4u0YllI": 1795634465.2061265,
+    "title:A Bird Drone Evaded Air Force Detection": 1795634465.2061265,
+    "https://www.youtube.com/shorts/_HRR2UikgVU": 1795634465.2062576,
+    "yt:video:_HRR2UikgVU": 1795634465.2062576,
+    "title:Marine artillery battalion trades in M777 for NMESIS anti-ship weapon #usmc #artillery #nmesis": 1795634465.2062576,
+    "https://www.youtube.com/shorts/qklE8rdlqxA": 1795634465.2062938,
+    "yt:video:qklE8rdlqxA": 1795634465.2062938,
+    "title:Army fires Typhon missile system in Europe for first time": 1795634465.2062938,
+    "https://www.twz.com/air/ship-killing-arrw-hypersonic-missile-variant-struggling-to-get-full-support-from-lawmakers": 1795634465.5599158,
+    "https://www.twz.com/?p=6610175": 1795634465.5599158,
+    "title:Ship-Killing ARRW Hypersonic Missile Variant Struggling To Get Full Support From Lawmakers": 1795634465.5599158
   },
   "events": [
     {
@@ -331,6 +349,22 @@
     {
       "key": "美國會戰爭權力",
       "timestamp": 1795633299.9970422
+    },
+    {
+      "key": "中共高層人事整肅",
+      "timestamp": 1795634436.4327967
+    },
+    {
+      "key": "香港警察學院擴展",
+      "timestamp": 1795634445.8284247
+    },
+    {
+      "key": "美軍採購獅子魚無人潛航器",
+      "timestamp": 1795634456.4783154
+    },
+    {
+      "key": "美軍AGM-183導彈預算受挫",
+      "timestamp": 1795634467.7395594
     }
   ]
 }
