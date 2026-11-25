@@ -1,14 +1,5 @@
 {
   "ids": {
-    "https://news.usni.org/2026/11/16/navy-weapons-division-to-make-tomahawk-components-in-2027": 1795372831.6611662,
-    "https://news.usni.org/?p=126625": 1795372831.6611662,
-    "title:Navy Weapons Division to Make Tomahawk Components in 2027": 1795372831.6611662,
-    "https://news.usni.org/2026/11/13/japan-pledges-drones-coastal-defense-radar-in-latest-philippine-defense-package": 1795372831.6613026,
-    "https://news.usni.org/?p=126562": 1795372831.6613026,
-    "title:Japan Pledges Drones, Coastal Defense Radar in Latest Philippine Defense Package": 1795372831.6613026,
-    "https://www.twz.com/news-features/impacts-of-latest-neptune-missile-strike-on-kerch-bridge-seen-in-satellite-imagery": 1795372836.2107286,
-    "https://www.twz.com/?p=6609076": 1795372836.2107286,
-    "title:Impacts Of Latest Neptune Missile Strike On Kerch Bridge Seen In Satellite Imagery": 1795372836.2107286,
     "https://www.defensenews.com/global/europe/2026/11/19/france-and-sweden-hold-first-joint-nuclear-deterrence-exercise": 1795374046.2842503,
     "https://one.sightlinemg.com/defensenews/?p=88143": 1795374046.2842503,
     "title:France and Sweden hold first joint nuclear-deterrence exercise": 1795374046.2842503,
@@ -231,7 +222,22 @@
     "title:Marine Corps Trials Portable 5G Network for Deployments": 1795630859.3598742,
     "https://news.usni.org/2026/11/25/opening-remarks-from-richard-breckenridge-to-be-the-navys-chief-acquisition-official": 1795630879.2876823,
     "https://news.usni.org/?p=126810": 1795630879.2876823,
-    "title:Opening Remarks from Richard Breckenridge to be the Navy’s Chief Acquisition Official": 1795630879.2876823
+    "title:Opening Remarks from Richard Breckenridge to be the Navy’s Chief Acquisition Official": 1795630879.2876823,
+    "https://www.cna.com.tw/news/ait/202611240062.aspx": 1795632030.4533625,
+    "CNA/2026-11-24/202611240062": 1795632030.4533625,
+    "title:黃仁勳重掌輝達 國安與晶片轉運等6大調查未歇": 1795632030.4533625,
+    "https://www.cna.com.tw/news/ait/202611240039.aspx": 1795632048.5328038,
+    "CNA/2026-11-24/202611240039": 1795632048.5328038,
+    "title:黃仁勳閃電回鍋輝達 凸顯對AI產業龐大掌控力": 1795632048.5328038,
+    "https://breakingdefense.com/2026/11/nato-sees-no-russian-naval-buildup-in-the-med-after-strike-near-libya-but-analysts-warn-of-wider-risks": 1795632098.853199,
+    "https://breakingdefense.com/?p=101915": 1795632098.853199,
+    "title:NATO sees no Russian naval buildup in the Med after strike near Libya, but analysts warn of wider risks": 1795632098.853199,
+    "https://breakingdefense.com/2026/11/air-force-issues-boeing-2-8-billion-for-more-kc-46s": 1795632118.5129719,
+    "https://breakingdefense.com/?p=101928": 1795632118.5129719,
+    "title:Air Force issues Boeing $2.8 billion for more KC-46s": 1795632118.5129719,
+    "https://breakingdefense.com/2026/11/the-us-is-racing-to-fix-its-missile-production-challenge-will-it-work-and-can-partners-help": 1795632122.7423732,
+    "https://breakingdefense.com/?p=101905": 1795632122.7423732,
+    "title:The US is racing to fix its missile production challenge. Will it work, and can partners help?": 1795632122.7423732
   },
   "events": [
     {
@@ -289,6 +295,22 @@
     {
       "key": "美海軍採購長提名聽證",
       "timestamp": 1795630881.3596156
+    },
+    {
+      "key": "輝達黃仁勳調查",
+      "timestamp": 1795632040.532416
+    },
+    {
+      "key": "輝達CEO人事風波",
+      "timestamp": 1795632090.1868095
+    },
+    {
+      "key": "烏軍遠程打擊利比亞",
+      "timestamp": 1795632110.5121055
+    },
+    {
+      "key": "美軍防空飛彈產能危機",
+      "timestamp": 1795632126.9804351
     }
   ]
 }
