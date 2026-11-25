@@ -1,8 +1,5 @@
 {
   "ids": {
-    "https://www.twz.com/sea/ukraines-campaign-against-russian-naval-assets-far-beyond-the-black-sea-enters-a-new-phase": 1795387234.9164472,
-    "https://www.twz.com/?p=6609886": 1795387234.9164472,
-    "title:Ukraine’s Campaign Against Russian Naval Assets Far Beyond The Black Sea Enters A New Phase": 1795387234.9164472,
     "https://www.lowyinstitute.org/the-interpreter/how-pacific-islands-are-right-sizing-chinese-policing": 1795388443.4075522,
     "title:How Pacific Islands are right-sizing Chinese policing": 1795388443.4075522,
     "https://jamestown.org/alice-huangs-shady-shanghai-ties-to-business-and-government": 1795388458.5191762,
@@ -1642,13 +1639,15 @@
     "title:Ukraine’s Crimean Bridge attack is a very personal humiliation for Putin": 1795645281.4344597,
     "https://www.atlanticcouncil.org/content-series/fastthinking/where-the-russia-ukraine-peace-talks-stand-after-abu-dhabi": 1795645281.435166,
     "https://www.atlanticcouncil.org/?p=959899": 1795645281.435166,
-    "title:Where the Russia-Ukraine peace talks stand after Abu Dhabi": 1795645281.435166
+    "title:Where the Russia-Ukraine peace talks stand after Abu Dhabi": 1795645281.435166,
+    "https://breakingdefense.com/2026/11/first-dark-eagle-hypersonic-battery-fully-fielded-lozano-says": 1795646452.9215946,
+    "https://breakingdefense.com/?p=101601": 1795646452.9215946,
+    "title:First Dark Eagle hypersonic battery ‘fully fielded,’ Lozano says": 1795646452.9215946,
+    "https://breakingdefense.com/2026/11/white-house-seeks-funding-exemptions-for-golden-dome-trump-battleship-in-next-funding-stopgap": 1795646468.3687706,
+    "https://breakingdefense.com/?p=101813": 1795646468.3687706,
+    "title:White House seeks funding exemptions for Golden Dome, Trump battleship in next funding stopgap": 1795646468.3687706
   },
   "events": [
-    {
-      "key": "烏軍跨黑海打擊俄艦",
-      "timestamp": 1795387237.1732101
-    },
     {
       "key": "太平洋警務安全博弈",
       "timestamp": 1795388447.8452024
@@ -1900,6 +1899,14 @@
     {
       "key": "五角大廈預算異常申請",
       "timestamp": 1795645273.201503
+    },
+    {
+      "key": "暗鷹高超音速部署",
+      "timestamp": 1795646460.3668485
+    },
+    {
+      "key": "美軍防務預算與戰艦豁免",
+      "timestamp": 1795646474.1437123
     }
   ]
 }
