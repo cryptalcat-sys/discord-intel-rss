@@ -1191,7 +1191,19 @@
     "title:Buried in Italy’s budget, officials see Rome meeting NATO spending target": 1795640537.4929478,
     "https://www.defensenews.com/pentagon/2026/11/24/ford-in-talks-with-the-pentagon-to-supply-military-vehicles": 1795640551.482224,
     "https://one.sightlinemg.com/defensenews/news/2026/11/24/ford-in-talks-with-the-pentagon-to-supply-military-vehicles/": 1795640551.482224,
-    "title:Ford in talks with the Pentagon to supply military vehicles": 1795640551.482224
+    "title:Ford in talks with the Pentagon to supply military vehicles": 1795640551.482224,
+    "https://news.usni.org/2026/11/25/marine-corps-sets-new-water-survival-requirements": 1795641637.0744226,
+    "https://news.usni.org/?p=126905": 1795641637.0744226,
+    "title:Marine Corps Sets New Water Survival Requirements": 1795641637.0744226,
+    "https://news.usni.org/2026/11/24/opening-remarks-from-william-toti-to-be-undersecretary-of-the-navy": 1795641652.1836245,
+    "https://news.usni.org/?p=126806": 1795641652.1836245,
+    "title:Opening Remarks from William Toti to be Undersecretary of the Navy": 1795641652.1836245,
+    "https://www.atlanticcouncil.org/dispatches/huang-is-back-at-nvidia-but-the-fight-over-who-controls-chip-exports-is-just-beginning": 1795641662.487884,
+    "https://www.atlanticcouncil.org/?p=963011": 1795641662.487884,
+    "title:Huang is back at Nvidia. But the fight over who controls chip exports is just beginning.": 1795641662.487884,
+    "https://www.atlanticcouncil.org/blogs/ukrainealert/president-and-congress-must-forge-a-common-us-strategy-on-ukraine": 1795641672.0343468,
+    "https://www.atlanticcouncil.org/?p=962960": 1795641672.0343468,
+    "title:The president and Congress must forge a common US strategy on Ukraine": 1795641672.0343468
   },
   "events": [
     {
@@ -1393,6 +1405,22 @@
     {
       "key": "福特軍車供應談判",
       "timestamp": 1795640558.2984428
+    },
+    {
+      "key": "美陸戰隊水域生存新規",
+      "timestamp": 1795641644.1822472
+    },
+    {
+      "key": "美海軍次長人事聽證會",
+      "timestamp": 1795641654.1720004
+    },
+    {
+      "key": "美中晶片出口管制",
+      "timestamp": 1795641664.033139
+    },
+    {
+      "key": "美國援烏兩黨戰略",
+      "timestamp": 1795641673.5625775
     }
   ]
 }
