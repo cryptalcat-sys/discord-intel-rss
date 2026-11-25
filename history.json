@@ -759,7 +759,49 @@
     "title:中共防範邪教官員高以忱退休仍遭查 受賄被判11年": 1795638056.622779,
     "https://www.cna.com.tw/news/acn/202611250290.aspx": 1795638071.9964068,
     "CNA/2026-11-25/202611250290": 1795638071.9964068,
-    "title:陸藉「逐玉」指禁限交流 陸委會：中共才是阻礙元凶": 1795638071.9964068
+    "title:陸藉「逐玉」指禁限交流 陸委會：中共才是阻礙元凶": 1795638071.9964068,
+    "https://www.youtube.com/shorts/pW2S-mMDLN4": 1795639066.5278647,
+    "yt:video:pW2S-mMDLN4": 1795639066.5278647,
+    "title:中科天璣建資料庫 精準分類台灣選民｜ 公共電視 - 尖鋒對話": 1795639066.5278647,
+    "https://www.youtube.com/shorts/4e-SaRyfi9E": 1795639066.5279355,
+    "yt:video:4e-SaRyfi9E": 1795639066.5279355,
+    "title:AI低成本量產 少數人操控多數民意｜ 公共電視 - 尖鋒對話": 1795639066.5279355,
+    "https://www.youtube.com/shorts/PSLAtGAkyII": 1795639066.528054,
+    "yt:video:PSLAtGAkyII": 1795639066.528054,
+    "title:俄刷存在感？ 軍機擾台.突兀搶合照｜ 公共電視 - 尖鋒對話": 1795639066.528054,
+    "https://www.youtube.com/shorts/5tZSUY3Gjwc": 1795639066.5281162,
+    "yt:video:5tZSUY3Gjwc": 1795639066.5281162,
+    "title:川習三會觸及台灣 後續觀察哪些指標？｜ 公共電視 - 尖鋒對話": 1795639066.5281162,
+    "https://www.youtube.com/shorts/mu10kQWIKAg": 1795639066.5283031,
+    "yt:video:mu10kQWIKAg": 1795639066.5283031,
+    "title:美軍三航母壓境中東 軍事威嚇以戰逼和｜ 公共電視 - 尖鋒對話": 1795639066.5283031,
+    "https://www.piie.com/blogs/realtime-economics/2026/why-china-needs-more-income-taxation": 1795639067.0700598,
+    "title:Why China needs more income taxation": 1795639067.0700598,
+    "https://www.piie.com/events/2026/upcoming-2027-french-election-cycle-and-political-discontent": 1795639067.070126,
+    "title:The upcoming 2027 French election cycle and political discontent": 1795639067.070126,
+    "https://www.piie.com/blogs/realtime-economics/2026/consumers-can-handle-stock-crash": 1795639067.0701888,
+    "title:Consumers Can Handle a Stock Crash": 1795639067.0701888,
+    "https://www.piie.com/events/2026/labor-markets-and-structural-transformation-times-change-ai-and-demographic-shifts": 1795639067.0702672,
+    "title:Labor markets and structural transformation in times of change: AI and demographic shifts": 1795639067.0702672,
+    "https://www.piie.com/events/2026/what-economic-vibes-say-about-reality-jason-furman-consumer-sentiment-recession": 1795639067.0703328,
+    "title:What economic vibes say about reality: Jason Furman on consumer sentiment, recession indicators, and more": 1795639067.0703328,
+    "https://www.piie.com/blogs/realtime-economics/2026/after-blue-tsunami-getting-rid-trumps-tariffs": 1795639067.070397,
+    "title:After the Blue Tsunami: Getting rid of Trump’s tariffs": 1795639067.070397,
+    "https://www.cna.com.tw/news/acn/202611250229.aspx": 1795639067.7065442,
+    "CNA/2026-11-25/202611250229": 1795639067.7065442,
+    "title:黃仁勳滿血回歸 北京喜憂參半": 1795639067.7065442,
+    "https://www.cna.com.tw/news/acn/202611250212.aspx": 1795639073.7743979,
+    "CNA/2026-11-25/202611250212": 1795639073.7743979,
+    "title:黃仁勳回歸效應僅一天 中國A股失守3500點": 1795639073.7743979,
+    "https://www.cna.com.tw/news/acn/202611250130.aspx": 1795639083.5763686,
+    "CNA/2026-11-25/202611250130": 1795639083.5763686,
+    "title:沈有忠：兩岸訊息透過短影音包裝 可能影響年輕人判斷": 1795639083.5763686,
+    "https://www.twz.com/land/lynx-kf41-fighting-vehicles-newly-arrived-in-ukraine-will-take-on-counter-drone-mission": 1795639093.7905283,
+    "https://www.twz.com/?p=6610579": 1795639093.7905283,
+    "title:Lynx KF41 Fighting Vehicles, Newly Arrived In Ukraine, Will Take On Counter-Drone Mission": 1795639093.7905283,
+    "https://www.twz.com/land/fireant-mini-uncrewed-ground-vehicles-deploy-drone-detection-sensors-in-u-s-army-test": 1795639112.3903902,
+    "https://www.twz.com/?p=6610321": 1795639112.3903902,
+    "title:FireAnt Mini Uncrewed Ground Vehicles Deploy Drone Detection Sensors In U.S. Army Test": 1795639112.3903902
   },
   "events": [
     {
@@ -913,6 +955,22 @@
     {
       "key": "陸委會反擊國台辦",
       "timestamp": 1795638078.7015324
+    },
+    {
+      "key": "中國股市震盪下跌",
+      "timestamp": 1795639075.575331
+    },
+    {
+      "key": "兩岸短影音認知戰",
+      "timestamp": 1795639085.2233927
+    },
+    {
+      "key": "德製獵豹反無人機",
+      "timestamp": 1795639104.3892484
+    },
+    {
+      "key": "美軍測試無人車部署偵測器",
+      "timestamp": 1795639114.296999
     }
   ]
 }
