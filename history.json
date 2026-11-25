@@ -1,13 +1,5 @@
 {
   "ids": {
-    "https://www.atlanticcouncil.org/inflection-points-with-frederick-kempe/us-soccer-president-cindy-parlow-cone-on-equal-pay-for-athletes-and-soccers-future-in-the-us": 1795371630.4323108,
-    "https://www.atlanticcouncil.org/?p=962078": 1795371630.4323108,
-    "title:US Soccer President Cindy Parlow Cone on equal pay for athletes and soccer’s future in the US": 1795371630.4323108,
-    "https://www.atlanticcouncil.org/dispatches/why-congress-and-the-european-parliament-need-an-ai-safety-dialogue": 1795371630.434453,
-    "https://www.atlanticcouncil.org/?p=960600": 1795371630.434453,
-    "title:Why Congress and the European Parliament need an AI safety dialogue": 1795371630.434453,
-    "https://www.piie.com/blogs/realtime-economics/2026/after-blue-tsunami-getting-rid-trumps-tariffs": 1795371633.7068174,
-    "title:After the Blue Tsunami: Getting rid of Trump’s tariffs": 1795371633.7068174,
     "https://news.usni.org/2026/11/16/navy-weapons-division-to-make-tomahawk-components-in-2027": 1795372831.6611662,
     "https://news.usni.org/?p=126625": 1795372831.6611662,
     "title:Navy Weapons Division to Make Tomahawk Components in 2027": 1795372831.6611662,
@@ -229,7 +221,17 @@
     "title:US Air Force buys final KC-46 lot under Boeing’s original tanker deal": 1795629967.4763944,
     "https://www.defensenews.com/global/asia-pacific/2026/11/25/japan-to-use-indian-ranges-for-long-range-missile-training-under-new-pact": 1795629984.6374373,
     "https://one.sightlinemg.com/defensenews/?p=88279": 1795629984.6374373,
-    "title:Japan to use Indian ranges for long-range missile training under new pact": 1795629984.6374373
+    "title:Japan to use Indian ranges for long-range missile training under new pact": 1795629984.6374373,
+    "https://www.lowyinstitute.org/the-interpreter/australia-s-conflict-prevention-choice-build-the-system-not-just-the-parts": 1795630830.4702928,
+    "title:Australia’s conflict prevention choice: build the system, not just the parts": 1795630830.4702928,
+    "https://www.lowyinstitute.org/the-interpreter/power-influence-and-the-australia-solomon-islands-treaty": 1795630844.6970608,
+    "title:Power, influence and the Australia–Solomon Islands treaty": 1795630844.6970608,
+    "https://news.usni.org/2026/11/25/marine-corps-trials-portable-5g-network-for-deployments": 1795630859.3598742,
+    "https://news.usni.org/?p=126889": 1795630859.3598742,
+    "title:Marine Corps Trials Portable 5G Network for Deployments": 1795630859.3598742,
+    "https://news.usni.org/2026/11/25/opening-remarks-from-richard-breckenridge-to-be-the-navys-chief-acquisition-official": 1795630879.2876823,
+    "https://news.usni.org/?p=126810": 1795630879.2876823,
+    "title:Opening Remarks from Richard Breckenridge to be the Navy’s Chief Acquisition Official": 1795630879.2876823
   },
   "events": [
     {
@@ -271,6 +273,22 @@
     {
       "key": "日印遠程彈藥演訓",
       "timestamp": 1795629991.3030176
+    },
+    {
+      "key": "澳洲防範衝突戰略",
+      "timestamp": 1795630836.696673
+    },
+    {
+      "key": "澳所安全條約",
+      "timestamp": 1795630851.014189
+    },
+    {
+      "key": "陸戰隊5G戰網測試",
+      "timestamp": 1795630871.2872891
+    },
+    {
+      "key": "美海軍採購長提名聽證",
+      "timestamp": 1795630881.3596156
     }
   ]
 }
