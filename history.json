@@ -1690,7 +1690,19 @@
     "title:How Europe Comes Apart": 1795687256.6377366,
     "https://www.youtube.com/shorts/bCmrgG8PmWE": 1795689634.7328672,
     "yt:video:bCmrgG8PmWE": 1795689634.7328672,
-    "title:Philippine Scholar Debunks China’s ‘Torture’ Claim | Taiwan Talks #shorts": 1795689634.7328672
+    "title:Philippine Scholar Debunks China’s ‘Torture’ Claim | Taiwan Talks #shorts": 1795689634.7328672,
+    "https://ecfr.eu/article/cop31-failed-but-the-green-transition-has-not": 1795692034.491766,
+    "https://ecfr.eu/article/cop31-failed-but-the-green-transition-has-not/": 1795692034.491766,
+    "title:COP31 failed, but the green transition has not": 1795692034.491766,
+    "https://www.cna.com.tw/news/acn/202611260235.aspx": 1795692036.5371435,
+    "CNA/2026-11-26/202611260235": 1795692036.5371435,
+    "title:中國「無聲」軍演欲引關注 共軍稱反對炒作": 1795692036.5371435,
+    "https://www.cna.com.tw/news/acn/202611260263.aspx": 1795692062.1045814,
+    "CNA/2026-11-26/202611260263": 1795692062.1045814,
+    "title:陸委會：台商赴中國投資比重降至1.1% 降幅驚人": 1795692062.1045814,
+    "https://www.cna.com.tw/news/acn/202611260228.aspx": 1795692071.4072556,
+    "CNA/2026-11-26/202611260228": 1795692071.4072556,
+    "title:地方選舉將至 梁文傑：中共對台網路侵擾每天達258萬次": 1795692071.4072556
   },
   "events": [
     {
@@ -1996,6 +2008,18 @@
     {
       "key": "歐盟內部政治危機",
       "timestamp": 1795687299.7835274
+    },
+    {
+      "key": "共軍無聲軍演",
+      "timestamp": 1795692049.7710662
+    },
+    {
+      "key": "台商赴陸投資驟降",
+      "timestamp": 1795692063.4068568
+    },
+    {
+      "key": "中共對台網路侵擾",
+      "timestamp": 1795692074.558055
     }
   ]
 }
