@@ -1684,7 +1684,10 @@
     "title:美擬加徵301關稅 中國商務部：嚴重破壞國際經濟秩序": 1795686058.5537252,
     "https://www.navalnews.com/naval-news/2026/11/lockheed-martin-weapons-suite-international-class-frigate": 1795686072.4505424,
     "https://www.navalnews.com/?p=93135": 1795686072.4505424,
-    "title:Lockheed Martin Unveils Weapons Suite for Gibbs & Cox’s International Class Frigate": 1795686072.4505424
+    "title:Lockheed Martin Unveils Weapons Suite for Gibbs & Cox’s International Class Frigate": 1795686072.4505424,
+    "https://www.foreignaffairs.com/europe/elections-how-europe-comes-apart-mujtaba-rahman": 1795687256.6377366,
+    "1135782": 1795687256.6377366,
+    "title:How Europe Comes Apart": 1795687256.6377366
   },
   "events": [
     {
@@ -1986,6 +1989,10 @@
     {
       "key": "洛克希德中程武器",
       "timestamp": 1795686112.4523363
+    },
+    {
+      "key": "歐盟內部政治危機",
+      "timestamp": 1795687299.7835274
     }
   ]
 }
