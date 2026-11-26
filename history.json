@@ -1,8 +1,5 @@
 {
   "ids": {
-    "https://www.cna.com.tw/news/ait/202611210071.aspx": 1795406453.8198612,
-    "CNA/2026-11-21/202611210071": 1795406453.8198612,
-    "title:NGINX釋重大安全更新 資安署籲儘速升級防範入侵": 1795406453.8198612,
     "https://www.cna.com.tw/news/acn/202611230108.aspx": 1795414829.8656108,
     "CNA/2026-11-23/202611230108": 1795414829.8656108,
     "title:沈有忠：中國利用APEC營造大國形象 錯誤宣傳兩岸敘事": 1795414829.8656108,
@@ -1641,7 +1638,22 @@
     "title:Australia’s next critical mineral step is metallisation": 1795662064.6785462,
     "https://www.cna.com.tw/news/ait/202611240071.aspx": 1795664438.739587,
     "CNA/2026-11-24/202611240071": 1795664438.739587,
-    "title:聯合國秘書長籲管控AI 一年內建風險管理機制": 1795664438.739587
+    "title:聯合國秘書長籲管控AI 一年內建風險管理機制": 1795664438.739587,
+    "https://www.cna.com.tw/news/acn/202611260066.aspx": 1795665644.0877545,
+    "CNA/2026-11-26/202611260066": 1795665644.0877545,
+    "title:中國快時尚希音Q3營收年減5.9% 歐洲收入承壓": 1795665644.0877545,
+    "https://www.lowyinstitute.org/the-interpreter/bluey-is-a-triumph-but-not-a-soft-power-strategy": 1795665662.4669874,
+    "title:Bluey is a triumph, but not a soft-power strategy": 1795665662.4669874,
+    "https://www.lowyinstitute.org/the-interpreter/coalition-s-climate-backsliding-sells-the-young-short": 1795665662.467216,
+    "title:Coalition’s climate backsliding sells the young short": 1795665662.467216,
+    "https://www.lowyinstitute.org/the-interpreter/press-play-russia-s-push-to-recruit-through-gaming": 1795665662.4673402,
+    "title:Press play: Russia’s push to recruit through gaming": 1795665662.4673402,
+    "https://www.atlanticcouncil.org/dispatches/putin-didnt-get-his-yalta-but-hes-happy-nonetheless": 1795665663.3924205,
+    "https://www.atlanticcouncil.org/?p=962202": 1795665663.3924205,
+    "title:Putin didn’t get his Yalta, but he’s happy nonetheless": 1795665663.3924205,
+    "https://thediplomat.com/2026/11/squad-nations-to-establish-coordination-hub-in-the-philippines-defense-chiefs-say": 1795665663.6504798,
+    "https://thediplomat.com/2026/11/squad-nations-to-establish-coordination-hub-in-the-philippines-defense-chiefs-say/": 1795665663.6504798,
+    "title:‘Squad’ Nations to Establish Coordination Hub in the Philippines, Defense Chiefs Say": 1795665663.6504798
   },
   "events": [
     {
@@ -1907,6 +1919,10 @@
     {
       "key": "澳洲索羅門安全協定",
       "timestamp": 1795653653.794136
+    },
+    {
+      "key": "希音歐洲營收下滑",
+      "timestamp": 1795665647.3692505
     }
   ]
 }
