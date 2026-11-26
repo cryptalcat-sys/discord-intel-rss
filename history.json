@@ -1760,7 +1760,10 @@
     "title:Governor Josh Shapiro on Trump, Iran, and the future of US foreign policy": 1795714828.4097621,
     "https://breakingdefense.com/2026/11/the-army-has-told-us-how-it-fights-we-cant-do-that-in-an-analog-tank": 1795714831.8360033,
     "https://breakingdefense.com/?p=101688": 1795714831.8360033,
-    "title:The Army has told us how it fights. We can’t do that in an analog tank.": 1795714831.8360033
+    "title:The Army has told us how it fights. We can’t do that in an analog tank.": 1795714831.8360033,
+    "https://news.usni.org/2026/11/26/taiwan-navy-receives-last-tuo-chiang-class-missile-corvettes": 1795717241.1164856,
+    "https://news.usni.org/?p=126909": 1795717241.1164856,
+    "title:Taiwan Navy Receives Last Tuo Chiang-class Missile Corvettes": 1795717241.1164856
   },
   "events": [
     {
@@ -2102,6 +2105,10 @@
     {
       "key": "中國伊朗戰爭定位",
       "timestamp": 1795708856.0565264
+    },
+    {
+      "key": "台海沱江級巡邏艦交付",
+      "timestamp": 1795717243.8497784
     }
   ]
 }
