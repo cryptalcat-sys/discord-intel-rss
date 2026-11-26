@@ -1,8 +1,5 @@
 {
   "ids": {
-    "https://www.twz.com/news-features/why-the-e-4b-doomsday-plane-always-shadows-air-force-one-when-the-president-travels-abroad": 1795394442.646918,
-    "https://www.twz.com/?p=6609243": 1795394442.646918,
-    "title:The Jet That Always Shadows Air Force One When The President Travels Abroad": 1795394442.646918,
     "https://www.cna.com.tw/news/aopl/202611210030.aspx": 1795395652.038715,
     "CNA/2026-11-21/202611210030": 1795395652.038715,
     "title:芬蘭創業盛會Slush「押注歐洲」 聚焦AI與硬體創新": 1795395652.038715,
@@ -1644,7 +1641,15 @@
     "title:Cockroach Janata Party: how India tried to delete its protesters’ app": 1795652436.2489643,
     "https://www.twz.com/air/russian-bombers-arrive-in-vietnam-after-flurry-of-northeast-asia-air-alerts": 1795652439.6836221,
     "https://www.twz.com/?p=6608460": 1795652439.6836221,
-    "title:Russian Tu-95 Bombers Arrive In Vietnam After Flurry Of Northeast Asia Air Alerts": 1795652439.6836221
+    "title:Russian Tu-95 Bombers Arrive In Vietnam After Flurry Of Northeast Asia Air Alerts": 1795652439.6836221,
+    "https://www.navalnews.com/naval-news/2026/11/indonesian-navy-ksr-x33-missile-usv": 1795653639.8148828,
+    "https://www.navalnews.com/?p=94102": 1795653639.8148828,
+    "title:Indonesian Navy Takes Delivery of 58-Knot Missile-Capable USV": 1795653639.8148828,
+    "https://thediplomat.com/2026/11/what-the-faaz-missile-means-for-pakistans-air-force": 1795653649.346216,
+    "https://thediplomat.com/2026/11/what-the-faaz-missile-means-for-pakistans-air-force/": 1795653649.346216,
+    "title:What the Fa’az Missile Means for Pakistan’s Air Force": 1795653649.346216,
+    "https://www.lowyinstitute.org/the-interpreter/what-will-china-learn-from-australia-solomon-islands-treaty": 1795653651.974282,
+    "title:What will China learn from Australia–Solomon Islands treaty?": 1795653651.974282
   },
   "events": [
     {
@@ -1906,6 +1911,14 @@
     {
       "key": "美陸軍戰役規劃",
       "timestamp": 1795647736.0678623
+    },
+    {
+      "key": "印尼海軍接收導彈無人艇",
+      "timestamp": 1795653641.2833807
+    },
+    {
+      "key": "澳洲索羅門安全協定",
+      "timestamp": 1795653653.794136
     }
   ]
 }
