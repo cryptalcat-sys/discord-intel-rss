@@ -1704,7 +1704,10 @@
     "CNA/2026-11-26/202611260228": 1795692071.4072556,
     "title:地方選舉將至 梁文傑：中共對台網路侵擾每天達258萬次": 1795692071.4072556,
     "https://www.piie.com/blogs/realtime-economics/2026/policy-driven-trade-imbalances-case-sovereign-wealth-funds": 1795701649.4142716,
-    "title:Policy driven trade imbalances: The case of sovereign wealth funds": 1795701649.4142716
+    "title:Policy driven trade imbalances: The case of sovereign wealth funds": 1795701649.4142716,
+    "https://www.navalnews.com/naval-news/2026/11/uk-mod-awards-babcock-record-8-7b-gateway-submarine-support-deal": 1795702837.99355,
+    "https://www.navalnews.com/?p=94139": 1795702837.99355,
+    "title:UK MOD Awards Babcock Record £8.7B ‘Gateway’ Submarine Support Deal": 1795702837.99355
   },
   "events": [
     {
@@ -2022,6 +2025,10 @@
     {
       "key": "中共對台網路侵擾",
       "timestamp": 1795692074.558055
+    },
+    {
+      "key": "英軍艦艇潛艦後勤合約",
+      "timestamp": 1795702844.6622648
     }
   ]
 }
