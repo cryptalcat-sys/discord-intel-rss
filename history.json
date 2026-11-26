@@ -1725,7 +1725,10 @@
     "title:前校長陳吉寧落馬 北京清大官網急刪資料": 1795705294.7112179,
     "https://www.atlanticcouncil.org/content-series/inflection-points/post-midterms-trump-remains-a-striker-always-on-offense": 1795706445.4711163,
     "https://www.atlanticcouncil.org/?p=963292": 1795706445.4711163,
-    "title:Post-midterms Trump remains a striker—always on offense": 1795706445.4711163
+    "title:Post-midterms Trump remains a striker—always on offense": 1795706445.4711163,
+    "https://www.navalnews.com/naval-news/2026/11/euronaval-2026-french-startup-arsenals-unveils-modular-auv": 1795707631.898141,
+    "https://www.navalnews.com/?p=94141": 1795707631.898141,
+    "title:French Startup Arsenals Unveils Modular AUV Designed for Rapid Production": 1795707631.898141
   },
   "events": [
     {
@@ -2059,6 +2062,10 @@
     {
       "key": "川普政府外交攻勢",
       "timestamp": 1795706447.1952107
+    },
+    {
+      "key": "法企模組化水下無人載具",
+      "timestamp": 1795707634.1828678
     }
   ]
 }
