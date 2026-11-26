@@ -1672,7 +1672,19 @@
     "title:The Game Is the Easy Part: Measuring Military Strategic Judgment": 1795683669.4967244,
     "https://www.youtube.com/shorts/cNYd_YsfpVM": 1795684836.2067058,
     "yt:video:cNYd_YsfpVM": 1795684836.2067058,
-    "title:Could China Strike Philippines During a Taiwan Conflict? | Taiwan Talks #shorts": 1795684836.2067058
+    "title:Could China Strike Philippines During a Taiwan Conflict? | Taiwan Talks #shorts": 1795684836.2067058,
+    "https://www.cna.com.tw/news/acn/202611260213.aspx": 1795686039.2567956,
+    "CNA/2026-11-26/202611260213": 1795686039.2567956,
+    "title:陳吉寧落馬 陸委會：不特別評論但保持高度關注": 1795686039.2567956,
+    "https://www.cna.com.tw/news/acn/202611260209.aspx": 1795686040.4914749,
+    "CNA/2026-11-26/202611260209": 1795686040.4914749,
+    "title:沈有忠：川習三會後 美中競爭格局無轉變且持續推進": 1795686040.4914749,
+    "https://www.cna.com.tw/news/acn/202611260197.aspx": 1795686058.5537252,
+    "CNA/2026-11-26/202611260197": 1795686058.5537252,
+    "title:美擬加徵301關稅 中國商務部：嚴重破壞國際經濟秩序": 1795686058.5537252,
+    "https://www.navalnews.com/naval-news/2026/11/lockheed-martin-weapons-suite-international-class-frigate": 1795686072.4505424,
+    "https://www.navalnews.com/?p=93135": 1795686072.4505424,
+    "title:Lockheed Martin Unveils Weapons Suite for Gibbs & Cox’s International Class Frigate": 1795686072.4505424
   },
   "events": [
     {
@@ -1962,6 +1974,18 @@
     {
       "key": "灰鯊無人潛航器量產",
       "timestamp": 1795683658.7983518
+    },
+    {
+      "key": "川習會後美中博弈",
+      "timestamp": 1795686050.5533445
+    },
+    {
+      "key": "美中301關稅博弈",
+      "timestamp": 1795686059.9225981
+    },
+    {
+      "key": "洛克希德中程武器",
+      "timestamp": 1795686112.4523363
     }
   ]
 }
