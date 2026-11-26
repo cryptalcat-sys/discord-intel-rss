@@ -1707,7 +1707,22 @@
     "title:Policy driven trade imbalances: The case of sovereign wealth funds": 1795701649.4142716,
     "https://www.navalnews.com/naval-news/2026/11/uk-mod-awards-babcock-record-8-7b-gateway-submarine-support-deal": 1795702837.99355,
     "https://www.navalnews.com/?p=94139": 1795702837.99355,
-    "title:UK MOD Awards Babcock Record £8.7B ‘Gateway’ Submarine Support Deal": 1795702837.99355
+    "title:UK MOD Awards Babcock Record £8.7B ‘Gateway’ Submarine Support Deal": 1795702837.99355,
+    "https://news.usni.org/2026/11/26/gao-on-how-the-defense-department-can-address-munitions-shortages": 1795705251.1611927,
+    "https://news.usni.org/?p=126801": 1795705251.1611927,
+    "title:GAO on How the Defense Department can Address Munitions Shortages": 1795705251.1611927,
+    "https://ecfr.eu/article/networked-nationalism-the-global-ambitions-of-spains-vox-party": 1795705269.1306918,
+    "https://ecfr.eu/article/networked-nationalism-the-global-ambitions-of-spains-vox-party/": 1795705269.1306918,
+    "title:Networked nationalism: The global ambitions of Spain’s Vox party": 1795705269.1306918,
+    "https://www.cna.com.tw/news/acn/202611260313.aspx": 1795705270.6715004,
+    "CNA/2026-11-26/202611260313": 1795705270.6715004,
+    "title:美301產能過剩關稅影響 中國實際稅率可能升至25%": 1795705270.6715004,
+    "https://www.cna.com.tw/news/acn/202611260307.aspx": 1795705272.0496306,
+    "CNA/2026-11-26/202611260307": 1795705272.0496306,
+    "title:中國前新聞廣電總局長蔡赴朝受賄 開除黨籍": 1795705272.0496306,
+    "https://www.cna.com.tw/news/acn/202611260306.aspx": 1795705294.7112179,
+    "CNA/2026-11-26/202611260306": 1795705294.7112179,
+    "title:前校長陳吉寧落馬 北京清大官網急刪資料": 1795705294.7112179
   },
   "events": [
     {
@@ -2029,6 +2044,14 @@
     {
       "key": "英軍艦艇潛艦後勤合約",
       "timestamp": 1795702844.6622648
+    },
+    {
+      "key": "美軍彈藥短缺防務規劃",
+      "timestamp": 1795705256.0673356
+    },
+    {
+      "key": "中國前高官落馬",
+      "timestamp": 1795705286.7108898
     }
   ]
 }
