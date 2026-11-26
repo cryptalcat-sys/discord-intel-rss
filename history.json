@@ -1657,7 +1657,19 @@
     "title:Australia talks tough on Sudan but won’t confront patrons in UAE": 1795682449.072113,
     "https://www.cna.com.tw/news/aopl/202611260186.aspx": 1795682451.769305,
     "CNA/2026-11-26/202611260186": 1795682451.769305,
-    "title:金融時報：輝達暫停對東南亞4國出貨 防堵中國取得AI算力": 1795682451.769305
+    "title:金融時報：輝達暫停對東南亞4國出貨 防堵中國取得AI算力": 1795682451.769305,
+    "https://www.foreignaffairs.com/iran/paradox-iranian-power-sadjadpour": 1795683650.950998,
+    "1135783": 1795683650.950998,
+    "title:The Paradox of Iranian Power": 1795683650.950998,
+    "https://www.navalnews.com/event-news/euronaval-2026/2026/11/euronaval-2026-euroatlas-evologics-greyshark-uuv-series-production": 1795683654.770088,
+    "https://www.navalnews.com/?p=93337": 1795683654.770088,
+    "title:Euronaval 2026: Euroatlas and EvoLogics Move Greyshark AUV into Series Production": 1795683654.770088,
+    "https://warontherocks.com/cogs-of-war/battlefield-power-is-running-short": 1795683669.496667,
+    "https://warontherocks.com/?p=48709": 1795683669.496667,
+    "title:Battlefield Power Is Running Short": 1795683669.496667,
+    "https://warontherocks.com/the-game-is-the-easy-part-measuring-military-strategic-judgment": 1795683669.4967244,
+    "https://warontherocks.com/?p=48759": 1795683669.4967244,
+    "title:The Game Is the Easy Part: Measuring Military Strategic Judgment": 1795683669.4967244
   },
   "events": [
     {
@@ -1943,6 +1955,10 @@
     {
       "key": "輝達暫停東南亞出貨",
       "timestamp": 1795682456.2620125
+    },
+    {
+      "key": "灰鯊無人潛航器量產",
+      "timestamp": 1795683658.7983518
     }
   ]
 }
