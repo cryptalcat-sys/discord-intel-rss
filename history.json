@@ -1,23 +1,5 @@
 {
   "ids": {
-    "https://www.cna.com.tw/news/acn/202611230040.aspx": 1795404040.0947504,
-    "CNA/2026-11-23/202611230040": 1795404040.0947504,
-    "title:傳北京正檢討香港主權轉移30年得失": 1795404040.0947504,
-    "https://www.lowyinstitute.org/the-interpreter/bluey-is-a-triumph-but-not-a-soft-power-strategy": 1795405232.093729,
-    "title:Bluey is a triumph, but not a soft-power strategy": 1795405232.093729,
-    "https://www.lowyinstitute.org/the-interpreter/coalition-s-climate-backsliding-sells-the-young-short": 1795405232.0942569,
-    "title:Coalition’s climate backsliding sells the young short": 1795405232.0942569,
-    "https://www.lowyinstitute.org/the-interpreter/press-play-russia-s-push-to-recruit-through-gaming": 1795405232.0945663,
-    "title:Press play: Russia’s push to recruit through gaming": 1795405232.0945663,
-    "https://thediplomat.com/2026/11/squad-nations-to-establish-coordination-hub-in-the-philippines-defense-chiefs-say": 1795405232.205369,
-    "https://thediplomat.com/2026/11/squad-nations-to-establish-coordination-hub-in-the-philippines-defense-chiefs-say/": 1795405232.205369,
-    "title:‘Squad’ Nations to Establish Coordination Hub in the Philippines, Defense Chiefs Say": 1795405232.205369,
-    "https://www.atlanticcouncil.org/dispatches/putin-didnt-get-his-yalta-but-hes-happy-nonetheless": 1795405233.7879047,
-    "https://www.atlanticcouncil.org/?p=962202": 1795405233.7879047,
-    "title:Putin didn’t get his Yalta, but he’s happy nonetheless": 1795405233.7879047,
-    "https://www.cna.com.tw/news/ait/202611180040.aspx": 1795405239.8609724,
-    "CNA/2026-11-18/202611180040": 1795405239.8609724,
-    "title:黃仁勳婚外情掀國安風暴 將首度赴美國會公開作證": 1795405239.8609724,
     "https://www.cna.com.tw/news/ait/202611210071.aspx": 1795406453.8198612,
     "CNA/2026-11-21/202611210071": 1795406453.8198612,
     "title:NGINX釋重大安全更新 資安署籲儘速升級防範入侵": 1795406453.8198612,
@@ -1656,13 +1638,12 @@
     "CNA/2026-11-21/202611210030": 1795656036.5817697,
     "title:芬蘭創業盛會Slush「押注歐洲」 聚焦AI與硬體創新": 1795656036.5817697,
     "https://www.lowyinstitute.org/the-interpreter/australia-s-next-critical-mineral-step-is-metallisation": 1795662064.6785462,
-    "title:Australia’s next critical mineral step is metallisation": 1795662064.6785462
+    "title:Australia’s next critical mineral step is metallisation": 1795662064.6785462,
+    "https://www.cna.com.tw/news/ait/202611240071.aspx": 1795664438.739587,
+    "CNA/2026-11-24/202611240071": 1795664438.739587,
+    "title:聯合國秘書長籲管控AI 一年內建風險管理機制": 1795664438.739587
   },
   "events": [
-    {
-      "key": "香港主權轉移檢討",
-      "timestamp": 1795404041.4470313
-    },
     {
       "key": "APEC兩岸敘事攻防",
       "timestamp": 1795414831.3218462
