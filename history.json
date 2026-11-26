@@ -1,16 +1,5 @@
 {
   "ids": {
-    "https://www.cna.com.tw/news/ait/202611180151.aspx": 1795416031.5990162,
-    "CNA/2026-11-18/202611180151": 1795416031.5990162,
-    "title:Anthropic啟動上市 將成檢驗全球AI投資熱潮關鍵指標": 1795416031.5990162,
-    "https://www.cna.com.tw/news/ait/202611180106.aspx": 1795416031.5991335,
-    "CNA/2026-11-18/202611180106": 1795416031.5991335,
-    "title:LINE電腦版強化語音報讀助視障溝通 網頁版2027年退場": 1795416031.5991335,
-    "https://www.lowyinstitute.org/the-interpreter/marape-reassures-beijing-after-png-s-pacts-with-the-west": 1795416034.4047797,
-    "title:Marape reassures Beijing after PNG’s pacts with the West": 1795416034.4047797,
-    "https://www.cna.com.tw/news/acn/202611210123.aspx": 1795420856.0027797,
-    "CNA/2026-11-21/202611210123": 1795420856.0027797,
-    "title:華為余承東「開車可以睡覺」言論惹議 隨後改口專心開車": 1795420856.0027797,
     "https://www.youtube.com/shorts/7y1bf46Ar-8": 1795422036.569885,
     "yt:video:7y1bf46Ar-8": 1795422036.569885,
     "title:柴油.尿素齊漲傷農 俄烏停火成三方會重點｜ 公共電視 - 尖鋒對話": 1795422036.569885,
@@ -1662,7 +1651,13 @@
     "title:Corporate Cyber Security": 1795669247.2169616,
     "https://www.cna.com.tw/news/acn/202611260126.aspx": 1795674032.3760605,
     "CNA/2026-11-26/202611260126": 1795674032.3760605,
-    "title:歐盟中國制裁企業「一換一」 艾司摩爾供應商有望解除管制": 1795674032.3760605
+    "title:歐盟中國制裁企業「一換一」 艾司摩爾供應商有望解除管制": 1795674032.3760605,
+    "https://www.youtube.com/shorts/iGmajLDcJeg": 1795680046.846137,
+    "yt:video:iGmajLDcJeg": 1795680046.846137,
+    "title:政黨認同感越強烈 越容易產生極化現象｜ 公共電視 - 尖鋒對話": 1795680046.846137,
+    "https://www.navalnews.com/naval-news/2026/11/french-navy-trains-with-philippine-coast-guard-ship-from-taiwan": 1795680049.7279992,
+    "https://www.navalnews.com/?p=93984": 1795680049.7279992,
+    "title:French Navy Trains with Philippine Coast Guard Ship from Taiwan": 1795680049.7279992
   },
   "events": [
     {
@@ -1932,6 +1927,10 @@
     {
       "key": "歐中企業制裁解除",
       "timestamp": 1795674034.137859
+    },
+    {
+      "key": "法菲蘇祿海聯合演訓",
+      "timestamp": 1795680052.173611
     }
   ]
 }
