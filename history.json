@@ -1644,7 +1644,20 @@
     "https://warontherocks.com/?p=48724": 1795681234.802553,
     "title:George Washington’s Thanksgiving Proclamation": 1795681234.802553,
     "https://www.lowyinstitute.org/the-interpreter/marape-reassures-beijing-after-png-s-pacts-with-the-west": 1795681250.9702532,
-    "title:Marape reassures Beijing after PNG’s pacts with the West": 1795681250.9702532
+    "title:Marape reassures Beijing after PNG’s pacts with the West": 1795681250.9702532,
+    "https://www.youtube.com/shorts/zPStr_-j_zs": 1795682433.1380038,
+    "yt:video:zPStr_-j_zs": 1795682433.1380038,
+    "title:走出藍綠同溫層 媒體還是溝通橋樑?｜ 公共電視 - 尖鋒對話": 1795682433.1380038,
+    "https://www.cna.com.tw/news/acn/202611260179.aspx": 1795682433.8498085,
+    "CNA/2026-11-26/202611260179": 1795682433.8498085,
+    "title:陳吉寧落馬 沈有忠：中共21大人事布局未明料仍有震動": 1795682433.8498085,
+    "https://www.lowyinstitute.org/the-interpreter/jensen-huang-s-affair-exposes-silicon-valley-s-national-security-power": 1795682449.0720487,
+    "title:Jensen Huang’s affair exposes Silicon Valley’s national security power": 1795682449.0720487,
+    "https://www.lowyinstitute.org/the-interpreter/australia-talks-tough-on-sudan-but-won-t-confront-patrons-in-uae": 1795682449.072113,
+    "title:Australia talks tough on Sudan but won’t confront patrons in UAE": 1795682449.072113,
+    "https://www.cna.com.tw/news/aopl/202611260186.aspx": 1795682451.769305,
+    "CNA/2026-11-26/202611260186": 1795682451.769305,
+    "title:金融時報：輝達暫停對東南亞4國出貨 防堵中國取得AI算力": 1795682451.769305
   },
   "events": [
     {
@@ -1922,6 +1935,14 @@
     {
       "key": "美國建國感恩節公告",
       "timestamp": 1795681236.5307713
+    },
+    {
+      "key": "中共二十大人事震動",
+      "timestamp": 1795682438.6763105
+    },
+    {
+      "key": "輝達暫停東南亞出貨",
+      "timestamp": 1795682456.2620125
     }
   ]
 }
