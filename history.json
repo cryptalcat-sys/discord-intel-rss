@@ -1,23 +1,5 @@
 {
   "ids": {
-    "https://www.youtube.com/shorts/7y1bf46Ar-8": 1795422036.569885,
-    "yt:video:7y1bf46Ar-8": 1795422036.569885,
-    "title:柴油.尿素齊漲傷農 俄烏停火成三方會重點｜ 公共電視 - 尖鋒對話": 1795422036.569885,
-    "https://www.lowyinstitute.org/the-interpreter/jensen-huang-s-affair-exposes-silicon-valley-s-national-security-power": 1795422036.9829817,
-    "title:Jensen Huang’s affair exposes Silicon Valley’s national security power": 1795422036.9829817,
-    "https://www.lowyinstitute.org/the-interpreter/australia-talks-tough-on-sudan-but-won-t-confront-patrons-in-uae": 1795422036.9830496,
-    "title:Australia talks tough on Sudan but won’t confront patrons in UAE": 1795422036.9830496,
-    "https://www.lowyinstitute.org/the-interpreter/new-zealand-s-foreign-policy-could-change-but-we-won-t-know-for-weeks": 1795422036.9834197,
-    "title:New Zealand’s foreign policy could change – but we won’t know for weeks": 1795422036.9834197,
-    "https://www.lowyinstitute.org/the-interpreter/owning-a-satellite-isn-t-the-same-as-owning-the-expertise-to-replace-it": 1795422036.9835508,
-    "title:Owning a satellite isn’t the same as owning the expertise to replace it": 1795422036.9835508,
-    "https://www.lowyinstitute.org/the-interpreter/indonesia-s-national-hero-titles-and-the-politics-of-unresolved-violence": 1795422036.9836671,
-    "title:Indonesia’s National Hero titles and the politics of unresolved violence": 1795422036.9836671,
-    "https://www.lowyinstitute.org/the-interpreter/cop31-rebuilding-the-loss-and-damage-fund-for-speed": 1795422036.9837265,
-    "title:COP31: Rebuilding the Loss and Damage Fund for speed": 1795422036.9837265,
-    "https://breakingdefense.com/2026/11/australia-receives-first-2-of-13-additional-seahawk-helicopters": 1795422037.078426,
-    "https://breakingdefense.com/?p=101451": 1795422037.078426,
-    "title:Australia receives first 2 of 13 additional Seahawk helicopters": 1795422037.078426,
     "https://www.foreignaffairs.com/united-states/democracy-global-anti-authoritarian-wave-illusion": 1795629935.858462,
     "1135780": 1795629935.858462,
     "title:The Global Antiauthoritarian Wave Is an Illusion": 1795629935.858462,
@@ -1657,7 +1639,12 @@
     "title:政黨認同感越強烈 越容易產生極化現象｜ 公共電視 - 尖鋒對話": 1795680046.846137,
     "https://www.navalnews.com/naval-news/2026/11/french-navy-trains-with-philippine-coast-guard-ship-from-taiwan": 1795680049.7279992,
     "https://www.navalnews.com/?p=93984": 1795680049.7279992,
-    "title:French Navy Trains with Philippine Coast Guard Ship from Taiwan": 1795680049.7279992
+    "title:French Navy Trains with Philippine Coast Guard Ship from Taiwan": 1795680049.7279992,
+    "https://warontherocks.com/george-washingtons-thanksgiving-proclamation-5": 1795681234.802553,
+    "https://warontherocks.com/?p=48724": 1795681234.802553,
+    "title:George Washington’s Thanksgiving Proclamation": 1795681234.802553,
+    "https://www.lowyinstitute.org/the-interpreter/marape-reassures-beijing-after-png-s-pacts-with-the-west": 1795681250.9702532,
+    "title:Marape reassures Beijing after PNG’s pacts with the West": 1795681250.9702532
   },
   "events": [
     {
@@ -1931,6 +1918,10 @@
     {
       "key": "法菲蘇祿海聯合演訓",
       "timestamp": 1795680052.173611
+    },
+    {
+      "key": "美國建國感恩節公告",
+      "timestamp": 1795681236.5307713
     }
   ]
 }
