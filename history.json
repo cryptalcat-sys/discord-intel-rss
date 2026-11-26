@@ -1722,7 +1722,10 @@
     "title:中國前新聞廣電總局長蔡赴朝受賄 開除黨籍": 1795705272.0496306,
     "https://www.cna.com.tw/news/acn/202611260306.aspx": 1795705294.7112179,
     "CNA/2026-11-26/202611260306": 1795705294.7112179,
-    "title:前校長陳吉寧落馬 北京清大官網急刪資料": 1795705294.7112179
+    "title:前校長陳吉寧落馬 北京清大官網急刪資料": 1795705294.7112179,
+    "https://www.atlanticcouncil.org/content-series/inflection-points/post-midterms-trump-remains-a-striker-always-on-offense": 1795706445.4711163,
+    "https://www.atlanticcouncil.org/?p=963292": 1795706445.4711163,
+    "title:Post-midterms Trump remains a striker—always on offense": 1795706445.4711163
   },
   "events": [
     {
@@ -2052,6 +2055,10 @@
     {
       "key": "中國前高官落馬",
       "timestamp": 1795705286.7108898
+    },
+    {
+      "key": "川普政府外交攻勢",
+      "timestamp": 1795706447.1952107
     }
   ]
 }
