@@ -1856,7 +1856,10 @@
     "title:過去24小時 中俄美歐罕見都進行太空發射": 1795791654.5026827,
     "https://www.atlanticcouncil.org/blogs/econographics/global-climate-governance-is-fragmenting-but-plurilateralism-can-keep-cooperation-alive": 1795791654.6708922,
     "https://www.atlanticcouncil.org/?p=962594": 1795791654.6708922,
-    "title:Global climate governance is fragmenting. But plurilateralism can keep cooperation alive.": 1795791654.6708922
+    "title:Global climate governance is fragmenting. But plurilateralism can keep cooperation alive.": 1795791654.6708922,
+    "https://news.usni.org/2026/11/27/80000-tons-of-liberte": 1795794039.5992815,
+    "https://news.usni.org/?p=126863": 1795794039.5992815,
+    "title:80,000 Tons of Liberté": 1795794039.5992815
   },
   "events": [
     {
@@ -2254,6 +2257,10 @@
     {
       "key": "駭客入侵美空軍雲端",
       "timestamp": 1795790435.9282436
+    },
+    {
+      "key": "法軍下一代核動力航艦",
+      "timestamp": 1795794041.2668076
     }
   ]
 }
