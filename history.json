@@ -1844,7 +1844,10 @@
     "title:福衛八號第2顆衛星完成運送前審查 預計12/28起運赴美": 1795784467.3041625,
     "https://www.defensenews.com/video/2026/11/27/a-race-for-lifesaving-battlefield-drones-defense-news-weekly-full-episode-11-24-26": 1795788055.970956,
     "https://one.sightlinemg.com/defensenews/?p=88169": 1795788055.970956,
-    "title:A race for lifesaving battlefield drones | Defense News Weekly Full Episode 11.24.26": 1795788055.970956
+    "title:A race for lifesaving battlefield drones | Defense News Weekly Full Episode 11.24.26": 1795788055.970956,
+    "https://news.usni.org/2026/11/27/usni-news-western-pacific-pulse-nov-27-2026": 1795789232.2966597,
+    "https://news.usni.org/?p=126850": 1795789232.2966597,
+    "title:USNI News Western Pacific Pulse: Nov. 27, 2026": 1795789232.2966597
   },
   "events": [
     {
@@ -2234,6 +2237,10 @@
     {
       "key": "戰場無人機醫療救援",
       "timestamp": 1795788057.7680116
+    },
+    {
+      "key": "美兩棲戒備群駛入印度洋",
+      "timestamp": 1795789233.9740584
     }
   ]
 }
