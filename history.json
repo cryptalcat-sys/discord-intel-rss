@@ -1789,7 +1789,9 @@
     "title:Australia needs Asia expertise to see how disasters become security crises": 1795741251.679828,
     "https://www.cna.com.tw/news/acn/202611270038.aspx": 1795749638.0247571,
     "CNA/2026-11-27/202611270038": 1795749638.0247571,
-    "title:陳吉寧落馬 分析：完全無徵兆應是高層臨時下決定": 1795749638.0247571
+    "title:陳吉寧落馬 分析：完全無徵兆應是高層臨時下決定": 1795749638.0247571,
+    "https://www.lowyinstitute.org/the-interpreter/aukus-is-there-a-dickie-williams-in-the-building": 1795751490.7211676,
+    "title:AUKUS: Is there a Dickie Williams in the building?": 1795751490.7211676
   },
   "events": [
     {
@@ -2139,6 +2141,10 @@
     {
       "key": "中共高層人事異動",
       "timestamp": 1795749639.5690358
+    },
+    {
+      "key": "AUKUS防衛政策審視",
+      "timestamp": 1795751495.6941843
     }
   ]
 }
