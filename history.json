@@ -1815,7 +1815,19 @@
     "title:The Contract Was the Easy Part: How Accelerator Day Put the Pentagon on the Clock": 1795770070.9803822,
     "https://www.foreignaffairs.com/china/china-preparing-end-detente-trump-yun-sun": 1795770071.693224,
     "1135784": 1795770071.693224,
-    "title:China Is Preparing for the End of Détente": 1795770071.693224
+    "title:China Is Preparing for the End of Détente": 1795770071.693224,
+    "https://www.navalnews.com/naval-news/2026/11/photos-apparent-stern-block-japans-second-asev": 1795772435.2175872,
+    "https://www.navalnews.com/?p=93987": 1795772435.2175872,
+    "title:Photos Show Apparent Stern Block of Japan’s Second ASEV": 1795772435.2175872,
+    "https://www.cna.com.tw/news/acn/202611270168.aspx": 1795772445.450525,
+    "CNA/2026-11-27/202611270168": 1795772445.450525,
+    "title:陳吉寧落馬 海基會：非尋常現象": 1795772445.450525,
+    "https://www.cna.com.tw/news/acn/202611270166.aspx": 1795772454.8014028,
+    "CNA/2026-11-27/202611270166": 1795772454.8014028,
+    "title:陸委會檢討推動「小三通」正常化 海基會：持續關注": 1795772454.8014028,
+    "https://www.defensenews.com/global/europe/2026/11/25/czech-jet-engine-maker-eyes-growing-role-as-us-supplier-in-drones-missiles": 1795772467.933034,
+    "https://one.sightlinemg.com/defensenews/?p=88245": 1795772467.933034,
+    "title:Czech jet engine maker eyes growing role as US supplier in drones, missiles": 1795772467.933034
   },
   "events": [
     {
@@ -2177,6 +2189,18 @@
     {
       "key": "黃岩島主權爭端",
       "timestamp": 1795768853.022839
+    },
+    {
+      "key": "日本第二艘神盾驅逐艦建造",
+      "timestamp": 1795772436.867023
+    },
+    {
+      "key": "上海市委書記陳吉寧落馬",
+      "timestamp": 1795772446.8010647
+    },
+    {
+      "key": "兩岸小三通正常化",
+      "timestamp": 1795772455.9456568
     }
   ]
 }
