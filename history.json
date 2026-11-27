@@ -1836,7 +1836,9 @@
     "title:海基會：台商返台投票是國民權利 籲中共勿干預民主": 1795773669.0429566,
     "https://www.defensenews.com/global/europe/2026/11/27/france-kicks-off-defense-industry-pact-to-build-up-counter-drone-efforts": 1795778439.554158,
     "https://one.sightlinemg.com/defensenews/?p=88320": 1795778439.554158,
-    "title:France kicks off defense-industry pact to build up counter-drone efforts": 1795778439.554158
+    "title:France kicks off defense-industry pact to build up counter-drone efforts": 1795778439.554158,
+    "https://www.defensenews.com/global/europe/2026/11/27/leonardo-rolls-out-first-m-346-jet-for-italys-air-force-stunt-flying-unit": 1795779635.166221,
+    "title:Leonardo rolls out first M-346 jet for Italy’s Air Force stunt flying unit": 1795779635.166221
   },
   "events": [
     {
@@ -2218,6 +2220,10 @@
     {
       "key": "法軍推動反無人機防務",
       "timestamp": 1795778441.2314744
+    },
+    {
+      "key": "義大利空軍M346教練機",
+      "timestamp": 1795779636.5684357
     }
   ]
 }
