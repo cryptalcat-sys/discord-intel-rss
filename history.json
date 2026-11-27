@@ -1786,7 +1786,10 @@
     "https://ecfr.eu/publication/cleaner-together-why-energy-cooperation-is-vital-for-a-fossil-free-europe/": 1795735244.917055,
     "title:Cleaner together: Why energy cooperation is vital for a fossil-free Europe": 1795735244.917055,
     "https://www.lowyinstitute.org/the-interpreter/australia-needs-asia-expertise-to-see-how-disasters-become-security-crises": 1795741251.679828,
-    "title:Australia needs Asia expertise to see how disasters become security crises": 1795741251.679828
+    "title:Australia needs Asia expertise to see how disasters become security crises": 1795741251.679828,
+    "https://www.cna.com.tw/news/acn/202611270038.aspx": 1795749638.0247571,
+    "CNA/2026-11-27/202611270038": 1795749638.0247571,
+    "title:陳吉寧落馬 分析：完全無徵兆應是高層臨時下決定": 1795749638.0247571
   },
   "events": [
     {
@@ -2132,6 +2135,10 @@
     {
       "key": "台海沱江級巡邏艦交付",
       "timestamp": 1795717243.8497784
+    },
+    {
+      "key": "中共高層人事異動",
+      "timestamp": 1795749639.5690358
     }
   ]
 }
