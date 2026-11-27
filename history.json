@@ -1884,7 +1884,13 @@
     "title:Delivery of first MV-75 for testing officially delayed amid funding setbacks: Army": 1795803636.9549248,
     "https://www.defensenews.com/global/europe/2026/11/25/estimates-of-russians-killed-in-ukraine-surpass-all-combined-us-war-deaths-since-wwi": 1795804841.2573335,
     "https://www.defensenews.com/news/2026/11/25/estimates-of-russians-killed-in-ukraine-surpass-all-combined-us-war-deaths-since-wwi/": 1795804841.2573335,
-    "title:Estimates of Russians killed in Ukraine surpass all combined US war deaths since WWI": 1795804841.2573335
+    "title:Estimates of Russians killed in Ukraine surpass all combined US war deaths since WWI": 1795804841.2573335,
+    "https://www.atlanticcouncil.org/content-series/fastthinking/why-trumps-newest-tariffs-are-made-to-stick": 1795806049.3321908,
+    "https://www.atlanticcouncil.org/?p=963151": 1795806049.3321908,
+    "title:Why Trump’s newest tariffs could stick": 1795806049.3321908,
+    "https://www.twz.com/land/europe-bets-big-on-cv90-armored-fighting-vehicle": 1795806058.6453085,
+    "https://www.twz.com/?p=6611085": 1795806058.6453085,
+    "title:Europe Bets Big On CV90 Armored Fighting Vehicle": 1795806058.6453085
   },
   "events": [
     {
@@ -2286,6 +2292,10 @@
     {
       "key": "法軍下一代核動力航艦",
       "timestamp": 1795794041.2668076
+    },
+    {
+      "key": "歐洲採購CV90裝甲車",
+      "timestamp": 1795806063.2220354
     }
   ]
 }
