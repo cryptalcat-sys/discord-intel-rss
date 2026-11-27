@@ -1847,7 +1847,10 @@
     "title:A race for lifesaving battlefield drones | Defense News Weekly Full Episode 11.24.26": 1795788055.970956,
     "https://news.usni.org/2026/11/27/usni-news-western-pacific-pulse-nov-27-2026": 1795789232.2966597,
     "https://news.usni.org/?p=126850": 1795789232.2966597,
-    "title:USNI News Western Pacific Pulse: Nov. 27, 2026": 1795789232.2966597
+    "title:USNI News Western Pacific Pulse: Nov. 27, 2026": 1795789232.2966597,
+    "https://www.defensenews.com/pentagon/2026/11/27/hackers-breach-us-air-force-flagship-cloud-one-computing-platform": 1795790434.5010357,
+    "https://one.sightlinemg.com/defensenews/news/2026/11/27/hackers-breach-us-air-force-flagship-cloud-one-computing-platform/": 1795790434.5010357,
+    "title:Hackers breach US Air Force flagship Cloud One computing platform": 1795790434.5010357
   },
   "events": [
     {
@@ -2241,6 +2244,10 @@
     {
       "key": "美兩棲戒備群駛入印度洋",
       "timestamp": 1795789233.9740584
+    },
+    {
+      "key": "駭客入侵美空軍雲端",
+      "timestamp": 1795790435.9282436
     }
   ]
 }
