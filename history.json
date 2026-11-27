@@ -1833,7 +1833,10 @@
     "title:Ex-Military Chief: China Tried To Recruit Philippine Officers as Spies | Taiwan Talks #shorts": 1795773668.0515335,
     "https://www.cna.com.tw/news/acn/202611270159.aspx": 1795773669.0429566,
     "CNA/2026-11-27/202611270159": 1795773669.0429566,
-    "title:海基會：台商返台投票是國民權利 籲中共勿干預民主": 1795773669.0429566
+    "title:海基會：台商返台投票是國民權利 籲中共勿干預民主": 1795773669.0429566,
+    "https://www.defensenews.com/global/europe/2026/11/27/france-kicks-off-defense-industry-pact-to-build-up-counter-drone-efforts": 1795778439.554158,
+    "https://one.sightlinemg.com/defensenews/?p=88320": 1795778439.554158,
+    "title:France kicks off defense-industry pact to build up counter-drone efforts": 1795778439.554158
   },
   "events": [
     {
@@ -2211,6 +2214,10 @@
     {
       "key": "台商返台投票干預",
       "timestamp": 1795773670.65127
+    },
+    {
+      "key": "法軍推動反無人機防務",
+      "timestamp": 1795778441.2314744
     }
   ]
 }
