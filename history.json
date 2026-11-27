@@ -1893,7 +1893,10 @@
     "title:Europe Bets Big On CV90 Armored Fighting Vehicle": 1795806058.6453085,
     "https://www.twz.com/air/final-kc-46-tankers-under-original-contract-with-boeing-ordered-by-usaf": 1795808437.5219505,
     "https://www.twz.com/?p=6610807": 1795808437.5219505,
-    "title:Final KC-46 Tankers Under Original Contract With Boeing Ordered By USAF": 1795808437.5219505
+    "title:Final KC-46 Tankers Under Original Contract With Boeing Ordered By USAF": 1795808437.5219505,
+    "https://breakingdefense.com/2026/11/bae-hagglunds-lands-record-6b-deal-for-400-cv90s-from-five-nato-nations": 1795809649.5317922,
+    "https://breakingdefense.com/?p=102001": 1795809649.5317922,
+    "title:BAE Hägglunds lands record $6B deal for 400+ CV90s from five NATO nations": 1795809649.5317922
   },
   "events": [
     {
@@ -2299,6 +2302,10 @@
     {
       "key": "歐洲採購CV90裝甲車",
       "timestamp": 1795806063.2220354
+    },
+    {
+      "key": "北約五國聯合採購CV90",
+      "timestamp": 1795809651.1549563
     }
   ]
 }
