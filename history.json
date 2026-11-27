@@ -1827,7 +1827,13 @@
     "title:陸委會檢討推動「小三通」正常化 海基會：持續關注": 1795772454.8014028,
     "https://www.defensenews.com/global/europe/2026/11/25/czech-jet-engine-maker-eyes-growing-role-as-us-supplier-in-drones-missiles": 1795772467.933034,
     "https://one.sightlinemg.com/defensenews/?p=88245": 1795772467.933034,
-    "title:Czech jet engine maker eyes growing role as US supplier in drones, missiles": 1795772467.933034
+    "title:Czech jet engine maker eyes growing role as US supplier in drones, missiles": 1795772467.933034,
+    "https://www.youtube.com/shorts/ChT_UoMs3aU": 1795773668.0515335,
+    "yt:video:ChT_UoMs3aU": 1795773668.0515335,
+    "title:Ex-Military Chief: China Tried To Recruit Philippine Officers as Spies | Taiwan Talks #shorts": 1795773668.0515335,
+    "https://www.cna.com.tw/news/acn/202611270159.aspx": 1795773669.0429566,
+    "CNA/2026-11-27/202611270159": 1795773669.0429566,
+    "title:海基會：台商返台投票是國民權利 籲中共勿干預民主": 1795773669.0429566
   },
   "events": [
     {
@@ -2201,6 +2207,10 @@
     {
       "key": "兩岸小三通正常化",
       "timestamp": 1795772455.9456568
+    },
+    {
+      "key": "台商返台投票干預",
+      "timestamp": 1795773670.65127
     }
   ]
 }
