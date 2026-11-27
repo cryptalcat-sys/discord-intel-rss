@@ -1794,7 +1794,10 @@
     "title:AUKUS: Is there a Dickie Williams in the building?": 1795751490.7211676,
     "https://www.cna.com.tw/news/acn/202611250134.aspx": 1795759258.3922,
     "CNA/2026-11-25/202611250134": 1795759258.3922,
-    "title:中國發射神舟24號 首次搭載外籍太空人一同出任務": 1795759258.3922
+    "title:中國發射神舟24號 首次搭載外籍太空人一同出任務": 1795759258.3922,
+    "https://www.navalnews.com/naval-news/2026/11/fincantieri-signs-contract-to-construct-the-3rd-lss-for-the-italian-navy": 1795762863.2356002,
+    "https://www.navalnews.com/?p=94159": 1795762863.2356002,
+    "title:Fincantieri signs contract to construct the 3rd LSS for the Italian Navy": 1795762863.2356002
   },
   "events": [
     {
@@ -2148,6 +2151,10 @@
     {
       "key": "AUKUS防衛政策審視",
       "timestamp": 1795751495.6941843
+    },
+    {
+      "key": "義國海軍建造第三艘補給艦",
+      "timestamp": 1795762864.5922105
     }
   ]
 }
