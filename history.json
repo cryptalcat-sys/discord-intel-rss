@@ -1917,7 +1917,10 @@
     "CNA/2026-11-26/202611260025": 1795826446.1979814,
     "title:張中白與穆特侯獲台法科技獎 造山研究拓展至天然氫探勘": 1795826446.1979814,
     "https://www.lowyinstitute.org/the-interpreter/icj-genocide-ruling-what-now-for-over-1-million-rohingya-survivors-in-exile": 1795834852.270938,
-    "title:ICJ genocide ruling: what now for over 1 million Rohingya survivors in exile?": 1795834852.270938
+    "title:ICJ genocide ruling: what now for over 1 million Rohingya survivors in exile?": 1795834852.270938,
+    "https://www.cna.com.tw/news/acn/202611280071.aspx": 1795849246.999846,
+    "CNA/2026-11-28/202611280071": 1795849246.999846,
+    "title:九合一選舉海外華人來台觀選 對民主自由及公民素質留深刻印象": 1795849246.999846
   },
   "events": [
     {
@@ -2331,6 +2334,10 @@
     {
       "key": "中東美軍F-35掛載隱形響尾蛇",
       "timestamp": 1795812042.3819253
+    },
+    {
+      "key": "海外華人來台觀選民主",
+      "timestamp": 1795849248.496337
     }
   ]
 }
