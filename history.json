@@ -1929,7 +1929,10 @@
     "title:Where Soldiers Enjoyed Thanksgiving": 1795855236.3355706,
     "https://www.youtube.com/shorts/o2cd9MYZNQA": 1795855237.14716,
     "yt:video:o2cd9MYZNQA": 1795855237.14716,
-    "title:公共利益.隱私保護 兩者兼顧難以拿捏｜ 公共電視 - 尖鋒對話": 1795855237.14716
+    "title:公共利益.隱私保護 兩者兼顧難以拿捏｜ 公共電視 - 尖鋒對話": 1795855237.14716,
+    "https://www.navalnews.com/naval-news/2026/11/stark-vanta-24-usv-baltic-undersea-security": 1795857637.6965878,
+    "https://www.navalnews.com/?p=93794": 1795857637.6965878,
+    "title:Stark Unveils Vanta 24 USV to Bolster Baltic Undersea Security": 1795857637.6965878
   },
   "events": [
     {
@@ -2347,6 +2350,10 @@
     {
       "key": "海外華人來台觀選民主",
       "timestamp": 1795849248.496337
+    },
+    {
+      "key": "波海無人艇水下防衛",
+      "timestamp": 1795857639.6225858
     }
   ]
 }
