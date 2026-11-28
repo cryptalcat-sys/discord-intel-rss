@@ -1938,7 +1938,13 @@
     "title:Why China Can’t Develop Advanced Chips Alone | Taiwan Talks #shorts": 1795861250.0139976,
     "https://www.youtube.com/shorts/vfrhK64hLcc": 1795861250.014053,
     "yt:video:vfrhK64hLcc": 1795861250.014053,
-    "title:Why Cutting China Off From AI Chips Is So Hard | Taiwan Talks #shorts": 1795861250.014053
+    "title:Why Cutting China Off From AI Chips Is So Hard | Taiwan Talks #shorts": 1795861250.014053,
+    "https://www.cna.com.tw/news/acn/202611280160.aspx": 1795873237.549111,
+    "CNA/2026-11-28/202611280160": 1795873237.549111,
+    "title:台灣九合一選舉討論 中國社群微博相關話題內容被限流或屏蔽": 1795873237.549111,
+    "https://www.cna.com.tw/news/acn/202611280159.aspx": 1795873247.0415285,
+    "CNA/2026-11-28/202611280159": 1795873247.0415285,
+    "title:九合一選舉結果陸續出爐 分析：對兩岸關係影響有限": 1795873247.0415285
   },
   "events": [
     {
@@ -2360,6 +2366,10 @@
     {
       "key": "波海無人艇水下防衛",
       "timestamp": 1795857639.6225858
+    },
+    {
+      "key": "台灣九合一選舉輿情",
+      "timestamp": 1795873239.0411744
     }
   ]
 }
